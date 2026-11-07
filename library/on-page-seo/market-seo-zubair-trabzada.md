@@ -11,7 +11,7 @@ raw_source: "https://raw.githubusercontent.com/zubair-trabzada/ai-marketing-clau
 ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
-stars: 2867
+stars: 2871
 collected: "2026-11-07"
 ---
 

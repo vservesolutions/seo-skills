@@ -1,8 +1,8 @@
 ---
 name: seo-on-page-seo
-description: "Titles, meta descriptions, heading structure, keyword placement, E-E-A-T signals and page-level content quality. Auto-generated from 8 findings across 5 sources."
+description: "Titles, meta descriptions, heading structure, keyword placement, E-E-A-T signals and page-level content quality. Auto-generated from 9 findings across 5 sources."
 last_updated: 2026-11-04
-findings: 8
+findings: 9
 sources: 5
 confidence: medium
 ---
@@ -36,6 +36,7 @@ Use when optimizing an existing page, rewriting titles and meta descriptions, fi
 - **Yoast AI Generate for image alt text: from flagged to fixed** — 2026-10-27 · Yoast SEO Blog — Yoast already shows you which product images are missing alt text. ([link](https://yoast.com/yoast-seo-oct-27-2026))
 - **commercial serps product features dominate** — 2026-09-24 · Moz (YouTube) — 📉 Tom Capper speaking at BrightonSEO Even when organic results manage to sit above the fold on commercial SERPs, they're barely squeezing in. ([link](https://www.youtube.com/shorts/OCi6rjiFKvI))
 - **Image SEO: Optimizing images for search engines** — 2026-09-12 · Yoast SEO Blog — Table of contents On optimizing your images Always use images Getting your images in AI search results Finding the right image Preparing images for use in your article Adding the image to your article XML image sitemaps Serving images via… ([link](https://yoast.com/image-seo))
+- **google's trust signals beyond links** — 2026-09-10 · Moz (YouTube) — Tom Capper in conversation with Gene Marks. ([link](https://www.youtube.com/shorts/Ei0q_6XuDe8))
 - **What are YMYL websites? How does Google evaluate these?** — 2026-08-04 · Yoast SEO Blog — The importance of YMYL Building user trust YMYL and the Google Quality Raters’ Guidelines Yoast SEO, E-E-A-T, YMYL and site policies Conclusion Google evaluates YMYL content with strict standards using E-E-A-T: Experience, Expertise… ([link](https://yoast.com/what-are-ymyl-websites))
 - **AI agents, Google updates & search trust signals | April 2026 SEO Update** — 2026-04-29 · Yoast (YouTube) — Is your site ready for Google’s expanding AI Mode, the rise of agentic AI, and evolving search trust signals? ([link](https://www.youtube.com/watch?v=bw0uBdmEK28))
 - **Using the Screaming Frog SEO Spider to Generate Markdown at Scale** — 2026-04-21 · Screaming Frog Blog — In this guide, we’ll walk through two methods for generating markdown of every page on a site during a crawl, and we’ll share a Python script that takes the SEO Spider’s xlsx export and turns it into individual .md files for use downstream. ([link](https://www.screamingfrog.co.uk/blog/generate-markdown-at-scale))
@@ -47,6 +48,7 @@ Use when optimizing an existing page, rewriting titles and meta descriptions, fi
 - [Yoast AI Generate for image alt text: from flagged to fixed](https://yoast.com/yoast-seo-oct-27-2026) — Yoast SEO Blog · 2026-10-27
 - [commercial serps product features dominate](https://www.youtube.com/shorts/OCi6rjiFKvI) — Moz (YouTube) · 2026-09-24
 - [Image SEO: Optimizing images for search engines](https://yoast.com/image-seo) — Yoast SEO Blog · 2026-09-12
+- [google's trust signals beyond links](https://www.youtube.com/shorts/Ei0q_6XuDe8) — Moz (YouTube) · 2026-09-10
 - [What are YMYL websites? How does Google evaluate these?](https://yoast.com/what-are-ymyl-websites) — Yoast SEO Blog · 2026-08-04
 - [AI agents, Google updates & search trust signals | April 2026 SEO Update](https://www.youtube.com/watch?v=bw0uBdmEK28) — Yoast (YouTube) · 2026-04-29
 - [Using the Screaming Frog SEO Spider to Generate Markdown at Scale](https://www.screamingfrog.co.uk/blog/generate-markdown-at-scale) — Screaming Frog Blog · 2026-04-21
@@ -55,5 +57,5 @@ Use when optimizing an existing page, rewriting titles and meta descriptions, fi
 
 - Regenerated on 2026-11-07 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2026-04-21 → 2026-11-04.
-- 8 findings from 5 sources; confidence is **medium**.
+- 9 findings from 5 sources; confidence is **medium**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

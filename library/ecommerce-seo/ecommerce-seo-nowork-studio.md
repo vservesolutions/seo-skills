@@ -11,7 +11,7 @@ raw_source: "https://raw.githubusercontent.com/nowork-studio/notfair-plugin/HEAD
 ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
-stars: 4116
+stars: 4118
 collected: "2026-11-07"
 ---
 

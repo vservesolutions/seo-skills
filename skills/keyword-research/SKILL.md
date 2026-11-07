@@ -1,9 +1,9 @@
 ---
 name: seo-keyword-research
-description: "Intent classification, demand sizing, keyword difficulty, entity and semantic coverage, keyword mapping. Auto-generated from 11 findings across 9 sources."
+description: "Intent classification, demand sizing, keyword difficulty, entity and semantic coverage, keyword mapping. Auto-generated from 12 findings across 10 sources."
 last_updated: 2026-11-06
-findings: 11
-sources: 9
+findings: 12
+sources: 10
 confidence: medium
 ---
 
@@ -36,6 +36,7 @@ Use when planning new pages, classifying intent, sizing demand, clustering keywo
 
 - **TikTok Search Ads Are Becoming Real Search Advertising** — 2026-11-06 · Search Engine Journal — A paid search manager has seen match type names, negative keyword lists and the search terms report before as part of Google Ads management. ([link](https://www.searchenginejournal.com/tiktok-search-ads-are-becoming-real-search-advertising/596016))
 - **The NEW Way to Do Keyword Research (3 Big Shifts)** — 2026-11-05 · Semrush (YouTube) — 👉 Find the keywords and search patterns your customers actually use with Semrush keyword research tools. ([link](https://www.youtube.com/watch?v=Hf8kmXq3rV8))
+- **Schema is not enough, you need to be strategic** — 2026-11-04 · Search Engine Journal (YouTube) — Structured data has always helped search engines understand your content, but in the age of AI search, simply adding schema to each page isn’t enough. ([link](https://www.youtube.com/shorts/t4HvnPXYOz8))
 - **AI for product marketing (7 actionable use cases)** — 2026-11-04 · Semrush Blog — Now that you’ve created your project and added your context files, you can start actually using AI for specific product marketing use cases. ([link](https://www.semrush.com/blog/ai-for-product-marketing))
 - **Which Types of Mentions Correlate the Strongest With AI Visibility? (260M AI Prompts Analyzed)** — 2026-11-03 · Ahrefs Blog — In our previous research, we analyzed different brand factors alongside AI visibility—including web mentions, anchors, search volume, number of referring domains and so on. ([link](https://ahrefs.com/blog/mention-types-ai-visibility))
 - **More than bling: How SEO can help your jewelry brand get found** — 2026-10-30 · Yoast SEO Blog — In this guide, we’ll explore why SEO matters for jewelry businesses, what people and AI models are searching for, and how to make your website shine in search. ([link](https://yoast.com/seo-tip-for-jewelers))
@@ -43,12 +44,12 @@ Use when planning new pages, classifying intent, sizing demand, clustering keywo
 - **Learn 80% of SEO in 14 Minutes** — 2026-09-23 · Ahrefs (YouTube) — Give me 14 minutes to learn SEO the smart way, and you will walk away with the 5 fundamentals that drive 80% of real results in Google and get cited by AI too. ([link](https://www.youtube.com/watch?v=EJj4CpzawPI))
 - **Keywords Were King. AI Search Has Changed That Game** — 2026-09-03 · Backlinko (YouTube) — Find keywords that actually lead to traffic, leads, and revenue with our FREE keyword tool: https://social.semrush.com/4qL27Zo Welcome to a new Backlinko series where Michael Ofei explores how search is changing in the AI era. ([link](https://www.youtube.com/watch?v=6wLmI-q-9lo))
 - **The Best PPC Decisions Start Before You Even Open Google Ads** — 2026-08-11 · Screaming Frog Blog — Organic search isn’t creating this customer understanding on its own. ([link](https://www.screamingfrog.co.uk/blog/seo-ppc-search-insights))
-- **Steal Your Next Content Idea From Reddit** — 2026-07-18 · Backlinko (YouTube) — Your keyword tool tells you what people searched last month. ([link](https://www.youtube.com/shorts/Fk7kt_oCoJ8))
 
 ## References
 
 - [TikTok Search Ads Are Becoming Real Search Advertising](https://www.searchenginejournal.com/tiktok-search-ads-are-becoming-real-search-advertising/596016) — Search Engine Journal · 2026-11-06
 - [The NEW Way to Do Keyword Research (3 Big Shifts)](https://www.youtube.com/watch?v=Hf8kmXq3rV8) — Semrush (YouTube) · 2026-11-05
+- [Schema is not enough, you need to be strategic](https://www.youtube.com/shorts/t4HvnPXYOz8) — Search Engine Journal (YouTube) · 2026-11-04
 - [AI for product marketing (7 actionable use cases)](https://www.semrush.com/blog/ai-for-product-marketing) — Semrush Blog · 2026-11-04
 - [Which Types of Mentions Correlate the Strongest With AI Visibility? (260M AI Prompts Analyzed)](https://ahrefs.com/blog/mention-types-ai-visibility) — Ahrefs Blog · 2026-11-03
 - [More than bling: How SEO can help your jewelry brand get found](https://yoast.com/seo-tip-for-jewelers) — Yoast SEO Blog · 2026-10-30
@@ -63,5 +64,5 @@ Use when planning new pages, classifying intent, sizing demand, clustering keywo
 
 - Regenerated on 2026-11-07 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2026-06-10 → 2026-11-06.
-- 11 findings from 9 sources; confidence is **medium**.
+- 12 findings from 10 sources; confidence is **medium**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

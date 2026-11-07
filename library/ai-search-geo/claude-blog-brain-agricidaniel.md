@@ -11,7 +11,7 @@ raw_source: "https://raw.githubusercontent.com/AgriciDaniel/claude-blog/HEAD/bra
 ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
-stars: 2668
+stars: 2669
 collected: "2026-11-07"
 ---
 

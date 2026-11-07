@@ -1,9 +1,9 @@
 ---
 name: seo-structured-data
-description: "Schema.org markup, JSON-LD implementation, rich result eligibility, validation and deprecated markup. Auto-generated from 8 findings across 4 sources."
+description: "Schema.org markup, JSON-LD implementation, rich result eligibility, validation and deprecated markup. Auto-generated from 9 findings across 5 sources."
 last_updated: 2026-11-04
-findings: 8
-sources: 4
+findings: 9
+sources: 5
 confidence: medium
 ---
 
@@ -34,6 +34,7 @@ Use when adding or debugging schema.org markup, chasing rich result eligibility,
 
 ## Recent developments
 
+- **Schema is not enough, you need to be strategic** — 2026-11-04 · Search Engine Journal (YouTube) — Structured data has always helped search engines understand your content, but in the age of AI search, simply adding schema to each page isn’t enough. ([link](https://www.youtube.com/shorts/t4HvnPXYOz8))
 - **How to optimize for ChatGPT shopping** — 2026-11-04 · Semrush Blog — OpenAI launched it in 2025 , announcing that ChatGPT would retrieve products from across the web and recommend them based on third-party structured metadata like pricing and reviews. ([link](https://www.semrush.com/blog/optimize-for-chatgpt-shopping))
 - **Possibly the Easiest Guide to Schema Markup Ever** — 2026-11-03 · Semrush (YouTube) — 👉 Find invalid schema markup across your whole site using Semrush Site Audit. ([link](https://www.youtube.com/watch?v=dbyOL9Iy9lg))
 - **Image SEO: How to optimize alt and title text** — 2026-10-27 · Yoast SEO Blog — Adding alt text improves accessibility and SEO, as it helps screen readers and search engines understand images. ([link](https://yoast.com/image-seo-alt-tag-and-title-tag-optimization))
@@ -45,6 +46,7 @@ Use when adding or debugging schema.org markup, chasing rich result eligibility,
 
 ## References
 
+- [Schema is not enough, you need to be strategic](https://www.youtube.com/shorts/t4HvnPXYOz8) — Search Engine Journal (YouTube) · 2026-11-04
 - [How to optimize for ChatGPT shopping](https://www.semrush.com/blog/optimize-for-chatgpt-shopping) — Semrush Blog · 2026-11-04
 - [Possibly the Easiest Guide to Schema Markup Ever](https://www.youtube.com/watch?v=dbyOL9Iy9lg) — Semrush (YouTube) · 2026-11-03
 - [Image SEO: How to optimize alt and title text](https://yoast.com/image-seo-alt-tag-and-title-tag-optimization) — Yoast SEO Blog · 2026-10-27
@@ -58,5 +60,5 @@ Use when adding or debugging schema.org markup, chasing rich result eligibility,
 
 - Regenerated on 2026-11-07 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2024-05-15 → 2026-11-04.
-- 8 findings from 4 sources; confidence is **medium**.
+- 9 findings from 5 sources; confidence is **medium**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

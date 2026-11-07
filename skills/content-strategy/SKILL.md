@@ -1,9 +1,9 @@
 ---
 name: seo-content-strategy
-description: "Content clusters, editorial planning, content audits and refreshes, decay, and building topical depth. Auto-generated from 5 findings across 4 sources."
+description: "Content clusters, editorial planning, content audits and refreshes, decay, and building topical depth. Auto-generated from 6 findings across 5 sources."
 last_updated: 2026-10-20
-findings: 5
-sources: 4
+findings: 6
+sources: 5
 confidence: medium
 ---
 
@@ -27,6 +27,7 @@ Use when building a content plan, deciding what to refresh or prune, mapping clu
 
 - **3 Claude Use Cases That Automated 80% of Our SEO Work** — 2026-10-20 · SE Ranking (YouTube) — Most teams use Claude for SEO like a chatbot. ([link](https://www.youtube.com/watch?v=OkNIfrmsJxI))
 - **Put Your SEO on Autopilot with Claude + Semrush** — 2026-10-15 · Semrush (YouTube) — 👉 Get more free ready-to-use prompts for Semrush MCP and run SEO research right inside Claude or ChatGPT: https://social.semrush.com/4zjcXsC Every SEO is under pressure to work faster, do more, and fit AI into everything they're doing. ([link](https://www.youtube.com/watch?v=Qv_KuVqTZ94))
+- **Every Blog Post Should Point HERE (Most Sites Get This Wrong)** — 2026-10-09 · Surfer Academy (YouTube) — Your ultimate goal as an organic search marketer is to build topic clusters around each subject you want to own — and every cluster should feed one money page. ([link](https://www.youtube.com/shorts/XYFMcIHOxCk))
 - **The #1 Skill That Separates Expert SEOs from Everyone Else** — 2026-08-19 · Backlinko (YouTube) — How to prioritize 700 audit issues by impact, effort, and owner so you fix the right things first. 🧰 Run your own site audit with Semrush: https://www.semrush.com/lp/product-free-trial/en/ SEO triage is the skill of sequencing audit… ([link](https://www.youtube.com/watch?v=LHbrgHihtkc))
 - **How to Build a Content Strategy in 3 Steps (From Scratch)** — 2026-07-16 · Backlinko (YouTube) — Most content strategy frameworks fail before they start, because brands pick the channel before they figure out what they actually believe. *Generate schema markup that helps your pages stand out* ❇️ https://social.semrush.com/4xI2DK8 Most… ([link](https://www.youtube.com/watch?v=CtemKpd0nVc))
 - **New AI Visibility Insights in Bing Webmaster Tools: Intents, Topics, Citation Share, Compare** — 2026-06-16 · Bing Webmaster Blog — Earlier this year, we introduced the AI Performance Report in Bing Webmaster Tools , giving publishers and site owners new visibility into how their content appears in AI-generated answers across Microsoft Copilot, Bing, and select partner… ([link](https://blogs.bing.com/search/2026/6/New-AI-Visibility-Insights-in-Bing-Webmaster-Tools-Intents-Topics-Citation-Share-Compare))
@@ -35,6 +36,7 @@ Use when building a content plan, deciding what to refresh or prune, mapping clu
 
 - [3 Claude Use Cases That Automated 80% of Our SEO Work](https://www.youtube.com/watch?v=OkNIfrmsJxI) — SE Ranking (YouTube) · 2026-10-20
 - [Put Your SEO on Autopilot with Claude + Semrush](https://www.youtube.com/watch?v=Qv_KuVqTZ94) — Semrush (YouTube) · 2026-10-15
+- [Every Blog Post Should Point HERE (Most Sites Get This Wrong)](https://www.youtube.com/shorts/XYFMcIHOxCk) — Surfer Academy (YouTube) · 2026-10-09
 - [The #1 Skill That Separates Expert SEOs from Everyone Else](https://www.youtube.com/watch?v=LHbrgHihtkc) — Backlinko (YouTube) · 2026-08-19
 - [How to Build a Content Strategy in 3 Steps (From Scratch)](https://www.youtube.com/watch?v=CtemKpd0nVc) — Backlinko (YouTube) · 2026-07-16
 - [New AI Visibility Insights in Bing Webmaster Tools: Intents, Topics, Citation Share, Compare](https://blogs.bing.com/search/2026/6/New-AI-Visibility-Insights-in-Bing-Webmaster-Tools-Intents-Topics-Citation-Share-Compare) — Bing Webmaster Blog · 2026-06-16
@@ -43,5 +45,5 @@ Use when building a content plan, deciding what to refresh or prune, mapping clu
 
 - Regenerated on 2026-11-07 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2026-06-16 → 2026-10-20.
-- 5 findings from 4 sources; confidence is **medium**.
+- 6 findings from 5 sources; confidence is **medium**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.
