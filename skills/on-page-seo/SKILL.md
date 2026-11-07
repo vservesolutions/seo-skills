@@ -1,9 +1,9 @@
 ---
 name: seo-on-page-seo
-description: "Titles, meta descriptions, heading structure, keyword placement, E-E-A-T signals and page-level content quality. Auto-generated from 7 findings across 4 sources."
+description: "Titles, meta descriptions, heading structure, keyword placement, E-E-A-T signals and page-level content quality. Auto-generated from 8 findings across 5 sources."
 last_updated: 2026-11-04
-findings: 7
-sources: 4
+findings: 8
+sources: 5
 confidence: medium
 ---
 
@@ -27,6 +27,7 @@ Use when optimizing an existing page, rewriting titles and meta descriptions, fi
 8. Publish high-quality, trustworthy content, and you’ll establish yourself as an authoritative source in your field. — *Yoast SEO Blog, 2026-08-04*
 9. Yoast AI Generate for image alt text is new in Yoast WooCommerce SEO 17.0, out today alongside Yoast SEO and Yoast SEO Premium 28.8. — *Yoast SEO Blog, 2026-10-27*
 10. Yoast AI image alt text is included in Yoast WooCommerce SEO at no extra cost, and so in Yoast SEO AI+ , which includes it. — *Yoast SEO Blog, 2026-10-27*
+11. Join Alex Moss and Carolyn Shelby for the April 2026 SEO Update by Yoast, where they discuss Google’s latest search changes, the March 2026 core and spam update rollout, and what these developments mean for the future of search. — *Yoast (YouTube), 2026-04-29*
 
 ## Recent developments
 
@@ -36,6 +37,7 @@ Use when optimizing an existing page, rewriting titles and meta descriptions, fi
 - **commercial serps product features dominate** — 2026-09-24 · Moz (YouTube) — 📉 Tom Capper speaking at BrightonSEO Even when organic results manage to sit above the fold on commercial SERPs, they're barely squeezing in. ([link](https://www.youtube.com/shorts/OCi6rjiFKvI))
 - **Image SEO: Optimizing images for search engines** — 2026-09-12 · Yoast SEO Blog — Table of contents On optimizing your images Always use images Getting your images in AI search results Finding the right image Preparing images for use in your article Adding the image to your article XML image sitemaps Serving images via… ([link](https://yoast.com/image-seo))
 - **What are YMYL websites? How does Google evaluate these?** — 2026-08-04 · Yoast SEO Blog — The importance of YMYL Building user trust YMYL and the Google Quality Raters’ Guidelines Yoast SEO, E-E-A-T, YMYL and site policies Conclusion Google evaluates YMYL content with strict standards using E-E-A-T: Experience, Expertise… ([link](https://yoast.com/what-are-ymyl-websites))
+- **AI agents, Google updates & search trust signals | April 2026 SEO Update** — 2026-04-29 · Yoast (YouTube) — Is your site ready for Google’s expanding AI Mode, the rise of agentic AI, and evolving search trust signals? ([link](https://www.youtube.com/watch?v=bw0uBdmEK28))
 - **Using the Screaming Frog SEO Spider to Generate Markdown at Scale** — 2026-04-21 · Screaming Frog Blog — In this guide, we’ll walk through two methods for generating markdown of every page on a site during a crawl, and we’ll share a Python script that takes the SEO Spider’s xlsx export and turns it into individual .md files for use downstream. ([link](https://www.screamingfrog.co.uk/blog/generate-markdown-at-scale))
 
 ## References
@@ -46,11 +48,12 @@ Use when optimizing an existing page, rewriting titles and meta descriptions, fi
 - [commercial serps product features dominate](https://www.youtube.com/shorts/OCi6rjiFKvI) — Moz (YouTube) · 2026-09-24
 - [Image SEO: Optimizing images for search engines](https://yoast.com/image-seo) — Yoast SEO Blog · 2026-09-12
 - [What are YMYL websites? How does Google evaluate these?](https://yoast.com/what-are-ymyl-websites) — Yoast SEO Blog · 2026-08-04
+- [AI agents, Google updates & search trust signals | April 2026 SEO Update](https://www.youtube.com/watch?v=bw0uBdmEK28) — Yoast (YouTube) · 2026-04-29
 - [Using the Screaming Frog SEO Spider to Generate Markdown at Scale](https://www.screamingfrog.co.uk/blog/generate-markdown-at-scale) — Screaming Frog Blog · 2026-04-21
 
 ## How this skill stays current
 
 - Regenerated on 2026-11-07 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2026-04-21 → 2026-11-04.
-- 7 findings from 4 sources; confidence is **medium**.
+- 8 findings from 5 sources; confidence is **medium**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

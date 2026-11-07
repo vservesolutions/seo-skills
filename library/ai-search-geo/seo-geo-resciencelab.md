@@ -11,7 +11,7 @@ raw_source: "https://raw.githubusercontent.com/ReScienceLab/opc-skills/HEAD/.age
 ref: "HEAD"
 discovered_via: "github-search"
 license: "Apache-2.0"
-stars: 1895
+stars: 1893
 collected: "2026-11-07"
 ---
 

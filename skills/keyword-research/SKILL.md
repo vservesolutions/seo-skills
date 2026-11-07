@@ -1,8 +1,8 @@
 ---
 name: seo-keyword-research
-description: "Intent classification, demand sizing, keyword difficulty, entity and semantic coverage, keyword mapping. Auto-generated from 10 findings across 9 sources."
+description: "Intent classification, demand sizing, keyword difficulty, entity and semantic coverage, keyword mapping. Auto-generated from 11 findings across 9 sources."
 last_updated: 2026-11-06
-findings: 10
+findings: 11
 sources: 9
 confidence: medium
 ---
@@ -43,7 +43,7 @@ Use when planning new pages, classifying intent, sizing demand, clustering keywo
 - **Learn 80% of SEO in 14 Minutes** — 2026-09-23 · Ahrefs (YouTube) — Give me 14 minutes to learn SEO the smart way, and you will walk away with the 5 fundamentals that drive 80% of real results in Google and get cited by AI too. ([link](https://www.youtube.com/watch?v=EJj4CpzawPI))
 - **Keywords Were King. AI Search Has Changed That Game** — 2026-09-03 · Backlinko (YouTube) — Find keywords that actually lead to traffic, leads, and revenue with our FREE keyword tool: https://social.semrush.com/4qL27Zo Welcome to a new Backlinko series where Michael Ofei explores how search is changing in the AI era. ([link](https://www.youtube.com/watch?v=6wLmI-q-9lo))
 - **The Best PPC Decisions Start Before You Even Open Google Ads** — 2026-08-11 · Screaming Frog Blog — Organic search isn’t creating this customer understanding on its own. ([link](https://www.screamingfrog.co.uk/blog/seo-ppc-search-insights))
-- **Query Fan-Out: What It Is and How It Affects AI Visibility** — 2026-06-10 · Backlinko — In this guide, I’ll teach you how to optimize your content strategy for query fan-out to help increase your AI visibility. ([link](https://backlinko.com/query-fan-out))
+- **Steal Your Next Content Idea From Reddit** — 2026-07-18 · Backlinko (YouTube) — Your keyword tool tells you what people searched last month. ([link](https://www.youtube.com/shorts/Fk7kt_oCoJ8))
 
 ## References
 
@@ -56,11 +56,12 @@ Use when planning new pages, classifying intent, sizing demand, clustering keywo
 - [Learn 80% of SEO in 14 Minutes](https://www.youtube.com/watch?v=EJj4CpzawPI) — Ahrefs (YouTube) · 2026-09-23
 - [Keywords Were King. AI Search Has Changed That Game](https://www.youtube.com/watch?v=6wLmI-q-9lo) — Backlinko (YouTube) · 2026-09-03
 - [The Best PPC Decisions Start Before You Even Open Google Ads](https://www.screamingfrog.co.uk/blog/seo-ppc-search-insights) — Screaming Frog Blog · 2026-08-11
+- [Steal Your Next Content Idea From Reddit](https://www.youtube.com/shorts/Fk7kt_oCoJ8) — Backlinko (YouTube) · 2026-07-18
 - [Query Fan-Out: What It Is and How It Affects AI Visibility](https://backlinko.com/query-fan-out) — Backlinko · 2026-06-10
 
 ## How this skill stays current
 
 - Regenerated on 2026-11-07 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2026-06-10 → 2026-11-06.
-- 10 findings from 9 sources; confidence is **medium**.
+- 11 findings from 9 sources; confidence is **medium**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

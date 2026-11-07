@@ -1,9 +1,9 @@
 ---
 name: seo-analytics-measurement
-description: "Search Console and GA4 measurement, rank tracking, dashboards, forecasting and KPI definitions. Auto-generated from 32 findings across 10 sources."
+description: "Search Console and GA4 measurement, rank tracking, dashboards, forecasting and KPI definitions. Auto-generated from 33 findings across 11 sources."
 last_updated: 2026-11-07
-findings: 32
-sources: 10
+findings: 33
+sources: 11
 confidence: high
 ---
 
@@ -70,5 +70,5 @@ Use when building reports, explaining traffic changes, defining SEO KPIs, or ins
 
 - Regenerated on 2026-11-07 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2024-03-13 → 2026-11-07.
-- 32 findings from 10 sources; confidence is **high**.
+- 33 findings from 11 sources; confidence is **high**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T16:27:22.298Z",
+  "generatedAt": "2026-11-07T16:29:14.919Z",
   "counts": {
     "skills": 182,
     "packs": 38,
@@ -1751,7 +1751,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 1292,
+      "stars": 1295,
       "repoUpdatedAt": "2026-11-06",
       "hasContent": true,
       "file": "library/content-strategy/make-content-content-brief-gooseworks-ai.md"
@@ -3753,8 +3753,8 @@
       "platforms": [
         "unspecified"
       ],
-      "stars": 1895,
-      "repoUpdatedAt": "2026-11-06",
+      "stars": 1893,
+      "repoUpdatedAt": "2026-11-07",
       "hasContent": true,
       "file": "library/ai-search-geo/seo-geo-resciencelab.md"
     },

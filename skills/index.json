@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-07T16:27:03.104Z",
+  "generatedAt": "2026-11-07T16:29:07.349Z",
   "counts": {
-    "skills": 33,
-    "findings": 192,
+    "skills": 34,
+    "findings": 200,
     "sources": 21
   },
   "skills": [
@@ -66,8 +66,8 @@
       "whenToUse": "Use when optimizing an existing page, rewriting titles and meta descriptions, fixing thin or duplicated pages, or improving E-E-A-T signals on money pages.",
       "path": "skills/on-page-seo/SKILL.md",
       "parent": null,
-      "findings": 7,
-      "sources": 4,
+      "findings": 8,
+      "sources": 5,
       "lastUpdated": "2026-11-04",
       "confidence": "medium"
     },
@@ -79,10 +79,10 @@
       "whenToUse": "Use when building a content plan, deciding what to refresh or prune, mapping clusters and pillars, or explaining why a section of the site lost traffic.",
       "path": "skills/content-strategy/SKILL.md",
       "parent": null,
-      "findings": 4,
+      "findings": 5,
       "sources": 4,
       "lastUpdated": "2026-10-20",
-      "confidence": "low"
+      "confidence": "medium"
     },
     {
       "slug": "keyword-research",
@@ -92,7 +92,7 @@
       "whenToUse": "Use when planning new pages, classifying intent, sizing demand, clustering keywords by SERP overlap, or mapping queries to URLs.",
       "path": "skills/keyword-research/SKILL.md",
       "parent": null,
-      "findings": 10,
+      "findings": 11,
       "sources": 9,
       "lastUpdated": "2026-11-06",
       "confidence": "medium"
@@ -105,8 +105,8 @@
       "whenToUse": "Use when planning link acquisition, evaluating a backlink profile, cleaning a toxic profile, or responding to a link-related manual action.",
       "path": "skills/link-building/SKILL.md",
       "parent": null,
-      "findings": 5,
-      "sources": 4,
+      "findings": 6,
+      "sources": 5,
       "lastUpdated": "2026-10-29",
       "confidence": "medium"
     },
@@ -157,8 +157,8 @@
       "whenToUse": "Use when building reports, explaining traffic changes, defining SEO KPIs, or instrumenting tracking for organic performance.",
       "path": "skills/analytics-measurement/SKILL.md",
       "parent": null,
-      "findings": 32,
-      "sources": 10,
+      "findings": 33,
+      "sources": 11,
       "lastUpdated": "2026-11-07",
       "confidence": "high"
     },
@@ -170,7 +170,7 @@
       "whenToUse": "Use when organic traffic is absorbed by AI answers, when planning visibility in AI Overviews or chat assistants, or when deciding on llms.txt and AI crawler access.",
       "path": "skills/ai-search-geo/SKILL.md",
       "parent": null,
-      "findings": 68,
+      "findings": 72,
       "sources": 17,
       "lastUpdated": "2026-11-06",
       "confidence": "high"
@@ -183,7 +183,7 @@
       "whenToUse": "Use when rankings shift sharply, when a manual action or policy issue appears, or when assessing whether a site is exposed to a new spam policy.",
       "path": "skills/algorithm-updates/SKILL.md",
       "parent": null,
-      "findings": 11,
+      "findings": 13,
       "sources": 6,
       "lastUpdated": "2026-11-06",
       "confidence": "medium"
@@ -300,8 +300,8 @@
       "whenToUse": "Use when the task involves e-e-a-t and author signals.",
       "path": "skills/eeat/SKILL.md",
       "parent": "on-page-seo",
-      "findings": 1,
-      "sources": 1,
+      "findings": 2,
+      "sources": 2,
       "lastUpdated": "2026-08-04",
       "confidence": "low"
     },
@@ -326,9 +326,9 @@
       "whenToUse": "Use when the task involves digital pr and link outreach.",
       "path": "skills/digital-pr/SKILL.md",
       "parent": "link-building",
-      "findings": 1,
-      "sources": 1,
-      "lastUpdated": "2026-07-20",
+      "findings": 2,
+      "sources": 2,
+      "lastUpdated": "2026-10-12",
       "confidence": "low"
     },
     {
@@ -423,6 +423,19 @@
       "confidence": "low"
     },
     {
+      "slug": "core-updates",
+      "name": "seo-core-updates",
+      "title": "Core Algorithm Updates",
+      "description": "Core Algorithm Updates: specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves core algorithm updates.",
+      "path": "skills/core-updates/SKILL.md",
+      "parent": "algorithm-updates",
+      "findings": 1,
+      "sources": 1,
+      "lastUpdated": "2026-07-24",
+      "confidence": "low"
+    },
+    {
       "slug": "spam-policy",
       "name": "seo-spam-policy",
       "title": "Spam Policy and Manual Actions",
@@ -430,7 +443,7 @@
       "whenToUse": "Use when the task involves spam policy and manual actions.",
       "path": "skills/spam-policy/SKILL.md",
       "parent": "algorithm-updates",
-      "findings": 3,
+      "findings": 4,
       "sources": 2,
       "lastUpdated": "2026-11-06",
       "confidence": "low"
