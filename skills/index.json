@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-07T17:45:24.768Z",
+  "generatedAt": "2026-11-07T21:53:48.423Z",
   "counts": {
     "skills": 35,
-    "findings": 210,
-    "sources": 22
+    "findings": 214,
+    "sources": 23
   },
   "skills": [
     {
@@ -157,8 +157,8 @@
       "whenToUse": "Use when building reports, explaining traffic changes, defining SEO KPIs, or instrumenting tracking for organic performance.",
       "path": "skills/analytics-measurement/SKILL.md",
       "parent": null,
-      "findings": 34,
-      "sources": 12,
+      "findings": 35,
+      "sources": 13,
       "lastUpdated": "2026-11-07",
       "confidence": "high"
     },
@@ -170,8 +170,8 @@
       "whenToUse": "Use when organic traffic is absorbed by AI answers, when planning visibility in AI Overviews or chat assistants, or when deciding on llms.txt and AI crawler access.",
       "path": "skills/ai-search-geo/SKILL.md",
       "parent": null,
-      "findings": 79,
-      "sources": 18,
+      "findings": 82,
+      "sources": 19,
       "lastUpdated": "2026-11-06",
       "confidence": "high"
     },
@@ -391,8 +391,8 @@
       "whenToUse": "Use when the task involves ai overviews and ai mode.",
       "path": "skills/ai-overviews/SKILL.md",
       "parent": "ai-search-geo",
-      "findings": 19,
-      "sources": 11,
+      "findings": 20,
+      "sources": 12,
       "lastUpdated": "2026-11-06",
       "confidence": "high"
     },

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T17:45:34.957Z",
+  "generatedAt": "2026-11-07T21:53:57.913Z",
   "counts": {
     "skills": 182,
     "packs": 38,
@@ -1751,7 +1751,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 1295,
+      "stars": 1296,
       "repoUpdatedAt": "2026-11-06",
       "hasContent": true,
       "file": "library/content-strategy/make-content-content-brief-gooseworks-ai.md"

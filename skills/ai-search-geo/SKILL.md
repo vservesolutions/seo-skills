@@ -1,9 +1,9 @@
 ---
 name: seo-ai-search-geo
-description: "AI Overviews, AI Mode, LLM citation visibility, generative engine optimization and llms.txt conventions. Auto-generated from 79 findings across 18 sources."
+description: "AI Overviews, AI Mode, LLM citation visibility, generative engine optimization and llms.txt conventions. Auto-generated from 82 findings across 19 sources."
 last_updated: 2026-11-06
-findings: 79
-sources: 18
+findings: 82
+sources: 19
 confidence: high
 ---
 
@@ -70,5 +70,5 @@ Use when organic traffic is absorbed by AI answers, when planning visibility in 
 
 - Regenerated on 2026-11-07 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2026-03-25 → 2026-11-06.
-- 79 findings from 18 sources; confidence is **high**.
+- 82 findings from 19 sources; confidence is **high**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

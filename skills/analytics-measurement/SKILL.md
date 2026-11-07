@@ -1,9 +1,9 @@
 ---
 name: seo-analytics-measurement
-description: "Search Console and GA4 measurement, rank tracking, dashboards, forecasting and KPI definitions. Auto-generated from 34 findings across 12 sources."
+description: "Search Console and GA4 measurement, rank tracking, dashboards, forecasting and KPI definitions. Auto-generated from 35 findings across 13 sources."
 last_updated: 2026-11-07
-findings: 34
-sources: 12
+findings: 35
+sources: 13
 confidence: high
 ---
 
@@ -63,12 +63,12 @@ Use when building reports, explaining traffic changes, defining SEO KPIs, or ins
 - [Reach Is No Longer The KPI: 4 Signals From Jupiter Festival Miami That Reset 2027 Media Budgets](https://www.searchenginejournal.com/reach-is-losing-as-a-paid-media-kpi-4-signals-from-jupiter-festival-miami-for-2027/595221) — Search Engine Journal · 2026-11-04
 - [Your CFO Wants To Cut SEO & Fund The Same Work As GEO](https://www.youtube.com/shorts/1cUXxNeJmqU) — Search Engine Journal (YouTube) · 2026-11-04
 - [AI for product marketing (7 actionable use cases)](https://www.semrush.com/blog/ai-for-product-marketing) — Semrush Blog · 2026-11-04
+- [Stop Tracking Impressions](https://www.youtube.com/shorts/4TlJCbj9fyg) — Neil Patel (YouTube) · 2026-11-02
 - [The October 2026 SEO Update by Yoast recap](https://yoast.com/the-october-2026-seo-update-by-yoast-recap) — Yoast SEO Blog · 2026-10-28
-- [Google Discover changes, AI content rules & Search Console updates | October 2026 SEO Update](https://www.youtube.com/watch?v=LKX8KGj2Hok) — Yoast (YouTube) · 2026-10-28
 
 ## How this skill stays current
 
 - Regenerated on 2026-11-07 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2024-03-13 → 2026-11-07.
-- 34 findings from 12 sources; confidence is **high**.
+- 35 findings from 13 sources; confidence is **high**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.
