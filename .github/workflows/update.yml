@@ -84,3 +84,37 @@ jobs:
             const rows = idx.skills.map((s) => \`| \${s.parent ? '↳ ' : ''}\${s.title} | \${s.findings} | \${s.confidence} |\`);
             console.log(['| Skill | Findings | Confidence |', '| --- | ---: | --- |', ...rows].join('\n'));
           " >> "$GITHUB_STEP_SUMMARY" || true
+
+  # Publishes the dashboard with the refreshed files in the same run: commits pushed
+  # with GITHUB_TOKEN do not trigger other workflows, so a push-triggered deploy
+  # would never fire after a scheduled refresh.
+  publish:
+    needs: refresh
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    concurrency:
+      group: pages
+      cancel-in-progress: true
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out refreshed files
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload dashboard
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
