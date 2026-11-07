@@ -28,7 +28,8 @@ function feedTitle(root) {
   if (channel) return normalizeWhitespace(textOf(firstNamed(channel, ['title'])));
   const feed = firstNamed(root, ['feed']);
   if (feed) return normalizeWhitespace(textOf(firstNamed(feed, ['title'])));
-  return '';
+  // parseXml can hand back the feed element itself (YouTube feeds have a single root).
+  return normalizeWhitespace(textOf(firstNamed(root, ['title'])));
 }
 
 function atomLink(entry) {
@@ -69,7 +70,9 @@ function htmlOf(item) {
     firstNamed(item, ['content:encoded']),
     firstNamed(item, ['content']),
     firstNamed(item, ['summary']),
-    firstNamed(item, ['description'])
+    firstNamed(item, ['description']),
+    // YouTube puts the description inside <media:group>, so search descendants.
+    findAll(item, ['media:description'])[0]
   ].filter(Boolean);
 
   let best = '';
@@ -112,9 +115,14 @@ export function parseFeed(xmlText, feedUrl = '') {
       textOf(firstNamed(entry, ['date']))
     );
 
+    // Prefer <author><name>: Atom authors also carry a <uri> that would otherwise
+    // be glued onto the name ("Channel https://youtube.com/channel/...").
+    const authorNode = firstNamed(entry, ['author']);
     const author =
-      normalizeWhitespace(textOf(firstNamed(entry, ['author', 'dc:creator']))) ||
-      normalizeWhitespace(attrOf(firstNamed(entry, ['author']), 'name')) ||
+      normalizeWhitespace(textOf(firstNamed(authorNode, ['name']))) ||
+      normalizeWhitespace(attrOf(authorNode, 'name')) ||
+      normalizeWhitespace(textOf(authorNode)) ||
+      normalizeWhitespace(textOf(firstNamed(entry, ['dc:creator']))) ||
       '';
 
     const categories = findAll(entry, ['category'])

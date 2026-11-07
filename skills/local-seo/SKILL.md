@@ -1,9 +1,9 @@
 ---
 name: seo-local-seo
-description: "Local pack visibility, Business Profile optimization, reviews, citations and location page structure. Auto-generated from 8 findings across 6 sources."
+description: "Local pack visibility, Business Profile optimization, reviews, citations and location page structure. Auto-generated from 9 findings across 7 sources."
 last_updated: 2026-11-06
-findings: 8
-sources: 6
+findings: 9
+sources: 7
 confidence: medium
 ---
 
@@ -23,10 +23,12 @@ Use when a business needs local pack visibility, when reviews or categories are 
 4. Use SEO to help people find your jewelry business during active searches. — *Yoast SEO Blog, 2026-10-30*
 5. Use local SEO techniques to connect with nearby customers while ensuring your website functions well for search engines. — *Yoast SEO Blog, 2026-10-30*
 6. AI Performance gives you a direct view into how your site contributes to AI-generated answers – from the grounding queries where it appears to the pages cited for each query. — *Bing Webmaster Blog, 2026-10-13*
-7. Google says businesses that manage their Business Profile with a Google Workspace account are getting access to Gemini’s profile tools. — *Search Engine Journal, 2026-11-06*
-8. So it won't help understanding why mentions/clicks are increasing or decreasing, but combined with external tools that track prompts it will show accurate first-party data if GEO/AEO strategies are working," he added. — *Search Engine Roundtable, 2026-11-06*
-9. Lisa Landsman posted the details in the Google Business Help Forums and the item we did not cover was the section named "Messaging Expands to Google Maps. — *Search Engine Roundtable, 2026-11-06*
-10. Google already documented offer data metrics within Google Business Profiles performance metrics. — *Search Engine Roundtable, 2026-11-06*
+7. Learn more and sign up: https://moz.com/products/ai-explorer/pricing You don't need a steep learning curve or hours of setup. — *Moz (YouTube), 2026-10-13*
+8. Prompt Suggestions: Discover new topics and questions real people are asking AI, so you never run out of helpful content ideas. — *Moz (YouTube), 2026-10-13*
+9. Google says businesses that manage their Business Profile with a Google Workspace account are getting access to Gemini’s profile tools. — *Search Engine Journal, 2026-11-06*
+10. So it won't help understanding why mentions/clicks are increasing or decreasing, but combined with external tools that track prompts it will show accurate first-party data if GEO/AEO strategies are working," he added. — *Search Engine Roundtable, 2026-11-06*
+11. Lisa Landsman posted the details in the Google Business Help Forums and the item we did not cover was the section named "Messaging Expands to Google Maps. — *Search Engine Roundtable, 2026-11-06*
+12. Google already documented offer data metrics within Google Business Profiles performance metrics. — *Search Engine Roundtable, 2026-11-06*
 
 ## Recent developments
 
@@ -37,6 +39,7 @@ Use when a business needs local pack visibility, when reviews or categories are 
 - **More than bling: How SEO can help your jewelry brand get found** — 2026-10-30 · Yoast SEO Blog — In this guide, we’ll explore why SEO matters for jewelry businesses, what people and AI models are searching for, and how to make your website shine in search. ([link](https://yoast.com/seo-tip-for-jewelers))
 - **How Stable Are AI Citations? 10 Things We Learned Tracking 37,500 Citations** — 2026-10-29 · Ahrefs Blog — Key takeaways: Treat citation volatility as normal. ([link](https://ahrefs.com/blog/how-stable-are-ai-citations))
 - **Google My Business: A guide to Google Business Profile** — 2026-10-26 · Semrush Blog — Google Business Profile (formerly Google My Business) is a free business listing that supports reviews, Q&As, posts, and more. ([link](https://www.semrush.com/blog/google-my-business))
+- **Track Brand Visibility, Citations, and Sentiment with Moz AI Explorer** — 2026-10-13 · Moz (YouTube) — Meet Moz AI Explorer: a dedicated tool designed to help you understand, shape, and own how AI engines talk about your business, all starting at $45 a month. ([link](https://www.youtube.com/watch?v=iO9QIMFzwJ8))
 - **Introducing Topics Portfolio (Beta) in AI Performance** — 2026-10-13 · Bing Webmaster Blog — AI Performance gives you a direct view into how your site contributes to AI-generated answers – from the grounding queries where it appears to the pages cited for each query. ([link](https://blogs.bing.com/webmaster/2026/10/introducing-topics-portfolio-beta-in-ai-performance))
 
 ## References
@@ -48,11 +51,12 @@ Use when a business needs local pack visibility, when reviews or categories are 
 - [More than bling: How SEO can help your jewelry brand get found](https://yoast.com/seo-tip-for-jewelers) — Yoast SEO Blog · 2026-10-30
 - [How Stable Are AI Citations? 10 Things We Learned Tracking 37,500 Citations](https://ahrefs.com/blog/how-stable-are-ai-citations) — Ahrefs Blog · 2026-10-29
 - [Google My Business: A guide to Google Business Profile](https://www.semrush.com/blog/google-my-business) — Semrush Blog · 2026-10-26
+- [Track Brand Visibility, Citations, and Sentiment with Moz AI Explorer](https://www.youtube.com/watch?v=iO9QIMFzwJ8) — Moz (YouTube) · 2026-10-13
 - [Introducing Topics Portfolio (Beta) in AI Performance](https://blogs.bing.com/webmaster/2026/10/introducing-topics-portfolio-beta-in-ai-performance) — Bing Webmaster Blog · 2026-10-13
 
 ## How this skill stays current
 
 - Regenerated on 2026-11-07 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2026-10-13 → 2026-11-06.
-- 8 findings from 6 sources; confidence is **medium**.
+- 9 findings from 7 sources; confidence is **medium**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

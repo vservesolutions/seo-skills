@@ -1,9 +1,9 @@
 ---
 name: seo-search-console
-description: "Search Console Analysis: specific techniques, checks and pitfalls. Auto-generated from 9 findings across 7 sources."
+description: "Search Console Analysis: specific techniques, checks and pitfalls. Auto-generated from 11 findings across 9 sources."
 last_updated: 2026-11-05
-findings: 9
-sources: 7
+findings: 11
+sources: 9
 confidence: medium
 ---
 
@@ -25,24 +25,28 @@ Use when the task involves search console analysis.
 6. Monitor AI-driven traffic in Google Search Console and Microsoft Clarity. — *Yoast SEO Blog, 2026-09-02*
 7. AI Performance gives you a direct view into how your site contributes to AI-generated answers – from the grounding queries where it appears to the pages cited for each query. — *Bing Webmaster Blog, 2026-10-13*
 8. Facebook Answers AI-Generated 6 Million Pages Is Google Scaled Content Abuse If you looked at the Google Search results recently, you may have stumbled on content from Facebook Answers. — *Search Engine Roundtable, 2026-11-05*
+9. In this episode of Google Search News, John Mueller shares major updates across Search Console, Google Search, and publisher tools! — *Google Search Central (YouTube), 2026-10-26*
 
 ## Recent developments
 
 - **November Click Spikes In Google Search Console Are Bot Traffic – How To Filter Your Reports** — 2026-11-05 · Search Engine Journal — Seeing a vertical jump in Search Console clicks? ([link](https://www.searchenginejournal.com/november-click-spikes-in-google-search-console-are-bot-traffic-how-to-filter-your-reports/595834))
 - **Daily Search Forum Recap: November 5, 2026** — 2026-11-05 · Search Engine Roundtable — Google Can Temporarily Protected Important URLs From Being Deindexed Gary Illyes from Google said that when important URLs serve a 4xx status code, Google Search can "temporarily protect the URL from falling out of the index right away."… ([link](https://www.seroundtable.com/recap-11-05-2026-42466.html))
+- **Google Discover changes, AI content rules & Search Console updates | October 2026 SEO Update** — 2026-10-28 · Yoast (YouTube) — How are Google’s latest updates changing SEO, AI search, and content visibility? ([link](https://www.youtube.com/watch?v=LKX8KGj2Hok))
 - **WordPress website: Increased server response times and reduced Googlebot crawling since September — how can I identify the cause?** — 2026-10-27 · Webmasters Stack Exchange — Since September 2026, I've noticed a significant increase in the average response time reported by Google Search Console, along with a reduction in Googlebot's crawling activity. ([link](https://webmasters.stackexchange.com/questions/150043/wordpress-website-increased-server-response-times-and-reduced-googlebot-crawlin))
+- **Google Search news with platform properties, multimodal Search & AI Features (Q4 ‘26)** — 2026-10-26 · Google Search Central (YouTube) — In this episode of Google Search News, John Mueller shares major updates across Search Console, Google Search, and publisher tools! ([link](https://www.youtube.com/watch?v=P7grNk_REms))
 - **Introducing Topics Portfolio (Beta) in AI Performance** — 2026-10-13 · Bing Webmaster Blog — AI Performance gives you a direct view into how your site contributes to AI-generated answers – from the grounding queries where it appears to the pages cited for each query. ([link](https://blogs.bing.com/webmaster/2026/10/introducing-topics-portfolio-beta-in-ai-performance))
 - **How to build an AI visibility dashboard with Semrush** — 2026-10-12 · Semrush Blog — We’ll help you build one that puts your prompt-level AI data from Semrush next to your page-level Google data from Search Console, so you can see whether the pages AI cites are also earning clicks. ([link](https://www.semrush.com/blog/how-to-build-an-ai-visibility-dashboard-semrush))
 - **New learning paths: curated YouTube playlists for Search fundamentals and Technical SEO** — 2026-10-06 · Google Search Central Blog — Over the years, the Search Central YouTube channel has published hundreds of videos across various series, from Search for Beginners and Ask Googlebot to Search Console Training and Search Off the Record. ([link](https://developers.google.com/search/blog/2026/10/seo-learning-paths))
 - **Announcing web multimodal Search performance reporting in Search Console** — 2026-09-24 · Google Search Central Blog — Understanding how users find your content is crucial for any publisher or site owner. ([link](https://developers.google.com/search/blog/2026/09/web-multimodal-in-sc))
 - **The August 2026 SEO Update by Yoast recap** — 2026-09-02 · Yoast SEO Blog — – If you rely on AI-driven traffic, ensure your content remains accessible to Google’s crawlers. ([link](https://yoast.com/the-august-2026-seo-update-by-yoast-recap))
-- **Platform properties roll out globally, plus a new social and video performance guide** — 2026-07-29 · Google Search Central Blog — Earlier this month, we announced platform properties for Search Console, allowing you to track how your social and video posts on Instagram, TikTok, X, and YouTube perform on Google Search, Discover, and Google News. ([link](https://developers.google.com/search/blog/2026/07/platform-properties-social-video-guide))
 
 ## References
 
 - [November Click Spikes In Google Search Console Are Bot Traffic – How To Filter Your Reports](https://www.searchenginejournal.com/november-click-spikes-in-google-search-console-are-bot-traffic-how-to-filter-your-reports/595834) — Search Engine Journal · 2026-11-05
 - [Daily Search Forum Recap: November 5, 2026](https://www.seroundtable.com/recap-11-05-2026-42466.html) — Search Engine Roundtable · 2026-11-05
+- [Google Discover changes, AI content rules & Search Console updates | October 2026 SEO Update](https://www.youtube.com/watch?v=LKX8KGj2Hok) — Yoast (YouTube) · 2026-10-28
 - [WordPress website: Increased server response times and reduced Googlebot crawling since September — how can I identify the cause?](https://webmasters.stackexchange.com/questions/150043/wordpress-website-increased-server-response-times-and-reduced-googlebot-crawlin) — Webmasters Stack Exchange · 2026-10-27
+- [Google Search news with platform properties, multimodal Search & AI Features (Q4 ‘26)](https://www.youtube.com/watch?v=P7grNk_REms) — Google Search Central (YouTube) · 2026-10-26
 - [Introducing Topics Portfolio (Beta) in AI Performance](https://blogs.bing.com/webmaster/2026/10/introducing-topics-portfolio-beta-in-ai-performance) — Bing Webmaster Blog · 2026-10-13
 - [How to build an AI visibility dashboard with Semrush](https://www.semrush.com/blog/how-to-build-an-ai-visibility-dashboard-semrush) — Semrush Blog · 2026-10-12
 - [New learning paths: curated YouTube playlists for Search fundamentals and Technical SEO](https://developers.google.com/search/blog/2026/10/seo-learning-paths) — Google Search Central Blog · 2026-10-06
@@ -54,5 +58,5 @@ Use when the task involves search console analysis.
 
 - Regenerated on 2026-11-07 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2026-07-29 → 2026-11-05.
-- 9 findings from 7 sources; confidence is **medium**.
+- 11 findings from 9 sources; confidence is **medium**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

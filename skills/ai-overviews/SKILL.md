@@ -1,9 +1,9 @@
 ---
 name: seo-ai-overviews
-description: "AI Overviews and AI Mode: specific techniques, checks and pitfalls. Auto-generated from 12 findings across 5 sources."
+description: "AI Overviews and AI Mode: specific techniques, checks and pitfalls. Auto-generated from 14 findings across 7 sources."
 last_updated: 2026-11-06
-findings: 12
-sources: 5
+findings: 14
+sources: 7
 confidence: medium
 ---
 
@@ -25,7 +25,9 @@ Use when the task involves ai overviews and ai mode.
 6. Google Search clicks to news publishers rose 8x on Election Day. — *Search Engine Roundtable, 2026-11-06*
 7. Google AI Mode Asking Searchers To Continue With This Search Google is now asking searchers to "continue with this search" when they go to AI Mode. — *Search Engine Roundtable, 2026-11-06*
 8. This quarter, the effect shows up in a counted number, Google’s own revenue line, with a Google executive naming AI Mode as a cause. — *Search Engine Journal, 2026-11-05*
-9. This was spotted by Sachin Patel who posted this on Search Engine Watch - he wrote, "The popup appears to encourage users to connect more of their Google apps to Search so results can be more personalized. — *Search Engine Roundtable, 2026-11-06*
+9. Study top ranking pages to map subtopics, run a content gap analysis to build your outline, and apply on page SEO best practices like natural keyword placement, short descriptive URLs, internal links, and scannable structure. — *Ahrefs (YouTube), 2026-09-23*
+10. Give me 14 minutes to learn SEO the smart way, and you will walk away with the 5 fundamentals that drive 80% of real results in Google and get cited by AI too. — *Ahrefs (YouTube), 2026-09-23*
+11. This was spotted by Sachin Patel who posted this on Search Engine Watch - he wrote, "The popup appears to encourage users to connect more of their Google apps to Search so results can be more personalized. — *Search Engine Roundtable, 2026-11-06*
 
 ## Recent developments
 
@@ -53,11 +55,11 @@ Use when the task involves ai overviews and ai mode.
 - [Google AI Mode: All You Need to Know](https://ahrefs.com/blog/google-ai-mode) — Ahrefs Blog · 2026-10-28
 - [How Feature Upvote fixed Google’s wrong AI Overview answer](https://www.semrush.com/blog/how-feature-upvote-fixed-its-google-ai-overview-answer) — Semrush Blog · 2026-10-21
 - [AI Overviews have nearly doubled across five commercial search modifiers](https://www.semrush.com/blog/ai-overviews-commercial-modifiers-study) — Semrush Blog · 2026-10-21
-- [Query Fan-Out: What It Is and How It Affects AI Visibility](https://backlinko.com/query-fan-out) — Backlinko · 2026-06-10
+- [Learn 80% of SEO in 14 Minutes](https://www.youtube.com/watch?v=EJj4CpzawPI) — Ahrefs (YouTube) · 2026-09-23
 
 ## How this skill stays current
 
 - Regenerated on 2026-11-07 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2026-06-10 → 2026-11-06.
-- 12 findings from 5 sources; confidence is **medium**.
+- 14 findings from 7 sources; confidence is **medium**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

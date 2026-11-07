@@ -1,9 +1,9 @@
 ---
 name: seo-structured-data
-description: "Schema.org markup, JSON-LD implementation, rich result eligibility, validation and deprecated markup. Auto-generated from 6 findings across 2 sources."
-last_updated: 2026-10-27
-findings: 6
-sources: 2
+description: "Schema.org markup, JSON-LD implementation, rich result eligibility, validation and deprecated markup. Auto-generated from 8 findings across 4 sources."
+last_updated: 2026-11-04
+findings: 8
+sources: 4
 confidence: medium
 ---
 
@@ -17,19 +17,25 @@ Use when adding or debugging schema.org markup, chasing rich result eligibility,
 
 ## Core practices
 
-1. Use descriptive and relevant alt text in your images to enhance searchability and user experience. — *Yoast SEO Blog, 2026-10-27*
-2. Add structured data to your images, which describes your content to search engines. — *Yoast SEO Blog, 2026-10-27*
-3. Check out our Yoast SEO Premium page for more information on our SEO plugin and its features. — *Yoast SEO Blog, 2026-10-07*
-4. Run scans across ChatGPT, Gemini, Claude, and Perplexity, then decide what to do with what you find. — *Yoast SEO Blog, 2026-10-01*
-5. Use structured data for images to improve visibility in AI-driven search results and image searches. — *Yoast SEO Blog, 2026-09-12*
-6. Adding images to your XML sitemaps helps Google index your images, so be sure to do so for better image SEO. — *Yoast SEO Blog, 2026-09-12*
-7. Check that the content accurately represents your business, all links and forms work correctly, and the design looks good on both desktop and mobile devices. — *Yoast SEO Blog, 2026-09-02*
-8. Simply return to the AI website builder, describe what you want, and continue refining your website through conversation instead of starting from scratch. — *Yoast SEO Blog, 2026-09-02*
-9. Here’s how Yoast SEO helps search engines and AI platforms understand your content. — *Yoast SEO Blog, 2026-10-07*
-10. Yoast SEO AI+ for Shopify combines Yoast SEO for Shopify with Yoast AI Brand Insights . — *Yoast SEO Blog, 2026-10-01*
+1. Add product schema markup : ChatGPT uses structured metadata from first and third-party sources when deciding which products to recommend. — *Semrush Blog, 2026-11-04*
+2. Implement server-side rendering: A 2024 Vercel test found that OpenAI’s crawlers don’t read JavaScript, and a 2026 experiment found that ChatGPT summarized only the raw HTML of a page when a user shared its URL. — *Semrush Blog, 2026-11-04*
+3. Use descriptive and relevant alt text in your images to enhance searchability and user experience. — *Yoast SEO Blog, 2026-10-27*
+4. Add structured data to your images, which describes your content to search engines. — *Yoast SEO Blog, 2026-10-27*
+5. Check out our Yoast SEO Premium page for more information on our SEO plugin and its features. — *Yoast SEO Blog, 2026-10-07*
+6. Run scans across ChatGPT, Gemini, Claude, and Perplexity, then decide what to do with what you find. — *Yoast SEO Blog, 2026-10-01*
+7. Use structured data for images to improve visibility in AI-driven search results and image searches. — *Yoast SEO Blog, 2026-09-12*
+8. Adding images to your XML sitemaps helps Google index your images, so be sure to do so for better image SEO. — *Yoast SEO Blog, 2026-09-12*
+9. Check that the content accurately represents your business, all links and forms work correctly, and the design looks good on both desktop and mobile devices. — *Yoast SEO Blog, 2026-09-02*
+10. Simply return to the AI website builder, describe what you want, and continue refining your website through conversation instead of starting from scratch. — *Yoast SEO Blog, 2026-09-02*
+11. Here’s how Yoast SEO helps search engines and AI platforms understand your content. — *Yoast SEO Blog, 2026-10-07*
+12. Yoast SEO AI+ for Shopify combines Yoast SEO for Shopify with Yoast AI Brand Insights . — *Yoast SEO Blog, 2026-10-01*
+13. Try it free for 7 days: https://social.semrush.com/4BYtMLZ Schema markup can make your pages eligible for rich results such as star ratings, prices, and stock status, and adding it requires no coding background. — *Semrush (YouTube), 2026-11-03*
+14. 👉 Find invalid schema markup across your whole site using Semrush Site Audit. — *Semrush (YouTube), 2026-11-03*
 
 ## Recent developments
 
+- **How to optimize for ChatGPT shopping** — 2026-11-04 · Semrush Blog — OpenAI launched it in 2025 , announcing that ChatGPT would retrieve products from across the web and recommend them based on third-party structured metadata like pricing and reviews. ([link](https://www.semrush.com/blog/optimize-for-chatgpt-shopping))
+- **Possibly the Easiest Guide to Schema Markup Ever** — 2026-11-03 · Semrush (YouTube) — 👉 Find invalid schema markup across your whole site using Semrush Site Audit. ([link](https://www.youtube.com/watch?v=dbyOL9Iy9lg))
 - **Image SEO: How to optimize alt and title text** — 2026-10-27 · Yoast SEO Blog — Adding alt text improves accessibility and SEO, as it helps screen readers and search engines understand images. ([link](https://yoast.com/image-seo-alt-tag-and-title-tag-optimization))
 - **Yoast SEO vs All in One SEO: which WordPress plugin is right for you?** — 2026-10-07 · Yoast SEO Blog — Our team follows algorithm updates and how AI platforms read content, updates the plugin when things change, and explains what it means on our blog, in webinars, and in Yoast SEO Academy . ([link](https://yoast.com/yoast-vs-all-in-one-seo))
 - **Introducing Yoast SEO AI+ for Shopify** — 2026-10-01 · Yoast SEO Blog — The new plan combines Yoast SEO for Shopify with Yoast AI Brand Insights, giving you visibility into how AI systems like ChatGPT, Gemini, Claude, and Perplexity describe your brand, alongside everything you already rely on for search. ([link](https://yoast.com/yoast-seo-for-shopify-oct-1-2026))
@@ -39,6 +45,8 @@ Use when adding or debugging schema.org markup, chasing rich result eligibility,
 
 ## References
 
+- [How to optimize for ChatGPT shopping](https://www.semrush.com/blog/optimize-for-chatgpt-shopping) — Semrush Blog · 2026-11-04
+- [Possibly the Easiest Guide to Schema Markup Ever](https://www.youtube.com/watch?v=dbyOL9Iy9lg) — Semrush (YouTube) · 2026-11-03
 - [Image SEO: How to optimize alt and title text](https://yoast.com/image-seo-alt-tag-and-title-tag-optimization) — Yoast SEO Blog · 2026-10-27
 - [Yoast SEO vs All in One SEO: which WordPress plugin is right for you?](https://yoast.com/yoast-vs-all-in-one-seo) — Yoast SEO Blog · 2026-10-07
 - [Introducing Yoast SEO AI+ for Shopify](https://yoast.com/yoast-seo-for-shopify-oct-1-2026) — Yoast SEO Blog · 2026-10-01
@@ -49,6 +57,6 @@ Use when adding or debugging schema.org markup, chasing rich result eligibility,
 ## How this skill stays current
 
 - Regenerated on 2026-11-07 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
-- Coverage window: 2024-05-15 → 2026-10-27.
-- 6 findings from 2 sources; confidence is **medium**.
+- Coverage window: 2024-05-15 → 2026-11-04.
+- 8 findings from 4 sources; confidence is **medium**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

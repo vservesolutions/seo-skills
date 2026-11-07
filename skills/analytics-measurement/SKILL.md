@@ -1,9 +1,9 @@
 ---
 name: seo-analytics-measurement
-description: "Search Console and GA4 measurement, rank tracking, dashboards, forecasting and KPI definitions. Auto-generated from 22 findings across 7 sources."
+description: "Search Console and GA4 measurement, rank tracking, dashboards, forecasting and KPI definitions. Auto-generated from 26 findings across 10 sources."
 last_updated: 2026-11-06
-findings: 22
-sources: 7
+findings: 26
+sources: 10
 confidence: high
 ---
 
@@ -48,8 +48,8 @@ Use when building reports, explaining traffic changes, defining SEO KPIs, or ins
 - **Reach Is No Longer The KPI: 4 Signals From Jupiter Festival Miami That Reset 2027 Media Budgets** — 2026-11-04 · Search Engine Journal — Build your 2027 paid media plan around attention, creators, and streaming, while testing whether new metrics drive incremental sales. ([link](https://www.searchenginejournal.com/reach-is-losing-as-a-paid-media-kpi-4-signals-from-jupiter-festival-miami-for-2027/595221))
 - **AI for product marketing (7 actionable use cases)** — 2026-11-04 · Semrush Blog — Now that you’ve created your project and added your context files, you can start actually using AI for specific product marketing use cases. ([link](https://www.semrush.com/blog/ai-for-product-marketing))
 - **The October 2026 SEO Update by Yoast recap** — 2026-10-28 · Yoast SEO Blog — Welcome to the recap of the October 2026 SEO Update by Yoast! ([link](https://yoast.com/the-october-2026-seo-update-by-yoast-recap))
+- **Google Discover changes, AI content rules & Search Console updates | October 2026 SEO Update** — 2026-10-28 · Yoast (YouTube) — How are Google’s latest updates changing SEO, AI search, and content visibility? ([link](https://www.youtube.com/watch?v=LKX8KGj2Hok))
 - **WordPress website: Increased server response times and reduced Googlebot crawling since September — how can I identify the cause?** — 2026-10-27 · Webmasters Stack Exchange — Since September 2026, I've noticed a significant increase in the average response time reported by Google Search Console, along with a reduction in Googlebot's crawling activity. ([link](https://webmasters.stackexchange.com/questions/150043/wordpress-website-increased-server-response-times-and-reduced-googlebot-crawlin))
-- **Page known to Google for several months – Discovered, not indexed** — 2026-10-26 · Webmasters Stack Exchange — Google crawled that article on the same day it was published, but more than two weeks later the Services page still reports: I compared the Services page with this page: The pricing page is indexed normally and was crawled again by Google… ([link](https://webmasters.stackexchange.com/questions/150038/page-known-to-google-for-several-months-discovered-not-indexed))
 
 ## References
 
@@ -61,14 +61,14 @@ Use when building reports, explaining traffic changes, defining SEO KPIs, or ins
 - [Reach Is No Longer The KPI: 4 Signals From Jupiter Festival Miami That Reset 2027 Media Budgets](https://www.searchenginejournal.com/reach-is-losing-as-a-paid-media-kpi-4-signals-from-jupiter-festival-miami-for-2027/595221) — Search Engine Journal · 2026-11-04
 - [AI for product marketing (7 actionable use cases)](https://www.semrush.com/blog/ai-for-product-marketing) — Semrush Blog · 2026-11-04
 - [The October 2026 SEO Update by Yoast recap](https://yoast.com/the-october-2026-seo-update-by-yoast-recap) — Yoast SEO Blog · 2026-10-28
+- [Google Discover changes, AI content rules & Search Console updates | October 2026 SEO Update](https://www.youtube.com/watch?v=LKX8KGj2Hok) — Yoast (YouTube) · 2026-10-28
 - [WordPress website: Increased server response times and reduced Googlebot crawling since September — how can I identify the cause?](https://webmasters.stackexchange.com/questions/150043/wordpress-website-increased-server-response-times-and-reduced-googlebot-crawlin) — Webmasters Stack Exchange · 2026-10-27
 - [Page known to Google for several months – Discovered, not indexed](https://webmasters.stackexchange.com/questions/150038/page-known-to-google-for-several-months-discovered-not-indexed) — Webmasters Stack Exchange · 2026-10-26
-- [Can I stop Google search results from showing my site as "Github pages documentation"?](https://webmasters.stackexchange.com/questions/150036/can-i-stop-google-search-results-from-showing-my-site-as-github-pages-documenta) — Webmasters Stack Exchange · 2026-10-26
-- [Introducing Topics Portfolio (Beta) in AI Performance](https://blogs.bing.com/webmaster/2026/10/introducing-topics-portfolio-beta-in-ai-performance) — Bing Webmaster Blog · 2026-10-13
+- [Google Search news with platform properties, multimodal Search & AI Features (Q4 ‘26)](https://www.youtube.com/watch?v=P7grNk_REms) — Google Search Central (YouTube) · 2026-10-26
 
 ## How this skill stays current
 
 - Regenerated on 2026-11-07 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2024-03-13 → 2026-11-06.
-- 22 findings from 7 sources; confidence is **high**.
+- 26 findings from 10 sources; confidence is **high**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

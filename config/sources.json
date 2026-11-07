@@ -121,6 +121,116 @@
       "trust": 3,
       "enabled": false,
       "note": "Disabled by default: the site returns HTTP 403 to non-browser clients. Enable if it starts working from your network."
+    },
+    {
+      "id": "youtube-google-search-central",
+      "name": "Google Search Central (YouTube)",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCWf2ZlNsCGDS89VBF_awNvA",
+      "type": "youtube",
+      "trust": 5,
+      "perSourceLimit": 5,
+      "fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "youtube-searchenginejournal",
+      "name": "Search Engine Journal (YouTube)",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHNGYLRYGKBZ9nv9zp7PoSw",
+      "type": "youtube",
+      "trust": 3,
+      "perSourceLimit": 4,
+      "fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "youtube-ahrefs",
+      "name": "Ahrefs (YouTube)",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCWquNQV8Y0_defMKnGKrFOQ",
+      "type": "youtube",
+      "trust": 3,
+      "perSourceLimit": 5,
+      "fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "youtube-semrush",
+      "name": "Semrush (YouTube)",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCj7v9UM1aGx6GR-nsY-9u8w",
+      "type": "youtube",
+      "trust": 3,
+      "perSourceLimit": 4,
+      "fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "youtube-moz",
+      "name": "Moz (YouTube)",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCs26XZBwrSZLiTEH8wcoVXw",
+      "type": "youtube",
+      "trust": 3,
+      "perSourceLimit": 4,
+      "fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "youtube-yoast",
+      "name": "Yoast (YouTube)",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC0SdCZAvbNsuc-0l7puyKuQ",
+      "type": "youtube",
+      "trust": 3,
+      "perSourceLimit": 4,
+      "fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "youtube-backlinko",
+      "name": "Backlinko (YouTube)",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC1I8fcAdjxy-YgChuzUIUPw",
+      "type": "youtube",
+      "trust": 3,
+      "perSourceLimit": 4,
+      "fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "youtube-neil-patel",
+      "name": "Neil Patel (YouTube)",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCl-Zrl0QhF66lu1aGXaTbfw",
+      "type": "youtube",
+      "trust": 2,
+      "perSourceLimit": 4,
+      "fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "youtube-surfer",
+      "name": "Surfer Academy (YouTube)",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCmW0I6tx3Co4B6T2euHj6iw",
+      "type": "youtube",
+      "trust": 2,
+      "perSourceLimit": 4,
+      "fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "youtube-se-ranking",
+      "name": "SE Ranking (YouTube)",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCtUeek7hmkByxGbiOZNgB3w",
+      "type": "youtube",
+      "trust": 2,
+      "perSourceLimit": 4,
+      "fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "youtube-authority-hacker",
+      "name": "Authority Hacker (YouTube)",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCTvgSAxisCh58hjzlMdED0A",
+      "type": "youtube",
+      "trust": 2,
+      "perSourceLimit": 4,
+      "fulltext": false,
+      "enabled": true
     }
   ]
 }

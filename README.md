@@ -144,6 +144,36 @@ node src/cli.js schedule loop --time 06:30
 Global settings live under `settings`: `perSourceLimit`, `maxFulltextPerRun`, `fulltext`,
 `respectRobots`, `delayMs`, `timeoutMs`, `dropAfterDays`, `minTextLength`.
 
+### YouTube sources
+
+Video channels use the same source entry with a `type: "youtube"` marker and a channel feed —
+YouTube publishes Atom feeds with no API key:
+
+```json
+{
+  "id": "youtube-searchenginejournal",
+  "name": "Search Engine Journal (YouTube)",
+  "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHNGYLRYGKBZ9nv9zp7PoSw",
+  "type": "youtube",
+  "trust": 3,
+  "perSourceLimit": 4,
+  "fulltext": false,
+  "enabled": true
+}
+```
+
+- Enabled channels: Google Search Central, Search Engine Journal, Ahrefs, Semrush, Moz, Yoast,
+  Backlinko, Neil Patel, Surfer Academy, SE Ranking and Authority Hacker.
+- **No transcripts.** YouTube gates caption tracks behind a proof-of-origin token, so a video
+  contributes its title plus description only. Channels that post terse descriptions (Ahrefs often
+  writes a hashtag) yield few findings; channels with written summaries (Moz, Backlinko, SE
+  Ranking, Google Search Central) yield most of them.
+- Shorts are skipped and videos that match no topic are dropped — a clickbait title is not enough
+  to attach a practice to a skill.
+- Keep `fulltext: false`: there is no article page to fetch, so this avoids a wasted request.
+- Find a channel id by opening the channel and reading the `channelId` in the page, or by searching
+  YouTube with the channel filter; the feed URL is `videos.xml?channel_id=<id>`.
+
 ### `config/topics.json`
 
 Each topic defines the skill's identity: `id`, `title`, `description`, `whenToUse`, and the

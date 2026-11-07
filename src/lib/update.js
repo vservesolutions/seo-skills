@@ -161,6 +161,8 @@ export async function runUpdate(options = {}) {
       for (const item of ordered) {
         const id = findingId(item.url);
         if (known.has(id) || seenThisRun.has(id) || skipped[id]) continue;
+        // YouTube Shorts carry almost no detail beyond a clickbait title.
+        if (source.type === 'youtube' && /\/shorts\//.test(item.url)) continue;
         if (item.publishedAt && timestamp(item.publishedAt) < now.getTime() - settings.dropAfterDays * 86_400_000) {
           continue;
         }
@@ -266,6 +268,14 @@ export async function runUpdate(options = {}) {
       sourceId: source.id
     });
     const { summary, keyPoints } = summarize(text, { title });
+
+    // Video text is only the description, so an off-topic video adds noise without
+    // contributing to any skill. Articles are kept even when unclassified.
+    if (source.type === 'youtube' && !classified.topics.length) {
+      skipped[id] = now.toISOString();
+      log.debug(`Skipped off-topic video: ${item.url}`);
+      continue;
+    }
 
     incoming.push({
       id,
