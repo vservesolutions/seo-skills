@@ -1,8 +1,8 @@
 ---
 name: seo-search-console
-description: "Search Console Analysis: specific techniques, checks and pitfalls. Auto-generated from 12 findings across 9 sources."
+description: "Search Console Analysis: specific techniques, checks and pitfalls. Auto-generated from 13 findings across 9 sources."
 last_updated: 2026-11-05
-findings: 12
+findings: 13
 sources: 9
 confidence: medium
 ---
@@ -32,6 +32,7 @@ Use when the task involves search console analysis.
 ## Recent developments
 
 - **November Click Spikes In Google Search Console Are Bot Traffic – How To Filter Your Reports** — 2026-11-05 · Search Engine Journal — Seeing a vertical jump in Search Console clicks? ([link](https://www.searchenginejournal.com/november-click-spikes-in-google-search-console-are-bot-traffic-how-to-filter-your-reports/595834))
+- **Search data for creators in Search Console (New!)** — 2026-11-05 · Google Search Central (YouTube) — See more at https://youtu.be/P7grNk_REms Do you have a profile on Instagram, TikTok, X, or Youtube? ([link](https://www.youtube.com/shorts/1vKaJBh01fY))
 - **Daily Search Forum Recap: November 5, 2026** — 2026-11-05 · Search Engine Roundtable — Google Can Temporarily Protected Important URLs From Being Deindexed Gary Illyes from Google said that when important URLs serve a 4xx status code, Google Search can "temporarily protect the URL from falling out of the index right away."… ([link](https://www.seroundtable.com/recap-11-05-2026-42466.html))
 - **Google Discover changes, AI content rules & Search Console updates | October 2026 SEO Update** — 2026-10-28 · Yoast (YouTube) — How are Google’s latest updates changing SEO, AI search, and content visibility? ([link](https://www.youtube.com/watch?v=LKX8KGj2Hok))
 - **WordPress website: Increased server response times and reduced Googlebot crawling since September — how can I identify the cause?** — 2026-10-27 · Webmasters Stack Exchange — Since September 2026, I've noticed a significant increase in the average response time reported by Google Search Console, along with a reduction in Googlebot's crawling activity. ([link](https://webmasters.stackexchange.com/questions/150043/wordpress-website-increased-server-response-times-and-reduced-googlebot-crawlin))
@@ -40,11 +41,11 @@ Use when the task involves search console analysis.
 - **How to build an AI visibility dashboard with Semrush** — 2026-10-12 · Semrush Blog — We’ll help you build one that puts your prompt-level AI data from Semrush next to your page-level Google data from Search Console, so you can see whether the pages AI cites are also earning clicks. ([link](https://www.semrush.com/blog/how-to-build-an-ai-visibility-dashboard-semrush))
 - **New learning paths: curated YouTube playlists for Search fundamentals and Technical SEO** — 2026-10-06 · Google Search Central Blog — Over the years, the Search Central YouTube channel has published hundreds of videos across various series, from Search for Beginners and Ask Googlebot to Search Console Training and Search Off the Record. ([link](https://developers.google.com/search/blog/2026/10/seo-learning-paths))
 - **Do sitemaps still matter?** — 2026-10-01 · Google Search Central (YouTube) — Are XML sitemaps still necessary with modern search crawlers, or can search engines and AI bots figure out site structure on their own? ([link](https://www.youtube.com/watch?v=hDva5VoZJsE))
-- **Announcing web multimodal Search performance reporting in Search Console** — 2026-09-24 · Google Search Central Blog — Understanding how users find your content is crucial for any publisher or site owner. ([link](https://developers.google.com/search/blog/2026/09/web-multimodal-in-sc))
 
 ## References
 
 - [November Click Spikes In Google Search Console Are Bot Traffic – How To Filter Your Reports](https://www.searchenginejournal.com/november-click-spikes-in-google-search-console-are-bot-traffic-how-to-filter-your-reports/595834) — Search Engine Journal · 2026-11-05
+- [Search data for creators in Search Console (New!)](https://www.youtube.com/shorts/1vKaJBh01fY) — Google Search Central (YouTube) · 2026-11-05
 - [Daily Search Forum Recap: November 5, 2026](https://www.seroundtable.com/recap-11-05-2026-42466.html) — Search Engine Roundtable · 2026-11-05
 - [Google Discover changes, AI content rules & Search Console updates | October 2026 SEO Update](https://www.youtube.com/watch?v=LKX8KGj2Hok) — Yoast (YouTube) · 2026-10-28
 - [WordPress website: Increased server response times and reduced Googlebot crawling since September — how can I identify the cause?](https://webmasters.stackexchange.com/questions/150043/wordpress-website-increased-server-response-times-and-reduced-googlebot-crawlin) — Webmasters Stack Exchange · 2026-10-27
@@ -55,11 +56,10 @@ Use when the task involves search console analysis.
 - [Do sitemaps still matter?](https://www.youtube.com/watch?v=hDva5VoZJsE) — Google Search Central (YouTube) · 2026-10-01
 - [Announcing web multimodal Search performance reporting in Search Console](https://developers.google.com/search/blog/2026/09/web-multimodal-in-sc) — Google Search Central Blog · 2026-09-24
 - [The August 2026 SEO Update by Yoast recap](https://yoast.com/the-august-2026-seo-update-by-yoast-recap) — Yoast SEO Blog · 2026-09-02
-- [Platform properties roll out globally, plus a new social and video performance guide](https://developers.google.com/search/blog/2026/07/platform-properties-social-video-guide) — Google Search Central Blog · 2026-07-29
 
 ## How this skill stays current
 
 - Regenerated on 2026-11-07 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2026-07-29 → 2026-11-05.
-- 12 findings from 9 sources; confidence is **medium**.
+- 13 findings from 9 sources; confidence is **medium**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

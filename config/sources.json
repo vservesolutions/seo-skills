@@ -9,7 +9,8 @@
     "delayMs": 700,
     "timeoutMs": 20000,
     "dropAfterDays": 1095,
-    "minTextLength": 120
+    "minTextLength": 120,
+    "shortsMinTextLength": 300
   },
   "sources": [
     {

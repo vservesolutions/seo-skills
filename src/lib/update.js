@@ -161,8 +161,6 @@ export async function runUpdate(options = {}) {
       for (const item of ordered) {
         const id = findingId(item.url);
         if (known.has(id) || seenThisRun.has(id) || skipped[id]) continue;
-        // YouTube Shorts carry almost no detail beyond a clickbait title.
-        if (source.type === 'youtube' && /\/shorts\//.test(item.url)) continue;
         if (item.publishedAt && timestamp(item.publishedAt) < now.getTime() - settings.dropAfterDays * 86_400_000) {
           continue;
         }
@@ -250,6 +248,18 @@ export async function runUpdate(options = {}) {
     if (text.length < settings.minTextLength) {
       skipped[id] = now.toISOString();
       log.debug(`Skipped thin content: ${item.url}`);
+      continue;
+    }
+
+    // A Short can carry a real 1,000-character description, but most are a caption
+    // plus hashtags. Only keep the ones written out like a video summary.
+    if (
+      source.type === 'youtube' &&
+      /\/shorts\//.test(item.url) &&
+      text.length < settings.shortsMinTextLength
+    ) {
+      skipped[id] = now.toISOString();
+      log.debug(`Skipped short video caption: ${item.url}`);
       continue;
     }
 

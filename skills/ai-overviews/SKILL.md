@@ -1,9 +1,9 @@
 ---
 name: seo-ai-overviews
-description: "AI Overviews and AI Mode: specific techniques, checks and pitfalls. Auto-generated from 17 findings across 9 sources."
+description: "AI Overviews and AI Mode: specific techniques, checks and pitfalls. Auto-generated from 18 findings across 10 sources."
 last_updated: 2026-11-06
-findings: 17
-sources: 9
+findings: 18
+sources: 10
 confidence: high
 ---
 
@@ -43,8 +43,8 @@ Use when the task involves ai overviews and ai mode.
 - **Ads In Google AI Answers Concentrate In Apparel & Electronics** — 2026-11-05 · Search Engine Journal — New holiday data counts ads inside Google AI Overviews, AI Mode and ChatGPT across five shopping categories and shows which prompts ChatGPT ads ran on. ([link](https://www.searchenginejournal.com/google-ai-answer-ads-apparel-electronics-report/595984))
 - **Google Brings UCP Direct Checkout To AI Mode In Canada** — 2026-11-05 · Search Engine Journal — Google is expanding UCP-powered direct checkout in AI Mode and the Gemini app to Canadian shoppers, with a Merchant Center integration planned for next year. ([link](https://www.searchenginejournal.com/google-brings-ucp-direct-checkout-to-ai-mode-in-canada/595882))
 - **Google Adds Home Service Booking & Quote Links To AI Mode** — 2026-11-04 · Search Engine Journal — AI Mode now links home service searches to booking and quote pages. ([link](https://www.searchenginejournal.com/google-ai-mode-home-services-booking-quote-links/595871))
+- **We Cracked What Google AI Mode Wants to Cite 🤫** — 2026-10-30 · Surfer Academy (YouTube) — Surfer studied Google AI Mode citation factors, and first-hand experience matters more here than in any other AI model we analyzed. ([link](https://www.youtube.com/shorts/IzjuqLtMgI0))
 - **Google AI Mode: All You Need to Know** — 2026-10-28 · Ahrefs Blog ([link](https://ahrefs.com/blog/google-ai-mode))
-- **How Feature Upvote fixed Google’s wrong AI Overview answer** — 2026-10-21 · Semrush Blog — Fixing incorrect brand facts in AI search took Feature Upvote days. ([link](https://www.semrush.com/blog/how-feature-upvote-fixed-its-google-ai-overview-answer))
 
 ## References
 
@@ -56,14 +56,14 @@ Use when the task involves ai overviews and ai mode.
 - [Ads In Google AI Answers Concentrate In Apparel & Electronics](https://www.searchenginejournal.com/google-ai-answer-ads-apparel-electronics-report/595984) — Search Engine Journal · 2026-11-05
 - [Google Brings UCP Direct Checkout To AI Mode In Canada](https://www.searchenginejournal.com/google-brings-ucp-direct-checkout-to-ai-mode-in-canada/595882) — Search Engine Journal · 2026-11-05
 - [Google Adds Home Service Booking & Quote Links To AI Mode](https://www.searchenginejournal.com/google-ai-mode-home-services-booking-quote-links/595871) — Search Engine Journal · 2026-11-04
+- [We Cracked What Google AI Mode Wants to Cite 🤫](https://www.youtube.com/shorts/IzjuqLtMgI0) — Surfer Academy (YouTube) · 2026-10-30
 - [Google AI Mode: All You Need to Know](https://ahrefs.com/blog/google-ai-mode) — Ahrefs Blog · 2026-10-28
 - [How Feature Upvote fixed Google’s wrong AI Overview answer](https://www.semrush.com/blog/how-feature-upvote-fixed-its-google-ai-overview-answer) — Semrush Blog · 2026-10-21
 - [AI Overviews have nearly doubled across five commercial search modifiers](https://www.semrush.com/blog/ai-overviews-commercial-modifiers-study) — Semrush Blog · 2026-10-21
-- [Outrank Your Competitors Using THEIR OWN Keywords](https://www.youtube.com/watch?v=hSy4qPnvBRI) — Semrush (YouTube) · 2026-10-20
 
 ## How this skill stays current
 
 - Regenerated on 2026-11-07 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2026-05-22 → 2026-11-06.
-- 17 findings from 9 sources; confidence is **high**.
+- 18 findings from 10 sources; confidence is **high**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

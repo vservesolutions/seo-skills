@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-07T11:06:05.357Z",
+  "generatedAt": "2026-11-07T16:27:03.104Z",
   "counts": {
-    "skills": 31,
-    "findings": 176,
+    "skills": 33,
+    "findings": 192,
     "sources": 21
   },
   "skills": [
@@ -14,9 +14,9 @@
       "whenToUse": "Use when a page is not indexed or indexed wrongly, when crawl stats look wasteful, when planning robots.txt, sitemaps, canonicals, noindex or JavaScript rendering fixes, or when auditing index coverage after a release.",
       "path": "skills/technical-crawling-indexing/SKILL.md",
       "parent": null,
-      "findings": 12,
-      "sources": 4,
-      "lastUpdated": "2026-11-03",
+      "findings": 13,
+      "sources": 5,
+      "lastUpdated": "2026-11-07",
       "confidence": "medium"
     },
     {
@@ -27,9 +27,9 @@
       "whenToUse": "Use when planning site structure, fixing orphan pages, distributing authority with internal links, deciding on pagination or breadcrumbs, or restructuring a category tree.",
       "path": "skills/site-architecture-internal-links/SKILL.md",
       "parent": null,
-      "findings": 1,
-      "sources": 1,
-      "lastUpdated": "2026-04-13",
+      "findings": 3,
+      "sources": 3,
+      "lastUpdated": "2026-08-19",
       "confidence": "low"
     },
     {
@@ -40,9 +40,9 @@
       "whenToUse": "Use when diagnosing Core Web Vitals failures in Search Console or CrUX, improving LCP or INP, reducing layout shift, or setting performance budgets for a release.",
       "path": "skills/core-web-vitals-performance/SKILL.md",
       "parent": null,
-      "findings": 1,
-      "sources": 1,
-      "lastUpdated": "2026-04-16",
+      "findings": 4,
+      "sources": 3,
+      "lastUpdated": "2026-11-07",
       "confidence": "low"
     },
     {
@@ -66,8 +66,8 @@
       "whenToUse": "Use when optimizing an existing page, rewriting titles and meta descriptions, fixing thin or duplicated pages, or improving E-E-A-T signals on money pages.",
       "path": "skills/on-page-seo/SKILL.md",
       "parent": null,
-      "findings": 6,
-      "sources": 3,
+      "findings": 7,
+      "sources": 4,
       "lastUpdated": "2026-11-04",
       "confidence": "medium"
     },
@@ -79,8 +79,8 @@
       "whenToUse": "Use when building a content plan, deciding what to refresh or prune, mapping clusters and pillars, or explaining why a section of the site lost traffic.",
       "path": "skills/content-strategy/SKILL.md",
       "parent": null,
-      "findings": 3,
-      "sources": 3,
+      "findings": 4,
+      "sources": 4,
       "lastUpdated": "2026-10-20",
       "confidence": "low"
     },
@@ -92,8 +92,8 @@
       "whenToUse": "Use when planning new pages, classifying intent, sizing demand, clustering keywords by SERP overlap, or mapping queries to URLs.",
       "path": "skills/keyword-research/SKILL.md",
       "parent": null,
-      "findings": 9,
-      "sources": 8,
+      "findings": 10,
+      "sources": 9,
       "lastUpdated": "2026-11-06",
       "confidence": "medium"
     },
@@ -118,8 +118,8 @@
       "whenToUse": "Use when a business needs local pack visibility, when reviews or categories are wrong, or when planning location and service-area pages.",
       "path": "skills/local-seo/SKILL.md",
       "parent": null,
-      "findings": 9,
-      "sources": 7,
+      "findings": 11,
+      "sources": 9,
       "lastUpdated": "2026-11-06",
       "confidence": "medium"
     },
@@ -157,9 +157,9 @@
       "whenToUse": "Use when building reports, explaining traffic changes, defining SEO KPIs, or instrumenting tracking for organic performance.",
       "path": "skills/analytics-measurement/SKILL.md",
       "parent": null,
-      "findings": 30,
+      "findings": 32,
       "sources": 10,
-      "lastUpdated": "2026-11-06",
+      "lastUpdated": "2026-11-07",
       "confidence": "high"
     },
     {
@@ -170,7 +170,7 @@
       "whenToUse": "Use when organic traffic is absorbed by AI answers, when planning visibility in AI Overviews or chat assistants, or when deciding on llms.txt and AI crawler access.",
       "path": "skills/ai-search-geo/SKILL.md",
       "parent": null,
-      "findings": 60,
+      "findings": 68,
       "sources": 17,
       "lastUpdated": "2026-11-06",
       "confidence": "high"
@@ -183,8 +183,8 @@
       "whenToUse": "Use when rankings shift sharply, when a manual action or policy issue appears, or when assessing whether a site is exposed to a new spam policy.",
       "path": "skills/algorithm-updates/SKILL.md",
       "parent": null,
-      "findings": 10,
-      "sources": 5,
+      "findings": 11,
+      "sources": 6,
       "lastUpdated": "2026-11-06",
       "confidence": "medium"
     },
@@ -254,6 +254,19 @@
       "confidence": "low"
     },
     {
+      "slug": "internal-linking",
+      "name": "seo-internal-linking",
+      "title": "Internal Linking and Anchor Strategy",
+      "description": "Internal Linking and Anchor Strategy: specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves internal linking and anchor strategy.",
+      "path": "skills/internal-linking/SKILL.md",
+      "parent": "site-architecture-internal-links",
+      "findings": 1,
+      "sources": 1,
+      "lastUpdated": "2026-08-03",
+      "confidence": "low"
+    },
+    {
       "slug": "schema-markup",
       "name": "seo-schema-markup",
       "title": "Schema Markup and JSON-LD",
@@ -293,6 +306,19 @@
       "confidence": "low"
     },
     {
+      "slug": "content-refresh",
+      "name": "seo-content-refresh",
+      "title": "Content Decay and Refreshes",
+      "description": "Content Decay and Refreshes: specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves content decay and refreshes.",
+      "path": "skills/content-refresh/SKILL.md",
+      "parent": "content-strategy",
+      "findings": 1,
+      "sources": 1,
+      "lastUpdated": "2026-08-19",
+      "confidence": "low"
+    },
+    {
       "slug": "digital-pr",
       "name": "seo-digital-pr",
       "title": "Digital PR and Link Outreach",
@@ -326,7 +352,7 @@
       "whenToUse": "Use when the task involves search console analysis.",
       "path": "skills/search-console/SKILL.md",
       "parent": "analytics-measurement",
-      "findings": 12,
+      "findings": 13,
       "sources": 9,
       "lastUpdated": "2026-11-05",
       "confidence": "medium"
@@ -352,8 +378,8 @@
       "whenToUse": "Use when the task involves ai overviews and ai mode.",
       "path": "skills/ai-overviews/SKILL.md",
       "parent": "ai-search-geo",
-      "findings": 17,
-      "sources": 9,
+      "findings": 18,
+      "sources": 10,
       "lastUpdated": "2026-11-06",
       "confidence": "high"
     },
@@ -378,8 +404,8 @@
       "whenToUse": "Use when the task involves ai citations and brand mentions.",
       "path": "skills/ai-citations/SKILL.md",
       "parent": "ai-search-geo",
-      "findings": 6,
-      "sources": 5,
+      "findings": 7,
+      "sources": 6,
       "lastUpdated": "2026-11-04",
       "confidence": "medium"
     },

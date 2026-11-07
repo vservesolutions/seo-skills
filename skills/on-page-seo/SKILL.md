@@ -1,9 +1,9 @@
 ---
 name: seo-on-page-seo
-description: "Titles, meta descriptions, heading structure, keyword placement, E-E-A-T signals and page-level content quality. Auto-generated from 6 findings across 3 sources."
+description: "Titles, meta descriptions, heading structure, keyword placement, E-E-A-T signals and page-level content quality. Auto-generated from 7 findings across 4 sources."
 last_updated: 2026-11-04
-findings: 6
-sources: 3
+findings: 7
+sources: 4
 confidence: medium
 ---
 
@@ -33,6 +33,7 @@ Use when optimizing an existing page, rewriting titles and meta descriptions, fi
 - **Reddit Adds Ads To Search, Expands Keyword Targeting** — 2026-11-04 · Search Engine Journal — Reddit is testing ads in its own search results with select advertisers and may match ads to what people search for. ([link](https://www.searchenginejournal.com/reddit-begins-testing-ads-in-its-own-search-results/595935))
 - **Image SEO: How to optimize alt and title text** — 2026-10-27 · Yoast SEO Blog — Adding alt text improves accessibility and SEO, as it helps screen readers and search engines understand images. ([link](https://yoast.com/image-seo-alt-tag-and-title-tag-optimization))
 - **Yoast AI Generate for image alt text: from flagged to fixed** — 2026-10-27 · Yoast SEO Blog — Yoast already shows you which product images are missing alt text. ([link](https://yoast.com/yoast-seo-oct-27-2026))
+- **commercial serps product features dominate** — 2026-09-24 · Moz (YouTube) — 📉 Tom Capper speaking at BrightonSEO Even when organic results manage to sit above the fold on commercial SERPs, they're barely squeezing in. ([link](https://www.youtube.com/shorts/OCi6rjiFKvI))
 - **Image SEO: Optimizing images for search engines** — 2026-09-12 · Yoast SEO Blog — Table of contents On optimizing your images Always use images Getting your images in AI search results Finding the right image Preparing images for use in your article Adding the image to your article XML image sitemaps Serving images via… ([link](https://yoast.com/image-seo))
 - **What are YMYL websites? How does Google evaluate these?** — 2026-08-04 · Yoast SEO Blog — The importance of YMYL Building user trust YMYL and the Google Quality Raters’ Guidelines Yoast SEO, E-E-A-T, YMYL and site policies Conclusion Google evaluates YMYL content with strict standards using E-E-A-T: Experience, Expertise… ([link](https://yoast.com/what-are-ymyl-websites))
 - **Using the Screaming Frog SEO Spider to Generate Markdown at Scale** — 2026-04-21 · Screaming Frog Blog — In this guide, we’ll walk through two methods for generating markdown of every page on a site during a crawl, and we’ll share a Python script that takes the SEO Spider’s xlsx export and turns it into individual .md files for use downstream. ([link](https://www.screamingfrog.co.uk/blog/generate-markdown-at-scale))
@@ -42,6 +43,7 @@ Use when optimizing an existing page, rewriting titles and meta descriptions, fi
 - [Reddit Adds Ads To Search, Expands Keyword Targeting](https://www.searchenginejournal.com/reddit-begins-testing-ads-in-its-own-search-results/595935) — Search Engine Journal · 2026-11-04
 - [Image SEO: How to optimize alt and title text](https://yoast.com/image-seo-alt-tag-and-title-tag-optimization) — Yoast SEO Blog · 2026-10-27
 - [Yoast AI Generate for image alt text: from flagged to fixed](https://yoast.com/yoast-seo-oct-27-2026) — Yoast SEO Blog · 2026-10-27
+- [commercial serps product features dominate](https://www.youtube.com/shorts/OCi6rjiFKvI) — Moz (YouTube) · 2026-09-24
 - [Image SEO: Optimizing images for search engines](https://yoast.com/image-seo) — Yoast SEO Blog · 2026-09-12
 - [What are YMYL websites? How does Google evaluate these?](https://yoast.com/what-are-ymyl-websites) — Yoast SEO Blog · 2026-08-04
 - [Using the Screaming Frog SEO Spider to Generate Markdown at Scale](https://www.screamingfrog.co.uk/blog/generate-markdown-at-scale) — Screaming Frog Blog · 2026-04-21
@@ -50,5 +52,5 @@ Use when optimizing an existing page, rewriting titles and meta descriptions, fi
 
 - Regenerated on 2026-11-07 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2026-04-21 → 2026-11-04.
-- 6 findings from 3 sources; confidence is **medium**.
+- 7 findings from 4 sources; confidence is **medium**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

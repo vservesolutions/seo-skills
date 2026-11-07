@@ -73,6 +73,7 @@ export async function loadSources(root = PROJECT_ROOT) {
       timeoutMs: 20000,
       dropAfterDays: 1095,
       minTextLength: 120,
+      shortsMinTextLength: 300,
       ...(config.settings || {})
     },
     userAgent: config.userAgent || 'SEOSkillsBot/1.0 (+local SEO research collector)',

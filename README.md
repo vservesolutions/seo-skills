@@ -142,7 +142,7 @@ node src/cli.js schedule loop --time 06:30
 - `enabled: false` parks a source (Search Engine Land ships disabled — it returns 403 to bots).
 
 Global settings live under `settings`: `perSourceLimit`, `maxFulltextPerRun`, `fulltext`,
-`respectRobots`, `delayMs`, `timeoutMs`, `dropAfterDays`, `minTextLength`.
+`respectRobots`, `delayMs`, `timeoutMs`, `dropAfterDays`, `minTextLength`, `shortsMinTextLength`.
 
 ### YouTube sources
 
@@ -168,8 +168,11 @@ YouTube publishes Atom feeds with no API key:
   contributes its title plus description only. Channels that post terse descriptions (Ahrefs often
   writes a hashtag) yield few findings; channels with written summaries (Moz, Backlinko, SE
   Ranking, Google Search Central) yield most of them.
-- Shorts are skipped and videos that match no topic are dropped — a clickbait title is not enough
-  to attach a practice to a skill.
+- Shorts are kept only when the description is written out like a summary — `shortsMinTextLength`
+  (300 characters) in `settings` is the cutoff. Most Shorts are a caption plus hashtags and are
+  skipped; the long ones are often as substantive as a blog post (1,000+ character descriptions on
+  schema, AI Mode citations and GEO).
+- Videos that match no topic are dropped: a title alone is not enough to attach a practice to a skill.
 - Keep `fulltext: false`: there is no article page to fetch, so this avoids a wasted request.
 - Find a channel id by opening the channel and reading the `channelId` in the page, or by searching
   YouTube with the channel filter; the feed URL is `videos.xml?channel_id=<id>`.
