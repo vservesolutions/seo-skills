@@ -48,7 +48,7 @@ jobs:
             seo-state-
 
       - name: Run tests
-        run: node --test test/
+        run: node --test test/*.test.js
 
       - name: Collect articles and skills
         env:
