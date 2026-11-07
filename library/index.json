@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T10:23:59.174Z",
+  "generatedAt": "2026-11-07T10:39:10.307Z",
   "counts": {
     "skills": 182,
     "packs": 38,
@@ -496,7 +496,7 @@
       "rawUrl": "https://raw.githubusercontent.com/huifer/claude-code-seo/HEAD/skills/seo-auditor/SKILL.md",
       "ref": "HEAD",
       "discoveredVia": "awesome-seo-agent-skills",
-      "platformSource": "declared",
+      "platformSource": "declared+detected",
       "license": "MIT",
       "platforms": [
         "claude-code"
@@ -1187,7 +1187,7 @@
       "rawUrl": "https://raw.githubusercontent.com/norahe0304-art/30x-seo/HEAD/skills/30x-seo-schema/SKILL.md",
       "ref": "HEAD",
       "discoveredVia": "awesome-seo-agent-skills",
-      "platformSource": "declared",
+      "platformSource": "declared+detected",
       "license": "MIT",
       "platforms": [
         "claude-code"
@@ -2200,7 +2200,7 @@
       "rawUrl": "https://raw.githubusercontent.com/norahe0304-art/30x-seo/HEAD/skills/30x-seo-keywords/SKILL.md",
       "ref": "HEAD",
       "discoveredVia": "awesome-seo-agent-skills",
-      "platformSource": "declared",
+      "platformSource": "declared+detected",
       "license": "MIT",
       "platforms": [
         "claude-code"
@@ -2223,7 +2223,7 @@
       "rawUrl": "https://raw.githubusercontent.com/norahe0304-art/30x-seo/HEAD/skills/30x-seo-serp/SKILL.md",
       "ref": "HEAD",
       "discoveredVia": "awesome-seo-agent-skills",
-      "platformSource": "declared",
+      "platformSource": "declared+detected",
       "license": "MIT",
       "platforms": [
         "claude-code"
@@ -2801,7 +2801,7 @@
       "rawUrl": "https://raw.githubusercontent.com/norahe0304-art/30x-seo/HEAD/skills/30x-seo-backlinks/SKILL.md",
       "ref": "HEAD",
       "discoveredVia": "awesome-seo-agent-skills",
-      "platformSource": "declared",
+      "platformSource": "declared+detected",
       "license": "MIT",
       "platforms": [
         "claude-code"
@@ -3031,7 +3031,7 @@
       "rawUrl": "https://raw.githubusercontent.com/norahe0304-art/30x-seo/HEAD/skills/30x-seo-sitemap/SKILL.md",
       "ref": "HEAD",
       "discoveredVia": "awesome-seo-agent-skills",
-      "platformSource": "declared",
+      "platformSource": "declared+detected",
       "license": "MIT",
       "platforms": [
         "claude-code"
@@ -3215,7 +3215,7 @@
       "rawUrl": "https://raw.githubusercontent.com/norahe0304-art/30x-seo/HEAD/skills/30x-seo-hreflang/SKILL.md",
       "ref": "HEAD",
       "discoveredVia": "awesome-seo-agent-skills",
-      "platformSource": "declared",
+      "platformSource": "declared+detected",
       "license": "MIT",
       "platforms": [
         "claude-code"
@@ -3376,7 +3376,7 @@
       "rawUrl": "https://raw.githubusercontent.com/jrr996shujin-png/openclaw-seo-aeo-skills/HEAD/seo-competitive-intel/SKILL.md",
       "ref": "HEAD",
       "discoveredVia": "awesome-seo-agent-skills",
-      "platformSource": "declared",
+      "platformSource": "declared+detected",
       "license": "MIT",
       "platforms": [
         "openclaw"
@@ -3955,7 +3955,7 @@
       "rawUrl": "https://raw.githubusercontent.com/huifer/claude-code-seo/HEAD/skills/ai-content-creator/skill.md",
       "ref": "HEAD",
       "discoveredVia": "awesome-seo-agent-skills",
-      "platformSource": "declared",
+      "platformSource": "declared+detected",
       "license": "MIT",
       "platforms": [
         "claude-code"
@@ -3978,7 +3978,7 @@
       "rawUrl": "https://raw.githubusercontent.com/norahe0304-art/30x-seo/HEAD/seo/SKILL.md",
       "ref": "HEAD",
       "discoveredVia": "awesome-seo-agent-skills",
-      "platformSource": "declared",
+      "platformSource": "declared+detected",
       "license": "MIT",
       "platforms": [
         "claude-code"
@@ -4024,7 +4024,7 @@
       "rawUrl": "https://raw.githubusercontent.com/jrr996shujin-png/openclaw-seo-aeo-skills/HEAD/seo-aeo-diagnostics/SKILL.md",
       "ref": "HEAD",
       "discoveredVia": "awesome-seo-agent-skills",
-      "platformSource": "declared",
+      "platformSource": "declared+detected",
       "license": "MIT",
       "platforms": [
         "openclaw"
@@ -4277,7 +4277,7 @@
       "rawUrl": "https://raw.githubusercontent.com/norahe0304-art/30x-seo/HEAD/skills/30x-seo-redirects/SKILL.md",
       "ref": "HEAD",
       "discoveredVia": "awesome-seo-agent-skills",
-      "platformSource": "declared",
+      "platformSource": "declared+detected",
       "license": "MIT",
       "platforms": [
         "claude-code"

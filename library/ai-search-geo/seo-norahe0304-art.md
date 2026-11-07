@@ -3,7 +3,7 @@ name: "seo"
 description: "Master SEO orchestrator with 24 specialized sub-skills across 9 categories. Comprehensive SEO analysis for any website or business type. Performs full site audits, single-page deep analysis, technical SEO checks (crawlability, indexability, Core Web Vitals with INP), schema markup, content quality (E-E-A-T framework), image optimization, sitemap analysis, site architecture planning, AI search optimization (GEO for ChatGPT, Perplexity, AI Overviews), backlink analysis, keyword research, SERP tracking, and AI visibility monitoring. Industry detection for SaaS, e-commerce, local business…"
 category: "ai-search-geo"
 platforms: ["claude-code"]
-platform_source: "declared"
+platform_source: "declared+detected"
 repo: "norahe0304-art/30x-seo"
 repo_url: "https://github.com/norahe0304-art/30x-seo"
 source: "https://github.com/norahe0304-art/30x-seo/blob/HEAD/seo/SKILL.md"
@@ -17,7 +17,7 @@ collected: "2026-11-07"
 
 <!-- Claude Code skill · norahe0304-art/30x-seo · seo/SKILL.md · MIT
      Source: https://github.com/norahe0304-art/30x-seo/blob/HEAD/seo/SKILL.md
-     Detected by: declared · Regenerated on every run; edit the upstream skill, not this copy. -->
+     Detected by: declared+detected · Regenerated on every run; edit the upstream skill, not this copy. -->
 
 # SEO — Master Orchestrator (24 Sub-Skills)
 

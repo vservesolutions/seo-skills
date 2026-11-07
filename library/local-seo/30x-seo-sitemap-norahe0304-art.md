@@ -3,7 +3,7 @@ name: "30x-seo-sitemap"
 description: "Analyze existing XML sitemaps or generate new ones with industry templates. Validates format, URLs, and structure. Use when user says \"sitemap\", \"generate sitemap\", \"sitemap issues\", or \"XML sitemap\"."
 category: "local-seo"
 platforms: ["claude-code"]
-platform_source: "declared"
+platform_source: "declared+detected"
 repo: "norahe0304-art/30x-seo"
 repo_url: "https://github.com/norahe0304-art/30x-seo"
 source: "https://github.com/norahe0304-art/30x-seo/blob/HEAD/skills/30x-seo-sitemap/SKILL.md"
@@ -17,7 +17,7 @@ collected: "2026-11-07"
 
 <!-- Claude Code skill · norahe0304-art/30x-seo · skills/30x-seo-sitemap/SKILL.md · MIT
      Source: https://github.com/norahe0304-art/30x-seo/blob/HEAD/skills/30x-seo-sitemap/SKILL.md
-     Detected by: declared · Regenerated on every run; edit the upstream skill, not this copy. -->
+     Detected by: declared+detected · Regenerated on every run; edit the upstream skill, not this copy. -->
 
 # Sitemap Analysis & Generation
 

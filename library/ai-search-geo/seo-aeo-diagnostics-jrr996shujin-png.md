@@ -3,7 +3,7 @@ name: "seo-aeo-diagnostics"
 description: "网站 SEO/AEO 基础诊断技能。当用户要求对网站做 SEO 基础诊断、技术审计、AEO 可访问性检查、或想了解网站在搜索引擎和 AI 引擎面前的健康状况时，使用此技能。即使用户只是说'帮我看看这个网站有什么问题'或'检查一下我的网站'，也应触发。此技能编排 7 个子模块执行完整诊断：技术基础、搜索引擎可访问性、结构化数据、内容结构、多媒体可访问性、内容质量信号、站内架构。"
 category: "ai-search-geo"
 platforms: ["openclaw"]
-platform_source: "declared"
+platform_source: "declared+detected"
 repo: "jrr996shujin-png/openclaw-seo-aeo-skills"
 repo_url: "https://github.com/jrr996shujin-png/openclaw-seo-aeo-skills"
 source: "https://github.com/jrr996shujin-png/openclaw-seo-aeo-skills/blob/HEAD/seo-aeo-diagnostics/SKILL.md"
@@ -17,7 +17,7 @@ collected: "2026-11-07"
 
 <!-- OpenClaw skill · jrr996shujin-png/openclaw-seo-aeo-skills · seo-aeo-diagnostics/SKILL.md · MIT
      Source: https://github.com/jrr996shujin-png/openclaw-seo-aeo-skills/blob/HEAD/seo-aeo-diagnostics/SKILL.md
-     Detected by: declared · Regenerated on every run; edit the upstream skill, not this copy. -->
+     Detected by: declared+detected · Regenerated on every run; edit the upstream skill, not this copy. -->
 
 # SEO/AEO 基础诊断 — 主编排器
 

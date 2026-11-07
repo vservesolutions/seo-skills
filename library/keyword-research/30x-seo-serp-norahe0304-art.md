@@ -3,7 +3,7 @@ name: "30x-seo-serp"
 description: "Track SERP rankings, monitor position changes, analyze SERP features, and identify ranking opportunities using DataForSEO. Alternative to Google Search Console for ranking data. Use when user says \"rankings\", \"SERP tracking\", \"position monitoring\", \"rank tracking\", \"keyword positions\", or \"SERP analysis\"."
 category: "keyword-research"
 platforms: ["claude-code"]
-platform_source: "declared"
+platform_source: "declared+detected"
 repo: "norahe0304-art/30x-seo"
 repo_url: "https://github.com/norahe0304-art/30x-seo"
 source: "https://github.com/norahe0304-art/30x-seo/blob/HEAD/skills/30x-seo-serp/SKILL.md"
@@ -17,7 +17,7 @@ collected: "2026-11-07"
 
 <!-- Claude Code skill · norahe0304-art/30x-seo · skills/30x-seo-serp/SKILL.md · MIT
      Source: https://github.com/norahe0304-art/30x-seo/blob/HEAD/skills/30x-seo-serp/SKILL.md
-     Detected by: declared · Regenerated on every run; edit the upstream skill, not this copy. -->
+     Detected by: declared+detected · Regenerated on every run; edit the upstream skill, not this copy. -->
 
 # SEO SERP Tracking
 

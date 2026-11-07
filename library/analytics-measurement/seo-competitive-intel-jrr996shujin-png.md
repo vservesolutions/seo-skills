@@ -3,7 +3,7 @@ name: "seo-competitive-intel"
 description: "品牌 vs 竞品 SEO/AEO 竞争情报监测系统。将关键词排名追踪、内容表现分析、竞品内容监测、月度汇总报告整合为一个 composition skill。当用户提到'关键词排名''竞品监测''内容表现''排名掉了''竞品发了什么新文章''月度 SEO 报告''流量下降了''帮我看看我们的 SEO 状况''跟竞品比一下''生成本月报告'时触发。数据源：SEMrush API + Google Search Console API + Google Analytics API。"
 category: "analytics-measurement"
 platforms: ["openclaw"]
-platform_source: "declared"
+platform_source: "declared+detected"
 repo: "jrr996shujin-png/openclaw-seo-aeo-skills"
 repo_url: "https://github.com/jrr996shujin-png/openclaw-seo-aeo-skills"
 source: "https://github.com/jrr996shujin-png/openclaw-seo-aeo-skills/blob/HEAD/seo-competitive-intel/SKILL.md"
@@ -17,7 +17,7 @@ collected: "2026-11-07"
 
 <!-- OpenClaw skill · jrr996shujin-png/openclaw-seo-aeo-skills · seo-competitive-intel/SKILL.md · MIT
      Source: https://github.com/jrr996shujin-png/openclaw-seo-aeo-skills/blob/HEAD/seo-competitive-intel/SKILL.md
-     Detected by: declared · Regenerated on every run; edit the upstream skill, not this copy. -->
+     Detected by: declared+detected · Regenerated on every run; edit the upstream skill, not this copy. -->
 
 # SEO 竞争情报监测系统 — 主编排器
 

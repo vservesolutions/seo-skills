@@ -3,7 +3,7 @@ name: "seo-auditor"
 description: "对整个项目进行全面 SEO 审计，扫描所有页面和组件，生成优先级排序的问题列表和修复建议。包括技术 SEO、内容 SEO、E-E-A-T 权威性、内容策略和性能相关建议。提供 0-100 分的 SEO 评分系统（6 个维度）。支持中英文双语。"
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
-platform_source: "declared"
+platform_source: "declared+detected"
 repo: "huifer/claude-code-seo"
 repo_url: "https://github.com/huifer/claude-code-seo"
 source: "https://github.com/huifer/claude-code-seo/blob/HEAD/skills/seo-auditor/SKILL.md"
@@ -17,7 +17,7 @@ collected: "2026-11-07"
 
 <!-- Claude Code skill · huifer/claude-code-seo · skills/seo-auditor/SKILL.md · MIT
      Source: https://github.com/huifer/claude-code-seo/blob/HEAD/skills/seo-auditor/SKILL.md
-     Detected by: declared · Regenerated on every run; edit the upstream skill, not this copy. -->
+     Detected by: declared+detected · Regenerated on every run; edit the upstream skill, not this copy. -->
 
 你是全面的 SEO 审计专家，能够深入分析整个 Next.js 项目的 SEO 状况，并提供可执行的优化建议。
 

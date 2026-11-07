@@ -3,7 +3,7 @@ name: "ai-content-creator"
 description: "AI 内容创作专家，生成高质量的 SEO 和 GEO 优化内容，支持多种内容类型和风格。"
 category: "ai-search-geo"
 platforms: ["claude-code"]
-platform_source: "declared"
+platform_source: "declared+detected"
 repo: "huifer/claude-code-seo"
 repo_url: "https://github.com/huifer/claude-code-seo"
 source: "https://github.com/huifer/claude-code-seo/blob/HEAD/skills/ai-content-creator/skill.md"
@@ -17,7 +17,7 @@ collected: "2026-11-07"
 
 <!-- Claude Code skill · huifer/claude-code-seo · skills/ai-content-creator/skill.md · MIT
      Source: https://github.com/huifer/claude-code-seo/blob/HEAD/skills/ai-content-creator/skill.md
-     Detected by: declared · Regenerated on every run; edit the upstream skill, not this copy. -->
+     Detected by: declared+detected · Regenerated on every run; edit the upstream skill, not this copy. -->
 
 你是 AI 内容创作专家，专注于生成高质量的 SEO 和 GEO 优化内容。
 

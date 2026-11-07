@@ -3,7 +3,7 @@ name: "30x-seo-redirects"
 description: "Redirect chain audit and analysis. Detects redirect loops, long chains, mixed protocols, and orphaned redirects. Use when user says \"redirect audit\", \"301 redirect\", \"redirect chain\", \"redirect loop\", or \"migration redirects\"."
 category: "migration-redirects"
 platforms: ["claude-code"]
-platform_source: "declared"
+platform_source: "declared+detected"
 repo: "norahe0304-art/30x-seo"
 repo_url: "https://github.com/norahe0304-art/30x-seo"
 source: "https://github.com/norahe0304-art/30x-seo/blob/HEAD/skills/30x-seo-redirects/SKILL.md"
@@ -17,7 +17,7 @@ collected: "2026-11-07"
 
 <!-- Claude Code skill · norahe0304-art/30x-seo · skills/30x-seo-redirects/SKILL.md · MIT
      Source: https://github.com/norahe0304-art/30x-seo/blob/HEAD/skills/30x-seo-redirects/SKILL.md
-     Detected by: declared · Regenerated on every run; edit the upstream skill, not this copy. -->
+     Detected by: declared+detected · Regenerated on every run; edit the upstream skill, not this copy. -->
 
 # Redirect Audit
 

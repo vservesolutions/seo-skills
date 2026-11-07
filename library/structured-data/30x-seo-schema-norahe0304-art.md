@@ -3,7 +3,7 @@ name: "30x-seo-schema"
 description: "Detect, validate, and generate Schema.org structured data. JSON-LD format preferred. Use when user says \"schema\", \"structured data\", \"rich results\", \"JSON-LD\", or \"markup\"."
 category: "structured-data"
 platforms: ["claude-code"]
-platform_source: "declared"
+platform_source: "declared+detected"
 repo: "norahe0304-art/30x-seo"
 repo_url: "https://github.com/norahe0304-art/30x-seo"
 source: "https://github.com/norahe0304-art/30x-seo/blob/HEAD/skills/30x-seo-schema/SKILL.md"
@@ -17,7 +17,7 @@ collected: "2026-11-07"
 
 <!-- Claude Code skill · norahe0304-art/30x-seo · skills/30x-seo-schema/SKILL.md · MIT
      Source: https://github.com/norahe0304-art/30x-seo/blob/HEAD/skills/30x-seo-schema/SKILL.md
-     Detected by: declared · Regenerated on every run; edit the upstream skill, not this copy. -->
+     Detected by: declared+detected · Regenerated on every run; edit the upstream skill, not this copy. -->
 
 # Schema Markup Analysis & Generation
 

@@ -3,7 +3,7 @@ name: "30x-seo-keywords"
 description: "Comprehensive keyword research and analysis using DataForSEO API. Discover keyword opportunities, analyze search volume and difficulty, find related keywords, track rankings, and identify content gaps. Use when user says \"keywords\", \"keyword research\", \"search volume\", \"keyword difficulty\", \"ranking keywords\", \"keyword ideas\", \"keyword suggestions\", or \"content gap\"."
 category: "keyword-research"
 platforms: ["claude-code"]
-platform_source: "declared"
+platform_source: "declared+detected"
 repo: "norahe0304-art/30x-seo"
 repo_url: "https://github.com/norahe0304-art/30x-seo"
 source: "https://github.com/norahe0304-art/30x-seo/blob/HEAD/skills/30x-seo-keywords/SKILL.md"
@@ -17,7 +17,7 @@ collected: "2026-11-07"
 
 <!-- Claude Code skill · norahe0304-art/30x-seo · skills/30x-seo-keywords/SKILL.md · MIT
      Source: https://github.com/norahe0304-art/30x-seo/blob/HEAD/skills/30x-seo-keywords/SKILL.md
-     Detected by: declared · Regenerated on every run; edit the upstream skill, not this copy. -->
+     Detected by: declared+detected · Regenerated on every run; edit the upstream skill, not this copy. -->
 
 # SEO Keywords Analysis
 

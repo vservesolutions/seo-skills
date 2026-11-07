@@ -3,7 +3,7 @@ name: "30x-seo-backlinks"
 description: "Comprehensive backlink analysis using DataForSEO API. Analyze backlink profiles, find link building opportunities, detect toxic links, compare with competitors, and identify link gaps. Use when user says \"backlinks\", \"link building\", \"referring domains\", \"link profile\", \"toxic links\", \"link gap\", \"competitor links\", or \"domain authority\"."
 category: "link-building"
 platforms: ["claude-code"]
-platform_source: "declared"
+platform_source: "declared+detected"
 repo: "norahe0304-art/30x-seo"
 repo_url: "https://github.com/norahe0304-art/30x-seo"
 source: "https://github.com/norahe0304-art/30x-seo/blob/HEAD/skills/30x-seo-backlinks/SKILL.md"
@@ -17,7 +17,7 @@ collected: "2026-11-07"
 
 <!-- Claude Code skill · norahe0304-art/30x-seo · skills/30x-seo-backlinks/SKILL.md · MIT
      Source: https://github.com/norahe0304-art/30x-seo/blob/HEAD/skills/30x-seo-backlinks/SKILL.md
-     Detected by: declared · Regenerated on every run; edit the upstream skill, not this copy. -->
+     Detected by: declared+detected · Regenerated on every run; edit the upstream skill, not this copy. -->
 
 # SEO Backlinks Analysis
 
