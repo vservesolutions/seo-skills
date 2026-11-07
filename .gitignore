@@ -1,0 +1,11 @@
+node_modules/
+.env
+.env.*
+!.env.example
+data/update.log
+data/runs/
+data/state.json
+data/library-state.json
+update-daily.cmd
+*.tmp
+.DS_Store

@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "userAgent": "SEOSkillsBot/1.0 (+local SEO research collector)",
+  "settings": {
+    "perSourceLimit": 10,
+    "maxFulltextPerRun": 15,
+    "fulltext": true,
+    "respectRobots": true,
+    "delayMs": 700,
+    "timeoutMs": 20000,
+    "dropAfterDays": 1095,
+    "minTextLength": 120
+  },
+  "sources": [
+    {
+      "id": "google-search-central",
+      "name": "Google Search Central Blog",
+      "url": "https://developers.google.com/search/blog/feed.xml",
+      "trust": 5,
+      "enabled": true
+    },
+    {
+      "id": "bing-webmaster",
+      "name": "Bing Webmaster Blog",
+      "url": "https://blogs.bing.com/feed",
+      "trust": 4,
+      "perSourceLimit": 6,
+      "enabled": true
+    },
+    {
+      "id": "schemaorg-releases",
+      "name": "Schema.org Releases",
+      "url": "https://github.com/schemaorg/schemaorg/releases.atom",
+      "trust": 5,
+      "enabled": true
+    },
+    {
+      "id": "webdev",
+      "name": "web.dev",
+      "url": "https://web.dev/feed.xml",
+      "trust": 4,
+      "enabled": true
+    },
+    {
+      "id": "screamingfrog",
+      "name": "Screaming Frog Blog",
+      "url": "https://www.screamingfrog.co.uk/blog/feed/",
+      "trust": 4,
+      "enabled": true
+    },
+    {
+      "id": "moz",
+      "name": "Moz Blog",
+      "url": "https://moz.com/blog/feed",
+      "trust": 4,
+      "enabled": false,
+      "note": "Disabled by default: the public feed still lists 2021 posts only, so it adds nothing. Re-enable if it starts updating."
+    },
+    {
+      "id": "ahrefs",
+      "name": "Ahrefs Blog",
+      "url": "https://ahrefs.com/blog/feed/",
+      "trust": 3,
+      "enabled": true
+    },
+    {
+      "id": "semrush",
+      "name": "Semrush Blog",
+      "url": "https://www.semrush.com/blog/feed/",
+      "trust": 3,
+      "enabled": true
+    },
+    {
+      "id": "searchenginejournal",
+      "name": "Search Engine Journal",
+      "url": "https://www.searchenginejournal.com/feed/",
+      "trust": 3,
+      "enabled": true
+    },
+    {
+      "id": "yoast",
+      "name": "Yoast SEO Blog",
+      "url": "https://yoast.com/feed/",
+      "trust": 3,
+      "enabled": true
+    },
+    {
+      "id": "seroundtable",
+      "name": "Search Engine Roundtable",
+      "url": "https://www.seroundtable.com/index.rdf",
+      "trust": 3,
+      "enabled": true
+    },
+    {
+      "id": "backlinko",
+      "name": "Backlinko",
+      "url": "https://backlinko.com/feed",
+      "trust": 3,
+      "enabled": true
+    },
+    {
+      "id": "webmasters-stackexchange",
+      "name": "Webmasters Stack Exchange",
+      "url": "https://webmasters.stackexchange.com/feeds",
+      "trust": 2,
+      "enabled": true
+    },
+    {
+      "id": "reddit-seo",
+      "name": "r/SEO",
+      "url": "https://www.reddit.com/r/SEO/.rss",
+      "trust": 1,
+      "perSourceLimit": 8,
+      "enabled": false,
+      "note": "Disabled by default: high volume, low signal (career posts, paid-ads questions). Enable for community chatter."
+    },
+    {
+      "id": "searchengineland",
+      "name": "Search Engine Land",
+      "url": "https://searchengineland.com/feed",
+      "trust": 3,
+      "enabled": false,
+      "note": "Disabled by default: the site returns HTTP 403 to non-browser clients. Enable if it starts working from your network."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "seo-skills",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Self-updating SEO knowledge collector that rebuilds agent-ready skills and a local dashboard every day.",
+  "engines": {
+    "node": ">=20.6"
+  },
+  "scripts": {
+    "update": "node --env-file-if-exists=.env src/cli.js update",
+    "build": "node src/cli.js build",
+    "status": "node src/cli.js status",
+    "doctor": "node src/cli.js doctor",
+    "search": "node src/cli.js search",
+    "library": "node src/cli.js library",
+    "collect": "node --env-file-if-exists=.env src/cli.js collect",
+    "serve": "node src/cli.js serve",
+    "schedule": "node src/cli.js schedule show",
+    "test": "node --test test/"
+  }
+}

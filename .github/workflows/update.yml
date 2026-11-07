@@ -1,0 +1,86 @@
+name: Refresh SEO skills
+
+# Near-real-time refresh: every 3 hours, plus on demand.
+# GitHub cron is UTC and can start a few minutes late under load.
+on:
+  schedule:
+    - cron: '17 */3 * * *'
+  workflow_dispatch:
+    inputs:
+      max_fulltext:
+        description: Article pages to fetch this run
+        required: false
+        default: '15'
+      max_repos:
+        description: Skill packs to scan this run
+        required: false
+        default: '18'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: seo-skills-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # HTTP caches and pack rotation survive between runs without committing them.
+      - name: Restore collector state
+        uses: actions/cache@v4
+        with:
+          path: |
+            data/state.json
+            data/library-state.json
+          key: seo-state-${{ github.run_id }}
+          restore-keys: |
+            seo-state-
+
+      - name: Run tests
+        run: node --test test/
+
+      - name: Collect articles and skills
+        env:
+          # Authenticated requests: 1,000 GitHub API calls/hour instead of 60,
+          # which is what lets the library scan many packs per run.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node src/cli.js update \
+            --max-fulltext "${{ github.event.inputs.max_fulltext || '15' }}" \
+            --max-repos "${{ github.event.inputs.max_repos || '18' }}"
+
+      - name: Commit refreshed skills
+        run: |
+          git config user.name "seo-skills-bot"
+          git config user.email "actions@users.noreply.github.com"
+          # .gitignore keeps caches, logs and per-run reports out of the commit.
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes this run."
+            exit 0
+          fi
+          git commit -m "chore: refresh SEO skills $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
+
+      - name: Summary
+        if: always()
+        run: |
+          node src/cli.js status >> "$GITHUB_STEP_SUMMARY" || true
+          echo '' >> "$GITHUB_STEP_SUMMARY"
+          echo '### Generated skills' >> "$GITHUB_STEP_SUMMARY"
+          node -e "
+            const idx = require('./skills/index.json');
+            const rows = idx.skills.map((s) => \`| \${s.parent ? '↳ ' : ''}\${s.title} | \${s.findings} | \${s.confidence} |\`);
+            console.log(['| Skill | Findings | Confidence |', '| --- | ---: | --- |', ...rows].join('\n'));
+          " >> "$GITHUB_STEP_SUMMARY" || true

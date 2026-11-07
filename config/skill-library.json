@@ -1,0 +1,27 @@
+{
+  "settings": {
+    "maxReposPerRun": 18,
+    "maxSkillsPerRepo": 8,
+    "maxSkillBytes": 120000,
+    "rescanDays": 7,
+    "delayMs": 150,
+    "minDescriptionChars": 30,
+    "includeSearch": true,
+    "searchQueries": [
+      "seo agent skill",
+      "claude seo skill",
+      "geo seo agent skills",
+      "codex seo skill"
+    ],
+    "searchPerQuery": 6,
+    "tokenEnv": "GITHUB_TOKEN"
+  },
+  "lists": [
+    {
+      "id": "awesome-seo-agent-skills",
+      "name": "Awesome SEO Agent Skills",
+      "url": "https://raw.githubusercontent.com/RankSpotAI/awesome-seo-agent-skills/main/README.md"
+    }
+  ],
+  "repos": []
+}

@@ -1,0 +1,933 @@
+{
+  "version": 1,
+  "topics": [
+    {
+      "id": "technical-crawling-indexing",
+      "title": "Technical SEO: Crawling, Indexing and Rendering",
+      "description": "How search engines discover, crawl, render and index URLs, and how to remove crawl waste, duplicates and index bloat.",
+      "whenToUse": "Use when a page is not indexed or indexed wrongly, when crawl stats look wasteful, when planning robots.txt, sitemaps, canonicals, noindex or JavaScript rendering fixes, or when auditing index coverage after a release.",
+      "keywords": [
+        "robots.txt",
+        "crawl budget",
+        "xml sitemap",
+        "sitemap index",
+        "index coverage",
+        "page indexing",
+        "noindex",
+        "canonical",
+        "canonical tag",
+        "crawler",
+        "googlebot",
+        "crawl stats",
+        "url inspection",
+        "soft 404",
+        "crawl anomaly",
+        "javascript seo",
+        "rendering",
+        "x-robots-tag",
+        "index bloat",
+        "duplicate content",
+        "crawl rate",
+        "sitemap",
+        "http status",
+        "redirect chain",
+        "410",
+        "429"
+      ]
+    },
+    {
+      "id": "site-architecture-internal-links",
+      "title": "Site Architecture and Internal Linking",
+      "description": "Information architecture, crawl depth, internal link equity flow, hub pages, breadcrumbs and orphan pages.",
+      "whenToUse": "Use when planning site structure, fixing orphan pages, distributing authority with internal links, deciding on pagination or breadcrumbs, or restructuring a category tree.",
+      "keywords": [
+        "internal linking",
+        "internal links",
+        "site architecture",
+        "information architecture",
+        "breadcrumb",
+        "orphan page",
+        "click depth",
+        "link equity",
+        "hub page",
+        "pillar page links",
+        "navigation menu",
+        "category structure",
+        "silo",
+        "pagination",
+        "related posts",
+        "anchor text distribution",
+        "crawl depth",
+        "internal link audit",
+        "html sitemap"
+      ]
+    },
+    {
+      "id": "core-web-vitals-performance",
+      "title": "Core Web Vitals and Page Experience",
+      "description": "LCP, INP and CLS work, page speed diagnostics, image and font delivery, render-blocking resources and performance budgets.",
+      "whenToUse": "Use when diagnosing Core Web Vitals failures in Search Console or CrUX, improving LCP or INP, reducing layout shift, or setting performance budgets for a release.",
+      "keywords": [
+        "core web vitals",
+        "largest contentful paint",
+        "lcp",
+        "interaction to next paint",
+        "inp",
+        "cumulative layout shift",
+        "cls",
+        "first contentful paint",
+        "ttfb",
+        "page speed",
+        "pagespeed insights",
+        "lighthouse",
+        "render blocking",
+        "critical css",
+        "image optimization",
+        "lazy loading",
+        "font loading",
+        "javascript bundle",
+        "performance budget",
+        "crUX",
+        "time to first byte",
+        "hydration"
+      ]
+    },
+    {
+      "id": "structured-data",
+      "title": "Structured Data and Rich Results",
+      "description": "Schema.org markup, JSON-LD implementation, rich result eligibility, validation and deprecated markup.",
+      "whenToUse": "Use when adding or debugging schema.org markup, chasing rich result eligibility, handling markup deprecations, or validating JSON-LD before shipping templates.",
+      "keywords": [
+        "structured data",
+        "schema markup",
+        "schema.org",
+        "json-ld",
+        "rich result",
+        "rich results",
+        "microdata",
+        "product schema",
+        "offer schema",
+        "faq schema",
+        "review snippet",
+        "breadcrumb schema",
+        "article schema",
+        "organization schema",
+        "merchant listing",
+        "structured data testing",
+        "rich results test",
+        "sameas",
+        "localbusiness schema",
+        "datepublished",
+        "validfrom"
+      ]
+    },
+    {
+      "id": "on-page-seo",
+      "title": "On-Page SEO and Content Optimization",
+      "description": "Titles, meta descriptions, heading structure, keyword placement, E-E-A-T signals and page-level content quality.",
+      "whenToUse": "Use when optimizing an existing page, rewriting titles and meta descriptions, fixing thin or duplicated pages, or improving E-E-A-T signals on money pages.",
+      "keywords": [
+        "title tag",
+        "meta description",
+        "meta title",
+        "heading structure",
+        "h1",
+        "h2",
+        "alt text",
+        "url slug",
+        "on-page",
+        "keyword targeting",
+        "keyword stuffing",
+        "content optimization",
+        "e-e-a-t",
+        "eeat",
+        "author bio",
+        "byline",
+        "thin content",
+        "above the fold",
+        "serp snippet",
+        "page titles",
+        "content quality",
+        "internal linking on page"
+      ]
+    },
+    {
+      "id": "content-strategy",
+      "title": "Content Strategy and Topical Authority",
+      "description": "Content clusters, editorial planning, content audits and refreshes, decay, and building topical depth.",
+      "whenToUse": "Use when building a content plan, deciding what to refresh or prune, mapping clusters and pillars, or explaining why a section of the site lost traffic.",
+      "keywords": [
+        "content strategy",
+        "content cluster",
+        "topical authority",
+        "topic cluster",
+        "content audit",
+        "content refresh",
+        "content decay",
+        "content pruning",
+        "editorial calendar",
+        "content brief",
+        "content gap",
+        "helpful content",
+        "pillar content",
+        "evergreen content",
+        "content roadmap",
+        "content production",
+        "content quality",
+        "subject matter expert"
+      ]
+    },
+    {
+      "id": "keyword-research",
+      "title": "Keyword Research and Search Intent",
+      "description": "Intent classification, demand sizing, keyword difficulty, entity and semantic coverage, keyword mapping.",
+      "whenToUse": "Use when planning new pages, classifying intent, sizing demand, clustering keywords by SERP overlap, or mapping queries to URLs.",
+      "keywords": [
+        "keyword research",
+        "search intent",
+        "keyword difficulty",
+        "search volume",
+        "long-tail",
+        "keyword gap",
+        "keyword mapping",
+        "keyword clustering",
+        "serp analysis",
+        "entity",
+        "entities",
+        "semantic search",
+        "query fan-out",
+        "informational intent",
+        "transactional intent",
+        "commercial intent",
+        "navigational intent",
+        "keyword tools",
+        "demand generation"
+      ]
+    },
+    {
+      "id": "link-building",
+      "title": "Link Building and Off-Page Authority",
+      "description": "Earning links, digital PR, anchor text and link quality, disavow decisions, and link spam policy.",
+      "whenToUse": "Use when planning link acquisition, evaluating a backlink profile, cleaning a toxic profile, or responding to a link-related manual action.",
+      "keywords": [
+        "backlink",
+        "backlinks",
+        "link building",
+        "digital pr",
+        "link earning",
+        "link quality",
+        "disavow",
+        "toxic link",
+        "referring domain",
+        "domain authority",
+        "link equity",
+        "guest post",
+        "broken link building",
+        "unlinked mention",
+        "link spam",
+        "link scheme",
+        "nofollow",
+        "sponsored link",
+        "ugc link",
+        "anchor text",
+        "link gap",
+        "authority building"
+      ]
+    },
+    {
+      "id": "local-seo",
+      "title": "Local SEO and Google Business Profile",
+      "description": "Local pack visibility, Business Profile optimization, reviews, citations and location page structure.",
+      "whenToUse": "Use when a business needs local pack visibility, when reviews or categories are wrong, or when planning location and service-area pages.",
+      "keywords": [
+        "local seo",
+        "google business profile",
+        "gbp",
+        "google maps",
+        "local pack",
+        "nap",
+        "citations",
+        "local citations",
+        "reviews",
+        "review velocity",
+        "multi-location",
+        "service area",
+        "local schema",
+        "local landing page",
+        "store locator",
+        "near me",
+        "local ranking",
+        "proximity",
+        "local services ads"
+      ]
+    },
+    {
+      "id": "international-seo",
+      "title": "International and Multilingual SEO",
+      "description": "Hreflang implementation, locale targeting, ccTLD vs subfolder decisions and localization quality.",
+      "whenToUse": "Use when serving multiple languages or regions, auditing hreflang return tags, or deciding URL structure for new markets.",
+      "keywords": [
+        "hreflang",
+        "international seo",
+        "localization",
+        "cctld",
+        "geotargeting",
+        "geo-targeting",
+        "multilingual",
+        "x-default",
+        "language tag",
+        "translation",
+        "regional targeting",
+        "international targeting",
+        "hreflang tags",
+        "locale",
+        "duplicate content across markets"
+      ]
+    },
+    {
+      "id": "ecommerce-seo",
+      "title": "Ecommerce SEO and Faceted Navigation",
+      "description": "Category and product page optimization, faceted navigation, variants, out-of-stock handling and merchant feeds.",
+      "whenToUse": "Use when category pages cannibalize each other, when facets create crawl explosions, or when product and variant pages need indexing rules.",
+      "keywords": [
+        "ecommerce seo",
+        "product page",
+        "category page",
+        "faceted navigation",
+        "facets",
+        "product variant",
+        "out of stock",
+        "product schema",
+        "merchant center",
+        "merchant listing",
+        "collection page",
+        "filtered pages",
+        "skus",
+        "availability",
+        "product description",
+        "shopping ads",
+        "product feed",
+        "pagination ecommerce"
+      ]
+    },
+    {
+      "id": "analytics-measurement",
+      "title": "SEO Analytics, Reporting and Measurement",
+      "description": "Search Console and GA4 measurement, rank tracking, dashboards, forecasting and KPI definitions.",
+      "whenToUse": "Use when building reports, explaining traffic changes, defining SEO KPIs, or instrumenting tracking for organic performance.",
+      "keywords": [
+        "google search console",
+        "search console",
+        "ga4",
+        "google analytics",
+        "rank tracking",
+        "seo reporting",
+        "looker studio",
+        "kpi",
+        "seo dashboard",
+        "search analytics api",
+        "bigquery",
+        "attribution",
+        "organic traffic",
+        "impressions",
+        "click-through rate",
+        "ctr",
+        "average position",
+        "anomaly detection",
+        "seo forecasting",
+        "log file analysis"
+      ]
+    },
+    {
+      "id": "ai-search-geo",
+      "title": "AI Search, GEO and Answer Engines",
+      "description": "AI Overviews, AI Mode, LLM citation visibility, generative engine optimization and llms.txt conventions.",
+      "whenToUse": "Use when organic traffic is absorbed by AI answers, when planning visibility in AI Overviews or chat assistants, or when deciding on llms.txt and AI crawler access.",
+      "keywords": [
+        "ai overviews",
+        "ai overview",
+        "ai mode",
+        "generative engine optimization",
+        "geo",
+        "llms.txt",
+        "ai search",
+        "answer engine",
+        "answer engine optimization",
+        "aeo",
+        "chatgpt search",
+        "perplexity",
+        "gemini",
+        "ai visibility",
+        "ai citations",
+        "zero-click",
+        "brand mentions",
+        "ai crawler",
+        "google-extension",
+        "ai generated content",
+        "agentic search"
+      ]
+    },
+    {
+      "id": "algorithm-updates",
+      "title": "Algorithm Updates, Spam Policy and Recovery",
+      "description": "Core and spam updates, ranking volatility, manual actions, policy changes and recovery playbooks.",
+      "whenToUse": "Use when rankings shift sharply, when a manual action or policy issue appears, or when assessing whether a site is exposed to a new spam policy.",
+      "keywords": [
+        "core update",
+        "core algorithm update",
+        "algorithm update",
+        "spam update",
+        "ranking volatility",
+        "serp volatility",
+        "manual action",
+        "penalty",
+        "recovery",
+        "spam policy",
+        "scaled content",
+        "site reputation abuse",
+        "parasite seo",
+        "thin affiliate",
+        "quality rater",
+        "rollout",
+        "search quality",
+        "helpful content update",
+        "traffic drop",
+        "deindexed"
+      ]
+    },
+    {
+      "id": "serp-features",
+      "title": "SERP Features, Snippets and CTR",
+      "description": "Featured snippets, People Also Ask, sitelinks, rich SERP layouts and click-through optimization.",
+      "whenToUse": "Use when chasing or defending a featured snippet, diagnosing CTR drops at stable rankings, or planning for SERP layout changes.",
+      "keywords": [
+        "featured snippet",
+        "people also ask",
+        "serp feature",
+        "rich snippet",
+        "sitelinks",
+        "knowledge panel",
+        "image pack",
+        "video results",
+        "top stories",
+        "serp layout",
+        "click-through rate",
+        "serp real estate",
+        "discover",
+        "ai overview citations",
+        "paragraph snippet",
+        "list snippet",
+        "table snippet"
+      ]
+    },
+    {
+      "id": "migration-redirects",
+      "title": "Migrations, Redirects and HTTPS",
+      "description": "Site and domain migrations, redirect mapping, URL changes, HTTPS moves and post-migration recovery.",
+      "whenToUse": "Use when moving domains, replatforming, changing URL patterns, or diagnosing traffic loss after a launch.",
+      "keywords": [
+        "site migration",
+        "domain migration",
+        "redirect map",
+        "301 redirect",
+        "302 redirect",
+        "redirect",
+        "redirect chains",
+        "https migration",
+        "domain change",
+        "url change",
+        "post-migration",
+        "replatforming",
+        "traffic loss",
+        "canonical migration",
+        "hreflang migration",
+        "migration checklist",
+        "301s",
+        "change of address"
+      ]
+    },
+    {
+      "id": "crawl-budget",
+      "title": "Crawl Budget and Crawl Efficiency",
+      "parent": "technical-crawling-indexing",
+      "description": "Crawl Budget and Crawl Efficiency: specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves crawl budget and crawl efficiency.",
+      "keywords": [
+        "crawl budget",
+        "crawl rate",
+        "crawl demand",
+        "crawl efficiency",
+        "crawl capacity"
+      ]
+    },
+    {
+      "id": "indexation",
+      "title": "Index Coverage and Indexation",
+      "parent": "technical-crawling-indexing",
+      "description": "Index Coverage and Indexation: specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves index coverage and indexation.",
+      "keywords": [
+        "index coverage",
+        "page indexing",
+        "indexed pages",
+        "noindex",
+        "index bloat",
+        "excluded by tag"
+      ]
+    },
+    {
+      "id": "sitemaps",
+      "title": "XML Sitemaps",
+      "parent": "technical-crawling-indexing",
+      "description": "XML Sitemaps: specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves xml sitemaps.",
+      "keywords": [
+        "xml sitemap",
+        "sitemap index",
+        "sitemap file",
+        "image sitemap",
+        "news sitemap"
+      ]
+    },
+    {
+      "id": "robots-txt",
+      "title": "robots.txt and Crawl Directives",
+      "parent": "technical-crawling-indexing",
+      "description": "robots.txt and Crawl Directives: specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves robots.txt and crawl directives.",
+      "keywords": [
+        "robots.txt",
+        "crawl-delay",
+        "user-agent directive",
+        "disallow"
+      ]
+    },
+    {
+      "id": "canonicalization",
+      "title": "Canonicalization and Duplicate URLs",
+      "parent": "technical-crawling-indexing",
+      "description": "Canonicalization and Duplicate URLs: specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves canonicalization and duplicate urls.",
+      "keywords": [
+        "canonical tag",
+        "rel=canonical",
+        "duplicate content",
+        "canonical url",
+        "parameter duplication"
+      ]
+    },
+    {
+      "id": "javascript-rendering",
+      "title": "JavaScript Rendering and Crawling",
+      "parent": "technical-crawling-indexing",
+      "description": "JavaScript Rendering and Crawling: specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves javascript rendering and crawling.",
+      "keywords": [
+        "javascript rendering",
+        "client-side rendering",
+        "server-side rendering",
+        "rendered html",
+        "dynamic rendering"
+      ]
+    },
+    {
+      "id": "internal-linking",
+      "title": "Internal Linking and Anchor Strategy",
+      "parent": "site-architecture-internal-links",
+      "description": "Internal Linking and Anchor Strategy: specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves internal linking and anchor strategy.",
+      "keywords": [
+        "internal linking",
+        "internal links",
+        "contextual links",
+        "link equity",
+        "anchor strategy"
+      ]
+    },
+    {
+      "id": "orphan-pages",
+      "title": "Orphan Pages and Crawl Depth",
+      "parent": "site-architecture-internal-links",
+      "description": "Orphan Pages and Crawl Depth: specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves orphan pages and crawl depth.",
+      "keywords": [
+        "orphan page",
+        "crawl depth",
+        "click depth",
+        "unlinked pages"
+      ]
+    },
+    {
+      "id": "lcp",
+      "title": "Largest Contentful Paint (LCP)",
+      "parent": "core-web-vitals-performance",
+      "description": "Largest Contentful Paint (LCP): specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves largest contentful paint (lcp).",
+      "keywords": [
+        "largest contentful paint",
+        "lcp",
+        "hero image",
+        "render delay"
+      ]
+    },
+    {
+      "id": "inp",
+      "title": "Interaction to Next Paint (INP)",
+      "parent": "core-web-vitals-performance",
+      "description": "Interaction to Next Paint (INP): specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves interaction to next paint (inp).",
+      "keywords": [
+        "interaction to next paint",
+        "inp",
+        "input delay",
+        "main thread"
+      ]
+    },
+    {
+      "id": "cls",
+      "title": "Cumulative Layout Shift (CLS)",
+      "parent": "core-web-vitals-performance",
+      "description": "Cumulative Layout Shift (CLS): specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves cumulative layout shift (cls).",
+      "keywords": [
+        "cumulative layout shift",
+        "cls",
+        "layout shift",
+        "font swap"
+      ]
+    },
+    {
+      "id": "schema-markup",
+      "title": "Schema Markup and JSON-LD",
+      "parent": "structured-data",
+      "description": "Schema Markup and JSON-LD: specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves schema markup and json-ld.",
+      "keywords": [
+        "schema.org",
+        "json-ld",
+        "structured data",
+        "microdata"
+      ]
+    },
+    {
+      "id": "rich-results",
+      "title": "Rich Results and Eligibility",
+      "parent": "structured-data",
+      "description": "Rich Results and Eligibility: specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves rich results and eligibility.",
+      "keywords": [
+        "rich result",
+        "rich results",
+        "rich snippet",
+        "eligibility report"
+      ]
+    },
+    {
+      "id": "title-meta",
+      "title": "Title Tags and Meta Descriptions",
+      "parent": "on-page-seo",
+      "description": "Title Tags and Meta Descriptions: specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves title tags and meta descriptions.",
+      "keywords": [
+        "title tag",
+        "meta description",
+        "title element",
+        "serp title",
+        "meta tags"
+      ]
+    },
+    {
+      "id": "eeat",
+      "title": "E-E-A-T and Author Signals",
+      "parent": "on-page-seo",
+      "description": "E-E-A-T and Author Signals: specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves e-e-a-t and author signals.",
+      "keywords": [
+        "e-e-a-t",
+        "eeat",
+        "author bio",
+        "author page",
+        "trust signals"
+      ]
+    },
+    {
+      "id": "topical-authority",
+      "title": "Topical Authority and Content Clusters",
+      "parent": "content-strategy",
+      "description": "Topical Authority and Content Clusters: specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves topical authority and content clusters.",
+      "keywords": [
+        "topical authority",
+        "content cluster",
+        "pillar page",
+        "topic cluster",
+        "content hub"
+      ]
+    },
+    {
+      "id": "content-refresh",
+      "title": "Content Decay and Refreshes",
+      "parent": "content-strategy",
+      "description": "Content Decay and Refreshes: specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves content decay and refreshes.",
+      "keywords": [
+        "content decay",
+        "content refresh",
+        "update old content",
+        "stale content"
+      ]
+    },
+    {
+      "id": "search-intent",
+      "title": "Search Intent Classification",
+      "parent": "keyword-research",
+      "description": "Search Intent Classification: specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves search intent classification.",
+      "keywords": [
+        "search intent",
+        "user intent",
+        "intent classification",
+        "informational intent",
+        "transactional intent"
+      ]
+    },
+    {
+      "id": "keyword-difficulty",
+      "title": "Keyword Difficulty and Prioritisation",
+      "parent": "keyword-research",
+      "description": "Keyword Difficulty and Prioritisation: specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves keyword difficulty and prioritisation.",
+      "keywords": [
+        "keyword difficulty",
+        "keyword prioritization",
+        "difficulty score",
+        "opportunity score"
+      ]
+    },
+    {
+      "id": "digital-pr",
+      "title": "Digital PR and Link Outreach",
+      "parent": "link-building",
+      "description": "Digital PR and Link Outreach: specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves digital pr and link outreach.",
+      "keywords": [
+        "digital pr",
+        "link outreach",
+        "outreach campaign",
+        "link building campaign"
+      ]
+    },
+    {
+      "id": "anchor-text",
+      "title": "Anchor Text and Link Quality",
+      "parent": "link-building",
+      "description": "Anchor Text and Link Quality: specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves anchor text and link quality.",
+      "keywords": [
+        "anchor text",
+        "link quality",
+        "toxic links",
+        "disavow"
+      ]
+    },
+    {
+      "id": "google-business-profile",
+      "title": "Google Business Profile Optimisation",
+      "parent": "local-seo",
+      "description": "Google Business Profile Optimisation: specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves google business profile optimisation.",
+      "keywords": [
+        "google business profile",
+        "business profile",
+        "gmb",
+        "google my business"
+      ]
+    },
+    {
+      "id": "local-pack",
+      "title": "Local Pack and Map Visibility",
+      "parent": "local-seo",
+      "description": "Local Pack and Map Visibility: specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves local pack and map visibility.",
+      "keywords": [
+        "local pack",
+        "map pack",
+        "local finder",
+        "near me"
+      ]
+    },
+    {
+      "id": "hreflang",
+      "title": "Hreflang and Locale Targeting",
+      "parent": "international-seo",
+      "description": "Hreflang and Locale Targeting: specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves hreflang and locale targeting.",
+      "keywords": [
+        "hreflang",
+        "x-default",
+        "locale targeting",
+        "language targeting"
+      ]
+    },
+    {
+      "id": "faceted-navigation",
+      "title": "Faceted Navigation and Product URLs",
+      "parent": "ecommerce-seo",
+      "description": "Faceted Navigation and Product URLs: specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves faceted navigation and product urls.",
+      "keywords": [
+        "faceted navigation",
+        "facet",
+        "product variants",
+        "out of stock"
+      ]
+    },
+    {
+      "id": "search-console",
+      "title": "Search Console Analysis",
+      "parent": "analytics-measurement",
+      "description": "Search Console Analysis: specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves search console analysis.",
+      "keywords": [
+        "search console",
+        "gsc",
+        "performance report",
+        "query report"
+      ]
+    },
+    {
+      "id": "rank-tracking",
+      "title": "Rank Tracking and Visibility Reporting",
+      "parent": "analytics-measurement",
+      "description": "Rank Tracking and Visibility Reporting: specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves rank tracking and visibility reporting.",
+      "keywords": [
+        "rank tracking",
+        "position tracking",
+        "visibility score",
+        "serp monitoring"
+      ]
+    },
+    {
+      "id": "ai-overviews",
+      "title": "AI Overviews and AI Mode",
+      "parent": "ai-search-geo",
+      "description": "AI Overviews and AI Mode: specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves ai overviews and ai mode.",
+      "keywords": [
+        "ai overview",
+        "ai overviews",
+        "ai mode",
+        "aio"
+      ]
+    },
+    {
+      "id": "llms-txt",
+      "title": "llms.txt and Agent Readability",
+      "parent": "ai-search-geo",
+      "description": "llms.txt and Agent Readability: specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves llms.txt and agent readability.",
+      "keywords": [
+        "llms.txt",
+        "llms-full.txt",
+        "agent-readable",
+        "agent readiness",
+        "webmcp"
+      ]
+    },
+    {
+      "id": "ai-citations",
+      "title": "AI Citations and Brand Mentions",
+      "parent": "ai-search-geo",
+      "description": "AI Citations and Brand Mentions: specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves ai citations and brand mentions.",
+      "keywords": [
+        "ai citation",
+        "cited by ai",
+        "brand mentions",
+        "citation share",
+        "share of voice"
+      ]
+    },
+    {
+      "id": "chatgpt-visibility",
+      "title": "ChatGPT and Assistant Visibility",
+      "parent": "ai-search-geo",
+      "description": "ChatGPT and Assistant Visibility: specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves chatgpt and assistant visibility.",
+      "keywords": [
+        "chatgpt visibility",
+        "perplexity",
+        "gemini visibility",
+        "copilot answers"
+      ]
+    },
+    {
+      "id": "core-updates",
+      "title": "Core Algorithm Updates",
+      "parent": "algorithm-updates",
+      "description": "Core Algorithm Updates: specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves core algorithm updates.",
+      "keywords": [
+        "core update",
+        "core algorithm",
+        "ranking volatility",
+        "algorithm update"
+      ]
+    },
+    {
+      "id": "spam-policy",
+      "title": "Spam Policy and Manual Actions",
+      "parent": "algorithm-updates",
+      "description": "Spam Policy and Manual Actions: specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves spam policy and manual actions.",
+      "keywords": [
+        "spam policy",
+        "scaled content abuse",
+        "manual action",
+        "site reputation abuse",
+        "spam update"
+      ]
+    },
+    {
+      "id": "featured-snippets",
+      "title": "Featured Snippets and Position Zero",
+      "parent": "serp-features",
+      "description": "Featured Snippets and Position Zero: specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves featured snippets and position zero.",
+      "keywords": [
+        "featured snippet",
+        "position zero",
+        "snippet optimization",
+        "paragraph snippet"
+      ]
+    },
+    {
+      "id": "people-also-ask",
+      "title": "People Also Ask and SERP Features",
+      "parent": "serp-features",
+      "description": "People Also Ask and SERP Features: specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves people also ask and serp features.",
+      "keywords": [
+        "people also ask",
+        "paa",
+        "related searches",
+        "serp feature"
+      ]
+    },
+    {
+      "id": "redirects",
+      "title": "Redirects and URL Changes",
+      "parent": "migration-redirects",
+      "description": "Redirects and URL Changes: specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves redirects and url changes.",
+      "keywords": [
+        "301 redirect",
+        "302 redirect",
+        "redirect mapping",
+        "redirect chain",
+        "url change"
+      ]
+    }
+  ]
+}
