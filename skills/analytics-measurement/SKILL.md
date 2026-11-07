@@ -1,8 +1,8 @@
 ---
 name: seo-analytics-measurement
-description: "Search Console and GA4 measurement, rank tracking, dashboards, forecasting and KPI definitions. Auto-generated from 26 findings across 10 sources."
+description: "Search Console and GA4 measurement, rank tracking, dashboards, forecasting and KPI definitions. Auto-generated from 30 findings across 10 sources."
 last_updated: 2026-11-06
-findings: 26
+findings: 30
 sources: 10
 confidence: high
 ---
@@ -17,26 +17,26 @@ Use when building reports, explaining traffic changes, defining SEO KPIs, or ins
 
 ## Core practices
 
-1. Choose a one-, two- or three-month window, start with the topics where your citations are already concentrated, then work down the opportunity queries. — *Bing Webmaster Blog, 2026-10-13*
-2. Google Ads Expands AI Content Disclosure Label To More Regions Google Ads has expanded the regions where you must disclose whether AI was used in your ads. — *Search Engine Roundtable, 2026-11-05*
-3. Identify the competitor product, feature, and use-case pages attracting meaningful organic demand. — *Semrush Blog, 2026-11-04*
-4. Use the following prompt to check your content’s messaging (make sure you add your approved messaging to the project or the prompt). — *Semrush Blog, 2026-11-04*
-5. Focus on behavioral patterns (e.g., time on site, pages visited) to distinguish between bots and human traffic. — *Yoast SEO Blog, 2026-10-28*
-6. Optimize sitemaps to ensure AI tools can easily find and index your pages. — *Yoast SEO Blog, 2026-10-28*
-7. The whole point of the dashboard is to track visibility over time , so you’ll want to make sure it updates properly. — *Semrush Blog, 2026-10-12*
-8. Test the connection by changing one number in the Sheet and confirming it moves in the dashboard. — *Semrush Blog, 2026-10-12*
-9. Publishers must ensure their content is descriptive and accurate to avoid misinterpretation by AI image generators. — *Yoast SEO Blog, 2026-09-02*
-10. Monitor AI-driven traffic in Google Search Console and Microsoft Clarity. — *Yoast SEO Blog, 2026-09-02*
-11. The index must also account for coverage gaps in high–value content – not just whether the web is broadly indexed, but whether the specific facts and sources that people are likely to ask about are actually available and groundable. — *Bing Webmaster Blog, 2026-05-06*
-12. The processes of breaking content into retrievable chunks and transforming it for fast lookup can distort page substance in ways that never appear in any ranking signal. — *Bing Webmaster Blog, 2026-05-06*
-13. Start by connecting your website to Google Search Console to monitor search performance, identify indexing issues, and see which queries drive traffic to your site. — *Yoast SEO Blog, 2026-07-27*
-14. On the other hand, if you’re building a more polished website with custom copy, additional pages, and SEO improvements, you should expect to spend a few hours or even a full day refining it. — *Yoast SEO Blog, 2026-07-27*
-15. Musicians must prioritize discovery through SEO to connect with fans searching for their music online. — *Yoast SEO Blog, 2026-07-14*
-16. SEO helps ensure they find accurate information about you instead of getting lost among unrelated results. — *Yoast SEO Blog, 2026-07-14*
-17. AI Performance gives you a direct view into how your site contributes to AI-generated answers – from the grounding queries where it appears to the pages cited for each query. — *Bing Webmaster Blog, 2026-10-13*
-18. TikTok’s search terms report is located where an individual managing a Google Ads campaign would look for it. — *Search Engine Journal, 2026-11-06*
-19. Keyword totals show the top performers, TikTok points overall analysis to the ad group and campaign, and iOS14 SKAN conversion data is missing, so a cross-platform report needs a TikTok search row that says what it can and cannot show. — *Search Engine Journal, 2026-11-06*
-20. So it won't help understanding why mentions/clicks are increasing or decreasing, but combined with external tools that track prompts it will show accurate first-party data if GEO/AEO strategies are working," he added. — *Search Engine Roundtable, 2026-11-06*
+1. Submit Canonical URLs Only: Always place clean, canonical versions of URLs inside your sitemap file rather than parameter-tagged tracking URLs to help guide Google’s canonical selection. — *Google Search Central (YouTube), 2026-10-01*
+2. Search Pages: How systems like Blogger use search parameters for tag landing pages and why you should treat valuable category pages differently. — *Google Search Central (YouTube), 2026-07-30*
+3. Build Real Category Pages: Instead of using internal search parameters as makeshift categories, invest in clean, dedicated category pages to help search engines understand your site's hierarchy. — *Google Search Central (YouTube), 2026-07-30*
+4. Choose a one-, two- or three-month window, start with the topics where your citations are already concentrated, then work down the opportunity queries. — *Bing Webmaster Blog, 2026-10-13*
+5. Google Ads Expands AI Content Disclosure Label To More Regions Google Ads has expanded the regions where you must disclose whether AI was used in your ads. — *Search Engine Roundtable, 2026-11-05*
+6. Identify the competitor product, feature, and use-case pages attracting meaningful organic demand. — *Semrush Blog, 2026-11-04*
+7. Use the following prompt to check your content’s messaging (make sure you add your approved messaging to the project or the prompt). — *Semrush Blog, 2026-11-04*
+8. Focus on behavioral patterns (e.g., time on site, pages visited) to distinguish between bots and human traffic. — *Yoast SEO Blog, 2026-10-28*
+9. Optimize sitemaps to ensure AI tools can easily find and index your pages. — *Yoast SEO Blog, 2026-10-28*
+10. The whole point of the dashboard is to track visibility over time , so you’ll want to make sure it updates properly. — *Semrush Blog, 2026-10-12*
+11. Test the connection by changing one number in the Sheet and confirming it moves in the dashboard. — *Semrush Blog, 2026-10-12*
+12. Publishers must ensure their content is descriptive and accurate to avoid misinterpretation by AI image generators. — *Yoast SEO Blog, 2026-09-02*
+13. Monitor AI-driven traffic in Google Search Console and Microsoft Clarity. — *Yoast SEO Blog, 2026-09-02*
+14. The index must also account for coverage gaps in high–value content – not just whether the web is broadly indexed, but whether the specific facts and sources that people are likely to ask about are actually available and groundable. — *Bing Webmaster Blog, 2026-05-06*
+15. The processes of breaking content into retrievable chunks and transforming it for fast lookup can distort page substance in ways that never appear in any ranking signal. — *Bing Webmaster Blog, 2026-05-06*
+16. Start by connecting your website to Google Search Console to monitor search performance, identify indexing issues, and see which queries drive traffic to your site. — *Yoast SEO Blog, 2026-07-27*
+17. On the other hand, if you’re building a more polished website with custom copy, additional pages, and SEO improvements, you should expect to spend a few hours or even a full day refining it. — *Yoast SEO Blog, 2026-07-27*
+18. Musicians must prioritize discovery through SEO to connect with fans searching for their music online. — *Yoast SEO Blog, 2026-07-14*
+19. SEO helps ensure they find accurate information about you instead of getting lost among unrelated results. — *Yoast SEO Blog, 2026-07-14*
+20. Sitemaps have been a core element of web development and search engine optimization for two decades, yet Search Console warnings like "Couldn't fetch" continue to generate concern among site owners. — *Google Search Central (YouTube), 2026-10-01*
 
 ## Recent developments
 
@@ -70,5 +70,5 @@ Use when building reports, explaining traffic changes, defining SEO KPIs, or ins
 
 - Regenerated on 2026-11-07 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2024-03-13 → 2026-11-06.
-- 26 findings from 10 sources; confidence is **high**.
+- 30 findings from 10 sources; confidence is **high**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

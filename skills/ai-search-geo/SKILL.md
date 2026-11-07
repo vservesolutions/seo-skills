@@ -1,9 +1,9 @@
 ---
 name: seo-ai-search-geo
-description: "AI Overviews, AI Mode, LLM citation visibility, generative engine optimization and llms.txt conventions. Auto-generated from 51 findings across 15 sources."
+description: "AI Overviews, AI Mode, LLM citation visibility, generative engine optimization and llms.txt conventions. Auto-generated from 60 findings across 17 sources."
 last_updated: 2026-11-06
-findings: 51
-sources: 15
+findings: 60
+sources: 17
 confidence: high
 ---
 
@@ -17,26 +17,26 @@ Use when organic traffic is absorbed by AI answers, when planning visibility in 
 
 ## Core practices
 
-1. Keep an eye on the Gemini help page for updates to its personal-account rule or one-profile limit. — *Search Engine Journal, 2026-11-06*
-2. Add a free-text “How did you hear about us?” field to demo and signup forms, and add AI assistants to your brand lift surveys. — *Search Engine Journal, 2026-11-06*
-3. Pick prompts that map to real buyer questions, not prompts that flatter your brand. — *Search Engine Journal, 2026-11-06*
-4. A quarter from now, that record tells you whether paid placements are taking positions organic sources used to hold, and it gives you evidence to bring to budget conversations instead of an impression. — *Search Engine Journal, 2026-11-05*
-5. The whole point of the dashboard is to track visibility over time , so you’ll want to make sure it updates properly. — *Semrush Blog, 2026-10-12*
-6. Test the connection by changing one number in the Sheet and confirming it moves in the dashboard. — *Semrush Blog, 2026-10-12*
-7. Check out our Yoast SEO Premium page for more information on our SEO plugin and its features. — *Yoast SEO Blog, 2026-10-07*
-8. Focus on creating content that dives deep into specific Subject matter and answers unique questions. — *Yoast SEO Blog, 2026-10-07*
-9. Focus on ensuring your content is well-structured and accessible so that AI systems can cite it accurately. — *Yoast SEO Blog, 2026-10-07*
-10. Run scans across ChatGPT, Gemini, Claude, and Perplexity, then decide what to do with what you find. — *Yoast SEO Blog, 2026-10-01*
-11. Use Google Alerts data to track how many mentions you’re picking up each week or month, and note which sources and contexts are driving them. — *Backlinko, 2026-08-19*
-12. Build an index: Works best when you have proprietary platform or product data that others can’t access. — *Backlinko, 2026-08-19*
-13. Pro tip: Use branded prompts only for comparison and reputation tracking, as they can inflate your visibility score. — *Backlinko, 2026-08-13*
-14. Pick the LLMs you want to monitor, paste in your prompts, and hit “ Start Tracking . — *Backlinko, 2026-08-13*
-15. In some cases, publications will only offer backlinks to original data sources, making strong on-site content a must-have for linking opportunities. — *Screaming Frog Blog, 2026-04-13*
-16. Follow these best practices to create effective on-site campaign assets that engage journalists and audiences alike. — *Screaming Frog Blog, 2026-04-13*
-17. Follow industry leaders on LinkedIn: Experts often share breaking news, observations, and predictions here before publishing full articles or reports. — *Backlinko, 2026-07-20*
-18. Use journalist outreach platforms like MentionMatch, Featured.com, and Qwoted to gather expert insights for your content. — *Backlinko, 2026-07-20*
-19. Reverse-engineer any brand’s visibility in ChatGPT, Gemini and Perplexity, and see exactly which pages get competitors mentioned instead of you. — *Surfer Academy (YouTube), 2026-10-27*
-20. Pro tip: Pages that rank for fan-out queries (not just the main query) are 161% more likely to get cited, according to a SurferSEO AI Overviews study . — *Backlinko, 2026-06-10*
+1. Test for text indexability: Highlight and copy text out of your PDF into a text editor; if text doesn't copy, it might be a rasterized image and can't be indexed easily. — *Google Search Central (YouTube), 2026-10-13*
+2. Keep an eye on the Gemini help page for updates to its personal-account rule or one-profile limit. — *Search Engine Journal, 2026-11-06*
+3. Add a free-text “How did you hear about us?” field to demo and signup forms, and add AI assistants to your brand lift surveys. — *Search Engine Journal, 2026-11-06*
+4. Pick prompts that map to real buyer questions, not prompts that flatter your brand. — *Search Engine Journal, 2026-11-06*
+5. A quarter from now, that record tells you whether paid placements are taking positions organic sources used to hold, and it gives you evidence to bring to budget conversations instead of an impression. — *Search Engine Journal, 2026-11-05*
+6. The whole point of the dashboard is to track visibility over time , so you’ll want to make sure it updates properly. — *Semrush Blog, 2026-10-12*
+7. Test the connection by changing one number in the Sheet and confirming it moves in the dashboard. — *Semrush Blog, 2026-10-12*
+8. Check out our Yoast SEO Premium page for more information on our SEO plugin and its features. — *Yoast SEO Blog, 2026-10-07*
+9. Focus on creating content that dives deep into specific Subject matter and answers unique questions. — *Yoast SEO Blog, 2026-10-07*
+10. Focus on ensuring your content is well-structured and accessible so that AI systems can cite it accurately. — *Yoast SEO Blog, 2026-10-07*
+11. Run scans across ChatGPT, Gemini, Claude, and Perplexity, then decide what to do with what you find. — *Yoast SEO Blog, 2026-10-01*
+12. Use Google Alerts data to track how many mentions you’re picking up each week or month, and note which sources and contexts are driving them. — *Backlinko, 2026-08-19*
+13. Build an index: Works best when you have proprietary platform or product data that others can’t access. — *Backlinko, 2026-08-19*
+14. Pro tip: Use branded prompts only for comparison and reputation tracking, as they can inflate your visibility score. — *Backlinko, 2026-08-13*
+15. Pick the LLMs you want to monitor, paste in your prompts, and hit “ Start Tracking . — *Backlinko, 2026-08-13*
+16. In some cases, publications will only offer backlinks to original data sources, making strong on-site content a must-have for linking opportunities. — *Screaming Frog Blog, 2026-04-13*
+17. Follow these best practices to create effective on-site campaign assets that engage journalists and audiences alike. — *Screaming Frog Blog, 2026-04-13*
+18. Follow industry leaders on LinkedIn: Experts often share breaking news, observations, and predictions here before publishing full articles or reports. — *Backlinko, 2026-07-20*
+19. Use journalist outreach platforms like MentionMatch, Featured.com, and Qwoted to gather expert insights for your content. — *Backlinko, 2026-07-20*
+20. In this episode, you’ll learn: Google's PDF converter pipeline: How Google converts binary PDF containers into HTML pages during indexing so the rest of the pipeline can process them normally. — *Google Search Central (YouTube), 2026-10-13*
 
 ## Recent developments
 
@@ -70,5 +70,5 @@ Use when organic traffic is absorbed by AI answers, when planning visibility in 
 
 - Regenerated on 2026-11-07 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2026-04-13 → 2026-11-06.
-- 51 findings from 15 sources; confidence is **high**.
+- 60 findings from 17 sources; confidence is **high**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

@@ -1,15 +1,15 @@
 # SEO Skills Index
 
-Generated 2026-11-07. 31 skills across 16 categories, from 163 findings.
+Generated 2026-11-07. 31 skills across 16 categories, from 176 findings.
 
 A category skill aggregates every finding in its area; sub-skills go deeper where evidence exists.
 
-## Technical SEO: Crawling, Indexing and Rendering · 9 findings
+## Technical SEO: Crawling, Indexing and Rendering · 12 findings
 
 | Skill | What it covers | Findings | Updated | Confidence |
 | --- | --- | ---: | --- | --- |
-| [Technical SEO: Crawling, Indexing and Rendering](technical-crawling-indexing/SKILL.md) | How search engines discover, crawl, render and index URLs, and how to remove crawl waste, duplicates and index bloat. | 9 | 2026-11-03 | medium |
-| [↳ Crawl Budget and Crawl Efficiency](crawl-budget/SKILL.md) | Crawl Budget and Crawl Efficiency: specific techniques, checks and pitfalls. | 1 | 2026-10-28 | low |
+| [Technical SEO: Crawling, Indexing and Rendering](technical-crawling-indexing/SKILL.md) | How search engines discover, crawl, render and index URLs, and how to remove crawl waste, duplicates and index bloat. | 12 | 2026-11-03 | medium |
+| [↳ Crawl Budget and Crawl Efficiency](crawl-budget/SKILL.md) | Crawl Budget and Crawl Efficiency: specific techniques, checks and pitfalls. | 2 | 2026-10-28 | low |
 | [↳ XML Sitemaps](sitemaps/SKILL.md) | XML Sitemaps: specific techniques, checks and pitfalls. | 1 | 2026-11-03 | low |
 | [↳ robots.txt and Crawl Directives](robots-txt/SKILL.md) | robots.txt and Crawl Directives: specific techniques, checks and pitfalls. | 2 | 2026-10-30 | low |
 
@@ -40,23 +40,23 @@ A category skill aggregates every finding in its area; sub-skills go deeper wher
 | [On-Page SEO and Content Optimization](on-page-seo/SKILL.md) | Titles, meta descriptions, heading structure, keyword placement, E-E-A-T signals and page-level content quality. | 6 | 2026-11-04 | medium |
 | [↳ E-E-A-T and Author Signals](eeat/SKILL.md) | E-E-A-T and Author Signals: specific techniques, checks and pitfalls. | 1 | 2026-08-04 | low |
 
-## Content Strategy and Topical Authority · 1 findings
+## Content Strategy and Topical Authority · 3 findings
 
 | Skill | What it covers | Findings | Updated | Confidence |
 | --- | --- | ---: | --- | --- |
-| [Content Strategy and Topical Authority](content-strategy/SKILL.md) | Content clusters, editorial planning, content audits and refreshes, decay, and building topical depth. | 1 | 2026-06-16 | low |
+| [Content Strategy and Topical Authority](content-strategy/SKILL.md) | Content clusters, editorial planning, content audits and refreshes, decay, and building topical depth. | 3 | 2026-10-20 | low |
 
-## Keyword Research and Search Intent · 8 findings
-
-| Skill | What it covers | Findings | Updated | Confidence |
-| --- | --- | ---: | --- | --- |
-| [Keyword Research and Search Intent](keyword-research/SKILL.md) | Intent classification, demand sizing, keyword difficulty, entity and semantic coverage, keyword mapping. | 8 | 2026-11-06 | medium |
-
-## Link Building and Off-Page Authority · 3 findings
+## Keyword Research and Search Intent · 9 findings
 
 | Skill | What it covers | Findings | Updated | Confidence |
 | --- | --- | ---: | --- | --- |
-| [Link Building and Off-Page Authority](link-building/SKILL.md) | Earning links, digital PR, anchor text and link quality, disavow decisions, and link spam policy. | 3 | 2026-10-29 | low |
+| [Keyword Research and Search Intent](keyword-research/SKILL.md) | Intent classification, demand sizing, keyword difficulty, entity and semantic coverage, keyword mapping. | 9 | 2026-11-06 | medium |
+
+## Link Building and Off-Page Authority · 5 findings
+
+| Skill | What it covers | Findings | Updated | Confidence |
+| --- | --- | ---: | --- | --- |
+| [Link Building and Off-Page Authority](link-building/SKILL.md) | Earning links, digital PR, anchor text and link quality, disavow decisions, and link spam policy. | 5 | 2026-10-29 | medium |
 | [↳ Digital PR and Link Outreach](digital-pr/SKILL.md) | Digital PR and Link Outreach: specific techniques, checks and pitfalls. | 1 | 2026-07-20 | low |
 
 ## Local SEO and Google Business Profile · 9 findings
@@ -78,22 +78,22 @@ A category skill aggregates every finding in its area; sub-skills go deeper wher
 | --- | --- | ---: | --- | --- |
 | [Ecommerce SEO and Faceted Navigation](ecommerce-seo/SKILL.md) | Category and product page optimization, faceted navigation, variants, out-of-stock handling and merchant feeds. | 6 | 2026-11-06 | medium |
 
-## SEO Analytics, Reporting and Measurement · 26 findings
+## SEO Analytics, Reporting and Measurement · 30 findings
 
 | Skill | What it covers | Findings | Updated | Confidence |
 | --- | --- | ---: | --- | --- |
-| [SEO Analytics, Reporting and Measurement](analytics-measurement/SKILL.md) | Search Console and GA4 measurement, rank tracking, dashboards, forecasting and KPI definitions. | 26 | 2026-11-06 | high |
-| [↳ Search Console Analysis](search-console/SKILL.md) | Search Console Analysis: specific techniques, checks and pitfalls. | 11 | 2026-11-05 | medium |
+| [SEO Analytics, Reporting and Measurement](analytics-measurement/SKILL.md) | Search Console and GA4 measurement, rank tracking, dashboards, forecasting and KPI definitions. | 30 | 2026-11-06 | high |
+| [↳ Search Console Analysis](search-console/SKILL.md) | Search Console Analysis: specific techniques, checks and pitfalls. | 12 | 2026-11-05 | medium |
 | [↳ Rank Tracking and Visibility Reporting](rank-tracking/SKILL.md) | Rank Tracking and Visibility Reporting: specific techniques, checks and pitfalls. | 1 | 2026-09-23 | low |
 
-## AI Search, GEO and Answer Engines · 51 findings
+## AI Search, GEO and Answer Engines · 60 findings
 
 | Skill | What it covers | Findings | Updated | Confidence |
 | --- | --- | ---: | --- | --- |
-| [AI Search, GEO and Answer Engines](ai-search-geo/SKILL.md) | AI Overviews, AI Mode, LLM citation visibility, generative engine optimization and llms.txt conventions. | 51 | 2026-11-06 | high |
-| [↳ AI Overviews and AI Mode](ai-overviews/SKILL.md) | AI Overviews and AI Mode: specific techniques, checks and pitfalls. | 14 | 2026-11-06 | medium |
+| [AI Search, GEO and Answer Engines](ai-search-geo/SKILL.md) | AI Overviews, AI Mode, LLM citation visibility, generative engine optimization and llms.txt conventions. | 60 | 2026-11-06 | high |
+| [↳ AI Overviews and AI Mode](ai-overviews/SKILL.md) | AI Overviews and AI Mode: specific techniques, checks and pitfalls. | 17 | 2026-11-06 | high |
 | [↳ llms.txt and Agent Readability](llms-txt/SKILL.md) | llms.txt and Agent Readability: specific techniques, checks and pitfalls. | 1 | 2026-11-04 | low |
-| [↳ AI Citations and Brand Mentions](ai-citations/SKILL.md) | AI Citations and Brand Mentions: specific techniques, checks and pitfalls. | 5 | 2026-11-04 | medium |
+| [↳ AI Citations and Brand Mentions](ai-citations/SKILL.md) | AI Citations and Brand Mentions: specific techniques, checks and pitfalls. | 6 | 2026-11-04 | medium |
 | [↳ ChatGPT and Assistant Visibility](chatgpt-visibility/SKILL.md) | ChatGPT and Assistant Visibility: specific techniques, checks and pitfalls. | 2 | 2026-11-04 | low |
 
 ## Algorithm Updates, Spam Policy and Recovery · 10 findings
@@ -103,11 +103,11 @@ A category skill aggregates every finding in its area; sub-skills go deeper wher
 | [Algorithm Updates, Spam Policy and Recovery](algorithm-updates/SKILL.md) | Core and spam updates, ranking volatility, manual actions, policy changes and recovery playbooks. | 10 | 2026-11-06 | medium |
 | [↳ Spam Policy and Manual Actions](spam-policy/SKILL.md) | Spam Policy and Manual Actions: specific techniques, checks and pitfalls. | 3 | 2026-11-06 | low |
 
-## SERP Features, Snippets and CTR · 2 findings
+## SERP Features, Snippets and CTR · 3 findings
 
 | Skill | What it covers | Findings | Updated | Confidence |
 | --- | --- | ---: | --- | --- |
-| [SERP Features, Snippets and CTR](serp-features/SKILL.md) | Featured snippets, People Also Ask, sitelinks, rich SERP layouts and click-through optimization. | 2 | 2026-08-19 | low |
+| [SERP Features, Snippets and CTR](serp-features/SKILL.md) | Featured snippets, People Also Ask, sitelinks, rich SERP layouts and click-through optimization. | 3 | 2026-09-17 | low |
 
 ## Migrations, Redirects and HTTPS · 3 findings
 

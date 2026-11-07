@@ -1,8 +1,8 @@
 ---
 name: seo-technical-crawling-indexing
-description: "How search engines discover, crawl, render and index URLs, and how to remove crawl waste, duplicates and index bloat. Auto-generated from 9 findings across 4 sources."
+description: "How search engines discover, crawl, render and index URLs, and how to remove crawl waste, duplicates and index bloat. Auto-generated from 12 findings across 4 sources."
 last_updated: 2026-11-03
-findings: 9
+findings: 12
 sources: 4
 confidence: medium
 ---
@@ -17,14 +17,19 @@ Use when a page is not indexed or indexed wrongly, when crawl stats look wastefu
 
 ## Core practices
 
-1. Allow is the default, so no robots.txt AI Training setting is needed to allow training. — *Bing Webmaster Blog, 2026-10-30*
-2. Choose the setting for each use below; your training setting does not change your grounding setting, and vice versa. — *Bing Webmaster Blog, 2026-10-30*
-3. Keep it Canonical. #GoogleSearch #TechnicalSEO #WebDevelopment #NonCanonicalCabinet #SEO #SearchCentral #404Error. — *Google Search Central (YouTube), 2026-10-28*
-4. Keep it Canonical. #GoogleSearch #TechnicalSEO #DevBytes #WebDevelopment #NonCanonical #SEO #SearchCentral #RobotsTxt. — *Google Search Central (YouTube), 2026-10-21*
-5. Run the first method, spot-check a few outputs, and if several pages are coming back with the wrong content, switch over. — *Screaming Frog Blog, 2026-04-21*
-6. Select ‘Visual Extractor’ (Globe icon) and enter a representative URL. — *Screaming Frog Blog, 2026-04-21*
-7. In this episode, they tackle the technical boundaries of domain names and URL paths. — *Google Search Central (YouTube), 2026-10-14*
-8. Welcome to the premiere of The Non-Canonical Cabinet—a series where Google Search Developer Advocates Gary Illyes and Cherry Prommawin dig through the vault to answer the weirdest, most hyper-specific edge cases of SEO. — *Google Search Central (YouTube), 2026-10-14*
+1. Submit Canonical URLs Only: Always place clean, canonical versions of URLs inside your sitemap file rather than parameter-tagged tracking URLs to help guide Google’s canonical selection. — *Google Search Central (YouTube), 2026-10-01*
+2. Search Pages: How systems like Blogger use search parameters for tag landing pages and why you should treat valuable category pages differently. — *Google Search Central (YouTube), 2026-07-30*
+3. Build Real Category Pages: Instead of using internal search parameters as makeshift categories, invest in clean, dedicated category pages to help search engines understand your site's hierarchy. — *Google Search Central (YouTube), 2026-07-30*
+4. Allow is the default, so no robots.txt AI Training setting is needed to allow training. — *Bing Webmaster Blog, 2026-10-30*
+5. Choose the setting for each use below; your training setting does not change your grounding setting, and vice versa. — *Bing Webmaster Blog, 2026-10-30*
+6. Keep it Canonical. #GoogleSearch #TechnicalSEO #WebDevelopment #NonCanonicalCabinet #SEO #SearchCentral #404Error. — *Google Search Central (YouTube), 2026-10-28*
+7. Keep it Canonical. #GoogleSearch #TechnicalSEO #DevBytes #WebDevelopment #NonCanonical #SEO #SearchCentral #RobotsTxt. — *Google Search Central (YouTube), 2026-10-21*
+8. Run the first method, spot-check a few outputs, and if several pages are coming back with the wrong content, switch over. — *Screaming Frog Blog, 2026-04-21*
+9. Select ‘Visual Extractor’ (Globe icon) and enter a representative URL. — *Screaming Frog Blog, 2026-04-21*
+10. Sitemaps have been a core element of web development and search engine optimization for two decades, yet Search Console warnings like "Couldn't fetch" continue to generate concern among site owners. — *Google Search Central (YouTube), 2026-10-01*
+11. In this episode, they tackle the technical boundaries of domain names and URL paths. — *Google Search Central (YouTube), 2026-10-14*
+12. Welcome to the premiere of The Non-Canonical Cabinet—a series where Google Search Developer Advocates Gary Illyes and Cherry Prommawin dig through the vault to answer the weirdest, most hyper-specific edge cases of SEO. — *Google Search Central (YouTube), 2026-10-14*
+13. Drop it in the comments below! #GoogleSearch #TechnicalSEO #DevBytes #WebDevelopment #NonCanonical #SEO #SearchCentral. — *Google Search Central (YouTube), 2026-10-06*
 
 ## Recent developments
 
@@ -35,8 +40,9 @@ Use when a page is not indexed or indexed wrongly, when crawl stats look wastefu
 - **Page known to Google for several months – Discovered, not indexed** — 2026-10-26 · Webmasters Stack Exchange — Google crawled that article on the same day it was published, but more than two weeks later the Services page still reports: I compared the Services page with this page: The pricing page is indexed normally and was crawled again by Google… ([link](https://webmasters.stackexchange.com/questions/150038/page-known-to-google-for-several-months-discovered-not-indexed))
 - **What can you actually put in a robots.txt?** — 2026-10-21 · Google Search Central (YouTube) — What about ASCII art chicken or non English characters in your robots.txt file? ([link](https://www.youtube.com/watch?v=-jHONLQgE-s))
 - **What can you actually put in a URL 🐔?** — 2026-10-14 · Google Search Central (YouTube) — In this episode, they tackle the technical boundaries of domain names and URL paths. ([link](https://www.youtube.com/watch?v=Mfvw43BbHy0))
-- **Screaming Frog SEO Spider Update – Version 24.0** — 2026-05-19 · Screaming Frog Blog — We have just released a small update to version 24.1 of the SEO Spider. ([link](https://www.screamingfrog.co.uk/blog/seo-spider-24))
-- **Using the Screaming Frog SEO Spider to Generate Markdown at Scale** — 2026-04-21 · Screaming Frog Blog — In this guide, we’ll walk through two methods for generating markdown of every page on a site during a crawl, and we’ll share a Python script that takes the SEO Spider’s xlsx export and turns it into individual .md files for use downstream. ([link](https://www.screamingfrog.co.uk/blog/generate-markdown-at-scale))
+- **Welcome to the Non-Canonical Cabinet 🗄️** — 2026-10-06 · Google Search Central (YouTube) — Have a bizarre, highly specific Google Search question that doesn't quite fit into the standard documentation? ([link](https://www.youtube.com/watch?v=BFp5YhOmlZk))
+- **Do sitemaps still matter?** — 2026-10-01 · Google Search Central (YouTube) — Are XML sitemaps still necessary with modern search crawlers, or can search engines and AI bots figure out site structure on their own? ([link](https://www.youtube.com/watch?v=hDva5VoZJsE))
+- **Should you block your Search result pages?** — 2026-07-30 · Google Search Central (YouTube) — In this episode of Search off the Record, Martin Splitt and John Mueller pull back the curtain on how internal search results pages can turn into "infinite crawl spaces" that trap Googlebot, waste your crawl budget, and spike your database… ([link](https://www.youtube.com/watch?v=cfIQ_ksB61U))
 
 ## References
 
@@ -47,6 +53,9 @@ Use when a page is not indexed or indexed wrongly, when crawl stats look wastefu
 - [Page known to Google for several months – Discovered, not indexed](https://webmasters.stackexchange.com/questions/150038/page-known-to-google-for-several-months-discovered-not-indexed) — Webmasters Stack Exchange · 2026-10-26
 - [What can you actually put in a robots.txt?](https://www.youtube.com/watch?v=-jHONLQgE-s) — Google Search Central (YouTube) · 2026-10-21
 - [What can you actually put in a URL 🐔?](https://www.youtube.com/watch?v=Mfvw43BbHy0) — Google Search Central (YouTube) · 2026-10-14
+- [Welcome to the Non-Canonical Cabinet 🗄️](https://www.youtube.com/watch?v=BFp5YhOmlZk) — Google Search Central (YouTube) · 2026-10-06
+- [Do sitemaps still matter?](https://www.youtube.com/watch?v=hDva5VoZJsE) — Google Search Central (YouTube) · 2026-10-01
+- [Should you block your Search result pages?](https://www.youtube.com/watch?v=cfIQ_ksB61U) — Google Search Central (YouTube) · 2026-07-30
 - [Screaming Frog SEO Spider Update – Version 24.0](https://www.screamingfrog.co.uk/blog/seo-spider-24) — Screaming Frog Blog · 2026-05-19
 - [Using the Screaming Frog SEO Spider to Generate Markdown at Scale](https://www.screamingfrog.co.uk/blog/generate-markdown-at-scale) — Screaming Frog Blog · 2026-04-21
 
@@ -54,5 +63,5 @@ Use when a page is not indexed or indexed wrongly, when crawl stats look wastefu
 
 - Regenerated on 2026-11-07 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2026-04-21 → 2026-11-03.
-- 9 findings from 4 sources; confidence is **medium**.
+- 12 findings from 4 sources; confidence is **medium**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

@@ -1,10 +1,10 @@
 ---
 name: seo-ai-overviews
-description: "AI Overviews and AI Mode: specific techniques, checks and pitfalls. Auto-generated from 14 findings across 7 sources."
+description: "AI Overviews and AI Mode: specific techniques, checks and pitfalls. Auto-generated from 17 findings across 9 sources."
 last_updated: 2026-11-06
-findings: 14
-sources: 7
-confidence: medium
+findings: 17
+sources: 9
+confidence: high
 ---
 
 # AI Overviews and AI Mode
@@ -17,17 +17,21 @@ Use when the task involves ai overviews and ai mode.
 
 ## Core practices
 
-1. Add a free-text “How did you hear about us?” field to demo and signup forms, and add AI assistants to your brand lift surveys. — *Search Engine Journal, 2026-11-06*
-2. Pick prompts that map to real buyer questions, not prompts that flatter your brand. — *Search Engine Journal, 2026-11-06*
-3. A quarter from now, that record tells you whether paid placements are taking positions organic sources used to hold, and it gives you evidence to bring to budget conversations instead of an impression. — *Search Engine Journal, 2026-11-05*
-4. Pro tip: Pages that rank for fan-out queries (not just the main query) are 161% more likely to get cited, according to a SurferSEO AI Overviews study . — *Backlinko, 2026-06-10*
-5. Your content can rank on the first page of Google and still never be cited or mentioned by LLMs. — *Backlinko, 2026-06-10*
-6. Google Search clicks to news publishers rose 8x on Election Day. — *Search Engine Roundtable, 2026-11-06*
-7. Google AI Mode Asking Searchers To Continue With This Search Google is now asking searchers to "continue with this search" when they go to AI Mode. — *Search Engine Roundtable, 2026-11-06*
-8. This quarter, the effect shows up in a counted number, Google’s own revenue line, with a Google executive naming AI Mode as a cause. — *Search Engine Journal, 2026-11-05*
-9. Study top ranking pages to map subtopics, run a content gap analysis to build your outline, and apply on page SEO best practices like natural keyword placement, short descriptive URLs, internal links, and scannable structure. — *Ahrefs (YouTube), 2026-09-23*
-10. Give me 14 minutes to learn SEO the smart way, and you will walk away with the 5 fundamentals that drive 80% of real results in Google and get cited by AI too. — *Ahrefs (YouTube), 2026-09-23*
-11. This was spotted by Sachin Patel who posted this on Search Engine Watch - he wrote, "The popup appears to encourage users to connect more of their Google apps to Search so results can be more personalized. — *Search Engine Roundtable, 2026-11-06*
+1. Test for text indexability: Highlight and copy text out of your PDF into a text editor; if text doesn't copy, it might be a rasterized image and can't be indexed easily. — *Google Search Central (YouTube), 2026-10-13*
+2. Add a free-text “How did you hear about us?” field to demo and signup forms, and add AI assistants to your brand lift surveys. — *Search Engine Journal, 2026-11-06*
+3. Pick prompts that map to real buyer questions, not prompts that flatter your brand. — *Search Engine Journal, 2026-11-06*
+4. A quarter from now, that record tells you whether paid placements are taking positions organic sources used to hold, and it gives you evidence to bring to budget conversations instead of an impression. — *Search Engine Journal, 2026-11-05*
+5. In this episode, you’ll learn: Google's PDF converter pipeline: How Google converts binary PDF containers into HTML pages during indexing so the rest of the pipeline can process them normally. — *Google Search Central (YouTube), 2026-10-13*
+6. Pro tip: Pages that rank for fan-out queries (not just the main query) are 161% more likely to get cited, according to a SurferSEO AI Overviews study . — *Backlinko, 2026-06-10*
+7. Your content can rank on the first page of Google and still never be cited or mentioned by LLMs. — *Backlinko, 2026-06-10*
+8. Google Search clicks to news publishers rose 8x on Election Day. — *Search Engine Roundtable, 2026-11-06*
+9. Google AI Mode Asking Searchers To Continue With This Search Google is now asking searchers to "continue with this search" when they go to AI Mode. — *Search Engine Roundtable, 2026-11-06*
+10. This quarter, the effect shows up in a counted number, Google’s own revenue line, with a Google executive naming AI Mode as a cause. — *Search Engine Journal, 2026-11-05*
+11. Study top ranking pages to map subtopics, run a content gap analysis to build your outline, and apply on page SEO best practices like natural keyword placement, short descriptive URLs, internal links, and scannable structure. — *Ahrefs (YouTube), 2026-09-23*
+12. Give me 14 minutes to learn SEO the smart way, and you will walk away with the 5 fundamentals that drive 80% of real results in Google and get cited by AI too. — *Ahrefs (YouTube), 2026-09-23*
+13. This was spotted by Sachin Patel who posted this on Search Engine Watch - he wrote, "The popup appears to encourage users to connect more of their Google apps to Search so results can be more personalized. — *Search Engine Roundtable, 2026-11-06*
+14. (@yoast) • Threads, Say more 👉🏼 LinkedIn: https://www.linkedin.com/company/1414157 📝 Visit our website and blog for in-depth SEO articles, tutorials, and tips: SEO for everyone #YoastSEO #DigitalMarketing #SEO2026. — *Yoast (YouTube), 2026-05-22*
+15. (@yoast) • Instagram profile 👉🏼 TikTok: Yoast | SEO starts with Yoast on TikTok 👉🏼 Reddit: r/yoastseo 👉🏼 Threads: Yoast - SEO for everyone! — *Yoast (YouTube), 2026-05-22*
 
 ## Recent developments
 
@@ -55,11 +59,11 @@ Use when the task involves ai overviews and ai mode.
 - [Google AI Mode: All You Need to Know](https://ahrefs.com/blog/google-ai-mode) — Ahrefs Blog · 2026-10-28
 - [How Feature Upvote fixed Google’s wrong AI Overview answer](https://www.semrush.com/blog/how-feature-upvote-fixed-its-google-ai-overview-answer) — Semrush Blog · 2026-10-21
 - [AI Overviews have nearly doubled across five commercial search modifiers](https://www.semrush.com/blog/ai-overviews-commercial-modifiers-study) — Semrush Blog · 2026-10-21
-- [Learn 80% of SEO in 14 Minutes](https://www.youtube.com/watch?v=EJj4CpzawPI) — Ahrefs (YouTube) · 2026-09-23
+- [Outrank Your Competitors Using THEIR OWN Keywords](https://www.youtube.com/watch?v=hSy4qPnvBRI) — Semrush (YouTube) · 2026-10-20
 
 ## How this skill stays current
 
 - Regenerated on 2026-11-07 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
-- Coverage window: 2026-06-10 → 2026-11-06.
-- 14 findings from 7 sources; confidence is **medium**.
+- Coverage window: 2026-05-22 → 2026-11-06.
+- 17 findings from 9 sources; confidence is **high**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

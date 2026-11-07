@@ -1,8 +1,8 @@
 ---
 name: seo-search-console
-description: "Search Console Analysis: specific techniques, checks and pitfalls. Auto-generated from 11 findings across 9 sources."
+description: "Search Console Analysis: specific techniques, checks and pitfalls. Auto-generated from 12 findings across 9 sources."
 last_updated: 2026-11-05
-findings: 11
+findings: 12
 sources: 9
 confidence: medium
 ---
@@ -17,15 +17,17 @@ Use when the task involves search console analysis.
 
 ## Core practices
 
-1. Choose a one-, two- or three-month window, start with the topics where your citations are already concentrated, then work down the opportunity queries. — *Bing Webmaster Blog, 2026-10-13*
-2. Google Ads Expands AI Content Disclosure Label To More Regions Google Ads has expanded the regions where you must disclose whether AI was used in your ads. — *Search Engine Roundtable, 2026-11-05*
-3. The whole point of the dashboard is to track visibility over time , so you’ll want to make sure it updates properly. — *Semrush Blog, 2026-10-12*
-4. Test the connection by changing one number in the Sheet and confirming it moves in the dashboard. — *Semrush Blog, 2026-10-12*
-5. Publishers must ensure their content is descriptive and accurate to avoid misinterpretation by AI image generators. — *Yoast SEO Blog, 2026-09-02*
-6. Monitor AI-driven traffic in Google Search Console and Microsoft Clarity. — *Yoast SEO Blog, 2026-09-02*
-7. AI Performance gives you a direct view into how your site contributes to AI-generated answers – from the grounding queries where it appears to the pages cited for each query. — *Bing Webmaster Blog, 2026-10-13*
-8. Facebook Answers AI-Generated 6 Million Pages Is Google Scaled Content Abuse If you looked at the Google Search results recently, you may have stumbled on content from Facebook Answers. — *Search Engine Roundtable, 2026-11-05*
-9. In this episode of Google Search News, John Mueller shares major updates across Search Console, Google Search, and publisher tools! — *Google Search Central (YouTube), 2026-10-26*
+1. Submit Canonical URLs Only: Always place clean, canonical versions of URLs inside your sitemap file rather than parameter-tagged tracking URLs to help guide Google’s canonical selection. — *Google Search Central (YouTube), 2026-10-01*
+2. Choose a one-, two- or three-month window, start with the topics where your citations are already concentrated, then work down the opportunity queries. — *Bing Webmaster Blog, 2026-10-13*
+3. Google Ads Expands AI Content Disclosure Label To More Regions Google Ads has expanded the regions where you must disclose whether AI was used in your ads. — *Search Engine Roundtable, 2026-11-05*
+4. The whole point of the dashboard is to track visibility over time , so you’ll want to make sure it updates properly. — *Semrush Blog, 2026-10-12*
+5. Test the connection by changing one number in the Sheet and confirming it moves in the dashboard. — *Semrush Blog, 2026-10-12*
+6. Publishers must ensure their content is descriptive and accurate to avoid misinterpretation by AI image generators. — *Yoast SEO Blog, 2026-09-02*
+7. Monitor AI-driven traffic in Google Search Console and Microsoft Clarity. — *Yoast SEO Blog, 2026-09-02*
+8. Sitemaps have been a core element of web development and search engine optimization for two decades, yet Search Console warnings like "Couldn't fetch" continue to generate concern among site owners. — *Google Search Central (YouTube), 2026-10-01*
+9. AI Performance gives you a direct view into how your site contributes to AI-generated answers – from the grounding queries where it appears to the pages cited for each query. — *Bing Webmaster Blog, 2026-10-13*
+10. Facebook Answers AI-Generated 6 Million Pages Is Google Scaled Content Abuse If you looked at the Google Search results recently, you may have stumbled on content from Facebook Answers. — *Search Engine Roundtable, 2026-11-05*
+11. In this episode of Google Search News, John Mueller shares major updates across Search Console, Google Search, and publisher tools! — *Google Search Central (YouTube), 2026-10-26*
 
 ## Recent developments
 
@@ -37,8 +39,8 @@ Use when the task involves search console analysis.
 - **Introducing Topics Portfolio (Beta) in AI Performance** — 2026-10-13 · Bing Webmaster Blog — AI Performance gives you a direct view into how your site contributes to AI-generated answers – from the grounding queries where it appears to the pages cited for each query. ([link](https://blogs.bing.com/webmaster/2026/10/introducing-topics-portfolio-beta-in-ai-performance))
 - **How to build an AI visibility dashboard with Semrush** — 2026-10-12 · Semrush Blog — We’ll help you build one that puts your prompt-level AI data from Semrush next to your page-level Google data from Search Console, so you can see whether the pages AI cites are also earning clicks. ([link](https://www.semrush.com/blog/how-to-build-an-ai-visibility-dashboard-semrush))
 - **New learning paths: curated YouTube playlists for Search fundamentals and Technical SEO** — 2026-10-06 · Google Search Central Blog — Over the years, the Search Central YouTube channel has published hundreds of videos across various series, from Search for Beginners and Ask Googlebot to Search Console Training and Search Off the Record. ([link](https://developers.google.com/search/blog/2026/10/seo-learning-paths))
+- **Do sitemaps still matter?** — 2026-10-01 · Google Search Central (YouTube) — Are XML sitemaps still necessary with modern search crawlers, or can search engines and AI bots figure out site structure on their own? ([link](https://www.youtube.com/watch?v=hDva5VoZJsE))
 - **Announcing web multimodal Search performance reporting in Search Console** — 2026-09-24 · Google Search Central Blog — Understanding how users find your content is crucial for any publisher or site owner. ([link](https://developers.google.com/search/blog/2026/09/web-multimodal-in-sc))
-- **The August 2026 SEO Update by Yoast recap** — 2026-09-02 · Yoast SEO Blog — – If you rely on AI-driven traffic, ensure your content remains accessible to Google’s crawlers. ([link](https://yoast.com/the-august-2026-seo-update-by-yoast-recap))
 
 ## References
 
@@ -50,6 +52,7 @@ Use when the task involves search console analysis.
 - [Introducing Topics Portfolio (Beta) in AI Performance](https://blogs.bing.com/webmaster/2026/10/introducing-topics-portfolio-beta-in-ai-performance) — Bing Webmaster Blog · 2026-10-13
 - [How to build an AI visibility dashboard with Semrush](https://www.semrush.com/blog/how-to-build-an-ai-visibility-dashboard-semrush) — Semrush Blog · 2026-10-12
 - [New learning paths: curated YouTube playlists for Search fundamentals and Technical SEO](https://developers.google.com/search/blog/2026/10/seo-learning-paths) — Google Search Central Blog · 2026-10-06
+- [Do sitemaps still matter?](https://www.youtube.com/watch?v=hDva5VoZJsE) — Google Search Central (YouTube) · 2026-10-01
 - [Announcing web multimodal Search performance reporting in Search Console](https://developers.google.com/search/blog/2026/09/web-multimodal-in-sc) — Google Search Central Blog · 2026-09-24
 - [The August 2026 SEO Update by Yoast recap](https://yoast.com/the-august-2026-seo-update-by-yoast-recap) — Yoast SEO Blog · 2026-09-02
 - [Platform properties roll out globally, plus a new social and video performance guide](https://developers.google.com/search/blog/2026/07/platform-properties-social-video-guide) — Google Search Central Blog · 2026-07-29
@@ -58,5 +61,5 @@ Use when the task involves search console analysis.
 
 - Regenerated on 2026-11-07 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2026-07-29 → 2026-11-05.
-- 11 findings from 9 sources; confidence is **medium**.
+- 12 findings from 9 sources; confidence is **medium**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.
