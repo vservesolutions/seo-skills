@@ -2,7 +2,7 @@
 name: "keyword-research"
 description: "Use when the user asks to \"find keywords\", \"挖词\", or \"搜什么词\"; prioritizes search volume, keyword difficulty, intent, and topic clusters from provided or connected data. Not for competitor-relative coverage gaps — use content-gap-analysis. 关键词研究/内容选题"
 category: "keyword-research"
-platforms: ["claude-code", "codex", "cursor"]
+platforms: ["claude-code", "codex", "cursor", "openclaw"]
 platform_source: "declared+detected"
 repo: "aaron-he-zhu/aaron-marketing-skills"
 repo_url: "https://github.com/aaron-he-zhu/aaron-marketing-skills"
@@ -15,7 +15,7 @@ stars: 3049
 collected: "2026-11-07"
 ---
 
-<!-- Claude Code, Codex, Cursor skill · aaron-he-zhu/aaron-marketing-skills · seo-geo/survey/keyword-research/SKILL.md · Apache-2.0
+<!-- Claude Code, Codex, Cursor, OpenClaw skill · aaron-he-zhu/aaron-marketing-skills · seo-geo/survey/keyword-research/SKILL.md · Apache-2.0
      Source: https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/HEAD/seo-geo/survey/keyword-research/SKILL.md
      Detected by: declared+detected · Regenerated on every run; edit the upstream skill, not this copy. -->
 

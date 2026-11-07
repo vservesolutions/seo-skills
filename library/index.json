@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T10:16:45.218Z",
+  "generatedAt": "2026-11-07T10:23:59.174Z",
   "counts": {
     "skills": 182,
     "packs": 38,
@@ -166,7 +166,7 @@
       "rawUrl": "https://raw.githubusercontent.com/AgriciDaniel/claude-seo/HEAD/extensions/firecrawl/skills/seo-firecrawl/SKILL.md",
       "ref": "HEAD",
       "discoveredVia": "awesome-seo-agent-skills",
-      "platformSource": "declared",
+      "platformSource": "declared+detected",
       "license": "MIT",
       "platforms": [
         "claude-code"
@@ -258,12 +258,13 @@
       "rawUrl": "https://raw.githubusercontent.com/aaron-he-zhu/aaron-marketing-skills/HEAD/seo-geo/evaluate/domain-authority-auditor/SKILL.md",
       "ref": "HEAD",
       "discoveredVia": "awesome-seo-agent-skills",
-      "platformSource": "declared",
+      "platformSource": "declared+detected",
       "license": "Apache-2.0",
       "platforms": [
         "claude-code",
         "codex",
-        "cursor"
+        "cursor",
+        "openclaw"
       ],
       "stars": 3049,
       "repoUpdatedAt": "2026-11-02",
@@ -288,7 +289,8 @@
       "platforms": [
         "claude-code",
         "codex",
-        "cursor"
+        "cursor",
+        "openclaw"
       ],
       "stars": 3049,
       "repoUpdatedAt": "2026-11-02",
@@ -1328,7 +1330,8 @@
       "platforms": [
         "claude-code",
         "codex",
-        "cursor"
+        "cursor",
+        "openclaw"
       ],
       "stars": 3049,
       "repoUpdatedAt": "2026-11-02",
@@ -1863,7 +1866,8 @@
       "platforms": [
         "claude-code",
         "codex",
-        "cursor"
+        "cursor",
+        "openclaw"
       ],
       "stars": 3049,
       "repoUpdatedAt": "2026-11-02",
@@ -1888,7 +1892,8 @@
       "platforms": [
         "claude-code",
         "codex",
-        "cursor"
+        "cursor",
+        "openclaw"
       ],
       "stars": 3049,
       "repoUpdatedAt": "2026-11-02",
@@ -1913,7 +1918,8 @@
       "platforms": [
         "claude-code",
         "codex",
-        "cursor"
+        "cursor",
+        "openclaw"
       ],
       "stars": 3049,
       "repoUpdatedAt": "2026-11-02",
@@ -2521,7 +2527,8 @@
       "platforms": [
         "claude-code",
         "codex",
-        "cursor"
+        "cursor",
+        "openclaw"
       ],
       "stars": 3049,
       "repoUpdatedAt": "2026-11-02",
@@ -3139,7 +3146,7 @@
       "rawUrl": "https://raw.githubusercontent.com/AgriciDaniel/claude-seo/HEAD/skills/seo-hreflang/SKILL.md",
       "ref": "HEAD",
       "discoveredVia": "awesome-seo-agent-skills",
-      "platformSource": "declared",
+      "platformSource": "declared+detected",
       "license": "MIT",
       "platforms": [
         "claude-code"
@@ -3531,7 +3538,7 @@
       "rawUrl": "https://raw.githubusercontent.com/zubair-trabzada/geo-seo-claude/HEAD/skills/geo-audit/SKILL.md",
       "ref": "HEAD",
       "discoveredVia": "awesome-seo-agent-skills",
-      "platformSource": "declared",
+      "platformSource": "declared+detected",
       "license": "MIT",
       "platforms": [
         "claude-code"
@@ -3554,7 +3561,7 @@
       "rawUrl": "https://raw.githubusercontent.com/zubair-trabzada/geo-seo-claude/HEAD/skills/geo-crawlers/SKILL.md",
       "ref": "HEAD",
       "discoveredVia": "awesome-seo-agent-skills",
-      "platformSource": "declared",
+      "platformSource": "declared+detected",
       "license": "MIT",
       "platforms": [
         "claude-code"
@@ -3674,7 +3681,8 @@
       "platforms": [
         "claude-code",
         "codex",
-        "cursor"
+        "cursor",
+        "openclaw"
       ],
       "stars": 3049,
       "repoUpdatedAt": "2026-11-02",

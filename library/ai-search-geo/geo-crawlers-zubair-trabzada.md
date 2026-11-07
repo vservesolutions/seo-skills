@@ -3,7 +3,7 @@ name: "geo-crawlers"
 description: "AI crawler access analysis. Checks robots.txt, meta tags, and HTTP headers to determine which AI crawlers can access the site. Provides a complete access map and recommendations for maximizing AI visibility while maintaining appropriate control."
 category: "ai-search-geo"
 platforms: ["claude-code"]
-platform_source: "declared"
+platform_source: "declared+detected"
 repo: "zubair-trabzada/geo-seo-claude"
 repo_url: "https://github.com/zubair-trabzada/geo-seo-claude"
 source: "https://github.com/zubair-trabzada/geo-seo-claude/blob/HEAD/skills/geo-crawlers/SKILL.md"
@@ -17,7 +17,7 @@ collected: "2026-11-07"
 
 <!-- Claude Code skill · zubair-trabzada/geo-seo-claude · skills/geo-crawlers/SKILL.md · MIT
      Source: https://github.com/zubair-trabzada/geo-seo-claude/blob/HEAD/skills/geo-crawlers/SKILL.md
-     Detected by: declared · Regenerated on every run; edit the upstream skill, not this copy. -->
+     Detected by: declared+detected · Regenerated on every run; edit the upstream skill, not this copy. -->
 
 # AI Crawler Access Analysis Skill
 

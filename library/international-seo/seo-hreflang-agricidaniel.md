@@ -3,7 +3,7 @@ name: "seo-hreflang"
 description: "Hreflang and international SEO audit, validation, and generation. Detects common mistakes, validates language/region codes, and generates correct hreflang implementations. Use when user says \"hreflang\", \"i18n SEO\", \"international SEO\", \"multi-language\", \"multi-region\", or \"language tags\"."
 category: "international-seo"
 platforms: ["claude-code"]
-platform_source: "declared"
+platform_source: "declared+detected"
 repo: "AgriciDaniel/claude-seo"
 repo_url: "https://github.com/AgriciDaniel/claude-seo"
 source: "https://github.com/AgriciDaniel/claude-seo/blob/HEAD/skills/seo-hreflang/SKILL.md"
@@ -17,7 +17,7 @@ collected: "2026-11-07"
 
 <!-- Claude Code skill · AgriciDaniel/claude-seo · skills/seo-hreflang/SKILL.md · MIT
      Source: https://github.com/AgriciDaniel/claude-seo/blob/HEAD/skills/seo-hreflang/SKILL.md
-     Detected by: declared · Regenerated on every run; edit the upstream skill, not this copy. -->
+     Detected by: declared+detected · Regenerated on every run; edit the upstream skill, not this copy. -->
 
 # Hreflang & International SEO
 

@@ -2,7 +2,7 @@
 name: "on-page-seo-checker"
 description: "Use when the user asks to \"audit on-page SEO\" or \"diagnose why a single page dropped\"; scores titles, meta, header structure, keyword placement, links, and images with prioritized fixes. Not for E-E-A-T / publish-readiness scoring — use content-quality-auditor; not for crawl / CWV / indexing — use technical-seo-checker. 页面SEO审计/排名诊断"
 category: "on-page-seo"
-platforms: ["claude-code", "codex", "cursor"]
+platforms: ["claude-code", "codex", "cursor", "openclaw"]
 platform_source: "declared+detected"
 repo: "aaron-he-zhu/aaron-marketing-skills"
 repo_url: "https://github.com/aaron-he-zhu/aaron-marketing-skills"
@@ -15,7 +15,7 @@ stars: 3049
 collected: "2026-11-07"
 ---
 
-<!-- Claude Code, Codex, Cursor skill · aaron-he-zhu/aaron-marketing-skills · seo-geo/tune/on-page-seo-checker/SKILL.md · Apache-2.0
+<!-- Claude Code, Codex, Cursor, OpenClaw skill · aaron-he-zhu/aaron-marketing-skills · seo-geo/tune/on-page-seo-checker/SKILL.md · Apache-2.0
      Source: https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/HEAD/seo-geo/tune/on-page-seo-checker/SKILL.md
      Detected by: declared+detected · Regenerated on every run; edit the upstream skill, not this copy. -->
 

@@ -2,8 +2,8 @@
 name: "domain-authority-auditor"
 description: "Use when auditing domain authority, trust, or citation credibility; runs a peer-relative 40-item CITE profile with evidence coverage and verified manipulation/penalty veto checks. Not for page-level content quality — use content-quality-auditor; not for backlink profiling alone — use offsite-signal-analyzer. 域名权威/网站可信度"
 category: "technical-crawling-indexing"
-platforms: ["claude-code", "codex", "cursor"]
-platform_source: "declared"
+platforms: ["claude-code", "codex", "cursor", "openclaw"]
+platform_source: "declared+detected"
 repo: "aaron-he-zhu/aaron-marketing-skills"
 repo_url: "https://github.com/aaron-he-zhu/aaron-marketing-skills"
 source: "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/HEAD/seo-geo/evaluate/domain-authority-auditor/SKILL.md"
@@ -15,9 +15,9 @@ stars: 3049
 collected: "2026-11-07"
 ---
 
-<!-- Claude Code, Codex, Cursor skill · aaron-he-zhu/aaron-marketing-skills · seo-geo/evaluate/domain-authority-auditor/SKILL.md · Apache-2.0
+<!-- Claude Code, Codex, Cursor, OpenClaw skill · aaron-he-zhu/aaron-marketing-skills · seo-geo/evaluate/domain-authority-auditor/SKILL.md · Apache-2.0
      Source: https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/HEAD/seo-geo/evaluate/domain-authority-auditor/SKILL.md
-     Detected by: declared · Regenerated on every run; edit the upstream skill, not this copy. -->
+     Detected by: declared+detected · Regenerated on every run; edit the upstream skill, not this copy. -->
 
 # Domain Authority Auditor
 

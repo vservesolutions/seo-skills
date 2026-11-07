@@ -2,7 +2,7 @@
 name: "serp-markup-builder"
 description: "Use when the user asks to \"optimize meta tags\", \"write title tags / meta descriptions\", \"add Open Graph or Twitter cards\", or \"generate schema / JSON-LD\" for FAQ, HowTo, Article, Product, or LocalBusiness rich-result candidates. Produces title/description options, an OG+Twitter block, and validated JSON-LD for the document head. Not for body copy — use content-writer; not for crawl/index technical issues — use technical-seo-checker. 标题优化/元描述/Schema标记/结构化数据"
 category: "keyword-research"
-platforms: ["claude-code", "codex", "cursor"]
+platforms: ["claude-code", "codex", "cursor", "openclaw"]
 platform_source: "declared+detected"
 repo: "aaron-he-zhu/aaron-marketing-skills"
 repo_url: "https://github.com/aaron-he-zhu/aaron-marketing-skills"
@@ -15,7 +15,7 @@ stars: 3049
 collected: "2026-11-07"
 ---
 
-<!-- Claude Code, Codex, Cursor skill · aaron-he-zhu/aaron-marketing-skills · seo-geo/implement/serp-markup-builder/SKILL.md · Apache-2.0
+<!-- Claude Code, Codex, Cursor, OpenClaw skill · aaron-he-zhu/aaron-marketing-skills · seo-geo/implement/serp-markup-builder/SKILL.md · Apache-2.0
      Source: https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/HEAD/seo-geo/implement/serp-markup-builder/SKILL.md
      Detected by: declared+detected · Regenerated on every run; edit the upstream skill, not this copy. -->
 

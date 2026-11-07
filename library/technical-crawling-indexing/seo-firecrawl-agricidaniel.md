@@ -3,7 +3,7 @@ name: "seo-firecrawl"
 description: "Full-site crawling, scraping, and site mapping via Firecrawl MCP. Use when user says \"crawl site\", \"map site\", \"full crawl\", \"find all pages\", \"broken links\", \"site structure\", \"discover pages\", \"JS rendering\", or needs site-wide analysis."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
-platform_source: "declared"
+platform_source: "declared+detected"
 repo: "AgriciDaniel/claude-seo"
 repo_url: "https://github.com/AgriciDaniel/claude-seo"
 source: "https://github.com/AgriciDaniel/claude-seo/blob/HEAD/extensions/firecrawl/skills/seo-firecrawl/SKILL.md"
@@ -17,7 +17,7 @@ collected: "2026-11-07"
 
 <!-- Claude Code skill · AgriciDaniel/claude-seo · extensions/firecrawl/skills/seo-firecrawl/SKILL.md · MIT
      Source: https://github.com/AgriciDaniel/claude-seo/blob/HEAD/extensions/firecrawl/skills/seo-firecrawl/SKILL.md
-     Detected by: declared · Regenerated on every run; edit the upstream skill, not this copy. -->
+     Detected by: declared+detected · Regenerated on every run; edit the upstream skill, not this copy. -->
 
 # Firecrawl Extension for Claude SEO
 

@@ -2,7 +2,7 @@
 name: "serp-analysis"
 description: "Use when the user asks to \"analyze the SERP\" or \"SERP分析\"; maps SERP features, layout, ranking factors, search intent, AI Overviews, and snippet opportunities for a query. Not for keyword demand discovery — use keyword-research. SERP分析/搜索结果"
 category: "keyword-research"
-platforms: ["claude-code", "codex", "cursor"]
+platforms: ["claude-code", "codex", "cursor", "openclaw"]
 platform_source: "declared+detected"
 repo: "aaron-he-zhu/aaron-marketing-skills"
 repo_url: "https://github.com/aaron-he-zhu/aaron-marketing-skills"
@@ -15,7 +15,7 @@ stars: 3049
 collected: "2026-11-07"
 ---
 
-<!-- Claude Code, Codex, Cursor skill · aaron-he-zhu/aaron-marketing-skills · seo-geo/survey/serp-analysis/SKILL.md · Apache-2.0
+<!-- Claude Code, Codex, Cursor, OpenClaw skill · aaron-he-zhu/aaron-marketing-skills · seo-geo/survey/serp-analysis/SKILL.md · Apache-2.0
      Source: https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/HEAD/seo-geo/survey/serp-analysis/SKILL.md
      Detected by: declared+detected · Regenerated on every run; edit the upstream skill, not this copy. -->
 

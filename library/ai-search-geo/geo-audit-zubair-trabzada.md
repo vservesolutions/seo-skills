@@ -3,7 +3,7 @@ name: "geo-audit"
 description: "Full website GEO+SEO audit with parallel subagent delegation. Orchestrates a comprehensive Generative Engine Optimization audit across AI citability, platform analysis, technical infrastructure, content quality, and schema markup. Produces a composite GEO Score (0-100) with prioritized action plan."
 category: "ai-search-geo"
 platforms: ["claude-code"]
-platform_source: "declared"
+platform_source: "declared+detected"
 repo: "zubair-trabzada/geo-seo-claude"
 repo_url: "https://github.com/zubair-trabzada/geo-seo-claude"
 source: "https://github.com/zubair-trabzada/geo-seo-claude/blob/HEAD/skills/geo-audit/SKILL.md"
@@ -17,7 +17,7 @@ collected: "2026-11-07"
 
 <!-- Claude Code skill · zubair-trabzada/geo-seo-claude · skills/geo-audit/SKILL.md · MIT
      Source: https://github.com/zubair-trabzada/geo-seo-claude/blob/HEAD/skills/geo-audit/SKILL.md
-     Detected by: declared · Regenerated on every run; edit the upstream skill, not this copy. -->
+     Detected by: declared+detected · Regenerated on every run; edit the upstream skill, not this copy. -->
 
 # GEO Audit Orchestration Skill
 

@@ -2,7 +2,7 @@
 name: "performance-monitor"
 description: "Use when the user asks to \"generate an SEO report\", \"出月报\", \"set SEO alerts\", or \"排名掉了提醒我\"; two modes — report builds multi-metric traffic/ranking/authority/content dashboards, and alert configures threshold notifications for future ranking, traffic, technical, backlink, competitor, and AI-visibility changes. Not for raw position-by-position deltas — use rank-tracker. SEO报告/绩效仪表盘/SEO预警/排名监控"
 category: "technical-crawling-indexing"
-platforms: ["claude-code", "codex", "cursor"]
+platforms: ["claude-code", "codex", "cursor", "openclaw"]
 platform_source: "declared+detected"
 repo: "aaron-he-zhu/aaron-marketing-skills"
 repo_url: "https://github.com/aaron-he-zhu/aaron-marketing-skills"
@@ -15,7 +15,7 @@ stars: 3049
 collected: "2026-11-07"
 ---
 
-<!-- Claude Code, Codex, Cursor skill · aaron-he-zhu/aaron-marketing-skills · seo-geo/evaluate/performance-monitor/SKILL.md · Apache-2.0
+<!-- Claude Code, Codex, Cursor, OpenClaw skill · aaron-he-zhu/aaron-marketing-skills · seo-geo/evaluate/performance-monitor/SKILL.md · Apache-2.0
      Source: https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/HEAD/seo-geo/evaluate/performance-monitor/SKILL.md
      Detected by: declared+detected · Regenerated on every run; edit the upstream skill, not this copy. -->
 

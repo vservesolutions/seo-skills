@@ -1,6 +1,6 @@
 # SEO Skills Index
 
-Generated 2026-11-07. 28 skills across 16 categories, from 125 findings.
+Generated 2026-11-07. 28 skills across 16 categories, from 138 findings.
 
 A category skill aggregates every finding in its area; sub-skills go deeper where evidence exists.
 
@@ -44,11 +44,11 @@ A category skill aggregates every finding in its area; sub-skills go deeper wher
 | --- | --- | ---: | --- | --- |
 | [Content Strategy and Topical Authority](content-strategy/SKILL.md) | Content clusters, editorial planning, content audits and refreshes, decay, and building topical depth. | 1 | 2026-06-16 | low |
 
-## Keyword Research and Search Intent · 5 findings
+## Keyword Research and Search Intent · 6 findings
 
 | Skill | What it covers | Findings | Updated | Confidence |
 | --- | --- | ---: | --- | --- |
-| [Keyword Research and Search Intent](keyword-research/SKILL.md) | Intent classification, demand sizing, keyword difficulty, entity and semantic coverage, keyword mapping. | 5 | 2026-11-06 | medium |
+| [Keyword Research and Search Intent](keyword-research/SKILL.md) | Intent classification, demand sizing, keyword difficulty, entity and semantic coverage, keyword mapping. | 6 | 2026-11-06 | medium |
 
 ## Link Building and Off-Page Authority · 2 findings
 
@@ -70,24 +70,24 @@ A category skill aggregates every finding in its area; sub-skills go deeper wher
 | --- | --- | ---: | --- | --- |
 | [International and Multilingual SEO](international-seo/SKILL.md) | Hreflang implementation, locale targeting, ccTLD vs subfolder decisions and localization quality. | 1 | 2026-04-07 | low |
 
-## Ecommerce SEO and Faceted Navigation · 5 findings
+## Ecommerce SEO and Faceted Navigation · 6 findings
 
 | Skill | What it covers | Findings | Updated | Confidence |
 | --- | --- | ---: | --- | --- |
-| [Ecommerce SEO and Faceted Navigation](ecommerce-seo/SKILL.md) | Category and product page optimization, faceted navigation, variants, out-of-stock handling and merchant feeds. | 5 | 2026-11-06 | medium |
+| [Ecommerce SEO and Faceted Navigation](ecommerce-seo/SKILL.md) | Category and product page optimization, faceted navigation, variants, out-of-stock handling and merchant feeds. | 6 | 2026-11-06 | medium |
 
-## SEO Analytics, Reporting and Measurement · 18 findings
-
-| Skill | What it covers | Findings | Updated | Confidence |
-| --- | --- | ---: | --- | --- |
-| [SEO Analytics, Reporting and Measurement](analytics-measurement/SKILL.md) | Search Console and GA4 measurement, rank tracking, dashboards, forecasting and KPI definitions. | 18 | 2026-11-06 | high |
-| [↳ Search Console Analysis](search-console/SKILL.md) | Search Console Analysis: specific techniques, checks and pitfalls. | 7 | 2026-11-05 | medium |
-
-## AI Search, GEO and Answer Engines · 33 findings
+## SEO Analytics, Reporting and Measurement · 22 findings
 
 | Skill | What it covers | Findings | Updated | Confidence |
 | --- | --- | ---: | --- | --- |
-| [AI Search, GEO and Answer Engines](ai-search-geo/SKILL.md) | AI Overviews, AI Mode, LLM citation visibility, generative engine optimization and llms.txt conventions. | 33 | 2026-11-06 | high |
+| [SEO Analytics, Reporting and Measurement](analytics-measurement/SKILL.md) | Search Console and GA4 measurement, rank tracking, dashboards, forecasting and KPI definitions. | 22 | 2026-11-06 | high |
+| [↳ Search Console Analysis](search-console/SKILL.md) | Search Console Analysis: specific techniques, checks and pitfalls. | 9 | 2026-11-05 | medium |
+
+## AI Search, GEO and Answer Engines · 37 findings
+
+| Skill | What it covers | Findings | Updated | Confidence |
+| --- | --- | ---: | --- | --- |
+| [AI Search, GEO and Answer Engines](ai-search-geo/SKILL.md) | AI Overviews, AI Mode, LLM citation visibility, generative engine optimization and llms.txt conventions. | 37 | 2026-11-06 | high |
 | [↳ AI Overviews and AI Mode](ai-overviews/SKILL.md) | AI Overviews and AI Mode: specific techniques, checks and pitfalls. | 12 | 2026-11-06 | medium |
 | [↳ llms.txt and Agent Readability](llms-txt/SKILL.md) | llms.txt and Agent Readability: specific techniques, checks and pitfalls. | 1 | 2026-11-04 | low |
 | [↳ AI Citations and Brand Mentions](ai-citations/SKILL.md) | AI Citations and Brand Mentions: specific techniques, checks and pitfalls. | 4 | 2026-11-04 | low |
