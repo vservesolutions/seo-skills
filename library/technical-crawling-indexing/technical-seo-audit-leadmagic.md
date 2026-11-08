@@ -2,22 +2,22 @@
 name: "technical-seo-audit"
 description: "Audit a website's technical SEO across crawl access, indexing controls, canonicalization, sitemaps, internal links, rendered content, structured data, status codes, and Core Web Vitals. Use when organic pages are missing from search, a redesign or migration is planned, Search Console reports coverage problems, or the user asks for a prioritized technical SEO audit."
 category: "technical-crawling-indexing"
-platforms: ["claude-code", "copilot", "gemini-cli", "windsurf"]
-platform_source: "declared+detected"
+platforms: ["claude-code", "gemini-cli", "windsurf", "copilot"]
+platform_source: "detected"
 repo: "LeadMagic/gtm-skills"
 repo_url: "https://github.com/LeadMagic/gtm-skills"
 source: "https://github.com/LeadMagic/gtm-skills/blob/HEAD/skills/content-seo/technical-seo-audit/SKILL.md"
 raw_source: "https://raw.githubusercontent.com/LeadMagic/gtm-skills/HEAD/skills/content-seo/technical-seo-audit/SKILL.md"
 ref: "HEAD"
-discovered_via: "github-search"
+discovered_via: "state"
 license: "MIT"
 stars: 75
 collected: "2026-11-08"
 ---
 
-<!-- Claude Code, Copilot, Gemini CLI, Windsurf skill · LeadMagic/gtm-skills · skills/content-seo/technical-seo-audit/SKILL.md · MIT
+<!-- Claude Code, Gemini CLI, Windsurf, Copilot skill · LeadMagic/gtm-skills · skills/content-seo/technical-seo-audit/SKILL.md · MIT
      Source: https://github.com/LeadMagic/gtm-skills/blob/HEAD/skills/content-seo/technical-seo-audit/SKILL.md
-     Detected by: declared+detected · Regenerated on every run; edit the upstream skill, not this copy. -->
+     Detected by: detected · Regenerated on every run; edit the upstream skill, not this copy. -->
 
 # Technical SEO Audit
 

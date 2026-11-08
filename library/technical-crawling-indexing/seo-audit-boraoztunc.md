@@ -2,22 +2,22 @@
 name: "seo-audit"
 description: "When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions \"SEO audit,\" \"technical SEO,\" \"why am I not ranking,\" \"SEO issues,\" \"on-page SEO,\" \"meta tags review,\" or \"SEO health check.\" For building pages at scale to target keywords, see programmatic-seo. For adding structured data, see schema-markup."
 category: "technical-crawling-indexing"
-platforms: ["claude-code"]
-platform_source: "declared"
+platforms: ["unspecified"]
+platform_source: "none"
 repo: "boraoztunc/skills"
 repo_url: "https://github.com/boraoztunc/skills"
 source: "https://github.com/boraoztunc/skills/blob/HEAD/seo-audit/SKILL.md"
 raw_source: "https://raw.githubusercontent.com/boraoztunc/skills/HEAD/seo-audit/SKILL.md"
 ref: "HEAD"
-discovered_via: "github-search"
+discovered_via: "state"
 license: "Apache-2.0"
 stars: 454
 collected: "2026-11-08"
 ---
 
-<!-- Claude Code skill · boraoztunc/skills · seo-audit/SKILL.md · Apache-2.0
+<!-- Unspecified skill · boraoztunc/skills · seo-audit/SKILL.md · Apache-2.0
      Source: https://github.com/boraoztunc/skills/blob/HEAD/seo-audit/SKILL.md
-     Detected by: declared · Regenerated on every run; edit the upstream skill, not this copy. -->
+     Detected by: none · Regenerated on every run; edit the upstream skill, not this copy. -->
 
 # SEO Audit
 

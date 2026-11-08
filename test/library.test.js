@@ -152,6 +152,18 @@ test('permissive licences keep full text, everything else is catalogued only', (
   assert.equal(unlicensed.license, 'none');
 });
 
+test('a hyphenated search-visibility name is enough to keep the skill', () => {
+  const record = build(
+    'improve-search-visibility',
+    'Runs the agreed buyer questions on AI surfaces and scores how often the brand is named.'
+  );
+  assert.ok(record, 'expected the AI search visibility skill to be collected');
+});
+
+test('a skill with no search-marketing signal is still skipped', () => {
+  assert.equal(build('make-product-photos', 'Make studio photos of a product without a shoot.'), null);
+});
+
 test('skill files take their licence from the SKILL.md when the pack has none', () => {
   const markdown = `---
 name: seo-schema

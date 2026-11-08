@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-11-08T13:28:30.895Z",
+  "generatedAt": "2026-11-08T14:49:38.036Z",
   "counts": {
-    "skills": 630,
+    "skills": 697,
     "packs": 90,
-    "fullText": 495,
+    "fullText": 562,
     "categories": 17
   },
   "categories": [
     {
       "id": "technical-crawling-indexing",
       "title": "Technical SEO: Crawling, Indexing and Rendering",
-      "count": 119
+      "count": 133
     },
     {
       "id": "site-architecture-internal-links",
       "title": "Site Architecture and Internal Linking",
-      "count": 14
+      "count": 15
     },
     {
       "id": "core-web-vitals-performance",
       "title": "Core Web Vitals and Page Experience",
-      "count": 13
+      "count": 14
     },
     {
       "id": "structured-data",
@@ -30,32 +30,32 @@
     {
       "id": "on-page-seo",
       "title": "On-Page SEO and Content Optimization",
-      "count": 50
+      "count": 59
     },
     {
       "id": "content-strategy",
       "title": "Content Strategy and Topical Authority",
-      "count": 32
+      "count": 37
     },
     {
       "id": "keyword-research",
       "title": "Keyword Research and Search Intent",
-      "count": 86
+      "count": 94
     },
     {
       "id": "link-building",
       "title": "Link Building and Off-Page Authority",
-      "count": 55
+      "count": 57
     },
     {
       "id": "local-seo",
       "title": "Local SEO and Google Business Profile",
-      "count": 56
+      "count": 60
     },
     {
       "id": "international-seo",
       "title": "International and Multilingual SEO",
-      "count": 13
+      "count": 15
     },
     {
       "id": "ecommerce-seo",
@@ -65,32 +65,32 @@
     {
       "id": "analytics-measurement",
       "title": "SEO Analytics, Reporting and Measurement",
-      "count": 36
+      "count": 45
     },
     {
       "id": "ai-search-geo",
       "title": "AI Search, GEO and Answer Engines",
-      "count": 85
+      "count": 91
     },
     {
       "id": "algorithm-updates",
       "title": "Algorithm Updates, Spam Policy and Recovery",
-      "count": 2
+      "count": 3
     },
     {
       "id": "serp-features",
       "title": "SERP Features, Snippets and CTR",
-      "count": 5
+      "count": 7
     },
     {
       "id": "migration-redirects",
       "title": "Migrations, Redirects and HTTPS",
-      "count": 6
+      "count": 7
     },
     {
       "id": "general-seo",
       "title": "General SEO",
-      "count": 14
+      "count": 16
     }
   ],
   "skills": [
@@ -302,6 +302,32 @@
       "file": "library/technical-crawling-indexing/web-quality-audit-addyosmani.md"
     },
     {
+      "name": "content-quality-auditor",
+      "slug": "content-quality-auditor-aaron-he-zhu",
+      "description": "Use when auditing content quality, E-E-A-T, or publish readiness; runs a typed 80-item CORE-EEAT profile with evidence coverage, veto checks, and a fix plan. Not for structural tags/headers alone — use on-page-seo-checker; not for domain/citation trust — use domain-authority-auditor. 内容质量/EEAT评分",
+      "category": "technical-crawling-indexing",
+      "categoryTitle": "Technical SEO: Crawling, Indexing and Rendering",
+      "repo": "aaron-he-zhu/aaron-marketing-skills",
+      "repoUrl": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+      "path": "seo-geo/tune/content-quality-auditor/SKILL.md",
+      "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/HEAD/seo-geo/tune/content-quality-auditor/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/aaron-he-zhu/aaron-marketing-skills/HEAD/seo-geo/tune/content-quality-auditor/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared+detected",
+      "license": "Apache-2.0",
+      "platforms": [
+        "claude-code",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "stars": 3049,
+      "repoUpdatedAt": "2026-11-02",
+      "hasContent": true,
+      "file": "library/technical-crawling-indexing/content-quality-auditor-aaron-he-zhu.md"
+    },
+    {
       "name": "domain-authority-auditor",
       "slug": "domain-authority-auditor-aaron-he-zhu",
       "description": "Use when auditing domain authority, trust, or citation credibility; runs a peer-relative 40-item CITE profile with evidence coverage and verified manipulation/penalty veto checks. Not for page-level content quality — use content-quality-auditor; not for backlink profiling alone — use offsite-signal-analyzer. 域名权威/网站可信度",
@@ -354,6 +380,32 @@
       "file": "library/technical-crawling-indexing/performance-monitor-aaron-he-zhu.md"
     },
     {
+      "name": "technical-seo-checker",
+      "slug": "technical-seo-checker-aaron-he-zhu",
+      "description": "Use when the user asks to \"check technical SEO\"; audits crawlability, indexing, Core Web Vitals, robots.txt, sitemaps, canonicals, redirects, and migrations. Not for on-page tags or content — use on-page-seo-checker. 技术SEO/网站速度",
+      "category": "technical-crawling-indexing",
+      "categoryTitle": "Technical SEO: Crawling, Indexing and Rendering",
+      "repo": "aaron-he-zhu/aaron-marketing-skills",
+      "repoUrl": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+      "path": "seo-geo/tune/technical-seo-checker/SKILL.md",
+      "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/HEAD/seo-geo/tune/technical-seo-checker/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/aaron-he-zhu/aaron-marketing-skills/HEAD/seo-geo/tune/technical-seo-checker/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared+detected",
+      "license": "Apache-2.0",
+      "platforms": [
+        "claude-code",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "stars": 3049,
+      "repoUpdatedAt": "2026-11-02",
+      "hasContent": true,
+      "file": "library/technical-crawling-indexing/technical-seo-checker-aaron-he-zhu.md"
+    },
+    {
       "name": "blog-audit",
       "slug": "blog-audit-agricidaniel",
       "description": "Full-site blog health assessment scanning all blog files for quality scores, orphan pages, topic cannibalization, stale content, and AI citation readiness. Runs canonical batch analysis before site-wide checks. Produces per-post scores and a prioritized action queue. Use when the user asks for a site-wide blog health check across many posts (\"blog audit\", \"blog health\", \"audit all posts\", \"site audit of the blog\"). For one post, or a quality score with fixes for a few named files, use blog-analyze instead.",
@@ -398,6 +450,236 @@
       "repoUpdatedAt": "2026-10-06",
       "hasContent": true,
       "file": "library/technical-crawling-indexing/aso-audit-appeeky.md"
+    },
+    {
+      "name": "improve-search-visibility-store-listing-audit",
+      "slug": "improve-search-visibility-store-listing-audit-gooseworks-ai",
+      "description": "Audits an app's App Store and Google Play listing against three competitors (title, subtitle, description opening, first screenshots and captions, rating, review themes) and writes a field-by-field rewrite with character counts, or a launch-day listing before release. Use alone when you already have the app's store links and signed-off product facts; otherwise run improve-search-visibility.",
+      "category": "technical-crawling-indexing",
+      "categoryTitle": "Technical SEO: Crawling, Indexing and Rendering",
+      "repo": "gooseworks-ai/goose-skills",
+      "repoUrl": "https://github.com/gooseworks-ai/goose-skills",
+      "path": "skills/marketing/improve-search-visibility-store-listing-audit/SKILL.md",
+      "url": "https://github.com/gooseworks-ai/goose-skills/blob/HEAD/skills/marketing/improve-search-visibility-store-listing-audit/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/gooseworks-ai/goose-skills/HEAD/skills/marketing/improve-search-visibility-store-listing-audit/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "state",
+      "platformSource": "none",
+      "license": "MIT",
+      "platforms": [
+        "unspecified"
+      ],
+      "stars": 1292,
+      "repoUpdatedAt": "",
+      "hasContent": true,
+      "file": "library/technical-crawling-indexing/improve-search-visibility-store-listing-audit-gooseworks-ai.md"
+    },
+    {
+      "name": "canonical-tag",
+      "slug": "canonical-tag-kostja94",
+      "description": "Audit and fix duplicate-page canonicalization across protocol, host, slash, default-document, extension, case, and tracking-parameter URL variants. Use for canonical URLs, duplicate content, preferred URLs, URL consolidation, or conflicting canonical signals. For URL naming and hierarchy design, use url-structure.",
+      "category": "technical-crawling-indexing",
+      "categoryTitle": "Technical SEO: Crawling, Indexing and Rendering",
+      "repo": "kostja94/marketing-skills",
+      "repoUrl": "https://github.com/kostja94/marketing-skills",
+      "path": "skills/seo/technical/canonical/SKILL.md",
+      "url": "https://github.com/kostja94/marketing-skills/blob/HEAD/skills/seo/technical/canonical/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/kostja94/marketing-skills/HEAD/skills/seo/technical/canonical/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 1072,
+      "repoUpdatedAt": "2026-10-26",
+      "hasContent": true,
+      "file": "library/technical-crawling-indexing/canonical-tag-kostja94.md"
+    },
+    {
+      "name": "core-web-vitals",
+      "slug": "core-web-vitals-kostja94",
+      "description": "When the user wants to optimize Core Web Vitals, fix LCP, INP, or CLS issues. Also use when the user mentions \"Core Web Vitals,\" \"CWV,\" \"LCP,\" \"INP,\" \"CLS,\" \"FID,\" \"page speed,\" \"page performance,\" \"Largest Contentful Paint,\" \"Interaction to Next Paint,\" \"Cumulative Layout Shift,\" or \"Page Experience.\" For GSC CWV, use google-search-console.",
+      "category": "technical-crawling-indexing",
+      "categoryTitle": "Technical SEO: Crawling, Indexing and Rendering",
+      "repo": "kostja94/marketing-skills",
+      "repoUrl": "https://github.com/kostja94/marketing-skills",
+      "path": "skills/seo/technical/core-web-vitals/SKILL.md",
+      "url": "https://github.com/kostja94/marketing-skills/blob/HEAD/skills/seo/technical/core-web-vitals/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/kostja94/marketing-skills/HEAD/skills/seo/technical/core-web-vitals/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 1072,
+      "repoUpdatedAt": "2026-10-26",
+      "hasContent": true,
+      "file": "library/technical-crawling-indexing/core-web-vitals-kostja94.md"
+    },
+    {
+      "name": "indexing",
+      "slug": "indexing-kostja94",
+      "description": "When the user wants to fix indexing issues from Search Console, use noindex, or implement Google Indexing API. Also use when the user mentions \"fix indexing,\" \"not indexed,\" \"Crawled - currently not indexed,\" \"discovered - currently not indexed,\" \"index coverage,\" \"noindex,\" \"noindex tag,\" \"pages not indexed,\" \"why not indexed,\" \"request indexing,\" or \"Google Indexing API.\" For sitemap, use xml-sitemap.",
+      "category": "technical-crawling-indexing",
+      "categoryTitle": "Technical SEO: Crawling, Indexing and Rendering",
+      "repo": "kostja94/marketing-skills",
+      "repoUrl": "https://github.com/kostja94/marketing-skills",
+      "path": "skills/seo/technical/indexing/SKILL.md",
+      "url": "https://github.com/kostja94/marketing-skills/blob/HEAD/skills/seo/technical/indexing/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/kostja94/marketing-skills/HEAD/skills/seo/technical/indexing/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 1072,
+      "repoUpdatedAt": "2026-10-26",
+      "hasContent": true,
+      "file": "library/technical-crawling-indexing/indexing-kostja94.md"
+    },
+    {
+      "name": "indexnow",
+      "slug": "indexnow-kostja94",
+      "description": "When the user wants to implement IndexNow, notify search engines of new/updated URLs, or speed up Bing indexing. Also use when the user mentions \"IndexNow,\" \"Bing indexing,\" \"URL notification,\" \"instant indexing,\" \"sitemap IndexNow sync,\" \"share URL list with sitemap,\" or \"IndexNow API.\" For sitemap SSOT, use xml-sitemap.",
+      "category": "technical-crawling-indexing",
+      "categoryTitle": "Technical SEO: Crawling, Indexing and Rendering",
+      "repo": "kostja94/marketing-skills",
+      "repoUrl": "https://github.com/kostja94/marketing-skills",
+      "path": "skills/seo/technical/indexnow/SKILL.md",
+      "url": "https://github.com/kostja94/marketing-skills/blob/HEAD/skills/seo/technical/indexnow/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/kostja94/marketing-skills/HEAD/skills/seo/technical/indexnow/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 1072,
+      "repoUpdatedAt": "2026-10-26",
+      "hasContent": true,
+      "file": "library/technical-crawling-indexing/indexnow-kostja94.md"
+    },
+    {
+      "name": "rendering-strategies",
+      "slug": "rendering-strategies-kostja94",
+      "description": "When the user wants to choose or optimize rendering strategy for SEO. Also use when the user mentions \"SSR,\" \"SSG,\" \"CSR,\" \"ISR,\" \"static rendering,\" \"dynamic rendering,\" \"server-side rendering,\" \"client-side rendering,\" \"JavaScript rendering,\" \"pre-rendering,\" \"prerender,\" \"content in initial HTML,\" or \"crawler visibility.\" For crawl issues, use site-crawlability.",
+      "category": "technical-crawling-indexing",
+      "categoryTitle": "Technical SEO: Crawling, Indexing and Rendering",
+      "repo": "kostja94/marketing-skills",
+      "repoUrl": "https://github.com/kostja94/marketing-skills",
+      "path": "skills/seo/technical/rendering-strategies/SKILL.md",
+      "url": "https://github.com/kostja94/marketing-skills/blob/HEAD/skills/seo/technical/rendering-strategies/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/kostja94/marketing-skills/HEAD/skills/seo/technical/rendering-strategies/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 1072,
+      "repoUpdatedAt": "2026-10-26",
+      "hasContent": true,
+      "file": "library/technical-crawling-indexing/rendering-strategies-kostja94.md"
+    },
+    {
+      "name": "robots-txt",
+      "slug": "robots-txt-kostja94",
+      "description": "When the user wants to configure, audit, or optimize robots.txt. Also use when the user mentions \"robots.txt,\" \"crawler rules,\" \"block crawlers,\" \"AI crawlers,\" \"GPTBot,\" \"allow/disallow,\" \"disallow path,\" \"crawl directives,\" \"user-agent,\" \"block Googlebot,\" \"fix robots.txt,\" \"robots.txt blocking,\" or \"search engine crawling.\" For indexing, use indexing.",
+      "category": "technical-crawling-indexing",
+      "categoryTitle": "Technical SEO: Crawling, Indexing and Rendering",
+      "repo": "kostja94/marketing-skills",
+      "repoUrl": "https://github.com/kostja94/marketing-skills",
+      "path": "skills/seo/technical/robots/SKILL.md",
+      "url": "https://github.com/kostja94/marketing-skills/blob/HEAD/skills/seo/technical/robots/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/kostja94/marketing-skills/HEAD/skills/seo/technical/robots/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 1072,
+      "repoUpdatedAt": "2026-10-26",
+      "hasContent": true,
+      "file": "library/technical-crawling-indexing/robots-txt-kostja94.md"
+    },
+    {
+      "name": "seo-audit",
+      "slug": "seo-audit-kostja94",
+      "description": "When the user wants to run an SEO audit, technical SEO audit, or site health check. Also use when the user mentions \"SEO audit,\" \"technical audit,\" \"site audit,\" \"crawl audit,\" \"indexing audit,\" \"SEO health,\" or \"fix SEO issues.\" For prioritization and organic strategy, use seo-strategy. For GSC data analysis, use google-search-console.",
+      "category": "technical-crawling-indexing",
+      "categoryTitle": "Technical SEO: Crawling, Indexing and Rendering",
+      "repo": "kostja94/marketing-skills",
+      "repoUrl": "https://github.com/kostja94/marketing-skills",
+      "path": "skills/strategies/structure/seo-audit/SKILL.md",
+      "url": "https://github.com/kostja94/marketing-skills/blob/HEAD/skills/strategies/structure/seo-audit/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/kostja94/marketing-skills/HEAD/skills/strategies/structure/seo-audit/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 1072,
+      "repoUpdatedAt": "2026-10-26",
+      "hasContent": true,
+      "file": "library/technical-crawling-indexing/seo-audit-kostja94.md"
+    },
+    {
+      "name": "site-crawlability",
+      "slug": "site-crawlability-kostja94",
+      "description": "When the user wants to improve crawlability, fix orphan pages, or optimize site structure for search engines. Also use when the user mentions \"crawlability,\" \"crawl budget,\" \"orphan pages,\" \"internal links,\" \"site structure,\" \"site crawlability,\" \"infinite scroll,\" \"pagination,\" \"masonry SEO,\" \"AI crawler optimization,\" \"GPTBot crawlability,\" \"ClaudeBot crawlability,\" or \"content not indexed.\" For internal links, use internal-links.",
+      "category": "technical-crawling-indexing",
+      "categoryTitle": "Technical SEO: Crawling, Indexing and Rendering",
+      "repo": "kostja94/marketing-skills",
+      "repoUrl": "https://github.com/kostja94/marketing-skills",
+      "path": "skills/seo/technical/crawlability/SKILL.md",
+      "url": "https://github.com/kostja94/marketing-skills/blob/HEAD/skills/seo/technical/crawlability/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/kostja94/marketing-skills/HEAD/skills/seo/technical/crawlability/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 1072,
+      "repoUpdatedAt": "2026-10-26",
+      "hasContent": true,
+      "file": "library/technical-crawling-indexing/site-crawlability-kostja94.md"
+    },
+    {
+      "name": "video-optimization",
+      "slug": "video-optimization-kostja94",
+      "description": "When the user wants to optimize videos for Google Search, video sitemap, VideoObject schema, or video SEO on websites. Also use when the user mentions \"video SEO,\" \"video sitemap,\" \"VideoObject,\" \"video thumbnail,\" \"video indexing,\" \"video preview,\" \"key moments,\" \"Clip schema,\" or \"embedded video optimization.\" For page template, use article-page-generator.",
+      "category": "technical-crawling-indexing",
+      "categoryTitle": "Technical SEO: Crawling, Indexing and Rendering",
+      "repo": "kostja94/marketing-skills",
+      "repoUrl": "https://github.com/kostja94/marketing-skills",
+      "path": "skills/seo/on-page/video-optimization/SKILL.md",
+      "url": "https://github.com/kostja94/marketing-skills/blob/HEAD/skills/seo/on-page/video-optimization/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/kostja94/marketing-skills/HEAD/skills/seo/on-page/video-optimization/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 1072,
+      "repoUpdatedAt": "2026-10-26",
+      "hasContent": true,
+      "file": "library/technical-crawling-indexing/video-optimization-kostja94.md"
     },
     {
       "name": "programmatic-seo",
@@ -457,14 +739,14 @@
       "url": "https://github.com/rampstackco/claude-skills/blob/HEAD/dist/codex/.agents/skills/seo-audit-orchestration/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/rampstackco/claude-skills/HEAD/dist/codex/.agents/skills/seo-audit-orchestration/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 1047,
-      "repoUpdatedAt": "2026-10-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/technical-crawling-indexing/seo-audit-orchestration-rampstackco.md"
     },
@@ -480,14 +762,14 @@
       "url": "https://github.com/rampstackco/claude-skills/blob/HEAD/dist/codex/.agents/skills/seo-content-audit/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/rampstackco/claude-skills/HEAD/dist/codex/.agents/skills/seo-content-audit/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 1047,
-      "repoUpdatedAt": "2026-10-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/technical-crawling-indexing/seo-content-audit-rampstackco.md"
     },
@@ -503,14 +785,14 @@
       "url": "https://github.com/rampstackco/claude-skills/blob/HEAD/dist/codex/.agents/skills/seo-content-gap-audit/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/rampstackco/claude-skills/HEAD/dist/codex/.agents/skills/seo-content-gap-audit/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 1047,
-      "repoUpdatedAt": "2026-10-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/technical-crawling-indexing/seo-content-gap-audit-rampstackco.md"
     },
@@ -526,14 +808,14 @@
       "url": "https://github.com/rampstackco/claude-skills/blob/HEAD/dist/codex/.agents/skills/seo-site-health-audit/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/rampstackco/claude-skills/HEAD/dist/codex/.agents/skills/seo-site-health-audit/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 1047,
-      "repoUpdatedAt": "2026-10-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/technical-crawling-indexing/seo-site-health-audit-rampstackco.md"
     },
@@ -549,14 +831,14 @@
       "url": "https://github.com/rampstackco/claude-skills/blob/HEAD/dist/codex/.agents/skills/seo-technical/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/rampstackco/claude-skills/HEAD/dist/codex/.agents/skills/seo-technical/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 1047,
-      "repoUpdatedAt": "2026-10-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/technical-crawling-indexing/seo-technical-rampstackco.md"
     },
@@ -865,6 +1147,29 @@
       "file": "library/technical-crawling-indexing/seo-audit-affitor.md"
     },
     {
+      "name": "gsc-portfolio-audit",
+      "slug": "gsc-portfolio-audit-openclaudia",
+      "description": "Audit EVERY Google Search Console property at once — rank all sites by clicks and impressions with period-over-period deltas, then diff keywords per site to surface what is newly ranking, rising, dropping, lost, or ranking well without earning clicks. Built for agencies and multi-site owners. Use when asked to compare all sites, rank properties by traffic, find new keywords across a portfolio, or spot which site is down. Trigger phrases: \"audit GSC\", \"all my sites\", \"rank my properties\", \"portfolio search performance\", \"which sites are down\", \"what new keywords are we ranking for\", \"client…",
+      "category": "technical-crawling-indexing",
+      "categoryTitle": "Technical SEO: Crawling, Indexing and Rendering",
+      "repo": "OpenClaudia/openclaudia-skills",
+      "repoUrl": "https://github.com/OpenClaudia/openclaudia-skills",
+      "path": "skills/gsc-portfolio-audit/SKILL.md",
+      "url": "https://github.com/OpenClaudia/openclaudia-skills/blob/HEAD/skills/gsc-portfolio-audit/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/OpenClaudia/openclaudia-skills/HEAD/skills/gsc-portfolio-audit/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 724,
+      "repoUpdatedAt": "2026-10-29",
+      "hasContent": true,
+      "file": "library/technical-crawling-indexing/gsc-portfolio-audit-openclaudia.md"
+    },
+    {
       "name": "seo-audit",
       "slug": "seo-audit-openclaudia",
       "description": "Run a full technical and on-page SEO audit on any website or page. Use when the user says \"audit my site\", \"SEO check\", \"technical SEO review\", \"site health\", \"check my SEO\", \"what's wrong with my site\", or provides a URL and asks for SEO feedback.",
@@ -968,14 +1273,14 @@
       "url": "https://github.com/boraoztunc/skills/blob/HEAD/seo-audit/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/boraoztunc/skills/HEAD/seo-audit/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
-      "platformSource": "declared",
+      "discoveredVia": "state",
+      "platformSource": "none",
       "license": "Apache-2.0",
       "platforms": [
-        "claude-code"
+        "unspecified"
       ],
       "stars": 454,
-      "repoUpdatedAt": "2026-11-04",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/technical-crawling-indexing/seo-audit-boraoztunc.md"
     },
@@ -1073,6 +1378,31 @@
       "file": "library/technical-crawling-indexing/seo-autopilot-kennyzir.md"
     },
     {
+      "name": "gsc-assistant",
+      "slug": "gsc-assistant-nicepkg",
+      "description": "Google Search Console indexing assistant. Use when the user wants to track page indexing status, compare sitemap against GSC indexed pages, manage submission tracking, or move false positives (pages indexed per URL Inspection but not yet in GSC export) to the indexed list. Maintains two tracking files (indexed.md, to-index.md) with prioritization support.",
+      "category": "technical-crawling-indexing",
+      "categoryTitle": "Technical SEO: Crawling, Indexing and Rendering",
+      "repo": "nicepkg/ai-workflow",
+      "repoUrl": "https://github.com/nicepkg/ai-workflow",
+      "path": "workflows/content-creator-workflow/.claude/skills/gsc-assistant/SKILL.md",
+      "url": "https://github.com/nicepkg/ai-workflow/blob/HEAD/workflows/content-creator-workflow/.claude/skills/gsc-assistant/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/nicepkg/ai-workflow/HEAD/workflows/content-creator-workflow/.claude/skills/gsc-assistant/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code",
+        "codex",
+        "cursor"
+      ],
+      "stars": 288,
+      "repoUpdatedAt": "2026-01-20",
+      "hasContent": true,
+      "file": "library/technical-crawling-indexing/gsc-assistant-nicepkg.md"
+    },
+    {
       "name": "on-page-seo-auditor",
       "slug": "on-page-seo-auditor-aaron-he-zhu",
       "description": "Signpost repo. The 16 SEO and GEO skills moved to `aaron-marketing-skills`, the standalone 20-skill set stays here",
@@ -1116,7 +1446,7 @@
       "stars": 235,
       "repoUpdatedAt": "2026-09-04",
       "hasContent": true,
-      "file": "library/technical-crawling-indexing/technical-seo-checker-aaron-he-zhu.md"
+      "file": "library/technical-crawling-indexing/technical-seo-checker-aaron-he-zhu-ef883f.md"
     },
     {
       "name": "seo-firecrawl",
@@ -1545,14 +1875,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/global-skillshare-import/wave-006/firecrawl-scraper/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/global-skillshare-import/wave-006/firecrawl-scraper/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "detected",
       "license": "none",
       "platforms": [
         "claude-code"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": false,
       "file": ""
     },
@@ -1568,14 +1898,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/kit-510-ptbr/05-seo-busca/indexing-strategy/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/kit-510-ptbr/05-seo-busca/indexing-strategy/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "detected",
       "license": "MIT",
       "platforms": [
         "claude-code"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/technical-crawling-indexing/indexing-strategy-kursku.md"
     },
@@ -1591,14 +1921,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/global-skillshare-import/wave-011/seo-audit/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/global-skillshare-import/wave-011/seo-audit/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "none",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": false,
       "file": ""
     },
@@ -1614,14 +1944,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/kit-510-ptbr/05-seo-busca/seo-audit-checklist/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/kit-510-ptbr/05-seo-busca/seo-audit-checklist/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/technical-crawling-indexing/seo-audit-checklist-kursku.md"
     },
@@ -1637,14 +1967,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/global-skillshare-import/wave-011/seo-content-auditor/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/global-skillshare-import/wave-011/seo-content-auditor/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "none",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": false,
       "file": ""
     },
@@ -1660,14 +1990,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/kit-510-ptbr/05-seo-busca/technical-seo-audit/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/kit-510-ptbr/05-seo-busca/technical-seo-audit/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/technical-crawling-indexing/technical-seo-audit-kursku.md"
     },
@@ -2054,17 +2384,17 @@
       "url": "https://github.com/LeadMagic/gtm-skills/blob/HEAD/skills/content-seo/technical-seo-audit/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/LeadMagic/gtm-skills/HEAD/skills/content-seo/technical-seo-audit/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
-      "platformSource": "declared+detected",
+      "discoveredVia": "state",
+      "platformSource": "detected",
       "license": "MIT",
       "platforms": [
         "claude-code",
-        "copilot",
         "gemini-cli",
-        "windsurf"
+        "windsurf",
+        "copilot"
       ],
       "stars": 75,
-      "repoUpdatedAt": "2026-10-14",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/technical-crawling-indexing/technical-seo-audit-leadmagic.md"
     },
@@ -2854,6 +3184,32 @@
       "file": "library/technical-crawling-indexing/seo-technical-audit-gaguero.md"
     },
     {
+      "name": "site-structure-optimizer",
+      "slug": "site-structure-optimizer-aaron-he-zhu",
+      "description": "Use when the user asks to \"plan my site structure\", \"design the page hierarchy / navigation / URL taxonomy\", \"fix internal linking\", or \"find orphan pages\"; runs two modes — architecture (hierarchy, nav, URL patterns, hub/spoke clusters, Mermaid site maps) and linking (link graph, authority flow, anchor text, orphan disposition, source/target/anchor plan) — and outputs a structure score /100 plus a handoff summary. Not for external backlinks — use offsite-signal-analyzer; not for XML sitemap or indexation issues — use technical-seo-checker. 网站架构/信息架构/站点地图/内链优化",
+      "category": "site-architecture-internal-links",
+      "categoryTitle": "Site Architecture and Internal Linking",
+      "repo": "aaron-he-zhu/aaron-marketing-skills",
+      "repoUrl": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+      "path": "seo-geo/tune/site-structure-optimizer/SKILL.md",
+      "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/HEAD/seo-geo/tune/site-structure-optimizer/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/aaron-he-zhu/aaron-marketing-skills/HEAD/seo-geo/tune/site-structure-optimizer/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared+detected",
+      "license": "Apache-2.0",
+      "platforms": [
+        "claude-code",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "stars": 3049,
+      "repoUpdatedAt": "2026-11-02",
+      "hasContent": true,
+      "file": "library/site-architecture-internal-links/site-structure-optimizer-aaron-he-zhu.md"
+    },
+    {
       "name": "internal-links",
       "slug": "internal-links-kostja94",
       "description": "Audits and designs internal links for a site, page family or article. Use for orphan pages, link equity, click depth, hubs, anchor text, old-post backfill and product navigation.",
@@ -2983,14 +3339,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/kit-510-ptbr/05-seo-busca/internal-linking/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/kit-510-ptbr/05-seo-busca/internal-linking/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/site-architecture-internal-links/internal-linking-kursku.md"
     },
@@ -3006,14 +3362,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/global-skillshare-import/wave-011/seo-content-refresher/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/global-skillshare-import/wave-011/seo-content-refresher/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "none",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": false,
       "file": ""
     },
@@ -3029,14 +3385,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/global-skillshare-import/wave-011/seo-structure-architect/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/global-skillshare-import/wave-011/seo-structure-architect/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "none",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": false,
       "file": ""
     },
@@ -3075,17 +3431,17 @@
       "url": "https://github.com/LeadMagic/gtm-skills/blob/HEAD/skills/content-seo/pillar-pages/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/LeadMagic/gtm-skills/HEAD/skills/content-seo/pillar-pages/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
-      "platformSource": "declared+detected",
+      "discoveredVia": "state",
+      "platformSource": "detected",
       "license": "MIT",
       "platforms": [
         "claude-code",
-        "copilot",
         "gemini-cli",
-        "windsurf"
+        "windsurf",
+        "copilot"
       ],
       "stars": 75,
-      "repoUpdatedAt": "2026-10-14",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/site-architecture-internal-links/pillar-pages-leadmagic.md"
     },
@@ -3228,6 +3584,29 @@
       "file": "library/core-web-vitals-performance/image-optimization-kostja94.md"
     },
     {
+      "name": "mobile-friendly",
+      "slug": "mobile-friendly-kostja94",
+      "description": "When the user wants to optimize for mobile-first indexing or fix mobile usability. Also use when the user mentions \"mobile-friendly,\" \"mobile-first indexing,\" \"mobile SEO,\" \"responsive design,\" \"mobile adaptation,\" \"mobile viewport,\" \"viewport meta,\" \"touch targets,\" \"font size mobile,\" \"AMP,\" or \"Accelerated Mobile Pages.\" For viewport meta, use page-metadata.",
+      "category": "core-web-vitals-performance",
+      "categoryTitle": "Core Web Vitals and Page Experience",
+      "repo": "kostja94/marketing-skills",
+      "repoUrl": "https://github.com/kostja94/marketing-skills",
+      "path": "skills/seo/technical/mobile-friendly/SKILL.md",
+      "url": "https://github.com/kostja94/marketing-skills/blob/HEAD/skills/seo/technical/mobile-friendly/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/kostja94/marketing-skills/HEAD/skills/seo/technical/mobile-friendly/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 1072,
+      "repoUpdatedAt": "2026-10-26",
+      "hasContent": true,
+      "file": "library/core-web-vitals-performance/mobile-friendly-kostja94.md"
+    },
+    {
       "name": "seo-images",
       "slug": "seo-images-agricidaniel",
       "description": "Review image discoverability, accessibility, page performance risks and SEO asset briefs. Use for image SEO or image optimization requests.",
@@ -3354,14 +3733,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/kit-510-ptbr/05-seo-busca/image-seo/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/kit-510-ptbr/05-seo-busca/image-seo/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/core-web-vitals-performance/image-seo-kursku.md"
     },
@@ -3656,14 +4035,14 @@
       "url": "https://github.com/rampstackco/claude-skills/blob/HEAD/dist/codex/.agents/skills/programmatic-seo/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/rampstackco/claude-skills/HEAD/dist/codex/.agents/skills/programmatic-seo/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 1047,
-      "repoUpdatedAt": "2026-10-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/structured-data/programmatic-seo-rampstackco.md"
     },
@@ -3725,14 +4104,14 @@
       "url": "https://github.com/boraoztunc/skills/blob/HEAD/schema-markup/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/boraoztunc/skills/HEAD/schema-markup/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
-      "platformSource": "declared",
+      "discoveredVia": "state",
+      "platformSource": "none",
       "license": "Apache-2.0",
       "platforms": [
-        "claude-code"
+        "unspecified"
       ],
       "stars": 454,
-      "repoUpdatedAt": "2026-11-04",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/structured-data/schema-markup-boraoztunc.md"
     },
@@ -3886,14 +4265,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/kit-510-ptbr/05-seo-busca/ai-seo-content/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/kit-510-ptbr/05-seo-busca/ai-seo-content/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/structured-data/ai-seo-content-kursku.md"
     },
@@ -3909,14 +4288,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/global-skillshare-import/wave-010/programmatic-seo/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/global-skillshare-import/wave-010/programmatic-seo/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "none",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": false,
       "file": ""
     },
@@ -3932,14 +4311,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/kit-510-ptbr/05-seo-busca/schema-markup/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/kit-510-ptbr/05-seo-busca/schema-markup/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/structured-data/schema-markup-kursku.md"
     },
@@ -3955,14 +4334,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/kit-510-ptbr/05-seo-busca/voice-search-seo/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/kit-510-ptbr/05-seo-busca/voice-search-seo/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/structured-data/voice-search-seo-kursku.md"
     },
@@ -4116,17 +4495,17 @@
       "url": "https://github.com/LeadMagic/gtm-skills/blob/HEAD/skills/content-seo/faq-seo/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/LeadMagic/gtm-skills/HEAD/skills/content-seo/faq-seo/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
-      "platformSource": "declared+detected",
+      "discoveredVia": "state",
+      "platformSource": "detected",
       "license": "MIT",
       "platforms": [
         "claude-code",
-        "copilot",
         "gemini-cli",
-        "windsurf"
+        "windsurf",
+        "copilot"
       ],
       "stars": 75,
-      "repoUpdatedAt": "2026-10-14",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/structured-data/faq-seo-leadmagic.md"
     },
@@ -4315,6 +4694,32 @@
       "file": ""
     },
     {
+      "name": "content-writer",
+      "slug": "content-writer-aaron-he-zhu",
+      "description": "Use when the user asks to \"write SEO content\", \"draft a blog post / landing page\", \"update outdated content\", or \"fix traffic/ranking decay\"; two modes — new drafts pages with keywords, headers, snippets, and evidence boundaries; refresh scores decay, prioritizes update work, and produces a republish plan with GEO guidance. Not for AI-citation/GEO readiness scoring — use geo-content-optimizer; not for publish-gate scoring — use content-quality-auditor. SEO文章写作/内容更新/排名恢复",
+      "category": "on-page-seo",
+      "categoryTitle": "On-Page SEO and Content Optimization",
+      "repo": "aaron-he-zhu/aaron-marketing-skills",
+      "repoUrl": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+      "path": "seo-geo/implement/content-writer/SKILL.md",
+      "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/HEAD/seo-geo/implement/content-writer/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/aaron-he-zhu/aaron-marketing-skills/HEAD/seo-geo/implement/content-writer/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared+detected",
+      "license": "Apache-2.0",
+      "platforms": [
+        "claude-code",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "stars": 3049,
+      "repoUpdatedAt": "2026-11-02",
+      "hasContent": true,
+      "file": "library/on-page-seo/content-writer-aaron-he-zhu.md"
+    },
+    {
       "name": "on-page-seo-checker",
       "slug": "on-page-seo-checker-aaron-he-zhu",
       "description": "Use when the user asks to \"audit on-page SEO\" or \"diagnose why a single page dropped\"; scores titles, meta, header structure, keyword placement, links, and images with prioritized fixes. Not for E-E-A-T / publish-readiness scoring — use content-quality-auditor; not for crawl / CWV / indexing — use technical-seo-checker. 页面SEO审计/排名诊断",
@@ -4387,6 +4792,52 @@
       "file": "library/on-page-seo/blog-seo-check-agricidaniel.md"
     },
     {
+      "name": "article-content",
+      "slug": "article-content-kostja94",
+      "description": "When the user wants to write, generate, or create article body content—blog post body, long-form content, how-to guide, listicle. Also use when the user mentions \"write article,\" \"article content,\" \"blog post content,\" \"article body,\" \"long-form content creation,\" \"generate article,\" \"article draft,\" \"how-to guide content,\" \"listicle content,\" \"information gain,\" or \"content density.\" For single post page structure, schema, and SEO metadata, use article-page-generator. For blog index/listing page, use blog-page-generator. For short ad, landing, or email copy, use copywriting.",
+      "category": "on-page-seo",
+      "categoryTitle": "On-Page SEO and Content Optimization",
+      "repo": "kostja94/marketing-skills",
+      "repoUrl": "https://github.com/kostja94/marketing-skills",
+      "path": "skills/content/article/SKILL.md",
+      "url": "https://github.com/kostja94/marketing-skills/blob/HEAD/skills/content/article/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/kostja94/marketing-skills/HEAD/skills/content/article/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 1072,
+      "repoUpdatedAt": "2026-10-26",
+      "hasContent": true,
+      "file": "library/on-page-seo/article-content-kostja94.md"
+    },
+    {
+      "name": "content-optimization",
+      "slug": "content-optimization-kostja94",
+      "description": "When the user wants to optimize content for SEO—word count, H2 keywords, keyword density, multimedia, tables, lists. Also use when the user mentions \"content length,\" \"word count,\" \"keyword stuffing,\" \"H2 keywords,\" \"keyword density,\" \"tables,\" \"bullet points,\" or \"content structure.\" For keywords, use keyword-research.",
+      "category": "on-page-seo",
+      "categoryTitle": "On-Page SEO and Content Optimization",
+      "repo": "kostja94/marketing-skills",
+      "repoUrl": "https://github.com/kostja94/marketing-skills",
+      "path": "skills/seo/content/content-optimization/SKILL.md",
+      "url": "https://github.com/kostja94/marketing-skills/blob/HEAD/skills/seo/content/content-optimization/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/kostja94/marketing-skills/HEAD/skills/seo/content/content-optimization/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 1072,
+      "repoUpdatedAt": "2026-10-26",
+      "hasContent": true,
+      "file": "library/on-page-seo/content-optimization-kostja94.md"
+    },
+    {
       "name": "meta-description",
       "slug": "meta-description-kostja94",
       "description": "When the user wants to write, audit, or optimize a meta description, SEO description, SERP snippet candidate, duplicate description, description length, or description rewrite issue. For a sitewide metadata lifecycle including implementation and production validation, use page-metadata.",
@@ -4410,6 +4861,29 @@
       "file": "library/on-page-seo/meta-description-kostja94.md"
     },
     {
+      "name": "title-tag",
+      "slug": "title-tag-kostja94",
+      "description": "When the user wants to write, audit, or optimize an HTML title tag, SEO title, page title, SERP title, browser-tab title, duplicate title, or title rewrite issue. For a sitewide metadata lifecycle including implementation and production validation, use page-metadata.",
+      "category": "on-page-seo",
+      "categoryTitle": "On-Page SEO and Content Optimization",
+      "repo": "kostja94/marketing-skills",
+      "repoUrl": "https://github.com/kostja94/marketing-skills",
+      "path": "skills/seo/on-page/title/SKILL.md",
+      "url": "https://github.com/kostja94/marketing-skills/blob/HEAD/skills/seo/on-page/title/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/kostja94/marketing-skills/HEAD/skills/seo/on-page/title/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 1072,
+      "repoUpdatedAt": "2026-10-26",
+      "hasContent": true,
+      "file": "library/on-page-seo/title-tag-kostja94.md"
+    },
+    {
       "name": "seo-onpage",
       "slug": "seo-onpage-rampstackco",
       "description": "Run a comprehensive on-page SEO audit or optimization pass covering title tags, meta descriptions, header structure, content quality, internal links, image optimization, URL hygiene, and on-page schema. Use this skill whenever the user asks to optimize a page, audit on-page SEO, fix titles or meta tags, review header structure, check internal linking, improve a single URL's search performance, or write SEO-friendly copy. Triggers on on-page SEO, page audit, title tag, meta description, H1, header structure, internal links, image alt, URL slug, page optimization, optimize this page, SEO this…",
@@ -4421,14 +4895,14 @@
       "url": "https://github.com/rampstackco/claude-skills/blob/HEAD/dist/codex/.agents/skills/seo-onpage/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/rampstackco/claude-skills/HEAD/dist/codex/.agents/skills/seo-onpage/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 1047,
-      "repoUpdatedAt": "2026-10-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/on-page-seo/seo-onpage-rampstackco.md"
     },
@@ -4686,6 +5160,131 @@
       "file": "library/on-page-seo/google-trends-to-pages-kennyzir.md"
     },
     {
+      "name": "content-brief",
+      "slug": "content-brief-nicepkg",
+      "description": "Content brief template and creation methodology for SEO-optimized content. Use when preparing briefs for writers or planning new content pieces.",
+      "category": "on-page-seo",
+      "categoryTitle": "On-Page SEO and Content Optimization",
+      "repo": "nicepkg/ai-workflow",
+      "repoUrl": "https://github.com/nicepkg/ai-workflow",
+      "path": "workflows/content-creator-workflow/.claude/skills/content-brief/SKILL.md",
+      "url": "https://github.com/nicepkg/ai-workflow/blob/HEAD/workflows/content-creator-workflow/.claude/skills/content-brief/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/nicepkg/ai-workflow/HEAD/workflows/content-creator-workflow/.claude/skills/content-brief/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code",
+        "codex",
+        "cursor"
+      ],
+      "stars": 288,
+      "repoUpdatedAt": "2026-01-20",
+      "hasContent": true,
+      "file": "library/on-page-seo/content-brief-nicepkg.md"
+    },
+    {
+      "name": "content-brief-generator",
+      "slug": "content-brief-generator-nicepkg",
+      "description": "Generate comprehensive content briefs for writers, ensuring clarity, alignment, and strategic content creation across all formats.",
+      "category": "on-page-seo",
+      "categoryTitle": "On-Page SEO and Content Optimization",
+      "repo": "nicepkg/ai-workflow",
+      "repoUrl": "https://github.com/nicepkg/ai-workflow",
+      "path": "workflows/content-creator-workflow/.claude/skills/content-brief-generator/SKILL.md",
+      "url": "https://github.com/nicepkg/ai-workflow/blob/HEAD/workflows/content-creator-workflow/.claude/skills/content-brief-generator/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/nicepkg/ai-workflow/HEAD/workflows/content-creator-workflow/.claude/skills/content-brief-generator/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code",
+        "codex",
+        "cursor"
+      ],
+      "stars": 288,
+      "repoUpdatedAt": "2026-01-20",
+      "hasContent": true,
+      "file": "library/on-page-seo/content-brief-generator-nicepkg.md"
+    },
+    {
+      "name": "content-optimizer",
+      "slug": "content-optimizer-nicepkg",
+      "description": "On-page SEO optimization techniques including keyword density, meta tags, heading structure, and readability. Use when optimizing existing content or validating new content against SEO requirements.",
+      "category": "on-page-seo",
+      "categoryTitle": "On-Page SEO and Content Optimization",
+      "repo": "nicepkg/ai-workflow",
+      "repoUrl": "https://github.com/nicepkg/ai-workflow",
+      "path": "workflows/marketing-pro-workflow/.claude/skills/content-optimizer/SKILL.md",
+      "url": "https://github.com/nicepkg/ai-workflow/blob/HEAD/workflows/marketing-pro-workflow/.claude/skills/content-optimizer/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/nicepkg/ai-workflow/HEAD/workflows/marketing-pro-workflow/.claude/skills/content-optimizer/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code",
+        "codex",
+        "cursor"
+      ],
+      "stars": 288,
+      "repoUpdatedAt": "2026-01-20",
+      "hasContent": true,
+      "file": "library/on-page-seo/content-optimizer-nicepkg.md"
+    },
+    {
+      "name": "podcast-to-content-suite",
+      "slug": "podcast-to-content-suite-nicepkg",
+      "description": "Transform podcast transcripts into comprehensive content marketing suites including blog posts, social media content, newsletters, SEO-optimized articles, and timestamps. Use when user provides podcast transcripts or wants to repurpose podcast content.",
+      "category": "on-page-seo",
+      "categoryTitle": "On-Page SEO and Content Optimization",
+      "repo": "nicepkg/ai-workflow",
+      "repoUrl": "https://github.com/nicepkg/ai-workflow",
+      "path": "workflows/content-creator-workflow/.claude/skills/podcast-content-suite/SKILL.md",
+      "url": "https://github.com/nicepkg/ai-workflow/blob/HEAD/workflows/content-creator-workflow/.claude/skills/podcast-content-suite/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/nicepkg/ai-workflow/HEAD/workflows/content-creator-workflow/.claude/skills/podcast-content-suite/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code",
+        "codex",
+        "cursor"
+      ],
+      "stars": 288,
+      "repoUpdatedAt": "2026-01-20",
+      "hasContent": true,
+      "file": "library/on-page-seo/podcast-to-content-suite-nicepkg.md"
+    },
+    {
+      "name": "pre-publish-post-assistant",
+      "slug": "pre-publish-post-assistant-nicepkg",
+      "description": "Pre-publish assistant for new blog posts. Use when the user wants to classify a new post with categories and tags, generate SEO metadata (title, description, focus keyphrase), or get intelligent suggestions with rationale. Works with draft content (file path, URL, or text) and suggests from existing taxonomy to maintain balanced distribution.",
+      "category": "on-page-seo",
+      "categoryTitle": "On-Page SEO and Content Optimization",
+      "repo": "nicepkg/ai-workflow",
+      "repoUrl": "https://github.com/nicepkg/ai-workflow",
+      "path": "workflows/content-creator-workflow/.claude/skills/pre-publish-post-assistant/SKILL.md",
+      "url": "https://github.com/nicepkg/ai-workflow/blob/HEAD/workflows/content-creator-workflow/.claude/skills/pre-publish-post-assistant/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/nicepkg/ai-workflow/HEAD/workflows/content-creator-workflow/.claude/skills/pre-publish-post-assistant/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code",
+        "codex",
+        "cursor"
+      ],
+      "stars": 288,
+      "repoUpdatedAt": "2026-01-20",
+      "hasContent": true,
+      "file": "library/on-page-seo/pre-publish-post-assistant-nicepkg.md"
+    },
+    {
       "name": "seo-content-optimizer",
       "slug": "seo-content-optimizer-nicepkg",
       "description": "Optimize content for search engines with keyword analysis, readability scoring, meta descriptions, and competitor comparison. Use this when users want to improve SEO, optimize blog posts, or analyze content for search performance.",
@@ -4908,14 +5507,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/kit-510-ptbr/01-conteudo-copy/blog-seo-writer/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/kit-510-ptbr/01-conteudo-copy/blog-seo-writer/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/on-page-seo/blog-seo-writer-kursku.md"
     },
@@ -4931,14 +5530,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/kit-510-ptbr/05-seo-busca/on-page-seo/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/kit-510-ptbr/05-seo-busca/on-page-seo/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/on-page-seo/on-page-seo-kursku.md"
     },
@@ -4954,14 +5553,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/global-skillshare-import/wave-011/seo-authority-builder/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/global-skillshare-import/wave-011/seo-authority-builder/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "none",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": false,
       "file": ""
     },
@@ -4977,14 +5576,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/global-skillshare-import/wave-011/seo-content-writer/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/global-skillshare-import/wave-011/seo-content-writer/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "none",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": false,
       "file": ""
     },
@@ -5000,14 +5599,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/global-skillshare-import/wave-011/seo-fundamentals/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/global-skillshare-import/wave-011/seo-fundamentals/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "none",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": false,
       "file": ""
     },
@@ -5023,14 +5622,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/global-skillshare-import/wave-011/seo-meta-optimizer/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/global-skillshare-import/wave-011/seo-meta-optimizer/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "none",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": false,
       "file": ""
     },
@@ -5046,14 +5645,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/kit-510-ptbr/01-conteudo-copy/seo-meta-writer/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/kit-510-ptbr/01-conteudo-copy/seo-meta-writer/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/on-page-seo/seo-meta-writer-kursku.md"
     },
@@ -5207,17 +5806,17 @@
       "url": "https://github.com/LeadMagic/gtm-skills/blob/HEAD/skills/creative/ai-content-creation/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/LeadMagic/gtm-skills/HEAD/skills/creative/ai-content-creation/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
-      "platformSource": "declared+detected",
+      "discoveredVia": "state",
+      "platformSource": "detected",
       "license": "MIT",
       "platforms": [
         "claude-code",
-        "copilot",
         "gemini-cli",
-        "windsurf"
+        "windsurf",
+        "copilot"
       ],
       "stars": 75,
-      "repoUpdatedAt": "2026-10-14",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/on-page-seo/ai-content-creation-leadmagic.md"
     },
@@ -5233,17 +5832,17 @@
       "url": "https://github.com/LeadMagic/gtm-skills/blob/HEAD/skills/content-seo/pseo-strategy/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/LeadMagic/gtm-skills/HEAD/skills/content-seo/pseo-strategy/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
-      "platformSource": "declared+detected",
+      "discoveredVia": "state",
+      "platformSource": "detected",
       "license": "MIT",
       "platforms": [
         "claude-code",
-        "copilot",
         "gemini-cli",
-        "windsurf"
+        "windsurf",
+        "copilot"
       ],
       "stars": 75,
-      "repoUpdatedAt": "2026-10-14",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/on-page-seo/pseo-strategy-leadmagic.md"
     },
@@ -5501,6 +6100,55 @@
       "file": "library/content-strategy/content-strategy-thecraighewitt.md"
     },
     {
+      "name": "content-gap-analysis",
+      "slug": "content-gap-analysis-aaron-he-zhu",
+      "description": "Use when the user asks to \"find content gaps\", \"竞品写了什么\", or \"还应该写什么\"; builds a competitor-relative coverage map of missing topics, keyword gaps, and editorial-calendar opportunities. Not for raw keyword demand discovery — use keyword-research. 内容缺口/选题规划",
+      "category": "content-strategy",
+      "categoryTitle": "Content Strategy and Topical Authority",
+      "repo": "aaron-he-zhu/aaron-marketing-skills",
+      "repoUrl": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+      "path": "seo-geo/survey/content-gap-analysis/SKILL.md",
+      "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/HEAD/seo-geo/survey/content-gap-analysis/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/aaron-he-zhu/aaron-marketing-skills/HEAD/seo-geo/survey/content-gap-analysis/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared+detected",
+      "license": "Apache-2.0",
+      "platforms": [
+        "claude-code",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "stars": 3049,
+      "repoUpdatedAt": "2026-11-02",
+      "hasContent": true,
+      "file": "library/content-strategy/content-gap-analysis-aaron-he-zhu.md"
+    },
+    {
+      "name": "improve-search-visibility",
+      "slug": "improve-search-visibility-gooseworks-ai",
+      "description": "SEO and AI-answer visibility. Use for a site SEO or technical audit with ranked fixes, competitor keyword and topic gaps, a topic cluster, SEO metrics for domains, a programmatic SEO page-set plan, or checking where ChatGPT and Google name the brand. Delivers the requested audit, comparison, map or blueprint with dated evidence and clear data limits. Also covers app store listings and local search. Drafts changes; never edits live. Full pages go to make-content; paid search goes to run-paid-campaigns.",
+      "category": "content-strategy",
+      "categoryTitle": "Content Strategy and Topical Authority",
+      "repo": "gooseworks-ai/goose-skills",
+      "repoUrl": "https://github.com/gooseworks-ai/goose-skills",
+      "path": "skills/marketing/improve-search-visibility/SKILL.md",
+      "url": "https://github.com/gooseworks-ai/goose-skills/blob/HEAD/skills/marketing/improve-search-visibility/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/gooseworks-ai/goose-skills/HEAD/skills/marketing/improve-search-visibility/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "state",
+      "platformSource": "none",
+      "license": "MIT",
+      "platforms": [
+        "unspecified"
+      ],
+      "stars": 1292,
+      "repoUpdatedAt": "",
+      "hasContent": true,
+      "file": "library/content-strategy/improve-search-visibility-gooseworks-ai.md"
+    },
+    {
       "name": "make-content-content-brief",
       "slug": "make-content-content-brief-gooseworks-ai",
       "description": "Writes a one-page content brief before any draft: audience, intent, the one arguable point, what top results already say and what this piece adds, an outline, a proof inventory with gaps marked, voice, CTA and banned words, checked against six gates. Use alone when you already have the topic, format, audience and destination and want only the brief; otherwise run make-content.",
@@ -5512,16 +6160,62 @@
       "url": "https://github.com/gooseworks-ai/goose-skills/blob/HEAD/skills/marketing/make-content-content-brief/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/gooseworks-ai/goose-skills/HEAD/skills/marketing/make-content-content-brief/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
+      "platformSource": "none",
+      "license": "MIT",
+      "platforms": [
+        "unspecified"
+      ],
+      "stars": 1292,
+      "repoUpdatedAt": "",
+      "hasContent": true,
+      "file": "library/content-strategy/make-content-content-brief-gooseworks-ai.md"
+    },
+    {
+      "name": "content-strategy",
+      "slug": "content-strategy-kostja94",
+      "description": "When the user wants to plan content for SEO, create content calendar, or build topic clusters. Also use when the user mentions \"content strategy,\" \"content plan,\" \"topic clusters,\" \"pillar content,\" \"pillar page,\" \"cluster articles,\" \"editorial calendar,\" \"content hub,\" \"content planning,\" \"content clusters,\" \"topic cluster strategy,\" \"content strategy for SEO,\" or \"content calendar.\" For editorial mix, use content-marketing.",
+      "category": "content-strategy",
+      "categoryTitle": "Content Strategy and Topical Authority",
+      "repo": "kostja94/marketing-skills",
+      "repoUrl": "https://github.com/kostja94/marketing-skills",
+      "path": "skills/seo/content/content-strategy/SKILL.md",
+      "url": "https://github.com/kostja94/marketing-skills/blob/HEAD/skills/seo/content/content-strategy/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/kostja94/marketing-skills/HEAD/skills/seo/content/content-strategy/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
       "platformSource": "declared",
       "license": "MIT",
       "platforms": [
         "claude-code"
       ],
-      "stars": 1298,
-      "repoUpdatedAt": "2026-11-06",
+      "stars": 1072,
+      "repoUpdatedAt": "2026-10-26",
       "hasContent": true,
-      "file": "library/content-strategy/make-content-content-brief-gooseworks-ai.md"
+      "file": "library/content-strategy/content-strategy-kostja94.md"
+    },
+    {
+      "name": "podcast-marketing",
+      "slug": "podcast-marketing-kostja94",
+      "description": "When the user wants to plan, create, or market a podcast. Also use when the user mentions \"podcast,\" \"podcast strategy,\" \"podcast SEO,\" \"show notes,\" \"podcast distribution,\" \"Spotify podcast,\" \"Apple Podcasts,\" \"podcast discoverability,\" \"PodcastEpisode schema,\" or \"podcast repurposing.\" For show notes, use article-content.",
+      "category": "content-strategy",
+      "categoryTitle": "Content Strategy and Topical Authority",
+      "repo": "kostja94/marketing-skills",
+      "repoUrl": "https://github.com/kostja94/marketing-skills",
+      "path": "skills/content/podcast/SKILL.md",
+      "url": "https://github.com/kostja94/marketing-skills/blob/HEAD/skills/content/podcast/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/kostja94/marketing-skills/HEAD/skills/content/podcast/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 1072,
+      "repoUpdatedAt": "2026-10-26",
+      "hasContent": true,
+      "file": "library/content-strategy/podcast-marketing-kostja94.md"
     },
     {
       "name": "content-strategy",
@@ -5558,14 +6252,14 @@
       "url": "https://github.com/rampstackco/claude-skills/blob/HEAD/skills/content-refresh-system/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/rampstackco/claude-skills/HEAD/skills/content-refresh-system/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 1047,
-      "repoUpdatedAt": "2026-10-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/content-strategy/content-refresh-system-rampstackco.md"
     },
@@ -5581,14 +6275,14 @@
       "url": "https://github.com/rampstackco/claude-skills/blob/HEAD/skills/content-strategy/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/rampstackco/claude-skills/HEAD/skills/content-strategy/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 1047,
-      "repoUpdatedAt": "2026-10-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/content-strategy/content-strategy-rampstackco.md"
     },
@@ -5604,14 +6298,14 @@
       "url": "https://github.com/rampstackco/claude-skills/blob/HEAD/skills/pillar-content-architecture/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/rampstackco/claude-skills/HEAD/skills/pillar-content-architecture/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 1047,
-      "repoUpdatedAt": "2026-10-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/content-strategy/pillar-content-architecture-rampstackco.md"
     },
@@ -5717,6 +6411,29 @@
       "file": "library/content-strategy/content-research-brief-affitor.md"
     },
     {
+      "name": "content-gap-analysis",
+      "slug": "content-gap-analysis-openclaudia",
+      "description": "Identify content gaps between your site and competitors. Use when the user says \"content gaps\", \"what am I missing\", \"competitor content\", \"content opportunities\", \"topics I should cover\", \"content gap analysis\", or asks about finding topics and keywords their site doesn't cover but competitors do.",
+      "category": "content-strategy",
+      "categoryTitle": "Content Strategy and Topical Authority",
+      "repo": "OpenClaudia/openclaudia-skills",
+      "repoUrl": "https://github.com/OpenClaudia/openclaudia-skills",
+      "path": "skills/content-gap-analysis/SKILL.md",
+      "url": "https://github.com/OpenClaudia/openclaudia-skills/blob/HEAD/skills/content-gap-analysis/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/OpenClaudia/openclaudia-skills/HEAD/skills/content-gap-analysis/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 724,
+      "repoUpdatedAt": "2026-10-29",
+      "hasContent": true,
+      "file": "library/content-strategy/content-gap-analysis-openclaudia.md"
+    },
+    {
       "name": "content-strategy",
       "slug": "content-strategy-boraoztunc",
       "description": "When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions \"content strategy,\" \"what should I write about,\" \"content ideas,\" \"blog strategy,\" \"topic clusters,\" or \"content planning.\" For writing individual pieces, see copywriting. For SEO-specific audits, see seo-audit.",
@@ -5728,14 +6445,14 @@
       "url": "https://github.com/boraoztunc/skills/blob/HEAD/content-strategy/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/boraoztunc/skills/HEAD/content-strategy/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
-      "platformSource": "declared",
+      "discoveredVia": "state",
+      "platformSource": "none",
       "license": "Apache-2.0",
       "platforms": [
-        "claude-code"
+        "unspecified"
       ],
       "stars": 454,
-      "repoUpdatedAt": "2026-11-04",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/content-strategy/content-strategy-boraoztunc.md"
     },
@@ -5866,14 +6583,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/kit-510-ptbr/05-seo-busca/seo-content-brief/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/kit-510-ptbr/05-seo-busca/seo-content-brief/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/content-strategy/seo-content-brief-kursku.md"
     },
@@ -5889,14 +6606,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/global-skillshare-import/wave-011/seo-content-planner/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/global-skillshare-import/wave-011/seo-content-planner/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "none",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": false,
       "file": ""
     },
@@ -5935,17 +6652,17 @@
       "url": "https://github.com/LeadMagic/gtm-skills/blob/HEAD/skills/inbound/content-marketing/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/LeadMagic/gtm-skills/HEAD/skills/inbound/content-marketing/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
-      "platformSource": "declared+detected",
+      "discoveredVia": "state",
+      "platformSource": "detected",
       "license": "MIT",
       "platforms": [
         "claude-code",
-        "copilot",
         "gemini-cli",
-        "windsurf"
+        "windsurf",
+        "copilot"
       ],
       "stars": 75,
-      "repoUpdatedAt": "2026-10-14",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/content-strategy/content-marketing-leadmagic.md"
     },
@@ -6272,6 +6989,32 @@
       "file": "library/keyword-research/programmatic-seo-nowork-studio.md"
     },
     {
+      "name": "entity-registry",
+      "slug": "entity-registry-aaron-he-zhu",
+      "description": "Use when the user asks to \"optimize entity presence\", reconcile an entity identity, or update canonical Knowledge Graph facts; audits and maintains machine-facing identity, sameAs, schema, disambiguation, and AI-recognition evidence through the entities registry. Not for page-level AI-citation readiness - use geo-content-optimizer; not for human-facing brand canon - use narrative-registry. 实体注册/知识图谱",
+      "category": "keyword-research",
+      "categoryTitle": "Keyword Research and Search Intent",
+      "repo": "aaron-he-zhu/aaron-marketing-skills",
+      "repoUrl": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+      "path": "protocol/entity-registry/SKILL.md",
+      "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/HEAD/protocol/entity-registry/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/aaron-he-zhu/aaron-marketing-skills/HEAD/protocol/entity-registry/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared+detected",
+      "license": "Apache-2.0",
+      "platforms": [
+        "claude-code",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "stars": 3049,
+      "repoUpdatedAt": "2026-11-02",
+      "hasContent": true,
+      "file": "library/keyword-research/entity-registry-aaron-he-zhu.md"
+    },
+    {
       "name": "keyword-research",
       "slug": "keyword-research-aaron-he-zhu",
       "description": "Use when the user asks to \"find keywords\", \"挖词\", or \"搜什么词\"; prioritizes search volume, keyword difficulty, intent, and topic clusters from provided or connected data. Not for competitor-relative coverage gaps — use content-gap-analysis. 关键词研究/内容选题",
@@ -6442,6 +7185,167 @@
       "file": "library/keyword-research/research-keywords-onvoyage-ai.md"
     },
     {
+      "name": "entity-seo",
+      "slug": "entity-seo-kostja94",
+      "description": "When the user wants to optimize for entity recognition, Knowledge Graph, or entity-based SEO. Also use when the user mentions \"entity SEO,\" \"entity optimization,\" \"Knowledge Graph,\" \"Knowledge Panel,\" \"entity signals,\" \"brand entity,\" \"entity linking,\" \"entity relationships,\" or \"entity-first content.\" For structured data, use schema-markup.",
+      "category": "keyword-research",
+      "categoryTitle": "Keyword Research and Search Intent",
+      "repo": "kostja94/marketing-skills",
+      "repoUrl": "https://github.com/kostja94/marketing-skills",
+      "path": "skills/seo/entity-seo/SKILL.md",
+      "url": "https://github.com/kostja94/marketing-skills/blob/HEAD/skills/seo/entity-seo/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/kostja94/marketing-skills/HEAD/skills/seo/entity-seo/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 1072,
+      "repoUpdatedAt": "2026-10-26",
+      "hasContent": true,
+      "file": "library/keyword-research/entity-seo-kostja94.md"
+    },
+    {
+      "name": "keyword-clustering",
+      "slug": "keyword-clustering-kostja94",
+      "description": "Groups candidate keywords by user task and tests whether one page can satisfy them. Use for same-page decisions, mixed intent and adjacent queries.",
+      "category": "keyword-research",
+      "categoryTitle": "Keyword Research and Search Intent",
+      "repo": "kostja94/marketing-skills",
+      "repoUrl": "https://github.com/kostja94/marketing-skills",
+      "path": "skills/keyword-clustering/SKILL.md",
+      "url": "https://github.com/kostja94/marketing-skills/blob/HEAD/skills/keyword-clustering/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/kostja94/marketing-skills/HEAD/skills/keyword-clustering/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 1072,
+      "repoUpdatedAt": "2026-10-26",
+      "hasContent": true,
+      "file": "library/keyword-research/keyword-clustering-kostja94.md"
+    },
+    {
+      "name": "keyword-discovery",
+      "slug": "keyword-discovery-kostja94",
+      "description": "Finds long-tail search expressions from a seed, competitor sites, search suggestions and customer language. Use for keyword expansion and demand discovery.",
+      "category": "keyword-research",
+      "categoryTitle": "Keyword Research and Search Intent",
+      "repo": "kostja94/marketing-skills",
+      "repoUrl": "https://github.com/kostja94/marketing-skills",
+      "path": "skills/keyword-discovery/SKILL.md",
+      "url": "https://github.com/kostja94/marketing-skills/blob/HEAD/skills/keyword-discovery/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/kostja94/marketing-skills/HEAD/skills/keyword-discovery/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 1072,
+      "repoUpdatedAt": "2026-10-26",
+      "hasContent": true,
+      "file": "library/keyword-research/keyword-discovery-kostja94.md"
+    },
+    {
+      "name": "keyword-mapping",
+      "slug": "keyword-mapping-kostja94",
+      "description": "Maps keyword clusters to existing website assets and recommends reuse, improvement, consolidation review or a new page.",
+      "category": "keyword-research",
+      "categoryTitle": "Keyword Research and Search Intent",
+      "repo": "kostja94/marketing-skills",
+      "repoUrl": "https://github.com/kostja94/marketing-skills",
+      "path": "skills/keyword-mapping/SKILL.md",
+      "url": "https://github.com/kostja94/marketing-skills/blob/HEAD/skills/keyword-mapping/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/kostja94/marketing-skills/HEAD/skills/keyword-mapping/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 1072,
+      "repoUpdatedAt": "2026-10-26",
+      "hasContent": true,
+      "file": "library/keyword-research/keyword-mapping-kostja94.md"
+    },
+    {
+      "name": "keyword-opportunity",
+      "slug": "keyword-opportunity-kostja94",
+      "description": "Prioritizes keyword clusters for a stated business goal using demand evidence, product fit, competition and delivery cost.",
+      "category": "keyword-research",
+      "categoryTitle": "Keyword Research and Search Intent",
+      "repo": "kostja94/marketing-skills",
+      "repoUrl": "https://github.com/kostja94/marketing-skills",
+      "path": "skills/keyword-opportunity/SKILL.md",
+      "url": "https://github.com/kostja94/marketing-skills/blob/HEAD/skills/keyword-opportunity/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/kostja94/marketing-skills/HEAD/skills/keyword-opportunity/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 1072,
+      "repoUpdatedAt": "2026-10-26",
+      "hasContent": true,
+      "file": "library/keyword-research/keyword-opportunity-kostja94.md"
+    },
+    {
+      "name": "keyword-research",
+      "slug": "keyword-research-kostja94",
+      "description": "Coordinates keyword research from a seed or existing keyword data through discovery, intent clustering, opportunity assessment and page mapping.",
+      "category": "keyword-research",
+      "categoryTitle": "Keyword Research and Search Intent",
+      "repo": "kostja94/marketing-skills",
+      "repoUrl": "https://github.com/kostja94/marketing-skills",
+      "path": "skills/keyword-research/SKILL.md",
+      "url": "https://github.com/kostja94/marketing-skills/blob/HEAD/skills/keyword-research/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/kostja94/marketing-skills/HEAD/skills/keyword-research/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 1072,
+      "repoUpdatedAt": "2026-10-26",
+      "hasContent": true,
+      "file": "library/keyword-research/keyword-research-kostja94.md"
+    },
+    {
+      "name": "programmatic-seo",
+      "slug": "programmatic-seo-kostja94",
+      "description": "When the user wants to create SEO pages at scale using templates and data—including AI-assisted, grounded copy for per-URL differentiation (vs rigid mail-merge templates). Also use when the user mentions \"programmatic SEO,\" \"programmatic SEO pages,\" \"template pages,\" \"scale content,\" \"location pages,\" \"city pages,\" \"comparison pages at scale,\" \"X vs Y pages,\" \"integration pages,\" \"pages from data,\" \"automated landing pages,\" or \"programmatic landing pages.\" Uses a playbook matrix aligned to skills under skills/pages. For user-facing template galleries or marketplaces (browse → use), use…",
+      "category": "keyword-research",
+      "categoryTitle": "Keyword Research and Search Intent",
+      "repo": "kostja94/marketing-skills",
+      "repoUrl": "https://github.com/kostja94/marketing-skills",
+      "path": "skills/seo/programmatic-seo/SKILL.md",
+      "url": "https://github.com/kostja94/marketing-skills/blob/HEAD/skills/seo/programmatic-seo/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/kostja94/marketing-skills/HEAD/skills/seo/programmatic-seo/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 1072,
+      "repoUpdatedAt": "2026-10-26",
+      "hasContent": true,
+      "file": "library/keyword-research/programmatic-seo-kostja94.md"
+    },
+    {
       "name": "serp-features",
       "slug": "serp-features-kostja94",
       "description": "When the user wants to understand or optimize for SERP feature types (PAA, sitelinks, rich results, AI Overviews). Also use when the user mentions \"SERP,\" \"SERP features,\" \"search result features,\" \"People Also Ask,\" \"PAA,\" \"sitelinks,\" \"knowledge panel,\" \"local pack,\" \"rich results,\" \"zero-click,\" \"SERP types,\" \"AI Overviews,\" \"Bing Copilot,\" or \"Yandex AI.\" For JSON-LD and rich result implementation, use schema-markup. For organic strategy and roadmap, use seo-strategy.",
@@ -6472,18 +7376,18 @@
       "categoryTitle": "Keyword Research and Search Intent",
       "repo": "rampstackco/claude-skills",
       "repoUrl": "https://github.com/rampstackco/claude-skills",
-      "path": "skills/content-brief-authoring/SKILL.md",
-      "url": "https://github.com/rampstackco/claude-skills/blob/HEAD/skills/content-brief-authoring/SKILL.md",
-      "rawUrl": "https://raw.githubusercontent.com/rampstackco/claude-skills/HEAD/skills/content-brief-authoring/SKILL.md",
+      "path": "dist/codex/.agents/skills/content-brief-authoring/SKILL.md",
+      "url": "https://github.com/rampstackco/claude-skills/blob/HEAD/dist/codex/.agents/skills/content-brief-authoring/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/rampstackco/claude-skills/HEAD/dist/codex/.agents/skills/content-brief-authoring/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 1047,
-      "repoUpdatedAt": "2026-10-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/keyword-research/content-brief-authoring-rampstackco.md"
     },
@@ -6499,14 +7403,14 @@
       "url": "https://github.com/rampstackco/claude-skills/blob/HEAD/dist/codex/.agents/skills/seo-competitor/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/rampstackco/claude-skills/HEAD/dist/codex/.agents/skills/seo-competitor/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 1047,
-      "repoUpdatedAt": "2026-10-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/keyword-research/seo-competitor-rampstackco.md"
     },
@@ -6522,14 +7426,14 @@
       "url": "https://github.com/rampstackco/claude-skills/blob/HEAD/dist/codex/.agents/skills/seo-keyword/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/rampstackco/claude-skills/HEAD/dist/codex/.agents/skills/seo-keyword/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 1047,
-      "repoUpdatedAt": "2026-10-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/keyword-research/seo-keyword-rampstackco.md"
     },
@@ -6545,14 +7449,14 @@
       "url": "https://github.com/rampstackco/claude-skills/blob/HEAD/dist/codex/.agents/skills/seo-keyword-gap-audit/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/rampstackco/claude-skills/HEAD/dist/codex/.agents/skills/seo-keyword-gap-audit/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 1047,
-      "repoUpdatedAt": "2026-10-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/keyword-research/seo-keyword-gap-audit-rampstackco.md"
     },
@@ -7442,14 +8346,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/global-skillshare-import/wave-007/keyword-extractor/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/global-skillshare-import/wave-007/keyword-extractor/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "none",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": false,
       "file": ""
     },
@@ -7465,14 +8369,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/kit-510-ptbr/05-seo-busca/keyword-research/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/kit-510-ptbr/05-seo-busca/keyword-research/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/keyword-research/keyword-research-kursku.md"
     },
@@ -7488,14 +8392,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/global-skillshare-import/wave-011/seo-cannibalization-detector/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/global-skillshare-import/wave-011/seo-cannibalization-detector/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "none",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": false,
       "file": ""
     },
@@ -7511,14 +8415,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/global-skillshare-import/wave-011/seo-keyword-strategist/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/global-skillshare-import/wave-011/seo-keyword-strategist/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "none",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": false,
       "file": ""
     },
@@ -7534,14 +8438,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/kit-510-ptbr/05-seo-busca/serp-analysis/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/kit-510-ptbr/05-seo-busca/serp-analysis/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/keyword-research/serp-analysis-kursku.md"
     },
@@ -7696,17 +8600,17 @@
       "url": "https://github.com/LeadMagic/gtm-skills/blob/HEAD/skills/content-seo/seo-strategy/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/LeadMagic/gtm-skills/HEAD/skills/content-seo/seo-strategy/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
-      "platformSource": "declared+detected",
+      "discoveredVia": "state",
+      "platformSource": "detected",
       "license": "MIT",
       "platforms": [
         "claude-code",
-        "copilot",
         "gemini-cli",
-        "windsurf"
+        "windsurf",
+        "copilot"
       ],
       "stars": 75,
-      "repoUpdatedAt": "2026-10-14",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/keyword-research/seo-strategy-leadmagic.md"
     },
@@ -8286,6 +9190,32 @@
       "file": "library/link-building/backlink-audit-nowork-studio.md"
     },
     {
+      "name": "competitor-analysis",
+      "slug": "competitor-analysis-aaron-he-zhu",
+      "description": "Use when the user asks to \"analyze competitors\" or \"竞品分析\"; benchmarks competitor keywords, content, backlinks, AI citations, and traffic share into strengths, weaknesses, and an action plan. Not for a pairwise topic-coverage gap map — use content-gap-analysis. 竞品分析/竞争对手",
+      "category": "link-building",
+      "categoryTitle": "Link Building and Off-Page Authority",
+      "repo": "aaron-he-zhu/aaron-marketing-skills",
+      "repoUrl": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+      "path": "seo-geo/survey/competitor-analysis/SKILL.md",
+      "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/HEAD/seo-geo/survey/competitor-analysis/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/aaron-he-zhu/aaron-marketing-skills/HEAD/seo-geo/survey/competitor-analysis/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared+detected",
+      "license": "Apache-2.0",
+      "platforms": [
+        "claude-code",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "stars": 3049,
+      "repoUpdatedAt": "2026-11-02",
+      "hasContent": true,
+      "file": "library/link-building/competitor-analysis-aaron-he-zhu.md"
+    },
+    {
       "name": "offsite-signal-analyzer",
       "slug": "offsite-signal-analyzer-aaron-he-zhu",
       "description": "Use when the user asks to \"analyze backlinks\", \"analyze my off-site signals\", or \"track AI traffic / ChatGPT / Perplexity referrals\"; profiles referring domains, anchor-text mix, toxic links, and disavow candidates (backlinks mode) or isolates AI-assistant referral sessions in GA4/GSC/logs and reports their trend, landing pages, and AI-vs-organic conversion (ai-referrals mode). Not for internal links — use site-structure-optimizer; not for keyword positions — use rank-tracker; not for multi-metric stakeholder reports — use performance-monitor. 外链分析/反向链接/AI流量/AI引荐/ChatGPT流量/AI转化",
@@ -8358,6 +9288,29 @@
       "file": "library/link-building/backlink-analysis-kostja94.md"
     },
     {
+      "name": "link-building",
+      "slug": "link-building-kostja94",
+      "description": "When the user wants to build backlinks, acquire links, or improve off-page SEO. Also use when the user mentions \"link building,\" \"backlinks,\" \"off-page SEO,\" \"link acquisition,\" \"outreach,\" \"guest posting,\" \"broken link building,\" \"link outreach,\" \"acquire backlinks,\" \"how to build backlinks,\" or \"link building strategy.\" For profile audit, use backlink-analysis.",
+      "category": "link-building",
+      "categoryTitle": "Link Building and Off-Page Authority",
+      "repo": "kostja94/marketing-skills",
+      "repoUrl": "https://github.com/kostja94/marketing-skills",
+      "path": "skills/seo/off-page/link-building/SKILL.md",
+      "url": "https://github.com/kostja94/marketing-skills/blob/HEAD/skills/seo/off-page/link-building/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/kostja94/marketing-skills/HEAD/skills/seo/off-page/link-building/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 1072,
+      "repoUpdatedAt": "2026-10-26",
+      "hasContent": true,
+      "file": "library/link-building/link-building-kostja94.md"
+    },
+    {
       "name": "seo-backlink-audit",
       "slug": "seo-backlink-audit-rampstackco",
       "description": "Audit a backlink profile using Ahrefs MCP data: profile health, anchor text distribution, toxic link identification, lost link reclamation, and gap analysis against competitors. Use this skill when reviewing backlink health, scoping a disavow project, recovering from a manual action, planning link building, or doing M&A due diligence on a property's link equity. Triggers on backlink audit, link profile, toxic links, disavow, anchor text analysis, lost links, link reclamation, referring domains, link gap. Also triggers when traffic decline correlates with link loss or when an unnatural link…",
@@ -8369,14 +9322,14 @@
       "url": "https://github.com/rampstackco/claude-skills/blob/HEAD/dist/codex/.agents/skills/seo-backlink-audit/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/rampstackco/claude-skills/HEAD/dist/codex/.agents/skills/seo-backlink-audit/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 1047,
-      "repoUpdatedAt": "2026-10-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/link-building/seo-backlink-audit-rampstackco.md"
     },
@@ -8392,14 +9345,14 @@
       "url": "https://github.com/rampstackco/claude-skills/blob/HEAD/dist/codex/.agents/skills/seo-offpage/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/rampstackco/claude-skills/HEAD/dist/codex/.agents/skills/seo-offpage/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 1047,
-      "repoUpdatedAt": "2026-10-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/link-building/seo-offpage-rampstackco.md"
     },
@@ -9036,14 +9989,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/kit-510-ptbr/05-seo-busca/blog-seo-strategy/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/kit-510-ptbr/05-seo-busca/blog-seo-strategy/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/link-building/blog-seo-strategy-kursku.md"
     },
@@ -9059,14 +10012,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/kit-510-ptbr/05-seo-busca/competitor-seo-analysis/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/kit-510-ptbr/05-seo-busca/competitor-seo-analysis/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/link-building/competitor-seo-analysis-kursku.md"
     },
@@ -9082,14 +10035,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/kit-510-ptbr/05-seo-busca/link-building-strategy/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/kit-510-ptbr/05-seo-busca/link-building-strategy/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/link-building/link-building-strategy-kursku.md"
     },
@@ -9105,14 +10058,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/kit-510-ptbr/05-seo-busca/seo-for-startups/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/kit-510-ptbr/05-seo-busca/seo-for-startups/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/link-building/seo-for-startups-kursku.md"
     },
@@ -9246,17 +10199,17 @@
       "url": "https://github.com/LeadMagic/gtm-skills/blob/HEAD/skills/content-seo/citation-harvesting/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/LeadMagic/gtm-skills/HEAD/skills/content-seo/citation-harvesting/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
-      "platformSource": "declared+detected",
+      "discoveredVia": "state",
+      "platformSource": "detected",
       "license": "MIT",
       "platforms": [
         "claude-code",
-        "copilot",
         "gemini-cli",
-        "windsurf"
+        "windsurf",
+        "copilot"
       ],
       "stars": 75,
-      "repoUpdatedAt": "2026-10-14",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/link-building/citation-harvesting-leadmagic.md"
     },
@@ -9514,6 +10467,32 @@
       "file": "library/local-seo/local-seo-nowork-studio.md"
     },
     {
+      "name": "page-play-builder",
+      "slug": "page-play-builder-aaron-he-zhu",
+      "description": "Use when the user asks to \"build programmatic SEO pages\", \"generate pages at scale\", \"rank on a high-authority third-party site\", \"borrow domain authority\", \"build a vs / alternative page\", \"do local SEO\", \"optimize a Google Business Profile\", or \"fix NAP\" — one page-build router with four modes: programmatic (template × dataset systems), parasite (barnacle publishing on Medium/Reddit/LinkedIn/GitHub), comparison (vs / alternative pages in four formats), and local (GBP + NAP + citations + location pages), each with its own thin/duplicate, honesty, or reputation-abuse guardrail. Not for…",
+      "category": "local-seo",
+      "categoryTitle": "Local SEO and Google Business Profile",
+      "repo": "aaron-he-zhu/aaron-marketing-skills",
+      "repoUrl": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+      "path": "seo-geo/implement/page-play-builder/SKILL.md",
+      "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/HEAD/seo-geo/implement/page-play-builder/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/aaron-he-zhu/aaron-marketing-skills/HEAD/seo-geo/implement/page-play-builder/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared+detected",
+      "license": "Apache-2.0",
+      "platforms": [
+        "claude-code",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "stars": 3049,
+      "repoUpdatedAt": "2026-11-02",
+      "hasContent": true,
+      "file": "library/local-seo/page-play-builder-aaron-he-zhu.md"
+    },
+    {
       "name": "blog-locale-audit",
       "slug": "blog-locale-audit-agricidaniel",
       "description": "Read-only audit of a folder of existing multilingual blog posts: translation coverage, parity, hreflang and canonical consistency, meta-tag parity, and stale translations, with a prioritized report. Use when the user says \"locale audit\", \"check translations\", \"multilingual audit\", \"hreflang check\", \"Uebersetzungen pruefen\" about posts that already exist. Not for creating or fixing translations (blog-translate, blog-localize, blog-multilingual) or for a site-wide technical hreflang crawl (claude-seo seo-hreflang).",
@@ -9558,6 +10537,75 @@
       "repoUpdatedAt": "2026-10-06",
       "hasContent": true,
       "file": "library/local-seo/localization-appeeky.md"
+    },
+    {
+      "name": "improve-search-visibility-entity-footprint",
+      "slug": "improve-search-visibility-entity-footprint-gooseworks-ai",
+      "description": "Step of the improve-search-visibility playbook: checks the profiles answer engines read, plus local listings and reviews, against the brand's facts and writes corrections. Run improve-search-visibility instead; not for direct use.",
+      "category": "local-seo",
+      "categoryTitle": "Local SEO and Google Business Profile",
+      "repo": "gooseworks-ai/goose-skills",
+      "repoUrl": "https://github.com/gooseworks-ai/goose-skills",
+      "path": "skills/marketing/improve-search-visibility-entity-footprint/SKILL.md",
+      "url": "https://github.com/gooseworks-ai/goose-skills/blob/HEAD/skills/marketing/improve-search-visibility-entity-footprint/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/gooseworks-ai/goose-skills/HEAD/skills/marketing/improve-search-visibility-entity-footprint/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "state",
+      "platformSource": "none",
+      "license": "MIT",
+      "platforms": [
+        "unspecified"
+      ],
+      "stars": 1292,
+      "repoUpdatedAt": "",
+      "hasContent": true,
+      "file": "library/local-seo/improve-search-visibility-entity-footprint-gooseworks-ai.md"
+    },
+    {
+      "name": "local-seo",
+      "slug": "local-seo-kostja94",
+      "description": "When the user wants to optimize for local search, set up Google Business Profile, or build local citations. Also use when the user mentions \"local SEO,\" \"Google Business Profile,\" \"Google Maps,\" \"NAP,\" \"citations,\" \"local search,\" \"local business,\" or \"service area.\" For location pages, use programmatic-seo.",
+      "category": "local-seo",
+      "categoryTitle": "Local SEO and Google Business Profile",
+      "repo": "kostja94/marketing-skills",
+      "repoUrl": "https://github.com/kostja94/marketing-skills",
+      "path": "skills/seo/local/SKILL.md",
+      "url": "https://github.com/kostja94/marketing-skills/blob/HEAD/skills/seo/local/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/kostja94/marketing-skills/HEAD/skills/seo/local/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 1072,
+      "repoUpdatedAt": "2026-10-26",
+      "hasContent": true,
+      "file": "library/local-seo/local-seo-kostja94.md"
+    },
+    {
+      "name": "xml-sitemap",
+      "slug": "xml-sitemap-kostja94",
+      "description": "When the user wants to create, audit, or optimize sitemap.xml. Also use when the user mentions \"sitemap,\" \"sitemap.xml,\" \"sitemap index,\" \"lastmod,\" \"changefreq,\" \"priority,\" \"URL discovery,\" \"URL discovery for search engines,\" \"single source of truth,\" \"URL config,\" \"unify sitemap IndexNow,\" or \"reduce duplicate maintenance.\" For IndexNow, use indexnow.",
+      "category": "local-seo",
+      "categoryTitle": "Local SEO and Google Business Profile",
+      "repo": "kostja94/marketing-skills",
+      "repoUrl": "https://github.com/kostja94/marketing-skills",
+      "path": "skills/seo/technical/sitemap/SKILL.md",
+      "url": "https://github.com/kostja94/marketing-skills/blob/HEAD/skills/seo/technical/sitemap/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/kostja94/marketing-skills/HEAD/skills/seo/technical/sitemap/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 1072,
+      "repoUpdatedAt": "2026-10-26",
+      "hasContent": true,
+      "file": "library/local-seo/xml-sitemap-kostja94.md"
     },
     {
       "name": "local-seo",
@@ -10399,14 +11447,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/kit-510-ptbr/05-seo-busca/google-business-optimizer/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/kit-510-ptbr/05-seo-busca/google-business-optimizer/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/local-seo/google-business-optimizer-kursku.md"
     },
@@ -10422,14 +11470,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/global-skillshare-import/wave-008/local-legal-seo-audit/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/global-skillshare-import/wave-008/local-legal-seo-audit/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "none",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": false,
       "file": ""
     },
@@ -10445,14 +11493,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/kit-510-ptbr/05-seo-busca/local-seo/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/kit-510-ptbr/05-seo-busca/local-seo/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/local-seo/local-seo-kursku.md"
     },
@@ -10802,6 +11850,29 @@
       "file": "library/international-seo/hreflang-international-nowork-studio.md"
     },
     {
+      "name": "page-metadata",
+      "slug": "page-metadata-kostja94",
+      "description": "When the user wants a full-page metadata audit or implementation across discovery, search intent, title, description, canonical, robots, hreflang, Open Graph, Twitter Cards, code or CMS changes, build validation, rendered HTML, production verification, localization, or post-release observation. Also use for \"metadata audit,\" \"sitewide meta optimization,\" \"metadata implementation,\" \"meta robots,\" \"hreflang,\" \"viewport,\" or \"charset.\" For an isolated title, description, heading, Open Graph, or Twitter Card task, use its specialist skill directly.",
+      "category": "international-seo",
+      "categoryTitle": "International and Multilingual SEO",
+      "repo": "kostja94/marketing-skills",
+      "repoUrl": "https://github.com/kostja94/marketing-skills",
+      "path": "skills/seo/on-page/metadata/SKILL.md",
+      "url": "https://github.com/kostja94/marketing-skills/blob/HEAD/skills/seo/on-page/metadata/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/kostja94/marketing-skills/HEAD/skills/seo/on-page/metadata/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 1072,
+      "repoUpdatedAt": "2026-10-26",
+      "hasContent": true,
+      "file": "library/international-seo/page-metadata-kostja94.md"
+    },
+    {
       "name": "hreflang-check",
       "slug": "hreflang-check-indranilbanerjee",
       "description": "Validate hreflang, alternate-language link tags and x-default from pasted HTML or sitemaps, with fixes. \"check our hreflang tags\"",
@@ -10846,6 +11917,29 @@
       "repoUpdatedAt": "2026-10-19",
       "hasContent": true,
       "file": "library/international-seo/seo-hreflang-agricidaniel-5b4d69.md"
+    },
+    {
+      "name": "i18n",
+      "slug": "i18n-openclaudia",
+      "description": "Add full internationalization (i18n) to a Next.js project using next-intl. Supports 14+ languages, SEO-friendly locale routing, hreflang sitemaps, and bulk translation. Use when the user asks to \"internationalize\", \"add i18n\", \"add translations\", \"multi-language\", \"localize\", \"add language support\", or \"translate my site\".",
+      "category": "international-seo",
+      "categoryTitle": "International and Multilingual SEO",
+      "repo": "OpenClaudia/openclaudia-skills",
+      "repoUrl": "https://github.com/OpenClaudia/openclaudia-skills",
+      "path": "skills/i18n/SKILL.md",
+      "url": "https://github.com/OpenClaudia/openclaudia-skills/blob/HEAD/skills/i18n/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/OpenClaudia/openclaudia-skills/HEAD/skills/i18n/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 724,
+      "repoUpdatedAt": "2026-10-29",
+      "hasContent": true,
+      "file": "library/international-seo/i18n-openclaudia.md"
     },
     {
       "name": "seo-hreflang",
@@ -10905,14 +11999,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/kit-510-ptbr/05-seo-busca/international-seo/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/kit-510-ptbr/05-seo-busca/international-seo/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/international-seo/international-seo-kursku.md"
     },
@@ -11135,14 +12229,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/kit-510-ptbr/05-seo-busca/ecommerce-seo/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/kit-510-ptbr/05-seo-busca/ecommerce-seo/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/ecommerce-seo/ecommerce-seo-kursku.md"
     },
@@ -11332,6 +12426,127 @@
       "file": "library/analytics-measurement/seo-vs-ads-ryze-ai-adgent.md"
     },
     {
+      "name": "audience-segment-builder",
+      "slug": "audience-segment-builder-aaron-he-zhu",
+      "description": "Use when the user asks to \"build audience segments from my customer list\", \"make value-based / lookalike seed lists\", \"set up exclusion / suppression segments\", or \"map audiences to funnel stages across platforms\"; turns the user''s OWN customer/CRM/GA4 export into seed audiences, value-based lookalike SEED lists, exclusion/suppression segments, and a cross-platform funnel-stage targeting map, informing the ROAS A (Audience) dimension. Not for building account structure or match types — use campaign-architect; not for organic SERP intent — use keyword-research. 付费广告受众分群/种子人群/排除人群/相似人群种子",
+      "category": "analytics-measurement",
+      "categoryTitle": "SEO Analytics, Reporting and Measurement",
+      "repo": "aaron-he-zhu/aaron-marketing-skills",
+      "repoUrl": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+      "path": "ad/research/audience-segment-builder/SKILL.md",
+      "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/HEAD/ad/research/audience-segment-builder/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/aaron-he-zhu/aaron-marketing-skills/HEAD/ad/research/audience-segment-builder/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared+detected",
+      "license": "Apache-2.0",
+      "platforms": [
+        "claude-code",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "stars": 3049,
+      "repoUpdatedAt": "2026-11-02",
+      "hasContent": true,
+      "file": "library/analytics-measurement/audience-segment-builder-aaron-he-zhu.md"
+    },
+    {
+      "name": "search-term-miner",
+      "slug": "search-term-miner-aaron-he-zhu",
+      "description": "Use when the user asks to \"mine my search terms\", \"find new keywords from converting queries\", \"build a negative-keyword list\", or \"cut wasted paid spend\"; harvests converting queries into new keywords/ad-groups, builds a standing negative-keyword list and an n-gram waste report from the search-terms export, and delivers a maintenance diff (add / negate / move). Not for account structure — use campaign-architect; not for budget split — use budget-optimizer; not for computing the final RQS — use ad-account-auditor. 付费广告搜索词挖掘/否定关键词/浪费词清单",
+      "category": "analytics-measurement",
+      "categoryTitle": "SEO Analytics, Reporting and Measurement",
+      "repo": "aaron-he-zhu/aaron-marketing-skills",
+      "repoUrl": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+      "path": "ad/research/search-term-miner/SKILL.md",
+      "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/HEAD/ad/research/search-term-miner/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/aaron-he-zhu/aaron-marketing-skills/HEAD/ad/research/search-term-miner/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared+detected",
+      "license": "Apache-2.0",
+      "platforms": [
+        "claude-code",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "stars": 3049,
+      "repoUpdatedAt": "2026-11-02",
+      "hasContent": true,
+      "file": "library/analytics-measurement/search-term-miner-aaron-he-zhu.md"
+    },
+    {
+      "name": "improve-search-visibility-page-and-foundation-check",
+      "slug": "improve-search-visibility-page-and-foundation-check-gooseworks-ai",
+      "description": "Step of the improve-search-visibility playbook: audits site indexing, crawling, technical and page issues at the requested scope, or checks pages behind lost visibility questions. Run improve-search-visibility instead; not for direct use.",
+      "category": "analytics-measurement",
+      "categoryTitle": "SEO Analytics, Reporting and Measurement",
+      "repo": "gooseworks-ai/goose-skills",
+      "repoUrl": "https://github.com/gooseworks-ai/goose-skills",
+      "path": "skills/marketing/improve-search-visibility-page-and-foundation-check/SKILL.md",
+      "url": "https://github.com/gooseworks-ai/goose-skills/blob/HEAD/skills/marketing/improve-search-visibility-page-and-foundation-check/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/gooseworks-ai/goose-skills/HEAD/skills/marketing/improve-search-visibility-page-and-foundation-check/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "state",
+      "platformSource": "none",
+      "license": "MIT",
+      "platforms": [
+        "unspecified"
+      ],
+      "stars": 1292,
+      "repoUpdatedAt": "",
+      "hasContent": true,
+      "file": "library/analytics-measurement/improve-search-visibility-page-and-foundation-check-gooseworks-ai.md"
+    },
+    {
+      "name": "improve-search-visibility-question-set",
+      "slug": "improve-search-visibility-question-set-gooseworks-ai",
+      "description": "Step of the improve-search-visibility playbook: drafts and scores the buyer-question set in AI and Google forms and groups it into page clusters. Run improve-search-visibility instead; not for direct use.",
+      "category": "analytics-measurement",
+      "categoryTitle": "SEO Analytics, Reporting and Measurement",
+      "repo": "gooseworks-ai/goose-skills",
+      "repoUrl": "https://github.com/gooseworks-ai/goose-skills",
+      "path": "skills/marketing/improve-search-visibility-question-set/SKILL.md",
+      "url": "https://github.com/gooseworks-ai/goose-skills/blob/HEAD/skills/marketing/improve-search-visibility-question-set/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/gooseworks-ai/goose-skills/HEAD/skills/marketing/improve-search-visibility-question-set/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "state",
+      "platformSource": "none",
+      "license": "MIT",
+      "platforms": [
+        "unspecified"
+      ],
+      "stars": 1292,
+      "repoUpdatedAt": "",
+      "hasContent": true,
+      "file": "library/analytics-measurement/improve-search-visibility-question-set-gooseworks-ai.md"
+    },
+    {
+      "name": "google-search-console",
+      "slug": "google-search-console-kostja94",
+      "description": "Compatibility pointer for Search Console performance and indexing analysis; maintained in Open Analytics.",
+      "category": "analytics-measurement",
+      "categoryTitle": "SEO Analytics, Reporting and Measurement",
+      "repo": "kostja94/marketing-skills",
+      "repoUrl": "https://github.com/kostja94/marketing-skills",
+      "path": "skills/analytics/seo/google-search-console/SKILL.md",
+      "url": "https://github.com/kostja94/marketing-skills/blob/HEAD/skills/analytics/seo/google-search-console/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/kostja94/marketing-skills/HEAD/skills/analytics/seo/google-search-console/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 1072,
+      "repoUpdatedAt": "2026-10-26",
+      "hasContent": true,
+      "file": "library/analytics-measurement/google-search-console-kostja94.md"
+    },
+    {
       "name": "search-console-connect",
       "slug": "search-console-connect-leoyeai",
       "description": "Connect to Google Search Console API to pull real organic search data — traffic trends, ranking positions, impressions, CTR, top queries, and page-level performance. Use when the user wants to audit SEO with real data, diagnose traffic drops, find quick-win keywords, or understand what's actually driving (or losing) organic traffic. Enhances seo-audit and ai-seo skills with real GSC data. Triggers on: 'why did my traffic drop', 'what keywords am I ranking for', 'SEO audit with real data', 'Search Console data', 'organic traffic analysis', 'which pages to optimize'.",
@@ -11366,14 +12581,14 @@
       "url": "https://github.com/rampstackco/claude-skills/blob/HEAD/dist/codex/.agents/skills/seo-rank-tracking/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/rampstackco/claude-skills/HEAD/dist/codex/.agents/skills/seo-rank-tracking/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 1047,
-      "repoUpdatedAt": "2026-10-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/analytics-measurement/seo-rank-tracking-rampstackco.md"
     },
@@ -11389,14 +12604,14 @@
       "url": "https://github.com/rampstackco/claude-skills/blob/HEAD/dist/codex/.agents/skills/seo-traffic-diagnosis/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/rampstackco/claude-skills/HEAD/dist/codex/.agents/skills/seo-traffic-diagnosis/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 1047,
-      "repoUpdatedAt": "2026-10-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/analytics-measurement/seo-traffic-diagnosis-rampstackco.md"
     },
@@ -11470,6 +12685,75 @@
       "repoUpdatedAt": "2026-08-26",
       "hasContent": true,
       "file": "library/analytics-measurement/amazon-rank-tracker-nexscope-ai.md"
+    },
+    {
+      "name": "ahrefs-python",
+      "slug": "ahrefs-python-openclaudia",
+      "description": "Manages Ahrefs API usage in Python using `ahrefs-python` library. Use when working with SEO / marketing related tasks or with data including backlinks, keywords, domain ratings, organic traffic, site audits, rank tracking, and brand monitoring. Covers `ahrefs-python` usage including AhrefsClient / AsyncAhrefsClient, typed request/response models, error handling, and all API sections.",
+      "category": "analytics-measurement",
+      "categoryTitle": "SEO Analytics, Reporting and Measurement",
+      "repo": "OpenClaudia/openclaudia-skills",
+      "repoUrl": "https://github.com/OpenClaudia/openclaudia-skills",
+      "path": "skills/ahrefs-research/SKILL.md",
+      "url": "https://github.com/OpenClaudia/openclaudia-skills/blob/HEAD/skills/ahrefs-research/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/OpenClaudia/openclaudia-skills/HEAD/skills/ahrefs-research/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 724,
+      "repoUpdatedAt": "2026-10-29",
+      "hasContent": true,
+      "file": "library/analytics-measurement/ahrefs-python-openclaudia.md"
+    },
+    {
+      "name": "ai-citations-report",
+      "slug": "ai-citations-report-openclaudia",
+      "description": "Generate an AI Citations Report (GEO) for a domain — which AI-search prompts cite the site across Google AI Overview and ChatGPT, plus organic-traffic context and per-article citation coverage. Use when the user asks for an 'AI citations report', 'GEO citations report', or 'which AI prompts cite <domain>'.",
+      "category": "analytics-measurement",
+      "categoryTitle": "SEO Analytics, Reporting and Measurement",
+      "repo": "OpenClaudia/openclaudia-skills",
+      "repoUrl": "https://github.com/OpenClaudia/openclaudia-skills",
+      "path": "skills/ai-citations-report/SKILL.md",
+      "url": "https://github.com/OpenClaudia/openclaudia-skills/blob/HEAD/skills/ai-citations-report/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/OpenClaudia/openclaudia-skills/HEAD/skills/ai-citations-report/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 724,
+      "repoUpdatedAt": "2026-10-29",
+      "hasContent": true,
+      "file": "library/analytics-measurement/ai-citations-report-openclaudia.md"
+    },
+    {
+      "name": "search-console",
+      "slug": "search-console-openclaudia",
+      "description": "Pull Google Search Console data and perform search performance analysis. Use when asked about search rankings, clicks, impressions, CTR, index coverage, Core Web Vitals, or sitemap status. Trigger phrases: \"search console\", \"GSC\", \"search performance\", \"clicks and impressions\", \"CTR analysis\", \"index coverage\", \"core web vitals\", \"URL inspection\", \"sitemap status\", \"ranking data\", \"search queries\", \"keyword positions\".",
+      "category": "analytics-measurement",
+      "categoryTitle": "SEO Analytics, Reporting and Measurement",
+      "repo": "OpenClaudia/openclaudia-skills",
+      "repoUrl": "https://github.com/OpenClaudia/openclaudia-skills",
+      "path": "skills/search-console/SKILL.md",
+      "url": "https://github.com/OpenClaudia/openclaudia-skills/blob/HEAD/skills/search-console/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/OpenClaudia/openclaudia-skills/HEAD/skills/search-console/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 724,
+      "repoUpdatedAt": "2026-10-29",
+      "hasContent": true,
+      "file": "library/analytics-measurement/search-console-openclaudia.md"
     },
     {
       "name": "blitz-seo",
@@ -11737,16 +13021,39 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/kit-510-ptbr/08-lancamento-growth/acquisition-channel-ranking/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/kit-510-ptbr/08-lancamento-growth/acquisition-channel-ranking/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/analytics-measurement/acquisition-channel-ranking-kursku.md"
+    },
+    {
+      "name": "google-search-console",
+      "slug": "google-search-console-kursku",
+      "description": "Google Search Console — Skill especializada para otimização e monitoramento de performance em busca orgânica do Google.",
+      "category": "analytics-measurement",
+      "categoryTitle": "SEO Analytics, Reporting and Measurement",
+      "repo": "kursku/skills",
+      "repoUrl": "https://github.com/kursku/skills",
+      "path": "packs/kit-510-ptbr/05-seo-busca/google-search-console/SKILL.md",
+      "url": "https://github.com/kursku/skills/blob/HEAD/packs/kit-510-ptbr/05-seo-busca/google-search-console/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/kit-510-ptbr/05-seo-busca/google-search-console/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "state",
+      "platformSource": "none",
+      "license": "MIT",
+      "platforms": [
+        "unspecified"
+      ],
+      "stars": 120,
+      "repoUpdatedAt": "",
+      "hasContent": true,
+      "file": "library/analytics-measurement/google-search-console-kursku.md"
     },
     {
       "name": "negative-seo-defense",
@@ -11760,14 +13067,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/kit-510-ptbr/05-seo-busca/negative-seo-defense/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/kit-510-ptbr/05-seo-busca/negative-seo-defense/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/analytics-measurement/negative-seo-defense-kursku.md"
     },
@@ -11783,14 +13090,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/kit-510-ptbr/05-seo-busca/podcast-seo/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/kit-510-ptbr/05-seo-busca/podcast-seo/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "detected",
       "license": "MIT",
       "platforms": [
         "claude-code"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/analytics-measurement/podcast-seo-kursku.md"
     },
@@ -11806,14 +13113,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/kit-510-ptbr/05-seo-busca/redirects-migration/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/kit-510-ptbr/05-seo-busca/redirects-migration/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/analytics-measurement/redirects-migration-kursku.md"
     },
@@ -11829,14 +13136,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/kit-510-ptbr/15-analytics-dados/seo-analytics/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/kit-510-ptbr/15-analytics-dados/seo-analytics/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/analytics-measurement/seo-analytics-kursku.md"
     },
@@ -11852,14 +13159,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/global-skillshare-import/wave-011/seo-forensic-incident-response/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/global-skillshare-import/wave-011/seo-forensic-incident-response/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "none",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": false,
       "file": ""
     },
@@ -11875,14 +13182,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/kit-510-ptbr/05-seo-busca/seo-reporting/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/kit-510-ptbr/05-seo-busca/seo-reporting/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/analytics-measurement/seo-reporting-kursku.md"
     },
@@ -12349,6 +13656,32 @@
       "file": ""
     },
     {
+      "name": "geo-content-optimizer",
+      "slug": "geo-content-optimizer-aaron-he-zhu",
+      "description": "Use when the user asks to \"optimize for AI citations\"; improves citation readiness for ChatGPT, Perplexity, AI Overviews, Gemini, and Claude. Not for structural on-page SEO — use on-page-seo-checker; not for net-new drafting — use content-writer. AI引用优化/GEO优化/AI搜索",
+      "category": "ai-search-geo",
+      "categoryTitle": "AI Search, GEO and Answer Engines",
+      "repo": "aaron-he-zhu/aaron-marketing-skills",
+      "repoUrl": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+      "path": "seo-geo/implement/geo-content-optimizer/SKILL.md",
+      "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills/blob/HEAD/seo-geo/implement/geo-content-optimizer/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/aaron-he-zhu/aaron-marketing-skills/HEAD/seo-geo/implement/geo-content-optimizer/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared+detected",
+      "license": "Apache-2.0",
+      "platforms": [
+        "claude-code",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "stars": 3049,
+      "repoUpdatedAt": "2026-11-02",
+      "hasContent": true,
+      "file": "library/ai-search-geo/geo-content-optimizer-aaron-he-zhu.md"
+    },
+    {
       "name": "rank-tracker",
       "slug": "rank-tracker-aaron-he-zhu",
       "description": "Use when the user asks to \"track rankings\" or \"查排名\"; measures keyword and SERP-position deltas over time from provided exports or connected tools, including AI-response checks. Not for multi-metric stakeholder reports or setting alerts — use performance-monitor (report or alert mode). 排名追踪/SERP监控",
@@ -12607,6 +13940,52 @@
       "file": "library/ai-search-geo/geo-optimizer-auriti-labs.md"
     },
     {
+      "name": "improve-search-visibility-citation-check",
+      "slug": "improve-search-visibility-citation-check-gooseworks-ai",
+      "description": "Step of the improve-search-visibility playbook: runs the agreed buyer questions on AI and Google surfaces, records every run and scores how often the brand is named. Run improve-search-visibility instead; not for direct use.",
+      "category": "ai-search-geo",
+      "categoryTitle": "AI Search, GEO and Answer Engines",
+      "repo": "gooseworks-ai/goose-skills",
+      "repoUrl": "https://github.com/gooseworks-ai/goose-skills",
+      "path": "skills/marketing/improve-search-visibility-citation-check/SKILL.md",
+      "url": "https://github.com/gooseworks-ai/goose-skills/blob/HEAD/skills/marketing/improve-search-visibility-citation-check/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/gooseworks-ai/goose-skills/HEAD/skills/marketing/improve-search-visibility-citation-check/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "state",
+      "platformSource": "none",
+      "license": "MIT",
+      "platforms": [
+        "unspecified"
+      ],
+      "stars": 1292,
+      "repoUpdatedAt": "",
+      "hasContent": true,
+      "file": "library/ai-search-geo/improve-search-visibility-citation-check-gooseworks-ai.md"
+    },
+    {
+      "name": "seo-strategy",
+      "slug": "seo-strategy-kostja94",
+      "description": "When the user wants to plan SEO strategy, prioritize SEO work, or understand the SEO workflow. Also use when the user mentions \"SEO strategy,\" \"SEO plan,\" \"SEO roadmap,\" \"SEO priority,\" \"SEO audit,\" \"SEO workflow,\" \"where to start SEO,\" \"SEO approach,\" \"organic growth strategy,\" \"why SEO,\" \"SEO value,\" or \"search strategy.\" For technical/crawl audit execution, use seo-audit. For keyword research, use keyword-research. For AI search visibility, use generative-engine-optimization.",
+      "category": "ai-search-geo",
+      "categoryTitle": "AI Search, GEO and Answer Engines",
+      "repo": "kostja94/marketing-skills",
+      "repoUrl": "https://github.com/kostja94/marketing-skills",
+      "path": "skills/strategies/structure/seo/SKILL.md",
+      "url": "https://github.com/kostja94/marketing-skills/blob/HEAD/skills/strategies/structure/seo/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/kostja94/marketing-skills/HEAD/skills/strategies/structure/seo/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 1072,
+      "repoUpdatedAt": "2026-10-26",
+      "hasContent": true,
+      "file": "library/ai-search-geo/seo-strategy-kostja94.md"
+    },
+    {
       "name": "ai-seo",
       "slug": "ai-seo-leoyeai",
       "description": "When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,' 'LLM optimization,' 'AI Overviews,' 'optimize for ChatGPT,' 'optimize for Perplexity,' 'AI citations,' 'AI visibility,' 'zero-click search,' 'how do I show up in AI answers,' 'LLM mentions,' or 'optimize for Claude/Gemini.' Use this whenever someone wants their content to be cited or surfaced by AI assistants and AI search engines. For traditional…",
@@ -12641,14 +14020,14 @@
       "url": "https://github.com/rampstackco/claude-skills/blob/HEAD/dist/codex/.agents/skills/seo-aeo-geo/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/rampstackco/claude-skills/HEAD/dist/codex/.agents/skills/seo-aeo-geo/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 1047,
-      "repoUpdatedAt": "2026-10-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/ai-search-geo/seo-aeo-geo-rampstackco.md"
     },
@@ -12791,6 +14170,52 @@
       "file": "library/ai-search-geo/seo-geo-agricidaniel.md"
     },
     {
+      "name": "geo-analysis",
+      "slug": "geo-analysis-openclaudia",
+      "description": "Run a full GEO/SEO client analysis for a domain via the Enception external API — start the analysis, poll its status, and download the PDF report covering AI visibility, market research, and competitors. Use when the user says 'run a client analysis', 'analyze <domain> for GEO', 'GEO analysis for <domain>', or 'check analysis status'.",
+      "category": "ai-search-geo",
+      "categoryTitle": "AI Search, GEO and Answer Engines",
+      "repo": "OpenClaudia/openclaudia-skills",
+      "repoUrl": "https://github.com/OpenClaudia/openclaudia-skills",
+      "path": "skills/geo-analysis/SKILL.md",
+      "url": "https://github.com/OpenClaudia/openclaudia-skills/blob/HEAD/skills/geo-analysis/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/OpenClaudia/openclaudia-skills/HEAD/skills/geo-analysis/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 724,
+      "repoUpdatedAt": "2026-10-29",
+      "hasContent": true,
+      "file": "library/ai-search-geo/geo-analysis-openclaudia.md"
+    },
+    {
+      "name": "geo-difficulty",
+      "slug": "geo-difficulty-openclaudia",
+      "description": "Score how hard a keyword is to rank for in the AI-search era — page-level URL Rating of real competitors (not just domain DR), Ahrefs keyword difficulty, and whether a given site already ranks or is cited in Google's AI Overview. Use when the user asks 'how hard is <keyword> to rank', 'geo difficulty for <keyword>', or 'keyword difficulty for <domain>'.",
+      "category": "ai-search-geo",
+      "categoryTitle": "AI Search, GEO and Answer Engines",
+      "repo": "OpenClaudia/openclaudia-skills",
+      "repoUrl": "https://github.com/OpenClaudia/openclaudia-skills",
+      "path": "skills/geo-difficulty/SKILL.md",
+      "url": "https://github.com/OpenClaudia/openclaudia-skills/blob/HEAD/skills/geo-difficulty/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/OpenClaudia/openclaudia-skills/HEAD/skills/geo-difficulty/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 724,
+      "repoUpdatedAt": "2026-10-29",
+      "hasContent": true,
+      "file": "library/ai-search-geo/geo-difficulty-openclaudia.md"
+    },
+    {
       "name": "geo-doctor",
       "slug": "geo-doctor-fangx-ai",
       "description": "GEO 医生：中英双语 GEO（生成式引擎优化）全流程助手。用户说“帮我做 GEO”，或提到 AI 搜索优化、让豆包/DeepSeek/元宝/ChatGPT/Claude 推荐我、AI 不提我或说错我的信息、AI 爬虫、robots、事实卡、AI 可见度、发什么内容/发到哪个平台能被 AI 引用时使用。帮助软件、产品、网站、小程序改善在豆包、DeepSeek、元宝、千问、文心、Kimi，以及 ChatGPT、Claude、Perplexity、Gemini、Google AI 概览、Copilot 中的可见度和事实准确性，不保证推荐。流程：问诊 → 体检 → 事实卡 → 问题集 → 采样（可用 API 自动问）→ 诊断 → 批量写内容 → 发布（官网自动发，第三方平台打包由人发）→ 复查。GEO doctor (generative engine optimization): use when the user says \"help me with GEO\", asks how to get recommended or cited by ChatGPT, Claude, Perplexity, Gemini, Google AI Overviews or Copilot, or says AI ignores or misdescribes their product.",
@@ -12835,6 +14260,31 @@
       "repoUpdatedAt": "2026-09-29",
       "hasContent": true,
       "file": "library/ai-search-geo/youtube-content-gen-kennyzir.md"
+    },
+    {
+      "name": "content-research",
+      "slug": "content-research-nicepkg",
+      "description": "Research-first content creation optimized for both human readers and AI search engines (Claude, ChatGPT, Perplexity, Gemini). Creates authentic, authoritative content that becomes the go-to citation source for AI models answering user questions. Use this skill when: - Creating content that should appear in AI search results (Perplexity, ChatGPT, Claude) - Building topical authority to become THE source AI cites for a topic - Launching a new product and need compelling, citable content - Creating blog posts, articles, social media, or press releases - Need content that references real trends…",
+      "category": "ai-search-geo",
+      "categoryTitle": "AI Search, GEO and Answer Engines",
+      "repo": "nicepkg/ai-workflow",
+      "repoUrl": "https://github.com/nicepkg/ai-workflow",
+      "path": "workflows/content-creator-workflow/.claude/skills/content-research/SKILL.md",
+      "url": "https://github.com/nicepkg/ai-workflow/blob/HEAD/workflows/content-creator-workflow/.claude/skills/content-research/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/nicepkg/ai-workflow/HEAD/workflows/content-creator-workflow/.claude/skills/content-research/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code",
+        "codex",
+        "cursor"
+      ],
+      "stars": 288,
+      "repoUpdatedAt": "2026-01-20",
+      "hasContent": true,
+      "file": "library/ai-search-geo/content-research-nicepkg.md"
     },
     {
       "name": "geo",
@@ -12903,7 +14353,7 @@
       "stars": 235,
       "repoUpdatedAt": "2026-09-04",
       "hasContent": true,
-      "file": "library/ai-search-geo/geo-content-optimizer-aaron-he-zhu.md"
+      "file": "library/ai-search-geo/geo-content-optimizer-aaron-he-zhu-3c8de9.md"
     },
     {
       "name": "schema-markup-generator",
@@ -13308,14 +14758,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/kit-510-ptbr/05-seo-busca/answer-engine-optimization/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/kit-510-ptbr/05-seo-busca/answer-engine-optimization/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/ai-search-geo/answer-engine-optimization-kursku.md"
     },
@@ -13706,17 +15156,17 @@
       "url": "https://github.com/LeadMagic/gtm-skills/blob/HEAD/skills/content-seo/aeo-strategy/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/LeadMagic/gtm-skills/HEAD/skills/content-seo/aeo-strategy/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
-      "platformSource": "declared+detected",
+      "discoveredVia": "state",
+      "platformSource": "detected",
       "license": "MIT",
       "platforms": [
         "claude-code",
-        "copilot",
         "gemini-cli",
-        "windsurf"
+        "windsurf",
+        "copilot"
       ],
       "stars": 75,
-      "repoUpdatedAt": "2026-10-14",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/ai-search-geo/aeo-strategy-leadmagic.md"
     },
@@ -14091,6 +15541,29 @@
       "file": "library/ai-search-geo/seo-orchestrator-gaguero.md"
     },
     {
+      "name": "parasite-seo",
+      "slug": "parasite-seo-kostja94",
+      "description": "When the user wants to choose or execute third-party platform SEO (high-authority sites for rankings or backlinks). Also use when the user mentions \"parasite SEO,\" \"parasitic SEO,\" \"barnacle SEO,\" \"hosted content,\" \"third-party publishing,\" \"Medium SEO,\" \"Reddit SEO,\" \"GitHub parasite SEO,\" \"LinkedIn Pulse SEO,\" \"high-authority platforms,\" \"distributed authority,\" \"borrow domain authority,\" or \"rank without own website.\" For GitHub-specific playbooks, use github. For Medium.com posts, use medium-posts. For Grokipedia, use grokipedia-recommendations. For AI answer-engine visibility (not…",
+      "category": "algorithm-updates",
+      "categoryTitle": "Algorithm Updates, Spam Policy and Recovery",
+      "repo": "kostja94/marketing-skills",
+      "repoUrl": "https://github.com/kostja94/marketing-skills",
+      "path": "skills/seo/parasite-seo/SKILL.md",
+      "url": "https://github.com/kostja94/marketing-skills/blob/HEAD/skills/seo/parasite-seo/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/kostja94/marketing-skills/HEAD/skills/seo/parasite-seo/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 1072,
+      "repoUpdatedAt": "2026-10-26",
+      "hasContent": true,
+      "file": "library/algorithm-updates/parasite-seo-kostja94.md"
+    },
+    {
       "name": "programmatic-seo",
       "slug": "programmatic-seo-indranilbanerjee",
       "description": "Plan or audit programmatic SEO pages at scale, gated against thin content. \"audit our location pages\"",
@@ -14125,17 +15598,17 @@
       "url": "https://github.com/LeadMagic/gtm-skills/blob/HEAD/skills/inbound/linkedin-algorithm/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/LeadMagic/gtm-skills/HEAD/skills/inbound/linkedin-algorithm/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
-      "platformSource": "declared+detected",
+      "discoveredVia": "state",
+      "platformSource": "detected",
       "license": "MIT",
       "platforms": [
         "claude-code",
-        "copilot",
         "gemini-cli",
-        "windsurf"
+        "windsurf",
+        "copilot"
       ],
       "stars": 75,
-      "repoUpdatedAt": "2026-10-14",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/algorithm-updates/linkedin-algorithm-leadmagic.md"
     },
@@ -14161,6 +15634,29 @@
       "repoUpdatedAt": "2026-10-26",
       "hasContent": true,
       "file": "library/serp-features/featured-snippet-kostja94.md"
+    },
+    {
+      "name": "multi-domain-brand-seo",
+      "slug": "multi-domain-brand-seo-kostja94",
+      "description": "When the user wants to optimize brand search for a company with multiple domains (e.g. parent company.com vs product.ai). Ensure the parent/company domain ranks first for brand queries. Also use when the user mentions \"brand search,\" \"multi-domain SEO,\" \"company domain first,\" \"parent vs product domain,\" \"hub-spoke domain,\" \"brand SERP control,\" or \"differentiate company and product domains.\" For domain structure, use domain-architecture.",
+      "category": "serp-features",
+      "categoryTitle": "SERP Features, Snippets and CTR",
+      "repo": "kostja94/marketing-skills",
+      "repoUrl": "https://github.com/kostja94/marketing-skills",
+      "path": "skills/strategies/commercial/domain/multi-domain-brand-seo/SKILL.md",
+      "url": "https://github.com/kostja94/marketing-skills/blob/HEAD/skills/strategies/commercial/domain/multi-domain-brand-seo/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/kostja94/marketing-skills/HEAD/skills/strategies/commercial/domain/multi-domain-brand-seo/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 1072,
+      "repoUpdatedAt": "2026-10-26",
+      "hasContent": true,
+      "file": "library/serp-features/multi-domain-brand-seo-kostja94.md"
     },
     {
       "name": "trending-content-scout",
@@ -14212,6 +15708,29 @@
       "file": "library/serp-features/seo-sxo-zhtyyx.md"
     },
     {
+      "name": "featured-snippets",
+      "slug": "featured-snippets-kursku",
+      "description": "Featured Snippets — Skill especializada para featured snippets",
+      "category": "serp-features",
+      "categoryTitle": "SERP Features, Snippets and CTR",
+      "repo": "kursku/skills",
+      "repoUrl": "https://github.com/kursku/skills",
+      "path": "packs/kit-510-ptbr/05-seo-busca/featured-snippets/SKILL.md",
+      "url": "https://github.com/kursku/skills/blob/HEAD/packs/kit-510-ptbr/05-seo-busca/featured-snippets/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/kit-510-ptbr/05-seo-busca/featured-snippets/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "state",
+      "platformSource": "detected",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 120,
+      "repoUpdatedAt": "",
+      "hasContent": true,
+      "file": "library/serp-features/featured-snippets-kursku.md"
+    },
+    {
       "name": "seo-snippet-hunter",
       "slug": "seo-snippet-hunter-kursku",
       "description": "Formats content to be eligible for featured snippets and SERP features. Creates snippet-optimized content blocks based on best practices. Use PROACTIVELY for question-based content.",
@@ -14223,14 +15742,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/global-skillshare-import/wave-011/seo-snippet-hunter/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/global-skillshare-import/wave-011/seo-snippet-hunter/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "none",
       "platforms": [
         "unspecified"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": false,
       "file": ""
     },
@@ -14258,6 +15777,29 @@
       "file": "library/serp-features/content-gap-analysis-xuanranl.md"
     },
     {
+      "name": "url-structure",
+      "slug": "url-structure-kostja94",
+      "description": "When the user wants to optimize URL structure, fix URL issues, or plan URL hierarchy. Also use when the user mentions \"URL structure,\" \"URL optimization,\" \"slug,\" \"clean URLs,\" \"URL hierarchy,\" \"URL path,\" \"permalink structure,\" \"URL best practices,\" \"dynamic URLs,\" or \"URL parameters.\" For per-page slug wording, use url-slug-generator. For canonical consolidation, use canonical-tag.",
+      "category": "migration-redirects",
+      "categoryTitle": "Migrations, Redirects and HTTPS",
+      "repo": "kostja94/marketing-skills",
+      "repoUrl": "https://github.com/kostja94/marketing-skills",
+      "path": "skills/seo/on-page/url-structure/SKILL.md",
+      "url": "https://github.com/kostja94/marketing-skills/blob/HEAD/skills/seo/on-page/url-structure/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/kostja94/marketing-skills/HEAD/skills/seo/on-page/url-structure/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 1072,
+      "repoUpdatedAt": "2026-10-26",
+      "hasContent": true,
+      "file": "library/migration-redirects/url-structure-kostja94.md"
+    },
+    {
       "name": "content-migration",
       "slug": "content-migration-rampstackco",
       "description": "Move content between platforms, domains, or URL structures while preserving SEO equity, user bookmarks, and integrations. Use this skill when planning a CMS migration, replatforming, consolidating sites, changing URL structures, or merging content from multiple sources. Triggers on content migration, replatform, CMS migration, domain migration, URL restructure, redirect map, site merge, content consolidation, migration plan, post-migration drop. Also triggers when planning a launch that involves moving existing content.",
@@ -14269,14 +15811,14 @@
       "url": "https://github.com/rampstackco/claude-skills/blob/HEAD/skills/content-migration/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/rampstackco/claude-skills/HEAD/skills/content-migration/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "none",
       "license": "MIT",
       "platforms": [
         "unspecified"
       ],
       "stars": 1047,
-      "repoUpdatedAt": "2026-10-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/migration-redirects/content-migration-rampstackco.md"
     },
@@ -14394,6 +15936,52 @@
       "repoUpdatedAt": "2026-06-04",
       "hasContent": false,
       "file": ""
+    },
+    {
+      "name": "improve-search-visibility-fix-writer",
+      "slug": "improve-search-visibility-fix-writer-gooseworks-ai",
+      "description": "Step of the improve-search-visibility playbook: turns one ranked fix into paste-ready site copy or code with owner, risk and undo, and writes page briefs. Run improve-search-visibility instead; not for direct use.",
+      "category": "general-seo",
+      "categoryTitle": "General SEO",
+      "repo": "gooseworks-ai/goose-skills",
+      "repoUrl": "https://github.com/gooseworks-ai/goose-skills",
+      "path": "skills/marketing/improve-search-visibility-fix-writer/SKILL.md",
+      "url": "https://github.com/gooseworks-ai/goose-skills/blob/HEAD/skills/marketing/improve-search-visibility-fix-writer/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/gooseworks-ai/goose-skills/HEAD/skills/marketing/improve-search-visibility-fix-writer/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "state",
+      "platformSource": "none",
+      "license": "MIT",
+      "platforms": [
+        "unspecified"
+      ],
+      "stars": 1292,
+      "repoUpdatedAt": "",
+      "hasContent": true,
+      "file": "library/general-seo/improve-search-visibility-fix-writer-gooseworks-ai.md"
+    },
+    {
+      "name": "seo-monitoring",
+      "slug": "seo-monitoring-kostja94",
+      "description": "Compatibility pointer for recurring SEO monitoring; maintained in Open Analytics.",
+      "category": "general-seo",
+      "categoryTitle": "General SEO",
+      "repo": "kostja94/marketing-skills",
+      "repoUrl": "https://github.com/kostja94/marketing-skills",
+      "path": "skills/analytics/seo/seo-monitoring/SKILL.md",
+      "url": "https://github.com/kostja94/marketing-skills/blob/HEAD/skills/analytics/seo/seo-monitoring/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/kostja94/marketing-skills/HEAD/skills/analytics/seo/seo-monitoring/SKILL.md",
+      "ref": "HEAD",
+      "discoveredVia": "awesome-seo-agent-skills",
+      "platformSource": "declared",
+      "license": "MIT",
+      "platforms": [
+        "claude-code"
+      ],
+      "stars": 1072,
+      "repoUpdatedAt": "2026-10-26",
+      "hasContent": true,
+      "file": "library/general-seo/seo-monitoring-kostja94.md"
     },
     {
       "name": "seo",
@@ -14614,14 +16202,14 @@
       "url": "https://github.com/kursku/skills/blob/HEAD/packs/kit-510-ptbr/05-seo-busca/youtube-seo/SKILL.md",
       "rawUrl": "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/kit-510-ptbr/05-seo-busca/youtube-seo/SKILL.md",
       "ref": "HEAD",
-      "discoveredVia": "github-search",
+      "discoveredVia": "state",
       "platformSource": "detected",
       "license": "MIT",
       "platforms": [
         "claude-code"
       ],
       "stars": 120,
-      "repoUpdatedAt": "2026-03-27",
+      "repoUpdatedAt": "",
       "hasContent": true,
       "file": "library/general-seo/youtube-seo-kursku.md"
     },

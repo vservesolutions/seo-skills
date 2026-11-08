@@ -2,22 +2,22 @@
 name: "citation-harvesting"
 description: "Builds backlinks and brand citations through digital PR: expert-source platforms (Qwoted, Muck Rack), source-blogger outreach, and data-driven PR assets. Use when the user needs authoritative links or press mentions, wants to answer journalist requests, or is planning a link-building campaign. Triggers on: \"citation harvesting\", \"backlink building\", \"digital PR\", \"link building\", \"get featured in publications\"."
 category: "link-building"
-platforms: ["claude-code", "copilot", "gemini-cli", "windsurf"]
-platform_source: "declared+detected"
+platforms: ["claude-code", "gemini-cli", "windsurf", "copilot"]
+platform_source: "detected"
 repo: "LeadMagic/gtm-skills"
 repo_url: "https://github.com/LeadMagic/gtm-skills"
 source: "https://github.com/LeadMagic/gtm-skills/blob/HEAD/skills/content-seo/citation-harvesting/SKILL.md"
 raw_source: "https://raw.githubusercontent.com/LeadMagic/gtm-skills/HEAD/skills/content-seo/citation-harvesting/SKILL.md"
 ref: "HEAD"
-discovered_via: "github-search"
+discovered_via: "state"
 license: "MIT"
 stars: 75
 collected: "2026-11-08"
 ---
 
-<!-- Claude Code, Copilot, Gemini CLI, Windsurf skill · LeadMagic/gtm-skills · skills/content-seo/citation-harvesting/SKILL.md · MIT
+<!-- Claude Code, Gemini CLI, Windsurf, Copilot skill · LeadMagic/gtm-skills · skills/content-seo/citation-harvesting/SKILL.md · MIT
      Source: https://github.com/LeadMagic/gtm-skills/blob/HEAD/skills/content-seo/citation-harvesting/SKILL.md
-     Detected by: declared+detected · Regenerated on every run; edit the upstream skill, not this copy. -->
+     Detected by: detected · Regenerated on every run; edit the upstream skill, not this copy. -->
 
 # Citation Harvesting & Link Building
 

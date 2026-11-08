@@ -112,3 +112,75 @@ test('paged repo search and code search both feed the pack queue', async () => {
     await fs.rm(dir, { recursive: true, force: true });
   }
 });
+
+/**
+ * Search results churn between runs. A pack that has been scanned before must
+ * still come back into the queue from the state file, or it is never refreshed.
+ */
+test('a previously scanned pack is rescanned even when discovery misses it', async () => {
+  const dir = await fs.mkdtemp(path.join(os.tmpdir(), 'seo-library-state-'));
+  const configFile = path.join(dir, 'skill-library.json');
+  const stateFile = path.join(dir, 'library-state.json');
+  await fs.writeFile(
+    configFile,
+    JSON.stringify({
+      settings: {
+        searchQueries: [],
+        codeSearchTerms: [],
+        maxReposPerRun: 3,
+        maxSkillsPerRepo: 3,
+        delayMs: 0,
+        minDescriptionChars: 30,
+        tokenEnv: 'TEST_GITHUB_TOKEN'
+      },
+      lists: [],
+      repos: []
+    })
+  );
+  await fs.writeFile(
+    stateFile,
+    JSON.stringify({
+      repos: { 'delta/seo-skills': { scannedAt: '2026-01-01T00:00:00Z', skills: 1, paths: 1, stars: 5 } }
+    })
+  );
+
+  const seen = [];
+  const original = globalThis.fetch;
+  process.env.TEST_GITHUB_TOKEN = 'test-token';
+  globalThis.fetch = async (url) => {
+    const href = String(url);
+    seen.push(href);
+    if (href.includes('/git/trees/HEAD')) {
+      return response({ tree: [{ type: 'blob', path: 'skills/seo-audit/SKILL.md' }] }, {
+        'x-ratelimit-resource': 'core',
+        'x-ratelimit-remaining': '4990'
+      });
+    }
+    throw new Error('offline');
+  };
+
+  try {
+    const result = await collectLibrary({
+      paths: {
+        libraryConfigFile: configFile,
+        libraryFile: path.join(dir, 'library.jsonl'),
+        libraryStateFile: stateFile
+      },
+      topics,
+      classify,
+      dryRun: true,
+      now: new Date('2026-11-08T00:00:00Z')
+    });
+
+    assert.equal(result.candidates, 1, 'the remembered pack is a candidate even though discovery returned nothing');
+    assert.ok(
+      seen.some((href) => href.includes('/repos/delta/seo-skills/git/trees')),
+      'the remembered pack is fetched again'
+    );
+    assert.equal(result.scannedRepos, 1);
+  } finally {
+    globalThis.fetch = original;
+    delete process.env.TEST_GITHUB_TOKEN;
+    await fs.rm(dir, { recursive: true, force: true });
+  }
+});

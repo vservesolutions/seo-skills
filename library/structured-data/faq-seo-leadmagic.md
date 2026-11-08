@@ -2,22 +2,22 @@
 name: "faq-seo"
 description: "Builds question-driven FAQ content that wins featured snippets and People Also Ask placements: question research, answer formatting, FAQ schema, and page placement. Use when the user wants to target featured snippets, PAA boxes, or voice search, or needs an FAQ page that ranks. Triggers on: \"FAQ SEO\", \"featured snippet\", \"People Also Ask\", \"question SEO\", \"answer content\"."
 category: "structured-data"
-platforms: ["claude-code", "copilot", "gemini-cli", "windsurf"]
-platform_source: "declared+detected"
+platforms: ["claude-code", "gemini-cli", "windsurf", "copilot"]
+platform_source: "detected"
 repo: "LeadMagic/gtm-skills"
 repo_url: "https://github.com/LeadMagic/gtm-skills"
 source: "https://github.com/LeadMagic/gtm-skills/blob/HEAD/skills/content-seo/faq-seo/SKILL.md"
 raw_source: "https://raw.githubusercontent.com/LeadMagic/gtm-skills/HEAD/skills/content-seo/faq-seo/SKILL.md"
 ref: "HEAD"
-discovered_via: "github-search"
+discovered_via: "state"
 license: "MIT"
 stars: 75
 collected: "2026-11-08"
 ---
 
-<!-- Claude Code, Copilot, Gemini CLI, Windsurf skill · LeadMagic/gtm-skills · skills/content-seo/faq-seo/SKILL.md · MIT
+<!-- Claude Code, Gemini CLI, Windsurf, Copilot skill · LeadMagic/gtm-skills · skills/content-seo/faq-seo/SKILL.md · MIT
      Source: https://github.com/LeadMagic/gtm-skills/blob/HEAD/skills/content-seo/faq-seo/SKILL.md
-     Detected by: declared+detected · Regenerated on every run; edit the upstream skill, not this copy. -->
+     Detected by: detected · Regenerated on every run; edit the upstream skill, not this copy. -->
 
 # FAQ SEO
 

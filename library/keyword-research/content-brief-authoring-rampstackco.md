@@ -6,17 +6,17 @@ platforms: ["unspecified"]
 platform_source: "none"
 repo: "rampstackco/claude-skills"
 repo_url: "https://github.com/rampstackco/claude-skills"
-source: "https://github.com/rampstackco/claude-skills/blob/HEAD/skills/content-brief-authoring/SKILL.md"
-raw_source: "https://raw.githubusercontent.com/rampstackco/claude-skills/HEAD/skills/content-brief-authoring/SKILL.md"
+source: "https://github.com/rampstackco/claude-skills/blob/HEAD/dist/codex/.agents/skills/content-brief-authoring/SKILL.md"
+raw_source: "https://raw.githubusercontent.com/rampstackco/claude-skills/HEAD/dist/codex/.agents/skills/content-brief-authoring/SKILL.md"
 ref: "HEAD"
-discovered_via: "github-search"
+discovered_via: "state"
 license: "MIT"
 stars: 1047
 collected: "2026-11-08"
 ---
 
-<!-- Unspecified skill · rampstackco/claude-skills · skills/content-brief-authoring/SKILL.md · MIT
-     Source: https://github.com/rampstackco/claude-skills/blob/HEAD/skills/content-brief-authoring/SKILL.md
+<!-- Unspecified skill · rampstackco/claude-skills · dist/codex/.agents/skills/content-brief-authoring/SKILL.md · MIT
+     Source: https://github.com/rampstackco/claude-skills/blob/HEAD/dist/codex/.agents/skills/content-brief-authoring/SKILL.md
      Detected by: none · Regenerated on every run; edit the upstream skill, not this copy. -->
 
 # Content Brief Authoring

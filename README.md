@@ -27,8 +27,8 @@ run costs a handful of requests.
 
 Agents load skills lazily: they see each skill's name and description at startup and read the full
 `SKILL.md` only when a task matches. Install the 34 generated skills wholesale — that is ~740
-tokens of metadata — and add library skills only as needed (the 300-plus collected skills would cost
-~27,000 tokens and their names collide).
+tokens of metadata — and add library skills only as needed (the nearly 700 collected skills would cost
+~63,000 tokens and their names collide).
 
 ```bash
 # project-level (recommended: pins a version per repo)

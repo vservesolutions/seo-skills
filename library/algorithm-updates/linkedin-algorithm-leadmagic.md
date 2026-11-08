@@ -2,22 +2,22 @@
 name: "linkedin-algorithm"
 description: "Optimize LinkedIn organic reach using Richard van der Blom's Algorithm Insights Report (Just Connecting) — interest graph mechanics, format rankings, post anatomy, dwell time, golden hour engagement, and company page strategy. Use when posts are underperforming, planning LinkedIn content formats, or diagnosing reach drops. Triggers on: \"LinkedIn algorithm\", \"LinkedIn reach\", \"post not getting impressions\", \"best time to post LinkedIn\", \"LinkedIn format\", \"carousel vs video\", \"hashtags LinkedIn\", \"van der Blom\", \"dwell time\", \"LinkedIn engagement drop\"."
 category: "algorithm-updates"
-platforms: ["claude-code", "copilot", "gemini-cli", "windsurf"]
-platform_source: "declared+detected"
+platforms: ["claude-code", "gemini-cli", "windsurf", "copilot"]
+platform_source: "detected"
 repo: "LeadMagic/gtm-skills"
 repo_url: "https://github.com/LeadMagic/gtm-skills"
 source: "https://github.com/LeadMagic/gtm-skills/blob/HEAD/skills/inbound/linkedin-algorithm/SKILL.md"
 raw_source: "https://raw.githubusercontent.com/LeadMagic/gtm-skills/HEAD/skills/inbound/linkedin-algorithm/SKILL.md"
 ref: "HEAD"
-discovered_via: "github-search"
+discovered_via: "state"
 license: "MIT"
 stars: 75
 collected: "2026-11-08"
 ---
 
-<!-- Claude Code, Copilot, Gemini CLI, Windsurf skill · LeadMagic/gtm-skills · skills/inbound/linkedin-algorithm/SKILL.md · MIT
+<!-- Claude Code, Gemini CLI, Windsurf, Copilot skill · LeadMagic/gtm-skills · skills/inbound/linkedin-algorithm/SKILL.md · MIT
      Source: https://github.com/LeadMagic/gtm-skills/blob/HEAD/skills/inbound/linkedin-algorithm/SKILL.md
-     Detected by: declared+detected · Regenerated on every run; edit the upstream skill, not this copy. -->
+     Detected by: detected · Regenerated on every run; edit the upstream skill, not this copy. -->
 
 # LinkedIn Algorithm Optimization
 

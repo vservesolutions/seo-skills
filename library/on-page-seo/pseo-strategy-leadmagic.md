@@ -2,22 +2,22 @@
 name: "pseo-strategy"
 description: "Plans programmatic SEO: template-driven pages for long-tail keyword patterns, data sources, quality thresholds that avoid thin content, and indexation control. Use when the user wants to generate landing pages at scale from a dataset or keyword pattern. Triggers on: \"pSEO\", \"programmatic SEO\", \"scalable SEO\", \"template SEO\", \"landing pages at scale\"."
 category: "on-page-seo"
-platforms: ["claude-code", "copilot", "gemini-cli", "windsurf"]
-platform_source: "declared+detected"
+platforms: ["claude-code", "gemini-cli", "windsurf", "copilot"]
+platform_source: "detected"
 repo: "LeadMagic/gtm-skills"
 repo_url: "https://github.com/LeadMagic/gtm-skills"
 source: "https://github.com/LeadMagic/gtm-skills/blob/HEAD/skills/content-seo/pseo-strategy/SKILL.md"
 raw_source: "https://raw.githubusercontent.com/LeadMagic/gtm-skills/HEAD/skills/content-seo/pseo-strategy/SKILL.md"
 ref: "HEAD"
-discovered_via: "github-search"
+discovered_via: "state"
 license: "MIT"
 stars: 75
 collected: "2026-11-08"
 ---
 
-<!-- Claude Code, Copilot, Gemini CLI, Windsurf skill · LeadMagic/gtm-skills · skills/content-seo/pseo-strategy/SKILL.md · MIT
+<!-- Claude Code, Gemini CLI, Windsurf, Copilot skill · LeadMagic/gtm-skills · skills/content-seo/pseo-strategy/SKILL.md · MIT
      Source: https://github.com/LeadMagic/gtm-skills/blob/HEAD/skills/content-seo/pseo-strategy/SKILL.md
-     Detected by: declared+detected · Regenerated on every run; edit the upstream skill, not this copy. -->
+     Detected by: detected · Regenerated on every run; edit the upstream skill, not this copy. -->
 
 # Programmatic SEO (pSEO)
 

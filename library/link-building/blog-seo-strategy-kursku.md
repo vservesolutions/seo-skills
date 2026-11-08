@@ -9,7 +9,7 @@ repo_url: "https://github.com/kursku/skills"
 source: "https://github.com/kursku/skills/blob/HEAD/packs/kit-510-ptbr/05-seo-busca/blog-seo-strategy/SKILL.md"
 raw_source: "https://raw.githubusercontent.com/kursku/skills/HEAD/packs/kit-510-ptbr/05-seo-busca/blog-seo-strategy/SKILL.md"
 ref: "HEAD"
-discovered_via: "github-search"
+discovered_via: "state"
 license: "MIT"
 stars: 120
 collected: "2026-11-08"

@@ -2,22 +2,22 @@
 name: "make-content-content-brief"
 description: "Writes a one-page content brief before any draft: audience, intent, the one arguable point, what top results already say and what this piece adds, an outline, a proof inventory with gaps marked, voice, CTA and banned words, checked against six gates. Use alone when you already have the topic, format, audience and destination and want only the brief; otherwise run make-content."
 category: "content-strategy"
-platforms: ["claude-code"]
-platform_source: "declared"
+platforms: ["unspecified"]
+platform_source: "none"
 repo: "gooseworks-ai/goose-skills"
 repo_url: "https://github.com/gooseworks-ai/goose-skills"
 source: "https://github.com/gooseworks-ai/goose-skills/blob/HEAD/skills/marketing/make-content-content-brief/SKILL.md"
 raw_source: "https://raw.githubusercontent.com/gooseworks-ai/goose-skills/HEAD/skills/marketing/make-content-content-brief/SKILL.md"
 ref: "HEAD"
-discovered_via: "github-search"
+discovered_via: "state"
 license: "MIT"
-stars: 1298
+stars: 1292
 collected: "2026-11-08"
 ---
 
-<!-- Claude Code skill · gooseworks-ai/goose-skills · skills/marketing/make-content-content-brief/SKILL.md · MIT
+<!-- Unspecified skill · gooseworks-ai/goose-skills · skills/marketing/make-content-content-brief/SKILL.md · MIT
      Source: https://github.com/gooseworks-ai/goose-skills/blob/HEAD/skills/marketing/make-content-content-brief/SKILL.md
-     Detected by: declared · Regenerated on every run; edit the upstream skill, not this copy. -->
+     Detected by: none · Regenerated on every run; edit the upstream skill, not this copy. -->
 
 # Content brief
 

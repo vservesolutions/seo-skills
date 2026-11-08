@@ -78,13 +78,22 @@ const SEO_CONCEPTS = [
   'llms.txt',
   'generative engine',
   'content brief',
-  'topical authority'
+  'topical authority',
+  'search visibility',
+  'ai visibility',
+  'search term',
+  'search intent',
+  'search console',
+  'featured snippet',
+  'meta description',
+  'title tag',
+  'core web vitals'
 ];
 
 const PATH_HINTS = /(seo|geo|aeo|serp|keyword|backlink|crawl|index|sitemap|schema|hreflang|canonical|redirect|technical|audit|llms|ai-search|organic|ranking|content|local|link)/i;
 
 /** Stricter than PATH_HINTS: words that alone prove an SEO skill. */
-const NAME_HINTS = /(seo|geo|aeo|serp|keyword|backlink|crawl|sitemap|schema|hreflang|canonical|redirect|llms|ai-search|organic|ranking|search-console)/i;
+const NAME_HINTS = /(seo|geo|aeo|serp|keyword|backlink|crawl|sitemap|schema|hreflang|canonical|redirect|llms|ai-search|organic|ranking|search-console|search-visib|ai-visib|search-term|featured-snippet|core-web-vitals)/i;
 
 /** Name/path signals beat keyword scoring, which broad descriptions skew. */
 const CATEGORY_HINTS = [
@@ -105,7 +114,10 @@ const CATEGORY_HINTS = [
 ];
 
 function seoConceptHits(text) {
-  const value = String(text || '').toLowerCase();
+  // Slugs write "search-visibility"; concepts are stored with spaces.
+  const value = String(text || '')
+    .toLowerCase()
+    .replace(/[-_]+/g, ' ');
   let hits = 0;
   for (const concept of SEO_CONCEPTS) if (value.includes(concept)) hits++;
   return hits;
@@ -372,7 +384,9 @@ export function skillRecord({ repo, skillPath, markdown, meta, classify, setting
   // Skip the non-SEO skills that broad marketing packs also contain.
   const hits = seoConceptHits(`${name} ${description}`);
   const pathHint = PATH_HINTS.test(`${name} ${skillPath}`);
-  if (hits < 2 && !(pathHint && hits >= 1)) return null;
+  // A name like "improve-search-visibility" is as strong a signal as a path.
+  const nameHint = NAME_HINTS.test(name);
+  if (hits < 2 && !(hits >= 1 && (pathHint || nameHint))) return null;
 
   const declared = normalizeLicense(data.license);
   const packLicense = normalizeLicense(meta.license);
@@ -633,6 +647,22 @@ export async function collectLibrary({
   const state = await readJson(paths.libraryStateFile, { repos: {} });
   const scanned = state.repos || {};
   const rescanMs = settings.rescanDays * 86_400_000;
+
+  // A pack found once must stay in the queue: search results churn, and a pack
+  // that falls out of them would otherwise never be refreshed or re-checked.
+  for (const [repo, entry] of Object.entries(scanned)) {
+    if (candidates.has(repo)) continue;
+    candidates.set(repo, {
+      repo,
+      coverage: '',
+      platforms: [],
+      license: entry.license || '',
+      stars: Number(entry.stars) || 0,
+      repoUpdatedAt: '',
+      listCategory: '',
+      from: 'state'
+    });
+  }
 
   const due = (repo) => {
     const at = scanned[repo]?.scannedAt ? Date.parse(scanned[repo].scannedAt) : 0;

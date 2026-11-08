@@ -2,22 +2,22 @@
 name: "content-strategy"
 description: "When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions \"content strategy,\" \"what should I write about,\" \"content ideas,\" \"blog strategy,\" \"topic clusters,\" or \"content planning.\" For writing individual pieces, see copywriting. For SEO-specific audits, see seo-audit."
 category: "content-strategy"
-platforms: ["claude-code"]
-platform_source: "declared"
+platforms: ["unspecified"]
+platform_source: "none"
 repo: "boraoztunc/skills"
 repo_url: "https://github.com/boraoztunc/skills"
 source: "https://github.com/boraoztunc/skills/blob/HEAD/content-strategy/SKILL.md"
 raw_source: "https://raw.githubusercontent.com/boraoztunc/skills/HEAD/content-strategy/SKILL.md"
 ref: "HEAD"
-discovered_via: "github-search"
+discovered_via: "state"
 license: "Apache-2.0"
 stars: 454
 collected: "2026-11-08"
 ---
 
-<!-- Claude Code skill · boraoztunc/skills · content-strategy/SKILL.md · Apache-2.0
+<!-- Unspecified skill · boraoztunc/skills · content-strategy/SKILL.md · Apache-2.0
      Source: https://github.com/boraoztunc/skills/blob/HEAD/content-strategy/SKILL.md
-     Detected by: declared · Regenerated on every run; edit the upstream skill, not this copy. -->
+     Detected by: none · Regenerated on every run; edit the upstream skill, not this copy. -->
 
 # Content Strategy
 

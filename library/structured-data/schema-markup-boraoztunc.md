@@ -2,22 +2,22 @@
 name: "schema-markup"
 description: "When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions \"schema markup,\" \"structured data,\" \"JSON-LD,\" \"rich snippets,\" \"schema.org,\" \"FAQ schema,\" \"product schema,\" \"review schema,\" or \"breadcrumb schema.\" For broader SEO issues, see seo-audit."
 category: "structured-data"
-platforms: ["claude-code"]
-platform_source: "declared"
+platforms: ["unspecified"]
+platform_source: "none"
 repo: "boraoztunc/skills"
 repo_url: "https://github.com/boraoztunc/skills"
 source: "https://github.com/boraoztunc/skills/blob/HEAD/schema-markup/SKILL.md"
 raw_source: "https://raw.githubusercontent.com/boraoztunc/skills/HEAD/schema-markup/SKILL.md"
 ref: "HEAD"
-discovered_via: "github-search"
+discovered_via: "state"
 license: "Apache-2.0"
 stars: 454
 collected: "2026-11-08"
 ---
 
-<!-- Claude Code skill · boraoztunc/skills · schema-markup/SKILL.md · Apache-2.0
+<!-- Unspecified skill · boraoztunc/skills · schema-markup/SKILL.md · Apache-2.0
      Source: https://github.com/boraoztunc/skills/blob/HEAD/schema-markup/SKILL.md
-     Detected by: declared · Regenerated on every run; edit the upstream skill, not this copy. -->
+     Detected by: none · Regenerated on every run; edit the upstream skill, not this copy. -->
 
 # Schema Markup
 

@@ -9,7 +9,7 @@ repo_url: "https://github.com/rampstackco/claude-skills"
 source: "https://github.com/rampstackco/claude-skills/blob/HEAD/skills/content-migration/SKILL.md"
 raw_source: "https://raw.githubusercontent.com/rampstackco/claude-skills/HEAD/skills/content-migration/SKILL.md"
 ref: "HEAD"
-discovered_via: "github-search"
+discovered_via: "state"
 license: "MIT"
 stars: 1047
 collected: "2026-11-08"

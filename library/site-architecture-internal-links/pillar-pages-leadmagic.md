@@ -2,22 +2,22 @@
 name: "pillar-pages"
 description: "Designs pillar pages and topic clusters: hub page outlines, cluster keyword maps, and internal linking so the hub ranks for high-intent head terms. Use when the user is building cornerstone content, organizing a blog into clusters, or planning a pillar page for a specific topic. Triggers on: \"pillar page\", \"topic cluster\", \"hub page\", \"cornerstone content\", \"SEO pillar\"."
 category: "site-architecture-internal-links"
-platforms: ["claude-code", "copilot", "gemini-cli", "windsurf"]
-platform_source: "declared+detected"
+platforms: ["claude-code", "gemini-cli", "windsurf", "copilot"]
+platform_source: "detected"
 repo: "LeadMagic/gtm-skills"
 repo_url: "https://github.com/LeadMagic/gtm-skills"
 source: "https://github.com/LeadMagic/gtm-skills/blob/HEAD/skills/content-seo/pillar-pages/SKILL.md"
 raw_source: "https://raw.githubusercontent.com/LeadMagic/gtm-skills/HEAD/skills/content-seo/pillar-pages/SKILL.md"
 ref: "HEAD"
-discovered_via: "github-search"
+discovered_via: "state"
 license: "MIT"
 stars: 75
 collected: "2026-11-08"
 ---
 
-<!-- Claude Code, Copilot, Gemini CLI, Windsurf skill · LeadMagic/gtm-skills · skills/content-seo/pillar-pages/SKILL.md · MIT
+<!-- Claude Code, Gemini CLI, Windsurf, Copilot skill · LeadMagic/gtm-skills · skills/content-seo/pillar-pages/SKILL.md · MIT
      Source: https://github.com/LeadMagic/gtm-skills/blob/HEAD/skills/content-seo/pillar-pages/SKILL.md
-     Detected by: declared+detected · Regenerated on every run; edit the upstream skill, not this copy. -->
+     Detected by: detected · Regenerated on every run; edit the upstream skill, not this copy. -->
 
 # Pillar Pages & Topic Clusters
 

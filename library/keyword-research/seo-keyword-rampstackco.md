@@ -9,7 +9,7 @@ repo_url: "https://github.com/rampstackco/claude-skills"
 source: "https://github.com/rampstackco/claude-skills/blob/HEAD/dist/codex/.agents/skills/seo-keyword/SKILL.md"
 raw_source: "https://raw.githubusercontent.com/rampstackco/claude-skills/HEAD/dist/codex/.agents/skills/seo-keyword/SKILL.md"
 ref: "HEAD"
-discovered_via: "github-search"
+discovered_via: "state"
 license: "MIT"
 stars: 1047
 collected: "2026-11-08"

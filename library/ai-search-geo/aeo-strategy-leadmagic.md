@@ -2,22 +2,22 @@
 name: "aeo-strategy"
 description: "Builds an answer engine optimization (AEO/GEO) plan so content gets cited by ChatGPT, Perplexity, Gemini, Claude, and Google AI Overviews: answer-first structure, entity coverage, citation-worthy data, and AI-visibility measurement. Use when the user wants to rank in AI search results or get their brand cited by AI assistants. Triggers on: \"AEO\", \"answer engine optimization\", \"AI search\", \"generative engine optimization\", \"GEO\", \"optimize for AI search\", \"get cited by ChatGPT\"."
 category: "ai-search-geo"
-platforms: ["claude-code", "copilot", "gemini-cli", "windsurf"]
-platform_source: "declared+detected"
+platforms: ["claude-code", "gemini-cli", "windsurf", "copilot"]
+platform_source: "detected"
 repo: "LeadMagic/gtm-skills"
 repo_url: "https://github.com/LeadMagic/gtm-skills"
 source: "https://github.com/LeadMagic/gtm-skills/blob/HEAD/skills/content-seo/aeo-strategy/SKILL.md"
 raw_source: "https://raw.githubusercontent.com/LeadMagic/gtm-skills/HEAD/skills/content-seo/aeo-strategy/SKILL.md"
 ref: "HEAD"
-discovered_via: "github-search"
+discovered_via: "state"
 license: "MIT"
 stars: 75
 collected: "2026-11-08"
 ---
 
-<!-- Claude Code, Copilot, Gemini CLI, Windsurf skill · LeadMagic/gtm-skills · skills/content-seo/aeo-strategy/SKILL.md · MIT
+<!-- Claude Code, Gemini CLI, Windsurf, Copilot skill · LeadMagic/gtm-skills · skills/content-seo/aeo-strategy/SKILL.md · MIT
      Source: https://github.com/LeadMagic/gtm-skills/blob/HEAD/skills/content-seo/aeo-strategy/SKILL.md
-     Detected by: declared+detected · Regenerated on every run; edit the upstream skill, not this copy. -->
+     Detected by: detected · Regenerated on every run; edit the upstream skill, not this copy. -->
 
 # Answer Engine Optimization (AEO)
 

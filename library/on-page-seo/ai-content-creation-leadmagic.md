@@ -2,22 +2,22 @@
 name: "ai-content-creation"
 description: "AI-powered content creation workflows — step-by-step processes for using Claude, ChatGPT, Jasper, Copy.ai, Writesonic, and Perplexity to generate, edit, and optimize blog posts, social media content, email sequences, ad copy, landing page copy, and SEO content. Use when scaling content production, building an AI-assisted content pipeline, or teaching non-writers to produce high-quality content with AI. Triggers on: \"AI content\", \"ChatGPT for blog\", \"AI copywriting\", \"scale content with AI\"."
 category: "on-page-seo"
-platforms: ["claude-code", "copilot", "gemini-cli", "windsurf"]
-platform_source: "declared+detected"
+platforms: ["claude-code", "gemini-cli", "windsurf", "copilot"]
+platform_source: "detected"
 repo: "LeadMagic/gtm-skills"
 repo_url: "https://github.com/LeadMagic/gtm-skills"
 source: "https://github.com/LeadMagic/gtm-skills/blob/HEAD/skills/creative/ai-content-creation/SKILL.md"
 raw_source: "https://raw.githubusercontent.com/LeadMagic/gtm-skills/HEAD/skills/creative/ai-content-creation/SKILL.md"
 ref: "HEAD"
-discovered_via: "github-search"
+discovered_via: "state"
 license: "MIT"
 stars: 75
 collected: "2026-11-08"
 ---
 
-<!-- Claude Code, Copilot, Gemini CLI, Windsurf skill · LeadMagic/gtm-skills · skills/creative/ai-content-creation/SKILL.md · MIT
+<!-- Claude Code, Gemini CLI, Windsurf, Copilot skill · LeadMagic/gtm-skills · skills/creative/ai-content-creation/SKILL.md · MIT
      Source: https://github.com/LeadMagic/gtm-skills/blob/HEAD/skills/creative/ai-content-creation/SKILL.md
-     Detected by: declared+detected · Regenerated on every run; edit the upstream skill, not this copy. -->
+     Detected by: detected · Regenerated on every run; edit the upstream skill, not this copy. -->
 
 # AI Content Creation
 

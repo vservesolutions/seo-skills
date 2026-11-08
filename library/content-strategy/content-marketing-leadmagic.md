@@ -2,22 +2,22 @@
 name: "content-marketing"
 description: "Build content marketing strategies that generate pipeline — SEO/AEO optimization, pillar page design, programmatic SEO, content-to-pipeline mapping. Use when the user wants to plan content strategy, build a content calendar, improve SEO, create pillar content, or generate pipeline from content. Triggers on: \"content marketing\", \"SEO strategy\", \"content strategy\", \"blog\", \"pillar page\", \"content calendar\", \"AEO\", \"AI search optimization\", \"programmatic SEO\", or any request about content-driven growth."
 category: "content-strategy"
-platforms: ["claude-code", "copilot", "gemini-cli", "windsurf"]
-platform_source: "declared+detected"
+platforms: ["claude-code", "gemini-cli", "windsurf", "copilot"]
+platform_source: "detected"
 repo: "LeadMagic/gtm-skills"
 repo_url: "https://github.com/LeadMagic/gtm-skills"
 source: "https://github.com/LeadMagic/gtm-skills/blob/HEAD/skills/inbound/content-marketing/SKILL.md"
 raw_source: "https://raw.githubusercontent.com/LeadMagic/gtm-skills/HEAD/skills/inbound/content-marketing/SKILL.md"
 ref: "HEAD"
-discovered_via: "github-search"
+discovered_via: "state"
 license: "MIT"
 stars: 75
 collected: "2026-11-08"
 ---
 
-<!-- Claude Code, Copilot, Gemini CLI, Windsurf skill · LeadMagic/gtm-skills · skills/inbound/content-marketing/SKILL.md · MIT
+<!-- Claude Code, Gemini CLI, Windsurf, Copilot skill · LeadMagic/gtm-skills · skills/inbound/content-marketing/SKILL.md · MIT
      Source: https://github.com/LeadMagic/gtm-skills/blob/HEAD/skills/inbound/content-marketing/SKILL.md
-     Detected by: declared+detected · Regenerated on every run; edit the upstream skill, not this copy. -->
+     Detected by: detected · Regenerated on every run; edit the upstream skill, not this copy. -->
 
 # Content Marketing
 
