@@ -22,6 +22,8 @@ export function projectPaths(root = PROJECT_ROOT) {
     libraryDir: path.join(root, 'library'),
     libraryFile: path.join(root, 'data', 'library.jsonl'),
     libraryStateFile: path.join(root, 'data', 'library-state.json'),
+    llmCacheFile: path.join(root, 'data', 'llm-cache.json'),
+    llmAuditFile: path.join(root, 'data', 'llm-audit.json'),
     siteDir: path.join(root, 'site'),
     dashboardFile: path.join(root, 'site', 'index.html')
   };

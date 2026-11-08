@@ -1,0 +1,129 @@
+name: Model audit (optional)
+
+# Manual only: each run spends free-tier LLM quota, so it never runs on a schedule.
+# Add the key once under Settings → Secrets and variables → Actions as SEO_LLM_KEY.
+# Already-audited skills are served from the committed cache, so repeat runs only
+# pay for skills that are new or have changed upstream.
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: Skills to review this run (one request per 20)
+        required: false
+        default: '400'
+      fresh:
+        description: Re-review skills already audited by this model
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: seo-skills-enrich
+  cancel-in-progress: false
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    outputs:
+      enabled: ${{ steps.check.outputs.enabled }}
+    steps:
+      - name: Check for an API key
+        id: check
+        env:
+          SEO_LLM_KEY: ${{ secrets.SEO_LLM_KEY }}
+        run: |
+          if [ -z "$SEO_LLM_KEY" ]; then
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "SEO_LLM_KEY is not set — add it under Settings → Secrets and variables → Actions." >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Check out repository
+        if: steps.check.outputs.enabled == 'true'
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        if: steps.check.outputs.enabled == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Run tests
+        if: steps.check.outputs.enabled == 'true'
+        run: node --test test/*.test.js
+
+      - name: Review skills and write summaries
+        if: steps.check.outputs.enabled == 'true'
+        env:
+          # The key is only read from the environment; it never reaches the site files.
+          SEO_LLM_KEY: ${{ secrets.SEO_LLM_KEY }}
+          # Optional repository variables switch provider or model.
+          SEO_LLM_BASE: ${{ vars.SEO_LLM_BASE }}
+          SEO_LLM_MODEL: ${{ vars.SEO_LLM_MODEL }}
+          SEO_LLM_MAX: ${{ github.event.inputs.limit || '400' }}
+        run: |
+          set -o pipefail
+          node src/cli.js enrich \
+            --limit "${{ github.event.inputs.limit || '400' }}" \
+            ${{ github.event.inputs.fresh == 'true' && '--all' || '' }} \
+            | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Rebuild the library, skills and dashboard
+        if: steps.check.outputs.enabled == 'true'
+        run: node src/cli.js build
+
+      - name: Commit summaries and cache
+        if: steps.check.outputs.enabled == 'true'
+        run: |
+          git config user.name "seo-skills-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes this run."
+            exit 0
+          fi
+          git commit -m "chore: model audit of the skill library $(date -u +%Y-%m-%dT%H:%MZ)"
+          for attempt in 1 2 3; do
+            if git push; then break; fi
+            git pull --rebase -X ours origin main
+            sleep 3
+          done
+
+  # Pushed with GITHUB_TOKEN, so the push-triggered Pages workflow never fires.
+  publish:
+    needs: enrich
+    # Nothing to publish when the key is absent and every step was skipped.
+    if: needs.enrich.outputs.enabled == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    concurrency:
+      group: pages
+      cancel-in-progress: true
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out refreshed files
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload dashboard
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

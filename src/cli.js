@@ -7,10 +7,11 @@ import path from 'node:path';
 import { parseArgs } from 'node:util';
 
 import { buildClassifier } from './lib/classify.js';
-import { loadSources, loadTopics, projectPaths, readJson } from './lib/config.js';
+import { loadSources, loadTopics, projectPaths, readJson, writeJson } from './lib/config.js';
 import { readFindings, writeFindings } from './lib/kb.js';
 import { renderDashboard, renderSkills } from './lib/render.js';
-import { collectLibrary, platformLabel, readLibrary, reindexLibrary, renderLibrary, writeLibrary } from './lib/skill-library.js';
+import { auditSkills, llmConfig, readCache } from './lib/llm.js';
+import { FALLBACK_CATEGORY, collectLibrary, platformLabel, readLibrary, reindexLibrary, renderLibrary, writeLibrary } from './lib/skill-library.js';
 import { runUpdate } from './lib/update.js';
 import { setLogLevel } from './lib/log.js';
 import { fetchText, FEED_ACCEPT } from './lib/http.js';
@@ -37,6 +38,7 @@ const OPTIONS = {
   reindex: { type: 'boolean' },
   verbose: { type: 'boolean' },
   repo: { type: 'string' },
+  all: { type: 'boolean' },
   category: { type: 'string' },
   platform: { type: 'string' }
 };
@@ -53,6 +55,7 @@ Commands:
   search <query>    Search collected findings
   library           List collected third-party SEO agent skills by category
   collect           Refresh the skill library from published packs
+  enrich            Optional model pass: summaries + SEO audit of stored skills
   doctor            Check every configured source and its feed
   serve             Serve the dashboard at http://127.0.0.1:4321
   schedule          install | remove | show | loop  (daily self-update)
@@ -76,6 +79,12 @@ Library options:
   --platform <name>    Filter by agent: claude-code, codex, cursor, …
   --reindex            Recompute platform + provenance from stored data
   --verbose            Show the exact source URL for each skill
+
+Enrich options (needs SEO_LLM_KEY):
+  --limit <n>          Skills to review this run (free tiers are rate limited)
+  --repo <a/b>         Review only these packs
+  --all                Re-review skills already audited by this model
+  --dry-run            Report what would change without writing
 
 Examples:
   npm run update
@@ -571,6 +580,117 @@ async function commandLibrary(values, positionals) {
   console.log('');
 }
 
+/**
+ * Optional language-model pass over the collected library.
+ *
+ * The model only annotates: it writes a one-line summary and records whether it
+ * agrees that a stored skill is SEO work. Nothing is added or removed, so an
+ * unset key, an expired key or a rate limit cannot damage the library.
+ */
+async function commandEnrich(values) {
+  const started = Date.now();
+  const paths = projectPaths();
+  const topics = await loadTopics();
+  const config = llmConfig();
+  const dryRun = Boolean(values['dry-run']);
+
+  if (!config.enabled) {
+    console.log('');
+    console.log('Model audit is optional and currently off (SEO_LLM_KEY is not set).');
+    console.log('');
+    console.log('  1. Create a free key  https://aistudio.google.com/apikey  (no card, ~1,500 requests/day)');
+    console.log('  2. export SEO_LLM_KEY=<key>   — or add it as the GitHub Actions secret SEO_LLM_KEY');
+    console.log('  3. node src/cli.js enrich --limit 200');
+    console.log('');
+    console.log('  Any OpenAI-compatible provider works — set SEO_LLM_BASE and SEO_LLM_MODEL, for example Groq:');
+    console.log('    SEO_LLM_BASE=https://api.groq.com/openai/v1 SEO_LLM_MODEL=llama-3.3-70b-versatile');
+    console.log(`  Defaults: ${config.base} · ${config.model}`);
+    console.log('');
+    return;
+  }
+
+  const records = await readLibrary(paths.libraryFile);
+  const only = values.repo ? String(values.repo).split(',').map((repo) => repo.trim()).filter(Boolean) : [];
+  const active = records.filter((record) => !record.duplicateOf && (!only.length || only.includes(record.repo)));
+  const current = (record) => Boolean(record.audit && record.audit.model === config.model);
+  const queue = active
+    .filter((record) => (values.all ? true : !current(record)))
+    .sort((a, b) => Number(current(a)) - Number(current(b)) || (b.stars || 0) - (a.stars || 0) || a.name.localeCompare(b.name));
+  const limit = toInt(values.limit, 0);
+  const selected = limit ? queue.slice(0, limit) : queue;
+
+  const cache = await readCache(fs, paths.llmCacheFile);
+  const outcome = await auditSkills(
+    selected.map((record) => ({ id: record.id, name: record.name, repo: record.repo, description: record.description })),
+    { config, cache, categories: [...topics.map((topic) => topic.id), FALLBACK_CATEGORY.id], log: (message) => console.warn(`  ! ${message}`) }
+  );
+
+  const flagged = [];
+  const moved = [];
+  let summaries = 0;
+  for (const record of selected) {
+    const verdict = outcome.results.get(record.id);
+    if (!verdict) continue;
+    record.audit = {
+      seo: verdict.seo,
+      category: verdict.category,
+      confidence: verdict.confidence,
+      model: verdict.model,
+      at: verdict.at
+    };
+    if (verdict.seo && verdict.summary) {
+      record.summary = verdict.summary;
+      summaries++;
+    }
+    const row = { name: record.name, repo: record.repo, category: record.category, confidence: verdict.confidence };
+    if (!verdict.seo) flagged.push(row);
+    else if (verdict.category !== 'unclear' && verdict.category !== record.category) moved.push({ ...row, modelCategory: verdict.category });
+  }
+
+  const answered = outcome.results.size;
+  const agreeing = answered - flagged.length;
+  const remaining = active.filter((record) => !current(record)).length;
+  const seconds = ((Date.now() - started) / 1000).toFixed(1);
+
+  console.log('');
+  console.log(`SEO skill library · model audit (${config.model})`);
+  console.log(`  Reviewed     ${formatNumber(answered)} of ${formatNumber(selected.length)} targeted · ${formatNumber(outcome.cached)} from cache · ${formatNumber(outcome.requests)} request(s)`);
+  console.log(`  Keyword pass ${answered ? `${formatNumber(agreeing)} agreed (${((agreeing / answered) * 100).toFixed(1)}%)` : 'no verdicts'} · ${formatNumber(flagged.length)} flagged as not SEO`);
+  console.log(`  Categories   ${formatNumber(moved.length)} would move category · ${formatNumber(summaries)} summaries written`);
+  console.log(`  Left         ${formatNumber(remaining)} of ${formatNumber(active.length)} skills still unaudited for this model${outcome.skipped ? ` · ${formatNumber(outcome.skipped)} over this run's budget` : ''}`);
+  if (outcome.errors.length) console.log(`  Errors       ${outcome.errors.length} batch(es) failed: ${outcome.errors[0]}`);
+  console.log(`  Time         ${seconds}s`);
+
+  if (!answered) {
+    console.log('');
+    console.log('Nothing was written — no verdicts came back.');
+    console.log('');
+    process.exitCode = outcome.errors.length ? 1 : 0;
+    return;
+  }
+  if (dryRun) {
+    console.log('  Dry run      nothing written');
+    console.log('');
+    return;
+  }
+
+  await writeLibrary(paths.libraryFile, records);
+  await writeJson(paths.llmCacheFile, cache);
+  await writeJson(paths.llmAuditFile, {
+    generatedAt: new Date().toISOString(),
+    model: config.model,
+    reviewed: answered,
+    flagged: flagged.slice(0, 500),
+    moved: moved.slice(0, 500),
+    errors: outcome.errors
+  });
+  const index = await renderLibrary(records, topics, { libraryDir: paths.libraryDir, now: new Date() });
+  console.log(`  Written      ${path.join(paths.libraryDir, 'INDEX.md')} · ${formatNumber(index.counts.skills)} skills`);
+  console.log(`  Review file  ${paths.llmAuditFile} (flagged + category moves)`);
+  console.log('  Dashboard    run: node src/cli.js build');
+  console.log('');
+}
+
 async function commandDoctor() {
   const { sources, userAgent } = await loadSources();
   const enabled = sources.filter((source) => source.enabled !== false);
@@ -782,6 +902,9 @@ async function main() {
       break;
     case 'collect':
       await commandCollect(values);
+      break;
+    case 'enrich':
+      await commandEnrich(values);
       break;
     case 'doctor':
       await commandDoctor();

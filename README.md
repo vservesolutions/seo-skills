@@ -4,7 +4,8 @@ A self-updating SEO knowledge base. It reads a curated set of SEO sources every 
 the useful parts, sorts them into topics, and regenerates a library of agent-ready
 `SKILL.md` files plus a local dashboard.
 
-No API keys, no third-party services, no runtime dependencies — just Node 20+.
+No API keys, no third-party services, no runtime dependencies — just Node 20+. An optional model
+pass (`npm run enrich`) can add summaries and an SEO audit; it is off unless you supply a key.
 
 ```
 feeds  →  full-text extraction  →  dedupe  →  findings.jsonl  →  skills/*/SKILL.md
@@ -76,6 +77,7 @@ idempotent and you can safely re-run `npm run build` after editing the data.
 | `npm run search -- "hreflang"` | Search collected findings |
 | `npm run library` | List collected third-party SEO agent skills by category |
 | `npm run collect` | Refresh the third-party skill library from published packs |
+| `npm run enrich` | Optional model pass: summaries + SEO audit of stored skills |
 | `npm run doctor` | Check that every configured source still responds and parses |
 | `npm run serve` | Serve the dashboard on loopback |
 | `npm run test` | Run the test suite |
@@ -279,6 +281,45 @@ Platform detection reads the skill itself for proof: `${CLAUDE_PLUGIN_ROOT}`, `.
 vague "any agent" claim; declared support is kept separately. Inspect it with
 `node src/cli.js library --verbose` or `--json`, or read the frontmatter of any file in `library/`.
 
+### Optional model pass (`npm run enrich`)
+
+Everything above works with no credentials. If you want one-line summaries on each skill — and a
+second opinion on whether the keyword filter filed it correctly — point the tool at any
+OpenAI-compatible endpoint. Google's Gemini free tier is the default: it needs no credit card and
+allows roughly 1,500 requests a day, which is ~30,000 skill reviews once batching is counted.
+
+```bash
+# 1. get a free key: https://aistudio.google.com/apikey
+# 2. put it in .env (copy .env.example) or export SEO_LLM_KEY=…
+npm run enrich -- --limit 200 --dry-run     # report only, write nothing
+npm run enrich -- --limit 400              # review the next 400 unaudited skills
+npm run enrich -- --all --limit 100        # re-review skills this model already saw
+npm run build                              # redraw the dashboard with the new summaries
+```
+
+Any provider works by changing two variables — for example Groq's free tier:
+
+```bash
+SEO_LLM_BASE=https://api.groq.com/openai/v1
+SEO_LLM_MODEL=llama-3.3-70b-versatile
+```
+
+What it does and does not do:
+
+- Writes `summary` onto each reviewed skill (used on the dashboard, in `library/INDEX.md` and in
+  each copied file's frontmatter), and keeps its verdict alongside the record in `data/library.jsonl`.
+- Never adds, renames or deletes a skill. A verdict disagreeing with the keyword filter is written to
+  `data/llm-audit.json` for review, so the filter can be tuned against measured evidence.
+- Caches every verdict in `data/llm-cache.json`, keyed by skill text and model. Re-runs only pay for
+  skills that are new or changed upstream, which is what keeps a free daily quota sufficient.
+- Fails soft: no key, a bad key, a rate limit or malformed output leaves the library untouched and
+  the exit status still tells you what happened. `SEO_LLM_MAX` (default 400) caps skills per run.
+
+In CI, add the key once under Settings → Secrets and variables → Actions as `SEO_LLM_KEY`, then run
+the **Model audit (optional)** workflow from the Actions tab. Optionally set the repository
+variables `SEO_LLM_BASE` and `SEO_LLM_MODEL`. It skips itself with a notice when the secret is
+absent, and it does not run on a schedule, so quota is only spent when you ask for it.
+
 **Rate limits.** GitHub's anonymous API allows about 60 calls an hour, so a run scans ~18 packs and
 revisits them after `rescanDays` (7). Put `GITHUB_TOKEN=…` in `.env` to raise that to 5,000/hour and
 scan far more packs per run.
@@ -300,12 +341,15 @@ src/lib/summarize.js     extractive summary and practice extraction
 src/lib/kb.js            knowledge base merge, dedupe, retention
 src/lib/render.js        SKILL.md / INDEX.md / dashboard rendering
 src/lib/skill-library.js third-party skill discovery, parsing, categorisation
+src/lib/llm.js          optional model pass: summaries, SEO audit, verdict cache
 src/lib/update.js        the pipeline
 src/lib/scheduler.js     Task Scheduler, cron output, loop mode
 data/findings.jsonl      the knowledge base (commit this if you want history)
 data/state.json          HTTP cache metadata and run counters (local)
 data/runs/               per-run JSON reports (last 60)
 data/library.jsonl       catalogued third-party skills
+data/llm-cache.json      model verdicts, reused across runs (commit to save quota)
+data/llm-audit.json      disagreements from the last model run (local, for review)
 skills/                  generated skills (commit these)
 library/                 third-party skills by category + INDEX.md
 site/index.html          generated dashboard
@@ -323,7 +367,8 @@ site/index.html          generated dashboard
 ## Limitations
 
 - Extraction is deterministic and extractive. It does not reason about what it reads, so a
-  well-written article yields sharper practices than a thin one. There is no model call anywhere.
+  well-written article yields sharper practices than a thin one. No model is involved unless you
+  opt in with `npm run enrich` and a key; even then it only annotates, never rewrites, skills.
 - Very new topics will have empty skills until sources publish substantive articles. Empty skills
   say so explicitly rather than inventing advice.
 - Sites that block non-browser clients (for example Search Engine Land) are skipped; keep

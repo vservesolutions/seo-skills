@@ -106,6 +106,10 @@ node src/cli.js library --category technical-crawling-indexing
 node src/cli.js library --platform codex
 ```
 
+Each skill's frontmatter carries the pack, source URL, licence and (where collected) a model
+`summary` line; `library/INDEX.md` shows that summary in the "What it does" column, and
+`node src/cli.js library --verbose` prints provenance for the row you are looking at.
+
 **Two caveats.** Library copies are single files: if the upstream skill ships `scripts/` or
 `references/`, they were not copied (licence or link-only), so follow the `source:` URL in the
 frontmatter for the full pack. And library skills are somebody else's implementation, not a

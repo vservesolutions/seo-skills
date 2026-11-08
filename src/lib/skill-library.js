@@ -842,6 +842,7 @@ function skillFile(record, now) {
     '---',
     `name: ${quote(record.name)}`,
     `description: ${quote(record.description)}`,
+    ...(record.summary ? [`summary: ${quote(record.summary)}`] : []),
     `category: ${quote(record.category)}`,
     `platforms: [${(record.platforms || []).map(quote).join(', ')}]`,
     `platform_source: ${quote(record.platformSource || 'none')}`,
@@ -878,7 +879,7 @@ function indexRow(record) {
   const label = record.hasContent
     ? `[${record.name}](${record.category}/${fileName}.md)`
     : `[${record.name} ↗](${record.url})`;
-  const description = truncateAtWord(record.description, 160).replace(/\|/g, '\\|');
+  const description = truncateAtWord(record.summary || record.description, 160).replace(/\|/g, '\\|');
   const platforms = (record.platforms || []).map(platformLabel).join(', ') || 'Unspecified';
   const license = record.hasContent ? record.license : `${record.license} (link only)`;
   return `| ${label} | ${description} | ${platforms} | [${record.repo}](${record.repoUrl || `https://github.com/${record.repo}`}) | ${discoveryLabel(record)} | ${license} | ${record.stars || 0} |`;
@@ -952,6 +953,7 @@ export async function renderLibrary(records, topics, { libraryDir, now = new Dat
         name: record.name,
         slug: record.slug,
         description: record.description,
+        summary: record.summary || '',
         category: record.category,
         categoryTitle: titles.get(record.category) || record.category,
         repo: record.repo,

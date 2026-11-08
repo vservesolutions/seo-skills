@@ -6,6 +6,7 @@ data/update.log
 data/runs/
 data/state.json
 data/library-state.json
+data/llm-audit.json
 update-daily.cmd
 *.tmp
 .DS_Store

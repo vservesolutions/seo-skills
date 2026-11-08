@@ -401,13 +401,13 @@ ${libraryGroups
     const local = skill.hasContent && skill.file;
     const href = local ? `../${skill.file}` : skill.url;
     const search = esc(
-      `${skill.name} ${skill.description} ${skill.repo} ${skill.categoryTitle} ${(skill.platforms || []).map(platformLabel).join(' ')}`.toLowerCase()
+      `${skill.name} ${skill.summary || ''} ${skill.description} ${skill.repo} ${skill.categoryTitle} ${(skill.platforms || []).map(platformLabel).join(' ')}`.toLowerCase()
     );
     const platforms = (skill.platforms || []).map(platformLabel).join(' · ') || 'Unspecified';
     return `<a class="card" href="${esc(href)}"${local ? '' : ' target="_blank" rel="noreferrer"'} data-search="${search}">
   <span class="badge">${esc(platforms)}</span>
   <h3>${esc(skill.name)}</h3>
-  <p>${esc(truncateAtWord(skill.description, 200))}</p>
+  <p>${esc(truncateAtWord(skill.summary || skill.description, 200))}</p>
   <footer><span>${esc(skill.repo)}</span><span>${esc(skill.license)}${local ? '' : ' · link only'}</span><span>★ ${new Intl.NumberFormat('en-US').format(skill.stars || 0)}</span></footer>
 </a>`;
   };
