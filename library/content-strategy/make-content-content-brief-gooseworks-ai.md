@@ -11,7 +11,7 @@ raw_source: "https://raw.githubusercontent.com/gooseworks-ai/goose-skills/HEAD/s
 ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
-stars: 1296
+stars: 1298
 collected: "2026-11-08"
 ---
 

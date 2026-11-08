@@ -11,7 +11,7 @@ raw_source: "https://raw.githubusercontent.com/flaqai/backlink_skills/HEAD/%E5%8
 ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
-stars: 871
+stars: 872
 collected: "2026-11-08"
 ---
 
