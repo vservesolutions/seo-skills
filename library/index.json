@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T12:42:38.655Z",
+  "generatedAt": "2026-11-08T12:42:57.216Z",
   "counts": {
     "skills": 182,
     "packs": 38,
@@ -194,7 +194,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 8940,
+      "stars": 8941,
       "repoUpdatedAt": "2026-10-27",
       "hasContent": true,
       "file": "library/technical-crawling-indexing/seo-audit-ryze-ai-adgent.md"
@@ -1284,7 +1284,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 6993,
+      "stars": 6994,
       "repoUpdatedAt": "2026-10-27",
       "hasContent": false,
       "file": ""
@@ -1307,7 +1307,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 6993,
+      "stars": 6994,
       "repoUpdatedAt": "2026-10-27",
       "hasContent": false,
       "file": ""
@@ -1705,7 +1705,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 8940,
+      "stars": 8941,
       "repoUpdatedAt": "2026-10-27",
       "hasContent": true,
       "file": "library/content-strategy/content-brief-ryze-ai-adgent.md"
@@ -1774,7 +1774,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 8940,
+      "stars": 8941,
       "repoUpdatedAt": "2026-10-27",
       "hasContent": true,
       "file": "library/keyword-research/keyword-research-ryze-ai-adgent.md"
@@ -1797,7 +1797,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 6993,
+      "stars": 6994,
       "repoUpdatedAt": "2026-10-27",
       "hasContent": false,
       "file": ""
@@ -2481,7 +2481,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 8940,
+      "stars": 8941,
       "repoUpdatedAt": "2026-10-27",
       "hasContent": true,
       "file": "library/link-building/backlink-check-ryze-ai-adgent.md"
@@ -3312,7 +3312,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 8940,
+      "stars": 8941,
       "repoUpdatedAt": "2026-10-27",
       "hasContent": true,
       "file": "library/analytics-measurement/rank-tracking-ryze-ai-adgent.md"
@@ -3335,7 +3335,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 8940,
+      "stars": 8941,
       "repoUpdatedAt": "2026-10-27",
       "hasContent": true,
       "file": "library/analytics-measurement/seo-vs-ads-ryze-ai-adgent.md"
@@ -3612,7 +3612,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 6993,
+      "stars": 6994,
       "repoUpdatedAt": "2026-10-27",
       "hasContent": false,
       "file": ""
@@ -3635,7 +3635,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 6993,
+      "stars": 6994,
       "repoUpdatedAt": "2026-10-27",
       "hasContent": false,
       "file": ""
@@ -3658,7 +3658,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 6993,
+      "stars": 6994,
       "repoUpdatedAt": "2026-10-27",
       "hasContent": false,
       "file": ""
