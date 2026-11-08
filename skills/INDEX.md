@@ -1,6 +1,6 @@
 # SEO Skills Index
 
-Generated 2026-11-07. 35 skills across 16 categories, from 214 findings.
+Generated 2026-11-08. 35 skills across 16 categories, from 214 findings.
 
 A category skill aggregates every finding in its area; sub-skills go deeper where evidence exists.
 

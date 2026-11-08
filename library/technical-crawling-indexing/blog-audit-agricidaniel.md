@@ -11,8 +11,8 @@ raw_source: "https://raw.githubusercontent.com/AgriciDaniel/claude-blog/HEAD/ski
 ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
-stars: 2669
-collected: "2026-11-07"
+stars: 2672
+collected: "2026-11-08"
 ---
 
 <!-- Claude Code skill · AgriciDaniel/claude-blog · skills/blog-audit/SKILL.md · MIT

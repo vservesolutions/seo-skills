@@ -35,7 +35,7 @@ Use when planning site structure, fixing orphan pages, distributing authority wi
 
 ## How this skill stays current
 
-- Regenerated on 2026-11-07 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
+- Regenerated on 2026-11-08 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2026-04-13 → 2026-08-19.
 - 3 findings from 3 sources; confidence is **low**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

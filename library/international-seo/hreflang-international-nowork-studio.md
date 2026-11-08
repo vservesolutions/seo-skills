@@ -11,8 +11,8 @@ raw_source: "https://raw.githubusercontent.com/nowork-studio/notfair-plugin/HEAD
 ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
-stars: 4118
-collected: "2026-11-07"
+stars: 4122
+collected: "2026-11-08"
 ---
 
 <!-- Claude Code skill · nowork-studio/notfair-plugin · skills/hreflang-international/SKILL.md · MIT

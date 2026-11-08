@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "awesome-seo-agent-skills"
 license: "MIT"
 stars: 1072
-collected: "2026-11-07"
+collected: "2026-11-08"
 ---
 
 <!-- Claude Code skill · kostja94/marketing-skills · skills/seo/on-page/internal-links/SKILL.md · MIT

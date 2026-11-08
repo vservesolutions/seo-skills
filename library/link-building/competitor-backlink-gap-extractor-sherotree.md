@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "awesome-seo-agent-skills"
 license: "MIT"
 stars: 2
-collected: "2026-11-07"
+collected: "2026-11-08"
 ---
 
 <!-- Any agent skill · sherotree/seo-agent-skills · skills/competitor-backlink-gap-extractor/SKILL.md · MIT

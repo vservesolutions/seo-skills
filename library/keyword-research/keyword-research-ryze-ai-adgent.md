@@ -11,8 +11,8 @@ raw_source: "https://raw.githubusercontent.com/Ryze-AI-Adgent/open-seo-mcp-skill
 ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
-stars: 8904
-collected: "2026-11-07"
+stars: 8929
+collected: "2026-11-08"
 ---
 
 <!-- Claude Code skill · Ryze-AI-Adgent/open-seo-mcp-skills · skills/keyword-research/SKILL.md · MIT

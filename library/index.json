@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T21:53:57.913Z",
+  "generatedAt": "2026-11-08T06:06:19.005Z",
   "counts": {
     "skills": 182,
     "packs": 38,
@@ -194,7 +194,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 8904,
+      "stars": 8929,
       "repoUpdatedAt": "2026-10-27",
       "hasContent": true,
       "file": "library/technical-crawling-indexing/seo-audit-ryze-ai-adgent.md"
@@ -315,7 +315,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 2669,
+      "stars": 2672,
       "repoUpdatedAt": "2026-11-03",
       "hasContent": true,
       "file": "library/technical-crawling-indexing/blog-audit-agricidaniel.md"
@@ -916,7 +916,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 4118,
+      "stars": 4122,
       "repoUpdatedAt": "2026-11-06",
       "hasContent": true,
       "file": "library/core-web-vitals-performance/image-seo-nowork-studio.md"
@@ -1054,7 +1054,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 4118,
+      "stars": 4122,
       "repoUpdatedAt": "2026-11-06",
       "hasContent": true,
       "file": "library/structured-data/schema-markup-generator-nowork-studio.md"
@@ -1077,7 +1077,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 2669,
+      "stars": 2672,
       "repoUpdatedAt": "2026-11-03",
       "hasContent": true,
       "file": "library/structured-data/blog-schema-agricidaniel.md"
@@ -1284,7 +1284,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 6933,
+      "stars": 6973,
       "repoUpdatedAt": "2026-10-27",
       "hasContent": false,
       "file": ""
@@ -1307,7 +1307,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 6933,
+      "stars": 6973,
       "repoUpdatedAt": "2026-10-27",
       "hasContent": false,
       "file": ""
@@ -1356,7 +1356,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 2871,
+      "stars": 2872,
       "repoUpdatedAt": "2026-03-02",
       "hasContent": true,
       "file": "library/on-page-seo/market-seo-zubair-trabzada.md"
@@ -1379,7 +1379,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 2669,
+      "stars": 2672,
       "repoUpdatedAt": "2026-11-03",
       "hasContent": true,
       "file": "library/on-page-seo/blog-seo-check-agricidaniel.md"
@@ -1705,7 +1705,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 8904,
+      "stars": 8929,
       "repoUpdatedAt": "2026-10-27",
       "hasContent": true,
       "file": "library/content-strategy/content-brief-ryze-ai-adgent.md"
@@ -1774,7 +1774,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 8904,
+      "stars": 8929,
       "repoUpdatedAt": "2026-10-27",
       "hasContent": true,
       "file": "library/keyword-research/keyword-research-ryze-ai-adgent.md"
@@ -1797,7 +1797,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 6933,
+      "stars": 6973,
       "repoUpdatedAt": "2026-10-27",
       "hasContent": false,
       "file": ""
@@ -1820,7 +1820,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 4118,
+      "stars": 4122,
       "repoUpdatedAt": "2026-11-06",
       "hasContent": true,
       "file": "library/keyword-research/keyword-research-nowork-studio.md"
@@ -1843,7 +1843,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 4118,
+      "stars": 4122,
       "repoUpdatedAt": "2026-11-06",
       "hasContent": true,
       "file": "library/keyword-research/programmatic-seo-nowork-studio.md"
@@ -2481,7 +2481,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 8904,
+      "stars": 8929,
       "repoUpdatedAt": "2026-10-27",
       "hasContent": true,
       "file": "library/link-building/backlink-check-ryze-ai-adgent.md"
@@ -2504,7 +2504,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 4118,
+      "stars": 4122,
       "repoUpdatedAt": "2026-11-06",
       "hasContent": true,
       "file": "library/link-building/backlink-audit-nowork-studio.md"
@@ -2944,7 +2944,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 4118,
+      "stars": 4122,
       "repoUpdatedAt": "2026-11-06",
       "hasContent": true,
       "file": "library/local-seo/local-seo-nowork-studio.md"
@@ -2967,7 +2967,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 2669,
+      "stars": 2672,
       "repoUpdatedAt": "2026-11-03",
       "hasContent": true,
       "file": "library/local-seo/blog-locale-audit-agricidaniel.md"
@@ -3174,7 +3174,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 4118,
+      "stars": 4122,
       "repoUpdatedAt": "2026-11-06",
       "hasContent": true,
       "file": "library/international-seo/hreflang-international-nowork-studio.md"
@@ -3266,7 +3266,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 4118,
+      "stars": 4122,
       "repoUpdatedAt": "2026-11-06",
       "hasContent": true,
       "file": "library/ecommerce-seo/ecommerce-seo-nowork-studio.md"
@@ -3312,7 +3312,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 8904,
+      "stars": 8929,
       "repoUpdatedAt": "2026-10-27",
       "hasContent": true,
       "file": "library/analytics-measurement/rank-tracking-ryze-ai-adgent.md"
@@ -3335,7 +3335,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 8904,
+      "stars": 8929,
       "repoUpdatedAt": "2026-10-27",
       "hasContent": true,
       "file": "library/analytics-measurement/seo-vs-ads-ryze-ai-adgent.md"
@@ -3612,7 +3612,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 6933,
+      "stars": 6973,
       "repoUpdatedAt": "2026-10-27",
       "hasContent": false,
       "file": ""
@@ -3635,7 +3635,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 6933,
+      "stars": 6973,
       "repoUpdatedAt": "2026-10-27",
       "hasContent": false,
       "file": ""
@@ -3658,7 +3658,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 6933,
+      "stars": 6973,
       "repoUpdatedAt": "2026-10-27",
       "hasContent": false,
       "file": ""
@@ -3707,7 +3707,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 2669,
+      "stars": 2672,
       "repoUpdatedAt": "2026-11-03",
       "hasContent": true,
       "file": "library/ai-search-geo/blog-geo-agricidaniel.md"
@@ -3730,7 +3730,7 @@
       "platforms": [
         "claude-code"
       ],
-      "stars": 2669,
+      "stars": 2672,
       "repoUpdatedAt": "2026-11-03",
       "hasContent": true,
       "file": "library/ai-search-geo/claude-blog-brain-agricidaniel.md"

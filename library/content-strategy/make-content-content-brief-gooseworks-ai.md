@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 1296
-collected: "2026-11-07"
+collected: "2026-11-08"
 ---
 
 <!-- Claude Code skill · gooseworks-ai/goose-skills · skills/marketing/make-content-content-brief/SKILL.md · MIT

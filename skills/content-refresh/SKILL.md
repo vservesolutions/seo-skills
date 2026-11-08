@@ -29,7 +29,7 @@ Use when the task involves content decay and refreshes.
 
 ## How this skill stays current
 
-- Regenerated on 2026-11-07 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
+- Regenerated on 2026-11-08 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2026-08-19 → 2026-08-19.
 - 1 findings from 1 sources; confidence is **low**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.
