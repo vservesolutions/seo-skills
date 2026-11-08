@@ -1,8 +1,8 @@
 ---
 name: seo-ai-search-geo
-description: "AI Overviews, AI Mode, LLM citation visibility, generative engine optimization and llms.txt conventions. Auto-generated from 82 findings across 19 sources."
-last_updated: 2026-11-06
-findings: 82
+description: "AI Overviews, AI Mode, LLM citation visibility, generative engine optimization and llms.txt conventions. Auto-generated from 83 findings across 19 sources."
+last_updated: 2026-11-08
+findings: 83
 sources: 19
 confidence: high
 ---
@@ -40,6 +40,7 @@ Use when organic traffic is absorbed by AI answers, when planning visibility in 
 
 ## Recent developments
 
+- **Tripadvisor Says SEO Will Still Weigh On Growth In 2027** — 2026-11-08 · Search Engine Journal — Tripadvisor recorded a $369.5 million writedown on its legacy hotels and advertising business in the third quarter, and its CFO said on the earnings call that SEO will still be a headwind to growth in 2027. ([link](https://www.searchenginejournal.com/tripadvisor-says-seo-will-still-weigh-on-growth-in-2027/596257))
 - **AI Visibility Mistake #3: Your Website Is Enough** — 2026-11-06 · SE Ranking (YouTube) — Most of what AI cites isn't your website. ([link](https://www.youtube.com/shorts/SBwRiJ5vM8A))
 - **Google Gemini Business Profile Tools Are Coming To Workspace** — 2026-11-06 · Search Engine Journal — Google says businesses that manage their Business Profile with a Google Workspace account are getting access to Gemini’s profile tools. ([link](https://www.searchenginejournal.com/google-gemini-business-profile-workspace-2/596120))
 - **AI Visibility Isn’t A Sham** — 2026-11-06 · Search Engine Journal — ChatGPT visitors converted at 13.8%, against 3.02% for Google organic. ([link](https://www.searchenginejournal.com/ai-visibility-isnt-a-sham-most-ways-of-measuring-it-are/594405))
@@ -49,10 +50,10 @@ Use when organic traffic is absorbed by AI answers, when planning visibility in 
 - **Google Pushing AI Mode Users To Add Personal Intelligence** — 2026-11-06 · Search Engine Roundtable — Google is throwing up pop-up notifications in AI Mode to encourage searchers to turn on Personal Intelligence . ([link](https://www.seroundtable.com/google-personal-intelligence-popup-42468.html))
 - **Google Search Queries Hit A 5-Year High, And Search Revenue Didn’t Follow** — 2026-11-05 · Search Engine Journal — Alphabet just reported the fastest growth in Google search queries in five years; in the same quarter, its search revenue grew at the slowest rate in 2026. ([link](https://www.searchenginejournal.com/google-search-queries-hit-a-5-year-high-and-search-revenue-didnt-follow/595485))
 - **AI Visibility Mistake #2: Your Best Chart Is Lying** — 2026-11-05 · SE Ranking (YouTube) — Ask AI about your brand by name and of course it mentions you. ([link](https://www.youtube.com/shorts/nsNc3zi0BF4))
-- **Ads In Google AI Answers Concentrate In Apparel & Electronics** — 2026-11-05 · Search Engine Journal — New holiday data counts ads inside Google AI Overviews, AI Mode and ChatGPT across five shopping categories and shows which prompts ChatGPT ads ran on. ([link](https://www.searchenginejournal.com/google-ai-answer-ads-apparel-electronics-report/595984))
 
 ## References
 
+- [Tripadvisor Says SEO Will Still Weigh On Growth In 2027](https://www.searchenginejournal.com/tripadvisor-says-seo-will-still-weigh-on-growth-in-2027/596257) — Search Engine Journal · 2026-11-08
 - [AI Visibility Mistake #3: Your Website Is Enough](https://www.youtube.com/shorts/SBwRiJ5vM8A) — SE Ranking (YouTube) · 2026-11-06
 - [Google Gemini Business Profile Tools Are Coming To Workspace](https://www.searchenginejournal.com/google-gemini-business-profile-workspace-2/596120) — Search Engine Journal · 2026-11-06
 - [AI Visibility Isn’t A Sham](https://www.searchenginejournal.com/ai-visibility-isnt-a-sham-most-ways-of-measuring-it-are/594405) — Search Engine Journal · 2026-11-06
@@ -64,11 +65,10 @@ Use when organic traffic is absorbed by AI answers, when planning visibility in 
 - [AI Visibility Mistake #2: Your Best Chart Is Lying](https://www.youtube.com/shorts/nsNc3zi0BF4) — SE Ranking (YouTube) · 2026-11-05
 - [Ads In Google AI Answers Concentrate In Apparel & Electronics](https://www.searchenginejournal.com/google-ai-answer-ads-apparel-electronics-report/595984) — Search Engine Journal · 2026-11-05
 - [GEO Isn’t A Distraction – Referral Data Misses Where AI Shapes Buying Decisions](https://www.searchenginejournal.com/geo-isnt-a-distraction-referral-data-misses-where-ai-shapes-buying-decisions/595730) — Search Engine Journal · 2026-11-05
-- [Live Website Audit: SEO Fixes for AI Search Visibility in 2027](https://www.youtube.com/watch?v=lkseeolaTy0) — Search Engine Journal (YouTube) · 2026-11-05
 
 ## How this skill stays current
 
 - Regenerated on 2026-11-08 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
-- Coverage window: 2026-03-25 → 2026-11-06.
-- 82 findings from 19 sources; confidence is **high**.
+- Coverage window: 2026-03-25 → 2026-11-08.
+- 83 findings from 19 sources; confidence is **high**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

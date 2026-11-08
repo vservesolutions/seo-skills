@@ -1,6 +1,6 @@
 # SEO Skills Index
 
-Generated 2026-11-08. 34 skills across 16 categories, from 214 findings.
+Generated 2026-11-08. 34 skills across 16 categories, from 216 findings.
 
 A category skill aggregates every finding in its area; sub-skills go deeper where evidence exists.
 
@@ -61,11 +61,11 @@ A category skill aggregates every finding in its area; sub-skills go deeper wher
 | [Link Building and Off-Page Authority](link-building/SKILL.md) | Earning links, digital PR, anchor text and link quality, disavow decisions, and link spam policy. | 6 | 2026-10-29 | medium |
 | [↳ Digital PR and Link Outreach](digital-pr/SKILL.md) | Digital PR and Link Outreach: specific techniques, checks and pitfalls. | 1 | 2026-07-20 | low |
 
-## Local SEO and Google Business Profile · 10 findings
+## Local SEO and Google Business Profile · 11 findings
 
 | Skill | What it covers | Findings | Updated | Confidence |
 | --- | --- | ---: | --- | --- |
-| [Local SEO and Google Business Profile](local-seo/SKILL.md) | Local pack visibility, Business Profile optimization, reviews, citations and location page structure. | 10 | 2026-11-06 | medium |
+| [Local SEO and Google Business Profile](local-seo/SKILL.md) | Local pack visibility, Business Profile optimization, reviews, citations and location page structure. | 11 | 2026-11-08 | medium |
 | [↳ Google Business Profile Optimisation](google-business-profile/SKILL.md) | Google Business Profile Optimisation: specific techniques, checks and pitfalls. | 4 | 2026-11-06 | low |
 
 ## International and Multilingual SEO · 1 findings
@@ -88,11 +88,11 @@ A category skill aggregates every finding in its area; sub-skills go deeper wher
 | [↳ Search Console Analysis](search-console/SKILL.md) | Search Console Analysis: specific techniques, checks and pitfalls. | 14 | 2026-11-05 | medium |
 | [↳ Rank Tracking and Visibility Reporting](rank-tracking/SKILL.md) | Rank Tracking and Visibility Reporting: specific techniques, checks and pitfalls. | 2 | 2026-11-07 | low |
 
-## AI Search, GEO and Answer Engines · 82 findings
+## AI Search, GEO and Answer Engines · 83 findings
 
 | Skill | What it covers | Findings | Updated | Confidence |
 | --- | --- | ---: | --- | --- |
-| [AI Search, GEO and Answer Engines](ai-search-geo/SKILL.md) | AI Overviews, AI Mode, LLM citation visibility, generative engine optimization and llms.txt conventions. | 82 | 2026-11-06 | high |
+| [AI Search, GEO and Answer Engines](ai-search-geo/SKILL.md) | AI Overviews, AI Mode, LLM citation visibility, generative engine optimization and llms.txt conventions. | 83 | 2026-11-08 | high |
 | [↳ AI Overviews and AI Mode](ai-overviews/SKILL.md) | AI Overviews and AI Mode: specific techniques, checks and pitfalls. | 22 | 2026-11-06 | high |
 | [↳ llms.txt and Agent Readability](llms-txt/SKILL.md) | llms.txt and Agent Readability: specific techniques, checks and pitfalls. | 1 | 2026-11-04 | low |
 | [↳ AI Citations and Brand Mentions](ai-citations/SKILL.md) | AI Citations and Brand Mentions: specific techniques, checks and pitfalls. | 7 | 2026-11-04 | medium |

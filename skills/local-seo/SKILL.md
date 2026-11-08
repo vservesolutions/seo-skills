@@ -1,8 +1,8 @@
 ---
 name: seo-local-seo
-description: "Local pack visibility, Business Profile optimization, reviews, citations and location page structure. Auto-generated from 10 findings across 8 sources."
-last_updated: 2026-11-06
-findings: 10
+description: "Local pack visibility, Business Profile optimization, reviews, citations and location page structure. Auto-generated from 11 findings across 8 sources."
+last_updated: 2026-11-08
+findings: 11
 sources: 8
 confidence: medium
 ---
@@ -25,13 +25,16 @@ Use when a business needs local pack visibility, when reviews or categories are 
 6. AI Performance gives you a direct view into how your site contributes to AI-generated answers – from the grounding queries where it appears to the pages cited for each query. — *Bing Webmaster Blog, 2026-10-13*
 7. Learn more and sign up: https://moz.com/products/ai-explorer/pricing You don't need a steep learning curve or hours of setup. — *Moz (YouTube), 2026-10-13*
 8. Prompt Suggestions: Discover new topics and questions real people are asking AI, so you never run out of helpful content ideas. — *Moz (YouTube), 2026-10-13*
-9. Google says businesses that manage their Business Profile with a Google Workspace account are getting access to Gemini’s profile tools. — *Search Engine Journal, 2026-11-06*
-10. So it won't help understanding why mentions/clicks are increasing or decreasing, but combined with external tools that track prompts it will show accurate first-party data if GEO/AEO strategies are working," he added. — *Search Engine Roundtable, 2026-11-06*
-11. Lisa Landsman posted the details in the Google Business Help Forums and the item we did not cover was the section named "Messaging Expands to Google Maps. — *Search Engine Roundtable, 2026-11-06*
-12. Google already documented offer data metrics within Google Business Profiles performance metrics. — *Search Engine Roundtable, 2026-11-06*
+9. Sandler suggested Viator, Tripadvisor’s experiences booking site, has little SEO exposure. — *Search Engine Journal, 2026-11-08*
+10. Noonan attributed the increase to an ongoing move from free to paid channels caused by persistent SEO headwinds, mostly in Hotels and Other and on Tripadvisor’s own site. — *Search Engine Journal, 2026-11-08*
+11. Google says businesses that manage their Business Profile with a Google Workspace account are getting access to Gemini’s profile tools. — *Search Engine Journal, 2026-11-06*
+12. So it won't help understanding why mentions/clicks are increasing or decreasing, but combined with external tools that track prompts it will show accurate first-party data if GEO/AEO strategies are working," he added. — *Search Engine Roundtable, 2026-11-06*
+13. Lisa Landsman posted the details in the Google Business Help Forums and the item we did not cover was the section named "Messaging Expands to Google Maps. — *Search Engine Roundtable, 2026-11-06*
+14. Google already documented offer data metrics within Google Business Profiles performance metrics. — *Search Engine Roundtable, 2026-11-06*
 
 ## Recent developments
 
+- **Tripadvisor Says SEO Will Still Weigh On Growth In 2027** — 2026-11-08 · Search Engine Journal — Tripadvisor recorded a $369.5 million writedown on its legacy hotels and advertising business in the third quarter, and its CFO said on the earnings call that SEO will still be a headwind to growth in 2027. ([link](https://www.searchenginejournal.com/tripadvisor-says-seo-will-still-weigh-on-growth-in-2027/596257))
 - **Google Gemini Business Profile Tools Are Coming To Workspace** — 2026-11-06 · Search Engine Journal — Google says businesses that manage their Business Profile with a Google Workspace account are getting access to Gemini’s profile tools. ([link](https://www.searchenginejournal.com/google-gemini-business-profile-workspace-2/596120))
 - **OpenAI Creating ChatGPT Tools For Business For Analytics & Citations** — 2026-11-06 · Search Engine Roundtable — This tool will let you "Claim your business in ChatGPT." This will allow businesses to: See how your business shows up: Track how often your business is mentioned in ChatGPT conversations. ([link](https://www.seroundtable.com/chatgpt-tools-for-business-42476.html))
 - **Google Business Profiles Manage Offers** — 2026-11-06 · Search Engine Roundtable — Google has created a new help document named Manage offers on your Business Profile. ([link](https://www.seroundtable.com/google-business-profiles-manage-offers-42471.html))
@@ -41,10 +44,10 @@ Use when a business needs local pack visibility, when reviews or categories are 
 - **Google My Business: A guide to Google Business Profile** — 2026-10-26 · Semrush Blog — Google Business Profile (formerly Google My Business) is a free business listing that supports reviews, Q&As, posts, and more. ([link](https://www.semrush.com/blog/google-my-business))
 - **3x More ChatGPT Citations in 30 Days With Claude** — 2026-10-23 · SE Ranking (YouTube) — Most teams use Claude like a smarter search box. ([link](https://www.youtube.com/shorts/UqbAQHv4V-k))
 - **Track Brand Visibility, Citations, and Sentiment with Moz AI Explorer** — 2026-10-13 · Moz (YouTube) — Meet Moz AI Explorer: a dedicated tool designed to help you understand, shape, and own how AI engines talk about your business, all starting at $45 a month. ([link](https://www.youtube.com/watch?v=iO9QIMFzwJ8))
-- **Introducing Topics Portfolio (Beta) in AI Performance** — 2026-10-13 · Bing Webmaster Blog — AI Performance gives you a direct view into how your site contributes to AI-generated answers – from the grounding queries where it appears to the pages cited for each query. ([link](https://blogs.bing.com/webmaster/2026/10/introducing-topics-portfolio-beta-in-ai-performance))
 
 ## References
 
+- [Tripadvisor Says SEO Will Still Weigh On Growth In 2027](https://www.searchenginejournal.com/tripadvisor-says-seo-will-still-weigh-on-growth-in-2027/596257) — Search Engine Journal · 2026-11-08
 - [Google Gemini Business Profile Tools Are Coming To Workspace](https://www.searchenginejournal.com/google-gemini-business-profile-workspace-2/596120) — Search Engine Journal · 2026-11-06
 - [OpenAI Creating ChatGPT Tools For Business For Analytics & Citations](https://www.seroundtable.com/chatgpt-tools-for-business-42476.html) — Search Engine Roundtable · 2026-11-06
 - [Google Business Profiles Manage Offers](https://www.seroundtable.com/google-business-profiles-manage-offers-42471.html) — Search Engine Roundtable · 2026-11-06
@@ -59,6 +62,6 @@ Use when a business needs local pack visibility, when reviews or categories are 
 ## How this skill stays current
 
 - Regenerated on 2026-11-08 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
-- Coverage window: 2026-10-13 → 2026-11-06.
-- 10 findings from 8 sources; confidence is **medium**.
+- Coverage window: 2026-10-13 → 2026-11-08.
+- 11 findings from 8 sources; confidence is **medium**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.
