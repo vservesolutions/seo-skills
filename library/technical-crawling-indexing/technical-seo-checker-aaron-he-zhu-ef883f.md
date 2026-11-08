@@ -1,6 +1,6 @@
 ---
 name: "technical-seo-checker"
-description: "Signpost repo. The 16 SEO and GEO skills moved to `aaron-marketing-skills`, the standalone 20-skill set stays here"
+description: "`technical-seo-checker` has moved"
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared"

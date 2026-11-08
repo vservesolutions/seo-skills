@@ -1,6 +1,6 @@
 ---
 name: "on-page-seo-auditor"
-description: "Signpost repo. The 16 SEO and GEO skills moved to `aaron-marketing-skills`, the standalone 20-skill set stays here"
+description: "`on-page-seo-auditor` has moved"
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared"

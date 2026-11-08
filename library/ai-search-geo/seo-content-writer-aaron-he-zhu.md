@@ -1,6 +1,6 @@
 ---
 name: "seo-content-writer"
-description: "Signpost repo. The 16 SEO and GEO skills moved to `aaron-marketing-skills`, the standalone 20-skill set stays here"
+description: "`seo-content-writer` has moved"
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared"

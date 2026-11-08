@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-08T15:05:46.096Z",
+  "generatedAt": "2026-11-08T15:13:23.491Z",
   "counts": {
-    "skills": 1126,
+    "skills": 1123,
     "packs": 144,
-    "fullText": 930,
+    "fullText": 927,
     "categories": 17
   },
   "categories": [
@@ -40,12 +40,12 @@
     {
       "id": "keyword-research",
       "title": "Keyword Research and Search Intent",
-      "count": 123
+      "count": 121
     },
     {
       "id": "link-building",
       "title": "Link Building and Off-Page Authority",
-      "count": 75
+      "count": 74
     },
     {
       "id": "local-seo",
@@ -1405,7 +1405,7 @@
     {
       "name": "on-page-seo-auditor",
       "slug": "on-page-seo-auditor-aaron-he-zhu",
-      "description": "Signpost repo. The 16 SEO and GEO skills moved to `aaron-marketing-skills`, the standalone 20-skill set stays here",
+      "description": "`on-page-seo-auditor` has moved",
       "category": "technical-crawling-indexing",
       "categoryTitle": "Technical SEO: Crawling, Indexing and Rendering",
       "repo": "aaron-he-zhu/seo-geo-claude-skills",
@@ -1428,7 +1428,7 @@
     {
       "name": "technical-seo-checker",
       "slug": "technical-seo-checker-aaron-he-zhu",
-      "description": "Signpost repo. The 16 SEO and GEO skills moved to `aaron-marketing-skills`, the standalone 20-skill set stays here",
+      "description": "`technical-seo-checker` has moved",
       "category": "technical-crawling-indexing",
       "categoryTitle": "Technical SEO: Crawling, Indexing and Rendering",
       "repo": "aaron-he-zhu/seo-geo-claude-skills",
@@ -12771,52 +12771,6 @@
       "file": "library/keyword-research/youtube-seo-optimizer-nicepkg.md"
     },
     {
-      "name": "keyword-research",
-      "slug": "keyword-research-aaron-he-zhu",
-      "description": "Signpost repo. The 16 SEO and GEO skills moved to `aaron-marketing-skills`, the standalone 20-skill set stays here",
-      "category": "keyword-research",
-      "categoryTitle": "Keyword Research and Search Intent",
-      "repo": "aaron-he-zhu/seo-geo-claude-skills",
-      "repoUrl": "https://github.com/aaron-he-zhu/seo-geo-claude-skills",
-      "path": "research/keyword-research/SKILL.md",
-      "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/HEAD/research/keyword-research/SKILL.md",
-      "rawUrl": "https://raw.githubusercontent.com/aaron-he-zhu/seo-geo-claude-skills/HEAD/research/keyword-research/SKILL.md",
-      "ref": "HEAD",
-      "discoveredVia": "awesome-seo-agent-skills",
-      "platformSource": "declared",
-      "license": "Apache-2.0",
-      "platforms": [
-        "claude-code"
-      ],
-      "stars": 235,
-      "repoUpdatedAt": "2026-09-04",
-      "hasContent": true,
-      "file": "library/keyword-research/keyword-research-aaron-he-zhu-1b1893.md"
-    },
-    {
-      "name": "serp-analysis",
-      "slug": "serp-analysis-aaron-he-zhu",
-      "description": "Signpost repo. The 16 SEO and GEO skills moved to `aaron-marketing-skills`, the standalone 20-skill set stays here",
-      "category": "keyword-research",
-      "categoryTitle": "Keyword Research and Search Intent",
-      "repo": "aaron-he-zhu/seo-geo-claude-skills",
-      "repoUrl": "https://github.com/aaron-he-zhu/seo-geo-claude-skills",
-      "path": "research/serp-analysis/SKILL.md",
-      "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/HEAD/research/serp-analysis/SKILL.md",
-      "rawUrl": "https://raw.githubusercontent.com/aaron-he-zhu/seo-geo-claude-skills/HEAD/research/serp-analysis/SKILL.md",
-      "ref": "HEAD",
-      "discoveredVia": "awesome-seo-agent-skills",
-      "platformSource": "declared",
-      "license": "Apache-2.0",
-      "platforms": [
-        "claude-code"
-      ],
-      "stars": 235,
-      "repoUpdatedAt": "2026-09-04",
-      "hasContent": true,
-      "file": "library/keyword-research/serp-analysis-aaron-he-zhu-dfccc3.md"
-    },
-    {
       "name": "seo-keyword-cluster",
       "slug": "seo-keyword-cluster-seranking",
       "description": "Build a content cluster plan from seed keywords — intent-grouped clusters, pillar+spokes architecture with H1/H2 suggestions per spoke, prioritised build order, and an internal-linking map. Plans a content tier across many articles (vs `seo-content-brief` which produces a single article from a topic; vs `seo-page` which audits one existing URL). Use when the user asks for keyword clustering, topical map, pillar content strategy, content cluster plan, or content calendar from a keyword list.",
@@ -15062,29 +15016,6 @@
       "repoUpdatedAt": "2026-09-29",
       "hasContent": true,
       "file": "library/link-building/signallayer-backlinks-client-kennyzir.md"
-    },
-    {
-      "name": "backlink-analyzer",
-      "slug": "backlink-analyzer-aaron-he-zhu",
-      "description": "Signpost repo. The 16 SEO and GEO skills moved to `aaron-marketing-skills`, the standalone 20-skill set stays here",
-      "category": "link-building",
-      "categoryTitle": "Link Building and Off-Page Authority",
-      "repo": "aaron-he-zhu/seo-geo-claude-skills",
-      "repoUrl": "https://github.com/aaron-he-zhu/seo-geo-claude-skills",
-      "path": "monitor/backlink-analyzer/SKILL.md",
-      "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/HEAD/monitor/backlink-analyzer/SKILL.md",
-      "rawUrl": "https://raw.githubusercontent.com/aaron-he-zhu/seo-geo-claude-skills/HEAD/monitor/backlink-analyzer/SKILL.md",
-      "ref": "HEAD",
-      "discoveredVia": "awesome-seo-agent-skills",
-      "platformSource": "declared",
-      "license": "Apache-2.0",
-      "platforms": [
-        "claude-code"
-      ],
-      "stars": 235,
-      "repoUpdatedAt": "2026-09-04",
-      "hasContent": true,
-      "file": "library/link-building/backlink-analyzer-aaron-he-zhu.md"
     },
     {
       "name": "backlink",
@@ -21944,16 +21875,16 @@
       "file": ""
     },
     {
-      "name": "geo-content-optimizer",
-      "slug": "geo-content-optimizer-aaron-he-zhu",
-      "description": "Signpost repo. The 16 SEO and GEO skills moved to `aaron-marketing-skills`, the standalone 20-skill set stays here",
+      "name": "internal-linking-optimizer",
+      "slug": "internal-linking-optimizer-aaron-he-zhu",
+      "description": "`internal-linking-optimizer` has moved",
       "category": "ai-search-geo",
       "categoryTitle": "AI Search, GEO and Answer Engines",
       "repo": "aaron-he-zhu/seo-geo-claude-skills",
       "repoUrl": "https://github.com/aaron-he-zhu/seo-geo-claude-skills",
-      "path": "build/geo-content-optimizer/SKILL.md",
-      "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/HEAD/build/geo-content-optimizer/SKILL.md",
-      "rawUrl": "https://raw.githubusercontent.com/aaron-he-zhu/seo-geo-claude-skills/HEAD/build/geo-content-optimizer/SKILL.md",
+      "path": "optimize/internal-linking-optimizer/SKILL.md",
+      "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/HEAD/optimize/internal-linking-optimizer/SKILL.md",
+      "rawUrl": "https://raw.githubusercontent.com/aaron-he-zhu/seo-geo-claude-skills/HEAD/optimize/internal-linking-optimizer/SKILL.md",
       "ref": "HEAD",
       "discoveredVia": "awesome-seo-agent-skills",
       "platformSource": "declared",
@@ -21964,12 +21895,12 @@
       "stars": 235,
       "repoUpdatedAt": "2026-09-04",
       "hasContent": true,
-      "file": "library/ai-search-geo/geo-content-optimizer-aaron-he-zhu-3c8de9.md"
+      "file": "library/ai-search-geo/internal-linking-optimizer-aaron-he-zhu.md"
     },
     {
       "name": "schema-markup-generator",
       "slug": "schema-markup-generator-aaron-he-zhu",
-      "description": "Signpost repo. The 16 SEO and GEO skills moved to `aaron-marketing-skills`, the standalone 20-skill set stays here",
+      "description": "`schema-markup-generator` has moved",
       "category": "ai-search-geo",
       "categoryTitle": "AI Search, GEO and Answer Engines",
       "repo": "aaron-he-zhu/seo-geo-claude-skills",
@@ -21992,7 +21923,7 @@
     {
       "name": "seo-content-writer",
       "slug": "seo-content-writer-aaron-he-zhu",
-      "description": "Signpost repo. The 16 SEO and GEO skills moved to `aaron-marketing-skills`, the standalone 20-skill set stays here",
+      "description": "`seo-content-writer` has moved",
       "category": "ai-search-geo",
       "categoryTitle": "AI Search, GEO and Answer Engines",
       "repo": "aaron-he-zhu/seo-geo-claude-skills",
