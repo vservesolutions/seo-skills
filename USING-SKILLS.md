@@ -5,8 +5,8 @@ Send them this file.
 
 - **34 generated skills** — synthesized from the collected findings, refreshed every three hours.
   These are safe to install wholesale.
-- **182 library skills** — third-party `SKILL.md` packs collected from GitHub. Install these one at
-  a time, when a task calls for one.
+- **300+ library skills** — third-party `SKILL.md` skills collected from published packs on GitHub,
+  growing with every refresh. Install these one at a time, when a task calls for one.
 
 Dashboard: <https://vservesolutions.github.io/seo-skills/> · Skill index: [`skills/INDEX.md`](skills/INDEX.md)
 
@@ -23,10 +23,10 @@ Rough cost of the metadata alone:
 | Set | Skills | Description tokens |
 | --- | ---: | ---: |
 | Generated | 34 | ~740 |
-| Library | 182 | ~15,200 |
+| Library | 300+ | ~27,000 |
 
-So: install all 34 generated skills, and cherry-pick the library. Installing all 182 also creates
-name collisions — 22 names are shared, including seven different skills called `seo-audit`.
+So: install all 34 generated skills, and cherry-pick the library. Installing the whole library also
+creates name collisions — over 30 names are shared, including a dozen skills all called `seo-audit`.
 
 ## 2. Install the generated skills
 

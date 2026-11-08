@@ -294,6 +294,7 @@ async function githubJson(url, token) {
   };
   if (token) headers.authorization = `Bearer ${token}`;
   const response = await fetch(url, { headers, signal: AbortSignal.timeout(25_000) });
+  const resource = response.headers.get('x-ratelimit-resource') || '';
   const remaining = Number(response.headers.get('x-ratelimit-remaining'));
   const payload = await response.json().catch(() => ({}));
   if (!response.ok) {
@@ -305,7 +306,7 @@ async function githubJson(url, token) {
     error.remaining = remaining;
     throw error;
   }
-  return { json: payload, remaining };
+  return { json: payload, remaining, resource };
 }
 
 async function listSkillPaths(repo, token) {
@@ -476,15 +477,20 @@ export async function collectLibrary({
   const config = await readJson(paths.libraryConfigFile, null);
   if (!config) throw new Error(`No library config at ${paths.libraryConfigFile}`);
   const settings = {
-    maxReposPerRun: 14,
-    maxSkillsPerRepo: 8,
+    maxReposPerRun: 40,
+    maxSkillsPerRepo: 60,
     maxSkillBytes: 120_000,
     rescanDays: 7,
     delayMs: 150,
     minDescriptionChars: 30,
     includeSearch: true,
     searchQueries: [],
-    searchPerQuery: 6,
+    searchPerQuery: 100,
+    searchPages: 2,
+    searchDelayMs: 2000,
+    codeSearchDelayMs: 6500,
+    includeCodeSearch: true,
+    codeSearchTerms: [],
     tokenEnv: 'GITHUB_TOKEN',
     ...(config.settings || {})
   };
@@ -495,7 +501,7 @@ export async function collectLibrary({
   const perRepo = Math.max(1, Number(skillsPerRepo) || settings.maxSkillsPerRepo);
 
   const candidates = new Map();
-  const reports = { lists: [], search: [], repos: [] };
+  const reports = { lists: [], search: [], codeSearch: [], repos: [] };
   let rateRemaining = null;
 
   for (const list of config.lists || []) {
@@ -521,35 +527,91 @@ export async function collectLibrary({
     }
   }
 
+  // Discovery has to keep moving. A single page of one query bank returns the
+  // same handful of packs every run, so the library plateaus; paging through
+  // results and querying SKILL.md contents is what surfaces new packs.
   if (settings.includeSearch && !only.length) {
+    const perPage = Math.max(1, Math.min(100, Number(settings.searchPerQuery) || 100));
+    const pages = Math.max(1, Number(settings.searchPages) || 1);
+    let rateLimited = false;
     for (const query of settings.searchQueries || []) {
+      if (rateLimited) break;
+      for (let page = 1; page <= pages; page++) {
+        try {
+          const { json, remaining, resource } = await githubJson(
+            `https://api.github.com/search/repositories?q=${encodeURIComponent(query)}&sort=stars&order=desc&per_page=${perPage}&page=${page}`,
+            token
+          );
+          // Search has its own quota; only core calls say how many packs we can scan.
+          if (Number.isFinite(remaining) && resource !== 'search') rateRemaining = remaining;
+          const items = json.items || [];
+          let added = 0;
+          for (const item of items) {
+            if (candidates.has(item.full_name)) continue;
+            candidates.set(item.full_name, {
+              repo: item.full_name,
+              coverage: item.description || '',
+              platforms: [],
+              license: item.license?.spdx_id || '',
+              stars: item.stargazers_count || 0,
+              repoUpdatedAt: (item.pushed_at || '').slice(0, 10),
+              listCategory: '',
+              from: 'github-search',
+              query
+            });
+            added++;
+          }
+          reports.search.push({ query, page, ok: true, added, found: items.length });
+          if (items.length < perPage) break;
+          // The search API allows 30 authenticated requests a minute.
+          if (settings.searchDelayMs) await sleep(settings.searchDelayMs);
+        } catch (error) {
+          reports.search.push({ query, page, ok: false, error: error.message });
+          if (/rate limit|secondary rate/i.test(error.message)) {
+            rateLimited = true;
+            break;
+          }
+        }
+      }
+    }
+  }
+
+  // Code search reaches packs that never describe themselves as SEO: the query
+  // matches SKILL.md contents, and every hit names the repo that published it.
+  if (settings.includeCodeSearch && token && !only.length) {
+    for (const term of settings.codeSearchTerms || []) {
       try {
-        const { json, remaining } = await githubJson(
-          `https://api.github.com/search/repositories?q=${encodeURIComponent(query)}&sort=stars&per_page=${settings.searchPerQuery}`,
+        const { json, remaining, resource } = await githubJson(
+          `https://api.github.com/search/code?q=${encodeURIComponent(`filename:SKILL.md ${term}`)}&per_page=100`,
           token
         );
-        if (Number.isFinite(remaining)) rateRemaining = remaining;
+        if (Number.isFinite(remaining) && resource !== 'search') rateRemaining = remaining;
         let added = 0;
         for (const item of json.items || []) {
-          if (candidates.has(item.full_name)) continue;
-          candidates.set(item.full_name, {
-            repo: item.full_name,
-            coverage: item.description || '',
+          const found = item.repository || {};
+          const repo = found.full_name;
+          if (!repo || candidates.has(repo)) continue;
+          candidates.set(repo, {
+            repo,
+            coverage: found.description || '',
             platforms: [],
-            license: item.license?.spdx_id || '',
-            stars: item.stargazers_count || 0,
-            repoUpdatedAt: (item.pushed_at || '').slice(0, 10),
+            license: found.license?.spdx_id || '',
+            stars: found.stargazers_count || 0,
+            repoUpdatedAt: (found.pushed_at || '').slice(0, 10),
             listCategory: '',
-            from: 'github-search',
-            query
+            from: 'github-code-search',
+            query: term
           });
           added++;
         }
-        reports.search.push({ query, ok: true, added });
+        reports.codeSearch.push({ term, ok: true, added });
       } catch (error) {
-        reports.search.push({ query, ok: false, error: error.message });
-        if (/rate limit/i.test(error.message)) break;
+        // Code search is authenticated-only; without a token it is skipped.
+        reports.codeSearch.push({ term, ok: false, error: error.message });
+        if (/rate limit|secondary rate/i.test(error.message)) break;
       }
+      // Code search allows 10 authenticated requests a minute.
+      if (settings.codeSearchDelayMs) await sleep(settings.codeSearchDelayMs);
     }
   }
 
@@ -738,6 +800,7 @@ function skillFile(record, now) {
 
 function discoveryLabel(record) {
   if (record.discoveredVia === 'github-search') return 'GitHub search';
+  if (record.discoveredVia === 'github-code-search') return 'GitHub code search';
   if (record.discoveredVia === 'config') return 'config';
   return 'curated list';
 }

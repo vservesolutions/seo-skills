@@ -14,7 +14,7 @@ on:
       max_repos:
         description: Skill packs to scan this run
         required: false
-        default: '18'
+        default: '40'
 
 permissions:
   contents: write
@@ -58,7 +58,7 @@ jobs:
         run: |
           node src/cli.js update \
             --max-fulltext "${{ github.event.inputs.max_fulltext || '15' }}" \
-            --max-repos "${{ github.event.inputs.max_repos || '18' }}"
+            --max-repos "${{ github.event.inputs.max_repos || '40' }}"
 
       - name: Commit refreshed skills
         run: |

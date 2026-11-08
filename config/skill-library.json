@@ -1,7 +1,7 @@
 {
   "settings": {
-    "maxReposPerRun": 18,
-    "maxSkillsPerRepo": 8,
+    "maxReposPerRun": 40,
+    "maxSkillsPerRepo": 60,
     "maxSkillBytes": 120000,
     "rescanDays": 7,
     "delayMs": 150,
@@ -11,9 +11,37 @@
       "seo agent skill",
       "claude seo skill",
       "geo seo agent skills",
-      "codex seo skill"
+      "codex seo skill",
+      "seo skills claude code",
+      "technical seo skill agent",
+      "keyword research agent skill",
+      "backlink agent skill",
+      "core web vitals skill agent",
+      "schema markup agent skill",
+      "aeo answer engine skills",
+      "programmatic seo skills",
+      "local seo agent skill",
+      "ecommerce seo agent skills",
+      "agent skills seo marketing",
+      "topic:claude-skills seo",
+      "topic:agent-skills seo",
+      "topic:claude-code-skills seo"
     ],
-    "searchPerQuery": 6,
+    "searchPerQuery": 100,
+    "searchPages": 2,
+    "includeCodeSearch": true,
+    "codeSearchTerms": [
+      "seo",
+      "technical seo",
+      "schema markup",
+      "keyword research",
+      "backlinks",
+      "core web vitals",
+      "local seo",
+      "hreflang",
+      "ai search optimization",
+      "programmatic seo"
+    ],
     "tokenEnv": "GITHUB_TOKEN"
   },
   "lists": [
