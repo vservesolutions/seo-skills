@@ -108,6 +108,14 @@ test('renderDashboard puts each category behind a tab', async () => {
   assert.match(html, /data-tabgroup="skills" data-category="international-seo"/);
   assert.match(html, /aria-selected/);
 
+  // Findings live on their own page; the index links to it instead of listing them.
+  assert.match(html, /href="findings.html"/);
+  assert.doesNotMatch(html, /id="findings"/);
+  const findingsHtml = await fs.readFile(path.join(siteDir, 'findings.html'), 'utf8');
+  assert.match(findingsHtml, /<h1>Latest findings<\/h1>/);
+  assert.match(findingsHtml, /Sitemap best practices/);
+  assert.match(findingsHtml, /class="finding"/);
+
   await fs.rm(siteDir, { recursive: true, force: true });
   await fs.rm(skillsDir, { recursive: true, force: true });
 });

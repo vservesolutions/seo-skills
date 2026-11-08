@@ -612,13 +612,13 @@ ${group.skills.map(libraryCard).join('\n')}
     <nav class="jump">
       <a href="#skills">Generated skills · ${skills.length}</a>
       <a href="#library">Skill library · ${librarySkills.length}</a>
-      <a href="#findings">Latest findings · ${latest.length}</a>
+      <a href="findings.html">Latest findings · ${latest.length}</a>
     </nav>
 
     <section id="skills">
       <div class="section-head">
         <h2>Generated skills</h2>
-        <input id="q" type="search" placeholder="Filter skills, findings and library…" aria-label="Filter">
+        <input id="q" type="search" placeholder="Filter skills and library…" aria-label="Filter">
       </div>
 ${skillTabs}
       <div class="grid">
@@ -626,14 +626,7 @@ ${skillGroups || '<p>No skills yet. Run <code>npm run update</code>.</p>'}
       </div>
     </section>
 
-${librarySection}    <section id="findings">
-      <h2>Latest findings</h2>
-      <ul class="findings">
-${rows || '<li class="finding"><p>No findings yet. Run <code>npm run update</code>.</p></li>'}
-      </ul>
-      <p id="empty" hidden>Nothing matches that filter.</p>
-    </section>
-  </main>
+${librarySection}  </main>
 
   <footer class="page">
     Generated ${esc(now.toISOString())} · Run <code>npm run update</code> to refresh · <a href="../skills/index.json">index.json</a> · <a href="../library/INDEX.md">library index</a>
@@ -642,7 +635,6 @@ ${rows || '<li class="finding"><p>No findings yet. Run <code>npm run update</cod
 <script>
 (function () {
   var input = document.getElementById('q');
-  var empty = document.getElementById('empty');
   var items = Array.prototype.slice.call(document.querySelectorAll('[data-search]'));
   var bars = Array.prototype.slice.call(document.querySelectorAll('.tabs'));
   var groups = Array.prototype.slice.call(document.querySelectorAll('.group[data-category]'));
@@ -677,12 +669,9 @@ ${rows || '<li class="finding"><p>No findings yet. Run <code>npm run update</cod
       bars.forEach(function (bar) { applyBar(bar, bar.getAttribute('data-active') || 'all'); });
     }
 
-    var shown = 0;
     items.forEach(function (item) {
       var haystack = item.getAttribute('data-search') || '';
-      var match = !query || haystack.indexOf(query) !== -1;
-      item.hidden = !match;
-      if (match) shown++;
+      item.hidden = Boolean(query) && haystack.indexOf(query) === -1;
     });
 
     if (query) {
@@ -690,7 +679,6 @@ ${rows || '<li class="finding"><p>No findings yet. Run <code>npm run update</cod
         group.hidden = !group.querySelector('[data-search]:not([hidden])');
       });
     }
-    empty.hidden = shown > 0;
   });
 })();
 </script>
@@ -698,6 +686,68 @@ ${rows || '<li class="finding"><p>No findings yet. Run <code>npm run update</cod
 </html>
 `;
 
+  // Reuse the index page's <style> block so both pages share one stylesheet.
+  const styleBlock = (html.match(/<style>[\s\S]*?<\/style>/) || [''])[0];
+
+  const findingsHtml = `<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Latest SEO findings — SEO Skills</title>
+${styleBlock}
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <p class="eyebrow">Collected knowledge</p>
+    <h1>Latest findings</h1>
+    <p class="lede">The ${latest.length} most recent items from ${sourcesCount} SEO sources, newest first. Each one is deduplicated and classified, then used to rebuild the skills; the full history is in <code>data/findings.jsonl</code>.</p>
+  </header>
+
+  <main>
+    <nav class="jump">
+      <a href="index.html">← Skills and library</a>
+      <a href="../skills/INDEX.md">Skill index</a>
+    </nav>
+
+    <section id="findings">
+      <div class="section-head">
+        <h2>All ${latest.length} findings</h2>
+        <input id="q" type="search" placeholder="Filter findings…" aria-label="Filter findings">
+      </div>
+      <ul class="findings">
+${rows || '<li class="finding"><p>No findings yet. Run <code>npm run update</code>.</p></li>'}
+      </ul>
+      <p id="empty" hidden>Nothing matches that filter.</p>
+    </section>
+  </main>
+
+  <footer class="page">
+    Generated ${esc(now.toISOString())} · <a href="index.html">SEO Skills dashboard</a> · <a href="../skills/index.json">index.json</a>
+  </footer>
+</div>
+<script>
+(function () {
+  var input = document.getElementById('q');
+  var empty = document.getElementById('empty');
+  var items = Array.prototype.slice.call(document.querySelectorAll('[data-search]'));
+  input.addEventListener('input', function () {
+    var query = input.value.trim().toLowerCase();
+    var shown = 0;
+    items.forEach(function (item) {
+      var match = !query || (item.getAttribute('data-search') || '').indexOf(query) !== -1;
+      item.hidden = !match;
+      if (match) shown++;
+    });
+    empty.hidden = shown > 0;
+  });
+})();
+</script>
+</body>
+</html>`;
+
   await ensureDir(path.dirname(dashboardFile));
   await fs.writeFile(dashboardFile, html, 'utf8');
+  await fs.writeFile(path.join(path.dirname(dashboardFile), 'findings.html'), findingsHtml, 'utf8');
 }

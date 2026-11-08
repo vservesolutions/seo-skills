@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Latest SEO findings — SEO Skills</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #f7f8fb;
+    --panel: #ffffff;
+    --ink: #14161c;
+    --muted: #5b6472;
+    --line: #e4e7ee;
+    --accent: #2456d8;
+    --chip: #eef2fb;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0e1117;
+      --panel: #161b24;
+      --ink: #e8ecf4;
+      --muted: #98a2b3;
+      --line: #242b37;
+      --accent: #7ea2ff;
+      --chip: #1d2532;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 16px/1.6 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 48px 24px 72px; }
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: .14em;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--accent);
+    margin: 0 0 8px;
+  }
+  h1 { font-size: clamp(30px, 4vw, 44px); line-height: 1.1; margin: 0 0 12px; letter-spacing: -.02em; }
+  .lede { color: var(--muted); max-width: 60ch; margin: 0 0 28px; font-size: 17px; }
+  .stats { display: flex; flex-wrap: wrap; gap: 12px; margin: 0 0 40px; padding: 0; list-style: none; }
+  .stats li {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 14px 18px;
+    min-width: 130px;
+  }
+  .stats strong { display: block; font-size: 24px; line-height: 1.2; }
+  .stats span { color: var(--muted); font-size: 13px; }
+  h2 { font-size: 20px; letter-spacing: -.01em; margin: 0 0 16px; }
+  .section-head { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; justify-content: space-between; margin-bottom: 16px; }
+  .section-head h2 { margin: 0; }
+  input[type=search] {
+    flex: 1 1 240px;
+    max-width: 360px;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 10px 14px;
+    font: inherit;
+    color: var(--ink);
+  }
+  input[type=search]:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+  .group + .group { margin-top: 28px; }
+  .group-title { font-size: 15px; margin: 0 0 12px; color: var(--muted); font-weight: 600; }
+  .count { color: var(--muted); font-weight: 400; font-size: 13px; letter-spacing: 0; }
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 18px;
+    text-decoration: none;
+    color: inherit;
+  }
+  .card:hover { border-color: var(--accent); }
+  .card h3 { margin: 0; font-size: 16px; line-height: 1.35; }
+  .card p { margin: 0; color: var(--muted); font-size: 14px; }
+  .card footer { display: flex; flex-wrap: wrap; gap: 10px; color: var(--muted); font-size: 12px; margin-top: auto; padding-top: 4px; }
+  .badge {
+    align-self: flex-start;
+    background: var(--chip);
+    color: var(--accent);
+    border-radius: 999px;
+    padding: 3px 10px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+  }
+  section + section { margin-top: 48px; }
+  .jump { display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 32px; }
+  .jump a {
+    color: var(--accent);
+    text-decoration: none;
+    border: 1px solid var(--line);
+    background: var(--panel);
+    border-radius: 999px;
+    padding: 6px 14px;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .jump a:hover { border-color: var(--accent); }
+  .tabs { display: flex; gap: 8px; overflow-x: auto; padding: 2px 2px 10px; margin: 0 0 18px; }
+  .tab {
+    flex: 0 0 auto;
+    font: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent);
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 6px 14px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .tab:hover { border-color: var(--accent); }
+  .tab[aria-selected="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .tab[aria-selected="true"] .count { color: rgba(255, 255, 255, .75); }
+  .group[hidden] { display: none; }
+  .findings { list-style: none; margin: 0; padding: 0; border: 1px solid var(--line); border-radius: 14px; background: var(--panel); overflow: hidden; }
+  .finding { padding: 16px 18px; border-bottom: 1px solid var(--line); }
+  .finding:last-child { border-bottom: 0; }
+  .finding-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; color: var(--muted); font-size: 12px; margin-bottom: 4px; }
+  .finding-meta > span:first-child { color: var(--accent); font-weight: 600; }
+  .chip { background: var(--chip); border-radius: 999px; padding: 2px 8px; font-size: 11px; }
+  .finding-title { color: inherit; font-weight: 600; text-decoration: none; }
+  .finding-title:hover { text-decoration: underline; }
+  .finding p { margin: 6px 0 0; color: var(--muted); font-size: 14px; }
+  #empty { color: var(--muted); padding: 20px 0; }
+  footer.page { margin-top: 56px; color: var(--muted); font-size: 13px; border-top: 1px solid var(--line); padding-top: 20px; }
+  code { background: var(--chip); padding: 1px 6px; border-radius: 6px; font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <p class="eyebrow">Collected knowledge</p>
+    <h1>Latest findings</h1>
+    <p class="lede">The 60 most recent items from 23 SEO sources, newest first. Each one is deduplicated and classified, then used to rebuild the skills; the full history is in <code>data/findings.jsonl</code>.</p>
+  </header>
+
+  <main>
+    <nav class="jump">
+      <a href="index.html">← Skills and library</a>
+      <a href="../skills/INDEX.md">Skill index</a>
+    </nav>
+
+    <section id="findings">
+      <div class="section-head">
+        <h2>All 60 findings</h2>
+        <input id="q" type="search" placeholder="Filter findings…" aria-label="Filter findings">
+      </div>
+      <ul class="findings">
+<li class="finding" data-search="rank data problems, pagespeed scores &amp; ai training opt-out two issues in the google results that rank tracking tools collect can throw off ranking reports. 30 (if it was a google redirect) compare the url that your tracker stored versus where the redirect points. read our full coverage: rank trackers find google results about one word of a query and serp data providers say google is throttling goto result links rank trackers find google results about one word of a query analytics-measurement migration-redirects rank-tracking search engine journal google research">
+  <div class="finding-meta"><span>Search Engine Journal</span><span>2026-11-07</span><span class="chip">analytics-measurement</span><span class="chip">migration-redirects</span></div>
+  <a class="finding-title" href="https://www.searchenginejournal.com/seo-pulse-rank-data-problems-pagespeed-scores-ai-training-opt-out/596104" target="_blank" rel="noreferrer">Rank Data Problems, PageSpeed Scores &amp; AI Training Opt-Out</a>
+  <p>Two issues in the Google results that rank tracking tools collect can throw off ranking reports.</p>
+</li>
+<li class="finding" data-search="ai visibility mistake #3: your website is enough most of what ai cites isn&#39;t your website. in our own experiment, our test brand barely appeared in non-branded answers through its own site. how much of your ai visibility work happens off your own domain? ai-search-geo se ranking (youtube) news">
+  <div class="finding-meta"><span>SE Ranking (YouTube)</span><span>2026-11-06</span><span class="chip">ai-search-geo</span></div>
+  <a class="finding-title" href="https://www.youtube.com/shorts/SBwRiJ5vM8A" target="_blank" rel="noreferrer">AI Visibility Mistake #3: Your Website Is Enough</a>
+  <p>Most of what AI cites isn&#39;t your website.</p>
+</li>
+<li class="finding" data-search="google gemini business profile tools are coming to workspace google says businesses that manage their business profile with a google workspace account are getting access to gemini’s profile tools. the same bulletin states that businesses who have established a chat option on their business profile now display a “message” button next to the “call” button on their google maps listings on both android and ios devices. the bulletin labels workspace access “rolling out now” for the business profile connection google announced in june . owners can also upload photos and videos into gemini chat directly from a device or from google photos, google says, allowing them to add images to their business profile photo or create new posts. google-business-profile ai-search-geo local-seo search engine journal google gemini news">
+  <div class="finding-meta"><span>Search Engine Journal</span><span>2026-11-06</span><span class="chip">google-business-profile</span><span class="chip">ai-search-geo</span></div>
+  <a class="finding-title" href="https://www.searchenginejournal.com/google-gemini-business-profile-workspace-2/596120" target="_blank" rel="noreferrer">Google Gemini Business Profile Tools Are Coming To Workspace</a>
+  <p>Google says businesses that manage their Business Profile with a Google Workspace account are getting access to Gemini’s profile tools.</p>
+</li>
+<li class="finding" data-search="tiktok search ads are becoming real search advertising a paid search manager has seen match type names, negative keyword lists and the search terms report before as part of google ads management. tiktok’s search terms report is located where an individual managing a google ads campaign would look for it. the impression share help page , dated september 2026, has definitions for impression share as “the percentage of eligible search results impressions your ads captured” and top 1 impression share as the same share of first-position impressions. keyword totals show the top performers, tiktok points overall analysis to the ad group and campaign, and ios14 skan conversion data is missing, so a cross-platform report needs a tiktok search row that… keyword-research analytics-measurement search engine journal google news">
+  <div class="finding-meta"><span>Search Engine Journal</span><span>2026-11-06</span><span class="chip">keyword-research</span><span class="chip">analytics-measurement</span></div>
+  <a class="finding-title" href="https://www.searchenginejournal.com/tiktok-search-ads-are-becoming-real-search-advertising/596016" target="_blank" rel="noreferrer">TikTok Search Ads Are Becoming Real Search Advertising</a>
+  <p>A paid search manager has seen match type names, negative keyword lists and the search terms report before as part of Google Ads management.</p>
+</li>
+<li class="finding" data-search="openai creating chatgpt tools for business for analytics &amp; citations this tool will let you &quot;claim your business in chatgpt.&quot; this will allow businesses to: see how your business shows up: track how often your business is mentioned in chatgpt conversations. this was spotted and posted on linkedin by juozas kaziukėnas who wrote, &quot;chatgpt is building an analytics tool to &quot;track how often your business is mentioned in chatgpt conversations.&quot; he added that this &quot;measures both impressions and clicks: number of times a business appeared in chatgpt responses and number of clicks on links to their website. analytics-measurement local-seo search engine roundtable openai chatgpt news">
+  <div class="finding-meta"><span>Search Engine Roundtable</span><span>2026-11-06</span><span class="chip">analytics-measurement</span><span class="chip">local-seo</span></div>
+  <a class="finding-title" href="https://www.seroundtable.com/chatgpt-tools-for-business-42476.html" target="_blank" rel="noreferrer">OpenAI Creating ChatGPT Tools For Business For Analytics &amp; Citations</a>
+  <p>This tool will let you &quot;Claim your business in ChatGPT.&quot; This will allow businesses to: See how your business shows up: Track how often your business is mentioned in ChatGPT conversations.</p>
+</li>
+<li class="finding" data-search="ai visibility isn’t a sham chatgpt visitors converted at 13.8%, against 3.02% for google organic. a 5% lift in organic search delivered 10.3 additional conversions per site per month. he then ran 632 tests on four brands, comparing weekly ai visibility with direct traffic and branded search at delays of zero to six weeks. branded web mentions correlated at 0.664 with ai overview brand visibility, and branded anchors at 0.527. ai-search-geo ai-overviews search engine journal google chatgpt news">
+  <div class="finding-meta"><span>Search Engine Journal</span><span>2026-11-06</span><span class="chip">ai-search-geo</span><span class="chip">ai-overviews</span></div>
+  <a class="finding-title" href="https://www.searchenginejournal.com/ai-visibility-isnt-a-sham-most-ways-of-measuring-it-are/594405" target="_blank" rel="noreferrer">AI Visibility Isn’t A Sham</a>
+  <p>ChatGPT visitors converted at 13.8%, against 3.02% for Google organic.</p>
+</li>
+<li class="finding" data-search="daily search forum recap: november 6, 2026 google ai mode asking searchers to continue with this search google is now asking searchers to &quot;continue with this search&quot; when they go to ai mode. search news buzz video recap: google scaled content abuse from facebook, chatgpt search 20% of google &amp; more seo, ppc &amp; local this week, we covered facebook’s latest ai-slop strategy that likely will get hit by google’s scaled content abuse policy. google search clicks to news publishers rose 8x on election day google’s data center investment in wyoming , google blog ai-search-geo ai-overviews algorithm-updates search engine roundtable google chatgpt news">
+  <div class="finding-meta"><span>Search Engine Roundtable</span><span>2026-11-06</span><span class="chip">ai-search-geo</span><span class="chip">ai-overviews</span></div>
+  <a class="finding-title" href="https://www.seroundtable.com/recap-11-06-2026-42474.html" target="_blank" rel="noreferrer">Daily Search Forum Recap: November 6, 2026</a>
+  <p>Google AI Mode Asking Searchers To Continue With This Search Google is now asking searchers to &quot;continue with this search&quot; when they go to AI Mode.</p>
+</li>
+<li class="finding" data-search="video: google scaled content abuse from facebook, chatgpt search 20% of google &amp; more seo, ppc &amp; locals google said important urls can still show in google search even after a 400 status code, for some time. google search console had this weird spike in clicks in the performance report. openai said chatgpt has 20% of the search volume google has. search topics of discussion: 0:00 - introduction 1:09 - facebook answers ai-generated 6 million pages is google scaled content abuse 2:53 - google can temporarily protect important urls from being deindexed 4:20 - only home page indexed? algorithm-updates spam-policy analytics-measurement search engine roundtable google openai chatgpt news">
+  <div class="finding-meta"><span>Search Engine Roundtable</span><span>2026-11-06</span><span class="chip">algorithm-updates</span><span class="chip">spam-policy</span></div>
+  <a class="finding-title" href="https://www.seroundtable.com/video-11-06-2026-42469.html" target="_blank" rel="noreferrer">Video: Google Scaled Content Abuse From Facebook, ChatGPT Search 20% Of Google &amp; More SEO, PPC &amp; Locals</a>
+  <p>Google said important URLs can still show in Google Search even after a 400 status code, for some time.</p>
+</li>
+<li class="finding" data-search="google business profiles manage offers google has created a new help document named manage offers on your business profile. offers in google business profiles is available only in select regions and languages and these can be created through offers post or special offers discovered through linked social media profiles. google already documented offer data metrics within google business profiles performance metrics. understand offers where customers find your offers how offers get added to your profile how to remove unauthorized or inaccurate third-party offers escalate to google support if the provider is unauthorized google-business-profile local-seo search engine roundtable google news">
+  <div class="finding-meta"><span>Search Engine Roundtable</span><span>2026-11-06</span><span class="chip">google-business-profile</span><span class="chip">local-seo</span></div>
+  <a class="finding-title" href="https://www.seroundtable.com/google-business-profiles-manage-offers-42471.html" target="_blank" rel="noreferrer">Google Business Profiles Manage Offers</a>
+  <p>Google has created a new help document named Manage offers on your Business Profile.</p>
+</li>
+<li class="finding" data-search="google ai mode: continue with this search? google is now asking searchers to &quot;continue with this search&quot; when they go to ai mode. this is a way to encourage searchers who started a search in ai mode to continue and do more searches. this also might be a way that google is trying to block bots and scrapers from searching on ai mode. i doubt it was related to that click pattern but rather that he went back into ai mode and google wanted him to continue a recent search he conducted. ai-overviews ai-search-geo search engine roundtable google news">
+  <div class="finding-meta"><span>Search Engine Roundtable</span><span>2026-11-06</span><span class="chip">ai-overviews</span><span class="chip">ai-search-geo</span></div>
+  <a class="finding-title" href="https://www.seroundtable.com/google-ai-mode-continue-with-this-search-42475.html" target="_blank" rel="noreferrer">Google AI Mode: Continue With This Search?</a>
+  <p>Google is now asking searchers to &quot;continue with this search&quot; when they go to AI Mode.</p>
+</li>
+<li class="finding" data-search="google shopping dominating the european product search results post dma brightedge wrote, &quot;google shopping leads the new box.&quot; the google shopping box &quot;appears 16 to 35 times as often as the next-largest service, and 71% of comparison sites appearances land in the top four result positions,&quot; they found. &quot;across the four markets analyzed, 71% of comparison sites appearances fell in the top four result positions, from 61% in france to 76% in spain and italy, so the box is premium space,&quot; brightedge said. the content at the search engine roundtable are the sole opinion of the authors and in no way reflect views of rustybrick ®, inc copyright © 1994-2026 rustybrick ® , inc. this work by search engine roundtable is licensed under a creative commons attribution 3.0… ai-search-geo algorithm-updates search engine roundtable google openai chatgpt youtube news">
+  <div class="finding-meta"><span>Search Engine Roundtable</span><span>2026-11-06</span><span class="chip">ai-search-geo</span><span class="chip">algorithm-updates</span></div>
+  <a class="finding-title" href="https://www.seroundtable.com/google-shopping-eu-dma-42456.html" target="_blank" rel="noreferrer">Google Shopping Dominating The European Product Search Results Post DMA</a>
+  <p>BrightEdge wrote, &quot;Google Shopping leads the new box.&quot; The Google Shopping box &quot;appears 16 to 35 times as often as the next-largest service, and 71% of Comparison Sites appearances land in the top four result positions,&quot; they found.</p>
+</li>
+<li class="finding" data-search="google pushing ai mode users to add personal intelligence google is throwing up pop-up notifications in ai mode to encourage searchers to turn on personal intelligence . this was spotted by sachin patel who posted this on search engine watch - he wrote, &quot;the popup appears to encourage users to connect more of their google apps to search so results can be more personalized.&quot; make search uniquely yours by connecting more of your google apps, all while safeguarding your info. the content at the search engine roundtable are the sole opinion of the authors and in no way reflect views of rustybrick ®, inc copyright © 1994-2026 rustybrick ® , inc. ai-overviews ai-search-geo search engine roundtable google news">
+  <div class="finding-meta"><span>Search Engine Roundtable</span><span>2026-11-06</span><span class="chip">ai-overviews</span><span class="chip">ai-search-geo</span></div>
+  <a class="finding-title" href="https://www.seroundtable.com/google-personal-intelligence-popup-42468.html" target="_blank" rel="noreferrer">Google Pushing AI Mode Users To Add Personal Intelligence</a>
+  <p>Google is throwing up pop-up notifications in AI Mode to encourage searchers to turn on Personal Intelligence .</p>
+</li>
+<li class="finding" data-search="google confirms issues with merchant center google has confirmed there is an ongoing issue right now with google merchant center. the issue is with merchant api, merchant center, and feeds, google posted at 5:26 am et on the google merchant center status page . there are some complaints in the google merchant center forums - one said, &quot;when i opened my account, it suddenly loads so much and it just keeps loading, not just this overview but so as the other pages and it is not showing my data. forum discussion at google merchant center forums . ecommerce-seo search engine roundtable google news">
+  <div class="finding-meta"><span>Search Engine Roundtable</span><span>2026-11-06</span><span class="chip">ecommerce-seo</span></div>
+  <a class="finding-title" href="https://www.seroundtable.com/google-confirms-issues-with-merchant-center-42473.html" target="_blank" rel="noreferrer">Google Confirms Issues With Merchant Center</a>
+  <p>Google has confirmed there is an ongoing issue right now with Google Merchant Center.</p>
+</li>
+<li class="finding" data-search="google expands business messaging to google maps on android and ios google published its monthly &quot;google small business bulletin&quot; where it gives tips and recaps what new features launched in google maps and google business profiles. we covered most of it but i think we missed that google expanded messaging to google maps on ios and android. lisa landsman posted the details in the google business help forums and the item we did not cover was the section named &quot;messaging expands to google maps.&quot; &quot;we’ve expanded the feature so customers on both android and ios can now find a prominent message button right next to &quot;call&quot; on your google maps listing,&quot; she wrote. local-seo google-business-profile search engine roundtable google news">
+  <div class="finding-meta"><span>Search Engine Roundtable</span><span>2026-11-06</span><span class="chip">local-seo</span><span class="chip">google-business-profile</span></div>
+  <a class="finding-title" href="https://www.seroundtable.com/google-maps-messaging-android-ios-42472.html" target="_blank" rel="noreferrer">Google Expands Business Messaging To Google Maps On Android and iOS</a>
+  <p>Google published its monthly &quot;Google Small Business Bulletin&quot; where it gives tips and recaps what new features launched in Google Maps and Google Business Profiles.</p>
+</li>
+<li class="finding" data-search="google search queries hit a 5-year high, and search revenue didn’t follow alphabet just reported the fastest growth in google search queries in five years; in the same quarter, its search revenue grew at the slowest rate in 2026. this quarter, the effect shows up in a counted number, google’s own revenue line, with a google executive naming ai mode as a cause. google’s q3 explanation for slower search revenue named three temporary factors and one structural one: ai mode queries are growing faster than they earn, and that gap widens with every quarter of adoption until ad yield inside the answer catches up. google didn’t give the rate, and it didn’t say how a query is counted inside an ai mode session. ai-overviews ai-search-geo search engine journal google news">
+  <div class="finding-meta"><span>Search Engine Journal</span><span>2026-11-05</span><span class="chip">ai-overviews</span><span class="chip">ai-search-geo</span></div>
+  <a class="finding-title" href="https://www.searchenginejournal.com/google-search-queries-hit-a-5-year-high-and-search-revenue-didnt-follow/595485" target="_blank" rel="noreferrer">Google Search Queries Hit A 5-Year High, And Search Revenue Didn’t Follow</a>
+  <p>Alphabet just reported the fastest growth in Google search queries in five years; in the same quarter, its search revenue grew at the slowest rate in 2026.</p>
+</li>
+<li class="finding" data-search="ai visibility mistake #2: your best chart is lying ask ai about your brand by name and of course it mentions you. ai-search-geo se ranking (youtube) news">
+  <div class="finding-meta"><span>SE Ranking (YouTube)</span><span>2026-11-05</span><span class="chip">ai-search-geo</span></div>
+  <a class="finding-title" href="https://www.youtube.com/shorts/nsNc3zi0BF4" target="_blank" rel="noreferrer">AI Visibility Mistake #2: Your Best Chart Is Lying</a>
+  <p>Ask AI about your brand by name and of course it mentions you.</p>
+</li>
+<li class="finding" data-search="november click spikes in google search console are bot traffic – how to filter your reports seeing a vertical jump in search console clicks? bots, not humans, are behind it. here’s how to spot it and filter your reports. the post november click spikes in google search console are bot traffic – how to filter your reports appeared first on search engine journal . analytics-measurement search-console search engine journal google guide">
+  <div class="finding-meta"><span>Search Engine Journal</span><span>2026-11-05</span><span class="chip">analytics-measurement</span><span class="chip">search-console</span></div>
+  <a class="finding-title" href="https://www.searchenginejournal.com/november-click-spikes-in-google-search-console-are-bot-traffic-how-to-filter-your-reports/595834" target="_blank" rel="noreferrer">November Click Spikes In Google Search Console Are Bot Traffic – How To Filter Your Reports</a>
+  <p>Seeing a vertical jump in Search Console clicks?</p>
+</li>
+<li class="finding" data-search="search data for creators in search console (new!) see more at https://youtu.be/p7grnk_rems do you have a profile on instagram, tiktok, x, or youtube? you can now verify ownership of a number of creator profiles - instagram, tiktok, x, and youtube - and check out your personal data on how they&#39;re shown in search. in the latest google search news, john mueller shared about updates in google search console. analytics-measurement search-console google search central (youtube) google youtube research">
+  <div class="finding-meta"><span>Google Search Central (YouTube)</span><span>2026-11-05</span><span class="chip">analytics-measurement</span><span class="chip">search-console</span></div>
+  <a class="finding-title" href="https://www.youtube.com/shorts/1vKaJBh01fY" target="_blank" rel="noreferrer">Search data for creators in Search Console (New!)</a>
+  <p>See more at https://youtu.be/P7grNk_REms Do you have a profile on Instagram, TikTok, X, or Youtube?</p>
+</li>
+<li class="finding" data-search="ads in google ai answers concentrate in apparel &amp; electronics new holiday data counts ads inside google ai overviews, ai mode and chatgpt across five shopping categories and shows which prompts chatgpt ads ran on. the post ads in google ai answers concentrate in apparel &amp; electronics appeared first on search engine journal . ai-overviews ai-search-geo search engine journal google chatgpt news">
+  <div class="finding-meta"><span>Search Engine Journal</span><span>2026-11-05</span><span class="chip">ai-overviews</span><span class="chip">ai-search-geo</span></div>
+  <a class="finding-title" href="https://www.searchenginejournal.com/google-ai-answer-ads-apparel-electronics-report/595984" target="_blank" rel="noreferrer">Ads In Google AI Answers Concentrate In Apparel &amp; Electronics</a>
+  <p>New holiday data counts ads inside Google AI Overviews, AI Mode and ChatGPT across five shopping categories and shows which prompts ChatGPT ads ran on.</p>
+</li>
+<li class="finding" data-search="daily search forum recap: november 5, 2026 google can temporarily protected important urls from being deindexed gary illyes from google said that when important urls serve a 4xx status code, google search can &quot;temporarily protect the url from falling out of the index right away.&quot; meaning, google search will still show the url in google search, for a short while, just to make sure searchers can still find it. facebook answers ai-generated 6 million pages is google scaled content abuse if you looked at the google search results recently, you may have stumbled on content from facebook answers. currently, google has indexed over 6 million pages and they are ranking. google ads pmax channel report definitions coming to search &amp; shopping… analytics-measurement search-console algorithm-updates search engine roundtable google news">
+  <div class="finding-meta"><span>Search Engine Roundtable</span><span>2026-11-05</span><span class="chip">analytics-measurement</span><span class="chip">search-console</span></div>
+  <a class="finding-title" href="https://www.seroundtable.com/recap-11-05-2026-42466.html" target="_blank" rel="noreferrer">Daily Search Forum Recap: November 5, 2026</a>
+  <p>Google Can Temporarily Protected Important URLs From Being Deindexed Gary Illyes from Google said that when important URLs serve a 4xx status code, Google Search can &quot;temporarily protect the URL from falling out of the index right away.&quot; Meaning, Google…</p>
+</li>
+<li class="finding" data-search="the new way to do keyword research (3 big shifts) 👉 find the keywords and search patterns your customers actually use with semrush keyword research tools. try it free for 7 days: https://social.semrush.com/4z5czpi high search volume alone no longer justifies a keyword, because google’s results pages and ai tools now answer many broad questions before anyone clicks. this video walks through a three-phase process (discovery, validation, and prioritization) using a portfolio tracker app as the running example. you’ll see how to turn customer complaints into search ideas, expand them with keyword magic tool and prompt research, and cluster them in keyword strategy builder. keyword-research semrush (youtube) google news">
+  <div class="finding-meta"><span>Semrush (YouTube)</span><span>2026-11-05</span><span class="chip">keyword-research</span></div>
+  <a class="finding-title" href="https://www.youtube.com/watch?v=Hf8kmXq3rV8" target="_blank" rel="noreferrer">The NEW Way to Do Keyword Research (3 Big Shifts)</a>
+  <p>👉 Find the keywords and search patterns your customers actually use with Semrush keyword research tools.</p>
+</li>
+<li class="finding" data-search="facebook answers ai-generated 6 million pages is google scaled content abuse facebook answers are ai-generated pages, and answers are made up of facebook posts and pages and are then open for indexing by google and others. currently, google has indexed over 6 million pages and they are ranking. algorithm-updates spam-policy search engine roundtable google news">
+  <div class="finding-meta"><span>Search Engine Roundtable</span><span>2026-11-05</span><span class="chip">algorithm-updates</span><span class="chip">spam-policy</span></div>
+  <a class="finding-title" href="https://www.seroundtable.com/facebook-answers-google-42467.html" target="_blank" rel="noreferrer">Facebook Answers AI-Generated 6 Million Pages Is Google Scaled Content Abuse</a>
+  <p>Facebook Answers are AI-generated pages, and answers are made up of Facebook posts and pages and are then open for indexing by Google and others.</p>
+</li>
+<li class="finding" data-search="geo isn’t a distraction – referral data misses where ai shapes buying decisions geo&#39;s low referral traffic can hide its influence on buying decisions, while cited research shows chatgpt visitors convert nearly five times better than search visitors. the post geo isn’t a distraction – referral data misses where ai shapes buying decisions appeared first on search engine journal . ai-search-geo search engine journal chatgpt research">
+  <div class="finding-meta"><span>Search Engine Journal</span><span>2026-11-05</span><span class="chip">ai-search-geo</span></div>
+  <a class="finding-title" href="https://www.searchenginejournal.com/geo-isnt-a-distraction-referral-data-misses-where-ai-shapes-buying-decisions/595730" target="_blank" rel="noreferrer">GEO Isn’t A Distraction – Referral Data Misses Where AI Shapes Buying Decisions</a>
+  <p>GEO&#39;s low referral traffic can hide its influence on buying decisions, while cited research shows ChatGPT visitors convert nearly five times better than search visitors.</p>
+</li>
+<li class="finding" data-search="live website audit: seo fixes for ai search visibility in 2027 your technical seo and ai readiness checklist for 2027. join loren baker, founder of search engine journal, and vahan petrosyan, sej&#39;s director of technology, as they audit a real website live. a page that looks complete to a human visitor might come through blank to google and ai assistants. a server setting or an old rule can turn away crawlers you don&#39;t want to block. ai-search-geo search engine journal (youtube) google news">
+  <div class="finding-meta"><span>Search Engine Journal (YouTube)</span><span>2026-11-05</span><span class="chip">ai-search-geo</span></div>
+  <a class="finding-title" href="https://www.youtube.com/watch?v=lkseeolaTy0" target="_blank" rel="noreferrer">Live Website Audit: SEO Fixes for AI Search Visibility in 2027</a>
+  <p>Your technical SEO and AI readiness checklist for 2027.</p>
+</li>
+<li class="finding" data-search="ai visibility vs. search rankings: is your agency measuring the wrong thing for 2027? measure ai visibility beyond rankings and citations. use inclusion, framing, and endorsement to show clients what changed and what to do next. the post ai visibility vs. search rankings: is your agency measuring the wrong thing for 2027? appeared first on search engine journal . ai-search-geo search engine journal news">
+  <div class="finding-meta"><span>Search Engine Journal</span><span>2026-11-05</span><span class="chip">ai-search-geo</span></div>
+  <a class="finding-title" href="https://www.searchenginejournal.com/ai-visibility-vs-search-rankings-is-your-agency-measuring-the-wrong-thing-for-2027-spa/594163" target="_blank" rel="noreferrer">AI Visibility vs. Search Rankings: Is Your Agency Measuring the Wrong Thing For 2027?</a>
+  <p>Measure AI visibility beyond rankings and citations.</p>
+</li>
+<li class="finding" data-search="google brings ucp direct checkout to ai mode in canada google is expanding ucp-powered direct checkout in ai mode and the gemini app to canadian shoppers, with a merchant center integration planned for next year. the post google brings ucp direct checkout to ai mode in canada appeared first on search engine journal . ai-search-geo ai-overviews ecommerce-seo search engine journal google gemini news">
+  <div class="finding-meta"><span>Search Engine Journal</span><span>2026-11-05</span><span class="chip">ai-search-geo</span><span class="chip">ai-overviews</span></div>
+  <a class="finding-title" href="https://www.searchenginejournal.com/google-brings-ucp-direct-checkout-to-ai-mode-in-canada/595882" target="_blank" rel="noreferrer">Google Brings UCP Direct Checkout To AI Mode In Canada</a>
+  <p>Google is expanding UCP-powered direct checkout in AI Mode and the Gemini app to Canadian shoppers, with a Merchant Center integration planned for next year.</p>
+</li>
+<li class="finding" data-search="reddit adds ads to search, expands keyword targeting reddit is testing ads in its own search results with select advertisers and may match ads to what people search for. the post reddit adds ads to search, expands keyword targeting appeared first on search engine journal . on-page-seo search engine journal news">
+  <div class="finding-meta"><span>Search Engine Journal</span><span>2026-11-04</span><span class="chip">on-page-seo</span></div>
+  <a class="finding-title" href="https://www.searchenginejournal.com/reddit-begins-testing-ads-in-its-own-search-results/595935" target="_blank" rel="noreferrer">Reddit Adds Ads To Search, Expands Keyword Targeting</a>
+  <p>Reddit is testing ads in its own search results with select advertisers and may match ads to what people search for.</p>
+</li>
+<li class="finding" data-search="google adds home service booking &amp; quote links to ai mode ai mode now links home service searches to booking and quote pages. the post google adds home service booking &amp; quote links to ai mode appeared first on search engine journal . ai-overviews ai-search-geo search engine journal google news">
+  <div class="finding-meta"><span>Search Engine Journal</span><span>2026-11-04</span><span class="chip">ai-overviews</span><span class="chip">ai-search-geo</span></div>
+  <a class="finding-title" href="https://www.searchenginejournal.com/google-ai-mode-home-services-booking-quote-links/595871" target="_blank" rel="noreferrer">Google Adds Home Service Booking &amp; Quote Links To AI Mode</a>
+  <p>AI Mode now links home service searches to booking and quote pages.</p>
+</li>
+<li class="finding" data-search="reach is no longer the kpi: 4 signals from jupiter festival miami that reset 2027 media budgets build your 2027 paid media plan around attention, creators, and streaming, while testing whether new metrics drive incremental sales. the post reach is no longer the kpi: 4 signals from jupiter festival miami that reset 2027 media budgets appeared first on search engine journal . analytics-measurement search engine journal news">
+  <div class="finding-meta"><span>Search Engine Journal</span><span>2026-11-04</span><span class="chip">analytics-measurement</span></div>
+  <a class="finding-title" href="https://www.searchenginejournal.com/reach-is-losing-as-a-paid-media-kpi-4-signals-from-jupiter-festival-miami-for-2027/595221" target="_blank" rel="noreferrer">Reach Is No Longer The KPI: 4 Signals From Jupiter Festival Miami That Reset 2027 Media Budgets</a>
+  <p>Build your 2027 paid media plan around attention, creators, and streaming, while testing whether new metrics drive incremental sales.</p>
+</li>
+<li class="finding" data-search="how to track chatgpt visibility: a practical guide learn how to measure chatgpt visibility, track brand mentions and citations, compare competitors, identify gaps, and improve your ai search presence. chatgpt-visibility ai-search-geo ai-citations semrush blog chatgpt guide">
+  <div class="finding-meta"><span>Semrush Blog</span><span>2026-11-04</span><span class="chip">chatgpt-visibility</span><span class="chip">ai-search-geo</span></div>
+  <a class="finding-title" href="https://www.semrush.com/blog/how-to-track-your-chatgpt-visibility" target="_blank" rel="noreferrer">How to track ChatGPT visibility: a practical guide</a>
+  <p>Learn how to measure ChatGPT visibility, track brand mentions and citations, compare competitors, identify gaps, and improve your AI search presence.</p>
+</li>
+<li class="finding" data-search="you’re optimizing for last year’s chatgpt chatgpt changed more than any other ai model this year, and if your strategy hasn&#39;t changed with it, you&#39;re optimizing for last year&#39;s model. chatgpt used to reward cold facts and high-quality sources the most. the good news: one fix now works across all the leading ai models, because the first 100 words matter most for all of them. your job: – confirm the topic in sentence one – answer before you elaborate – serve quotable facts right away, ideally within the first 100 words that&#39;s what earns a chatgpt citation now. ai-search-geo surfer academy (youtube) chatgpt news">
+  <div class="finding-meta"><span>Surfer Academy (YouTube)</span><span>2026-11-04</span><span class="chip">ai-search-geo</span></div>
+  <a class="finding-title" href="https://www.youtube.com/shorts/e_GZsu3yHXc" target="_blank" rel="noreferrer">You’re Optimizing for LAST Year’s ChatGPT</a>
+  <p>ChatGPT changed more than any other AI model this year, and if your strategy hasn&#39;t changed with it, you&#39;re optimizing for last year&#39;s model.</p>
+</li>
+<li class="finding" data-search="301, 302, 307, 308: which redirect is the chosen one? what is the actual difference between a 301 and a 302 redirect and does it affect canonicalization? welcome back to the non-canonical cabinet, the series where google search developer advocates gary illyes and cherry prommawin dig through the dilapidated cabinet to answer the weirdest, most hyper-specific edge cases of technical seo. in this episode, they explain how each redirect status code affects search deduplication, clustering, and the canonicalization process (with a family of chicken watching): 🏖️ 301 vs. canonicalization: what does that have to do with all this? 🧳 307 &amp; 308 redirects: do they matter? migration-redirects google search central (youtube) google news">
+  <div class="finding-meta"><span>Google Search Central (YouTube)</span><span>2026-11-04</span><span class="chip">migration-redirects</span></div>
+  <a class="finding-title" href="https://www.youtube.com/watch?v=vfGGiFQbb7A" target="_blank" rel="noreferrer">301, 302, 307, 308: Which redirect is the chosen one?</a>
+  <p>What is the actual difference between a 301 and a 302 redirect and does it affect canonicalization?</p>
+</li>
+<li class="finding" data-search="get ready for a big google update in the next 30 days stakeholders should be told now that a broad core update is overdue; the documentation has already been rewritten around effort, originality, skill, and accuracy. a quality recalibration of scaled content is likely to land before the end of the year than after it. read the full article from dan taylor that explains why he thinks this is about to happen on search engine journal https://www.searchenginejournal.com/a-panda-style-update-within-a-month-according-to-prediction-model-signals algorithm-updates core-updates search engine journal (youtube) google news">
+  <div class="finding-meta"><span>Search Engine Journal (YouTube)</span><span>2026-11-04</span><span class="chip">algorithm-updates</span><span class="chip">core-updates</span></div>
+  <a class="finding-title" href="https://www.youtube.com/shorts/ldQe5Sqw9SU" target="_blank" rel="noreferrer">Get Ready For A Big Google Update In The Next 30 days</a>
+  <p>Stakeholders should be told now that a broad core update is overdue; the documentation has already been rewritten around effort, originality, skill, and accuracy.</p>
+</li>
+<li class="finding" data-search="your cfo wants to cut seo &amp; fund the same work as geo organic traffic is declining, and your cfo wants to cut the seo budget. here’s the problem: much of the work required to improve visibility across ai-powered discovery platforms is the same work already being funded through seo. seo investments should be classified according to the business outcomes they support, not simply the acronym or department attached to them. others protect existing revenue, maintain critical infrastructure, improve operational efficiency, or help the business evaluate emerging opportunities such as ai discovery. analytics-measurement ai-search-geo search engine journal (youtube) news">
+  <div class="finding-meta"><span>Search Engine Journal (YouTube)</span><span>2026-11-04</span><span class="chip">analytics-measurement</span><span class="chip">ai-search-geo</span></div>
+  <a class="finding-title" href="https://www.youtube.com/shorts/1cUXxNeJmqU" target="_blank" rel="noreferrer">Your CFO Wants To Cut SEO &amp; Fund The Same Work As GEO</a>
+  <p>Organic traffic is declining, and your CFO wants to cut the SEO budget.</p>
+</li>
+<li class="finding" data-search="schema is not enough, you need to be strategic structured data has always helped search engines understand your content, but in the age of ai search, simply adding schema to each page isn’t enough. llms are trying to understand entities, establish facts and connect the relationships between your brand, authors, products and content. read the full article from helen to learn how to avoid these structured data mistakes and make your content easier for ai systems to understand. schema-markup structured-data ai-search-geo search engine journal (youtube) news">
+  <div class="finding-meta"><span>Search Engine Journal (YouTube)</span><span>2026-11-04</span><span class="chip">schema-markup</span><span class="chip">structured-data</span></div>
+  <a class="finding-title" href="https://www.youtube.com/shorts/t4HvnPXYOz8" target="_blank" rel="noreferrer">Schema is not enough, you need to be strategic</a>
+  <p>Structured data has always helped search engines understand your content, but in the age of AI search, simply adding schema to each page isn’t enough.</p>
+</li>
+<li class="finding" data-search="information gain vs. content parity, why your ai search content isn&#39;t getting cited ai has made content parity cheap and fast. you can run prompts, pull citations, crawl competitors, find the missing concepts, and generate a page that matches everything already ranking. bill hunt calls this me-too parity, and it&#39;s why a set of pages built specifically for ai visibility can sit in search console as &quot;crawled – currently not indexed&quot; for over a month. read the full article by bill hunt on search engine journal: https://www.searchenginejournal.com/beyond-content-parity-building-a-validated-content-workflow-for-ai-search ai-search-geo analytics-measurement search-console search engine journal (youtube) news">
+  <div class="finding-meta"><span>Search Engine Journal (YouTube)</span><span>2026-11-04</span><span class="chip">ai-search-geo</span><span class="chip">analytics-measurement</span></div>
+  <a class="finding-title" href="https://www.youtube.com/shorts/Gd5qQdKhf8c" target="_blank" rel="noreferrer">Information Gain vs. Content Parity, Why Your AI Search Content Isn&#39;t Getting Cited</a>
+  <p>AI has made content parity cheap and fast.</p>
+</li>
+<li class="finding" data-search="brands are tracking ai visibility, are they measuring the right things? ai visibility tools can show you when your brand appears in chatgpt, ai overviews, and ai mode. knowing what to do with that score is the harder part. ai-search-geo ai-overviews search engine journal (youtube) chatgpt news">
+  <div class="finding-meta"><span>Search Engine Journal (YouTube)</span><span>2026-11-04</span><span class="chip">ai-search-geo</span><span class="chip">ai-overviews</span></div>
+  <a class="finding-title" href="https://www.youtube.com/shorts/lU9AQ7ZU5io" target="_blank" rel="noreferrer">Brands Are Tracking AI Visibility, Are They Measuring The Right Things?</a>
+  <p>AI visibility tools can show you when your brand appears in ChatGPT, AI Overviews, and AI Mode.</p>
+</li>
+<li class="finding" data-search="webmcp: what it is, why it matters, and what to do now webmcp is a proposed browser-level web standard that lets any webpage declare its capabilities as structured, callable tools for ai agents. llms-txt ai-search-geo semrush blog news">
+  <div class="finding-meta"><span>Semrush Blog</span><span>2026-11-04</span><span class="chip">llms-txt</span><span class="chip">ai-search-geo</span></div>
+  <a class="finding-title" href="https://www.semrush.com/blog/webmcp" target="_blank" rel="noreferrer">WebMCP: What it is, why it matters, and what to do now</a>
+  <p>WebMCP is a proposed browser-level web standard that lets any webpage declare its capabilities as structured, callable tools for AI agents.</p>
+</li>
+<li class="finding" data-search="how to optimize for chatgpt shopping openai launched it in 2025 , announcing that chatgpt would retrieve products from across the web and recommend them based on third-party structured metadata like pricing and reviews. add product schema markup : chatgpt uses structured metadata from first and third-party sources when deciding which products to recommend. a semrush experiment found that the top product chatgpt recommended was featured in the top three google shopping results 75% of the time. we suggest adding google’s recommended properties , as this can help with your visibility in google shopping, which overlaps with chatgpt’s product picks. structured-data ecommerce-seo semrush blog cloudflare google openai chatgpt guide">
+  <div class="finding-meta"><span>Semrush Blog</span><span>2026-11-04</span><span class="chip">structured-data</span><span class="chip">ecommerce-seo</span></div>
+  <a class="finding-title" href="https://www.semrush.com/blog/optimize-for-chatgpt-shopping" target="_blank" rel="noreferrer">How to optimize for ChatGPT shopping</a>
+  <p>OpenAI launched it in 2025 , announcing that ChatGPT would retrieve products from across the web and recommend them based on third-party structured metadata like pricing and reviews.</p>
+</li>
+<li class="finding" data-search="ai for product marketing (7 actionable use cases) now that you’ve created your project and added your context files, you can start actually using ai for specific product marketing use cases. act as a product marketing content reviewer. paste in a competitor&#39;s page alongside your messaging doc, and ask the tool to identify claims where you could position your own product as the stronger option by looking at search demand for terms related to your product, you can see the language your buyers use at scale and which competitor messages and pages drive organic traffic. keyword-research analytics-measurement semrush blog chatgpt news">
+  <div class="finding-meta"><span>Semrush Blog</span><span>2026-11-04</span><span class="chip">keyword-research</span><span class="chip">analytics-measurement</span></div>
+  <a class="finding-title" href="https://www.semrush.com/blog/ai-for-product-marketing" target="_blank" rel="noreferrer">AI for product marketing (7 actionable use cases)</a>
+  <p>Now that you’ve created your project and added your context files, you can start actually using AI for specific product marketing use cases.</p>
+</li>
+<li class="finding" data-search="google is finally paying websites… google just started paying websites when its ai uses their content. google just told you exactly what its ai values. not content that gets mentioned. content that shapes the answer. ai-search-geo ai-overviews neil patel (youtube) google gemini news">
+  <div class="finding-meta"><span>Neil Patel (YouTube)</span><span>2026-11-03</span><span class="chip">ai-search-geo</span><span class="chip">ai-overviews</span></div>
+  <a class="finding-title" href="https://www.youtube.com/shorts/FXGG2Ry_TmA" target="_blank" rel="noreferrer">Google Is Finally Paying Websites…</a>
+  <p>Google just started paying websites when its AI uses their content.</p>
+</li>
+<li class="finding" data-search="are you making these ai visibility mistakes right now? #aivisibility the riskiest ai visibility habits are the ones that pass every gut check. optimizing only your own site, chasing whichever platform is trending, mixing branded and non-branded prompts in one report, letting ai write your playbook. each sounds reasonable in a planning meeting. together they make a strategy look sharper than its results. ai-search-geo se ranking (youtube) news">
+  <div class="finding-meta"><span>SE Ranking (YouTube)</span><span>2026-11-03</span><span class="chip">ai-search-geo</span></div>
+  <a class="finding-title" href="https://www.youtube.com/shorts/UKz4fy9ZEv4" target="_blank" rel="noreferrer">Are you making these AI visibility mistakes right now? #aivisibility</a>
+  <p>The riskiest AI visibility habits are the ones that pass every gut check.</p>
+</li>
+<li class="finding" data-search="the 25 best aeo/geo experts to follow in 2026 research is how you answer these questions, and how you keep up with what’s changing in ai search. ai-search-geo ahrefs blog news">
+  <div class="finding-meta"><span>Ahrefs Blog</span><span>2026-11-03</span><span class="chip">ai-search-geo</span></div>
+  <a class="finding-title" href="https://ahrefs.com/blog/aeo-geo-experts" target="_blank" rel="noreferrer">The 25 Best AEO/GEO Experts to Follow in 2026</a>
+  <p>Research is how you answer these questions, and how you keep up with what’s changing in AI search.</p>
+</li>
+<li class="finding" data-search="possibly the easiest guide to schema markup ever 👉 find invalid schema markup across your whole site using semrush site audit. try it free for 7 days: https://social.semrush.com/4bytmlz schema markup can make your pages eligible for rich results such as star ratings, prices, and stock status, and adding it requires no coding background. in this video, we show how to generate schema and add it to any website (wordpress, shopify, lovable), then test it with google’s rich results test and the schema markup validator. structured-data rich-results semrush (youtube) wordpress shopify google guide">
+  <div class="finding-meta"><span>Semrush (YouTube)</span><span>2026-11-03</span><span class="chip">structured-data</span><span class="chip">rich-results</span></div>
+  <a class="finding-title" href="https://www.youtube.com/watch?v=dbyOL9Iy9lg" target="_blank" rel="noreferrer">Possibly the Easiest Guide to Schema Markup Ever</a>
+  <p>👉 Find invalid schema markup across your whole site using Semrush Site Audit.</p>
+</li>
+<li class="finding" data-search="which types of mentions correlate the strongest with ai visibility? (260m ai prompts analyzed) in our previous research, we analyzed different brand factors alongside ai visibility—including web mentions, anchors, search volume, number of referring domains and so on. this time, we zeroed in on brand mention types. ai-search-geo keyword-research ahrefs blog news">
+  <div class="finding-meta"><span>Ahrefs Blog</span><span>2026-11-03</span><span class="chip">ai-search-geo</span><span class="chip">keyword-research</span></div>
+  <a class="finding-title" href="https://ahrefs.com/blog/mention-types-ai-visibility" target="_blank" rel="noreferrer">Which Types of Mentions Correlate the Strongest With AI Visibility? (260M AI Prompts Analyzed)</a>
+  <p>In our previous research, we analyzed different brand factors alongside AI visibility—including web mentions, anchors, search volume, number of referring domains and so on.</p>
+</li>
+<li class="finding" data-search="how to track your gemini visibility with and without semrush learn gemini visibility tracking: what to measure, how to track brand mentions in gemini manually, and how to scale it with semrush. ai-search-geo chatgpt-visibility ai-citations semrush blog gemini guide">
+  <div class="finding-meta"><span>Semrush Blog</span><span>2026-11-03</span><span class="chip">ai-search-geo</span><span class="chip">chatgpt-visibility</span></div>
+  <a class="finding-title" href="https://www.semrush.com/blog/how-to-track-your-gemini-visibility" target="_blank" rel="noreferrer">How to track your Gemini visibility with and without Semrush</a>
+  <p>Learn Gemini visibility tracking: what to measure, how to track brand mentions in Gemini manually, and how to scale it with Semrush.</p>
+</li>
+<li class="finding" data-search="affiliate marketing is the gateway to ai visibility see which affiliate content ai answers cite, based on semrush‘s own affiliate program data, plus a five-step plan to turn partners into ai visibility. ai-search-geo semrush blog news">
+  <div class="finding-meta"><span>Semrush Blog</span><span>2026-11-03</span><span class="chip">ai-search-geo</span></div>
+  <a class="finding-title" href="https://www.semrush.com/blog/affiliate-marketing-ai-visibility" target="_blank" rel="noreferrer">Affiliate marketing is the gateway to AI visibility</a>
+  <p>See which affiliate content AI answers cite, based on Semrush‘s own affiliate program data, plus a five-step plan to turn partners into AI visibility.</p>
+</li>
+<li class="finding" data-search="screaming frog seo spider update – version 25.0 we’re delighted to announce screaming frog seo spider version 25.0, codenamed internally as ‘eaten your lunch’. alongside improved tooling within the mcp integration , the json config means your ai assistant can now fully adjust the seo spider configuration on the fly. you’re able to adjust the number of rate limited retries, and alongside the existing ‘5xx response retries’ setting, there is a new ‘connection failure retries’ configuration under ‘config &gt; spider &gt; advanced’, which works alongside the ‘pause crawl if a host stops responding’ option. relative xml sitemap support – in the ‘ crawl linked xml sitemaps ‘ config a relative xml sitemap url can now be provided ( /sitemap.xml ). technical-crawling-indexing sitemaps screaming frog blog release">
+  <div class="finding-meta"><span>Screaming Frog Blog</span><span>2026-11-03</span><span class="chip">technical-crawling-indexing</span><span class="chip">sitemaps</span></div>
+  <a class="finding-title" href="https://www.screamingfrog.co.uk/blog/seo-spider-25" target="_blank" rel="noreferrer">Screaming Frog SEO Spider Update – Version 25.0</a>
+  <p>We’re delighted to announce Screaming Frog SEO Spider version 25.0, codenamed internally as ‘eaten your lunch’.</p>
+</li>
+<li class="finding" data-search="gemini 4 carbon tops the benchmarks. so what? google says gemini 4 carbon beats the openai and anthropic models on benchmarks. google models are smart but bad at using tools. gemini models have been caught reading the same file 100 times in one task. his rule: give it the same real task you&#39;d give opus or an openai model before you switch. ai-search-geo authority hacker (youtube) google openai gemini news">
+  <div class="finding-meta"><span>Authority Hacker (YouTube)</span><span>2026-11-02</span><span class="chip">ai-search-geo</span></div>
+  <a class="finding-title" href="https://www.youtube.com/shorts/v1ETcjeSMGQ" target="_blank" rel="noreferrer">Gemini 4 Carbon tops the benchmarks. So what?</a>
+  <p>Google says Gemini 4 Carbon beats the OpenAI and Anthropic models on benchmarks.</p>
+</li>
+<li class="finding" data-search="your first 100 words decide everything your first 100 words decide whether ai cites your content. almost 40% of all ai citations now come from the first 100 words of a page, double the 20% from a year ago. ai models pick sources the way you pick a ride: an expensive airport taxi or a discounted uber. the further they have to read before finding something worth quoting, the more expensive the ride. ai-search-geo surfer academy (youtube) news">
+  <div class="finding-meta"><span>Surfer Academy (YouTube)</span><span>2026-11-02</span><span class="chip">ai-search-geo</span></div>
+  <a class="finding-title" href="https://www.youtube.com/shorts/8asHHeL0_Zs" target="_blank" rel="noreferrer">Your First 100 Words Decide EVERYTHING</a>
+  <p>Your first 100 words decide whether AI cites your content.</p>
+</li>
+<li class="finding" data-search="stop tracking impressions impressions reward volume. measure replies, saves, and time on page instead. more content won’t fix your reach. better content will. #contentmarketing #socialmediastrategy #marketingmetrics #digitalmarketing analytics-measurement neil patel (youtube) news">
+  <div class="finding-meta"><span>Neil Patel (YouTube)</span><span>2026-11-02</span><span class="chip">analytics-measurement</span></div>
+  <a class="finding-title" href="https://www.youtube.com/shorts/4TlJCbj9fyg" target="_blank" rel="noreferrer">Stop Tracking Impressions</a>
+  <p>Impressions reward volume.</p>
+</li>
+<li class="finding" data-search="7 ai visibility mistakes that could cost you in 2027 the gap we found is one most teams never see, because their dashboards blend it away. in this video, you&#39;ll learn how to: - build a prompt set that matches how buyers really ask ai. - find the off-site sources and social platforms ai search actually cites. - keep your brand story consistent everywhere ai reads about you. ai-search-geo se ranking (youtube) news">
+  <div class="finding-meta"><span>SE Ranking (YouTube)</span><span>2026-10-30</span><span class="chip">ai-search-geo</span></div>
+  <a class="finding-title" href="https://www.youtube.com/watch?v=9DfjyxOSfGU" target="_blank" rel="noreferrer">7 AI Visibility Mistakes That Could Cost You in 2027</a>
+  <p>The gap we found is one most teams never see, because their dashboards blend it away.</p>
+</li>
+<li class="finding" data-search="your content, your choice: clearer preferences for training and grounding this announcement covers web publisher preferences for web content collected through our crawlers and used for training or to inform generated responses, including web-grounded responses in bing, copilot, and microsoft 365 . starting february 1, 2027, microsoft will honor the new preferences as it crawls: ai training preferences in robots.txt apply to the relevant site or path, while page-level ai training and ai grounding preferences apply to individual pages. march 1, 2027 – deadline to maintain grounding restrictions: if you use noarchive or nocache and desire to withhold content from grounding, you must take the following steps before march 1, 2027 : (1) publish your ai grounding… robots-txt technical-crawling-indexing bing webmaster blog bing news">
+  <div class="finding-meta"><span>Bing Webmaster Blog</span><span>2026-10-30</span><span class="chip">robots-txt</span><span class="chip">technical-crawling-indexing</span></div>
+  <a class="finding-title" href="https://blogs.bing.com/search/2026/10/your-content-your-choice-clearer-preferences-for-training-and-grounding" target="_blank" rel="noreferrer">Your content, your choice: clearer preferences for training and grounding</a>
+  <p>This announcement covers web publisher preferences for web content collected through our crawlers and used for training or to inform generated responses, including web-grounded responses in Bing, Copilot, and Microsoft 365 .</p>
+</li>
+<li class="finding" data-search="more than bling: how seo can help your jewelry brand get found in this guide, we’ll explore why seo matters for jewelry businesses, what people and ai models are searching for, and how to make your website shine in search. use seo to help people find your jewelry business during active searches how to improve seo for your jewelry website use seo tools to make optimization easier your jewelry deserves to be found seo for a jewelry business is about understanding what your potential customers search for, the search intent behind those queries, and how your jewelry, services, and expertise can meet that intent. local-seo keyword-research ecommerce-seo yoast seo blog news">
+  <div class="finding-meta"><span>Yoast SEO Blog</span><span>2026-10-30</span><span class="chip">local-seo</span><span class="chip">keyword-research</span></div>
+  <a class="finding-title" href="https://yoast.com/seo-tip-for-jewelers" target="_blank" rel="noreferrer">More than bling: How SEO can help your jewelry brand get found</a>
+  <p>In this guide, we’ll explore why SEO matters for jewelry businesses, what people and AI models are searching for, and how to make your website shine in search.</p>
+</li>
+<li class="finding" data-search="we cracked what google ai mode wants to cite 🤫 surfer studied google ai mode citation factors, and first-hand experience matters more here than in any other ai model we analyzed. like other ai models, google ai mode looks at your intro first. in the first 100 words, answer the question, confirm you understand the search intent, and add a quotable stat or direct answer. google ai mode rewards original content that shows real experience: &quot;when we tested this on 40 client sites,&quot; &quot;here&#39;s the mistake i made the first time,&quot; real tests, real numbers, hard-earned lessons. ai-overviews ai-search-geo keyword-research surfer academy (youtube) google news">
+  <div class="finding-meta"><span>Surfer Academy (YouTube)</span><span>2026-10-30</span><span class="chip">ai-overviews</span><span class="chip">ai-search-geo</span></div>
+  <a class="finding-title" href="https://www.youtube.com/shorts/IzjuqLtMgI0" target="_blank" rel="noreferrer">We Cracked What Google AI Mode Wants to Cite 🤫</a>
+  <p>Surfer studied Google AI Mode citation factors, and first-hand experience matters more here than in any other AI model we analyzed.</p>
+</li>
+<li class="finding" data-search="what does ai say about your brand? find out and fix it live with surfer! what ai actually says about you is what wins the deal. join michał suski, head of innovation at surfer, for a live session on how ai search sees your brand, and how to improve it. - seo and content teams who need results in both google and ai search - marketing managers and cmos reporting on ai visibility - brand and pr managers who want to know how ai describes their brand - agencies managing ai visibility across multiple clients can’t make it live? 0:00 predicting the unpredictable: state of ai search 5:13 building for speed: managing content 10:47 uncovering what ai really says about your brand 21:18 setting up your new branded workspace 27:35 harnessing volatility: the ai tracker… ai-search-geo surfer academy (youtube) google news">
+  <div class="finding-meta"><span>Surfer Academy (YouTube)</span><span>2026-10-30</span><span class="chip">ai-search-geo</span></div>
+  <a class="finding-title" href="https://www.youtube.com/watch?v=RhBjzTPH4tE" target="_blank" rel="noreferrer">What Does AI Say About Your Brand? Find out and fix it live with Surfer!</a>
+  <p>What AI actually says about you is what wins the deal.</p>
+</li>
+<li class="finding" data-search="this seo tactic was dead. ai brought it back 👉 find the outlets llms cite most in your niche and turn them into a guest post pitch list with the semrush ai pr toolkit. try it free for 7 days: https://social.semrush.com/4ylz4qy guest posting earned a bad reputation through spammy outreach and backlinks forced into unrelated articles. ai search gives it a new job: placing your brand in the articles, lists, and comparisons ai tools pull from. rita cidre, head of semrush academy, shares a five-step playbook, from mapping the sources ai already cites to tracking off-site mentions month by month. link-building ai-search-geo semrush (youtube) news">
+  <div class="finding-meta"><span>Semrush (YouTube)</span><span>2026-10-29</span><span class="chip">link-building</span><span class="chip">ai-search-geo</span></div>
+  <a class="finding-title" href="https://www.youtube.com/watch?v=nvayX9VjspM" target="_blank" rel="noreferrer">This SEO Tactic Was Dead. AI Brought It Back</a>
+  <p>👉 Find the outlets LLMs cite most in your niche and turn them into a guest post pitch list with the Semrush AI PR Toolkit.</p>
+</li>
+<li class="finding" data-search="how stable are ai citations? 10 things we learned tracking 37,500 citations key takeaways: treat citation volatility as normal. ai-search-geo local-seo ahrefs blog news">
+  <div class="finding-meta"><span>Ahrefs Blog</span><span>2026-10-29</span><span class="chip">ai-search-geo</span><span class="chip">local-seo</span></div>
+  <a class="finding-title" href="https://ahrefs.com/blog/how-stable-are-ai-citations" target="_blank" rel="noreferrer">How Stable Are AI Citations? 10 Things We Learned Tracking 37,500 Citations</a>
+  <p>Key takeaways: Treat citation volatility as normal.</p>
+</li>
+<li class="finding" data-search="the october 2026 seo update by yoast recap welcome to the recap of the october 2026 seo update by yoast! watch the full october 2026 seo update by yoast on youtube . yoast seo for shopify webinar: november 10, 2026, at 7 pm cet / 1 pm et. the post the october 2026 seo update by yoast recap appeared first on yoast . analytics-measurement yoast seo blog wordpress shopify google openai news">
+  <div class="finding-meta"><span>Yoast SEO Blog</span><span>2026-10-28</span><span class="chip">analytics-measurement</span></div>
+  <a class="finding-title" href="https://yoast.com/the-october-2026-seo-update-by-yoast-recap" target="_blank" rel="noreferrer">The October 2026 SEO Update by Yoast recap</a>
+  <p>Welcome to the recap of the October 2026 SEO Update by Yoast!</p>
+</li>
+<li class="finding" data-search="should we be scared of a 404 status code? in this episode, they are haunted by the ghost of a missing chicken while trying to explain 404 errors: 👻 the reality of http 404s: why 404 &quot;not found&quot; status codes are a completely natural part of the web that won&#39;t negatively affect your healthy pages on search. 🧟 managing your digital graveyard: the &quot;homepage redirect&quot;. is it a good idea to redirect all broken links to your homepage? 🤠 the 3-step framework: when to let dead urls pass on peacefully with a 404 or 410 status code (cue: &quot;let it go&quot;) and when to redirect? what else can you do? 🕷️ debunking the crawl budget myth: do 404 errors do drain your crawl capacity? 📌 timestamps: 00:00 – welcome back to the cabinet (where is the… technical-crawling-indexing crawl-budget migration-redirects google search central (youtube) news">
+  <div class="finding-meta"><span>Google Search Central (YouTube)</span><span>2026-10-28</span><span class="chip">technical-crawling-indexing</span><span class="chip">crawl-budget</span></div>
+  <a class="finding-title" href="https://www.youtube.com/watch?v=zJcuRhx08ek" target="_blank" rel="noreferrer">Should we be scared of a 404 status code?</a>
+  <p>In this episode, they are haunted by the ghost of a missing chicken while trying to explain 404 errors: 👻 The Reality of HTTP 404s: Why 404 &quot;Not Found&quot; status codes are a completely natural part of the web that won&#39;t negatively affect your healthy pages on…</p>
+</li>
+      </ul>
+      <p id="empty" hidden>Nothing matches that filter.</p>
+    </section>
+  </main>
+
+  <footer class="page">
+    Generated 2026-11-08T12:27:44.189Z · <a href="index.html">SEO Skills dashboard</a> · <a href="../skills/index.json">index.json</a>
+  </footer>
+</div>
+<script>
+(function () {
+  var input = document.getElementById('q');
+  var empty = document.getElementById('empty');
+  var items = Array.prototype.slice.call(document.querySelectorAll('[data-search]'));
+  input.addEventListener('input', function () {
+    var query = input.value.trim().toLowerCase();
+    var shown = 0;
+    items.forEach(function (item) {
+      var match = !query || (item.getAttribute('data-search') || '').indexOf(query) !== -1;
+      item.hidden = !match;
+      if (match) shown++;
+    });
+    empty.hidden = shown > 0;
+  });
+})();
+</script>
+</body>
+</html>
