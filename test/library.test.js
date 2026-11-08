@@ -152,6 +152,30 @@ test('permissive licences keep full text, everything else is catalogued only', (
   assert.equal(unlicensed.license, 'none');
 });
 
+test('a skill without its own description uses its body, not the pack blurb', () => {
+  const markdown = `---
+name: geo-audit
+---
+
+# GEO audit
+
+Audit a brand's SEO visibility in AI answers and track the citations it earns.
+`;
+  const record = skillRecord({
+    repo: 'owner/pack',
+    skillPath: 'skills/geo-audit/SKILL.md',
+    markdown,
+    meta: { ...baseMeta, coverage: 'A large pack of SEO skills for agencies and in-house teams.' },
+    classify,
+    settings,
+    now,
+    topicIds
+  });
+  assert.ok(record);
+  assert.match(record.description, /SEO visibility in AI answers/);
+  assert.doesNotMatch(record.description, /large pack of SEO skills/);
+});
+
 test('a hyphenated search-visibility name is enough to keep the skill', () => {
   const record = build(
     'improve-search-visibility',

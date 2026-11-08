@@ -299,7 +299,7 @@ export function normalizeLicense(value) {
   return { spdx: bare, permissive: false };
 }
 
-async function githubJson(url, token) {
+async function githubJson(url, token, attempt = 1) {
   const headers = {
     accept: 'application/vnd.github+json',
     'user-agent': 'SEOSkillsBot/1.0 (+local SEO research collector)'
@@ -309,6 +309,11 @@ async function githubJson(url, token) {
   const resource = response.headers.get('x-ratelimit-resource') || '';
   const remaining = Number(response.headers.get('x-ratelimit-remaining'));
   const payload = await response.json().catch(() => ({}));
+  // A single GitHub 5xx should not cost a whole pack; retry once before giving up.
+  if (!response.ok && response.status >= 500 && attempt < 2) {
+    await sleep(2_000);
+    return githubJson(url, token, attempt + 1);
+  }
   if (!response.ok) {
     const error = new Error(
       response.status === 403 && remaining === 0
@@ -327,7 +332,8 @@ async function listSkillPaths(repo, token) {
     token
   );
   const paths = (json.tree || [])
-    .filter((entry) => entry.type === 'blob' && /\/SKILL\.md$/i.test(entry.path))
+    // A pack can ship its skill as a single SKILL.md at the repository root.
+    .filter((entry) => entry.type === 'blob' && /(^|\/)SKILL\.md$/i.test(entry.path))
     .map((entry) => entry.path)
     .filter((entry) => !SKIP_PATH.test(entry));
   return { paths, remaining };
@@ -375,8 +381,10 @@ export function skillRecord({ repo, skillPath, markdown, meta, classify, setting
   const { data, body } = parseFrontmatter(markdown);
   const fallbackName = skillPath.split('/').at(-2) || 'skill';
   const name = normalizeWhitespace(data.name || fallbackName).slice(0, 120);
+  // The skill's own text beats the pack blurb: otherwise a PDF or video skill
+  // inside an SEO pack is described (and filtered) as if it were SEO.
   const description = truncateAtWord(
-    normalizeWhitespace(data.description || meta.coverage || '') || firstBodyLine(body),
+    normalizeWhitespace(data.description || firstBodyLine(body) || meta.coverage || ''),
     600
   );
   if (description.length < settings.minDescriptionChars) return null;
@@ -664,6 +672,23 @@ export async function collectLibrary({
     });
   }
 
+  // `--repo` is an explicit request: scanning only discovery hits silently
+  // skipped packs the caller named but this run had not rediscovered.
+  for (const repo of only) {
+    if (candidates.has(repo)) continue;
+    const entry = scanned[repo] || {};
+    candidates.set(repo, {
+      repo,
+      coverage: '',
+      platforms: [],
+      license: entry.license || '',
+      stars: Number(entry.stars) || 0,
+      repoUpdatedAt: '',
+      listCategory: '',
+      from: 'command-line'
+    });
+  }
+
   const due = (repo) => {
     const at = scanned[repo]?.scannedAt ? Date.parse(scanned[repo].scannedAt) : 0;
     return !at || now.getTime() - at > rescanMs;
@@ -749,15 +774,26 @@ export async function collectLibrary({
         if (settings.delayMs) await sleep(settings.delayMs);
       }
 
+      // Files are deleted upstream; keep the catalogue in step with the pack.
+      const present = new Set(skillPaths);
+      let pruned = 0;
+      for (const [id, record] of records) {
+        if (record.repo === candidate.repo && !present.has(record.path)) {
+          records.delete(id);
+          pruned++;
+        }
+      }
+
       scanned[candidate.repo] = {
         scannedAt: now.toISOString(),
         skills: stored,
+        pruned,
         paths: skillPaths.length,
         stars: candidate.stars || 0,
         license: normalizeLicense(candidate.license).spdx,
         discovery: candidate.from || ''
       };
-      reports.repos.push({ repo: candidate.repo, ok: true, skills: stored, paths: skillPaths.length });
+      reports.repos.push({ repo: candidate.repo, ok: true, skills: stored, pruned, paths: skillPaths.length });
     } catch (error) {
       scanned[candidate.repo] = {
         ...(scanned[candidate.repo] || {}),
@@ -832,6 +868,8 @@ function discoveryLabel(record) {
   if (record.discoveredVia === 'github-search') return 'GitHub search';
   if (record.discoveredVia === 'github-code-search') return 'GitHub code search';
   if (record.discoveredVia === 'config') return 'config';
+  if (record.discoveredVia === 'state') return 'earlier run';
+  if (record.discoveredVia === 'command-line') return 'command line';
   return 'curated list';
 }
 

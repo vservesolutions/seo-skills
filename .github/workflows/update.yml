@@ -71,7 +71,12 @@ jobs:
             exit 0
           fi
           git commit -m "chore: refresh SEO skills $(date -u +%Y-%m-%dT%H:%MZ)"
-          git push
+          # A manual push can land mid-run; rebuild on top of it instead of failing.
+          for attempt in 1 2 3; do
+            if git push; then break; fi
+            git pull --rebase -X ours origin main
+            sleep 3
+          done
 
       - name: Summary
         if: always()
