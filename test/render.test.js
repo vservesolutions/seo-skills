@@ -3,7 +3,7 @@ import { test } from 'node:test';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
-import { renderSkills } from '../src/lib/render.js';
+import { renderSkills, renderDashboard } from '../src/lib/render.js';
 
 const now = new Date('2026-11-06T12:00:00.000Z');
 
@@ -81,5 +81,33 @@ test('renderSkills writes SKILL.md, INDEX.md and index.json', async () => {
   const again = await fs.readFile(skillPath, 'utf8');
   assert.equal(again, markdown);
 
+  // A topic that is no longer rendered must not leave a stale directory behind.
+  const staleDir = path.join(skillsDir, 'retired-topic');
+  await fs.mkdir(staleDir, { recursive: true });
+  await fs.writeFile(path.join(staleDir, 'SKILL.md'), 'stale', 'utf8');
+  await renderSkills(findings, topics, { skillsDir, now });
+  await assert.rejects(fs.stat(staleDir));
+
+  await fs.rm(skillsDir, { recursive: true, force: true });
+});
+
+test('renderDashboard puts each category behind a tab', async () => {
+  const skillsDir = path.join(process.cwd(), 'test', '.tmp-tab-skills');
+  const siteDir = path.join(process.cwd(), 'test', '.tmp-tab-site');
+  await fs.rm(skillsDir, { recursive: true, force: true });
+
+  const index = await renderSkills(findings, topics, { skillsDir, now });
+  const dashboardFile = path.join(siteDir, 'index.html');
+  await renderDashboard({ findings, skillsIndex: index, sourcesCount: 1, dashboardFile, now });
+
+  const html = await fs.readFile(dashboardFile, 'utf8');
+  assert.match(html, /<div class="tabs" data-tabgroup="skills"/);
+  assert.match(html, /data-category="technical-crawling-indexing"/);
+  assert.match(html, /data-category="international-seo"/);
+  assert.match(html, /data-category="all"/);
+  assert.match(html, /data-tabgroup="skills" data-category="international-seo"/);
+  assert.match(html, /aria-selected/);
+
+  await fs.rm(siteDir, { recursive: true, force: true });
   await fs.rm(skillsDir, { recursive: true, force: true });
 });

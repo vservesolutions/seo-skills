@@ -1,9 +1,9 @@
 ---
 name: seo-ecommerce-seo
-description: "Category and product page optimization, faceted navigation, variants, out-of-stock handling and merchant feeds. Auto-generated from 6 findings across 6 sources."
+description: "Category and product page optimization, faceted navigation, variants, out-of-stock handling and merchant feeds. Auto-generated from 7 findings across 7 sources."
 last_updated: 2026-11-06
-findings: 6
-sources: 6
+findings: 7
+sources: 7
 confidence: medium
 ---
 
@@ -34,6 +34,7 @@ Use when category pages cannibalize each other, when facets create crawl explosi
 - **Google Brings UCP Direct Checkout To AI Mode In Canada** — 2026-11-05 · Search Engine Journal — Google is expanding UCP-powered direct checkout in AI Mode and the Gemini app to Canadian shoppers, with a Merchant Center integration planned for next year. ([link](https://www.searchenginejournal.com/google-brings-ucp-direct-checkout-to-ai-mode-in-canada/595882))
 - **How to optimize for ChatGPT shopping** — 2026-11-04 · Semrush Blog — OpenAI launched it in 2025 , announcing that ChatGPT would retrieve products from across the web and recommend them based on third-party structured metadata like pricing and reviews. ([link](https://www.semrush.com/blog/optimize-for-chatgpt-shopping))
 - **More than bling: How SEO can help your jewelry brand get found** — 2026-10-30 · Yoast SEO Blog — In this guide, we’ll explore why SEO matters for jewelry businesses, what people and AI models are searching for, and how to make your website shine in search. ([link](https://yoast.com/seo-tip-for-jewelers))
+- **commercial serps product features dominate** — 2026-09-24 · Moz (YouTube) — 📉 Tom Capper speaking at BrightonSEO Even when organic results manage to sit above the fold on commercial SERPs, they're barely squeezing in. ([link](https://www.youtube.com/shorts/OCi6rjiFKvI))
 - **How to Audit Any Page in Under 3 Minutes with SEOquake** — 2026-09-09 · Backlinko — Triage is the first minute of SEOquake’s three-minute page audit. ([link](https://backlinko.com/seoquake-page-audit))
 - **Using the Screaming Frog SEO Spider to Generate Markdown at Scale** — 2026-04-21 · Screaming Frog Blog — In this guide, we’ll walk through two methods for generating markdown of every page on a site during a crawl, and we’ll share a Python script that takes the SEO Spider’s xlsx export and turns it into individual .md files for use downstream. ([link](https://www.screamingfrog.co.uk/blog/generate-markdown-at-scale))
 
@@ -43,6 +44,7 @@ Use when category pages cannibalize each other, when facets create crawl explosi
 - [Google Brings UCP Direct Checkout To AI Mode In Canada](https://www.searchenginejournal.com/google-brings-ucp-direct-checkout-to-ai-mode-in-canada/595882) — Search Engine Journal · 2026-11-05
 - [How to optimize for ChatGPT shopping](https://www.semrush.com/blog/optimize-for-chatgpt-shopping) — Semrush Blog · 2026-11-04
 - [More than bling: How SEO can help your jewelry brand get found](https://yoast.com/seo-tip-for-jewelers) — Yoast SEO Blog · 2026-10-30
+- [commercial serps product features dominate](https://www.youtube.com/shorts/OCi6rjiFKvI) — Moz (YouTube) · 2026-09-24
 - [How to Audit Any Page in Under 3 Minutes with SEOquake](https://backlinko.com/seoquake-page-audit) — Backlinko · 2026-09-09
 - [Using the Screaming Frog SEO Spider to Generate Markdown at Scale](https://www.screamingfrog.co.uk/blog/generate-markdown-at-scale) — Screaming Frog Blog · 2026-04-21
 
@@ -50,5 +52,5 @@ Use when category pages cannibalize each other, when facets create crawl explosi
 
 - Regenerated on 2026-11-08 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2026-04-21 → 2026-11-06.
-- 6 findings from 6 sources; confidence is **medium**.
+- 7 findings from 7 sources; confidence is **medium**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

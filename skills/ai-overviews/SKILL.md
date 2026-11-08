@@ -1,9 +1,9 @@
 ---
 name: seo-ai-overviews
-description: "AI Overviews and AI Mode: specific techniques, checks and pitfalls. Auto-generated from 20 findings across 12 sources."
+description: "AI Overviews and AI Mode: specific techniques, checks and pitfalls. Auto-generated from 22 findings across 13 sources."
 last_updated: 2026-11-06
-findings: 20
-sources: 12
+findings: 22
+sources: 13
 confidence: high
 ---
 
@@ -65,5 +65,5 @@ Use when the task involves ai overviews and ai mode.
 
 - Regenerated on 2026-11-08 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2026-05-22 → 2026-11-06.
-- 20 findings from 12 sources; confidence is **high**.
+- 22 findings from 13 sources; confidence is **high**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

@@ -315,6 +315,14 @@ export async function renderSkills(findings, topics, { skillsDir, now = new Date
   await fs.writeFile(path.join(skillsDir, 'index.json'), JSON.stringify(index, null, 2) + '\n', 'utf8');
   await fs.writeFile(path.join(skillsDir, 'INDEX.md'), buildIndexMarkdown(skills, now, findings.length), 'utf8');
 
+  // Keep the folder in step with index.json: a topic that loses its last finding
+  // would otherwise leave a stale, unreferenced skill directory behind.
+  const rendered = new Set(skills.map((skill) => skill.slug));
+  for (const entry of await fs.readdir(skillsDir, { withFileTypes: true })) {
+    if (!entry.isDirectory() || rendered.has(entry.name)) continue;
+    await fs.rm(path.join(skillsDir, entry.name), { recursive: true, force: true });
+  }
+
   return index;
 }
 
@@ -343,11 +351,24 @@ export async function renderDashboard({ findings, skillsIndex, sourcesCount, das
 </a>`;
   };
 
-  const skillGroups = skills
-    .filter((skill) => !skill.parent)
+  const skillCategories = skills.filter((skill) => !skill.parent);
+  const shortLabel = (title) => String(title).split(/[:–—(]/)[0].trim();
+
+  const skillTabs = skillCategories.length
+    ? `<div class="tabs" data-tabgroup="skills" role="tablist" aria-label="Skill categories">
+${skillCategories
+  .map(
+    (category) => `  <button class="tab" type="button" role="tab" data-category="${esc(category.slug)}">${esc(shortLabel(category.title))} <span class="count">${skills.filter((skill) => skill.slug === category.slug || skill.parent === category.slug).length}</span></button>`
+  )
+  .join('\n')}
+  <button class="tab" type="button" role="tab" data-category="all">All <span class="count">${skills.length}</span></button>
+</div>`
+    : '';
+
+  const skillGroups = skillCategories
     .map((category) => {
       const children = skills.filter((skill) => skill.parent === category.slug);
-      return `      <div class="group">
+      return `      <div class="group" data-tabgroup="skills" data-category="${esc(category.slug)}">
         <h3 class="group-title">${esc(category.title)} <span class="count">${children.length + 1} skill${children.length ? 's' : ''} · ${category.findings} finding${category.findings === 1 ? '' : 's'}</span></h3>
         <div class="grid">
 ${[category, ...children].map(skillCard).join('\n')}
@@ -363,6 +384,17 @@ ${[category, ...children].map(skillCard).join('\n')}
       skills: librarySkills.filter((skill) => skill.category === category.id)
     }))
     .filter((category) => category.skills.length);
+
+  const libraryTabs = libraryGroups.length
+    ? `<div class="tabs" data-tabgroup="library" role="tablist" aria-label="Library categories">
+${libraryGroups
+  .map(
+    (group) => `  <button class="tab" type="button" role="tab" data-category="${esc(group.id)}">${esc(group.title)} <span class="count">${group.skills.length}</span></button>`
+  )
+  .join('\n')}
+  <button class="tab" type="button" role="tab" data-category="all">All <span class="count">${librarySkills.length}</span></button>
+</div>`
+    : '';
 
   const libraryCard = (skill) => {
     const local = skill.hasContent && skill.file;
@@ -383,9 +415,10 @@ ${[category, ...children].map(skillCard).join('\n')}
     ? `    <section id="library">
       <h2>Skill library <span class="count">${librarySkills.length} third-party skills · ${library.counts.packs} packs</span></h2>
       <p class="lede">SKILL.md packs published for Claude Code, Codex, Cursor and other agents, grouped by SEO category. Full text is copied only where the licence allows it.</p>
+${libraryTabs}
 ${libraryGroups
   .map(
-    (group) => `      <div class="group">
+    (group) => `      <div class="group" data-tabgroup="library" data-category="${esc(group.id)}">
         <h3 class="group-title">${esc(group.title)} <span class="count">${group.skills.length}</span></h3>
         <div class="grid">
 ${group.skills.map(libraryCard).join('\n')}
@@ -528,6 +561,24 @@ ${group.skills.map(libraryCard).join('\n')}
     font-weight: 600;
   }
   .jump a:hover { border-color: var(--accent); }
+  .tabs { display: flex; gap: 8px; overflow-x: auto; padding: 2px 2px 10px; margin: 0 0 18px; }
+  .tab {
+    flex: 0 0 auto;
+    font: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent);
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 6px 14px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .tab:hover { border-color: var(--accent); }
+  .tab[aria-selected="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .tab[aria-selected="true"] .count { color: rgba(255, 255, 255, .75); }
+  .group[hidden] { display: none; }
   .findings { list-style: none; margin: 0; padding: 0; border: 1px solid var(--line); border-radius: 14px; background: var(--panel); overflow: hidden; }
   .finding { padding: 16px 18px; border-bottom: 1px solid var(--line); }
   .finding:last-child { border-bottom: 0; }
@@ -569,6 +620,7 @@ ${group.skills.map(libraryCard).join('\n')}
         <h2>Generated skills</h2>
         <input id="q" type="search" placeholder="Filter skills, findings and library…" aria-label="Filter">
       </div>
+${skillTabs}
       <div class="grid">
 ${skillGroups || '<p>No skills yet. Run <code>npm run update</code>.</p>'}
       </div>
@@ -592,8 +644,39 @@ ${rows || '<li class="finding"><p>No findings yet. Run <code>npm run update</cod
   var input = document.getElementById('q');
   var empty = document.getElementById('empty');
   var items = Array.prototype.slice.call(document.querySelectorAll('[data-search]'));
+  var bars = Array.prototype.slice.call(document.querySelectorAll('.tabs'));
+  var groups = Array.prototype.slice.call(document.querySelectorAll('.group[data-category]'));
+
+  function applyBar(bar, name) {
+    bar.setAttribute('data-active', name);
+    Array.prototype.forEach.call(bar.querySelectorAll('.tab'), function (tab) {
+      tab.setAttribute('aria-selected', tab.getAttribute('data-category') === name ? 'true' : 'false');
+    });
+    var scope = bar.getAttribute('data-tabgroup');
+    groups.forEach(function (group) {
+      if (group.getAttribute('data-tabgroup') !== scope) return;
+      group.hidden = name !== 'all' && group.getAttribute('data-category') !== name;
+    });
+  }
+
+  bars.forEach(function (bar) {
+    bar.addEventListener('click', function (event) {
+      var tab = event.target.closest ? event.target.closest('.tab') : null;
+      if (tab) applyBar(bar, tab.getAttribute('data-category'));
+    });
+    var selected = bar.querySelector('.tab[aria-selected="true"]') || bar.querySelector('.tab');
+    if (selected) applyBar(bar, selected.getAttribute('data-category'));
+  });
+
   input.addEventListener('input', function () {
     var query = input.value.trim().toLowerCase();
+    // While searching, look across every category; clearing restores the active tab.
+    if (query) {
+      groups.forEach(function (group) { group.hidden = false; });
+    } else {
+      bars.forEach(function (bar) { applyBar(bar, bar.getAttribute('data-active') || 'all'); });
+    }
+
     var shown = 0;
     items.forEach(function (item) {
       var haystack = item.getAttribute('data-search') || '';
@@ -601,6 +684,12 @@ ${rows || '<li class="finding"><p>No findings yet. Run <code>npm run update</cod
       item.hidden = !match;
       if (match) shown++;
     });
+
+    if (query) {
+      groups.forEach(function (group) {
+        group.hidden = !group.querySelector('[data-search]:not([hidden])');
+      });
+    }
     empty.hidden = shown > 0;
   });
 })();

@@ -1,8 +1,8 @@
 ---
 name: seo-link-building
-description: "Earning links, digital PR, anchor text and link quality, disavow decisions, and link spam policy. Auto-generated from 7 findings across 5 sources."
+description: "Earning links, digital PR, anchor text and link quality, disavow decisions, and link spam policy. Auto-generated from 6 findings across 5 sources."
 last_updated: 2026-10-29
-findings: 7
+findings: 6
 sources: 5
 confidence: medium
 ---
@@ -25,7 +25,6 @@ Use when planning link acquisition, evaluating a backlink profile, cleaning a to
 ## Recent developments
 
 - **This SEO Tactic Was Dead. AI Brought It Back** — 2026-10-29 · Semrush (YouTube) — 👉 Find the outlets LLMs cite most in your niche and turn them into a guest post pitch list with the Semrush AI PR Toolkit. ([link](https://www.youtube.com/watch?v=nvayX9VjspM))
-- **These 7 SEO Tactics Built Me a $1M Career. Do They Survive AI?** — 2026-10-22 · Semrush (YouTube) — 👉 See whether ChatGPT, Gemini, and AI Overviews mention your brand, even without a link, with the Semrush AI Visibility Toolkit. ([link](https://www.youtube.com/watch?v=mW_qt5e7zxs))
 - **Link Building vs Buying Mentions in AI Search | Vince Nero (BuzzStream)** — 2026-10-12 · SE Ranking (YouTube) — Is link building still worth it when everyone is buying brand mentions for AI search? ([link](https://www.youtube.com/watch?v=uzi2JAlYZVk))
 - **How The Internet REALLY Chooses Your Brand** — 2026-09-09 · Backlinko (YouTube) — Find out who's linking to your competitors with our FREE backlink checker: https://social.semrush.com/3TlgffN Welcome to a new Backlinko series where Michael Ofei explores how search is changing in the AI era. ([link](https://www.youtube.com/watch?v=p3Xafp7KRr8))
 - **6 Digital PR Strategies to Boost AI Visibility** — 2026-07-20 · Backlinko — In this guide, I’ll show you six proven digital PR strategies to earn more backlinks and brand mentions, strengthen your offsite authority, and increase your visibility in AI-generated answers. ([link](https://backlinko.com/digital-pr-strategies))
@@ -35,7 +34,6 @@ Use when planning link acquisition, evaluating a backlink profile, cleaning a to
 ## References
 
 - [This SEO Tactic Was Dead. AI Brought It Back](https://www.youtube.com/watch?v=nvayX9VjspM) — Semrush (YouTube) · 2026-10-29
-- [These 7 SEO Tactics Built Me a $1M Career. Do They Survive AI?](https://www.youtube.com/watch?v=mW_qt5e7zxs) — Semrush (YouTube) · 2026-10-22
 - [Link Building vs Buying Mentions in AI Search | Vince Nero (BuzzStream)](https://www.youtube.com/watch?v=uzi2JAlYZVk) — SE Ranking (YouTube) · 2026-10-12
 - [How The Internet REALLY Chooses Your Brand](https://www.youtube.com/watch?v=p3Xafp7KRr8) — Backlinko (YouTube) · 2026-09-09
 - [6 Digital PR Strategies to Boost AI Visibility](https://backlinko.com/digital-pr-strategies) — Backlinko · 2026-07-20
@@ -46,5 +44,5 @@ Use when planning link acquisition, evaluating a backlink profile, cleaning a to
 
 - Regenerated on 2026-11-08 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2026-04-13 → 2026-10-29.
-- 7 findings from 5 sources; confidence is **medium**.
+- 6 findings from 5 sources; confidence is **medium**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

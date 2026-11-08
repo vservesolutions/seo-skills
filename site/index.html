@@ -111,6 +111,24 @@
     font-weight: 600;
   }
   .jump a:hover { border-color: var(--accent); }
+  .tabs { display: flex; gap: 8px; overflow-x: auto; padding: 2px 2px 10px; margin: 0 0 18px; }
+  .tab {
+    flex: 0 0 auto;
+    font: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent);
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 6px 14px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .tab:hover { border-color: var(--accent); }
+  .tab[aria-selected="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .tab[aria-selected="true"] .count { color: rgba(255, 255, 255, .75); }
+  .group[hidden] { display: none; }
   .findings { list-style: none; margin: 0; padding: 0; border: 1px solid var(--line); border-radius: 14px; background: var(--panel); overflow: hidden; }
   .finding { padding: 16px 18px; border-bottom: 1px solid var(--line); }
   .finding:last-child { border-bottom: 0; }
@@ -132,7 +150,7 @@
     <h1>SEO Skills</h1>
     <p class="lede">Collected from 23 SEO sources, deduplicated into one knowledge base, and rebuilt into agent-ready skills. Each daily run only fetches what changed.</p>
     <ul class="stats">
-      <li><strong>35</strong><span>generated skills</span></li>
+      <li><strong>34</strong><span>generated skills</span></li>
       <li><strong>214</strong><span>findings</span></li>
       <li><strong>16</strong><span>categories</span></li>
       <li><strong>182</strong><span>library skills</span></li>
@@ -142,7 +160,7 @@
 
   <main>
     <nav class="jump">
-      <a href="#skills">Generated skills · 35</a>
+      <a href="#skills">Generated skills · 34</a>
       <a href="#library">Skill library · 182</a>
       <a href="#findings">Latest findings · 60</a>
     </nav>
@@ -152,15 +170,34 @@
         <h2>Generated skills</h2>
         <input id="q" type="search" placeholder="Filter skills, findings and library…" aria-label="Filter">
       </div>
+<div class="tabs" data-tabgroup="skills" role="tablist" aria-label="Skill categories">
+  <button class="tab" type="button" role="tab" data-category="technical-crawling-indexing">Technical SEO <span class="count">4</span></button>
+  <button class="tab" type="button" role="tab" data-category="site-architecture-internal-links">Site Architecture and Internal Linking <span class="count">2</span></button>
+  <button class="tab" type="button" role="tab" data-category="core-web-vitals-performance">Core Web Vitals and Page Experience <span class="count">1</span></button>
+  <button class="tab" type="button" role="tab" data-category="structured-data">Structured Data and Rich Results <span class="count">3</span></button>
+  <button class="tab" type="button" role="tab" data-category="on-page-seo">On-Page SEO and Content Optimization <span class="count">2</span></button>
+  <button class="tab" type="button" role="tab" data-category="content-strategy">Content Strategy and Topical Authority <span class="count">2</span></button>
+  <button class="tab" type="button" role="tab" data-category="keyword-research">Keyword Research and Search Intent <span class="count">1</span></button>
+  <button class="tab" type="button" role="tab" data-category="link-building">Link Building and Off-Page Authority <span class="count">2</span></button>
+  <button class="tab" type="button" role="tab" data-category="local-seo">Local SEO and Google Business Profile <span class="count">2</span></button>
+  <button class="tab" type="button" role="tab" data-category="international-seo">International and Multilingual SEO <span class="count">1</span></button>
+  <button class="tab" type="button" role="tab" data-category="ecommerce-seo">Ecommerce SEO and Faceted Navigation <span class="count">1</span></button>
+  <button class="tab" type="button" role="tab" data-category="analytics-measurement">SEO Analytics, Reporting and Measurement <span class="count">3</span></button>
+  <button class="tab" type="button" role="tab" data-category="ai-search-geo">AI Search, GEO and Answer Engines <span class="count">5</span></button>
+  <button class="tab" type="button" role="tab" data-category="algorithm-updates">Algorithm Updates, Spam Policy and Recovery <span class="count">3</span></button>
+  <button class="tab" type="button" role="tab" data-category="serp-features">SERP Features, Snippets and CTR <span class="count">1</span></button>
+  <button class="tab" type="button" role="tab" data-category="migration-redirects">Migrations, Redirects and HTTPS <span class="count">1</span></button>
+  <button class="tab" type="button" role="tab" data-category="all">All <span class="count">34</span></button>
+</div>
       <div class="grid">
-      <div class="group">
-        <h3 class="group-title">Technical SEO: Crawling, Indexing and Rendering <span class="count">4 skills · 13 findings</span></h3>
+      <div class="group" data-tabgroup="skills" data-category="technical-crawling-indexing">
+        <h3 class="group-title">Technical SEO: Crawling, Indexing and Rendering <span class="count">4 skills · 12 findings</span></h3>
         <div class="grid">
 <a class="card" href="../skills/technical-crawling-indexing/SKILL.md" data-search="technical seo: crawling, indexing and rendering how search engines discover, crawl, render and index urls, and how to remove crawl waste, duplicates and index bloat. use when a page is not indexed or indexed wrongly, when crawl stats look wasteful, when planning robots.txt, sitemaps, canonicals, noindex or javascript rendering fixes, or when auditing index coverage after a release.">
   <span class="badge">medium confidence</span>
   <h3>Technical SEO: Crawling, Indexing and Rendering</h3>
   <p>How search engines discover, crawl, render and index URLs, and how to remove crawl waste, duplicates and index bloat.</p>
-  <footer><span>13 findings</span><span>5 sources</span><span>2026-11-07</span></footer>
+  <footer><span>12 findings</span><span>4 sources</span><span>2026-11-03</span></footer>
 </a>
 <a class="card" href="../skills/crawl-budget/SKILL.md" data-search="crawl budget and crawl efficiency crawl budget and crawl efficiency: specific techniques, checks and pitfalls. use when the task involves crawl budget and crawl efficiency.">
   <span class="badge">sub-skill</span>
@@ -182,14 +219,14 @@
 </a>
         </div>
       </div>
-      <div class="group">
-        <h3 class="group-title">Site Architecture and Internal Linking <span class="count">2 skills · 3 findings</span></h3>
+      <div class="group" data-tabgroup="skills" data-category="site-architecture-internal-links">
+        <h3 class="group-title">Site Architecture and Internal Linking <span class="count">2 skills · 2 findings</span></h3>
         <div class="grid">
 <a class="card" href="../skills/site-architecture-internal-links/SKILL.md" data-search="site architecture and internal linking information architecture, crawl depth, internal link equity flow, hub pages, breadcrumbs and orphan pages. use when planning site structure, fixing orphan pages, distributing authority with internal links, deciding on pagination or breadcrumbs, or restructuring a category tree.">
   <span class="badge">low confidence</span>
   <h3>Site Architecture and Internal Linking</h3>
   <p>Information architecture, crawl depth, internal link equity flow, hub pages, breadcrumbs and orphan pages.</p>
-  <footer><span>3 findings</span><span>3 sources</span><span>2026-08-19</span></footer>
+  <footer><span>2 findings</span><span>2 sources</span><span>2026-08-03</span></footer>
 </a>
 <a class="card" href="../skills/internal-linking/SKILL.md" data-search="internal linking and anchor strategy internal linking and anchor strategy: specific techniques, checks and pitfalls. use when the task involves internal linking and anchor strategy.">
   <span class="badge">sub-skill</span>
@@ -199,31 +236,31 @@
 </a>
         </div>
       </div>
-      <div class="group">
-        <h3 class="group-title">Core Web Vitals and Page Experience <span class="count">1 skill · 4 findings</span></h3>
+      <div class="group" data-tabgroup="skills" data-category="core-web-vitals-performance">
+        <h3 class="group-title">Core Web Vitals and Page Experience <span class="count">1 skill · 3 findings</span></h3>
         <div class="grid">
 <a class="card" href="../skills/core-web-vitals-performance/SKILL.md" data-search="core web vitals and page experience lcp, inp and cls work, page speed diagnostics, image and font delivery, render-blocking resources and performance budgets. use when diagnosing core web vitals failures in search console or crux, improving lcp or inp, reducing layout shift, or setting performance budgets for a release.">
   <span class="badge">low confidence</span>
   <h3>Core Web Vitals and Page Experience</h3>
   <p>LCP, INP and CLS work, page speed diagnostics, image and font delivery, render-blocking resources and performance budgets.</p>
-  <footer><span>4 findings</span><span>3 sources</span><span>2026-11-07</span></footer>
+  <footer><span>3 findings</span><span>2 sources</span><span>2026-08-19</span></footer>
 </a>
         </div>
       </div>
-      <div class="group">
-        <h3 class="group-title">Structured Data and Rich Results <span class="count">3 skills · 9 findings</span></h3>
+      <div class="group" data-tabgroup="skills" data-category="structured-data">
+        <h3 class="group-title">Structured Data and Rich Results <span class="count">3 skills · 10 findings</span></h3>
         <div class="grid">
 <a class="card" href="../skills/structured-data/SKILL.md" data-search="structured data and rich results schema.org markup, json-ld implementation, rich result eligibility, validation and deprecated markup. use when adding or debugging schema.org markup, chasing rich result eligibility, handling markup deprecations, or validating json-ld before shipping templates.">
   <span class="badge">medium confidence</span>
   <h3>Structured Data and Rich Results</h3>
   <p>Schema.org markup, JSON-LD implementation, rich result eligibility, validation and deprecated markup.</p>
-  <footer><span>9 findings</span><span>5 sources</span><span>2026-11-04</span></footer>
+  <footer><span>10 findings</span><span>6 sources</span><span>2026-11-04</span></footer>
 </a>
 <a class="card" href="../skills/schema-markup/SKILL.md" data-search="schema markup and json-ld schema markup and json-ld: specific techniques, checks and pitfalls. use when the task involves schema markup and json-ld.">
   <span class="badge">sub-skill</span>
   <h3>Schema Markup and JSON-LD</h3>
   <p>Schema Markup and JSON-LD: specific techniques, checks and pitfalls.</p>
-  <footer><span>4 findings</span><span>2 sources</span><span>2026-11-04</span></footer>
+  <footer><span>5 findings</span><span>3 sources</span><span>2026-11-04</span></footer>
 </a>
 <a class="card" href="../skills/rich-results/SKILL.md" data-search="rich results and eligibility rich results and eligibility: specific techniques, checks and pitfalls. use when the task involves rich results and eligibility.">
   <span class="badge">sub-skill</span>
@@ -233,7 +270,7 @@
 </a>
         </div>
       </div>
-      <div class="group">
+      <div class="group" data-tabgroup="skills" data-category="on-page-seo">
         <h3 class="group-title">On-Page SEO and Content Optimization <span class="count">2 skills · 9 findings</span></h3>
         <div class="grid">
 <a class="card" href="../skills/on-page-seo/SKILL.md" data-search="on-page seo and content optimization titles, meta descriptions, heading structure, keyword placement, e-e-a-t signals and page-level content quality. use when optimizing an existing page, rewriting titles and meta descriptions, fixing thin or duplicated pages, or improving e-e-a-t signals on money pages.">
@@ -250,14 +287,14 @@
 </a>
         </div>
       </div>
-      <div class="group">
-        <h3 class="group-title">Content Strategy and Topical Authority <span class="count">3 skills · 6 findings</span></h3>
+      <div class="group" data-tabgroup="skills" data-category="content-strategy">
+        <h3 class="group-title">Content Strategy and Topical Authority <span class="count">2 skills · 5 findings</span></h3>
         <div class="grid">
 <a class="card" href="../skills/content-strategy/SKILL.md" data-search="content strategy and topical authority content clusters, editorial planning, content audits and refreshes, decay, and building topical depth. use when building a content plan, deciding what to refresh or prune, mapping clusters and pillars, or explaining why a section of the site lost traffic.">
   <span class="badge">medium confidence</span>
   <h3>Content Strategy and Topical Authority</h3>
   <p>Content clusters, editorial planning, content audits and refreshes, decay, and building topical depth.</p>
-  <footer><span>6 findings</span><span>5 sources</span><span>2026-10-20</span></footer>
+  <footer><span>5 findings</span><span>5 sources</span><span>2026-10-20</span></footer>
 </a>
 <a class="card" href="../skills/topical-authority/SKILL.md" data-search="topical authority and content clusters topical authority and content clusters: specific techniques, checks and pitfalls. use when the task involves topical authority and content clusters.">
   <span class="badge">sub-skill</span>
@@ -265,15 +302,9 @@
   <p>Topical Authority and Content Clusters: specific techniques, checks and pitfalls.</p>
   <footer><span>1 finding</span><span>1 source</span><span>2026-10-09</span></footer>
 </a>
-<a class="card" href="../skills/content-refresh/SKILL.md" data-search="content decay and refreshes content decay and refreshes: specific techniques, checks and pitfalls. use when the task involves content decay and refreshes.">
-  <span class="badge">sub-skill</span>
-  <h3>Content Decay and Refreshes</h3>
-  <p>Content Decay and Refreshes: specific techniques, checks and pitfalls.</p>
-  <footer><span>1 finding</span><span>1 source</span><span>2026-08-19</span></footer>
-</a>
         </div>
       </div>
-      <div class="group">
+      <div class="group" data-tabgroup="skills" data-category="keyword-research">
         <h3 class="group-title">Keyword Research and Search Intent <span class="count">1 skill · 12 findings</span></h3>
         <div class="grid">
 <a class="card" href="../skills/keyword-research/SKILL.md" data-search="keyword research and search intent intent classification, demand sizing, keyword difficulty, entity and semantic coverage, keyword mapping. use when planning new pages, classifying intent, sizing demand, clustering keywords by serp overlap, or mapping queries to urls.">
@@ -284,31 +315,31 @@
 </a>
         </div>
       </div>
-      <div class="group">
-        <h3 class="group-title">Link Building and Off-Page Authority <span class="count">2 skills · 7 findings</span></h3>
+      <div class="group" data-tabgroup="skills" data-category="link-building">
+        <h3 class="group-title">Link Building and Off-Page Authority <span class="count">2 skills · 6 findings</span></h3>
         <div class="grid">
 <a class="card" href="../skills/link-building/SKILL.md" data-search="link building and off-page authority earning links, digital pr, anchor text and link quality, disavow decisions, and link spam policy. use when planning link acquisition, evaluating a backlink profile, cleaning a toxic profile, or responding to a link-related manual action.">
   <span class="badge">medium confidence</span>
   <h3>Link Building and Off-Page Authority</h3>
   <p>Earning links, digital PR, anchor text and link quality, disavow decisions, and link spam policy.</p>
-  <footer><span>7 findings</span><span>5 sources</span><span>2026-10-29</span></footer>
+  <footer><span>6 findings</span><span>5 sources</span><span>2026-10-29</span></footer>
 </a>
 <a class="card" href="../skills/digital-pr/SKILL.md" data-search="digital pr and link outreach digital pr and link outreach: specific techniques, checks and pitfalls. use when the task involves digital pr and link outreach.">
   <span class="badge">sub-skill</span>
   <h3>Digital PR and Link Outreach</h3>
   <p>Digital PR and Link Outreach: specific techniques, checks and pitfalls.</p>
-  <footer><span>2 findings</span><span>2 sources</span><span>2026-10-12</span></footer>
+  <footer><span>1 finding</span><span>1 source</span><span>2026-07-20</span></footer>
 </a>
         </div>
       </div>
-      <div class="group">
-        <h3 class="group-title">Local SEO and Google Business Profile <span class="count">2 skills · 11 findings</span></h3>
+      <div class="group" data-tabgroup="skills" data-category="local-seo">
+        <h3 class="group-title">Local SEO and Google Business Profile <span class="count">2 skills · 10 findings</span></h3>
         <div class="grid">
 <a class="card" href="../skills/local-seo/SKILL.md" data-search="local seo and google business profile local pack visibility, business profile optimization, reviews, citations and location page structure. use when a business needs local pack visibility, when reviews or categories are wrong, or when planning location and service-area pages.">
   <span class="badge">medium confidence</span>
   <h3>Local SEO and Google Business Profile</h3>
   <p>Local pack visibility, Business Profile optimization, reviews, citations and location page structure.</p>
-  <footer><span>11 findings</span><span>9 sources</span><span>2026-11-06</span></footer>
+  <footer><span>10 findings</span><span>8 sources</span><span>2026-11-06</span></footer>
 </a>
 <a class="card" href="../skills/google-business-profile/SKILL.md" data-search="google business profile optimisation google business profile optimisation: specific techniques, checks and pitfalls. use when the task involves google business profile optimisation.">
   <span class="badge">sub-skill</span>
@@ -318,7 +349,7 @@
 </a>
         </div>
       </div>
-      <div class="group">
+      <div class="group" data-tabgroup="skills" data-category="international-seo">
         <h3 class="group-title">International and Multilingual SEO <span class="count">1 skill · 1 finding</span></h3>
         <div class="grid">
 <a class="card" href="../skills/international-seo/SKILL.md" data-search="international and multilingual seo hreflang implementation, locale targeting, cctld vs subfolder decisions and localization quality. use when serving multiple languages or regions, auditing hreflang return tags, or deciding url structure for new markets.">
@@ -329,41 +360,41 @@
 </a>
         </div>
       </div>
-      <div class="group">
-        <h3 class="group-title">Ecommerce SEO and Faceted Navigation <span class="count">1 skill · 6 findings</span></h3>
+      <div class="group" data-tabgroup="skills" data-category="ecommerce-seo">
+        <h3 class="group-title">Ecommerce SEO and Faceted Navigation <span class="count">1 skill · 7 findings</span></h3>
         <div class="grid">
 <a class="card" href="../skills/ecommerce-seo/SKILL.md" data-search="ecommerce seo and faceted navigation category and product page optimization, faceted navigation, variants, out-of-stock handling and merchant feeds. use when category pages cannibalize each other, when facets create crawl explosions, or when product and variant pages need indexing rules.">
   <span class="badge">medium confidence</span>
   <h3>Ecommerce SEO and Faceted Navigation</h3>
   <p>Category and product page optimization, faceted navigation, variants, out-of-stock handling and merchant feeds.</p>
-  <footer><span>6 findings</span><span>6 sources</span><span>2026-11-06</span></footer>
+  <footer><span>7 findings</span><span>7 sources</span><span>2026-11-06</span></footer>
 </a>
         </div>
       </div>
-      <div class="group">
-        <h3 class="group-title">SEO Analytics, Reporting and Measurement <span class="count">3 skills · 35 findings</span></h3>
+      <div class="group" data-tabgroup="skills" data-category="analytics-measurement">
+        <h3 class="group-title">SEO Analytics, Reporting and Measurement <span class="count">3 skills · 33 findings</span></h3>
         <div class="grid">
 <a class="card" href="../skills/analytics-measurement/SKILL.md" data-search="seo analytics, reporting and measurement search console and ga4 measurement, rank tracking, dashboards, forecasting and kpi definitions. use when building reports, explaining traffic changes, defining seo kpis, or instrumenting tracking for organic performance.">
   <span class="badge">high confidence</span>
   <h3>SEO Analytics, Reporting and Measurement</h3>
   <p>Search Console and GA4 measurement, rank tracking, dashboards, forecasting and KPI definitions.</p>
-  <footer><span>35 findings</span><span>13 sources</span><span>2026-11-07</span></footer>
+  <footer><span>33 findings</span><span>13 sources</span><span>2026-11-07</span></footer>
 </a>
 <a class="card" href="../skills/search-console/SKILL.md" data-search="search console analysis search console analysis: specific techniques, checks and pitfalls. use when the task involves search console analysis.">
   <span class="badge">sub-skill</span>
   <h3>Search Console Analysis</h3>
   <p>Search Console Analysis: specific techniques, checks and pitfalls.</p>
-  <footer><span>13 findings</span><span>9 sources</span><span>2026-11-05</span></footer>
+  <footer><span>14 findings</span><span>10 sources</span><span>2026-11-05</span></footer>
 </a>
 <a class="card" href="../skills/rank-tracking/SKILL.md" data-search="rank tracking and visibility reporting rank tracking and visibility reporting: specific techniques, checks and pitfalls. use when the task involves rank tracking and visibility reporting.">
   <span class="badge">sub-skill</span>
   <h3>Rank Tracking and Visibility Reporting</h3>
   <p>Rank Tracking and Visibility Reporting: specific techniques, checks and pitfalls.</p>
-  <footer><span>1 finding</span><span>1 source</span><span>2026-09-23</span></footer>
+  <footer><span>2 findings</span><span>2 sources</span><span>2026-11-07</span></footer>
 </a>
         </div>
       </div>
-      <div class="group">
+      <div class="group" data-tabgroup="skills" data-category="ai-search-geo">
         <h3 class="group-title">AI Search, GEO and Answer Engines <span class="count">5 skills · 82 findings</span></h3>
         <div class="grid">
 <a class="card" href="../skills/ai-search-geo/SKILL.md" data-search="ai search, geo and answer engines ai overviews, ai mode, llm citation visibility, generative engine optimization and llms.txt conventions. use when organic traffic is absorbed by ai answers, when planning visibility in ai overviews or chat assistants, or when deciding on llms.txt and ai crawler access.">
@@ -376,7 +407,7 @@
   <span class="badge">sub-skill</span>
   <h3>AI Overviews and AI Mode</h3>
   <p>AI Overviews and AI Mode: specific techniques, checks and pitfalls.</p>
-  <footer><span>20 findings</span><span>12 sources</span><span>2026-11-06</span></footer>
+  <footer><span>22 findings</span><span>13 sources</span><span>2026-11-06</span></footer>
 </a>
 <a class="card" href="../skills/llms-txt/SKILL.md" data-search="llms.txt and agent readability llms.txt and agent readability: specific techniques, checks and pitfalls. use when the task involves llms.txt and agent readability.">
   <span class="badge">sub-skill</span>
@@ -398,7 +429,7 @@
 </a>
         </div>
       </div>
-      <div class="group">
+      <div class="group" data-tabgroup="skills" data-category="algorithm-updates">
         <h3 class="group-title">Algorithm Updates, Spam Policy and Recovery <span class="count">3 skills · 13 findings</span></h3>
         <div class="grid">
 <a class="card" href="../skills/algorithm-updates/SKILL.md" data-search="algorithm updates, spam policy and recovery core and spam updates, ranking volatility, manual actions, policy changes and recovery playbooks. use when rankings shift sharply, when a manual action or policy issue appears, or when assessing whether a site is exposed to a new spam policy.">
@@ -411,7 +442,7 @@
   <span class="badge">sub-skill</span>
   <h3>Core Algorithm Updates</h3>
   <p>Core Algorithm Updates: specific techniques, checks and pitfalls.</p>
-  <footer><span>1 finding</span><span>1 source</span><span>2026-07-24</span></footer>
+  <footer><span>2 findings</span><span>2 sources</span><span>2026-11-04</span></footer>
 </a>
 <a class="card" href="../skills/spam-policy/SKILL.md" data-search="spam policy and manual actions spam policy and manual actions: specific techniques, checks and pitfalls. use when the task involves spam policy and manual actions.">
   <span class="badge">sub-skill</span>
@@ -421,7 +452,7 @@
 </a>
         </div>
       </div>
-      <div class="group">
+      <div class="group" data-tabgroup="skills" data-category="serp-features">
         <h3 class="group-title">SERP Features, Snippets and CTR <span class="count">1 skill · 3 findings</span></h3>
         <div class="grid">
 <a class="card" href="../skills/serp-features/SKILL.md" data-search="serp features, snippets and ctr featured snippets, people also ask, sitelinks, rich serp layouts and click-through optimization. use when chasing or defending a featured snippet, diagnosing ctr drops at stable rankings, or planning for serp layout changes.">
@@ -432,14 +463,14 @@
 </a>
         </div>
       </div>
-      <div class="group">
-        <h3 class="group-title">Migrations, Redirects and HTTPS <span class="count">1 skill · 3 findings</span></h3>
+      <div class="group" data-tabgroup="skills" data-category="migration-redirects">
+        <h3 class="group-title">Migrations, Redirects and HTTPS <span class="count">1 skill · 4 findings</span></h3>
         <div class="grid">
 <a class="card" href="../skills/migration-redirects/SKILL.md" data-search="migrations, redirects and https site and domain migrations, redirect mapping, url changes, https moves and post-migration recovery. use when moving domains, replatforming, changing url patterns, or diagnosing traffic loss after a launch.">
   <span class="badge">low confidence</span>
   <h3>Migrations, Redirects and HTTPS</h3>
   <p>Site and domain migrations, redirect mapping, URL changes, HTTPS moves and post-migration recovery.</p>
-  <footer><span>3 findings</span><span>2 sources</span><span>2026-11-04</span></footer>
+  <footer><span>4 findings</span><span>3 sources</span><span>2026-11-07</span></footer>
 </a>
         </div>
       </div>
@@ -449,7 +480,25 @@
     <section id="library">
       <h2>Skill library <span class="count">182 third-party skills · 38 packs</span></h2>
       <p class="lede">SKILL.md packs published for Claude Code, Codex, Cursor and other agents, grouped by SEO category. Full text is copied only where the licence allows it.</p>
-      <div class="group">
+<div class="tabs" data-tabgroup="library" role="tablist" aria-label="Library categories">
+  <button class="tab" type="button" role="tab" data-category="technical-crawling-indexing">Technical SEO: Crawling, Indexing and Rendering <span class="count">32</span></button>
+  <button class="tab" type="button" role="tab" data-category="site-architecture-internal-links">Site Architecture and Internal Linking <span class="count">3</span></button>
+  <button class="tab" type="button" role="tab" data-category="core-web-vitals-performance">Core Web Vitals and Page Experience <span class="count">3</span></button>
+  <button class="tab" type="button" role="tab" data-category="structured-data">Structured Data and Rich Results <span class="count">13</span></button>
+  <button class="tab" type="button" role="tab" data-category="on-page-seo">On-Page SEO and Content Optimization <span class="count">17</span></button>
+  <button class="tab" type="button" role="tab" data-category="content-strategy">Content Strategy and Topical Authority <span class="count">4</span></button>
+  <button class="tab" type="button" role="tab" data-category="keyword-research">Keyword Research and Search Intent <span class="count">28</span></button>
+  <button class="tab" type="button" role="tab" data-category="link-building">Link Building and Off-Page Authority <span class="count">21</span></button>
+  <button class="tab" type="button" role="tab" data-category="local-seo">Local SEO and Google Business Profile <span class="count">10</span></button>
+  <button class="tab" type="button" role="tab" data-category="international-seo">International and Multilingual SEO <span class="count">5</span></button>
+  <button class="tab" type="button" role="tab" data-category="ecommerce-seo">Ecommerce SEO and Faceted Navigation <span class="count">2</span></button>
+  <button class="tab" type="button" role="tab" data-category="analytics-measurement">SEO Analytics, Reporting and Measurement <span class="count">6</span></button>
+  <button class="tab" type="button" role="tab" data-category="ai-search-geo">AI Search, GEO and Answer Engines <span class="count">35</span></button>
+  <button class="tab" type="button" role="tab" data-category="serp-features">SERP Features, Snippets and CTR <span class="count">1</span></button>
+  <button class="tab" type="button" role="tab" data-category="migration-redirects">Migrations, Redirects and HTTPS <span class="count">2</span></button>
+  <button class="tab" type="button" role="tab" data-category="all">All <span class="count">182</span></button>
+</div>
+      <div class="group" data-tabgroup="library" data-category="technical-crawling-indexing">
         <h3 class="group-title">Technical SEO: Crawling, Indexing and Rendering <span class="count">32</span></h3>
         <div class="grid">
 <a class="card" href="../library/technical-crawling-indexing/programmatic-seo-coreyhaines31.md" data-search="programmatic-seo when the user wants to create seo-driven pages at scale using templates and data. also use when the user mentions &quot;programmatic seo,&quot; &quot;template pages,&quot; &quot;pages at scale,&quot; &quot;directory pages,&quot; &quot;location pages,&quot; &quot;[keyword] + [city] pages,&quot; &quot;comparison pages,&quot; &quot;integration pages,&quot; &quot;building many pages for seo,&quot; &quot;pseo,&quot; &quot;generate 100 pages,&quot; &quot;data-driven pages,&quot; &quot;templated landing pages,&quot; or &quot;which cms for pseo.&quot; use this whenever someone wants to create many similar pages targeting different keywords or locations. for auditing existing seo issues, see seo-audit. for content strategy planning, see… coreyhaines31/marketingskills technical seo: crawling, indexing and rendering claude code">
@@ -646,7 +695,7 @@
 </a>
         </div>
       </div>
-      <div class="group">
+      <div class="group" data-tabgroup="library" data-category="site-architecture-internal-links">
         <h3 class="group-title">Site Architecture and Internal Linking <span class="count">3</span></h3>
         <div class="grid">
 <a class="card" href="../library/site-architecture-internal-links/internal-links-kostja94.md" data-search="internal-links audits and designs internal links for a site, page family or article. use for orphan pages, link equity, click depth, hubs, anchor text, old-post backfill and product navigation. kostja94/marketing-skills site architecture and internal linking claude code">
@@ -669,7 +718,7 @@
 </a>
         </div>
       </div>
-      <div class="group">
+      <div class="group" data-tabgroup="library" data-category="core-web-vitals-performance">
         <h3 class="group-title">Core Web Vitals and Page Experience <span class="count">3</span></h3>
         <div class="grid">
 <a class="card" href="../library/core-web-vitals-performance/image-seo-nowork-studio.md" data-search="image-seo image seo audit — make a site&#39;s images discoverable in google images and stop them from dragging down core web vitals. audits alt text quality and coverage, descriptive file names, modern formats (webp/avif), dimensions and compression, responsive srcset, lazy-loading, explicit width/height (cls), image sitemaps, and imageobject structured data. use this skill whenever the user asks about image seo, alt text, google images ranking, image optimization for search, image file size hurting page speed, webp/avif, or image structured data. trigger on: &quot;image seo&quot;, &quot;alt text&quot;, &quot;rank in google… nowork-studio/notfair-plugin core web vitals and page experience claude code">
@@ -692,7 +741,7 @@
 </a>
         </div>
       </div>
-      <div class="group">
+      <div class="group" data-tabgroup="library" data-category="structured-data">
         <h3 class="group-title">Structured Data and Rich Results <span class="count">13</span></h3>
         <div class="grid">
 <a class="card" href="../library/structured-data/schema-coreyhaines31.md" data-search="schema when the user wants to add, fix, or optimize schema markup and structured data on their site. also use when the user mentions &quot;schema markup,&quot; &quot;structured data,&quot; &quot;json-ld,&quot; &quot;rich snippets,&quot; &quot;schema.org,&quot; &quot;faq schema,&quot; &quot;product schema,&quot; &quot;review schema,&quot; &quot;breadcrumb schema,&quot; &quot;google rich results,&quot; &quot;knowledge panel,&quot; &quot;star ratings in search,&quot; or &quot;add structured data.&quot; use this whenever someone wants their pages to show enhanced results in google. for broader seo issues, see seo-audit. for ai search optimization, see ai-seo. coreyhaines31/marketingskills structured data and rich results claude code">
@@ -775,7 +824,7 @@
 </a>
         </div>
       </div>
-      <div class="group">
+      <div class="group" data-tabgroup="library" data-category="on-page-seo">
         <h3 class="group-title">On-Page SEO and Content Optimization <span class="count">17</span></h3>
         <div class="grid">
 <a class="card" href="https://github.com/irinabuht12-oss/marketing-skills/blob/HEAD/skills/e2e-seo-assistant/SKILL.md" target="_blank" rel="noreferrer" data-search="e2e-seo-assistant full seo workflow covering technical audits, content gaps, backlink opportunities, on-page fixes, and content briefs. use when given a site and target keywords to get complete seo analysis and actionable content plans. end-to-end seo in one skill. platform: google. irinabuht12-oss/marketing-skills on-page seo and content optimization claude code">
@@ -882,7 +931,7 @@
 </a>
         </div>
       </div>
-      <div class="group">
+      <div class="group" data-tabgroup="library" data-category="content-strategy">
         <h3 class="group-title">Content Strategy and Topical Authority <span class="count">4</span></h3>
         <div class="grid">
 <a class="card" href="../library/content-strategy/content-strategy-coreyhaines31.md" data-search="content-strategy when the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. also use when the user mentions &quot;content strategy,&quot; &quot;what should i write about,&quot; &quot;content ideas,&quot; &quot;blog strategy,&quot; &quot;topic clusters,&quot; &quot;content planning,&quot; &quot;editorial calendar,&quot; &quot;content marketing,&quot; &quot;content roadmap,&quot; &quot;what content should i create,&quot; &quot;blog topics,&quot; &quot;content pillars,&quot; or &quot;i don&#39;t know what to write.&quot; use this whenever someone needs help deciding what content to produce, not just writing it. for writing individual pieces, see copywriting. for seo-specific audits, see… coreyhaines31/marketingskills content strategy and topical authority claude code">
@@ -911,7 +960,7 @@
 </a>
         </div>
       </div>
-      <div class="group">
+      <div class="group" data-tabgroup="library" data-category="keyword-research">
         <h3 class="group-title">Keyword Research and Search Intent <span class="count">28</span></h3>
         <div class="grid">
 <a class="card" href="../library/keyword-research/keyword-research-ryze-ai-adgent.md" data-search="keyword-research keyword research from a seed topic — ideas, real google volume/cpc, intent, difficulty, clustered into a plan. use when asked to &quot;find keywords&quot;, &quot;keyword research for x&quot;, &quot;what should i rank for&quot;, or &quot;build a keyword plan&quot;. ryze-ai-adgent/open-seo-mcp-skills keyword research and search intent claude code">
@@ -1084,7 +1133,7 @@
 </a>
         </div>
       </div>
-      <div class="group">
+      <div class="group" data-tabgroup="library" data-category="link-building">
         <h3 class="group-title">Link Building and Off-Page Authority <span class="count">21</span></h3>
         <div class="grid">
 <a class="card" href="../library/link-building/link-building-coreyhaines31.md" data-search="link-building when the user wants to earn backlinks or third-party mentions that lift rankings and ai citations. also use when the user mentions &#39;link building,&#39; &#39;linkbuilding,&#39; &#39;backlinks,&#39; &#39;get more backlinks,&#39; &#39;link prospecting,&#39; &#39;link gap,&#39; &#39;competitor backlinks,&#39; &#39;unlinked mentions,&#39; &#39;link reclamation,&#39; &#39;broken link building,&#39; &#39;resource pages,&#39; &#39;guest posting,&#39; &#39;get into best-of lists,&#39; &#39;listicle outreach,&#39; &#39;domain rating,&#39; &#39;referring domains,&#39; &#39;anchor text,&#39; or &#39;is this link vendor safe.&#39; use this whenever rankings stall on authority or someone wants off-site mentions that ai engines cite. never… coreyhaines31/marketingskills link building and off-page authority claude code">
@@ -1215,7 +1264,7 @@
 </a>
         </div>
       </div>
-      <div class="group">
+      <div class="group" data-tabgroup="library" data-category="local-seo">
         <h3 class="group-title">Local SEO and Google Business Profile <span class="count">10</span></h3>
         <div class="grid">
 <a class="card" href="../library/local-seo/seo-sitemap-agricidaniel.md" data-search="seo-sitemap analyze existing xml sitemaps or generate new ones with industry templates. validates format, urls, and structure. use when user says &quot;sitemap&quot;, &quot;generate sitemap&quot;, &quot;sitemap issues&quot;, or &quot;xml sitemap&quot;. agricidaniel/claude-seo local seo and google business profile claude code">
@@ -1280,7 +1329,7 @@
 </a>
         </div>
       </div>
-      <div class="group">
+      <div class="group" data-tabgroup="library" data-category="international-seo">
         <h3 class="group-title">International and Multilingual SEO <span class="count">5</span></h3>
         <div class="grid">
 <a class="card" href="../library/international-seo/seo-hreflang-agricidaniel.md" data-search="seo-hreflang hreflang and international seo audit, validation, and generation. detects common mistakes, validates language/region codes, and generates correct hreflang implementations. use when user says &quot;hreflang&quot;, &quot;i18n seo&quot;, &quot;international seo&quot;, &quot;multi-language&quot;, &quot;multi-region&quot;, or &quot;language tags&quot;. agricidaniel/claude-seo international and multilingual seo claude code">
@@ -1315,7 +1364,7 @@
 </a>
         </div>
       </div>
-      <div class="group">
+      <div class="group" data-tabgroup="library" data-category="ecommerce-seo">
         <h3 class="group-title">Ecommerce SEO and Faceted Navigation <span class="count">2</span></h3>
         <div class="grid">
 <a class="card" href="../library/ecommerce-seo/ecommerce-seo-nowork-studio.md" data-search="ecommerce-seo e-commerce seo audit for online stores (woocommerce, shopify, magento, custom). covers category / product listing pages (plp), product detail pages (pdp), faceted navigation and its crawl-budget and duplicate-content traps, pagination, canonicals for variants and filters, out-of-stock / discontinued products, internal linking and breadcrumbs, and product / offer / review / aggregaterating / breadcrumblist structured data. use whenever the user runs an online store and asks about product or category page seo, filter urls being indexed, product rich results, or thin/duplicate product pages… nowork-studio/notfair-plugin ecommerce seo and faceted navigation claude code">
@@ -1332,7 +1381,7 @@
 </a>
         </div>
       </div>
-      <div class="group">
+      <div class="group" data-tabgroup="library" data-category="analytics-measurement">
         <h3 class="group-title">SEO Analytics, Reporting and Measurement <span class="count">6</span></h3>
         <div class="grid">
 <a class="card" href="../library/analytics-measurement/rank-tracking-ryze-ai-adgent.md" data-search="rank-tracking rank tracking without a tracker subscription — position movers between any two periods from real search console data. use when asked &quot;how are my rankings&quot;, &quot;what moved this week/month&quot;, &quot;track my keywords&quot;, or &quot;did the update hit me&quot;. ryze-ai-adgent/open-seo-mcp-skills seo analytics, reporting and measurement claude code">
@@ -1373,7 +1422,7 @@
 </a>
         </div>
       </div>
-      <div class="group">
+      <div class="group" data-tabgroup="library" data-category="ai-search-geo">
         <h3 class="group-title">AI Search, GEO and Answer Engines <span class="count">35</span></h3>
         <div class="grid">
 <a class="card" href="../library/ai-search-geo/ai-seo-coreyhaines31.md" data-search="ai-seo when the user wants to optimize content for ai search engines, get cited by llms, or appear in ai-generated answers. also use when the user mentions &#39;ai seo,&#39; &#39;aeo,&#39; &#39;geo,&#39; &#39;llmo,&#39; &#39;answer engine optimization,&#39; &#39;generative engine optimization,&#39; &#39;llm optimization,&#39; &#39;ai overviews,&#39; &#39;optimize for chatgpt,&#39; &#39;optimize for perplexity,&#39; &#39;ai citations,&#39; &#39;ai visibility,&#39; &#39;zero-click search,&#39; &#39;how do i show up in ai answers,&#39; &#39;llm mentions,&#39; &#39;optimize for claude/gemini,&#39; &#39;llms.txt,&#39; &#39;llms-full.txt,&#39; &#39;okf,&#39; &#39;open knowledge format,&#39; &#39;knowledge bundle,&#39; &#39;agent-readable site,&#39; &#39;agent readiness,&#39; &#39;is my… coreyhaines31/marketingskills ai search, geo and answer engines claude code codex">
@@ -1588,7 +1637,7 @@
 </a>
         </div>
       </div>
-      <div class="group">
+      <div class="group" data-tabgroup="library" data-category="serp-features">
         <h3 class="group-title">SERP Features, Snippets and CTR <span class="count">1</span></h3>
         <div class="grid">
 <a class="card" href="../library/serp-features/featured-snippet-kostja94.md" data-search="featured-snippet when the user wants to optimize for featured snippets, position zero, or snippet extraction. also use when the user mentions &quot;featured snippet,&quot; &quot;position zero,&quot; &quot;snippet optimization,&quot; &quot;answer box,&quot; &quot;definition box,&quot; &quot;list snippet,&quot; &quot;table snippet,&quot; &quot;paragraph snippet,&quot; &quot;paa optimization,&quot; or &quot;win position zero.&quot; for schema, use schema-markup. for step-by-step howto sections (lists, copy), use howto-section-generator. kostja94/marketing-skills serp features, snippets and ctr claude code">
@@ -1599,7 +1648,7 @@
 </a>
         </div>
       </div>
-      <div class="group">
+      <div class="group" data-tabgroup="library" data-category="migration-redirects">
         <h3 class="group-title">Migrations, Redirects and HTTPS <span class="count">2</span></h3>
         <div class="grid">
 <a class="card" href="../library/migration-redirects/30x-seo-redirects-norahe0304-art.md" data-search="30x-seo-redirects redirect chain audit and analysis. detects redirect loops, long chains, mixed protocols, and orphaned redirects. use when user says &quot;redirect audit&quot;, &quot;301 redirect&quot;, &quot;redirect chain&quot;, &quot;redirect loop&quot;, or &quot;migration redirects&quot;. norahe0304-art/30x-seo migrations, redirects and https claude code">
@@ -1621,12 +1670,12 @@
     <section id="findings">
       <h2>Latest findings</h2>
       <ul class="findings">
-<li class="finding" data-search="rank data problems, pagespeed scores &amp; ai training opt-out two issues in the google results that rank tracking tools collect can throw off ranking reports. 30 (if it was a google redirect) compare the url that your tracker stored versus where the redirect points. read our full coverage: rank trackers find google results about one word of a query and serp data providers say google is throttling goto result links rank trackers find google results about one word of a query core-web-vitals-performance analytics-measurement technical-crawling-indexing search engine journal google openai chatgpt gemini research">
-  <div class="finding-meta"><span>Search Engine Journal</span><span>2026-11-07</span><span class="chip">core-web-vitals-performance</span><span class="chip">analytics-measurement</span></div>
+<li class="finding" data-search="rank data problems, pagespeed scores &amp; ai training opt-out two issues in the google results that rank tracking tools collect can throw off ranking reports. 30 (if it was a google redirect) compare the url that your tracker stored versus where the redirect points. read our full coverage: rank trackers find google results about one word of a query and serp data providers say google is throttling goto result links rank trackers find google results about one word of a query analytics-measurement migration-redirects rank-tracking search engine journal google research">
+  <div class="finding-meta"><span>Search Engine Journal</span><span>2026-11-07</span><span class="chip">analytics-measurement</span><span class="chip">migration-redirects</span></div>
   <a class="finding-title" href="https://www.searchenginejournal.com/seo-pulse-rank-data-problems-pagespeed-scores-ai-training-opt-out/596104" target="_blank" rel="noreferrer">Rank Data Problems, PageSpeed Scores &amp; AI Training Opt-Out</a>
   <p>Two issues in the Google results that rank tracking tools collect can throw off ranking reports.</p>
 </li>
-<li class="finding" data-search="ai visibility mistake #3: your website is enough most of what ai cites isn&#39;t your website. in our own experiment, our test brand barely appeared in non-branded answers through its own site. how much of your ai visibility work happens off your own domain? ai-search-geo se ranking (youtube) youtube news">
+<li class="finding" data-search="ai visibility mistake #3: your website is enough most of what ai cites isn&#39;t your website. in our own experiment, our test brand barely appeared in non-branded answers through its own site. how much of your ai visibility work happens off your own domain? ai-search-geo se ranking (youtube) news">
   <div class="finding-meta"><span>SE Ranking (YouTube)</span><span>2026-11-06</span><span class="chip">ai-search-geo</span></div>
   <a class="finding-title" href="https://www.youtube.com/shorts/SBwRiJ5vM8A" target="_blank" rel="noreferrer">AI Visibility Mistake #3: Your Website Is Enough</a>
   <p>Most of what AI cites isn&#39;t your website.</p>
@@ -1696,7 +1745,7 @@
   <a class="finding-title" href="https://www.searchenginejournal.com/google-search-queries-hit-a-5-year-high-and-search-revenue-didnt-follow/595485" target="_blank" rel="noreferrer">Google Search Queries Hit A 5-Year High, And Search Revenue Didn’t Follow</a>
   <p>Alphabet just reported the fastest growth in Google search queries in five years; in the same quarter, its search revenue grew at the slowest rate in 2026.</p>
 </li>
-<li class="finding" data-search="ai visibility mistake #2: your best chart is lying ask ai about your brand by name and of course it mentions you. ai-search-geo se ranking (youtube) youtube news">
+<li class="finding" data-search="ai visibility mistake #2: your best chart is lying ask ai about your brand by name and of course it mentions you. ai-search-geo se ranking (youtube) news">
   <div class="finding-meta"><span>SE Ranking (YouTube)</span><span>2026-11-05</span><span class="chip">ai-search-geo</span></div>
   <a class="finding-title" href="https://www.youtube.com/shorts/nsNc3zi0BF4" target="_blank" rel="noreferrer">AI Visibility Mistake #2: Your Best Chart Is Lying</a>
   <p>Ask AI about your brand by name and of course it mentions you.</p>
@@ -1781,23 +1830,23 @@
   <a class="finding-title" href="https://www.youtube.com/watch?v=vfGGiFQbb7A" target="_blank" rel="noreferrer">301, 302, 307, 308: Which redirect is the chosen one?</a>
   <p>What is the actual difference between a 301 and a 302 redirect and does it affect canonicalization?</p>
 </li>
-<li class="finding" data-search="get ready for a big google update in the next 30 days stakeholders should be told now that a broad core update is overdue; the documentation has already been rewritten around effort, originality, skill, and accuracy. a quality recalibration of scaled content is likely to land before the end of the year than after it. read the full article from dan taylor that explains why he thinks this is about to happen on search engine journal https://www.searchenginejournal.com/a-panda-style-update-within-a-month-according-to-prediction-model-signals algorithm-updates search engine journal (youtube) google news">
-  <div class="finding-meta"><span>Search Engine Journal (YouTube)</span><span>2026-11-04</span><span class="chip">algorithm-updates</span></div>
+<li class="finding" data-search="get ready for a big google update in the next 30 days stakeholders should be told now that a broad core update is overdue; the documentation has already been rewritten around effort, originality, skill, and accuracy. a quality recalibration of scaled content is likely to land before the end of the year than after it. read the full article from dan taylor that explains why he thinks this is about to happen on search engine journal https://www.searchenginejournal.com/a-panda-style-update-within-a-month-according-to-prediction-model-signals algorithm-updates core-updates search engine journal (youtube) google news">
+  <div class="finding-meta"><span>Search Engine Journal (YouTube)</span><span>2026-11-04</span><span class="chip">algorithm-updates</span><span class="chip">core-updates</span></div>
   <a class="finding-title" href="https://www.youtube.com/shorts/ldQe5Sqw9SU" target="_blank" rel="noreferrer">Get Ready For A Big Google Update In The Next 30 days</a>
   <p>Stakeholders should be told now that a broad core update is overdue; the documentation has already been rewritten around effort, originality, skill, and accuracy.</p>
 </li>
-<li class="finding" data-search="your cfo wants to cut seo &amp; fund the same work as geo organic traffic is declining, and your cfo wants to cut the seo budget. here’s the problem: much of the work required to improve visibility across ai-powered discovery platforms is the same work already being funded through seo. seo investments should be classified according to the business outcomes they support, not simply the acronym or department attached to them. others protect existing revenue, maintain critical infrastructure, improve operational efficiency, or help the business evaluate emerging opportunities such as ai discovery. ai-search-geo analytics-measurement search engine journal (youtube) news">
-  <div class="finding-meta"><span>Search Engine Journal (YouTube)</span><span>2026-11-04</span><span class="chip">ai-search-geo</span><span class="chip">analytics-measurement</span></div>
+<li class="finding" data-search="your cfo wants to cut seo &amp; fund the same work as geo organic traffic is declining, and your cfo wants to cut the seo budget. here’s the problem: much of the work required to improve visibility across ai-powered discovery platforms is the same work already being funded through seo. seo investments should be classified according to the business outcomes they support, not simply the acronym or department attached to them. others protect existing revenue, maintain critical infrastructure, improve operational efficiency, or help the business evaluate emerging opportunities such as ai discovery. analytics-measurement ai-search-geo search engine journal (youtube) news">
+  <div class="finding-meta"><span>Search Engine Journal (YouTube)</span><span>2026-11-04</span><span class="chip">analytics-measurement</span><span class="chip">ai-search-geo</span></div>
   <a class="finding-title" href="https://www.youtube.com/shorts/1cUXxNeJmqU" target="_blank" rel="noreferrer">Your CFO Wants To Cut SEO &amp; Fund The Same Work As GEO</a>
   <p>Organic traffic is declining, and your CFO wants to cut the SEO budget.</p>
 </li>
-<li class="finding" data-search="schema is not enough, you need to be strategic structured data has always helped search engines understand your content, but in the age of ai search, simply adding schema to each page isn’t enough. llms are trying to understand entities, establish facts and connect the relationships between your brand, authors, products and content. read the full article from helen to learn how to avoid these structured data mistakes and make your content easier for ai systems to understand. schema-markup structured-data keyword-research search engine journal (youtube) news">
+<li class="finding" data-search="schema is not enough, you need to be strategic structured data has always helped search engines understand your content, but in the age of ai search, simply adding schema to each page isn’t enough. llms are trying to understand entities, establish facts and connect the relationships between your brand, authors, products and content. read the full article from helen to learn how to avoid these structured data mistakes and make your content easier for ai systems to understand. schema-markup structured-data ai-search-geo search engine journal (youtube) news">
   <div class="finding-meta"><span>Search Engine Journal (YouTube)</span><span>2026-11-04</span><span class="chip">schema-markup</span><span class="chip">structured-data</span></div>
   <a class="finding-title" href="https://www.youtube.com/shorts/t4HvnPXYOz8" target="_blank" rel="noreferrer">Schema is not enough, you need to be strategic</a>
   <p>Structured data has always helped search engines understand your content, but in the age of AI search, simply adding schema to each page isn’t enough.</p>
 </li>
-<li class="finding" data-search="information gain vs. content parity, why your ai search content isn&#39;t getting cited ai has made content parity cheap and fast. you can run prompts, pull citations, crawl competitors, find the missing concepts, and generate a page that matches everything already ranking. bill hunt calls this me-too parity, and it&#39;s why a set of pages built specifically for ai visibility can sit in search console as &quot;crawled – currently not indexed&quot; for over a month. read the full article by bill hunt on search engine journal: https://www.searchenginejournal.com/beyond-content-parity-building-a-validated-content-workflow-for-ai-search ai-search-geo search engine journal (youtube) news">
-  <div class="finding-meta"><span>Search Engine Journal (YouTube)</span><span>2026-11-04</span><span class="chip">ai-search-geo</span></div>
+<li class="finding" data-search="information gain vs. content parity, why your ai search content isn&#39;t getting cited ai has made content parity cheap and fast. you can run prompts, pull citations, crawl competitors, find the missing concepts, and generate a page that matches everything already ranking. bill hunt calls this me-too parity, and it&#39;s why a set of pages built specifically for ai visibility can sit in search console as &quot;crawled – currently not indexed&quot; for over a month. read the full article by bill hunt on search engine journal: https://www.searchenginejournal.com/beyond-content-parity-building-a-validated-content-workflow-for-ai-search ai-search-geo analytics-measurement search-console search engine journal (youtube) news">
+  <div class="finding-meta"><span>Search Engine Journal (YouTube)</span><span>2026-11-04</span><span class="chip">ai-search-geo</span><span class="chip">analytics-measurement</span></div>
   <a class="finding-title" href="https://www.youtube.com/shorts/Gd5qQdKhf8c" target="_blank" rel="noreferrer">Information Gain vs. Content Parity, Why Your AI Search Content Isn&#39;t Getting Cited</a>
   <p>AI has made content parity cheap and fast.</p>
 </li>
@@ -1826,7 +1875,7 @@
   <a class="finding-title" href="https://www.youtube.com/shorts/FXGG2Ry_TmA" target="_blank" rel="noreferrer">Google Is Finally Paying Websites…</a>
   <p>Google just started paying websites when its AI uses their content.</p>
 </li>
-<li class="finding" data-search="are you making these ai visibility mistakes right now? #aivisibility the riskiest ai visibility habits are the ones that pass every gut check. optimizing only your own site, chasing whichever platform is trending, mixing branded and non-branded prompts in one report, letting ai write your playbook. each sounds reasonable in a planning meeting. together they make a strategy look sharper than its results. ai-search-geo se ranking (youtube) youtube news">
+<li class="finding" data-search="are you making these ai visibility mistakes right now? #aivisibility the riskiest ai visibility habits are the ones that pass every gut check. optimizing only your own site, chasing whichever platform is trending, mixing branded and non-branded prompts in one report, letting ai write your playbook. each sounds reasonable in a planning meeting. together they make a strategy look sharper than its results. ai-search-geo se ranking (youtube) news">
   <div class="finding-meta"><span>SE Ranking (YouTube)</span><span>2026-11-03</span><span class="chip">ai-search-geo</span></div>
   <a class="finding-title" href="https://www.youtube.com/shorts/UKz4fy9ZEv4" target="_blank" rel="noreferrer">Are you making these AI visibility mistakes right now? #aivisibility</a>
   <p>The riskiest AI visibility habits are the ones that pass every gut check.</p>
@@ -1866,8 +1915,8 @@
   <a class="finding-title" href="https://www.youtube.com/shorts/v1ETcjeSMGQ" target="_blank" rel="noreferrer">Gemini 4 Carbon tops the benchmarks. So what?</a>
   <p>Google says Gemini 4 Carbon beats the OpenAI and Anthropic models on benchmarks.</p>
 </li>
-<li class="finding" data-search="your first 100 words decide everything your first 100 words decide whether ai cites your content. almost 40% of all ai citations now come from the first 100 words of a page, double the 20% from a year ago. ai models pick sources the way you pick a ride: an expensive airport taxi or a discounted uber. the further they have to read before finding something worth quoting, the more expensive the ride. ai-search-geo local-seo surfer academy (youtube) youtube news">
-  <div class="finding-meta"><span>Surfer Academy (YouTube)</span><span>2026-11-02</span><span class="chip">ai-search-geo</span><span class="chip">local-seo</span></div>
+<li class="finding" data-search="your first 100 words decide everything your first 100 words decide whether ai cites your content. almost 40% of all ai citations now come from the first 100 words of a page, double the 20% from a year ago. ai models pick sources the way you pick a ride: an expensive airport taxi or a discounted uber. the further they have to read before finding something worth quoting, the more expensive the ride. ai-search-geo surfer academy (youtube) news">
+  <div class="finding-meta"><span>Surfer Academy (YouTube)</span><span>2026-11-02</span><span class="chip">ai-search-geo</span></div>
   <a class="finding-title" href="https://www.youtube.com/shorts/8asHHeL0_Zs" target="_blank" rel="noreferrer">Your First 100 Words Decide EVERYTHING</a>
   <p>Your first 100 words decide whether AI cites your content.</p>
 </li>
@@ -1891,8 +1940,8 @@
   <a class="finding-title" href="https://yoast.com/seo-tip-for-jewelers" target="_blank" rel="noreferrer">More than bling: How SEO can help your jewelry brand get found</a>
   <p>In this guide, we’ll explore why SEO matters for jewelry businesses, what people and AI models are searching for, and how to make your website shine in search.</p>
 </li>
-<li class="finding" data-search="we cracked what google ai mode wants to cite 🤫 surfer studied google ai mode citation factors, and first-hand experience matters more here than in any other ai model we analyzed. like other ai models, google ai mode looks at your intro first. in the first 100 words, answer the question, confirm you understand the search intent, and add a quotable stat or direct answer. google ai mode rewards original content that shows real experience: &quot;when we tested this on 40 client sites,&quot; &quot;here&#39;s the mistake i made the first time,&quot; real tests, real numbers, hard-earned lessons. ai-search-geo ai-overviews surfer academy (youtube) google youtube news">
-  <div class="finding-meta"><span>Surfer Academy (YouTube)</span><span>2026-10-30</span><span class="chip">ai-search-geo</span><span class="chip">ai-overviews</span></div>
+<li class="finding" data-search="we cracked what google ai mode wants to cite 🤫 surfer studied google ai mode citation factors, and first-hand experience matters more here than in any other ai model we analyzed. like other ai models, google ai mode looks at your intro first. in the first 100 words, answer the question, confirm you understand the search intent, and add a quotable stat or direct answer. google ai mode rewards original content that shows real experience: &quot;when we tested this on 40 client sites,&quot; &quot;here&#39;s the mistake i made the first time,&quot; real tests, real numbers, hard-earned lessons. ai-overviews ai-search-geo keyword-research surfer academy (youtube) google news">
+  <div class="finding-meta"><span>Surfer Academy (YouTube)</span><span>2026-10-30</span><span class="chip">ai-overviews</span><span class="chip">ai-search-geo</span></div>
   <a class="finding-title" href="https://www.youtube.com/shorts/IzjuqLtMgI0" target="_blank" rel="noreferrer">We Cracked What Google AI Mode Wants to Cite 🤫</a>
   <p>Surfer studied Google AI Mode citation factors, and first-hand experience matters more here than in any other AI model we analyzed.</p>
 </li>
@@ -1927,7 +1976,7 @@
   </main>
 
   <footer class="page">
-    Generated 2026-11-08T12:17:41.026Z · Run <code>npm run update</code> to refresh · <a href="../skills/index.json">index.json</a> · <a href="../library/INDEX.md">library index</a>
+    Generated 2026-11-08T12:18:28.689Z · Run <code>npm run update</code> to refresh · <a href="../skills/index.json">index.json</a> · <a href="../library/INDEX.md">library index</a>
   </footer>
 </div>
 <script>
@@ -1935,8 +1984,39 @@
   var input = document.getElementById('q');
   var empty = document.getElementById('empty');
   var items = Array.prototype.slice.call(document.querySelectorAll('[data-search]'));
+  var bars = Array.prototype.slice.call(document.querySelectorAll('.tabs'));
+  var groups = Array.prototype.slice.call(document.querySelectorAll('.group[data-category]'));
+
+  function applyBar(bar, name) {
+    bar.setAttribute('data-active', name);
+    Array.prototype.forEach.call(bar.querySelectorAll('.tab'), function (tab) {
+      tab.setAttribute('aria-selected', tab.getAttribute('data-category') === name ? 'true' : 'false');
+    });
+    var scope = bar.getAttribute('data-tabgroup');
+    groups.forEach(function (group) {
+      if (group.getAttribute('data-tabgroup') !== scope) return;
+      group.hidden = name !== 'all' && group.getAttribute('data-category') !== name;
+    });
+  }
+
+  bars.forEach(function (bar) {
+    bar.addEventListener('click', function (event) {
+      var tab = event.target.closest ? event.target.closest('.tab') : null;
+      if (tab) applyBar(bar, tab.getAttribute('data-category'));
+    });
+    var selected = bar.querySelector('.tab[aria-selected="true"]') || bar.querySelector('.tab');
+    if (selected) applyBar(bar, selected.getAttribute('data-category'));
+  });
+
   input.addEventListener('input', function () {
     var query = input.value.trim().toLowerCase();
+    // While searching, look across every category; clearing restores the active tab.
+    if (query) {
+      groups.forEach(function (group) { group.hidden = false; });
+    } else {
+      bars.forEach(function (bar) { applyBar(bar, bar.getAttribute('data-active') || 'all'); });
+    }
+
     var shown = 0;
     items.forEach(function (item) {
       var haystack = item.getAttribute('data-search') || '';
@@ -1944,6 +2024,12 @@
       item.hidden = !match;
       if (match) shown++;
     });
+
+    if (query) {
+      groups.forEach(function (group) {
+        group.hidden = !group.querySelector('[data-search]:not([hidden])');
+      });
+    }
     empty.hidden = shown > 0;
   });
 })();

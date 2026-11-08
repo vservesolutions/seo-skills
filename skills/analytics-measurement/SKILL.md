@@ -1,8 +1,8 @@
 ---
 name: seo-analytics-measurement
-description: "Search Console and GA4 measurement, rank tracking, dashboards, forecasting and KPI definitions. Auto-generated from 35 findings across 13 sources."
+description: "Search Console and GA4 measurement, rank tracking, dashboards, forecasting and KPI definitions. Auto-generated from 33 findings across 13 sources."
 last_updated: 2026-11-07
-findings: 35
+findings: 33
 sources: 13
 confidence: high
 ---
@@ -18,25 +18,25 @@ Use when building reports, explaining traffic changes, defining SEO KPIs, or ins
 ## Core practices
 
 1. Submit Canonical URLs Only: Always place clean, canonical versions of URLs inside your sitemap file rather than parameter-tagged tracking URLs to help guide Google’s canonical selection. — *Google Search Central (YouTube), 2026-10-01*
-2. Search Pages: How systems like Blogger use search parameters for tag landing pages and why you should treat valuable category pages differently. — *Google Search Central (YouTube), 2026-07-30*
-3. Build Real Category Pages: Instead of using internal search parameters as makeshift categories, invest in clean, dedicated category pages to help search engines understand your site's hierarchy. — *Google Search Central (YouTube), 2026-07-30*
-4. Choose a one-, two- or three-month window, start with the topics where your citations are already concentrated, then work down the opportunity queries. — *Bing Webmaster Blog, 2026-10-13*
-5. Check if you were dropped at a position of 9 or lower from late September on to see if your replacement URLs are about one word of your query. — *Search Engine Journal, 2026-11-07*
-6. Make sure each report lists the same Lighthouse version, and compare your field data, before claiming an improvement. — *Search Engine Journal, 2026-11-07*
-7. Google Ads Expands AI Content Disclosure Label To More Regions Google Ads has expanded the regions where you must disclose whether AI was used in your ads. — *Search Engine Roundtable, 2026-11-05*
-8. Identify the competitor product, feature, and use-case pages attracting meaningful organic demand. — *Semrush Blog, 2026-11-04*
-9. Use the following prompt to check your content’s messaging (make sure you add your approved messaging to the project or the prompt). — *Semrush Blog, 2026-11-04*
-10. Focus on behavioral patterns (e.g., time on site, pages visited) to distinguish between bots and human traffic. — *Yoast SEO Blog, 2026-10-28*
-11. Optimize sitemaps to ensure AI tools can easily find and index your pages. — *Yoast SEO Blog, 2026-10-28*
-12. The whole point of the dashboard is to track visibility over time , so you’ll want to make sure it updates properly. — *Semrush Blog, 2026-10-12*
-13. Test the connection by changing one number in the Sheet and confirming it moves in the dashboard. — *Semrush Blog, 2026-10-12*
-14. Publishers must ensure their content is descriptive and accurate to avoid misinterpretation by AI image generators. — *Yoast SEO Blog, 2026-09-02*
-15. Monitor AI-driven traffic in Google Search Console and Microsoft Clarity. — *Yoast SEO Blog, 2026-09-02*
-16. The index must also account for coverage gaps in high–value content – not just whether the web is broadly indexed, but whether the specific facts and sources that people are likely to ask about are actually available and groundable. — *Bing Webmaster Blog, 2026-05-06*
-17. The processes of breaking content into retrievable chunks and transforming it for fast lookup can distort page substance in ways that never appear in any ranking signal. — *Bing Webmaster Blog, 2026-05-06*
-18. Start by connecting your website to Google Search Console to monitor search performance, identify indexing issues, and see which queries drive traffic to your site. — *Yoast SEO Blog, 2026-07-27*
-19. On the other hand, if you’re building a more polished website with custom copy, additional pages, and SEO improvements, you should expect to spend a few hours or even a full day refining it. — *Yoast SEO Blog, 2026-07-27*
-20. Musicians must prioritize discovery through SEO to connect with fans searching for their music online. — *Yoast SEO Blog, 2026-07-14*
+2. Choose a one-, two- or three-month window, start with the topics where your citations are already concentrated, then work down the opportunity queries. — *Bing Webmaster Blog, 2026-10-13*
+3. Check if you were dropped at a position of 9 or lower from late September on to see if your replacement URLs are about one word of your query. — *Search Engine Journal, 2026-11-07*
+4. Make sure each report lists the same Lighthouse version, and compare your field data, before claiming an improvement. — *Search Engine Journal, 2026-11-07*
+5. Google Ads Expands AI Content Disclosure Label To More Regions Google Ads has expanded the regions where you must disclose whether AI was used in your ads. — *Search Engine Roundtable, 2026-11-05*
+6. Identify the competitor product, feature, and use-case pages attracting meaningful organic demand. — *Semrush Blog, 2026-11-04*
+7. Use the following prompt to check your content’s messaging (make sure you add your approved messaging to the project or the prompt). — *Semrush Blog, 2026-11-04*
+8. Focus on behavioral patterns (e.g., time on site, pages visited) to distinguish between bots and human traffic. — *Yoast SEO Blog, 2026-10-28*
+9. Optimize sitemaps to ensure AI tools can easily find and index your pages. — *Yoast SEO Blog, 2026-10-28*
+10. The whole point of the dashboard is to track visibility over time , so you’ll want to make sure it updates properly. — *Semrush Blog, 2026-10-12*
+11. Test the connection by changing one number in the Sheet and confirming it moves in the dashboard. — *Semrush Blog, 2026-10-12*
+12. Publishers must ensure their content is descriptive and accurate to avoid misinterpretation by AI image generators. — *Yoast SEO Blog, 2026-09-02*
+13. Monitor AI-driven traffic in Google Search Console and Microsoft Clarity. — *Yoast SEO Blog, 2026-09-02*
+14. The index must also account for coverage gaps in high–value content – not just whether the web is broadly indexed, but whether the specific facts and sources that people are likely to ask about are actually available and groundable. — *Bing Webmaster Blog, 2026-05-06*
+15. The processes of breaking content into retrievable chunks and transforming it for fast lookup can distort page substance in ways that never appear in any ranking signal. — *Bing Webmaster Blog, 2026-05-06*
+16. Start by connecting your website to Google Search Console to monitor search performance, identify indexing issues, and see which queries drive traffic to your site. — *Yoast SEO Blog, 2026-07-27*
+17. On the other hand, if you’re building a more polished website with custom copy, additional pages, and SEO improvements, you should expect to spend a few hours or even a full day refining it. — *Yoast SEO Blog, 2026-07-27*
+18. Musicians must prioritize discovery through SEO to connect with fans searching for their music online. — *Yoast SEO Blog, 2026-07-14*
+19. SEO helps ensure they find accurate information about you instead of getting lost among unrelated results. — *Yoast SEO Blog, 2026-07-14*
+20. Sitemaps have been a core element of web development and search engine optimization for two decades, yet Search Console warnings like "Couldn't fetch" continue to generate concern among site owners. — *Google Search Central (YouTube), 2026-10-01*
 
 ## Recent developments
 
@@ -49,7 +49,7 @@ Use when building reports, explaining traffic changes, defining SEO KPIs, or ins
 - **Daily Search Forum Recap: November 5, 2026** — 2026-11-05 · Search Engine Roundtable — Google Can Temporarily Protected Important URLs From Being Deindexed Gary Illyes from Google said that when important URLs serve a 4xx status code, Google Search can "temporarily protect the URL from falling out of the index right away."… ([link](https://www.seroundtable.com/recap-11-05-2026-42466.html))
 - **Reach Is No Longer The KPI: 4 Signals From Jupiter Festival Miami That Reset 2027 Media Budgets** — 2026-11-04 · Search Engine Journal — Build your 2027 paid media plan around attention, creators, and streaming, while testing whether new metrics drive incremental sales. ([link](https://www.searchenginejournal.com/reach-is-losing-as-a-paid-media-kpi-4-signals-from-jupiter-festival-miami-for-2027/595221))
 - **Your CFO Wants To Cut SEO & Fund The Same Work As GEO** — 2026-11-04 · Search Engine Journal (YouTube) — Organic traffic is declining, and your CFO wants to cut the SEO budget. ([link](https://www.youtube.com/shorts/1cUXxNeJmqU))
-- **AI for product marketing (7 actionable use cases)** — 2026-11-04 · Semrush Blog — Now that you’ve created your project and added your context files, you can start actually using AI for specific product marketing use cases. ([link](https://www.semrush.com/blog/ai-for-product-marketing))
+- **Information Gain vs. Content Parity, Why Your AI Search Content Isn't Getting Cited** — 2026-11-04 · Search Engine Journal (YouTube) — AI has made content parity cheap and fast. ([link](https://www.youtube.com/shorts/Gd5qQdKhf8c))
 
 ## References
 
@@ -62,13 +62,13 @@ Use when building reports, explaining traffic changes, defining SEO KPIs, or ins
 - [Daily Search Forum Recap: November 5, 2026](https://www.seroundtable.com/recap-11-05-2026-42466.html) — Search Engine Roundtable · 2026-11-05
 - [Reach Is No Longer The KPI: 4 Signals From Jupiter Festival Miami That Reset 2027 Media Budgets](https://www.searchenginejournal.com/reach-is-losing-as-a-paid-media-kpi-4-signals-from-jupiter-festival-miami-for-2027/595221) — Search Engine Journal · 2026-11-04
 - [Your CFO Wants To Cut SEO & Fund The Same Work As GEO](https://www.youtube.com/shorts/1cUXxNeJmqU) — Search Engine Journal (YouTube) · 2026-11-04
+- [Information Gain vs. Content Parity, Why Your AI Search Content Isn't Getting Cited](https://www.youtube.com/shorts/Gd5qQdKhf8c) — Search Engine Journal (YouTube) · 2026-11-04
 - [AI for product marketing (7 actionable use cases)](https://www.semrush.com/blog/ai-for-product-marketing) — Semrush Blog · 2026-11-04
 - [Stop Tracking Impressions](https://www.youtube.com/shorts/4TlJCbj9fyg) — Neil Patel (YouTube) · 2026-11-02
-- [The October 2026 SEO Update by Yoast recap](https://yoast.com/the-october-2026-seo-update-by-yoast-recap) — Yoast SEO Blog · 2026-10-28
 
 ## How this skill stays current
 
 - Regenerated on 2026-11-08 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2024-03-13 → 2026-11-07.
-- 35 findings from 13 sources; confidence is **high**.
+- 33 findings from 13 sources; confidence is **high**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.
