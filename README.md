@@ -23,6 +23,29 @@ The first run ingests the newest items from every enabled source. Later runs onl
 changed (ETag / Last-Modified) and only fetch article pages for genuinely new items, so a daily
 run costs a handful of requests.
 
+## Using the skills
+
+Agents load skills lazily: they see each skill's name and description at startup and read the full
+`SKILL.md` only when a task matches. Install the 34 generated skills wholesale — that is ~740
+tokens of metadata — and add library skills only as needed (all 182 would cost ~15,000 tokens and
+their names collide).
+
+```bash
+# project-level (recommended: pins a version per repo)
+mkdir -p .claude/skills && cp -r skills/*/ .claude/skills/
+
+# personal
+mkdir -p ~/.claude/skills && cp -r skills/*/ ~/.claude/skills/
+```
+
+Claude Code reads `.claude/skills/`, Codex `.agents/skills/`, Cursor `.cursor/skills/` — and both
+Codex and Cursor also read `.claude/skills/`. Restart the agent, then either describe the task or
+invoke a skill by name (`/seo-schema-markup`).
+
+The full guide — cherry-picking a library skill, fixing name collisions, choosing between
+overlapping skills, updating an install, troubleshooting — is **[USING-SKILLS.md](USING-SKILLS.md)**.
+Share that file with teammates instead of explaining it again.
+
 ## How it works
 
 1. **Collect** — each source in `config/sources.json` is fetched with conditional GET. A `304`

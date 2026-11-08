@@ -329,6 +329,7 @@ export async function renderSkills(findings, topics, { skillsDir, now = new Date
 /** Render the self-contained local dashboard. */
 export async function renderDashboard({ findings, skillsIndex, sourcesCount, dashboardFile, now = new Date(), library = null }) {
   const skills = skillsIndex.skills || [];
+  const guideUrl = 'https://github.com/vservesolutions/seo-skills/blob/main/USING-SKILLS.md';
   // The dashboard is an SEO surface: unclassified items stay searchable in the
   // knowledge base but would only add noise here.
   const latest = findings
@@ -672,6 +673,7 @@ ${group.skills.map(libraryCard).join('\n')}
       <a href="#skills">Generated skills · ${skills.length}</a>
       <a href="#library">Skill library · ${librarySkills.length}</a>
       <a href="findings.html">Latest findings · ${latest.length}</a>
+      <a href="${guideUrl}">How to use these skills</a>
     </nav>
 
     <section id="skills">
@@ -768,6 +770,7 @@ ${styleBlock}
     <nav class="jump">
       <a href="index.html">← Skills and library</a>
       <a href="../skills/INDEX.md">Skill index</a>
+      <a href="${guideUrl}">How to use these skills</a>
     </nav>
 
     <section id="findings">
