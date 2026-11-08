@@ -11,7 +11,7 @@ raw_source: "https://raw.githubusercontent.com/Ryze-AI-Adgent/open-seo-mcp-skill
 ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
-stars: 8929
+stars: 8940
 collected: "2026-11-08"
 ---
 
