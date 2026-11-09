@@ -316,7 +316,8 @@ What it does and does not do:
   skills that are new or changed upstream, which is what keeps a free daily quota sufficient.
 - Fails soft: no key, a bad key, a rate limit or malformed output leaves the library untouched and
   the exit status still tells you what happened. `SEO_LLM_MAX` (default 400) caps skills per run,
-  and `SEO_LLM_DELAY` (default 1,200 ms) paces requests to stay inside a free tier's per-minute limit.
+  `SEO_LLM_BATCH` (default 20) sets skills per request, and `SEO_LLM_DELAY` (default 1,200 ms) paces
+  requests to stay inside a free tier's per-minute limit.
 
 In CI, add the key once under Settings → Secrets and variables → Actions as `SEO_LLM_KEY`, then run
 the **Model audit (optional)** workflow from the Actions tab. Optionally set the repository
