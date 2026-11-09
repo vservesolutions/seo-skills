@@ -16,6 +16,7 @@
     "library": "node src/cli.js library",
     "collect": "node --env-file-if-exists=.env src/cli.js collect",
     "enrich": "node --env-file-if-exists=.env src/cli.js enrich",
+    "health": "node --env-file-if-exists=.env src/cli.js health",
     "serve": "node src/cli.js serve",
     "schedule": "node src/cli.js schedule show",
     "test": "node --test test/*.test.js"

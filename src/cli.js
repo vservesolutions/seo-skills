@@ -11,7 +11,8 @@ import { loadSources, loadTopics, projectPaths, readJson, writeJson } from './li
 import { readFindings, writeFindings } from './lib/kb.js';
 import { renderDashboard, renderSkills } from './lib/render.js';
 import { auditSkills, llmConfig, readCache } from './lib/llm.js';
-import { FALLBACK_CATEGORY, collectLibrary, platformLabel, readLibrary, reindexLibrary, renderLibrary, writeLibrary } from './lib/skill-library.js';
+import { FALLBACK_CATEGORY, collectLibrary, groupKey, platformLabel, readLibrary, reindexLibrary, renderLibrary, writeLibrary } from './lib/skill-library.js';
+import { checkRepos, isStale, loadHealth, mergeHealth, saveHealth } from './lib/health.js';
 import { runUpdate } from './lib/update.js';
 import { setLogLevel } from './lib/log.js';
 import { fetchText, FEED_ACCEPT } from './lib/http.js';
@@ -39,6 +40,7 @@ const OPTIONS = {
   verbose: { type: 'boolean' },
   repo: { type: 'string' },
   all: { type: 'boolean' },
+  'all-versions': { type: 'boolean' },
   category: { type: 'string' },
   platform: { type: 'string' }
 };
@@ -55,6 +57,7 @@ Commands:
   search <query>    Search collected findings
   library           List collected third-party SEO agent skills by category
   collect           Refresh the skill library from published packs
+  health            Check packs for archived, deleted or stale repositories
   enrich            Optional model pass: summaries + SEO audit of stored skills
   doctor            Check every configured source and its feed
   serve             Serve the dashboard at http://127.0.0.1:4321
@@ -79,6 +82,11 @@ Library options:
   --platform <name>    Filter by agent: claude-code, codex, cursor, …
   --reindex            Recompute platform + provenance from stored data
   --verbose            Show the exact source URL for each skill
+  --all-versions       List every copy instead of the best copy per skill name
+
+Health options:
+  --limit <n>          Packs to check this run (GitHub rate limited, default 100)
+  --all                Recheck packs that were checked in the last 7 days
 
 Enrich options (needs SEO_LLM_KEY):
   --limit <n>          Skills to review this run (free tiers are rate limited)
@@ -149,7 +157,11 @@ async function refreshLibrary({ limit, skillsPerRepo, only = [], dryRun = false,
   const result = await collectLibrary({ paths, topics, classify, limit, skillsPerRepo, only, dryRun, now });
   if (dryRun) return { result, index: null, paths };
   const records = await readLibrary(paths.libraryFile);
-  const index = await renderLibrary(records, topics, { libraryDir: paths.libraryDir, now });
+  const index = await renderLibrary(records, topics, {
+    libraryDir: paths.libraryDir,
+    now,
+    health: await loadHealth(paths.repoHealthFile)
+  });
   return { result, index, paths };
 }
 
@@ -257,7 +269,11 @@ async function commandBuild() {
 
   const libraryRecords = await readLibrary(paths.libraryFile);
   const libraryIndex = libraryRecords.length
-    ? await renderLibrary(libraryRecords, topics, { libraryDir: paths.libraryDir, now })
+    ? await renderLibrary(libraryRecords, topics, {
+        libraryDir: paths.libraryDir,
+        now,
+        health: await loadHealth(paths.repoHealthFile)
+      })
     : null;
 
   await renderDashboard({
@@ -450,7 +466,11 @@ async function commandCollect(values) {
     const topics = await loadTopics();
     const records = reindexLibrary(await readLibrary(paths.libraryFile));
     await writeLibrary(paths.libraryFile, records);
-    const index = await renderLibrary(records, topics, { libraryDir: paths.libraryDir, now: new Date() });
+    const index = await renderLibrary(records, topics, {
+    libraryDir: paths.libraryDir,
+    now: new Date(),
+    health: await loadHealth(paths.repoHealthFile)
+  });
     console.log('');
     console.log('SEO skill library · reindexed from stored data (no network)');
     console.log(`  Skills       ${formatNumber(index.counts.skills)} · ${formatNumber(index.counts.packs)} packs`);
@@ -534,9 +554,20 @@ async function commandLibrary(values, positionals) {
     return;
   }
 
+  // By default a name appears once: the best copy, with the other copies counted.
+  if (!values['all-versions']) {
+    const best = new Map();
+    for (const skill of skills) {
+      const key = skill.group || groupKey(skill.name);
+      const current = best.get(key);
+      if (!current || (skill.isPrimary && !current.isPrimary)) best.set(key, skill);
+    }
+    skills = [...best.values()];
+  }
+
   console.log('');
   console.log(
-    `Skill library · ${formatNumber(index.counts.skills)} skills · ${formatNumber(index.counts.packs)} packs · built ${isoMinute(index.generatedAt)}`
+    `Skill library · ${formatNumber(index.counts.groups ?? index.counts.skills)} distinct skills · ${formatNumber(index.counts.skills)} versions · ${formatNumber(index.counts.packs)} packs · built ${isoMinute(index.generatedAt)}`
   );
   if (!skills.length) {
     console.log('');
@@ -564,8 +595,9 @@ async function commandLibrary(values, positionals) {
     for (const skill of rows) {
       const access = skill.hasContent ? 'full text' : 'link only';
       const platforms = (skill.platforms || []).map(platformLabel).join(', ') || 'Unspecified';
+      const label = skill.groupSize > 1 ? `${skill.name} +${skill.groupSize - 1}` : skill.name;
       console.log(
-        `  ${skill.name.padEnd(30).slice(0, 30)}  ${platforms.padEnd(26).slice(0, 26)}  ${String(skill.repo).padEnd(36).slice(0, 36)}  ${String(skill.license).padEnd(12)}  ${String(skill.stars).padStart(6)}  ${access}`
+        `  ${label.padEnd(30).slice(0, 30)}  ${platforms.padEnd(26).slice(0, 26)}  ${String(skill.repo).padEnd(36).slice(0, 36)}  ${String(skill.license).padEnd(12)}  ${String(skill.stars).padStart(6)}  ${access}`
       );
       if (values.verbose) {
         console.log(`      ${skill.url}`);
@@ -577,6 +609,63 @@ async function commandLibrary(values, positionals) {
   }
   console.log('');
   console.log('Full text: library/<category>/<skill>.md · index: library/INDEX.md');
+  console.log('');
+}
+
+/**
+ * Check the repositories behind the library: archived, deleted or abandoned packs.
+ *
+ * Health is advisory: a dead pack hides its skills from the rendered library, a stale one
+ * gets a badge. Nothing is deleted from the catalogue, so a repository that comes back is
+ * restored on the next run.
+ */
+async function commandHealth(values) {
+  const started = Date.now();
+  const paths = projectPaths();
+  const records = await readLibrary(paths.libraryFile);
+  if (!records.length) {
+    console.error('No skill library yet — run: npm run collect');
+    process.exitCode = 1;
+    return;
+  }
+
+  const health = await loadHealth(paths.repoHealthFile);
+  const repos = [...new Set(records.filter((record) => !record.duplicateOf).map((record) => record.repo))];
+  const now = new Date();
+  const recent = (repo) => {
+    if (values.all) return false;
+    const age = now.getTime() - Date.parse(health[repo]?.checkedAt || '');
+    return Number.isFinite(age) && age < 7 * 86_400_000;
+  };
+  const lastChecked = (repo) => Date.parse(health[repo]?.checkedAt || '') || 0;
+  const queue = repos.filter((repo) => !recent(repo)).sort((a, b) => lastChecked(a) - lastChecked(b));
+
+  console.log('');
+  if (!queue.length) {
+    console.log(`Pack health is current for all ${formatNumber(repos.length)} packs (checked in the last 7 days).`);
+    console.log('');
+    return;
+  }
+
+  const limit = toInt(values.limit, 100);
+  const result = await checkRepos(queue, { token: process.env.GITHUB_TOKEN || '', limit, now });
+  const merged = mergeHealth(health, result.updates);
+  await saveHealth(paths.repoHealthFile, merged);
+
+  const known = Object.values(merged);
+  const dead = known.filter((entry) => entry.status === 'missing' || entry.archived).length;
+  const stale = known.filter((entry) => entry.status === 'ok' && isStale(entry.pushedAt, now)).length;
+
+  console.log('SEO skill library · pack health');
+  console.log(`  Checked      ${formatNumber(result.checked)} pack(s) in ${((Date.now() - started) / 1000).toFixed(1)}s`);
+  console.log(`  Known        ${formatNumber(known.length)} of ${formatNumber(repos.length)} packs`);
+  console.log(`  Dead         ${formatNumber(dead)} (archived or deleted — hidden from the library)`);
+  console.log(`  Stale        ${formatNumber(stale)} (no push in 18 months — shown with a badge)`);
+  if (result.errors.length) console.log(`  Errors       ${result.errors.length}: ${result.errors.slice(0, 3).join('; ')}`);
+  if (result.rateLimited) console.log('  Rate limit   reached — run again later, or set GITHUB_TOKEN for 1,000 requests/hour');
+  console.log(`  Written      ${paths.repoHealthFile}`);
+  console.log('');
+  console.log('  Rebuild the library with: node src/cli.js build');
   console.log('');
 }
 
@@ -684,7 +773,11 @@ async function commandEnrich(values) {
     moved: moved.slice(0, 500),
     errors: outcome.errors
   });
-  const index = await renderLibrary(records, topics, { libraryDir: paths.libraryDir, now: new Date() });
+  const index = await renderLibrary(records, topics, {
+    libraryDir: paths.libraryDir,
+    now: new Date(),
+    health: await loadHealth(paths.repoHealthFile)
+  });
   console.log(`  Written      ${path.join(paths.libraryDir, 'INDEX.md')} · ${formatNumber(index.counts.skills)} skills`);
   console.log(`  Review file  ${paths.llmAuditFile} (flagged + category moves)`);
   console.log('  Dashboard    run: node src/cli.js build');
@@ -902,6 +995,9 @@ async function main() {
       break;
     case 'collect':
       await commandCollect(values);
+      break;
+    case 'health':
+      await commandHealth(values);
       break;
     case 'enrich':
       await commandEnrich(values);

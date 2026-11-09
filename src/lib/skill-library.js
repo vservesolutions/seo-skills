@@ -23,6 +23,8 @@ import { normalizeWhitespace, truncateAtWord } from './text.js';
 
 const log = createLogger('library');
 
+import { isDead, isStale } from './health.js';
+
 export const FALLBACK_CATEGORY = { id: 'general-seo', title: 'General SEO' };
 
 const PERMISSIVE_LICENSES = new Map(
@@ -889,6 +891,44 @@ function indexRow(record) {
  * Recompute derived provenance fields from stored records without refetching.
  * Used to upgrade data collected before platform detection existed.
  */
+/** Two skills share a group when their names differ only in punctuation or case. */
+export function groupKey(name) {
+  return String(name || '').toLowerCase().replace(/[^a-z0-9]+/g, '');
+}
+
+function compareCopies(a, b) {
+  // Prefer a copy that can actually be handed over, then the most popular, then the freshest.
+  if (Boolean(b.hasContent) !== Boolean(a.hasContent)) return b.hasContent ? 1 : -1;
+  if ((b.stars || 0) !== (a.stars || 0)) return (b.stars || 0) - (a.stars || 0);
+  const updated = (Date.parse(b.repoUpdatedAt || '') || 0) - (Date.parse(a.repoUpdatedAt || '') || 0);
+  if (updated) return updated;
+  return String(a.repo).localeCompare(String(b.repo));
+}
+
+/**
+ * Group versions of the same skill and mark the best copy.
+ *
+ * "seo-audit" published by 46 different packs is one idea, not 46 ideas; the library shows
+ * the best copy and keeps the others reachable from it.
+ */
+export function groupSkills(skills) {
+  const groups = new Map();
+  for (const skill of skills) {
+    const key = groupKey(skill.name);
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(skill);
+  }
+  for (const [key, members] of groups) {
+    members.sort(compareCopies);
+    members.forEach((skill, index) => {
+      skill.group = key;
+      skill.groupSize = members.length;
+      skill.isPrimary = index === 0;
+    });
+  }
+  return groups;
+}
+
 export function reindexLibrary(records) {
   for (const record of records) {
     record.repoUrl = record.repoUrl || `https://github.com/${record.repo}`;
@@ -915,11 +955,20 @@ export function reindexLibrary(records) {
 }
 
 /** Render the library as category folders plus INDEX.md and index.json. */
-export async function renderLibrary(records, topics, { libraryDir, now = new Date() }) {
+export async function renderLibrary(records, topics, { libraryDir, now = new Date(), health = {} }) {
   const titles = new Map(topics.map((topic) => [topic.id, topic.title]));
   titles.set(FALLBACK_CATEGORY.id, FALLBACK_CATEGORY.title);
 
-  const active = records.filter((record) => !record.duplicateOf);
+  const healthOf = (record) => health[record.repo] || null;
+  // Skills from a deleted or archived pack are hidden; staleness is shown, not hidden.
+  const active = records.filter((record) => !record.duplicateOf && !isDead(healthOf(record)));
+  const hidden = records.filter((record) => !record.duplicateOf && isDead(healthOf(record))).length;
+  for (const record of active) {
+    const pack = healthOf(record);
+    record.stale = Boolean(pack && pack.status === 'ok' && isStale(pack.pushedAt, now));
+    record.repoPushedAt = pack?.pushedAt || record.repoUpdatedAt || '';
+  }
+  groupSkills(active);
   const groups = new Map();
   for (const record of active) {
     if (!groups.has(record.category)) groups.set(record.category, []);
@@ -969,7 +1018,12 @@ export async function renderLibrary(records, topics, { libraryDir, now = new Dat
         stars: record.stars || 0,
         repoUpdatedAt: record.repoUpdatedAt || '',
         hasContent: Boolean(record.hasContent),
-        file: record.file
+        file: record.file,
+        group: record.group,
+        groupSize: record.groupSize || 1,
+        isPrimary: record.isPrimary !== false,
+        stale: Boolean(record.stale),
+        repoPushedAt: record.repoPushedAt || ''
       });
     }
   }
@@ -984,6 +1038,9 @@ export async function renderLibrary(records, topics, { libraryDir, now = new Dat
     generatedAt: now.toISOString(),
     counts: {
       skills: skills.length,
+      groups: new Set(skills.map((skill) => skill.group)).size,
+      hidden,
+      stale: skills.filter((skill) => skill.stale).length,
       packs: new Set(skills.map((skill) => skill.repo)).size,
       fullText: skills.filter((skill) => skill.hasContent).length,
       categories: categories.length
@@ -997,7 +1054,9 @@ export async function renderLibrary(records, topics, { libraryDir, now = new Dat
     '',
     `Third-party SEO agent skills collected from published packs, grouped by category.`,
     '',
-    `Collected ${now.toISOString().slice(0, 10)} · ${index.counts.skills} skills · ${index.counts.packs} packs · ${index.counts.fullText} with full text.`,
+    `Collected ${now.toISOString().slice(0, 10)} · ${index.counts.groups} distinct skills in ${index.counts.skills} versions · ${index.counts.packs} packs · ${index.counts.fullText} with full text.`,
+    '',
+    'One row per distinct skill name: further copies from other packs are listed on the dashboard card and in index.json.',
     '',
     'Each row records the agent the skill belongs to, the pack it came from, and how it was found. Full text is copied only from permissively licensed packs, with attribution in each file; other entries are catalogued and linked.',
     ''
@@ -1006,7 +1065,7 @@ export async function renderLibrary(records, topics, { libraryDir, now = new Dat
     lines.push(`## ${category.title} · ${category.count}`, '');
     lines.push('| Skill | What it does | Platform | Pack | Found via | Licence | ★ |');
     lines.push('| --- | --- | --- | --- | --- | --- | ---: |');
-    for (const record of groups.get(category.id).sort((a, b) => (b.stars || 0) - (a.stars || 0))) {
+    for (const record of groups.get(category.id).sort((a, b) => (b.stars || 0) - (a.stars || 0)).filter((record) => record.isPrimary)) {
       lines.push(indexRow(record));
     }
     lines.push('');

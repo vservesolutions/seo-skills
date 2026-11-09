@@ -378,7 +378,15 @@ ${[category, ...children].map(skillCard).join('\n')}
     })
     .join('\n');
 
-  const librarySkills = library?.skills || [];
+  const librarySkillsAll = library?.skills || [];
+  // One card per distinct skill name: 46 copies of "seo-audit" are one idea, not 46.
+  const librarySkills = librarySkillsAll.filter((skill) => skill.isPrimary !== false);
+  const variantsOf = new Map();
+  for (const skill of librarySkillsAll) {
+    if (skill.isPrimary !== false || !skill.group) continue;
+    if (!variantsOf.has(skill.group)) variantsOf.set(skill.group, []);
+    variantsOf.get(skill.group).push(skill);
+  }
   const libraryGroups = (library?.categories || [])
     .map((category) => ({
       ...category,
@@ -400,22 +408,42 @@ ${libraryGroups
   const libraryCard = (skill) => {
     const local = skill.hasContent && skill.file;
     const href = local ? `../${skill.file}` : skill.url;
+    const variants = variantsOf.get(skill.group) || [];
     const search = esc(
-      `${skill.name} ${skill.summary || ''} ${skill.description} ${skill.repo} ${skill.categoryTitle} ${(skill.platforms || []).map(platformLabel).join(' ')}`.toLowerCase()
+      `${skill.name} ${skill.summary || ''} ${skill.description} ${skill.repo} ${skill.categoryTitle} ${(skill.platforms || []).map(platformLabel).join(' ')} ${variants.map((variant) => variant.repo).join(' ')}`.toLowerCase()
     );
     const platforms = (skill.platforms || []).map(platformLabel).join(' · ') || 'Unspecified';
-    return `<a class="card" href="${esc(href)}"${local ? '' : ' target="_blank" rel="noreferrer"'} data-search="${search}">
+    const freshness = skill.stale
+      ? `<span title="No push to this repository in over 18 months">stale${skill.repoPushedAt ? ` · last push ${esc(String(skill.repoPushedAt).slice(0, 7))}` : ''}</span>`
+      : '';
+    const arrows = variants.length
+      ? `
+  <details class="versions">
+    <summary>${variants.length} other version${variants.length === 1 ? '' : 's'}</summary>
+    <ul>
+${variants
+  .slice(0, 12)
+  .map((variant) => {
+    const inner = variant.hasContent && variant.file;
+    return `      <li><a href="${esc(inner ? `../${variant.file}` : variant.url)}"${inner ? '' : ' target="_blank" rel="noreferrer"'}>${esc(variant.repo)}</a> <span>★ ${new Intl.NumberFormat('en-US').format(variant.stars || 0)}</span></li>`;
+  })
+  .join('\n')}
+${variants.length > 12 ? `      <li>and ${variants.length - 12} more</li>` : ''}
+    </ul>
+  </details>`
+      : '';
+    return `<div class="card" data-search="${search}">
   <span class="badge">${esc(platforms)}</span>
-  <h3>${esc(skill.name)}</h3>
+  <h3><a href="${esc(href)}"${local ? '' : ' target="_blank" rel="noreferrer"'}>${esc(skill.name)}</a>${variants.length ? ` <span class="count">+${variants.length} more</span>` : ''}</h3>
   <p>${esc(truncateAtWord(skill.summary || skill.description, 200))}</p>
-  <footer><span>${esc(skill.repo)}</span><span>${esc(skill.license)}${local ? '' : ' · link only'}</span><span>★ ${new Intl.NumberFormat('en-US').format(skill.stars || 0)}</span></footer>
-</a>`;
+  <footer><span>${esc(skill.repo)}</span><span>${esc(skill.license)}${local ? '' : ' · link only'}</span><span>★ ${new Intl.NumberFormat('en-US').format(skill.stars || 0)}</span>${freshness}</footer>${arrows}
+</div>`;
   };
 
   const librarySection = libraryGroups.length
     ? `    <section id="library">
-      <h2>Skill library <span class="count">${librarySkills.length} third-party skills · ${library.counts.packs} packs</span></h2>
-      <p class="lede">SKILL.md packs published for Claude Code, Codex, Cursor and other agents, grouped by SEO category. Full text is copied only where the licence allows it.</p>
+      <h2>Skill library <span class="count">${librarySkills.length} distinct skills · ${librarySkillsAll.length} versions · ${library.counts.packs} packs</span></h2>
+      <p class="lede">SKILL.md packs published for Claude Code, Codex, Cursor and other agents, grouped by SEO category. Where several packs publish the same skill, the best copy is shown and the rest are listed inside it. Full text is copied only where the licence allows it.${library.counts.hidden ? ` ${library.counts.hidden} skills from archived or deleted packs are hidden.` : ''}</p>
 ${libraryTabs}
 ${libraryGroups
   .map(
@@ -594,6 +622,14 @@ ${group.skills.map(libraryCard).join('\n')}
     text-transform: uppercase;
     letter-spacing: .07em;
   }
+  .card h3 a { color: inherit; text-decoration: none; }
+  .card h3 a:hover { text-decoration: underline; }
+  .versions { font-size: 12px; color: var(--muted); }
+  .versions summary { cursor: pointer; color: var(--accent); }
+  .versions ul { list-style: none; margin: 6px 0 0; padding: 0; display: grid; gap: 4px; max-height: 190px; overflow: auto; }
+  .versions a { color: inherit; text-decoration: none; }
+  .versions a:hover { text-decoration: underline; }
+  .versions span { opacity: .7; }
   section + section { margin-top: 48px; }
   .jump { display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 32px; }
   .jump a {

@@ -50,6 +50,11 @@ jobs:
       - name: Run tests
         run: node --test test/*.test.js
 
+      - name: Refresh pack health
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node src/cli.js health --limit 80
+
       - name: Collect articles and skills
         env:
           # Authenticated requests: 1,000 GitHub API calls/hour instead of 60,
