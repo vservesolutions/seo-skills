@@ -1,8 +1,8 @@
 ---
 name: seo-ai-overviews
-description: "AI Overviews and AI Mode: specific techniques, checks and pitfalls. Auto-generated from 22 findings across 13 sources."
-last_updated: 2026-11-06
-findings: 22
+description: "AI Overviews and AI Mode: specific techniques, checks and pitfalls. Auto-generated from 24 findings across 13 sources."
+last_updated: 2026-11-09
+findings: 24
 sources: 13
 confidence: high
 ---
@@ -24,17 +24,23 @@ Use when the task involves ai overviews and ai mode.
 5. In this episode, you’ll learn: Google's PDF converter pipeline: How Google converts binary PDF containers into HTML pages during indexing so the rest of the pipeline can process them normally. — *Google Search Central (YouTube), 2026-10-13*
 6. Pro tip: Pages that rank for fan-out queries (not just the main query) are 161% more likely to get cited, according to a SurferSEO AI Overviews study . — *Backlinko, 2026-06-10*
 7. Your content can rank on the first page of Google and still never be cited or mentioned by LLMs. — *Backlinko, 2026-06-10*
-8. Google Search clicks to news publishers rose 8x on Election Day. — *Search Engine Roundtable, 2026-11-06*
-9. Google AI Mode Asking Searchers To Continue With This Search Google is now asking searchers to "continue with this search" when they go to AI Mode. — *Search Engine Roundtable, 2026-11-06*
-10. This quarter, the effect shows up in a counted number, Google’s own revenue line, with a Google executive naming AI Mode as a cause. — *Search Engine Journal, 2026-11-05*
-11. Study top ranking pages to map subtopics, run a content gap analysis to build your outline, and apply on page SEO best practices like natural keyword placement, short descriptive URLs, internal links, and scannable structure. — *Ahrefs (YouTube), 2026-09-23*
-12. Give me 14 minutes to learn SEO the smart way, and you will walk away with the 5 fundamentals that drive 80% of real results in Google and get cited by AI too. — *Ahrefs (YouTube), 2026-09-23*
-13. This was spotted by Sachin Patel who posted this on Search Engine Watch - he wrote, "The popup appears to encourage users to connect more of their Google apps to Search so results can be more personalized. — *Search Engine Roundtable, 2026-11-06*
-14. (@yoast) • Threads, Say more 👉🏼 LinkedIn: https://www.linkedin.com/company/1414157 📝 Visit our website and blog for in-depth SEO articles, tutorials, and tips: SEO for everyone #YoastSEO #DigitalMarketing #SEO2026. — *Yoast (YouTube), 2026-05-22*
-15. (@yoast) • Instagram profile 👉🏼 TikTok: Yoast | SEO starts with Yoast on TikTok 👉🏼 Reddit: r/yoastseo 👉🏼 Threads: Yoast - SEO for everyone! — *Yoast (YouTube), 2026-05-22*
+8. Ziff Davis’ digital media sites generated about 2.7 billion impressions for both AI Overviews and AI Mode during the quarter, which was nearly 10 times “the clicks those same sites received from Google Search” based on his estimates. — *Search Engine Journal, 2026-11-09*
+9. Ziff Davis says organic Google referrals to its properties fell about 37% year over year in the third quarter. — *Search Engine Journal, 2026-11-09*
+10. AI Overviews and AI Mode accounted for about 21% of one site’s Google search clicks, according to an estimate by SEO consultant Cyrus Shepard, who took the site out of Google’s AI features for four weeks. — *Search Engine Journal, 2026-11-09*
+11. Google counts clicks on an AI Overview or AI Mode link as a standard click within Search Console’s Performance report. — *Search Engine Journal, 2026-11-09*
+12. Google Search clicks to news publishers rose 8x on Election Day. — *Search Engine Roundtable, 2026-11-06*
+13. Google AI Mode Asking Searchers To Continue With This Search Google is now asking searchers to "continue with this search" when they go to AI Mode. — *Search Engine Roundtable, 2026-11-06*
+14. This quarter, the effect shows up in a counted number, Google’s own revenue line, with a Google executive naming AI Mode as a cause. — *Search Engine Journal, 2026-11-05*
+15. Study top ranking pages to map subtopics, run a content gap analysis to build your outline, and apply on page SEO best practices like natural keyword placement, short descriptive URLs, internal links, and scannable structure. — *Ahrefs (YouTube), 2026-09-23*
+16. Give me 14 minutes to learn SEO the smart way, and you will walk away with the 5 fundamentals that drive 80% of real results in Google and get cited by AI too. — *Ahrefs (YouTube), 2026-09-23*
+17. This was spotted by Sachin Patel who posted this on Search Engine Watch - he wrote, "The popup appears to encourage users to connect more of their Google apps to Search so results can be more personalized. — *Search Engine Roundtable, 2026-11-06*
+18. (@yoast) • Threads, Say more 👉🏼 LinkedIn: https://www.linkedin.com/company/1414157 📝 Visit our website and blog for in-depth SEO articles, tutorials, and tips: SEO for everyone #YoastSEO #DigitalMarketing #SEO2026. — *Yoast (YouTube), 2026-05-22*
+19. (@yoast) • Instagram profile 👉🏼 TikTok: Yoast | SEO starts with Yoast on TikTok 👉🏼 Reddit: r/yoastseo 👉🏼 Threads: Yoast - SEO for everyone! — *Yoast (YouTube), 2026-05-22*
 
 ## Recent developments
 
+- **Ziff Davis Says Organic Google Referrals Fell About 37%** — 2026-11-09 · Search Engine Journal — Ziff Davis says organic Google referrals to its properties fell about 37% year over year in the third quarter. ([link](https://www.searchenginejournal.com/ziff-davis-organic-google-referrals-decline/596279))
+- **Google's AI Features Sent One Site An Estimated 21% Of Its Clicks** — 2026-11-09 · Search Engine Journal — AI Overviews and AI Mode accounted for about 21% of one site’s Google search clicks, according to an estimate by SEO consultant Cyrus Shepard, who took the site out of Google’s AI features for four weeks. ([link](https://www.searchenginejournal.com/googles-ai-features-sent-one-site-an-estimated-21-of-its-clicks/596267))
 - **AI Visibility Isn’t A Sham** — 2026-11-06 · Search Engine Journal — ChatGPT visitors converted at 13.8%, against 3.02% for Google organic. ([link](https://www.searchenginejournal.com/ai-visibility-isnt-a-sham-most-ways-of-measuring-it-are/594405))
 - **Daily Search Forum Recap: November 6, 2026** — 2026-11-06 · Search Engine Roundtable — Google AI Mode Asking Searchers To Continue With This Search Google is now asking searchers to "continue with this search" when they go to AI Mode. ([link](https://www.seroundtable.com/recap-11-06-2026-42474.html))
 - **Google AI Mode: Continue With This Search?** — 2026-11-06 · Search Engine Roundtable — Google is now asking searchers to "continue with this search" when they go to AI Mode. ([link](https://www.seroundtable.com/google-ai-mode-continue-with-this-search-42475.html))
@@ -43,11 +49,11 @@ Use when the task involves ai overviews and ai mode.
 - **Ads In Google AI Answers Concentrate In Apparel & Electronics** — 2026-11-05 · Search Engine Journal — New holiday data counts ads inside Google AI Overviews, AI Mode and ChatGPT across five shopping categories and shows which prompts ChatGPT ads ran on. ([link](https://www.searchenginejournal.com/google-ai-answer-ads-apparel-electronics-report/595984))
 - **Google Brings UCP Direct Checkout To AI Mode In Canada** — 2026-11-05 · Search Engine Journal — Google is expanding UCP-powered direct checkout in AI Mode and the Gemini app to Canadian shoppers, with a Merchant Center integration planned for next year. ([link](https://www.searchenginejournal.com/google-brings-ucp-direct-checkout-to-ai-mode-in-canada/595882))
 - **Google Adds Home Service Booking & Quote Links To AI Mode** — 2026-11-04 · Search Engine Journal — AI Mode now links home service searches to booking and quote pages. ([link](https://www.searchenginejournal.com/google-ai-mode-home-services-booking-quote-links/595871))
-- **Brands Are Tracking AI Visibility, Are They Measuring The Right Things?** — 2026-11-04 · Search Engine Journal (YouTube) — AI visibility tools can show you when your brand appears in ChatGPT, AI Overviews, and AI Mode. ([link](https://www.youtube.com/shorts/lU9AQ7ZU5io))
-- **Google Is Finally Paying Websites…** — 2026-11-03 · Neil Patel (YouTube) — Google just started paying websites when its AI uses their content. ([link](https://www.youtube.com/shorts/FXGG2Ry_TmA))
 
 ## References
 
+- [Ziff Davis Says Organic Google Referrals Fell About 37%](https://www.searchenginejournal.com/ziff-davis-organic-google-referrals-decline/596279) — Search Engine Journal · 2026-11-09
+- [Google's AI Features Sent One Site An Estimated 21% Of Its Clicks](https://www.searchenginejournal.com/googles-ai-features-sent-one-site-an-estimated-21-of-its-clicks/596267) — Search Engine Journal · 2026-11-09
 - [AI Visibility Isn’t A Sham](https://www.searchenginejournal.com/ai-visibility-isnt-a-sham-most-ways-of-measuring-it-are/594405) — Search Engine Journal · 2026-11-06
 - [Daily Search Forum Recap: November 6, 2026](https://www.seroundtable.com/recap-11-06-2026-42474.html) — Search Engine Roundtable · 2026-11-06
 - [Google AI Mode: Continue With This Search?](https://www.seroundtable.com/google-ai-mode-continue-with-this-search-42475.html) — Search Engine Roundtable · 2026-11-06
@@ -58,12 +64,10 @@ Use when the task involves ai overviews and ai mode.
 - [Google Adds Home Service Booking & Quote Links To AI Mode](https://www.searchenginejournal.com/google-ai-mode-home-services-booking-quote-links/595871) — Search Engine Journal · 2026-11-04
 - [Brands Are Tracking AI Visibility, Are They Measuring The Right Things?](https://www.youtube.com/shorts/lU9AQ7ZU5io) — Search Engine Journal (YouTube) · 2026-11-04
 - [Google Is Finally Paying Websites…](https://www.youtube.com/shorts/FXGG2Ry_TmA) — Neil Patel (YouTube) · 2026-11-03
-- [We Cracked What Google AI Mode Wants to Cite 🤫](https://www.youtube.com/shorts/IzjuqLtMgI0) — Surfer Academy (YouTube) · 2026-10-30
-- [Google AI Mode: All You Need to Know](https://ahrefs.com/blog/google-ai-mode) — Ahrefs Blog · 2026-10-28
 
 ## How this skill stays current
 
 - Regenerated on 2026-11-09 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
-- Coverage window: 2026-05-22 → 2026-11-06.
-- 22 findings from 13 sources; confidence is **high**.
+- Coverage window: 2026-05-22 → 2026-11-09.
+- 24 findings from 13 sources; confidence is **high**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

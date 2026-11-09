@@ -1,0 +1,496 @@
+---
+name: "redirects"
+description: "Auditoría e implementación de redirects 301/302: cadenas, bucles, migraciones, WordPress (plugins, .htaccess, Nginx), PrestaShop, Rank Math y Cloudflare, con detección en Screaming Frog."
+category: "technical-crawling-indexing"
+platforms: ["claude-code"]
+platform_source: "declared"
+repo: "carlosuhart/seo-audit-skills"
+repo_url: "https://github.com/carlosuhart/seo-audit-skills"
+source: "https://github.com/carlosuhart/seo-audit-skills/blob/HEAD/skills/redirects/SKILL.md"
+raw_source: "https://raw.githubusercontent.com/carlosuhart/seo-audit-skills/HEAD/skills/redirects/SKILL.md"
+ref: "HEAD"
+discovered_via: "github-search"
+license: "MIT"
+stars: 6
+collected: "2026-11-09"
+---
+
+<!-- Claude Code skill · carlosuhart/seo-audit-skills · skills/redirects/SKILL.md · MIT
+     Source: https://github.com/carlosuhart/seo-audit-skills/blob/HEAD/skills/redirects/SKILL.md
+     Detected by: declared · Regenerated on every run; edit the upstream skill, not this copy. -->
+
+# Redirects — Guía Técnica SEO
+
+---
+
+## Tipos de redirect y cuándo usar cada uno
+
+| Código | Tipo | Transmite PageRank | Uso correcto |
+|--------|------|--------------------|--------------|
+| 301 | Moved Permanently | Sí (~99%) | Cambio de URL permanente, migración, HTTPS, www |
+| 302 | Found (Temporary) | No garantizado | Redirección temporal, A/B testing, mantenimiento breve |
+| 307 | Temporary Redirect | No | Como 302 pero respeta el método HTTP (POST→POST) |
+| 308 | Permanent Redirect | Sí | Como 301 pero respeta el método HTTP |
+| Meta refresh | — | No | Nunca para SEO — Google lo interpreta como 302 suave |
+| JS redirect | — | No garantizado | Evitar para URLs indexables — Google puede no seguirlo |
+
+**Regla práctica:** para SEO, usar 301 para cambios permanentes. Cualquier redirect
+con historia de >3 meses debe convertirse en 301 si no lo es ya.
+
+---
+
+## Redirect chains y loops
+
+### Redirect chain (cadena)
+
+```
+/url-a/ → 301 → /url-b/ → 301 → /url-c/
+```
+
+Google sigue cadenas de hasta ~5 saltos pero depreca la transmisión de PageRank en
+cada salto. Los crawlers (Screaming Frog, Google) cuentan cada URL en la cadena
+como un crawl separado — agota crawl budget en sitios grandes.
+
+**Fix:** hacer que `/url-a/` apunte directamente a `/url-c/`.
+
+**Causa frecuente de cadenas:**
+- Migración de HTTP→HTTPS sin actualizar links internos: `http://` → `https://` → `/nueva-url/`
+- Cambio de www a non-www combinado con otro redirect
+- Múltiples migraciones sucesivas sin limpiar la capa anterior
+
+### Redirect loop (bucle)
+
+```
+/url-a/ → 301 → /url-b/ → 301 → /url-a/
+```
+
+El browser y los crawlers abortan tras detectar el bucle. La página es inaccesible.
+
+**Causa frecuente:**
+- Reglas de .htaccess mal escritas que se aplican a la URL de destino
+- Plugin de redirect que creó una regla inversa por error
+- Migración de dominio con redirect bidireccional mal configurado
+
+**Detección inmediata:**
+```bash
+curl -I -L --max-redirs 5 https://dominio.com/url-problemática/
+# Si termina en "Maximum (5) redirects followed" → loop o cadena larga
+```
+
+---
+
+## Implementación en WordPress
+
+### Plugin Redirection (recomendado para gestión editorial)
+
+- Permite crear/editar 301s desde el panel sin acceso a servidor
+- Registra 404s automáticamente — ideal para detectar URLs rotas tras migración
+- Almacena redirects en base de datos: más lento que .htaccess pero manejable
+
+**Estructura:** Redirection > Add New:
+- Source URL: `/url-origen/` (sin dominio)
+- Target URL: `https://dominio.com/url-destino/` (absoluta para cross-domain)
+- Type: 301
+
+**Limitación:** los redirects del plugin se procesan vía PHP — añaden ~50-100ms de
+latencia vs redirects a nivel servidor. Para sitios con cientos de redirects activos,
+migrar los más importantes a .htaccess o Nginx.
+
+### .htaccess (Apache)
+
+```apache
+# Redirect individual — más específico, mayor prioridad
+Redirect 301 /url-origen/ https://dominio.com/url-destino/
+
+# Redirect con RegEx — para patrones de URL
+RewriteEngine On
+RewriteRule ^categoria/producto-(.*)$ /nueva-categoria/$1 [R=301,L]
+
+# HTTP → HTTPS (si no está en el servidor)
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# www → non-www
+RewriteCond %{HTTP_HOST} ^www\.dominio\.com$ [NC]
+RewriteRule ^ https://dominio.com%{REQUEST_URI} [R=301,L]
+```
+
+**Orden de prioridad en .htaccess:** las reglas se evalúan de arriba a abajo.
+Una regla general al principio puede capturar URLs que una regla específica más
+abajo debería manejar de forma diferente.
+
+### Nginx
+
+```nginx
+# Redirect individual
+location = /url-origen/ {
+    return 301 https://dominio.com/url-destino/;
+}
+
+# Redirect con capture group
+location ~ ^/categoria/producto-(.*)$ {
+    return 301 /nueva-categoria/$1;
+}
+
+# www → non-www
+server {
+    listen 80;
+    server_name www.dominio.com;
+    return 301 https://dominio.com$request_uri;
+}
+```
+
+Los redirects en Nginx se procesan antes de PHP — la forma más eficiente.
+
+### WordPress multisite y subdirectorios
+
+En multisite con subdirectorios, los redirects del subsite deben respetar la base:
+```apache
+# Correcto: redirige dentro del subsite
+Redirect 301 /es/url-origen/ /es/url-destino/
+
+# Incorrecto: pierde el prefijo del subsite
+Redirect 301 /url-origen/ /url-destino/
+```
+
+---
+
+## Implementación en PrestaShop
+
+### Redirects manuales — Tráfico > Redirecciones SEO & URLs
+
+PrestaShop incluye una tabla de redirects en el panel de administración:
+- Tipo: 301 o 302
+- URL de origen (ruta relativa sin dominio)
+- URL de destino
+
+**Limitación:** solo acepta rutas relativas en el origen. Para redirects cross-domain
+(cambio de dominio), usar .htaccess o Nginx.
+
+### Friendly URLs y cambio de estructura de URLs
+
+Cuando se activa "Friendly URLs" o se modifica la estructura en PrestaShop >
+Preferencias > SEO & URLs:
+
+1. PrestaShop regenera automáticamente las URLs de productos y categorías
+2. Las URLs antiguas devuelven 404 a menos que se configuren redirects
+3. Usar el módulo "Redirect SEO 301" o configurar .htaccess manualmente
+
+**Issue frecuente — cambio del separador de categoría:**
+Si el separador entre categoría y producto cambia (`/categoria_producto/` → `/categoria/producto/`),
+todas las URLs de producto necesitan redirect. Generar el mapeo desde la tabla
+`ps_product_lang` y `ps_category_lang` en la BD.
+
+---
+
+## Transmisión de PageRank
+
+Los 301s transmiten ~99% del PageRank según la posición actual de Google. La "pérdida"
+histórica del 15% ya no aplica desde la actualización de 2016.
+
+**Implicación práctica:** una cadena de 3 redirects transmite el PageRank casi sin
+pérdida si todos son 301. El argumento de "consolidar cadenas para no perder PageRank"
+sigue siendo válido por crawl budget y latencia, no por transmisión de señales.
+
+**302 y PageRank:**
+Google puede tratar 302s de larga duración como 301s (entiende que la redirección
+es "permanente en la práctica"). Sin embargo, no hay garantía — cualquier redirect
+permanente debe ser 301 explícito.
+
+---
+
+## Migración completa de URLs
+
+### Proceso recomendado
+
+1. **Rastreo pre-migración**: Screaming Frog sobre el sitio actual. Exportar todas
+   las URLs indexables con sus datos (title, H1, canonical, inlinks count).
+
+2. **Mapeo de URLs**: crear un CSV con dos columnas: URL_ORIGEN → URL_DESTINO.
+   - Priorizar por volumen de inlinks (URLs con más inlinks primero)
+   - Mapear por similaridad de contenido, no solo por estructura de URL
+   - Las URLs sin equivalente real → 301 a la categoría/sección más relevante,
+     no a la homepage (redirect a homepage es señal pobre para Google)
+
+3. **Implementar redirects** antes del lanzamiento del nuevo sitio.
+
+4. **Validar redirects** antes del go-live:
+   ```bash
+   # Verificar batch con curl (ejemplo para lista de URLs)
+   while IFS= read -r url; do
+     echo "$url → $(curl -s -o /dev/null -w "%{http_code} %{redirect_url}" "$url")"
+   done < urls_origen.txt
+   ```
+
+5. **Actualizar links internos**: una vez migrado, actualizar los links internos
+   para apuntar a las URLs nuevas directamente. Los redirects internos son cadena
+   innecesaria.
+
+6. **Actualizar sitemap**: el sitemap debe contener solo las URLs nuevas (destino).
+   Un sitemap con URLs que redirigen es señal contradictoria.
+
+7. **Actualizar canonical**: verificar que los canonicals apuntan a URLs nuevas,
+   no a URLs que redirigen.
+
+8. **GSC: change of address** (si es migración de dominio):
+   GSC > Configuración > Cambio de dirección — notifica a Google formalmente.
+
+9. **Monitorizar GSC durante 3-4 semanas**: Coverage report — las URLs antiguas
+   deben pasar de "Indexed" a "Redirect" progresivamente.
+
+---
+
+## Redirects y crawl budget
+
+En sitios grandes (+10.000 URLs indexables), las cadenas de redirects consumen
+crawl budget innecesariamente. Cada URL en la cadena es un request HTTP separado
+que Googlebot debe hacer.
+
+**Señal de problema:** GSC > Configuración > Estadísticas de rastreo muestra
+un alto porcentaje de "redirecciones" en los requests. Normalmente debe ser <5%.
+
+**Acción:** Screaming Frog > Response Codes > Redirection (3xx) — exportar y
+limpiar cadenas, actualizando los links internos que apuntan a URLs intermedias.
+
+---
+
+## Casos especiales
+
+### Enlaces internos con permalink antiguo tras cambiar la estructura
+
+Al migrar de permalinks con categoría (`/categoria/slug/`) a permalinks planos (`/slug/`),
+WordPress sigue resolviendo las URLs viejas con un 301 real vía `_wp_old_slug_redirect`. Los
+enlaces internos antiguos que quedan en el contenido **no están rotos**, así que no aparecen en
+ningún informe de errores — y por eso sobreviven años.
+
+Dos motivos para corregirlos igualmente:
+
+1. **Cada enlace gasta un salto**, con su latencia y su dilución de PageRank (ver la sección de
+   transmisión de PageRank más arriba).
+2. **Fragmentan cualquier análisis del grafo de enlaces.** Si construyes el grafo sin
+   normalizar, `/categoria/slug/` y `/slug/` cuentan como nodos distintos y las páginas
+   aparecen como huérfanas falsamente. En un sitio real de ~1.100 posts, normalizar redujo el
+   recuento de nodos de 1.328 a 1.253: 75 nodos fantasma que distorsionaban el diagnóstico.
+
+**Detección** — buscar hrefs con prefijo de categoría sobre el contenido crudo:
+
+```python
+PREFIJOS = ('categoria-1', 'categoria-2', ...)   # slugs reales, vía /wp-json/wp/v2/categories
+patron = re.compile(r'href="%s/(%s)/([a-z0-9][a-z0-9-]*)/?"' % (SITE, '|'.join(PREFIJOS)))
+# descartar 'page', 'feed', 'amp': son paginación, no posts
+```
+
+**Antes de reescribir, verifica cada destino plano con HEAD.** No todos los slugs viejos mapean
+1:1 a una URL plana viva: si el post se renombró, la URL plana puede dar 404 y estarías
+cambiando un 301 que funciona por un enlace roto. Regla: reescribir solo hacia destinos que
+devuelvan 200 directo; el resto se deja como está.
+
+**Reemplaza solo dentro de `href="..."`**, nunca el texto visible — la URL antigua puede
+aparecer también como texto en el contenido.
+
+### HTTPS y www — orden correcto de redirects
+
+La cadena correcta para un sitio que migra a HTTPS y non-www:
+```
+http://www.dominio.com/ruta/ → https://dominio.com/ruta/  (1 solo salto)
+```
+
+La cadena incorrecta (genera 2 saltos):
+```
+http://www.dominio.com/ruta/ → https://www.dominio.com/ruta/ → https://dominio.com/ruta/
+```
+
+Verificar que las reglas de www y HTTPS se consolidan en un solo redirect.
+
+### Cloudflare + servidor — patrón de cadena frecuente
+
+Cuando el sitio usa Cloudflare, es habitual que la cadena se genere entre dos capas:
+
+1. **Cloudflare "Always Use HTTPS"** — redirige `http://` a `https://` sin tocar el subdominio
+2. **Servidor/WordPress** — redirige www → non-www (o viceversa)
+
+Resultado para tráfico `http://www`:
+```
+http://www.dominio.com → https://www.dominio.com → https://dominio.com  (2 saltos)
+```
+
+**Fix: Cloudflare Redirect Rule que intercepta en el edge antes del servidor**
+
+En Cloudflare → Rules → Redirect Rules → Create rule:
+
+- **If incoming requests match:** Custom filter expression
+- **Expression:** `(http.host eq "www.dominio.com")`
+- **Then:** URL redirect
+- **Type:** Dynamic
+- **URL:** `concat("https://dominio.com", http.request.uri.path)`
+- **Status:** 301
+- **Preserve query string:** On
+
+La rule intercepta cualquier petición www (http o https) y redirige directo al canonical en un salto, antes de que llegue al servidor.
+
+**Sintaxis crítica en Cloudflare Redirect Rules:**
+- Type **Static** → URL literal, sin interpolación. Escribir `${http.request.uri.path}` lo toma como texto.
+- Type **Dynamic** → URL es una expresión. Usar `concat("https://dominio.com", http.request.uri.path)`.
+
+**Riesgo de loop:** si el servidor tiene un redirect en dirección opuesta (non-www → www) y Cloudflare tiene www → non-www, se produce un loop. Antes de activar la rule, verificar la dirección del redirect de servidor con `curl -sI https://dominio.com/` y `curl -sI https://www.dominio.com/`.
+
+### Redirección de adjuntos a una URL obsoleta (Rank Math)
+
+`attachment_redirect_default` en las opciones generales de Rank Math define a dónde va
+una página de adjunto sin entrada padre. Si quedó apuntando a una portada antigua (por
+ejemplo `/es` tras retirar el prefijo de idioma), **todo adjunto huérfano redirige a un
+404**. Se manifiesta en URLs que parecen posts: un slug de traducción que coincide con el
+nombre de una imagen subida. Revisar este ajuste en cualquier migración de estructura
+de URLs y apuntarlo a la portada actual.
+
+### Autoenlace y prioridad de reglas en la tabla de redirecciones
+
+- Al reemplazar un enlace interno por el destino final de su redirección, comprobar que
+  ese destino no sea el propio post (la redirección vieja puede apuntar a él): quitar el
+  enlace en vez de crear un autoenlace.
+- En la tabla `rank_math_redirections`, si dos reglas casan con la misma ruta gana la más
+  antigua. Antes de crear una, buscar si ya existe otra para esa ruta.
+- La API REST de redirecciones de Rank Math no es fiable; tras escribir, verificar la
+  respuesta real (`x-redirect-by: Rank Math` y `location`).
+- Si una regla de caché de Cloudflare guarda las 301, una corrección no se ve hasta
+  purgar esa URL concreta.
+
+### Prefijo de idioma retirado en un sitio multilingüe
+
+Cuando el idioma por defecto pierde su prefijo (`/es/slug/` → `/slug/`), además de los
+enlaces del contenido quedan apuntando al prefijo: `url_to` de cientos de redirecciones
+existentes (que pasan a ser cadenas), el campo Website del autor, el footer del tema, la
+URL de la política de privacidad del plugin de cookies y las strings traducidas de WPML.
+Corregir todos y añadir una regla en el edge (`/es/*` → `/*`, 301 dinámica que conserva el
+query string) para los enlaces externos. Procedimiento en `wordpress-hidden-errors`.
+
+### Soft 404 vs redirect
+
+Una URL que devuelve 200 con contenido de "página no encontrada" es un soft 404.
+Google puede tratarla como duplicate content. Si una URL ya no tiene contenido
+válido: 301 a la URL más relevante, o 410 (Gone) si no hay equivalente.
+
+### Redirect a homepage como fallback
+
+Un redirect 301 a la homepage para URLs sin equivalente real es señal débil:
+Google puede interpretarlo como "esta URL no tiene contenido propio" y deprecar
+los links que apuntaban a ella. Redirigir a la sección o categoría más relevante
+siempre es mejor.
+
+---
+
+## Detección con Screaming Frog
+
+**Rastrear redirects:**
+Configuration > Spider > Crawl linked XML sitemaps + Follow Internal Redirects: activar.
+
+**Columnas clave:**
+
+| Filtro/Tab | Qué detecta |
+|------------|-------------|
+| Response Codes > Redirection (3xx) | Todas las URLs que redirigen |
+| Reports > Redirect Chains | Cadenas de 2+ saltos |
+| Reports > Redirect Loops | Bucles detectados |
+| Bulk Export > All Inlinks to Redirects | Links internos apuntando a URLs redirigidas |
+| Sitemaps > URLs in Sitemap Redirecting | URLs del sitemap que son redirects |
+
+**Workflow post-migración:**
+1. Crawl del sitio nuevo
+2. Reports > Redirect Chains → limpiar
+3. Bulk Export > All Inlinks to Redirects → actualizar links internos
+4. Sitemaps > URLs in Sitemap Redirecting → actualizar sitemap
+
+---
+
+## Diagnostic commands — redirects y canonicals
+
+### Verificar status, redirect destino y canonical de una URL
+
+```bash
+curl -s https://example.com/url-a-verificar -I | grep -E "(HTTP/|Location|Canonical)"
+```
+
+Output esperado para URL canónica limpia:
+```
+HTTP/2 200
+```
+
+Output con redirect:
+```
+HTTP/1.1 301 Moved Permanently
+Location: https://example.com/url-destino/
+```
+
+### Seguir toda la cadena de redirects
+
+```bash
+curl -I -L --max-redirs 5 https://example.com/url-problemática/
+```
+
+Muestra cada salto de la cadena. Más de 2 saltos = cadena a limpiar.
+
+### Batch: verificar status de una lista de URLs
+
+```bash
+while IFS= read -r url; do
+  echo "$url → $(curl -s -o /dev/null -w "%{http_code} %{redirect_url}" "$url")"
+done < urls_origen.txt
+```
+
+Genera una línea por URL con su código HTTP y la URL destino del redirect (si aplica).
+Útil en migraciones para validar que el mapeo está implementado correctamente.
+
+### Verificar si una URL redirigida aparece en el sitemap
+
+```bash
+curl -s https://example.com/page-sitemap.xml | grep -i "url-redirigida"
+```
+
+---
+
+## Checklist de auditoría de redirects
+
+```
+CRÍTICO
+[ ] ¿Redirect loops detectados? (Screaming Frog > Reports > Redirect Loops)
+[ ] ¿URLs importantes (homepage, categorías principales) devuelven 200 directo?
+[ ] ¿Versión HTTP y HTTPS consolidadas en un solo redirect?
+[ ] ¿www y non-www consolidados en un solo redirect?
+[ ] ¿HTTP+www → HTTPS+non-www en un solo salto (no dos)?
+
+ALTO
+[ ] ¿Cadenas de redirect de 2+ saltos? (Reports > Redirect Chains)
+[ ] ¿Links internos apuntando a URLs que redirigen? (Bulk Export > All Inlinks to Redirects)
+[ ] ¿URLs del sitemap que son redirects? (Sitemaps > URLs in Sitemap Redirecting)
+[ ] ¿302s que llevan más de 3 meses activos? → convertir a 301
+[ ] ¿Redirects a homepage para URLs sin equivalente real?
+
+MEDIO
+[ ] ¿Canonicals apuntando a URLs que redirigen?
+[ ] ¿Hreflang apuntando a URLs que redirigen?
+[ ] En migraciones: ¿mapeo de URLs documentado y verificado?
+[ ] ¿GSC > Estadísticas de rastreo: % de redirects < 5%?
+
+BAJO
+[ ] ¿Redirects gestionados por plugin PHP en lugar de .htaccess/Nginx? → valorar migrar
+[ ] ¿Redirects de JS o meta refresh en páginas indexables?
+[ ] ¿GSC > Cambio de dirección notificado para migraciones de dominio?
+```
+
+---
+
+## Sitios sin CMS (React/Vue/Next.js sobre Vercel u hosting similar)
+
+Patrón frecuente: una cadena de redirects de detección de idioma en la raíz
+(`dominio.com` → `www.dominio.com` → `www.dominio.com/es`) donde el salto de
+normalización de host (sin `www` a con `www`, o HTTP a HTTPS) usa código **307
+(temporal)** cuando debería ser 301/308 (permanente) — el 307 es correcto solo en el
+salto que sí depende del visitante (la detección de idioma en sí), nunca en la
+normalización de host, que es una decisión permanente de arquitectura. Ver skill
+`javascript-seo` para el método de verificación completo y su efecto sobre canonical.
+
+## Referencias
+
+- Redirecciones y Google: https://developers.google.com/search/docs/crawling-indexing/301-redirects
+- Migración de sitio: https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes
+- Cambio de dirección GSC: https://support.google.com/webmasters/answer/9370220

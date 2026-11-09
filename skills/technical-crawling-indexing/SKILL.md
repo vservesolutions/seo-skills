@@ -1,8 +1,8 @@
 ---
 name: seo-technical-crawling-indexing
-description: "How search engines discover, crawl, render and index URLs, and how to remove crawl waste, duplicates and index bloat. Auto-generated from 12 findings across 4 sources."
+description: "How search engines discover, crawl, render and index URLs, and how to remove crawl waste, duplicates and index bloat. Auto-generated from 14 findings across 4 sources."
 last_updated: 2026-11-03
-findings: 12
+findings: 14
 sources: 4
 confidence: medium
 ---
@@ -62,6 +62,6 @@ Use when a page is not indexed or indexed wrongly, when crawl stats look wastefu
 ## How this skill stays current
 
 - Regenerated on 2026-11-09 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
-- Coverage window: 2026-04-21 → 2026-11-03.
-- 12 findings from 4 sources; confidence is **medium**.
+- Coverage window: 2025-01-16 → 2026-11-03.
+- 14 findings from 4 sources; confidence is **medium**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

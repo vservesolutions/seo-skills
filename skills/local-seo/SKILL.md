@@ -1,8 +1,8 @@
 ---
 name: seo-local-seo
-description: "Local pack visibility, Business Profile optimization, reviews, citations and location page structure. Auto-generated from 11 findings across 8 sources."
-last_updated: 2026-11-08
-findings: 11
+description: "Local pack visibility, Business Profile optimization, reviews, citations and location page structure. Auto-generated from 12 findings across 8 sources."
+last_updated: 2026-11-09
+findings: 12
 sources: 8
 confidence: medium
 ---
@@ -30,10 +30,12 @@ Use when a business needs local pack visibility, when reviews or categories are 
 11. Google says businesses that manage their Business Profile with a Google Workspace account are getting access to Gemini’s profile tools. — *Search Engine Journal, 2026-11-06*
 12. So it won't help understanding why mentions/clicks are increasing or decreasing, but combined with external tools that track prompts it will show accurate first-party data if GEO/AEO strategies are working," he added. — *Search Engine Roundtable, 2026-11-06*
 13. Lisa Landsman posted the details in the Google Business Help Forums and the item we did not cover was the section named "Messaging Expands to Google Maps. — *Search Engine Roundtable, 2026-11-06*
-14. Google already documented offer data metrics within Google Business Profiles performance metrics. — *Search Engine Roundtable, 2026-11-06*
+14. Things to do is not new in Google Search, but Google has just added them to the aggregator unit and supplier unit help documentation. — *Search Engine Roundtable, 2026-11-09*
+15. Google already documented offer data metrics within Google Business Profiles performance metrics. — *Search Engine Roundtable, 2026-11-06*
 
 ## Recent developments
 
+- **Google Aggregator & Supplier Units Gain Things To Do Support** — 2026-11-09 · Search Engine Roundtable — Google has updated two help documents, the aggregator unit and supplier unit documentation to include support for "things to do" queries. ([link](https://www.seroundtable.com/google-aggregator-supplier-units-things-to-do-42484.html))
 - **Tripadvisor Says SEO Will Still Weigh On Growth In 2027** — 2026-11-08 · Search Engine Journal — Tripadvisor recorded a $369.5 million writedown on its legacy hotels and advertising business in the third quarter, and its CFO said on the earnings call that SEO will still be a headwind to growth in 2027. ([link](https://www.searchenginejournal.com/tripadvisor-says-seo-will-still-weigh-on-growth-in-2027/596257))
 - **Google Gemini Business Profile Tools Are Coming To Workspace** — 2026-11-06 · Search Engine Journal — Google says businesses that manage their Business Profile with a Google Workspace account are getting access to Gemini’s profile tools. ([link](https://www.searchenginejournal.com/google-gemini-business-profile-workspace-2/596120))
 - **OpenAI Creating ChatGPT Tools For Business For Analytics & Citations** — 2026-11-06 · Search Engine Roundtable — This tool will let you "Claim your business in ChatGPT." This will allow businesses to: See how your business shows up: Track how often your business is mentioned in ChatGPT conversations. ([link](https://www.seroundtable.com/chatgpt-tools-for-business-42476.html))
@@ -43,10 +45,10 @@ Use when a business needs local pack visibility, when reviews or categories are 
 - **How Stable Are AI Citations? 10 Things We Learned Tracking 37,500 Citations** — 2026-10-29 · Ahrefs Blog — Key takeaways: Treat citation volatility as normal. ([link](https://ahrefs.com/blog/how-stable-are-ai-citations))
 - **Google My Business: A guide to Google Business Profile** — 2026-10-26 · Semrush Blog — Google Business Profile (formerly Google My Business) is a free business listing that supports reviews, Q&As, posts, and more. ([link](https://www.semrush.com/blog/google-my-business))
 - **3x More ChatGPT Citations in 30 Days With Claude** — 2026-10-23 · SE Ranking (YouTube) — Most teams use Claude like a smarter search box. ([link](https://www.youtube.com/shorts/UqbAQHv4V-k))
-- **Track Brand Visibility, Citations, and Sentiment with Moz AI Explorer** — 2026-10-13 · Moz (YouTube) — Meet Moz AI Explorer: a dedicated tool designed to help you understand, shape, and own how AI engines talk about your business, all starting at $45 a month. ([link](https://www.youtube.com/watch?v=iO9QIMFzwJ8))
 
 ## References
 
+- [Google Aggregator & Supplier Units Gain Things To Do Support](https://www.seroundtable.com/google-aggregator-supplier-units-things-to-do-42484.html) — Search Engine Roundtable · 2026-11-09
 - [Tripadvisor Says SEO Will Still Weigh On Growth In 2027](https://www.searchenginejournal.com/tripadvisor-says-seo-will-still-weigh-on-growth-in-2027/596257) — Search Engine Journal · 2026-11-08
 - [Google Gemini Business Profile Tools Are Coming To Workspace](https://www.searchenginejournal.com/google-gemini-business-profile-workspace-2/596120) — Search Engine Journal · 2026-11-06
 - [OpenAI Creating ChatGPT Tools For Business For Analytics & Citations](https://www.seroundtable.com/chatgpt-tools-for-business-42476.html) — Search Engine Roundtable · 2026-11-06
@@ -62,6 +64,6 @@ Use when a business needs local pack visibility, when reviews or categories are 
 ## How this skill stays current
 
 - Regenerated on 2026-11-09 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
-- Coverage window: 2026-10-13 → 2026-11-08.
-- 11 findings from 8 sources; confidence is **medium**.
+- Coverage window: 2026-10-13 → 2026-11-09.
+- 12 findings from 8 sources; confidence is **medium**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

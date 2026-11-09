@@ -1,9 +1,9 @@
 ---
 name: seo-keyword-research
-description: "Intent classification, demand sizing, keyword difficulty, entity and semantic coverage, keyword mapping. Auto-generated from 12 findings across 10 sources."
+description: "Intent classification, demand sizing, keyword difficulty, entity and semantic coverage, keyword mapping. Auto-generated from 13 findings across 11 sources."
 last_updated: 2026-11-06
-findings: 12
-sources: 10
+findings: 13
+sources: 11
 confidence: medium
 ---
 
@@ -21,16 +21,18 @@ Use when planning new pages, classifying intent, sizing demand, clustering keywo
 2. Use the following prompt to check your content’s messaging (make sure you add your approved messaging to the project or the prompt). — *Semrush Blog, 2026-11-04*
 3. Use SEO to help people find your jewelry business during active searches. — *Yoast SEO Blog, 2026-10-30*
 4. Use local SEO techniques to connect with nearby customers while ensuring your website functions well for search engines. — *Yoast SEO Blog, 2026-10-30*
-5. Pro tip: Pages that rank for fan-out queries (not just the main query) are 161% more likely to get cited, according to a SurferSEO AI Overviews study . — *Backlinko, 2026-06-10*
-6. Your content can rank on the first page of Google and still never be cited or mentioned by LLMs. — *Backlinko, 2026-06-10*
-7. Your customers create that understanding every time they search, and every month, your organic performance is quietly revealing something more about them. — *Screaming Frog Blog, 2026-08-11*
-8. Rather than asking where your PPC budget might deliver results, your organic performance helps identify where customer demand has already been validated. — *Screaming Frog Blog, 2026-08-11*
-9. TikTok’s search terms report is located where an individual managing a Google Ads campaign would look for it. — *Search Engine Journal, 2026-11-06*
-10. Keyword totals show the top performers, TikTok points overall analysis to the ad group and campaign, and iOS14 SKAN conversion data is missing, so a cross-platform report needs a TikTok search row that says what it can and cannot show. — *Search Engine Journal, 2026-11-06*
-11. Study top ranking pages to map subtopics, run a content gap analysis to build your outline, and apply on page SEO best practices like natural keyword placement, short descriptive URLs, internal links, and scannable structure. — *Ahrefs (YouTube), 2026-09-23*
-12. Give me 14 minutes to learn SEO the smart way, and you will walk away with the 5 fundamentals that drive 80% of real results in Google and get cited by AI too. — *Ahrefs (YouTube), 2026-09-23*
-13. Try it free for 7 days: https://social.semrush.com/4z5CZPI High search volume alone no longer justifies a keyword, because Google’s results pages and AI tools now answer many broad questions before anyone clicks. — *Semrush (YouTube), 2026-11-05*
-14. You’ll see how to turn customer complaints into search ideas, expand them with Keyword Magic Tool and Prompt Research, and cluster them in Keyword Strategy Builder. — *Semrush (YouTube), 2026-11-05*
+5. Web IQ begins from the premise that grounding quality is anchored in the quality of the underlying corpus and that corpus must be global, fresh, honor publisher preferences by default, and continuously evolving. — *Bing Webmaster Blog, 2026-06-02*
+6. Latency here is not just user-visible but structurally significant: determining whether a system can afford to take multiple reasoning steps or must compress everything into a single attempt. — *Bing Webmaster Blog, 2026-06-02*
+7. Pro tip: Pages that rank for fan-out queries (not just the main query) are 161% more likely to get cited, according to a SurferSEO AI Overviews study . — *Backlinko, 2026-06-10*
+8. Your content can rank on the first page of Google and still never be cited or mentioned by LLMs. — *Backlinko, 2026-06-10*
+9. Your customers create that understanding every time they search, and every month, your organic performance is quietly revealing something more about them. — *Screaming Frog Blog, 2026-08-11*
+10. Rather than asking where your PPC budget might deliver results, your organic performance helps identify where customer demand has already been validated. — *Screaming Frog Blog, 2026-08-11*
+11. TikTok’s search terms report is located where an individual managing a Google Ads campaign would look for it. — *Search Engine Journal, 2026-11-06*
+12. Keyword totals show the top performers, TikTok points overall analysis to the ad group and campaign, and iOS14 SKAN conversion data is missing, so a cross-platform report needs a TikTok search row that says what it can and cannot show. — *Search Engine Journal, 2026-11-06*
+13. Study top ranking pages to map subtopics, run a content gap analysis to build your outline, and apply on page SEO best practices like natural keyword placement, short descriptive URLs, internal links, and scannable structure. — *Ahrefs (YouTube), 2026-09-23*
+14. Give me 14 minutes to learn SEO the smart way, and you will walk away with the 5 fundamentals that drive 80% of real results in Google and get cited by AI too. — *Ahrefs (YouTube), 2026-09-23*
+15. Try it free for 7 days: https://social.semrush.com/4z5CZPI High search volume alone no longer justifies a keyword, because Google’s results pages and AI tools now answer many broad questions before anyone clicks. — *Semrush (YouTube), 2026-11-05*
+16. You’ll see how to turn customer complaints into search ideas, expand them with Keyword Magic Tool and Prompt Research, and cluster them in Keyword Strategy Builder. — *Semrush (YouTube), 2026-11-05*
 
 ## Recent developments
 
@@ -63,6 +65,6 @@ Use when planning new pages, classifying intent, sizing demand, clustering keywo
 ## How this skill stays current
 
 - Regenerated on 2026-11-09 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
-- Coverage window: 2026-06-10 → 2026-11-06.
-- 12 findings from 10 sources; confidence is **medium**.
+- Coverage window: 2026-06-02 → 2026-11-06.
+- 13 findings from 11 sources; confidence is **medium**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

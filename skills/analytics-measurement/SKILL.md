@@ -1,8 +1,8 @@
 ---
 name: seo-analytics-measurement
-description: "Search Console and GA4 measurement, rank tracking, dashboards, forecasting and KPI definitions. Auto-generated from 33 findings across 13 sources."
-last_updated: 2026-11-07
-findings: 33
+description: "Search Console and GA4 measurement, rank tracking, dashboards, forecasting and KPI definitions. Auto-generated from 35 findings across 13 sources."
+last_updated: 2026-11-09
+findings: 35
 sources: 13
 confidence: high
 ---
@@ -40,6 +40,8 @@ Use when building reports, explaining traffic changes, defining SEO KPIs, or ins
 
 ## Recent developments
 
+- **Ziff Davis Says Organic Google Referrals Fell About 37%** — 2026-11-09 · Search Engine Journal — Ziff Davis says organic Google referrals to its properties fell about 37% year over year in the third quarter. ([link](https://www.searchenginejournal.com/ziff-davis-organic-google-referrals-decline/596279))
+- **Google's AI Features Sent One Site An Estimated 21% Of Its Clicks** — 2026-11-09 · Search Engine Journal — AI Overviews and AI Mode accounted for about 21% of one site’s Google search clicks, according to an estimate by SEO consultant Cyrus Shepard, who took the site out of Google’s AI features for four weeks. ([link](https://www.searchenginejournal.com/googles-ai-features-sent-one-site-an-estimated-21-of-its-clicks/596267))
 - **Rank Data Problems, PageSpeed Scores & AI Training Opt-Out** — 2026-11-07 · Search Engine Journal — Two issues in the Google results that rank tracking tools collect can throw off ranking reports. ([link](https://www.searchenginejournal.com/seo-pulse-rank-data-problems-pagespeed-scores-ai-training-opt-out/596104))
 - **TikTok Search Ads Are Becoming Real Search Advertising** — 2026-11-06 · Search Engine Journal — A paid search manager has seen match type names, negative keyword lists and the search terms report before as part of Google Ads management. ([link](https://www.searchenginejournal.com/tiktok-search-ads-are-becoming-real-search-advertising/596016))
 - **OpenAI Creating ChatGPT Tools For Business For Analytics & Citations** — 2026-11-06 · Search Engine Roundtable — This tool will let you "Claim your business in ChatGPT." This will allow businesses to: See how your business shows up: Track how often your business is mentioned in ChatGPT conversations. ([link](https://www.seroundtable.com/chatgpt-tools-for-business-42476.html))
@@ -48,11 +50,11 @@ Use when building reports, explaining traffic changes, defining SEO KPIs, or ins
 - **Search data for creators in Search Console (New!)** — 2026-11-05 · Google Search Central (YouTube) — See more at https://youtu.be/P7grNk_REms Do you have a profile on Instagram, TikTok, X, or Youtube? ([link](https://www.youtube.com/shorts/1vKaJBh01fY))
 - **Daily Search Forum Recap: November 5, 2026** — 2026-11-05 · Search Engine Roundtable — Google Can Temporarily Protected Important URLs From Being Deindexed Gary Illyes from Google said that when important URLs serve a 4xx status code, Google Search can "temporarily protect the URL from falling out of the index right away."… ([link](https://www.seroundtable.com/recap-11-05-2026-42466.html))
 - **Reach Is No Longer The KPI: 4 Signals From Jupiter Festival Miami That Reset 2027 Media Budgets** — 2026-11-04 · Search Engine Journal — Build your 2027 paid media plan around attention, creators, and streaming, while testing whether new metrics drive incremental sales. ([link](https://www.searchenginejournal.com/reach-is-losing-as-a-paid-media-kpi-4-signals-from-jupiter-festival-miami-for-2027/595221))
-- **Your CFO Wants To Cut SEO & Fund The Same Work As GEO** — 2026-11-04 · Search Engine Journal (YouTube) — Organic traffic is declining, and your CFO wants to cut the SEO budget. ([link](https://www.youtube.com/shorts/1cUXxNeJmqU))
-- **Information Gain vs. Content Parity, Why Your AI Search Content Isn't Getting Cited** — 2026-11-04 · Search Engine Journal (YouTube) — AI has made content parity cheap and fast. ([link](https://www.youtube.com/shorts/Gd5qQdKhf8c))
 
 ## References
 
+- [Ziff Davis Says Organic Google Referrals Fell About 37%](https://www.searchenginejournal.com/ziff-davis-organic-google-referrals-decline/596279) — Search Engine Journal · 2026-11-09
+- [Google's AI Features Sent One Site An Estimated 21% Of Its Clicks](https://www.searchenginejournal.com/googles-ai-features-sent-one-site-an-estimated-21-of-its-clicks/596267) — Search Engine Journal · 2026-11-09
 - [Rank Data Problems, PageSpeed Scores & AI Training Opt-Out](https://www.searchenginejournal.com/seo-pulse-rank-data-problems-pagespeed-scores-ai-training-opt-out/596104) — Search Engine Journal · 2026-11-07
 - [TikTok Search Ads Are Becoming Real Search Advertising](https://www.searchenginejournal.com/tiktok-search-ads-are-becoming-real-search-advertising/596016) — Search Engine Journal · 2026-11-06
 - [OpenAI Creating ChatGPT Tools For Business For Analytics & Citations](https://www.seroundtable.com/chatgpt-tools-for-business-42476.html) — Search Engine Roundtable · 2026-11-06
@@ -63,12 +65,10 @@ Use when building reports, explaining traffic changes, defining SEO KPIs, or ins
 - [Reach Is No Longer The KPI: 4 Signals From Jupiter Festival Miami That Reset 2027 Media Budgets](https://www.searchenginejournal.com/reach-is-losing-as-a-paid-media-kpi-4-signals-from-jupiter-festival-miami-for-2027/595221) — Search Engine Journal · 2026-11-04
 - [Your CFO Wants To Cut SEO & Fund The Same Work As GEO](https://www.youtube.com/shorts/1cUXxNeJmqU) — Search Engine Journal (YouTube) · 2026-11-04
 - [Information Gain vs. Content Parity, Why Your AI Search Content Isn't Getting Cited](https://www.youtube.com/shorts/Gd5qQdKhf8c) — Search Engine Journal (YouTube) · 2026-11-04
-- [AI for product marketing (7 actionable use cases)](https://www.semrush.com/blog/ai-for-product-marketing) — Semrush Blog · 2026-11-04
-- [Stop Tracking Impressions](https://www.youtube.com/shorts/4TlJCbj9fyg) — Neil Patel (YouTube) · 2026-11-02
 
 ## How this skill stays current
 
 - Regenerated on 2026-11-09 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
-- Coverage window: 2024-03-13 → 2026-11-07.
-- 33 findings from 13 sources; confidence is **high**.
+- Coverage window: 2024-03-13 → 2026-11-09.
+- 35 findings from 13 sources; confidence is **high**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

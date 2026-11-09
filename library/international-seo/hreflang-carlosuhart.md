@@ -1,0 +1,453 @@
+---
+name: "hreflang"
+description: "Implementación y auditoría de hreflang en WordPress multilingüe o multirregional: WPML, TranslatePress, Yoast, HFCM, reciprocidad, x-default y errores comunes. Usar cuando el sitio tiene varios idiomas o regiones o hay issues de hreflang en GSC."
+category: "international-seo"
+platforms: ["claude-code"]
+platform_source: "declared"
+repo: "carlosuhart/seo-audit-skills"
+repo_url: "https://github.com/carlosuhart/seo-audit-skills"
+source: "https://github.com/carlosuhart/seo-audit-skills/blob/HEAD/skills/hreflang/SKILL.md"
+raw_source: "https://raw.githubusercontent.com/carlosuhart/seo-audit-skills/HEAD/skills/hreflang/SKILL.md"
+ref: "HEAD"
+discovered_via: "github-search"
+license: "MIT"
+stars: 6
+collected: "2026-11-09"
+---
+
+<!-- Claude Code skill · carlosuhart/seo-audit-skills · skills/hreflang/SKILL.md · MIT
+     Source: https://github.com/carlosuhart/seo-audit-skills/blob/HEAD/skills/hreflang/SKILL.md
+     Detected by: declared · Regenerated on every run; edit the upstream skill, not this copy. -->
+
+# Hreflang — Guía Técnica SEO
+
+> Especificación oficial: https://developers.google.com/search/docs/specialty/international/localization-with-hreflang
+
+---
+
+## Fundamentos de hreflang
+
+### Qué hace hreflang
+
+Indica a Google qué versión de una página mostrar a usuarios de cada idioma o región.
+No afecta directamente al ranking — afecta a qué URL se muestra en cada SERP regional.
+
+### Cuándo implementar
+
+- Sitio con versiones en más de un idioma (es, en, fr...)
+- Sitio con versiones para distintas regiones del mismo idioma (es-ES, es-MX, es-AR)
+- Subdirectorios, subdominios o dominios diferentes por idioma/región
+
+### Cuándo NO implementar
+
+- Sitio traducido automáticamente sin revisión humana — Google puede penalizarlo
+- Sitio con solo una versión de cada página sin equivalente real en otro idioma
+- Traducciones parciales (<50% del sitio) sin plan de completar — genera más problemas que beneficios
+
+---
+
+## Sintaxis correcta
+
+```html
+<!-- En el <head> de CADA versión de la página -->
+<link rel="alternate" hreflang="es" href="https://dominio.com/pagina/" />
+<link rel="alternate" hreflang="en" href="https://dominio.com/en/page/" />
+<link rel="alternate" hreflang="x-default" href="https://dominio.com/pagina/" />
+```
+
+### Reglas obligatorias
+
+1. **Reciprocidad**: si A apunta a B, B debe apuntar a A. Sin reciprocidad, Google ignora el par.
+2. **Self-reference**: cada página debe incluirse en su propio hreflang.
+3. **URLs absolutas**: usar siempre URLs completas con protocolo y dominio.
+4. **x-default**: URL a mostrar cuando ningún otro hreflang coincide con el usuario.
+   Habitualmente es la versión principal del idioma más usado o la homepage.
+
+### Códigos de idioma y región
+
+| Formato | Ejemplo | Cuándo usar |
+|---------|---------|-------------|
+| Solo idioma | `hreflang="es"` | Una sola versión en español para todos |
+| Idioma + región | `hreflang="es-ES"` | Versiones distintas para España vs México |
+| Solo región | NO válido | No usar sin código de idioma |
+
+---
+
+## Implementación en WordPress
+
+### Plugin WPML
+
+WPML genera hreflang automáticamente si está correctamente configurado.
+
+**Verificación:**
+1. WPML > Configuración de idiomas > Hreflang: activado
+2. Comprobar con WebFetch que los tags aparecen en `<head>`
+3. Verificar que las URLs en los hreflang son las URLs canónicas (no con parámetros)
+
+**Issue frecuente — hreflang no aparece en `<head>`:**
+- WPML puede generar el hreflang en el body si hay conflicto con el theme o el page builder
+- Verificar: View Source > buscar `rel="alternate"`
+- Fix: WPML > Soporte > System Status para identificar conflictos
+
+**Issue frecuente — página de prueba indexable (/idioma/home-2/):**
+- Páginas de test creadas durante la configuración de WPML pueden quedar indexadas
+- Detectar en Screaming Frog: URL contains "home-2" o similar
+- Fix: noindex en Yoast + redirect 301 a la URL correcta
+
+### TranslatePress
+
+TranslatePress genera hreflang automáticamente.
+
+**Conflicto con Yoast:**
+Si Yoast también está configurado para generar hreflang, se generan dos bloques duplicados.
+Desactivar en uno de los dos plugins — no en ambos.
+
+**Desactivar en Yoast:**
+SEO > Search Appearance > General > Hreflang: Off
+
+### Yoast SEO (sin plugin de traducción)
+
+Yoast puede gestionar hreflang para sitios con instalaciones WordPress independientes
+por idioma (cada idioma en su propia instalación WP).
+
+**Configuración:**
+SEO > Search Appearance > General > Knowledge Graph > URL: asegurarse de que apunta
+al dominio principal (no al subdirectorio).
+
+**Issue: @id del WebSite incorrecto en instalación secundaria:**
+La instalación del subdirectorio `/en/` puede generar `"@id": "https://dominio.com/en/#website"`
+en lugar de `"https://dominio.com/#website"`.
+
+Fix PHP en functions.php de la instalación secundaria:
+```php
+add_filter('wpseo_schema_website', function($data) {
+    $data['@id'] = 'https://dominio.com/#website';
+    $data['url'] = 'https://dominio.com/';
+    return $data;
+});
+```
+
+### Implementación manual con HFCM
+
+Para sitios donde solo algunas páginas tienen equivalente en otro idioma
+(traducción parcial), la implementación manual con HFCM es más segura que
+usar un plugin en modo global.
+
+**Cuándo usar HFCM:**
+- <80% de páginas tienen equivalente en el otro idioma
+- El plugin de traducción genera reciprocidad rota en páginas sin equivalente
+- Se quiere control granular por página
+
+**Setup:**
+1. Instalar Header Footer Code Manager (HFCM)
+2. New Snippet > tipo: Header
+3. Pegar los tags hreflang correspondientes a esa página
+4. Asignar: Pages > seleccionar solo las páginas con traducción confirmada
+
+**Snippet ejemplo para homepage:**
+```html
+<link rel="alternate" hreflang="es" href="https://dominio.com/" />
+<link rel="alternate" hreflang="en" href="https://dominio.com/en/" />
+<link rel="alternate" hreflang="x-default" href="https://dominio.com/" />
+```
+
+---
+
+## Errores comunes
+
+### Error 1: Reciprocidad rota
+
+**Síntoma en GSC:** "Alternate page with proper canonical tag" o páginas sin
+impresiones en el idioma secundario.
+
+**Causa:** La página A apunta a B en hreflang, pero B no tiene un hreflang apuntando
+de vuelta a A.
+
+**Casos frecuentes:**
+- Plugin de hreflang global en sitio con traducción parcial
+- URL de destino con redirect → la URL final no tiene hreflang coincidente
+- La página en el otro idioma fue eliminada pero el hreflang no se actualizó
+
+**Fix:** Auditar con Screaming Frog > Hreflang tab > columna "Missing Return Tag".
+
+---
+
+### Error 2: Hreflang a URL que devuelve 404 o redirect
+
+**Síntoma en GSC:** "Return tag links to page that returns error" o warnings en
+herramientas de auditoría.
+
+**Causa:** Cambio de URL sin actualizar el hreflang, o página eliminada.
+
+**Fix:**
+- Si la URL cambió: actualizar el hreflang con la URL nueva
+- Si la página fue eliminada: quitar el hreflang de las páginas que apuntaban a ella
+
+---
+
+### Error 3: hreflang en sitemap XML en lugar de en `<head>`
+
+Google acepta hreflang en tres lugares: `<head>`, cabeceras HTTP, o sitemap XML.
+El sitemap XML es más difícil de mantener en sincronía — cualquier cambio de URL
+debe actualizarse en el sitemap hreflang manualmente o via plugin.
+
+**Recomendación:** Priorizar implementación en `<head>` siempre que sea posible.
+
+---
+
+### Error 4: Código de idioma incorrecto
+
+**Síntomas:** Google no reconoce el código → hreflang ignorado.
+
+**Errores frecuentes:**
+- `hreflang="es-sp"` → correcto: `hreflang="es-ES"`
+- `hreflang="en-uk"` → correcto: `hreflang="en-GB"`
+- `hreflang="cat"` → correcto: `hreflang="ca"` (catalán: código ISO 639-1)
+- `hreflang="val"` → correcto: `hreflang="ca-ES"` (valenciano como variante regional del catalán)
+
+---
+
+### Error 5: x-default apuntando a URL incorrecta o ausente
+
+**x-default** debe apuntar a la URL que debe mostrarse cuando ningún otro hreflang
+coincide con el idioma/región del usuario.
+
+**Errores:**
+- x-default apuntando a una versión de idioma específica (ej: `/en/`) — debería
+  apuntar a la página principal o a un selector de idioma
+- x-default ausente — Google elige por su cuenta cuál mostrar
+
+---
+
+### Error 6: Enlaces internos de una traducción al idioma original existiendo la traducción
+
+El flujo de traducción deja los enlaces internos apuntando al original "hasta que exista
+traducción", pero nadie los actualiza cuando la traducción se publica. El post en inglés
+enlaza al artículo en español aunque `/en/...` existe: señal de idioma cruzada y
+enlazado interno desperdiciado. En un caso real, 130 enlaces en 98 posts.
+
+Detección: construir el mapa de traducciones desde los hreflang del sitemap (Rank Math y
+WPML los publican ahí) y, para cada enlace interno de un post en idioma X hacia otro
+idioma, comprobar si existe la versión X. Regla de corrección para todo enlace interno de
+una traducción: versión publicada en su idioma si existe; si no, la original.
+
+Variante: el modelo que tradujo inventó el slug de la versión traducida a partir del
+título (`/en/how-is-the-ibu-calculated.../`) y el enlace da 404. Nunca construir slugs
+desde títulos.
+
+### Error 7: Traducción con el cuerpo en otro idioma
+
+El hreflang y el `html lang` dicen `en`, el título está en inglés, pero el cuerpo quedó en
+el idioma original (o en un tercero). Google ve contenido duplicado entre idiomas con la
+anotación equivocada. Detectarlo con un conteo de palabras vacías exclusivas de cada
+idioma sobre el texto visible; las listas compartidas entre español y portugués dan
+falsos positivos.
+
+### Error 8: Posts publicados sin idioma asignado (WPML)
+
+Un post sin fila en `icl_translations` no aparece en la REST de ningún idioma ni en el
+selector, pero el sitemap lo publica con una URL sin prefijo que redirige ("URL fantasma"
+en GSC). Suele ser un duplicado de una traducción creado cuando falló el vínculo.
+Corrección: papelera + 301 a la versión correcta del grupo de traducción.
+
+### Error 9: Portadas traducidas con title y meta description del idioma original
+
+En WPML, el title de la portada se arma con strings (`Tagline` para `%sitedesc%` y las
+opciones de portada del plugin SEO) que deben traducirse en String Translation. Si no
+tienen traducción, `/en/` muestra el title y la meta del idioma por defecto aunque
+hreflang, canonical y `og:locale` estén bien. Ver `on-page-fundamentals`.
+
+Procedimiento completo y SQL de WPML en `wordpress-hidden-errors`.
+
+### Error 10: Redirección automática de idioma por IP en el cliente
+
+El servidor responde 200 en cada URL de idioma con su canonical propia y su hreflang correcto,
+pero al cargar, un script consulta un servicio de geolocalización por IP y, según el país,
+cambia la URL al prefijo de otro idioma (`router.replace`) y guarda una cookie de idioma. Con
+esa cookie, el middleware responde 307 a toda URL cuyo prefijo no coincida. Suele venir
+"de regalo" con otra función legítima (detectar el país para moneda, tarifas o cotizador).
+
+**Efecto observado en una auditoría real:** Googlebot rastrea mayormente desde EE. UU., así que
+las versiones de otros idiomas acaban como "Duplicada: Google eligió otra canónica" (Google
+elige la del idioma al que lo redirigen) o "Página con redirección". En un sitio de 324 URL,
+110 URL de dos idiomas tenían la canónica de Google en el tercero, mientras el idioma
+secundario acumulaba miles de impresiones desde su país con CTR de 0,16%.
+
+**Cómo detectarlo** (no se ve con `curl` ni con un crawler sin JS):
+1. Navegador automatizado en sesión limpia; interceptar la petición al servicio de geolocalización
+   y simular la respuesta de varios países, con UA de navegador y de Googlebot.
+2. Si el servicio falla (abortar la petición), no debería haber redirección: confirma la causa.
+3. URL Inspection API sobre las versiones de cada idioma: buscar "Duplicada, Google eligió otra
+   canónica" apuntando siempre al mismo idioma.
+4. Pista en Semrush/Screaming Frog con JS activado: picos de "Incorrect pages in sitemap" (todas
+   las URL de los idiomas que no son el del país del bot) y de "hreflang language mismatch".
+
+**Corrección recomendada:** mantener la detección de país para lo que la necesite (moneda,
+tarifas), pero **sin cambiar la URL ni el idioma de una página pedida explícitamente**; como
+mucho, un aviso para cambiar de idioma. El middleware debe respetar las URL con prefijo y el
+selector manual debe navegar (`router.push`), no reescribir. Desaconsejar la exclusión de
+Googlebot (es cloaking). Las redirecciones automáticas por IP o por `Accept-Language` van
+contra la guía de Google para sitios multirregionales. Si la ruta afectada también sirve
+subdominios de aplicación (portales de clientes), verificar que su comportamiento no cambie.
+
+### Error 11: Buscar `hreflang` distinguiendo mayúsculas en sitios React/Next.js
+
+Next.js serializa el atributo como `hrefLang` (camelCase) en el HTML. Un `grep hreflang` o un
+regex sin `-i` / `re.I` da "no hay hreflang en el `<head>`" cuando sí lo hay. Buscar siempre sin
+distinguir mayúsculas. En Next.js 15.2+ revisar además si la metadata va en el `<body>`
+(metadata en streaming, ver `javascript-seo`).
+
+## Single-language, multi-region sites
+
+A single-language site targeting multiple regions of the same language
+(e.g., Spanish for Spain, Mexico, Argentina) needs hreflang region variants.
+
+### When to use region-specific hreflang
+
+Use `hreflang="es-ES"`, `hreflang="es-MX"`, `hreflang="es-AR"` when:
+- Content differs meaningfully between regions (pricing, products, local references)
+- You want Google to show the Spain version to Spanish users and the Mexico version
+  to Mexican users
+- Each region has distinct URLs
+
+Do NOT use region-specific hreflang when:
+- The same content serves all Spanish speakers (use `hreflang="es"` instead)
+- You only have one URL and want it shown globally
+
+### Structure for a single-language, multi-region site
+
+```html
+<!-- On the Spain page (/es-es/servicio/) -->
+<link rel="alternate" hreflang="es-ES" href="https://dominio.com/es-es/servicio/" />
+<link rel="alternate" hreflang="es-MX" href="https://dominio.com/es-mx/servicio/" />
+<link rel="alternate" hreflang="es-AR" href="https://dominio.com/es-ar/servicio/" />
+<link rel="alternate" hreflang="x-default" href="https://dominio.com/servicio/" />
+```
+
+**`x-default`** in a multi-region setup: should point to the generic version
+(no region qualifier) or to the most important market. It serves users from
+regions not explicitly targeted (e.g., Peru, Colombia, Chile).
+
+### Common mistake: using `hreflang="es"` alone on a multi-region site
+
+If you have separate pages for es-ES, es-MX, and es-AR but declare them all as
+`hreflang="es"`, Google sees them as the same language target and does not know
+which to show per region. All pages compete for the same signal.
+
+```html
+<!-- Wrong: ambiguous, all three claim the same language tag -->
+<link rel="alternate" hreflang="es" href="https://dominio.com/es-es/servicio/" />
+<link rel="alternate" hreflang="es" href="https://dominio.com/es-mx/servicio/" />
+<link rel="alternate" hreflang="es" href="https://dominio.com/es-ar/servicio/" />
+```
+
+### URL structure options for multi-region
+
+| Structure | Example | Notes |
+|-----------|---------|-------|
+| Subdirectory | `dominio.com/es-mx/producto/` | Easiest to implement, shares domain authority |
+| Subdomain | `mx.dominio.com/producto/` | Separate GSC property needed per subdomain |
+| ccTLD | `dominio.mx/producto/` | Strongest regional signal, requires separate hosting/budget |
+
+For most SEO clients, **subdirectory** is the recommended approach: lower cost,
+shares the main domain's authority, easier to manage in one CMS.
+
+### Canonical in a multi-region setup
+
+Each regional URL should have a self-referencing canonical:
+
+```html
+<!-- On https://dominio.com/es-mx/servicio/ -->
+<link rel="canonical" href="https://dominio.com/es-mx/servicio/" />
+```
+
+Do NOT have the Mexico page canonical pointing to the Spain page. This would
+tell Google to index only the Spain page and ignore the Mexico version.
+
+### Implementation in WordPress for multi-region
+
+**Option A — Separate WordPress installations per region:**
+- Each region is a separate WP install in a subdirectory
+- Each manages its own canonical and meta robots
+- Use Yoast with the PHP fix for `@id` alignment (see hreflang skill section)
+
+**Option B — WPML with per-language domains or subdirectories:**
+- WPML handles hreflang automatically
+- Configure language domains or subdirectory per region
+
+**Option C — Manual with HFCM:**
+- For sites with a small set of pages, add hreflang manually per page via HFCM
+- Safest approach for partial multi-region coverage
+
+---
+
+## Validación
+
+### Screaming Frog — Hreflang Audit
+
+Configuration > Spider > Crawl Linked XML Sitemaps → activar.
+
+Tab Hreflang (en el crawl):
+- **Noreturn**: URL referenciada que no tiene hreflang de vuelta → reciprocidad rota
+- **Incorrect language code**: código de idioma no válido según ISO 639-1 / BCP 47
+- **Non-canonical**: URL en hreflang que no es la canonical de esa página
+- **Missing x-default**: no hay x-default declarado
+
+### Google Search Console
+
+Search Console > Internacional > Hreflang → muestra errores de implementación
+detectados por Googlebot durante el crawl real.
+
+**Errores comunes en GSC:**
+- "Missing return tags" → reciprocidad rota
+- "No return tag" → la URL referenciada no existe o no tiene hreflang de vuelta
+- "URL in return tag not indexed" → la URL del otro idioma está noindex o desindexada
+
+### Verificación manual rápida
+
+```javascript
+// Chrome DevTools > Console — ver todos los hreflang de la página actual
+document.querySelectorAll('link[rel="alternate"]').forEach(l =>
+  console.log(l.hreflang, l.href)
+);
+```
+
+---
+
+## Checklist de auditoría hreflang
+
+```
+CRÍTICO
+[ ] ¿Reciprocidad completa? (A→B y B→A en todas las páginas)
+[ ] ¿Self-reference presente en cada página?
+[ ] ¿Las URLs en hreflang devuelven 200? (no 404 ni redirect)
+[ ] ¿Las URLs son las canonicals? (no versión con parámetros ni redirect)
+
+ALTO
+[ ] ¿x-default presente y apuntando a URL correcta?
+[ ] ¿Códigos de idioma válidos? (ISO 639-1 / BCP 47)
+[ ] ¿URLs absolutas? (no relativas)
+[ ] ¿Hreflang duplicado por dos plugins simultáneos?
+[ ] ¿Páginas de test (home-2, draft, staging) con hreflang o indexables?
+
+MEDIO
+[ ] ¿Schema @id del WebSite apunta a URL raíz principal en todas las instalaciones?
+[ ] ¿Hreflang presente en todas las páginas con equivalente, o solo en algunas?
+[ ] GSC > Internacional: ¿errores activos reportados por Google?
+[ ] ¿Plugin de hreflang en modo global con traducción parcial? → riesgo de reciprocidad rota
+
+BAJO
+[ ] ¿El sitemap XML declara hreflang o solo está en <head>?
+[ ] ¿Hreflang en páginas noindex? (innecesario, puede confundir)
+[ ] ¿Hreflang para páginas de utilidad (política de privacidad, aviso legal)?
+   (opcional — bajo impacto)
+```
+
+---
+
+## Referencias
+
+- Hreflang spec Google: https://developers.google.com/search/docs/specialty/international/localization-with-hreflang
+- Búsqueda internacional — guía completa: https://developers.google.com/search/docs/specialty/international
+- GSC > Internacional: https://search.google.com/search-console/about
+- Validador de códigos BCP 47: https://r12a.github.io/app-subtags/
