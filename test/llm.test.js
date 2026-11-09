@@ -59,10 +59,10 @@ test('gemini is the default endpoint and groq can be swapped in by env', () => {
   const groq = llmConfig({
     SEO_LLM_KEY: 'k',
     SEO_LLM_BASE: 'https://api.groq.com/openai/v1/',
-    SEO_LLM_MODEL: 'llama-3.3-70b-versatile'
+    SEO_LLM_MODEL: 'openai/gpt-oss-120b'
   });
   assert.equal(groq.base, 'https://api.groq.com/openai/v1');
-  assert.equal(groq.model, 'llama-3.3-70b-versatile');
+  assert.equal(groq.model, 'openai/gpt-oss-120b');
 });
 
 test('items are batched and every verdict is recorded', async () => {
