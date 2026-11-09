@@ -1,6 +1,7 @@
 ---
 name: "facts-check"
 description: "Read-only consistency check of any live site, on any stack. FACTS: one approved facts list (value, source, owner); scripts/facts_check.py reports every figure on the sitemap's pages that differs from it (text, titles, descriptions, alt texts, structured data, llms.txt) and retired phrases (old names, taglines, claims) still in use. POSITIONING: rules map page paths (/en/business/*) to an audience and the term each page owns; it lists pages that lost the term in title, meta description or H1/intro, as the starter's positioning test does. AI answer engines quote whatever figure and wording they…"
+summary: "Audits live site pages against an approved facts list to ensure consistency across text, metadata, and structured data."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "detected"

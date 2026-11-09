@@ -1,6 +1,7 @@
 ---
 name: "ai-visibility"
 description: "Measure and improve whether AI assistants (ChatGPT, Claude, Gemini, Perplexity, Copilot) recommend a brand, and fix the reasons they do not. Use this skill whenever someone asks about AI visibility, AEO, GEO, answer engine optimization, generative engine optimization, \"AI SEO\", brand mentions or share of voice in AI answers, whether ChatGPT/Claude/Gemini recommends their site or product, why a competitor shows up in AI answers instead of them, llms.txt, robots.txt rules for GPTBot / ClaudeBot / PerplexityBot / Google-Extended, schema markup or JSON-LD for AI citation, tracking AI referral…"
+summary: "Measures and improves brand visibility and recommendations across major AI assistants and answer engines."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

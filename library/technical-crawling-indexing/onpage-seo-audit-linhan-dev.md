@@ -1,6 +1,7 @@
 ---
 name: "onpage-seo-audit"
 description: "当用户要求「SEO审计」「SEO检查」「网站SEO分析」「on-page SEO」或审计本地项目源码的 SEO 时使用。对线上/本地网站（URL）或项目源码（目录）进行 on-page SEO 审计并列出发现的问题。"
+summary: "Performs on-page SEO audits on live URLs or local source code repositories."
 category: "technical-crawling-indexing"
 platforms: ["unspecified"]
 platform_source: "none"

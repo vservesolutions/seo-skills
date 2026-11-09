@@ -1,6 +1,7 @@
 ---
 name: "entity-registry"
 description: "Use when the user asks to \"optimize entity presence\", reconcile an entity identity, or update canonical Knowledge Graph facts; audits and maintains machine-facing identity, sameAs, schema, disambiguation, and AI-recognition evidence through the entities registry. Not for page-level AI-citation readiness - use geo-content-optimizer; not for human-facing brand canon - use narrative-registry. 实体注册/知识图谱"
+summary: "Optimizes machine-facing entity presence, schema, and knowledge graph facts."
 category: "keyword-research"
 platforms: ["claude-code", "codex", "cursor", "openclaw"]
 platform_source: "declared+detected"

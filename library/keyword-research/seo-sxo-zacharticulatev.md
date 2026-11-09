@@ -1,6 +1,7 @@
 ---
 name: "seo-sxo"
 description: "Search Experience Optimization — reads the SERP backwards to detect page-type mismatches, then scores the target page against search-intent personas (buyer, researcher, comparison shopper) to explain why a well-optimized page fails to rank. Uses DataForSEO to auto-pull the live SERP when connected; otherwise works from user-provided ranking URLs. Trigger when the user says \"SXO\", \"search experience\", \"page type mismatch\", \"SERP analysis\", \"user story\", \"persona scoring\", \"intent mismatch\", \"why isn't my page ranking\", or \"wireframe for ranking\"."
+summary: "Optimizes search experience by detecting page-type mismatches against search intent personas."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared"

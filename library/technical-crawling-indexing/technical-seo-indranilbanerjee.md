@@ -1,6 +1,7 @@
 ---
 name: "technical-seo"
 description: "Technical SEO fixes for devs: JS rendering (SSR, prerender), Web Vitals (LCP, INP), schema. \"plan a site migration\""
+summary: "Provides technical SEO fixes for developers."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "detected"

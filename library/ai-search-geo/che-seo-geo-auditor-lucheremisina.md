@@ -1,6 +1,7 @@
 ---
 name: "che-seo-geo-auditor"
 description: "Проводит полный SEO/GEO-аудит сайта: crawl, технические сигналы, контент, scoring и приоритеты. Применяется для аудита всего сайта; отдельную страницу, метатег или спорный пункт проверяет che-seo-geo-auditor-pro."
+summary: "Performs a comprehensive technical and content SEO and GEO audit."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "detected"

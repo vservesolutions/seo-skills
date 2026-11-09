@@ -1,6 +1,7 @@
 ---
 name: "seo-page"
 description: "Single-URL SEO review — runs the technical audit and the content audit on one page (on-page elements, meta, E-E-A-T signals, readability, keyword placement, schema, images, lab performance risks, internal links) in one pass with two deterministic scores (real Core Web Vitals field data when seo-google is connected). Lightweight alternative to seo-audit when only one page matters. Trigger when the user says \"analyze this page\", \"check page SEO\", \"single URL\", \"check this page\", \"review this URL\", or provides one specific URL."
+summary: "Performs a single-URL technical and content SEO review with deterministic scoring."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

@@ -1,6 +1,7 @@
 ---
 name: "seo-technical"
 description: "Technical SEO audit across 9 categories: crawlability, indexability, security, URL structure, mobile, Core Web Vitals, structured data, JavaScript rendering, and IndexNow protocol. Use when user says \"technical SEO\", \"crawl issues\", \"robots.txt\", \"Core Web Vitals\", \"site speed\", or \"security headers\"."
+summary: "Executes technical SEO audits across crawlability, indexability, security, and performance."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "detected"

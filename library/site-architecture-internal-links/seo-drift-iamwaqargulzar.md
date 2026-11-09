@@ -1,6 +1,7 @@
 ---
 name: "seo-drift"
 description: "Compatibility skill for seo drift. Use when a user or upstream workflow invokes this name; route the task to `performance-monitor` while preserving the requested scope and source-specific intent."
+summary: "This compatibility skill routes performance monitor tasks."
 category: "site-architecture-internal-links"
 platforms: ["unspecified"]
 platform_source: "none"

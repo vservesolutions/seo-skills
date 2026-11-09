@@ -1,6 +1,7 @@
 ---
 name: "seo-quick"
 description: "60-second SEO snapshot powered by the DataForSEO API. Three parallel calls (DataForSEO Labs domain overview, Backlinks summary, ranked keywords) for core metrics on any domain — total keywords, traffic estimate, backlinks, top rankings — without waiting for a full audit."
+summary: "Fetches quick core SEO metrics for any domain via parallel DataForSEO API calls."
 category: "link-building"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

@@ -1,6 +1,7 @@
 ---
 name: "seo-images"
 description: "Review image discoverability, accessibility, page performance risks and SEO asset briefs. Use for image SEO or image optimization requests."
+summary: "Reviews image discoverability, accessibility, page performance risks, and SEO asset briefs."
 category: "core-web-vitals-performance"
 platforms: ["unspecified"]
 platform_source: "none"

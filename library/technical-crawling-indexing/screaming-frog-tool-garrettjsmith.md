@@ -1,6 +1,7 @@
 ---
 name: "screaming-frog-tool"
 description: "When the user wants a technical site audit, crawl data analysis, location page quality checks, duplicate content detection, schema validation at scale, or internal linking analysis. Trigger on \"Screaming Frog,\" \"site crawl,\" \"technical audit,\" \"crawl data,\" \"broken links,\" \"duplicate content,\" \"location page audit,\" or when analyzing exported crawl CSV/Excel files."
+summary: "Performs technical site audits and analyzes crawl data for SEO optimization."
 category: "technical-crawling-indexing"
 platforms: ["unspecified"]
 platform_source: "none"

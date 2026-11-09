@@ -1,6 +1,7 @@
 ---
 name: "seo-ecommerce"
 description: "E-commerce SEO, product schema validation, faceted navigation indexing control, out-of-stock URL management, and Google Merchant Center optimization."
+summary: "Manages e-commerce SEO including product schema, faceted navigation indexing, and stock management."
 category: "ecommerce-seo"
 platforms: ["claude-code", "windsurf", "antigravity"]
 platform_source: "declared"

@@ -1,6 +1,7 @@
 ---
 name: "research-keywords"
 description: "Finds high-value SEO and GEO keywords using web search, AI analysis, and optionally paid tools like Ahrefs or Semrush. Produces a validated keywords.csv file with a fixed schema for downstream pipeline consumption."
+summary: "Finds SEO and GEO keywords using web search and external SEO tools."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared"

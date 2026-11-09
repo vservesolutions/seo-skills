@@ -1,6 +1,7 @@
 ---
 name: "seo-gsc-indexing"
 description: "Identify indexing problems and coverage issues using Google Search Console URL inspection data. Checks up to 20 pages for indexing status, coverage state, robots.txt state, and last crawl date. Use when user says \"index issues\", \"indexing problems\", \"not indexed\", \"indexing coverage\", or \"why is my page not indexed\"."
+summary: "Identifies indexing and coverage issues using Google Search Console URL inspection data."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

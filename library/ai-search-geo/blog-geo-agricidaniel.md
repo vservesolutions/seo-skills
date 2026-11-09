@@ -1,6 +1,7 @@
 ---
 name: "blog-geo"
 description: "Audit one blog post file for AI-citation readiness (self-contained, sourced passages, entity clarity, structure, crawler access) and score it with an internal 0-100 heuristic plus per-surface notes for AI Overviews, AI Mode, ChatGPT, Perplexity, Claude, Gemini, and Copilot. Use when the user says \"geo\", \"aeo\", \"ai citation\", \"citation audit\", \"chatgpt citation\". Not for a site-wide audit, live AI-visibility tracking, or schema generation (use claude-seo seo-geo, blog-audit, blog-schema), and not a promise of citations."
+summary: "This skill evaluates individual blog posts for AI-citation readiness across multiple generative search engines."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

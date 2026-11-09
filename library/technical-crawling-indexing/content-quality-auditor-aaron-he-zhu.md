@@ -1,6 +1,7 @@
 ---
 name: "content-quality-auditor"
 description: "Use when auditing content quality, E-E-A-T, or publish readiness; runs a typed 80-item CORE-EEAT profile with evidence coverage, veto checks, and a fix plan. Not for structural tags/headers alone — use on-page-seo-checker; not for domain/citation trust — use domain-authority-auditor. 内容质量/EEAT评分"
+summary: "Audits content quality and E-E-A-T readiness using a structured evaluation profile."
 category: "technical-crawling-indexing"
 platforms: ["claude-code", "codex", "cursor", "openclaw"]
 platform_source: "declared+detected"

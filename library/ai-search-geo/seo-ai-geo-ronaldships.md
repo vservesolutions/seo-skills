@@ -1,6 +1,7 @@
 ---
 name: "seo-ai-geo"
 description: "Review Google and ChatGPT search eligibility, AI crawler rules, and useful evidence-backed content. Use for AI citations, GEO/AEO audits, or optional llms.txt documentation. Distinguish search discovery from model-training preferences."
+summary: "Reviews search eligibility, AI crawler rules, and llms.txt documentation for AI citations and GEO audits."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

@@ -1,6 +1,7 @@
 ---
 name: "seo-content"
 description: "Content quality and E-E-A-T analysis with AI-citation-readiness assessment. A deterministic eight-dimension audit (author / credentials / dates / sourcing / first-hand signals with a stricter YMYL bar, structure, readability, depth by page type, keyword placement, links, scaled-content tells like leaked template placeholders, passage citability) scores a page 0-100 with a fix per finding, then the skill judges what a script can't. Trigger when the user says \"content quality\", \"E-E-A-T\", \"content analysis\", \"readability check\", \"thin content\", \"content audit\", or \"is this content good enough\"."
+summary: "Evaluates content quality, E-E-A-T signals, and AI-citation readiness across multiple dimensions."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

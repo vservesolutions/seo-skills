@@ -1,6 +1,7 @@
 ---
 name: "recovery-crawl"
 description: "Screaming Frog MCP crawl + issue classification. Crawls up to 500 URLs, extracts broken links, redirect chains, missing H1s, canonical errors, and missing meta descriptions. Classifies issues by severity with upgrade rules. Outputs structured issues.json to cache."
+summary: "Crawls websites to extract technical SEO issues like broken links and missing metadata."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

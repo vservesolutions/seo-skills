@@ -1,6 +1,7 @@
 ---
 name: "beat-competitors"
 description: "Turn competitor SEO data into a prioritized attack plan. Use when the user asks about competitor analysis, competitive gaps, how to outrank competitors, what competitors rank for, keyword overlap, or competitive positioning strategy. For building content to fill gaps, see brief and build-clusters."
+summary: "Analyzes competitor keyword data to build a prioritized ranking attack plan."
 category: "content-strategy"
 platforms: ["unspecified"]
 platform_source: "none"

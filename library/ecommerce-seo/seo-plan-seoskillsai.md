@@ -1,6 +1,7 @@
 ---
 name: "seo-plan"
 description: "Strategic SEO roadmap planning tailored to business models: SaaS, e-commerce, local service, digital publisher, and agency."
+summary: "Builds strategic SEO roadmaps tailored to various business models."
 category: "ecommerce-seo"
 platforms: ["claude-code", "windsurf", "antigravity"]
 platform_source: "declared"

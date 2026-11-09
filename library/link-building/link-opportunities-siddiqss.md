@@ -1,6 +1,7 @@
 ---
 name: "link-opportunities"
 description: "Plan off-page authority for a brand — find and prioritize backlink opportunities from its topical map and competitor set, with a safe anchor-text mix and a competitor backlink-gap worksheet. Use whenever the user mentions backlinks, link building, off-page SEO, domain authority, digital PR, guest posts, \"who should link to us\", getting into best-of listicles, or why competitors outrank despite thinner content. Discovers real prospects via web_search (T1) or DataForSEO backlinks (T2); never invents authority numbers, referring domains, or contact emails. Triggers on off-page / link intent…"
+summary: "Identifies and prioritizes backlink opportunities using topical maps and competitor backlink gaps."
 category: "link-building"
 platforms: ["claude-code"]
 platform_source: "declared"

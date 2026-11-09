@@ -1,6 +1,7 @@
 ---
 name: "seo-competitor-pages"
 description: "Generates high-converting competitor comparison pages (X vs Y, Alternatives to X) with objective feature matrices and transparent evaluation frameworks."
+summary: "Generates competitor comparison pages with structured feature matrices for SEO purposes."
 category: "on-page-seo"
 platforms: ["claude-code", "windsurf", "antigravity"]
 platform_source: "declared"

@@ -1,6 +1,7 @@
 ---
 name: "seo-audit"
 description: "When the user wants to audit, review, or diagnose SEO issues, plan site architecture, or implement schema markup. Use when someone says 'SEO audit', 'technical SEO', 'site architecture', 'schema markup', 'internal linking', 'why isn't my site ranking', 'site health check', 'crawl issues', 'fix my SEO', 'my traffic dropped', 'rankings fell', or 'site not ranking'. Also trigger when someone wants to plan URL structure, design navigation, add structured data, or review any website for search performance. Three modes: Full Audit (comprehensive health check), Architecture (URL structure and…"
+summary: "This skill performs technical SEO audits, site architecture planning, and schema markup implementation."
 category: "technical-crawling-indexing"
 platforms: ["unspecified"]
 platform_source: "none"

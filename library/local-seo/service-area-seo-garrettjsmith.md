@@ -1,6 +1,7 @@
 ---
 name: "service-area-seo"
 description: "When the user operates a service-area business (SAB) without a public storefront. Also use when the user mentions \"service area business,\" \"SAB,\" \"no storefront,\" \"hide my address,\" \"mobile business,\" \"home-based business SEO,\" or \"I go to the customer.\" For location page creation, see local-landing-pages. For GBP setup, see gbp-optimization."
+summary: "Optimizes online visibility for businesses that operate without a public storefront."
 category: "local-seo"
 platforms: ["unspecified"]
 platform_source: "none"

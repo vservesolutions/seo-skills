@@ -1,6 +1,7 @@
 ---
 name: "ai-seo"
 description: "Builds, measures, and improves an Answer Engine Optimization program across ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews, and Copilot. Use for AEO, GEO, LLMO, AI search visibility, AI citations, brand mentions, answer-engine monitoring, llms.txt, AI crawler audits, or questions like 'what does AI say about us?' and 'why are competitors cited instead of us?'. Produces a durable evidence report and prioritized gameplan, not a one-shot content checklist."
+summary: "Builds and measures Answer Engine Optimization programs across major AI search platforms."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "detected"

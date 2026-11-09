@@ -1,6 +1,7 @@
 ---
 name: "seo-rank"
 description: "Comprehensive 2026 SEO audit and optimization. Use when user runs `/seo-rank`, asks to \"audit SEO\", \"check SEO\", \"optimize for Google\", \"fix technical SEO\", \"improve rankings\", \"check Core Web Vitals\", \"audit site structure\", \"fix crawlability\", or needs SEO analysis for any web page or site. Complements ai-rank (LLM/agent optimization) — use both together for full search visibility."
+summary: "This skill performs comprehensive technical SEO audits and ranking optimizations."
 category: "core-web-vitals-performance"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

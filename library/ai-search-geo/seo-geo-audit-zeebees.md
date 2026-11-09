@@ -1,6 +1,7 @@
 ---
 name: "seo-geo-audit"
 description: "Use when auditing a website or blog for technical SEO and AI-answer-engine discoverability (GEO) — checking whether ChatGPT, Perplexity, Gemini, Claude and Google can crawl, understand, and cite a site. Covers canonicals, hreflang, structured data, robots.txt, llms.txt, edge caching, sitemaps, and AI-crawler access."
+summary: "Audits websites for technical SEO and AI-answer-engine discoverability across major AI platforms."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

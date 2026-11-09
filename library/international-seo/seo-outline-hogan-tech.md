@@ -1,6 +1,7 @@
 ---
 name: "seo-outline"
 description: "Use when you need an SEO-optimized article outline with 4-8 sections. Locale-parametric. Model-agnostic. Part of brand-loom; hosted brand-memory version at neoxra.com."
+summary: "This skill generates SEO-optimized article outlines with structured sections."
 category: "international-seo"
 platforms: ["claude-code", "openclaw"]
 platform_source: "detected"

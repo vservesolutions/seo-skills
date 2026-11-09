@@ -1,6 +1,7 @@
 ---
 name: "keyword-clustering"
 description: "Groups candidate keywords by user task and tests whether one page can satisfy them. Use for same-page decisions, mixed intent and adjacent queries."
+summary: "Groups keywords by user intent to determine single-page targeting."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared"

@@ -1,6 +1,7 @@
 ---
 name: "seo-agentic"
 description: "Audit and fix agent readiness: the Lighthouse Agentic Browsing fraction, accessibility tree for agents, robots.txt and Content-Signal for AI agents, WAF treatment of agent traffic, llms.txt, Markdown delivery, ai-catalog.json, /.well-known discovery files, and WebMCP tools. Exclude AI citability and brand signals (seo-geo) and commerce protocol depth (seo-ecommerce)."
+summary: "This skill audits and fixes website agent readiness, including accessibility trees, robots.txt, and discovery files."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "detected"

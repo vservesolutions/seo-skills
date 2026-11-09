@@ -1,6 +1,7 @@
 ---
 name: "keyword-research"
 description: "Filters, scores, and prioritizes keyword research into an actionable target list. Retrieves search data (monthly search volume, keyword difficulty, CPC, competition, trends, live SERPs) via the DataForSEO MCP where available, or works from any keyword source including a manual export. Use when the user asks to research keywords, find keyword opportunities, analyze search volume, check keyword difficulty, get keyword suggestions, find related keywords, identify SERP competitors, or do any SEO keyword analysis. Also triggers on phrases like \"topical map\", \"keyword gap\", \"content gap\", \"search…"
+summary: "Filters, scores, and prioritizes search keyword opportunities using data APIs or manual inputs."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

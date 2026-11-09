@@ -1,6 +1,7 @@
 ---
 name: "geo-schema"
 description: "Schema.org structured data audit and generation optimized for AI discoverability: detect, validate, and generate JSON-LD markup"
+summary: "Audits, detects, and generates Schema.org structured data specifically optimized for AI discoverability."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "detected"

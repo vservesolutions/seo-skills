@@ -1,6 +1,7 @@
 ---
 name: "seo-ai-content-check"
 description: "Detect AI-generated content using pure text analysis (no external API calls). Analyzes sentence uniformity, vocabulary diversity, repetition patterns, hedging language, paragraph uniformity, and personal experience signals. Returns a 0-100 confidence score plus flagged passages. Use when user says \"AI content check\", \"AI detection\", \"AI written\", \"content authenticity\", \"AI content\", \"detect AI\"."
+summary: "Detects AI-generated text patterns and assigns a confidence score for content authenticity."
 category: "general-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

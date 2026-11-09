@@ -1,6 +1,7 @@
 ---
 name: "hreflang-check"
 description: "Validate hreflang, alternate-language link tags and x-default from pasted HTML or sitemaps, with fixes. \"check our hreflang tags\""
+summary: "Validates hreflang and language alternate tags."
 category: "international-seo"
 platforms: ["unspecified"]
 platform_source: "none"

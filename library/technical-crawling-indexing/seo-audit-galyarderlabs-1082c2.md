@@ -1,6 +1,7 @@
 ---
 name: "seo-audit"
 description: "Diagnose and audit SEO issues affecting crawlability, indexation, rankings, and organic performance."
+summary: "Diagnoses technical, indexation, and ranking issues affecting organic performance."
 category: "technical-crawling-indexing"
 platforms: ["unspecified"]
 platform_source: "none"

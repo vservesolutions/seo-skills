@@ -1,6 +1,7 @@
 ---
 name: "seo-matomo"
 description: "Analyze Matomo analytics for SEO and marketing decisions using an authorized connector, Reporting API, or user export. Use for organic traffic, landing pages, referrers, devices, countries, goals, events, or GA4-to-Matomo reporting comparisons. Not for Search Console query/index data or changing Matomo configuration."
+summary: "Analyzes Matomo analytics data for organic traffic, landing pages, and marketing decisions."
 category: "analytics-measurement"
 platforms: ["unspecified"]
 platform_source: "none"

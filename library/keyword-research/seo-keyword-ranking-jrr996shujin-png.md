@@ -1,6 +1,7 @@
 ---
 name: "seo-keyword-ranking"
 description: "关键词监测与排名追踪子模块。追踪品牌和竞品在目标关键词上的 Google 和 Bing 排名变化，按类别分组管理关键词，排名大幅下滑时自动报警。当用户提到'排名掉了''关键词排名''竞品排在哪''加个新关键词''哪些词我们还没覆盖'时触发。数据源：SEMrush API + Google Search Console API。"
+summary: "Tracks brand and competitor keyword rankings across Google and Bing with automated alerts."
 category: "keyword-research"
 platforms: ["openclaw"]
 platform_source: "declared"

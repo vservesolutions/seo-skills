@@ -1,6 +1,7 @@
 ---
 name: "metadata-check"
 description: "Reviews short high-value strings — page titles, meta descriptions, schema description fields, FAQ answers, GitHub repo taglines, profile bios, social-card copy, and other metadata where Flesch and paragraph-level readability checks don't apply. Checks front-loading, concreteness, filler, active voice, title/description duplication, difficult words, SERP-truncation fit, and one-idea-per-field. Use when the user asks to review metadata, a tagline, a bio, or SEO strings, or proactively after generating any short string with audience-facing impact. Chained into by astro-seo, wp-readme-optimizer…"
+summary: "Reviews short metadata strings for SERP readability and truncation fit."
 category: "on-page-seo"
 platforms: ["unspecified"]
 platform_source: "none"

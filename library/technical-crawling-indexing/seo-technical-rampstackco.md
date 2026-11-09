@@ -1,6 +1,7 @@
 ---
 name: "seo-technical"
 description: "Run a comprehensive technical SEO audit covering crawlability, indexability, rendering, site architecture, structured data, page experience, security, and internationalization. Use this skill whenever the user asks about technical SEO, crawl issues, indexing problems, sitemaps, robots.txt, canonical tags, schema markup, page speed, Core Web Vitals, hreflang, redirects, or site-wide search performance. Triggers on technical SEO, site audit, crawlability, indexability, sitemap, robots.txt, canonical, redirect chain, schema, JSON-LD, Core Web Vitals, page speed, hreflang, mobile usability…"
+summary: "Executes comprehensive technical SEO audits covering crawlability, indexability, and site architecture."
 category: "technical-crawling-indexing"
 platforms: ["unspecified"]
 platform_source: "none"

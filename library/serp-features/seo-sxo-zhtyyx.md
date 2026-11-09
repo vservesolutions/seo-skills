@@ -1,6 +1,7 @@
 ---
 name: "seo-sxo"
 description: "Diagnose search-experience and intent mismatches using SERP page types, user stories, and persona scoring. Use when ranking problems appear intent- or layout-driven."
+summary: "Diagnoses search experience and intent mismatches using SERP types and user personas."
 category: "serp-features"
 platforms: ["codex"]
 platform_source: "declared"

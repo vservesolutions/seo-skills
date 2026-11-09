@@ -1,6 +1,7 @@
 ---
 name: "seo-keyword-niche"
 description: "Mine longtail keywords + question keywords for a topic at scale to surface niche content opportunities. Outputs a content tier plan (template + URL pattern + sample pages + quality gates) suitable for programmatic publishing or steady editorial output. Distinct from `seo-keyword-cluster` (which plans pillar+spoke architecture from broad seeds) — this skill goes deeper into the long tail. Use when the user asks \"longtail keywords\", \"question keywords\", \"niche content\", \"content opportunities at scale\", \"programmatic SEO\", \"content mining\", or \"what should I write about for {topic}\"."
+summary: "Mines long-tail and question keywords at scale to identify niche content publishing opportunities."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared"

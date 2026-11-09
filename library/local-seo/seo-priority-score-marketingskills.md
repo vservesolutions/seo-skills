@@ -1,6 +1,7 @@
 ---
 name: "seo-priority-score"
 description: "Rank SEO tasks by expected impact, confidence, effort, authority feasibility, and revenue proximity. Use when Codex needs to decide which of many identified issues to work on first."
+summary: "Ranks SEO tasks by expected impact, confidence, effort, and revenue proximity."
 category: "local-seo"
 platforms: ["unspecified"]
 platform_source: "none"

@@ -1,6 +1,7 @@
 ---
 name: "seo-competitive-intel"
 description: "品牌 vs 竞品 SEO/AEO 竞争情报监测系统。将关键词排名追踪、内容表现分析、竞品内容监测、月度汇总报告整合为一个 composition skill。当用户提到'关键词排名''竞品监测''内容表现''排名掉了''竞品发了什么新文章''月度 SEO 报告''流量下降了''帮我看看我们的 SEO 状况''跟竞品比一下''生成本月报告'时触发。数据源：SEMrush API + Google Search Console API + Google Analytics API。"
+summary: "Monitors SEO and AEO competitive intelligence including keyword rankings and performance reports."
 category: "analytics-measurement"
 platforms: ["openclaw"]
 platform_source: "declared+detected"

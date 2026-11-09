@@ -1,6 +1,7 @@
 ---
 name: "internal-linker"
 description: "Resolve [INTERNAL-LINK: anchor → target] placeholders, inject brand internal links from projects/{slug}/internal-links-map.md, manage internal link density per word count."
+summary: "This skill resolves internal linking placeholders and manages anchor text distribution."
 category: "site-architecture-internal-links"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

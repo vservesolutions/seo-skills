@@ -1,6 +1,7 @@
 ---
 name: "seo-content"
 description: "Holistic Semantic SEO content optimization. Enforces Entity-Attribute-Value (EAV) modeling, anti-thin educational prose (800+ words), centerpiece fold annotation, directional internal link conduits, and 3x Anchor Diversity Rule."
+summary: "Optimizes semantic content using entity-attribute-value modeling and internal linking rules."
 category: "on-page-seo"
 platforms: ["claude-code", "windsurf", "antigravity"]
 platform_source: "declared"

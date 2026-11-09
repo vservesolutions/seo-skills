@@ -1,6 +1,7 @@
 ---
 name: "seo-technical"
 description: "10-dimension technical SEO audit with a fix per finding and a deterministic lab score — crawlability (RFC 9309 AI-crawler policy, redirects), indexability (noindex / X-Robots-Tag, canonical conflicts, the 2 MB Googlebot index limit), security (true mixed content, headers), URL structure, mobile, Core Web Vitals lab risks (lazy LCP image, render-blocking scripts, CLS), structured data, JavaScript rendering (client-rendered shells), and SERP presentation. Trigger when the user says \"technical seo\", \"crawl issues\", \"robots.txt\", \"core web vitals\", \"site speed\", \"security headers\"…"
+summary: "Conducts a multi-dimension technical SEO audit covering crawlability, indexability, security, and Core Web Vitals."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

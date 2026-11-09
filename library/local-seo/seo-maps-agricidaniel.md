@@ -1,6 +1,7 @@
 ---
 name: "seo-maps"
 description: "Analyze supplied geographic rank grids, business profiles, reviews and local competitor observations. Use for Maps intelligence."
+summary: "Analyzes geographic rank grids, business profiles, reviews, and local competitor observations."
 category: "local-seo"
 platforms: ["unspecified"]
 platform_source: "none"

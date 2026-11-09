@@ -1,6 +1,7 @@
 ---
 name: "seo-aeo-content-cluster"
 description: "Builds a topical authority map with a pillar page, prioritised cluster articles, content types, internal link map, and content gap analysis. Activate when the user wants to build a content cluster, topic map, or content strategy."
+summary: "Builds topical authority maps with pillar pages and prioritized internal linking structures."
 category: "ai-search-geo"
 platforms: ["antigravity"]
 platform_source: "declared"

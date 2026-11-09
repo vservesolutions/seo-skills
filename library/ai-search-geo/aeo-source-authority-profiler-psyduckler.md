@@ -1,6 +1,7 @@
 ---
 name: "aeo-source-authority-profiler"
 description: "Analyze WHY certain sources get cited by Gemini over others. Runs a prompt through Gemini 3 Flash with grounding, ranks cited sources by frequency, then fetches and profiles the top pages — word count, headings, structured data (JSON-LD), publication dates, and entity density. Outputs a \"citation blueprint\" showing what top-cited pages have in common. Optionally highlights where a specific domain's pages stand vs the blueprint. Use when a user wants to: understand what makes pages get cited by AI, reverse-engineer citation patterns, build a content template based on what Gemini prefers…"
+summary: "Profiles highly cited web sources to identify common structural and entity patterns for AI search visibility."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

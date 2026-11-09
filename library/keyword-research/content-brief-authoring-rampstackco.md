@@ -1,6 +1,7 @@
 ---
 name: "content-brief-authoring"
 description: "How to author a content brief that actually guides a writer (human or AI) to produce a piece that ranks, converts, or both. Per-piece editorial brief: target keyword and cluster, search intent, audience and JTBD, heading structure, entity coverage for AEO/GEO, internal linking strategy, success criteria. The middle path between thin briefs (a keyword and a deadline) and thick briefs (a 4-page document nobody reads). Triggers on content brief, brief the writer, brief the article, brief authoring, content brief template, brief audit, per-piece brief, editorial brief, target keyword brief…"
+summary: "Authors comprehensive editorial briefs covering target keywords, search intent, and entity optimization for ranking."
 category: "keyword-research"
 platforms: ["unspecified"]
 platform_source: "none"

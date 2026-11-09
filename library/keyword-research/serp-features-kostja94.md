@@ -1,6 +1,7 @@
 ---
 name: "serp-features"
 description: "When the user wants to understand or optimize for SERP feature types (PAA, sitelinks, rich results, AI Overviews). Also use when the user mentions \"SERP,\" \"SERP features,\" \"search result features,\" \"People Also Ask,\" \"PAA,\" \"sitelinks,\" \"knowledge panel,\" \"local pack,\" \"rich results,\" \"zero-click,\" \"SERP types,\" \"AI Overviews,\" \"Bing Copilot,\" or \"Yandex AI.\" For JSON-LD and rich result implementation, use schema-markup. For organic strategy and roadmap, use seo-strategy."
+summary: "Explains and optimizes content for various SERP features, rich results, and AI Overviews."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared"

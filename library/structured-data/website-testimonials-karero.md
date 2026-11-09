@@ -1,6 +1,7 @@
 ---
 name: "website-testimonials"
 description: "Encode customer / attendee testimonials as proper schema.org `Review` JSON-LD AND render the \"What people say\" UI from ONE typed source of truth (`src/data/testimonials.ts`). Individual Review nodes only — author + 5/5 reviewRating + reviewBody + inLanguage + itemReviewed pointing at the SPECIFIC thing reviewed (Event / Product / Service), never a fabricated org-wide AggregateRating. Use when adding quotes, testimonials, social proof, ratings, or star reviews to a site built with the new-website kit (pipeline step 5, alongside `website-seo-geo`). Delegates other schema types to…"
+summary: "This skill encodes customer testimonials into proper schema.org Review JSON-LD and renders UI components."
 category: "structured-data"
 platforms: ["unspecified"]
 platform_source: "none"

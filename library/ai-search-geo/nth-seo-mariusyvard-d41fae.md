@@ -1,6 +1,7 @@
 ---
 name: "nth-seo"
 description: "Audit and fix a website for search engines and AI answer engines: full-site audits, page analysis, technical SEO, JSON-LD schema, content quality, GEO and llms.txt, sitemaps, local, hreflang, programmatic, backlinks, ecommerce, client reports. Use for any request mentioning SEO, ranking, Google, schema, robots.txt, keywords or AI search visibility."
+summary: "Audits and fixes websites for search engines and AI answer engines across multiple technical and content dimensions."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

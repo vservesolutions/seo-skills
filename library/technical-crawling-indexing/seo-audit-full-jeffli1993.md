@@ -1,6 +1,7 @@
 ---
 name: "seo-audit-full"
 description: "Advanced full SEO audit skill. Runs its own full workflow from local scripts, including the basic SEO checks plus PageSpeed, social metadata, and advanced review modules when available."
+summary: "Executes an advanced SEO audit including PageSpeed and metadata checks."
 category: "technical-crawling-indexing"
 platforms: ["claude-code", "openclaw"]
 platform_source: "declared"

@@ -1,6 +1,7 @@
 ---
 name: "entity-seo"
 description: "When the user wants to optimize for entity recognition, Knowledge Graph, or entity-based SEO. Also use when the user mentions \"entity SEO,\" \"entity optimization,\" \"Knowledge Graph,\" \"Knowledge Panel,\" \"entity signals,\" \"brand entity,\" \"entity linking,\" \"entity relationships,\" or \"entity-first content.\" For structured data, use schema-markup."
+summary: "Optimizes web content for entity recognition and Knowledge Graph visibility."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared"

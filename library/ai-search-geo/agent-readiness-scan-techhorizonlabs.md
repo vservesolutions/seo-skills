@@ -1,6 +1,7 @@
 ---
 name: "agent-readiness-scan"
 description: "Use when a client audit, GEO/AI-visibility snapshot, or remediation re-scan needs the Cloudflare agent-readiness score from isitagentready.com, e.g. Theo client audits, \"is the site agent-ready\", markdown negotiation / MCP / llms.txt / Content-Signal checks, or tracking score deltas after Tier 0/1 fixes."
+summary: "Scans websites for AI agent readiness by evaluating markdown support, MCP, llms.txt, and content signals."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

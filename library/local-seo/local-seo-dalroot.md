@@ -1,6 +1,7 @@
 ---
 name: "local-seo"
 description: "When the user wants to optimize for local search, set up Google Business Profile, or build local citations. Also use when the user mentions \"local SEO,\" \"Google Business Profile,\" \"Google Maps,\" \"NAP,\" \"citations,\" \"local search,\" \"local business,\" or \"service area.\" For location pages, use programmatic-seo."
+summary: "Optimizes for local search visibility and Google Business Profile management."
 category: "local-seo"
 platforms: ["unspecified"]
 platform_source: "none"

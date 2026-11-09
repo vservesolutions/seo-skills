@@ -1,6 +1,7 @@
 ---
 name: "seo-freshness"
 description: "Audit and repair freshness & temporal signals on a page — reconcile visible publish/update dates with schema datePublished/dateModified, flag staleness against topic volatility, and inject honest dateModified. Module M13. Feeds both the Search SEO and AI Visibility scores."
+summary: "Audits and repairs freshness and temporal signals by reconciling publish dates with schema markup."
 category: "structured-data"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

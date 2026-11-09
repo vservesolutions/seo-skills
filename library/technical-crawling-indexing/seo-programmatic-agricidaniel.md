@@ -1,6 +1,7 @@
 ---
 name: "seo-programmatic"
 description: "Evaluate or design data-driven page families for useful differentiation, index management and scalable quality. Use for programmatic SEO."
+summary: "Evaluates and designs data-driven page families for index management and scalable quality."
 category: "technical-crawling-indexing"
 platforms: ["unspecified"]
 platform_source: "none"

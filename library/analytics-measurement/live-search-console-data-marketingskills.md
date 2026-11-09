@@ -1,6 +1,7 @@
 ---
 name: "live-search-console-data"
 description: "Get live Google Search Console and GA4 data in your agent in 30 seconds. No Google Cloud project, no API keys, no OAuth setup. One sign-in, and your agent can query real GSC clicks, impressions, rankings, and GA4 sessions. Use when Codex needs authenticated access to live Google search and analytics data for any SEO analysis."
+summary: "Queries live Google Search Console and GA4 data for search performance analysis."
 category: "analytics-measurement"
 platforms: ["codex"]
 platform_source: "detected"

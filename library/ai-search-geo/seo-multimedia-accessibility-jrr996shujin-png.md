@@ -1,6 +1,7 @@
 ---
 name: "seo-multimedia-accessibility"
 description: "多媒体可访问性诊断子模块。检查图片 alt 文本覆盖率和质量、视频转录文字/字幕可用性。当用户提到\"图片 SEO\"\"alt 标签\"\"视频 SEO\"\"无障碍访问\"\"图片替代文字\"时触发。这直接影响 AI 引擎对多媒体内容的理解能力。"
+summary: "Checks image alt text coverage and video transcript availability for multi-media SEO."
 category: "ai-search-geo"
 platforms: ["openclaw"]
 platform_source: "declared"

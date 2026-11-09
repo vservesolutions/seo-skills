@@ -1,6 +1,7 @@
 ---
 name: "seo-auditor"
 description: "Use when auditing and optimizing websites for search engines. Conducting"
+summary: "Audits and optimizes websites for search engine performance."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "detected"

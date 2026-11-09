@@ -1,6 +1,7 @@
 ---
 name: "multi-location-seo"
 description: "When the user manages SEO across multiple business locations (10-500+). Also use when the user mentions \"multi-location,\" \"franchise SEO,\" \"enterprise local SEO,\" \"managing multiple GBPs,\" \"chain store SEO,\" \"location at scale,\" or \"bulk GBP management.\" For single-location GBP work, see gbp-optimization. For location pages, see local-landing-pages."
+summary: "Manages SEO and bulk Google Business Profiles across multiple enterprise locations."
 category: "local-seo"
 platforms: ["unspecified"]
 platform_source: "none"

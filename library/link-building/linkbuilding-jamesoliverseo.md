@@ -1,6 +1,7 @@
 ---
 name: "linkbuilding"
 description: "Use when building backlinks to a site with an outreach tactic - broken link building, link gap (sites linking to competitors but not you), unlinked brand mentions, resource pages, guest posts, link reclamation, competitor dead pages, Moving Man (moved or closed resources), \"best X\" listicle inclusion, or skyscraper content - including finding prospects, checking dead links, counting referring domains, finding contacts and drafting outreach emails. Also use for plain requests like \"get more backlinks\", \"build links to my site\", \"who links to my competitors\", \"find link opportunities\", \"why did…"
+summary: "Executes link building outreach tactics like broken link reclamation and guest posting."
 category: "link-building"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

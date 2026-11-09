@@ -1,6 +1,7 @@
 ---
 name: "geo-audit"
 description: "Measure how visible a brand is inside AI assistants (ChatGPT, Gemini, Claude, Perplexity) for its ICP's real questions. Runs a repeatable protocol of ~15 natural-language queries, reads whether and how the brand shows up, and reports Visibility, Rank, Sentiment, Recommendation rate, Share of Voice, and citation domains. Use when someone runs /growth-os:geo-audit, says \"am I visible in ChatGPT,\" \"AI visibility,\" \"do LLMs recommend us,\" \"GEO baseline,\" or when the growth audit needs the GEO section."
+summary: "Measures brand visibility, rank, and sentiment inside major AI assistants for targeted natural-language queries."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared"

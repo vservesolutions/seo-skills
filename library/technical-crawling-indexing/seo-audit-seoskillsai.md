@@ -1,6 +1,7 @@
 ---
 name: "seo-audit"
 description: "Parallel multi-agent full site audit. Spawns up to 15 specialist agents to inspect technical health, Topical Semantic semantic content, 2026 schema, GEO citability, and backlinks."
+summary: "Executes parallel multi-agent site audits inspecting technical health, schema, and backlink profiles."
 category: "technical-crawling-indexing"
 platforms: ["claude-code", "windsurf", "antigravity"]
 platform_source: "declared"

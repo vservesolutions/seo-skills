@@ -1,6 +1,7 @@
 ---
 name: "google-search-console-tool"
 description: "When the user wants to know what queries drive traffic to their site, which pages are indexed, click-through rates, organic search performance, or technical indexing issues. Trigger on \"Search Console,\" \"GSC,\" \"what keywords am I getting traffic for,\" \"what queries,\" \"impressions,\" \"click-through rate,\" \"indexing issues,\" \"is my page indexed,\" or \"organic performance.\""
+summary: "Retrieves organic search queries, traffic, click-through rates, and indexing data from Google Search Console."
 category: "analytics-measurement"
 platforms: ["unspecified"]
 platform_source: "none"

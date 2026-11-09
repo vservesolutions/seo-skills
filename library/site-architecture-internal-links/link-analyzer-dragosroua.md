@@ -1,6 +1,7 @@
 ---
 name: "link-analyzer"
 description: "Comprehensive link analysis for static sites. Use when the user wants to analyze links, find broken links, identify orphan pages, detect under-linked or over-linked content, find link sinks, or understand their site's internal linking structure. Supports HTTP validation with false-positive filtering."
+summary: "This skill analyzes internal link structures, detects broken links, and identifies orphan pages on static sites."
 category: "site-architecture-internal-links"
 platforms: ["unspecified"]
 platform_source: "none"

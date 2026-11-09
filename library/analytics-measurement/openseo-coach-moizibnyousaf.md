@@ -1,6 +1,7 @@
 ---
 name: "openseo-coach"
 description: "Friendly SEO coach mode for the mktg + OpenSEO stack. Use this skill when the user is new to SEO, unsure which SEO workflow to run, asks \"what does OpenSEO do\", wants strategy explained in plain language, or needs help choosing between keyword research, clustering, competitive analysis, and link prospecting. Triggers: \"seo coach\", \"new to seo\", \"explain openseo\", \"what seo should i do\", \"seo strategy help\"."
+summary: "Provides guidance and strategy recommendations for SEO workflows."
 category: "analytics-measurement"
 platforms: ["unspecified"]
 platform_source: "none"

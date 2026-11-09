@@ -1,6 +1,7 @@
 ---
 name: "seo-ai-site-builders"
 description: "Turn a JavaScript-only site built by an AI website generator into indexable HTML. Input: a site made with Lovable, Base44, Bolt, v0, Replit, Firebase Studio, Framer, Wix, Durable, Softr, Bubble, Glide or any similar tool. Output: proof of what crawlers actually receive (bundled zero-dependency script), the right conversion route (native SSR, build-time prerendering or SSG, framework migration, or crawler-only prerendering as a last resort), the HTML each page must serve, and the routing, status code and hosting config that goes with it. Use when a vibe-coded or AI-generated site is not…"
+summary: "Converts JavaScript-only websites built with AI generators into indexable HTML formats for search engine crawlers."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared"

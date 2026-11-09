@@ -1,6 +1,7 @@
 ---
 name: "humanized-writing"
 description: "Write and edit humanized, natural-sounding long-form web content: SEO articles, blog posts, tutorials, guides, and technical articles. Use when asked to write an SEO article or blog post, create long-form content for a keyword or content brief, humanize or rewrite AI-generated content, apply aggressive humanization, make writing sound natural or like an experienced expert wrote it, reduce formulaic AI-writing patterns, do detector-aware rewriting when an AI detector (GPTZero, Originality.ai, Turnitin) flags text or the user supplies a detector score, optimize existing content for search…"
+summary: "Writes and edits natural-sounding long-form web content and SEO articles."
 category: "keyword-research"
 platforms: ["unspecified"]
 platform_source: "none"

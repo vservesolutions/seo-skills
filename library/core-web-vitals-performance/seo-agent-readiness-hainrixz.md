@@ -1,6 +1,7 @@
 ---
 name: "seo-agent-readiness"
 description: "Audit how well a page can be operated by AI agents and agentic browsers — semantic interactive controls (<button>/<a href> instead of div/span click handlers), named buttons and links, labeled form controls, no javascript: hrefs, primary content outside iframes, and WebMCP detection — following Google's generative-AI guidance and the web.dev agent-friendly websites guide. Module M22 \"Agent-readiness\". Feeds the AI Visibility score (weight 4, all directional)."
+summary: "Audits how well a page can be operated by AI agents and agentic browsers based on semantic interactive controls."
 category: "core-web-vitals-performance"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

@@ -1,6 +1,7 @@
 ---
 name: "seo-bing"
 description: "Audit Bing search visibility, Webmaster Tools evidence, and IndexNow readiness when authorized tools are available. Use for Bing indexing, link, crawl, or Microsoft search visibility work; not for Google indexing assumptions."
+summary: "This skill audits Bing search visibility, Webmaster Tools evidence, and IndexNow readiness."
 category: "general-seo"
 platforms: ["unspecified"]
 platform_source: "none"

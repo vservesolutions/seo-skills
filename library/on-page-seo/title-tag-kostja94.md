@@ -1,6 +1,7 @@
 ---
 name: "title-tag"
 description: "When the user wants to write, audit, or optimize an HTML title tag, SEO title, page title, SERP title, browser-tab title, duplicate title, or title rewrite issue. For a sitewide metadata lifecycle including implementation and production validation, use page-metadata."
+summary: "Writes and optimizes HTML title tags to improve click-through rates and relevance in search results."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "declared"

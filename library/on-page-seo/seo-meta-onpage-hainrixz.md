@@ -1,6 +1,7 @@
 ---
 name: "seo-meta-onpage"
 description: "Audit and generate the document head — title and meta description length against the shared bands (title pass 30-60 chars, recommended 50-60; description pass 70-160, recommended 150-160), viewport, charset, <html lang>, and robots-meta sanity — flagging missing/duplicate/out-of-band values and producing length-bounded, keyword-aware replacements. Module M7. Feeds the Search SEO score."
+summary: "Audits document head elements like titles, meta descriptions, and robots tags for optimization."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

@@ -1,6 +1,7 @@
 ---
 name: "keyword-research"
 description: "When the user wants keyword research, keyword expansion, search volume, CPC, competition, long-tail opportunities, or clustering inputs for a market. Also use before topic-cluster or content planning work that needs keyword evidence."
+summary: "This skill performs keyword research, expansion, clustering, and competitive metric analysis."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared"

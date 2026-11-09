@@ -1,6 +1,7 @@
 ---
 name: "seo-search-accessibility"
 description: "搜索引擎可访问性诊断子模块。检查网站对搜索引擎爬虫和 AI 引擎（GPTBot、Bingbot、Googlebot）的可访问性，包括 Robots.txt 配置、XML Sitemap、HTML vs JS 渲染方式、Canonical 标签设置。当用户提到\"爬虫抓不到\"\"robots.txt\"\"sitemap\"\"网站没被收录\"\"AI 搜索找不到我的网站\"时触发。"
+summary: "Verifies search engine and AI crawler accessibility including robots.txt, sitemaps, and canonical tags."
 category: "technical-crawling-indexing"
 platforms: ["openclaw"]
 platform_source: "declared"

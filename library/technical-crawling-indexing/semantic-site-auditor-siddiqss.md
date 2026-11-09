@@ -1,6 +1,7 @@
 ---
 name: "semantic-site-auditor"
 description: "Audit an existing site against its topical map — coverage gaps, keyword cannibalization, entity drift, orphan pages, and per-page micro-semantic issues. Use whenever the user asks to audit a site, find content gaps, check for cannibalization, asks \"why aren't we ranking\", wants to know what's missing from their niche coverage, or wants a pre-sales content audit of any domain. Produces a prioritised audit report with provenance on every finding. Triggers on audit/gap/cannibalization intent broadly."
+summary: "Audits existing websites against topical maps to find coverage gaps and cannibalization issues."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared"

@@ -1,6 +1,7 @@
 ---
 name: "seo-ahrefs-broken-links"
 description: "Find broken backlinks pointing to a domain using Ahrefs: links targeting 404 pages that can be reclaimed. Prioritizes highest-DR lost links for maximum recovery impact. Use when user says \"broken backlinks\", \"broken links\", \"link reclamation\", \"dead backlinks\", or \"404 backlinks\"."
+summary: "Finds broken backlinks pointing to a target domain using Ahrefs data for link reclamation."
 category: "link-building"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

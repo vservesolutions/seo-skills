@@ -1,6 +1,7 @@
 ---
 name: "seo-ai-crawlers"
 description: "Audit AI crawler access and Google AI-feature eligibility for a page — check the snippet controls that actually gate AI Overviews and AI Mode (noindex, nosnippet, max-snippet, data-nosnippet), resolve per-bot effective access from robots.txt for the audited path (training vs retrieval vs user-fetch tokens), read Content-Signal posture, diff what different user-agents are served, confirm non-JS crawlers can read the page, and generate a choice-gated robots.txt preset. Module M14. Feeds the AI Visibility score."
+summary: "Audits AI crawler access and Google AI-feature snippet eligibility for a page."
 category: "technical-crawling-indexing"
 platforms: ["claude-code", "codex"]
 platform_source: "declared+detected"

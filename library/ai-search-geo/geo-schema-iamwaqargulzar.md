@@ -1,6 +1,7 @@
 ---
 name: "geo-schema"
 description: "Compatibility skill for geo schema. Use when a user or upstream workflow invokes this name; route the task to `schema` while preserving the requested scope and source-specific intent."
+summary: "This skill handles geo-schema compatibility tasks by routing them to schema workflows."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

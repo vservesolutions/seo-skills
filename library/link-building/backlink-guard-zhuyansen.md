@@ -1,6 +1,7 @@
 ---
 name: "backlink-guard"
 description: "Check a link source before submitting a site to it, verify a listing after it goes live, and audit a site's own backlink profile for patterns that read as link spam. Use when the user wants to submit a site, tool or repository to directories, awesome lists or guest-post sites, asks whether a directory or link source is safe or worth it, wants to check whether a backlink is followed, asks for a backlink audit or spam check after a Google spam update, asks which sites link to their competitors and not to them, which sites Google's AI Overviews cite for their keywords, or what ChatGPT…"
+summary: "Audits backlink profiles and evaluates link sources for spam risks and quality."
 category: "link-building"
 platforms: ["claude-code"]
 platform_source: "detected"

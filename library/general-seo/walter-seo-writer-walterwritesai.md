@@ -1,6 +1,7 @@
 ---
 name: "walter-seo-writer"
 description: "Use when producing any SEO content with Claude. Drafts the content, humanizes it through Walter Writes, runs AI detection, and preserves target keywords. Handles blog posts, articles, product descriptions, and landing pages."
+summary: "Drafts SEO-optimized content with keyword preservation and AI detection mitigation."
 category: "general-seo"
 platforms: ["unspecified"]
 platform_source: "none"

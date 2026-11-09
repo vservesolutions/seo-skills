@@ -1,6 +1,7 @@
 ---
 name: "seo-sitemap"
 description: "Compatibility skill for seo sitemap. Use when a user or upstream workflow invokes this name; route the task to `site-architecture` while preserving the requested scope and source-specific intent."
+summary: "Routes sitemap-related requests to the site architecture workflow."
 category: "local-seo"
 platforms: ["unspecified"]
 platform_source: "none"

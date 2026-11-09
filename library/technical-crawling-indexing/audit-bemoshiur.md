@@ -1,6 +1,7 @@
 ---
 name: "audit"
 description: "Use when asked to audit a site's SEO, check AEO or answer-engine readiness, diagnose why a page is not ranking or not being cited by AI, verify structured data, or run pre-deploy discoverability checks on built HTML."
+summary: "Audits websites for SEO and answer-engine readiness, structured data validity, and ranking issues."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared"

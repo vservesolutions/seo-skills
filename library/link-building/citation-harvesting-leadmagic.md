@@ -1,6 +1,7 @@
 ---
 name: "citation-harvesting"
 description: "Builds backlinks and brand citations through digital PR: expert-source platforms (Qwoted, Muck Rack), source-blogger outreach, and data-driven PR assets. Use when the user needs authoritative links or press mentions, wants to answer journalist requests, or is planning a link-building campaign. Triggers on: \"citation harvesting\", \"backlink building\", \"digital PR\", \"link building\", \"get featured in publications\"."
+summary: "Builds backlinks and brand citations through digital PR and outreach campaigns."
 category: "link-building"
 platforms: ["claude-code", "gemini-cli", "windsurf", "copilot"]
 platform_source: "detected"

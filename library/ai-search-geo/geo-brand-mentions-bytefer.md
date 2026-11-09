@@ -1,6 +1,7 @@
 ---
 name: "geo-brand-mentions"
 description: "Brand mention and authority scanner for AI visibility. Analyzes brand presence across platforms that AI models rely on for entity recognition and citation decisions. Produces a Brand Authority Score (0-100) with platform-specific recommendations."
+summary: "This skill analyzes brand presence and authority across platforms used by AI models for citations."
 category: "ai-search-geo"
 platforms: ["codex"]
 platform_source: "detected"

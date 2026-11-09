@@ -1,6 +1,7 @@
 ---
 name: "target-serp"
 description: "Identify and capture SERP features for target keywords — featured snippets, People Also Ask boxes, knowledge panels, and rich results. Use when the user asks about featured snippets, position zero, PAA optimization, rich results, schema markup for SERP features, or how to get more SERP real estate."
+summary: "Identifies and optimizes content to capture SERP features like featured snippets and PAA."
 category: "keyword-research"
 platforms: ["unspecified"]
 platform_source: "none"

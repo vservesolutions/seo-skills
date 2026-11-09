@@ -1,6 +1,7 @@
 ---
 name: "keyword-mapping"
 description: "Maps keyword clusters to existing website assets and recommends reuse, improvement, consolidation review or a new page."
+summary: "Maps keyword clusters to existing website assets for optimization or consolidation."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared"

@@ -1,6 +1,7 @@
 ---
 name: "seo-hreflang"
 description: "Inspect or generate hreflang and localized-page mappings. Use for international SEO, multilingual or multi-region search tasks."
+summary: "Inspects and generates hreflang and localized mappings."
 category: "international-seo"
 platforms: ["unspecified"]
 platform_source: "none"

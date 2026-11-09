@@ -1,6 +1,7 @@
 ---
 name: "seo-ahrefs-dr-history"
 description: "Show a domain's Domain Rating trend over time from Ahrefs. Reveals DR growth, drops, and significant changes. Use when user says \"DR history\", \"domain rating history\", \"DR trend\", \"domain rating over time\", or \"DR changes\"."
+summary: "Analyzes a domain's Domain Rating historical trends over time using Ahrefs data."
 category: "link-building"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

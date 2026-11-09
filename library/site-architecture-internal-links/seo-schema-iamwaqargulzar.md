@@ -1,6 +1,7 @@
 ---
 name: "seo-schema"
 description: "Compatibility skill for seo schema. Use when a user or upstream workflow invokes this name; route the task to `schema` while preserving the requested scope and source-specific intent."
+summary: "Routes schema markup requests to the dedicated structured data workflow."
 category: "site-architecture-internal-links"
 platforms: ["unspecified"]
 platform_source: "none"

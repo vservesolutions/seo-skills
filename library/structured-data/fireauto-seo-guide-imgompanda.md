@@ -1,6 +1,7 @@
 ---
 name: "fireauto-seo-guide"
 description: "\"SEO 감사\", \"SEO audit\", \"기술 SEO\", \"technical SEO\", \"구조화 데이터\", \"schema markup\", \"JSON-LD\", \"robots.txt\", \"sitemap\", \"메타 태그\", \"검색엔진 최적화\", \"pSEO\", \"Rich Results\", \"Core Web Vitals\" 등 SEO 관련 최적화나 감사 시 사용하세요."
+summary: "Performs technical SEO audits, schema markup verification, and structural website optimizations."
 category: "structured-data"
 platforms: ["claude-code"]
 platform_source: "declared"

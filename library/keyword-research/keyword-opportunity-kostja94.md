@@ -1,6 +1,7 @@
 ---
 name: "keyword-opportunity"
 description: "Prioritizes keyword clusters for a stated business goal using demand evidence, product fit, competition and delivery cost."
+summary: "Prioritizes keyword clusters based on business goals and demand evidence."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared"

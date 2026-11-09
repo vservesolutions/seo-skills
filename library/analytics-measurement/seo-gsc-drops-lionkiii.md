@@ -1,6 +1,7 @@
 ---
 name: "seo-gsc-drops"
 description: "Detect ranking drops and lost traffic using Google Search Console data. Compares the last 28 days against the prior 28-day period to surface pages and keywords with the biggest declines. Use when user says \"GSC drops\", \"ranking drops\", \"lost traffic\", \"pages losing rankings\", or \"keyword drops\"."
+summary: "Detects ranking and traffic drops by comparing recent Google Search Console data against prior periods."
 category: "analytics-measurement"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

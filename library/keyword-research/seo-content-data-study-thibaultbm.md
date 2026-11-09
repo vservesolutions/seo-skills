@@ -1,6 +1,7 @@
 ---
 name: "seo-content-data-study"
 description: "Spec, audit, competitor benchmark and build for the pages only your data can make: data studies, benchmarks, industry reports, statistics pages and case studies, with charts, infographics and downloadable data. Turns a company's proprietary data (customer results, usage, orders, tickets, prices) into anonymized aggregates published by category only ('e-commerce store', 'law firm'), never by name, with data_study.py (identifying columns dropped, groups under 5 entities suppressed, median and quartiles, accessible SVG charts and HTML tables). Covers the export, the anonymization rules, the…"
+summary: "Transforms proprietary company data into structured data studies and industry reports suitable for link acquisition."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared"

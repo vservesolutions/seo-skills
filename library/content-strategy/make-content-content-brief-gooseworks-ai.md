@@ -1,6 +1,7 @@
 ---
 name: "make-content-content-brief"
 description: "Writes a one-page content brief before any draft: audience, intent, the one arguable point, what top results already say and what this piece adds, an outline, a proof inventory with gaps marked, voice, CTA and banned words, checked against six gates. Use alone when you already have the topic, format, audience and destination and want only the brief; otherwise run make-content."
+summary: "Creates detailed content briefs with intent, outlines, and SEO quality gates."
 category: "content-strategy"
 platforms: ["unspecified"]
 platform_source: "none"

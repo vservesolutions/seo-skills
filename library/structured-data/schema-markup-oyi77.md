@@ -1,6 +1,7 @@
 ---
 name: "schema-markup"
 description: "Use when structured data markup for rich results and AI search visibility"
+summary: "Generates structured data markup for rich search results and AI visibility."
 category: "structured-data"
 platforms: ["unspecified"]
 platform_source: "none"

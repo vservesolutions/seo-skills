@@ -1,6 +1,7 @@
 ---
 name: "seo-wordpress-manager"
 description: "Batch update Yoast SEO metadata (titles, descriptions, focus keyphrases) in WordPress via GraphQL. Use when the user wants to update SEO metadata, optimize titles, fix meta descriptions, or manage Yoast SEO fields across multiple posts. Supports preview mode, progress tracking, and resume capability."
+summary: "Batch updates Yoast SEO metadata in WordPress via GraphQL."
 category: "on-page-seo"
 platforms: ["claude-code", "codex", "cursor"]
 platform_source: "declared"

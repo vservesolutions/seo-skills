@@ -1,6 +1,7 @@
 ---
 name: "search-console"
 description: "Pull Google Search Console data and perform search performance analysis. Use when asked about search rankings, clicks, impressions, CTR, index coverage, Core Web Vitals, or sitemap status. Trigger phrases: \"search console\", \"GSC\", \"search performance\", \"clicks and impressions\", \"CTR analysis\", \"index coverage\", \"core web vitals\", \"URL inspection\", \"sitemap status\", \"ranking data\", \"search queries\", \"keyword positions\"."
+summary: "Retrieves and analyzes Google Search Console performance metrics, rankings, and index coverage."
 category: "analytics-measurement"
 platforms: ["claude-code"]
 platform_source: "declared"

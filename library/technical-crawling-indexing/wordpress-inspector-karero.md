@@ -1,6 +1,7 @@
 ---
 name: "wordpress-inspector"
 description: "Count what a live WordPress site holds before anyone promises to move it, write the new site's redirects, and check them after the move. Read-only toward the site: no login, no backup. scripts/wp_inventory.py counts each content type the REST API lists, where the sitemap disagrees, page builders and forms, and whether the count is complete. scripts/make_redirects.py turns its address list and the owner's decisions into public/_redirects lines. scripts/check_move.py asks the new site for each old address and names those missing, sent home or not where the decisions say. Stdlib Python. Trigger…"
+summary: "This skill inventories WordPress content types and generates URL redirects for site migrations."
 category: "technical-crawling-indexing"
 platforms: ["unspecified"]
 platform_source: "none"

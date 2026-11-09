@@ -1,6 +1,7 @@
 ---
 name: "local-seo"
 description: "Local Seo — Skill especializada para local seo"
+summary: "Optimizes websites for local search engine visibility."
 category: "local-seo"
 platforms: ["unspecified"]
 platform_source: "none"

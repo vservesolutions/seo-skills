@@ -1,6 +1,7 @@
 ---
 name: "exceed-quality-threshold"
 description: "Benchmark a proposed, draft, or published page against the live search-result quality range for its true comparator cohort, then specify the minimum requirements, best-in-class traits, and original value needed to deserve preference. Use when Codex needs to assess whether content is good enough to compete, improve an SEO brief or draft beyond current results, audit content quality before publishing, replace simplistic keyword-difficulty thinking with comparative SERP analysis, or apply Koray Tuğberk Gübür's quality-threshold framework without presenting it as a confirmed Google metric."
+summary: "Benchmarks web content against top-ranking search results to specify minimum quality and EEAT requirements."
 category: "keyword-research"
 platforms: ["unspecified"]
 platform_source: "none"

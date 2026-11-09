@@ -1,6 +1,7 @@
 ---
 name: "seo-page-sections"
 description: "Generic page auditor and entry point for every page type: runs spec, audit, competitor benchmark and build. Phase 1 spec: site archetype (Shopify, Webflow or WordPress, marketplace), the page types it needs, then the page type's block list plus the common spec and the site-level, header and footer rules (SEC IDs). Phase 2 audit: section_audit.py and seo_audit.py mark rows Pass, Fail or Not verifiable. Phase 3: page_benchmark.py on 3-5 competitors of the same page type. Phase 4: write the missing blocks (FAQ, breadcrumb, definitions, comparison and spec tables, reviews, trust badges, CTA…"
+summary: "Audits webpage sections and layouts against site archetype requirements and SEO standards."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared"

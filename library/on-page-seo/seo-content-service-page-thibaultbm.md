@@ -1,6 +1,7 @@
 ---
 name: "seo-content-service-page"
 description: "Spec, audit, competitor benchmark and build for service pages and service landing pages (agencies, consultants, coaches, trades, clinics, law firms, SaaS), plus region and city pages. Input: a service, the business, a target area, the page URL if any. Runs four phases: the spec (SVC-01 to SVC-24 on top of the common C rows), the audit of the existing page with seo_audit.py and section_audit.py --type service, the competitor benchmark with page_benchmark.py on the pages that rank and the providers AI assistants name, and the build on a field-tested 9-block wireframe (hero + CTA, proof…"
+summary: "Specs and audits service and local landing pages for search engines and AI assistants."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "declared"

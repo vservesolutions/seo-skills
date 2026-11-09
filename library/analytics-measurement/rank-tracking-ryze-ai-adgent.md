@@ -1,6 +1,7 @@
 ---
 name: "rank-tracking"
 description: "Rank tracking without a tracker subscription — position movers between any two periods from real Search Console data. Use when asked \"how are my rankings\", \"what moved this week/month\", \"track my keywords\", or \"did the update hit me\"."
+summary: "Tracks search ranking movements using Google Search Console data without requiring third-party tools."
 category: "analytics-measurement"
 platforms: ["claude-code"]
 platform_source: "detected"

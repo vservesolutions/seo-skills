@@ -1,6 +1,7 @@
 ---
 name: "seo-analytics"
 description: "Use when analyzing SEO data from Google Search Console, Bing Webmaster Tools, GA4, CSV/JSON exports, Organic Search events, conversion paths, search queries, landing pages, CTR, rankings, and SEO data analysis reports."
+summary: "Analyzes SEO data from Google Search Console, Bing Webmaster Tools, and GA4."
 category: "analytics-measurement"
 platforms: ["claude-code", "openclaw"]
 platform_source: "declared"

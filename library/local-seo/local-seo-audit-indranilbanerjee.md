@@ -1,6 +1,7 @@
 ---
 name: "local-seo-audit"
 description: "Audit local SEO health by script: profile, NAP, citations, reviews, scored 0-100. \"audit our local SEO\""
+summary: "Audits local SEO health and citations."
 category: "local-seo"
 platforms: ["claude-code"]
 platform_source: "detected"

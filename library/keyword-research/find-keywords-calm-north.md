@@ -1,6 +1,7 @@
 ---
 name: "find-keywords"
 description: "Build a prioritized keyword list for a website, topic, or campaign. Use when the user asks about keyword research, finding keywords to target, building a keyword list, search demand, keyword difficulty, intent mapping, or which keywords to prioritize. For writing content around keywords, see brief. For grouping keywords into clusters, see build-clusters."
+summary: "Builds a prioritized keyword list based on search demand, difficulty, and intent mapping."
 category: "keyword-research"
 platforms: ["unspecified"]
 platform_source: "none"

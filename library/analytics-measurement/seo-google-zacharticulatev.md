@@ -1,6 +1,7 @@
 ---
 name: "seo-google"
 description: "Pulls real Google field data — Search Console search analytics (impressions, clicks, CTR, position), URL Inspection and sitemap status, PageSpeed Insights and CrUX Core Web Vitals (LCP, INP, CLS), and GA4 organic traffic. Uses a connected Search Console MCP or Google APIs when available; otherwise runs built-in on-page technical and GEO checks and names exactly what to connect for field data. Trigger when the user says \"search console\", \"GSC\", \"PageSpeed\", \"CrUX\", \"field data\", \"GA4 organic\", \"URL inspection\", or \"real CWV data\"."
+summary: "Pulls real Google field data from Search Console, PageSpeed Insights, and GA4 to analyze organic traffic and performance."
 category: "analytics-measurement"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

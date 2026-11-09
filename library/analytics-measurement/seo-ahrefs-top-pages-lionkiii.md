@@ -1,6 +1,7 @@
 ---
 name: "seo-ahrefs-top-pages"
 description: "Find a domain's best performing pages by organic traffic from Ahrefs. Shows estimated traffic, traffic share, keyword count, and top keyword per page. Use when user says \"top pages\", \"best pages\", \"highest traffic pages\", \"top performing pages\", or \"pages by traffic\"."
+summary: "Identifies a domain's highest-traffic performing pages using Ahrefs analytics data."
 category: "analytics-measurement"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

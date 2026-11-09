@@ -1,6 +1,7 @@
 ---
 name: "seo-score"
 description: "Compute the two never-blended 0-100 scores (Search SEO and AI Visibility / GEO-AEO) from a set of findings, with severity-weighted category values, dynamic re-normalization of conditional modules, severity gating, and letter bands. Used by seo-orchestrator and the `score` command."
+summary: "Computes weighted Search SEO and AI Visibility scores from audit findings."
 category: "ai-search-geo"
 platforms: ["claude-code", "codex"]
 platform_source: "declared+detected"

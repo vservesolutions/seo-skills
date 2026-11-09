@@ -1,6 +1,7 @@
 ---
 name: "glossary-page-generator"
 description: "When the user wants to create, optimize, or audit glossary page content and structure. Also use when the user mentions \"glossary,\" \"definitions,\" \"terminology,\" \"industry terms,\" \"glossary page,\" \"term definitions,\" \"vocabulary,\" \"glossary SEO,\" or \"definition page.\" For definitions at scale, use programmatic-seo."
+summary: "Creates, optimizes, and structures glossary page content and industry terminology definitions."
 category: "site-architecture-internal-links"
 platforms: ["unspecified"]
 platform_source: "none"

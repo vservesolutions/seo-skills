@@ -1,6 +1,7 @@
 ---
 name: "local-seo-audit"
 description: "'Orchestrates local SEO audits by routing to four dedicated sub-skills: GBP category and attribute audit (/gbp-category-audit),"
+summary: "Orchestrates local SEO audits focusing on Google Business Profile attributes and citations."
 category: "local-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

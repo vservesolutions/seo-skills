@@ -1,6 +1,7 @@
 ---
 name: "geo-lint"
 description: "SEO & GEO content linter — validates Markdown/MDX files for AI search visibility using 92 deterministic rules (35 GEO, 32 SEO, 14 content quality, 8 technical, 3 i18n). Runs an autonomous lint-fix loop: scan content, read structured violations, fix them, re-lint until clean. Use when optimizing content for AI citations, auditing SEO compliance, checking GEO readiness, or running pre-publish content validation. Triggers on: \"geo-lint\", \"lint content\", \"SEO audit\", \"GEO\", \"content optimization\", \"AI search\", \"citation readiness\"."
+summary: "Validates content against deterministic rules to improve visibility in AI search and traditional SEO."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "detected"

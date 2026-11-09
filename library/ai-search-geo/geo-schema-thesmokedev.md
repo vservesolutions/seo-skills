@@ -1,6 +1,7 @@
 ---
 name: "geo-schema"
 description: "Schema.org structured data audit and generation for rich results and entity clarity — detect, validate, and generate JSON-LD markup. Schema is NOT an AI-citation lever (Ahrefs controlled study, May 2026); it earns rich results and keeps entity data unambiguous."
+summary: "This skill audits and generates Schema.org structured data for rich results and entity clarity."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared"

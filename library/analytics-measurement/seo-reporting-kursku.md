@@ -1,6 +1,7 @@
 ---
 name: "seo-reporting"
 description: "Seo Reporting — Skill especializada para gerar, analisar e apresentar relatórios de desempenho SEO, fornecendo insights acionáveis e estratégias de otimização."
+summary: "Generates and presents SEO performance reports with actionable insights."
 category: "analytics-measurement"
 platforms: ["unspecified"]
 platform_source: "none"

@@ -1,6 +1,7 @@
 ---
 name: "seo-serp-scraping"
 description: "Use when scraping search engines, SERPs, or SEO data — Google Search organic results, Google News headlines, bulk on-page SEO audits (titles/meta/headings/schema), sitemap and subdomain discovery, or bulk image download from pages. Covers rank tracking, SERP/news monitoring, technical SEO audits at scale, competitive recon, and asset inventory. Triggers on \"scrape Google\", \"SERP\", \"rank tracking\", \"SEO audit\", \"search results\", \"Google News\", \"subdomains\", \"sitemap\", \"scrape search engine\", \"competitor SEO\"."
+summary: "Scrapes search engines and SERPs for rank tracking, monitoring, and technical SEO audits."
 category: "keyword-research"
 platforms: ["unspecified"]
 platform_source: "none"

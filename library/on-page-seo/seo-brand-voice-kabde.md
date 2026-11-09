@@ -1,6 +1,7 @@
 ---
 name: "seo-brand-voice"
 description: "Brand voice and editorial guidelines manager. Creates, stores, and enforces writing tone, style rules, audience persona, and vocabulary preferences. Used by write-article skill to maintain consistent voice. Use when user says \"brand voice\", \"ton editorial\", \"style guide\", \"editorial guidelines\", or \"voix de marque\"."
+summary: "Manages brand voice, style guidelines, and vocabulary preferences for content creation."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

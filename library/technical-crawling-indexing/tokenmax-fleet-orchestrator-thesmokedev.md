@@ -1,6 +1,7 @@
 ---
 name: "tokenmax-fleet-orchestrator"
 description: "Run multiple TokenMax SEO/GEO sites as a resumable, fail-closed fleet. Use when Codex needs to audit a site queue, execute one isolated site at a time, preserve deterministic quality/build/deploy gates, resume interrupted runs, install a server-side scheduler, or report production and indexing state without hard-coding one website into the controller."
+summary: "Manages multiple SEO and GEO sites through automated build, deployment, and indexing checks."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared"

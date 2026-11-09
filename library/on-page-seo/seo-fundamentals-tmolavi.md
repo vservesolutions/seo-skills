@@ -1,6 +1,7 @@
 ---
 name: "seo-fundamentals"
 description: "Core principles of SEO including E-E-A-T, Core Web Vitals, technical foundations, content quality, and how modern search engines evaluate pages."
+summary: "Covers core SEO principles including E-E-A-T, technical foundations, and content quality."
 category: "on-page-seo"
 platforms: ["antigravity"]
 platform_source: "declared"

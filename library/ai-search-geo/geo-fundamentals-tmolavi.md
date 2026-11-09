@@ -1,6 +1,7 @@
 ---
 name: "geo-fundamentals"
 description: "Generative Engine Optimization for AI search engines (ChatGPT, Claude, Perplexity)."
+summary: "Provides core optimization strategies for generative AI search engines and answer platforms."
 category: "ai-search-geo"
 platforms: ["antigravity"]
 platform_source: "declared"

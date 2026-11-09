@@ -1,6 +1,7 @@
 ---
 name: "taste-seo"
 description: "Automatically audits and improves SEO for public websites, portfolios, landing pages, blogs and public web apps; title/meta descriptions, semantic HTML, crawl/index controls, structured data, Core Web Vitals, and people-first writing. Use for SEO-related user requests (\"SEO optimization\", technical SEO, canonical, sitemap, robots, Search Console readiness) even without visual redesign. Preserve existing branding and do not ask for aesthetic style when doing SEO-only tasks; no SEO changes to private dashboards without explicit scope."
+summary: "Automatically audits and improves technical SEO, structured data, metadata, and crawl controls for websites."
 category: "core-web-vitals-performance"
 platforms: ["unspecified"]
 platform_source: "none"

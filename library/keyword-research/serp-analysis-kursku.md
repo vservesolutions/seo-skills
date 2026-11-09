@@ -1,6 +1,7 @@
 ---
 name: "serp-analysis"
 description: "Serp Analysis — Skill especializada para serp analysis"
+summary: "Performs search engine results page analysis for optimization insights."
 category: "keyword-research"
 platforms: ["unspecified"]
 platform_source: "none"

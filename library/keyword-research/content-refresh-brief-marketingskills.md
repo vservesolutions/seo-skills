@@ -1,6 +1,7 @@
 ---
 name: "content-refresh-brief"
 description: "Produce a focused refresh brief for a declining page. Use when Codex needs to research SERP intent, competitor content, entity coverage, and internal link opportunities to create an actionable page refresh plan."
+summary: "Creates actionable content refresh briefs by analyzing SERP intent and competitor coverage."
 category: "keyword-research"
 platforms: ["unspecified"]
 platform_source: "none"

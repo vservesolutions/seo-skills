@@ -1,6 +1,7 @@
 ---
 name: "shopify-redirect-mapping"
 description: "Use when you need to map a pile of old URLs to live pages and turn them into 301 redirects on a Shopify store: fix 404s, bulk redirects after a migration/replatform/catalog restructure, turn a Google Search Console 404 export into live redirects, or WordPress→Shopify URL transforms (/YYYY/MM/slug/ → /products/slug). Trigger phrases: \"map old URLs\", \"fix our 404s\", \"redirect the dead links\", \"we relaunched and lost our rankings\". Recovers SEO equity and rescues users after a URL structure changes. Not for creating a single one-off redirect (do it in admin)."
+summary: "Maps old URLs to live pages to create 301 redirects and fix 404 errors on Shopify stores during migrations."
 category: "ecommerce-seo"
 platforms: ["claude-code"]
 platform_source: "detected"

@@ -1,6 +1,7 @@
 ---
 name: "geo-artifacts"
 description: "Use when asked to generate or fix llms.txt, llms-full.txt or facts.json, make a site citable or ingestible by ChatGPT, Claude, Perplexity or Gemini, or publish machine-readable ground truth for AI crawlers."
+summary: "Generates machine-readable ground truth files like llms.txt for AI crawler ingestion."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared"

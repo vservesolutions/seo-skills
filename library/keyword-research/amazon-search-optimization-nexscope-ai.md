@@ -1,6 +1,7 @@
 ---
 name: "amazon-search-optimization"
 description: "Amazon search ranking optimization and A9 algorithm mastery. Comprehensive SEO strategy, indexing optimization, keyword ranking improvement, and search visibility enhancement. Use when the user asks about Amazon SEO, A9 algorithm, search ranking, or product discoverability."
+summary: "Optimizes product listings for Amazon search and the A9 algorithm."
 category: "keyword-research"
 platforms: ["claude-code", "openclaw", "windsurf"]
 platform_source: "declared"

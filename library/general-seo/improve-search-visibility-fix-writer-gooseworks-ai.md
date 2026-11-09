@@ -1,6 +1,7 @@
 ---
 name: "improve-search-visibility-fix-writer"
 description: "Step of the improve-search-visibility playbook: turns one ranked fix into paste-ready site copy or code with owner, risk and undo, and writes page briefs. Run improve-search-visibility instead; not for direct use."
+summary: "Converts SEO audit recommendations into implementation-ready code and copy."
 category: "general-seo"
 platforms: ["unspecified"]
 platform_source: "none"

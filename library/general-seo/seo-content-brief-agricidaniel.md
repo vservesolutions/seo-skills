@@ -1,6 +1,7 @@
 ---
 name: "seo-content-brief"
 description: "Create an SEO writing brief or outline from a topic, audience and available search evidence. Use for content briefs before writing."
+summary: "Creates SEO content briefs from search evidence."
 category: "general-seo"
 platforms: ["unspecified"]
 platform_source: "none"

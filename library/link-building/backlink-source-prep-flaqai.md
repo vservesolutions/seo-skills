@@ -1,6 +1,7 @@
 ---
 name: "backlink-source-prep"
 description: "Prepare traceable backlink source data from Semrush organic competitors, Backlink Gap, referring-domain exports, local workbooks, and public lists. Use for source acquisition, inventory, normalization, consolidation, exclusion, and priority compression; stop before final site screening or submission."
+summary: "Prepares traceable backlink source data from competitor exports, workbooks, and public lists."
 category: "link-building"
 platforms: ["unspecified"]
 platform_source: "none"

@@ -1,6 +1,7 @@
 ---
 name: "local-landing-pages"
 description: "When the user wants to create location pages, service-area pages, city pages, or locally-relevant content for SEO. Also use when the user mentions \"location pages,\" \"city pages,\" \"service area pages,\" \"local landing pages,\" \"[service] in [city] pages,\" \"local content,\" \"local blog,\" \"neighborhood content,\" or \"pages for each location.\" For SAB-specific strategy, see service-area-seo. For schema, see local-schema."
+summary: "Creates location pages and service-area content for local SEO visibility."
 category: "local-seo"
 platforms: ["unspecified"]
 platform_source: "none"

@@ -1,6 +1,7 @@
 ---
 name: "post-core-update-recovery"
 description: "Use when a website experienced a sudden visibility/ranking drop that correlates with a published Google Core Update — symptoms include broad ranking loss across many keywords in a short window (1–6 weeks), Sistrix VI dropping 30 %+ from peak, sales/leads falling despite no technical changes, the owner saying \"we used to rank, now we don''t\" but pages still load and index normally. Distinguishes Core-Update damage from CWV/technical drops and produces a phased 6–12 month recovery plan focused on Authority and EEAT. Pure-Markdown framework, no tools or MCP access needed — for a data-driven…"
+summary: "Diagnoses visibility drops and plans recovery after Google core algorithm updates."
 category: "algorithm-updates"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

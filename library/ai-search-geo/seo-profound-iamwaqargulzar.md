@@ -1,6 +1,7 @@
 ---
 name: "seo-profound"
 description: "Analyze Profound AI-visibility and citation-tracking data when an authorized connector is available. Use for time-series brand mentions, cited prompts, competitor co-mentions, and AI-answer visibility trends."
+summary: "Analyzes AI-visibility and citation tracking data including brand mentions and answer visibility trends."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

@@ -1,6 +1,7 @@
 ---
 name: "local-reporting"
 description: "When the user wants to create local SEO reports, track local ranking performance, set up reporting dashboards, or communicate results to clients. Also use when the user mentions \"local SEO report,\" \"client reporting,\" \"local metrics,\" \"KPIs for local,\" \"GBP insights,\" \"how to measure local SEO,\" or \"prove ROI on local.\" For geogrid-specific analysis, see geogrid-analysis. For competitor benchmarking, see local-competitor-analysis."
+summary: "Tracks local SEO metrics and generates client performance reports."
 category: "local-seo"
 platforms: ["unspecified"]
 platform_source: "none"

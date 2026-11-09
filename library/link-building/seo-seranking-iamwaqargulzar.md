@@ -1,6 +1,7 @@
 ---
 name: "seo-seranking"
 description: "Analyze SE Ranking organic and AI-visibility data when an authorized connector is available. Use for rankings, competitors, backlinks, SERP features, and cross-platform AI share-of-voice evidence."
+summary: "Analyzes SE Ranking organic rankings, competitors, backlinks, and SERP features."
 category: "link-building"
 platforms: ["unspecified"]
 platform_source: "none"

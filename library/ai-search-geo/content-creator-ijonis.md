@@ -1,6 +1,7 @@
 ---
 name: "content-creator"
 description: "Self-configuring content creation pipeline with geo-lint validation. On first use, scans your project to learn its framework, content schema, categories, and authors, then creates SEO & GEO-optimized content matched to your brand voice. Validates every piece with geo-lint's 92 rules until zero violations. Triggers on: \"content-creator\", \"create content\", \"write blog\", \"new post\", \"content calendar\", \"brand voice\", \"content strategy\"."
+summary: "Creates search and AI-optimized content validated against custom project constraints."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "detected"

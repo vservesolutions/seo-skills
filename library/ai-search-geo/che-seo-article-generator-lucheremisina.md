@@ -1,6 +1,7 @@
 ---
 name: "che-seo-article-generator"
 description: "Выполняет 18-этапный SEO/GEO-конвейер статьи: исследование, семантика, текст, фактчек, HTML, метаданные и QA. Применяется для полной SEO-статьи; для экспертного редакционного материала использовать che-expert-article-workflow."
+summary: "Executes a multi-stage SEO and GEO article generation pipeline."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "detected"

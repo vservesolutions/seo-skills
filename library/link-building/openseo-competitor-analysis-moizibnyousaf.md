@@ -1,6 +1,7 @@
 ---
 name: "openseo-competitor-analysis"
 description: "Deep-dive ONE competitor's organic footprint — exact ranking keywords and URLs, content themes, backlink profile, and exploitable gaps — with findings written into brand/competitors.md. Use this skill when the user names a competitor and wants to know what to learn from them, counter, or outrank, including head-to-head comparisons against the user's own domain. For market-level mapping first, use openseo-competitive-landscape. Triggers: \"analyze competitor\", \"competitor keywords\", \"competitor backlinks\", \"beat <competitor>\", \"competitor seo teardown\"."
+summary: "Analyzes a specific competitor's organic search footprint and backlink profile."
 category: "link-building"
 platforms: ["claude-code"]
 platform_source: "detected"

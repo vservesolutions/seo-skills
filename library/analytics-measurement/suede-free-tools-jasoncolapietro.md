@@ -1,6 +1,7 @@
 ---
 name: "suede-free-tools"
 description: "Use when asked \"scope a free calculator\" or to choose a lead, link, education or adoption tool tied to a paid product. Suede AI scores calculators, graders and generators, scopes an MVP and defines an indexable tool page, worked example, schema and KPIs. NOT FOR: downloads (use suede-lead-magnets), full-site implementation (use suede-site-alchemy), or search diagnostics (use suede-seo-audit)."
+summary: "Scopes lead-generation calculators and indexable tools tied to SEO and marketing products."
 category: "analytics-measurement"
 platforms: ["claude-code"]
 platform_source: "declared"

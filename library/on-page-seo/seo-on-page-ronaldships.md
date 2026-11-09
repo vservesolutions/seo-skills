@@ -1,6 +1,7 @@
 ---
 name: "seo-on-page"
 description: "Improve the title, description, headings, canonical, social preview, and internal links of a specific page from its actual content and user intent. Use for on-page metadata and presentation; do not use for an unexplained site-wide traffic drop."
+summary: "Improves page titles, descriptions, headings, canonicals, and internal links based on content and intent."
 category: "on-page-seo"
 platforms: ["unspecified"]
 platform_source: "none"

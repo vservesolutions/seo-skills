@@ -1,6 +1,7 @@
 ---
 name: "youtube-seo"
 description: "Youtube Seo — Skill especializada para youtube seo"
+summary: "Optimizes video metadata and descriptions for YouTube search rankings."
 category: "general-seo"
 platforms: ["claude-code"]
 platform_source: "detected"

@@ -1,6 +1,7 @@
 ---
 name: "ahrefs-python"
 description: "Manages Ahrefs API usage in Python using `ahrefs-python` library. Use when working with SEO / marketing related tasks or with data including backlinks, keywords, domain ratings, organic traffic, site audits, rank tracking, and brand monitoring. Covers `ahrefs-python` usage including AhrefsClient / AsyncAhrefsClient, typed request/response models, error handling, and all API sections."
+summary: "Manages Ahrefs API interactions for keyword, backlink, and site audit research."
 category: "analytics-measurement"
 platforms: ["claude-code"]
 platform_source: "declared"

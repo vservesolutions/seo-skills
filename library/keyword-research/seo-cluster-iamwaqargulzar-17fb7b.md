@@ -1,6 +1,7 @@
 ---
 name: "seo-cluster"
 description: "Cluster keywords by SERP overlap and design hub-and-spoke content architecture with internal links. Use for planning only; use the blog-cluster command to execute article production."
+summary: "Clusters keywords by SERP overlap and designs hub-and-spoke content architectures with internal links."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "detected"

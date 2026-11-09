@@ -1,6 +1,7 @@
 ---
 name: "seo-ecommerce"
 description: "Optimizes e-commerce SEO across product and category pages — on-page product elements, Product schema validation, image SEO, and faceted/canonical strategy for filters and variants. Uses DataForSEO Merchant for Google Shopping and Amazon marketplace intelligence when connected; otherwise audits feed basics and on-page signals manually. Trigger when the user says \"ecommerce SEO\", \"product SEO\", \"product schema\", \"Google Shopping\", \"Amazon SEO\", \"marketplace SEO\", \"product listings\", \"shopping ads\", or \"merchant SEO\"."
+summary: "Optimizes e-commerce product and category pages, product schema, and faceted navigation strategies."
 category: "ecommerce-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

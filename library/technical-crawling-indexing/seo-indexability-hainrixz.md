@@ -1,6 +1,7 @@
 ---
 name: "seo-indexability"
 description: "Audit a page's indexability and site health — canonical presence/validity (self vs cross-domain vs chain, canonical to redirect/404, and the genuinely lethal canonical+noindex pair where the canonical points elsewhere), robots meta and X-Robots-Tag noindex/nofollow, duplicate clusters, pagination signals, plus redirect chains/loops, 4xx/5xx and soft-404 internal links, mixed content, HTTP-to-HTTPS enforcement, user-agent content divergence (cloaking), orphan pages and click-depth — and generate self-referential canonical / noindex-removal fixes. Module M2 (covers M3 site health). Feeds the…"
+summary: "Audits page indexability, canonical validity, robots meta tags, duplicate clusters, and redirect loops."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

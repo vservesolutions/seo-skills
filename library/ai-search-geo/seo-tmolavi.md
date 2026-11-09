@@ -1,6 +1,7 @@
 ---
 name: "seo"
 description: "Run a broad SEO audit across technical SEO, on-page SEO, schema, sitemaps, content quality, AI search readiness, and GEO. Use as the umbrella skill when the user asks for a full SEO analysis or strategy."
+summary: "Executes broad SEO audits covering technical aspects, on-page factors, schema, and AI search readiness."
 category: "ai-search-geo"
 platforms: ["antigravity", "claude-code"]
 platform_source: "declared+detected"

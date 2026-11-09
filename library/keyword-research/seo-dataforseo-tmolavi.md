@@ -1,6 +1,7 @@
 ---
 name: "seo-dataforseo"
 description: "Use DataForSEO for live SERPs, keyword metrics, backlinks, competitor analysis, on-page checks, and AI visibility data. Trigger when the user needs real SEO data rather than static guidance."
+summary: "Integrates DataForSEO APIs for live SERP metrics, keyword data, backlinks, and AI visibility insights."
 category: "keyword-research"
 platforms: ["antigravity", "claude-code"]
 platform_source: "declared+detected"

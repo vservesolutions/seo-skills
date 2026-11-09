@@ -1,6 +1,7 @@
 ---
 name: "cf-aeo-check"
 description: "Re-check a published piece's AEO: cited in AI Overviews and AI answers, tracked over time. \"did AI cite our article\""
+summary: "This skill tracks whether published articles are cited in AI overviews and answers over time."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "detected"

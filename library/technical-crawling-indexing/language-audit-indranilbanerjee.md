@@ -1,6 +1,7 @@
 ---
 name: "language-audit"
 description: "Audit all language versions of a site for parity and quality. Tags only → hreflang-check. \"is the German site missing pages\""
+summary: "Audits multi-language site parity and content quality."
 category: "technical-crawling-indexing"
 platforms: ["unspecified"]
 platform_source: "none"

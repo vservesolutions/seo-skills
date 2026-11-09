@@ -1,6 +1,7 @@
 ---
 name: "page-audit"
 description: "Use when auditing a specific page's SEO performance, content quality, and competitive position. The agent fetches the URL, Googles the primary keyword, reads the top 3 competitors, and produces a full 7-dimension audit — no exports, no analytics access required."
+summary: "This skill conducts a comprehensive multi-dimensional SEO audit of a specific web page against competitors."
 category: "technical-crawling-indexing"
 platforms: ["unspecified"]
 platform_source: "none"

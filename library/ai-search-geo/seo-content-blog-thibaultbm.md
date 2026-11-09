@@ -1,6 +1,7 @@
 ---
 name: "seo-content-blog"
 description: "Spec, audit, competitor benchmark and build for blog articles and the blog template, so a post ranks on Google and gets cited by AI engines (ChatGPT, Perplexity, AI Overviews). Input: a keyword, topic, draft or post URL. Phase 1 spec: BLOG rows on top of the common page spec, covering the 12-element answer-first skeleton and the page template (author line with photo and dates, sticky table of contents, sidebar author and CTA cards, in-content CTA, author box with real social profiles, related posts, key takeaways, sources, hub cards with covers). Phase 2 audits the article, the hub and the…"
+summary: "Specs, audits, and benchmarks blog articles to rank on search engines and secure citations in AI engines."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared"

@@ -1,6 +1,7 @@
 ---
 name: "on-page-seo"
 description: "Optimize a specific page for on-page SEO. Use when the user asks to \"optimize this page\", \"improve SEO for this page\", \"on-page optimization\", \"optimize meta tags\", \"improve rankings for [keyword]\", or wants to make a specific page rank better."
+summary: "This skill optimizes individual web pages for better on-page search engine rankings."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "declared"

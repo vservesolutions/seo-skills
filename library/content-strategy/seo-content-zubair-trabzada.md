@@ -1,6 +1,7 @@
 ---
 name: "seo-content"
 description: "Content topical authority and gap analysis powered by the DataForSEO Labs API. Clusters a domain's ranked keywords into topics, identifies strong vs weak vs missing topic clusters versus competitors, and returns a Content Score (0-100) plus the highest-leverage content opportunities to write next."
+summary: "Analyzes topical authority and content gaps by clustering ranked keywords using DataForSEO."
 category: "content-strategy"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

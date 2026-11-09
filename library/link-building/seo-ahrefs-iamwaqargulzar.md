@@ -1,6 +1,7 @@
 ---
 name: "seo-ahrefs"
 description: "Analyze live Ahrefs backlink, referring-domain, organic-keyword, and content data when an authorized Ahrefs connector is available. Use for Ahrefs-specific SEO evidence, not for estimates when no live connection exists."
+summary: "This skill analyzes live Ahrefs backlink, referring domain, and organic keyword data."
 category: "link-building"
 platforms: ["unspecified"]
 platform_source: "none"

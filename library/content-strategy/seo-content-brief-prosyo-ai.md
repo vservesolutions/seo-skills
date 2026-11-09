@@ -1,6 +1,7 @@
 ---
 name: "seo-content-brief"
 description: "Use this skill when you need a B2B SEO content brief that a writer can turn into a page that ranks and converts: \"write an SEO brief\", \"content brief for this keyword\", \"plan a blog post that ranks\", \"outline for a landing page\". Analyses search intent, what currently ranks and what it misses, picks the angle and format, builds the outline with headings, questions to answer, entities, internal links, schema and the conversion path, and sets the success metrics."
+summary: "Creates comprehensive B2B SEO content briefs for search rankings."
 category: "content-strategy"
 platforms: ["claude-code"]
 platform_source: "declared"

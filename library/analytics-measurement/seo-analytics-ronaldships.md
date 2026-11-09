@@ -1,6 +1,7 @@
 ---
 name: "seo-analytics"
 description: "Interpret authorized Search Console and analytics data for organic acquisition, AI referrals, or traffic changes. Use for reporting and attribution; keep clicks, sessions, activation, and payment distinct and investigate established-site drops before proposing launch content."
+summary: "Interprets Search Console and analytics data for organic acquisition and traffic attribution."
 category: "analytics-measurement"
 platforms: ["unspecified"]
 platform_source: "none"

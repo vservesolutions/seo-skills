@@ -1,6 +1,7 @@
 ---
 name: "voice-search-seo"
 description: "Voice Search Seo — Skill especializada para voice search seo"
+summary: "Optimizes content specifically for voice search queries and conversational patterns."
 category: "structured-data"
 platforms: ["unspecified"]
 platform_source: "none"

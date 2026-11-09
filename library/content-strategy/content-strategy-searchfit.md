@@ -1,6 +1,7 @@
 ---
 name: "content-strategy"
 description: "Develop a content strategy for SEO and organic growth. Use when the user asks to \"plan content\", \"content strategy\", \"content calendar\", \"what should I write about\", \"content gap analysis\", \"topic research\", \"editorial plan\", or wants to plan what content to create for their website."
+summary: "This skill develops comprehensive content strategies and editorial plans for organic search growth."
 category: "content-strategy"
 platforms: ["claude-code"]
 platform_source: "declared"

@@ -1,6 +1,7 @@
 ---
 name: "seo-helpful-content"
 description: "Pre-publish (or retroactive) content-quality gate implementing Google's official self-assessment questions from the creating-helpful-content doc, plus 2024 spam-policy red flags. Verdict: PUBLISH / REVISE / RETHINK. Use when user says \"helpful content\", \"people-first\", \"content self-assessment\", \"is my content helpful\", or \"content quality gate\"."
+summary: "Evaluates content quality against Google's helpful content guidelines and spam policies."
 category: "algorithm-updates"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

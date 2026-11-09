@@ -1,6 +1,7 @@
 ---
 name: "link-building-strategy"
 description: "Link Building Strategy — Skill especializada para link building strategy"
+summary: "Develops link building strategies to improve domain authority and rankings."
 category: "link-building"
 platforms: ["unspecified"]
 platform_source: "none"

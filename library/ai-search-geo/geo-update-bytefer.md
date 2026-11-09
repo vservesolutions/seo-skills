@@ -1,6 +1,7 @@
 ---
 name: "geo-update"
 description: "Pull the latest GEO-SEO skill updates from the upstream repository. Compares installed files against the latest release, shows what changed, and updates all skills, agents, scripts, and schema templates in place."
+summary: "Updates installed generative engine optimization skills and schema templates from the upstream repository."
 category: "ai-search-geo"
 platforms: ["codex"]
 platform_source: "detected"

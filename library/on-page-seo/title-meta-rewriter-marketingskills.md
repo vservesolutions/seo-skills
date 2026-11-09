@@ -1,6 +1,7 @@
 ---
 name: "title-meta-rewriter"
 description: "Generate title and meta description alternatives from GSC query evidence and SERP intent. Use when Codex needs to improve organic CTR by rewriting page metadata."
+summary: "Generates title and meta description alternatives using Search Console queries and SERP intent."
 category: "on-page-seo"
 platforms: ["unspecified"]
 platform_source: "none"

@@ -1,6 +1,7 @@
 ---
 name: "seo-geo"
 description: "Audit and improve content for AI Overviews and answer engines, including citability, entity clarity, crawler access, brand signals, and passage structure. Use when the user asks about AI Overviews, AI Mode, ChatGPT, Perplexity or Gemini citations, GEO, or AI search visibility."
+summary: "Optimizes content and structure for AI Overviews and answer engine citations."
 category: "ai-search-geo"
 platforms: ["codex"]
 platform_source: "declared"

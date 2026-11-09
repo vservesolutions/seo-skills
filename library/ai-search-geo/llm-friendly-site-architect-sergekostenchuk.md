@@ -1,6 +1,7 @@
 ---
 name: "llm-friendly-site-architect"
 description: "Design human-visible, machine-readable website layers for AI assistants, RAG, and agentic search. Use this skill when the user asks for llms.txt, LLM discovery plans, visible TLDR or direct-answer blocks, source trails, entity pages, markdown alternates, AI crawler policy, topic-to-URL maps, assistant-readable public content, or LLM-friendly architecture that must preserve canonical SEO strategy without hidden bot-only facts or duplicate story bodies."
+summary: "Builds machine-readable website layers including llms.txt and direct-answer blocks for AI discovery."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

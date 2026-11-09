@@ -1,6 +1,7 @@
 ---
 name: "seo-ahrefs-competitors"
 description: "Discover a domain's top organic competitors from Ahrefs: competing domains, keyword overlap count, shared keywords, and unique competitor keywords. Use when user says \"Ahrefs competitors\", \"organic competitors\", \"competing domains\", \"keyword overlap\", or \"who competes with\"."
+summary: "Discovers top organic competitors and keyword overlaps for a domain using Ahrefs."
 category: "serp-features"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

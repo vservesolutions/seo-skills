@@ -1,6 +1,7 @@
 ---
 name: "technical-seo-audit"
 description: "Audit a website's technical SEO across crawl access, indexing controls, canonicalization, sitemaps, internal links, rendered content, structured data, status codes, and Core Web Vitals. Use when organic pages are missing from search, a redesign or migration is planned, Search Console reports coverage problems, or the user asks for a prioritized technical SEO audit."
+summary: "Audits website technical SEO including crawl access, indexing, canonicalization, and core web vitals."
 category: "technical-crawling-indexing"
 platforms: ["claude-code", "gemini-cli", "windsurf", "copilot"]
 platform_source: "detected"

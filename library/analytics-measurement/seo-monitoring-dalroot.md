@@ -1,6 +1,7 @@
 ---
 name: "seo-monitoring"
 description: "When the user wants to build an SEO data analysis system, monitor indexing/traffic/keywords/backlinks, or set up benchmarks. Also use when the user mentions \"SEO data analysis,\" \"SEO monitoring,\" \"article database,\" \"traffic benchmark,\" \"penalty recovery,\" \"SEO work document,\" \"SEO dashboard,\" \"keyword tracking,\" \"ranking monitoring,\" \"indexing report,\" or \"backlink monitoring.\" For GSC API, use google-search-console."
+summary: "Monitors indexing, traffic, keywords, and backlinks to build SEO dashboards and benchmarks."
 category: "analytics-measurement"
 platforms: ["unspecified"]
 platform_source: "none"

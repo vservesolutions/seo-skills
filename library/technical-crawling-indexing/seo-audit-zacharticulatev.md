@@ -1,6 +1,7 @@
 ---
 name: "seo-audit"
 description: "Orchestrates a multi-specialist SEO audit — detects business type, dispatches the available specialist skills, and aggregates one weighted health score with a prioritized, deduped fix list. Crawls up to ~500 pages when seo-firecrawl is connected; otherwise audits the key URLs you provide and says so. Trigger when the user says \"seo audit\", \"full site audit\", \"comprehensive seo review\", \"analyze my site for seo\", \"website health check\", or \"audit my site for seo\"."
+summary: "Orchestrates comprehensive multi-specialist SEO audits and generates prioritized fix lists."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

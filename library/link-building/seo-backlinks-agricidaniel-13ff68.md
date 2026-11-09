@@ -1,6 +1,7 @@
 ---
 name: "seo-backlinks"
 description: "Analyze a supplied backlink profile or verified link sample for coverage, quality, anchors and opportunities. Use for backlink audits."
+summary: "Analyzes backlink profiles and link opportunities."
 category: "link-building"
 platforms: ["unspecified"]
 platform_source: "none"

@@ -1,6 +1,7 @@
 ---
 name: "serp-analyzer"
 description: "Analyze Google search results (SERP) for any keyword. Use when the user says \"analyze the SERP\", \"what ranks for\", \"SERP analysis\", \"competitive analysis for keyword\", \"content brief\", \"what's ranking\", \"search results for\", \"who ranks for\", or asks about ranking content patterns for a keyword."
+summary: "Analyzes Google search results and ranking patterns for specific keywords."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared"

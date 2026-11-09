@@ -1,6 +1,7 @@
 ---
 name: "seo-content-quality-signals"
 description: "内容质量信号诊断子模块。检查页面的作者信息（E-E-A-T 信号）、发布/更新日期、页面内容字数和可读性。当用户提到\"内容质量\"\"E-E-A-T\"\"作者权威性\"\"内容新鲜度\"\"可读性分析\"时触发。这些信号在 AI 引擎选择引用来源时权重越来越高。"
+summary: "Diagnoses page content quality signals like author information and E-E-A-T readiness."
 category: "on-page-seo"
 platforms: ["openclaw"]
 platform_source: "declared"

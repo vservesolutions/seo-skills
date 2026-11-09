@@ -1,6 +1,7 @@
 ---
 name: "seo-audit"
 description: "Audit SEO du site {{COMPANY_NAME}} ou d'une page (crawl, indexation, Core Web Vitals, on-page, E-E-A-T, schema) : score de santé et plan d'action dans 09-seo/audits/. À utiliser sur « audit SEO », « pourquoi je ne ranke pas », « mon trafic a chuté » ou une URL à diagnostiquer."
+summary: "Performs a comprehensive SEO audit covering crawl, indexation, performance, and on-page signals."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared"

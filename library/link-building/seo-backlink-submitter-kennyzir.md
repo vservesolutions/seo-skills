@@ -1,6 +1,7 @@
 ---
 name: "seo-backlink-submitter"
 description: "为网站生成目录提交计划，并在用户显式授权时通过浏览器填写单个或批量目录表单。适用于“提交网站到目录”“SEO 外链”“目录提交”或“submit site to directories”等请求。"
+summary: "This skill generates directory submission plans and helps submit links to directories."
 category: "link-building"
 platforms: ["unspecified"]
 platform_source: "none"

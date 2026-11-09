@@ -1,6 +1,7 @@
 ---
 name: "technical-seo-triage"
 description: "Prioritize crawl, indexation, canonical, schema, and internal-link issues from crawler output or Search Console. Use when Codex needs to identify and rank technical SEO fixes by impact."
+summary: "Prioritizes crawl, indexation, canonical, and schema issues from crawler or Search Console output."
 category: "technical-crawling-indexing"
 platforms: ["unspecified"]
 platform_source: "none"

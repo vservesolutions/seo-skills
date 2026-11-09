@@ -1,6 +1,7 @@
 ---
 name: "core-web-vitals"
 description: "Measure Core Web Vitals on any URL — LCP, CLS, INP, TTFB, FCP — using the browser's own performance APIs. Grades each metric against Google's thresholds and produces an A-F report. Playwright MCP only, no signup."
+summary: "Measures Core Web Vitals metrics on any URL using browser performance APIs."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

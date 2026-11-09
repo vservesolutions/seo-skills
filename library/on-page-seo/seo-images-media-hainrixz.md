@@ -1,6 +1,7 @@
 ---
 name: "seo-images-media"
 description: "Audit and fix image & media accessibility for a page — detect missing/empty/duplicated/keyword-stuffed alt text, check alt quality and length, missing width/height (CLS), legacy formats, and absent VideoObject schema; generate contextual alt and dimensions. Module M9. Feeds both the Search SEO and AI Visibility scores."
+summary: "Audits and fixes image and media accessibility, alt text quality, and dimension attributes."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

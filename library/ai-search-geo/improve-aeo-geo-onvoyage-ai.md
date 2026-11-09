@@ -1,6 +1,7 @@
 ---
 name: "improve-aeo-geo"
 description: "Audits a website codebase and makes code changes so AI engines (ChatGPT, Claude, Perplexity, Google AI Overviews) can better discover, parse, quote, and cite the site. Covers structured data, content structure, technical signals, and freshness."
+summary: "Audits and updates codebase elements to improve AI engine discovery and citation."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared"

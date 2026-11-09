@@ -1,6 +1,7 @@
 ---
 name: "recover-content"
 description: "Diagnose and reverse traffic loss on existing pages. Use when the user asks about content decay, pages losing traffic, declining rankings, traffic drops, why a page stopped ranking, content refresh strategy, or when to consolidate vs redirect old content. For creating new content, see brief."
+summary: "Diagnoses and reverses traffic loss on declining pages through content updates and consolidation strategies."
 category: "migration-redirects"
 platforms: ["unspecified"]
 platform_source: "none"

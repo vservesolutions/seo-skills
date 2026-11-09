@@ -1,6 +1,7 @@
 ---
 name: "seo-geo"
 description: "Optimize content for AI Overviews (formerly SGE), ChatGPT web search, Perplexity, and other AI-powered search experiences. GEO analysis enriched with Ahrefs Brand Radar AI visibility data when available. Includes brand mention signals, AI crawler accessibility, llms.txt compliance, passage-level citability scoring, and platform-specific optimization. Use when user says \"AI Overviews\", \"SGE\", \"GEO\", \"AI search\", \"LLM optimization\", \"Perplexity\", \"AI citations\", \"ChatGPT search\", \"AI visibility\", or \"Brand Radar\"."
+summary: "Optimizes content for generative AI search engines and AI Overviews with visibility tracking."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

@@ -1,6 +1,7 @@
 ---
 name: "content-brief"
 description: "Generate a detailed content brief for a specific article or page. Use when the user asks to \"create a content brief\", \"write a brief\", \"article outline\", \"blog brief\", \"writing brief\", \"content outline\", \"SEO brief\", \"AEO brief\", \"GEO brief\", or wants a structured plan before writing."
+summary: "Generates detailed SEO and AEO content briefs and outlines for web pages."
 category: "content-strategy"
 platforms: ["claude-code"]
 platform_source: "declared"

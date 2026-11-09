@@ -1,6 +1,7 @@
 ---
 name: "seo-ahrefs-backlinks"
 description: "Analyze a domain's backlink profile using Ahrefs: see who links to the domain, source Domain Rating, anchor text, link type, and when each link was first seen. Use when user says \"Ahrefs backlinks\", \"backlink profile\", \"who links to\", \"link analysis\", or \"referring pages\"."
+summary: "This skill analyzes a domain's backlink profile and referring pages using Ahrefs data."
 category: "link-building"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

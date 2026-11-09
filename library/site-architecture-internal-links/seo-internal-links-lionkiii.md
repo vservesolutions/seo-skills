@@ -1,6 +1,7 @@
 ---
 name: "seo-internal-links"
 description: "Analyze internal link structure by crawling a domain. Identifies orphan pages, underlinked pages (configurable heuristic, default fewer than 3 inbound links), and broken internal links. Suggests anchor text for top 5 underlinked pages. Reuses existing fetch/parse scripts. Optional Ahrefs enrichment. Use when user says \"internal links\", \"link structure\", \"orphan pages\", \"internal linking\", \"link graph\", \"anchor text audit\"."
+summary: "Analyzes internal link structure to identify orphan pages, underlinked URLs, and broken links."
 category: "site-architecture-internal-links"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

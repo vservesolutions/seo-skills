@@ -1,6 +1,7 @@
 ---
 name: "apify-link-prospecting-outreach"
 description: "Link prospects for a keyword with authority, contacts, a pitch angle and a draft email each. Use when \"build a link prospect list\"."
+summary: "Finds link prospects and generates outreach emails for targeted keywords."
 category: "link-building"
 platforms: ["codex"]
 platform_source: "detected"

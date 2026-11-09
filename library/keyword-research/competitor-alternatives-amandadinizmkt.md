@@ -1,6 +1,7 @@
 ---
 name: "competitor-alternatives"
 description: "When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'compa..."
+summary: "This skill helps create competitor comparison pages tailored for search engine optimization and sales enablement."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared"

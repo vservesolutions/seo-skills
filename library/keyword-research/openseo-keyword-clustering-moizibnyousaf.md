@@ -1,6 +1,7 @@
 ---
 name: "openseo-keyword-clustering"
 description: "Cluster keywords by search intent and map each cluster to an existing or proposed page, with cannibalization detection from Search Console. Use this skill when the user has a keyword list (saved set, brand/keyword-plan.md, GSC export, or seed topic) and needs page targets, content briefs, or a site map for SEO pages — especially before seo-content or seo-machine page generation. Triggers: \"cluster keywords\", \"keyword mapping\", \"map keywords to pages\", \"keyword cannibalization\", \"which page should target\"."
+summary: "Clusters keywords by search intent and maps them to site pages to avoid cannibalization."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "detected"

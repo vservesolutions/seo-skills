@@ -1,6 +1,7 @@
 ---
 name: "content-brief"
 description: "Generate a detailed content brief for a specific article or page. Use when the user asks to \"create a content brief\", \"write a brief\", \"article outline\", \"blog brief\", \"writing brief\", \"content outline\", or wants a structured plan before writing content."
+summary: "This skill generates structured content briefs and article outlines for SEO content creation."
 category: "content-strategy"
 platforms: ["claude-code"]
 platform_source: "declared"

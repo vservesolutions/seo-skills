@@ -1,6 +1,7 @@
 ---
 name: "seo-roadmap"
 description: "Turn audits, clusters and decay into a quarter-by-quarter SEO plan with owners and metrics. Use when \"SEO plan for the quarter\", \"SEO roadmap\", \"prioritise SEO work\"."
+summary: "Turns audits and keyword clusters into a quarter-by-quarter SEO plan with assigned owners."
 category: "local-seo"
 platforms: ["unspecified"]
 platform_source: "none"

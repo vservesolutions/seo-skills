@@ -1,6 +1,7 @@
 ---
 name: "semantic-gap-analysis"
 description: "Use when a page ranks for a keyword but isn't in the top 3 and you want to know exactly what's missing. The agent compares the page to the top-ranking competitors and produces a specific list of entities, subtopics, and relationships to add."
+summary: "This skill identifies missing semantic entities and subtopics by comparing a page to top-ranking competitors."
 category: "keyword-research"
 platforms: ["unspecified"]
 platform_source: "none"

@@ -1,6 +1,7 @@
 ---
 name: "aeo-ai-overview-simulator"
 description: "Simulate Google AI Overviews by running prompts through Gemini 3 Flash with Google Search grounding. See which sources get cited, how often, and what snippets get pulled — before checking the real AI Overview. Track a specific domain to measure mention rate, citation rate, and exact excerpts. Use when a user wants to: preview what an AI Overview would look like for a query, see which sources Google's AI cites, measure a domain's citation share, or understand what content Gemini pulls from their site."
+summary: "Simulates Google AI Overviews to analyze source citations, mention rates, and extracted snippets."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

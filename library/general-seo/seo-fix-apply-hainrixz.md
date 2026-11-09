@@ -1,6 +1,7 @@
 ---
 name: "seo-fix-apply"
 description: "Writer protocol preloaded into the seo-fixer-writer agent — how confirmed SEO/AI-search fixes are applied (git pre-flight, backup, Edit/Write for local diffs, ticketed adapter CLIs for remote targets, re-verify, publish only on a second ticket, rollback) and the findings-array output contract. Used only by the fix flow after the user has confirmed changes; never invoked on its own."
+summary: "Implements preloaded protocols for securely applying confirmed SEO and AI-search fixes to codebase files."
 category: "general-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

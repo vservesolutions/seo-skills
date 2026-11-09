@@ -1,6 +1,7 @@
 ---
 name: "seo-maintenance-loop"
 description: "The recurring check for a live website. Finds the few opportunities worth acting on this week (keywords near the top, pages to refresh or merge, pages with search demand but weak clicks, on-page issues, competitor gaps, link changes), ranks them, and gives the owner three actions. Also covers finding why traffic or ranks dropped. Use for weekly or monthly reviews, when the owner asks what to fix or write next, or when clicks, visits, or ranks fell."
+summary: "Performs recurring SEO audits and identifies high-impact opportunities or traffic drops for live websites."
 category: "analytics-measurement"
 platforms: ["unspecified"]
 platform_source: "none"

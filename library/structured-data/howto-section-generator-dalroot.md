@@ -1,6 +1,7 @@
 ---
 name: "howto-section-generator"
 description: "When the user wants to create, optimize, or audit a HowTo section block—an in-page block of ordered steps with optional Schema.org HowTo JSON-LD. Also use when the user mentions \"HowTo section,\" \"how-to section,\" \"steps section,\" \"quick start,\" \"walkthrough,\" \"tutorial block,\" \"3 steps,\" \"N steps,\" \"simple steps,\" \"tutorial steps,\" \"step-by-step block,\" \"HowTo schema,\" \"HowTo JSON-LD,\" \"instruction steps,\" \"numbered steps SEO,\" \"horizontal tabs for steps,\" or \"procedure section.\" This skill is for a section inside a page, not a full page template—use article-page-generator…"
+summary: "Generates and optimizes in-page instructional step blocks with optional HowTo JSON-LD schema."
 category: "structured-data"
 platforms: ["unspecified"]
 platform_source: "none"

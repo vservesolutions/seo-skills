@@ -1,6 +1,7 @@
 ---
 name: "programmatic-seo"
 description: "Design and evaluate programmatic SEO strategies for creating SEO-driven pages at scale using templates and structured data."
+summary: "Designs and evaluates programmatic SEO strategies for creating scaled web pages using templates and structured data."
 category: "structured-data"
 platforms: ["antigravity"]
 platform_source: "declared"

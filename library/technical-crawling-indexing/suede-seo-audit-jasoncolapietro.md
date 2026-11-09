@@ -1,6 +1,7 @@
 ---
 name: "suede-seo-audit"
 description: "Audit technical access, intent, metadata, links, schema, generative search, copy, E-E-A-T, and topic architecture with A-F lanes and exact fixes. Use when asked to \"audit this site for SEO\", investigate traffic or indexation problems, or produce a scored report. Includes offline source-review tools. NOT FOR: a quick promotion grade (use suede-visibility-grader), AI crawler and citation measurement (use suede-ai-seo), or conversion-path changes (use suede-site-alchemy)."
+summary: "Audits technical access, metadata, schema, E-E-A-T, and topic architecture with detailed scoring."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared"

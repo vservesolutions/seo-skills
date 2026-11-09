@@ -1,6 +1,7 @@
 ---
 name: "suede-programmatic-seo"
 description: "Suede AI Programmatic SEO Skills: playbook, source model, templates, unique value, internal links, sitemaps, phased rollout, and KPIs. Use when asked \"build location pages at scale\" or to rescue thin templated pages. NOT FOR: site audits (suede-seo-audit), AI-answer measurement (suede-ai-seo), editorial planning (suede-content-strategy), or bulk publishing without approval."
+summary: "Provides playbooks and templates for building scalable location or category pages."
 category: "site-architecture-internal-links"
 platforms: ["claude-code"]
 platform_source: "declared"

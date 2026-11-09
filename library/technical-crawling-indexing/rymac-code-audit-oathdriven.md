@@ -1,6 +1,7 @@
 ---
 name: "rymac-code-audit"
 description: "Runs a thorough, multi-lens code audit of a web build — finding (1) bugs and future-error risks, (2) performance / site-speed / Core Web Vitals problems, (3) technical-SEO and crawlability issues that stop search engines indexing the site, and (4) responsive / mobile-compatibility problems that break layouts on phones. Produces a severity-ranked report with file:line locations and concrete fixes. Use when the user asks to \"audit this build\", \"audit the site\", \"run a code audit\", \"check my site for errors\", \"find bugs before launch\", \"why is my site slow\", \"improve site speed\", \"why isn't my…"
+summary: "Audits web code for technical SEO, indexability, and Core Web Vitals performance issues."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

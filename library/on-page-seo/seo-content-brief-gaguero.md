@@ -1,6 +1,7 @@
 ---
 name: "seo-content-brief"
 description: "Turns a keyword, topic or existing page into a complete, intent-first SEO content brief and on-page optimization plan. Maps search intent (informational, commercial, transactional, navigational, local) into topic clusters, then specifies the angle, H1/H2 structure, entities and questions to cover, internal links, CTA, and the E-E-A-T / people-first evidence the content must demonstrate. Also reviews and optimizes existing on-page elements: title, meta description, headings, slug, internal linking. Use when someone asks for a content brief, keyword/topic research, content strategy, on-page…"
+summary: "Generates intent-first SEO content briefs and on-page optimization plans from keywords."
 category: "on-page-seo"
 platforms: ["any-agent"]
 platform_source: "declared"

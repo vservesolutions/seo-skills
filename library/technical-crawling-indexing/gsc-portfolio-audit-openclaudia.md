@@ -1,6 +1,7 @@
 ---
 name: "gsc-portfolio-audit"
 description: "Audit EVERY Google Search Console property at once — rank all sites by clicks and impressions with period-over-period deltas, then diff keywords per site to surface what is newly ranking, rising, dropping, lost, or ranking well without earning clicks. Built for agencies and multi-site owners. Use when asked to compare all sites, rank properties by traffic, find new keywords across a portfolio, or spot which site is down. Trigger phrases: \"audit GSC\", \"all my sites\", \"rank my properties\", \"portfolio search performance\", \"which sites are down\", \"what new keywords are we ranking for\", \"client…"
+summary: "Audits multiple Google Search Console properties simultaneously to track performance trends."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared"

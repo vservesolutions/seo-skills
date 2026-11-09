@@ -1,6 +1,7 @@
 ---
 name: "keyword-deep-dive"
 description: "Use when planning to rank for a specific keyword. The agent Googles it, reads the top 10, classifies intent, reads the top 3 competitor pages, and produces a 90-day ranking plan with intent, SERP analysis, and content recommendations."
+summary: "This skill performs keyword research, analyzes search intent, and creates a ranking plan based on top competitors."
 category: "keyword-research"
 platforms: ["unspecified"]
 platform_source: "none"

@@ -1,6 +1,7 @@
 ---
 name: "website-positioning"
 description: "Work out a new site's POSITIONING before any SEO or content — what you offer, for whom, and the market category it sits in — using April Dunford's five-component framework, captured in POSITIONING.md and threaded through every page's title, description, H1 and schema. Owns the positioning spine; enforced by tests/positioning.spec.ts (a hermetic per-page string test, sibling to the tone test). Use FIRST on a new site (step 2 of the new-website pipeline), before website-content-guide, before page copy, and whenever the offer or audience shifts. Trigger phrases: \"positioning\", \"value…"
+summary: "This skill establishes website positioning frameworks to integrate into meta titles, descriptions, and schema."
 category: "on-page-seo"
 platforms: ["unspecified"]
 platform_source: "none"

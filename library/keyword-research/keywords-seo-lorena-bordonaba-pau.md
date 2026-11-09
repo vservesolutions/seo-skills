@@ -1,6 +1,7 @@
 ---
 name: "keywords-seo"
 description: "Keywords, tags, description and the search gap. Triggered by \"what keywords should I use\", \"optimise the SEO\", \"give me the tags\", \"how do people find me\". In Spanish, \"qué keywords uso\", \"optimiza el SEO\", \"dame las etiquetas\", \"cómo me encuentran\"."
+summary: "Optimizes YouTube video keywords, tags, and descriptions to improve discoverability."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared"

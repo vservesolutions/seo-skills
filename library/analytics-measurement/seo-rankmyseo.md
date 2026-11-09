@@ -1,6 +1,7 @@
 ---
 name: "seo"
 description: "Start here for any SEO request on a website, or when the owner types /seo with a command such as plan, setup, check, wins, rivals, or drop. Routes a site owner through planning, setup, launch checks, local search, product pages, quick wins, content refresh, competitors, trends, a 90-day roadmap, and ongoing maintenance using RankMySEO tools, Search Console, and GA4. Use when someone asks to create, launch, check, or improve a site's search presence."
+summary: "Guides website owners through planning, setup, local search, and ongoing maintenance."
 category: "analytics-measurement"
 platforms: ["unspecified"]
 platform_source: "none"

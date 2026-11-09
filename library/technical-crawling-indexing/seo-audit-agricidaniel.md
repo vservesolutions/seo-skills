@@ -1,6 +1,7 @@
 ---
 name: "seo-audit"
 description: "Run a full-site SEO audit and return a scored, prioritized report. Use only for site-wide checks; use seo-page for one URL or seo-technical for a technical-only review."
+summary: "Performs a comprehensive, prioritized site-wide technical and on-page SEO audit."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

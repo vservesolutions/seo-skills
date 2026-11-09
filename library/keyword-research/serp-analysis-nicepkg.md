@@ -1,6 +1,7 @@
 ---
 name: "serp-analysis"
 description: "SERP analysis techniques for intent classification, feature identification, and competitive intelligence. Use when analyzing search results for content strategy."
+summary: "Analyzes search results for intent classification and competitive intelligence."
 category: "keyword-research"
 platforms: ["claude-code", "codex", "cursor"]
 platform_source: "declared"

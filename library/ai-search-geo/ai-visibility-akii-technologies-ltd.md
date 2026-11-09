@@ -1,6 +1,7 @@
 ---
 name: "ai-visibility"
 description: "Fast-path AI visibility analysis using public web signals, with a per-engine proxy map for ChatGPT, Claude, Gemini, Perplexity, Copilot, and Google AI Overviews. Runs in your Claude Code session without an Akii-hosted score or scoring API. Use when the user asks for \"AI visibility\", \"AI visibility score\", \"free AI visibility check\", \"what's my AI visibility\", \"AI brand audit\", \"AI search baseline\", \"score my brand\", \"AI tracking\", \"how does my brand appear in AI\", \"AI mentions\", \"LLM visibility\", \"AI search optimization\", \"rank in ChatGPT / Gemini / Perplexity / Claude\", \"GEO\", \"generative…"
+summary: "Performs fast-path AI visibility analysis across major LLM search engines."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

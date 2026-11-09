@@ -1,6 +1,7 @@
 ---
 name: "local-falcon"
 description: "Expert guidance on AI Visibility and Local SEO from Local Falcon, the pioneer of geo-grid rank tracking. Provides deep knowledge on optimizing for AI search platforms (ChatGPT, Gemini, AI Mode, AI Overviews, Grok), local pack rankings, Google Business Profile optimization, and actionable strategies for agencies, enterprises, and SMBs. Includes guidance on using Local Falcon's MCP server for data-driven analysis."
+summary: "Provides local SEO and geo-grid rank tracking guidance for local packs and AI search."
 category: "local-seo"
 platforms: ["claude-code"]
 platform_source: "detected"

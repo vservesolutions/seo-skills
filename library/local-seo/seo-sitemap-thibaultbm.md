@@ -1,6 +1,7 @@
 ---
 name: "seo-sitemap"
 description: "Build an XML sitemap that is clean for robots (valid, light, segmented, honest lastmod) and elegant for people who open it: pretty-printed raw XML, one element per line, two-space indentation, a fixed order inside every entry, no stylesheet, no script, no HTML. Input: a site or its sitemap URL. Output: an audit by sitemap_audit.py (pretty-print, leftover XSL or polyfill, size, segmentation, duplicates, lastmod honesty, priority and changefreq, hreflang weight, URLs per language), the build (a sitemap index split by section and language when the site is large, every file pretty-printed by the…"
+summary: "Builds and audits clean XML sitemaps optimized for crawler efficiency."
 category: "local-seo"
 platforms: ["claude-code"]
 platform_source: "declared"

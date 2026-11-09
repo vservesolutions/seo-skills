@@ -1,6 +1,7 @@
 ---
 name: "diagnose-seo"
 description: "Structured diagnostic for technical SEO problems. Use when the user asks about crawl issues, indexation problems, why pages aren't being indexed, robots.txt questions, canonical errors, sitemap issues, rendering problems, or general technical SEO troubleshooting. For Core Web Vitals and page speed, see audit-speed."
+summary: "Troubleshoots technical SEO problems related to crawling, indexation, and rendering."
 category: "technical-crawling-indexing"
 platforms: ["unspecified"]
 platform_source: "none"

@@ -1,6 +1,7 @@
 ---
 name: "seo-unlighthouse"
 description: "Run or interpret bounded multi-page Unlighthouse audits for local Lighthouse evidence. Use for site-wide performance, accessibility, best-practice, and SEO regression checks when field data or API quotas are insufficient."
+summary: "Runs multi-page Unlighthouse audits for performance, accessibility, and SEO regression checks."
 category: "core-web-vitals-performance"
 platforms: ["unspecified"]
 platform_source: "none"

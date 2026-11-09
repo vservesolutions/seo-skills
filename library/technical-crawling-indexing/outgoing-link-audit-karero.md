@@ -1,6 +1,7 @@
 ---
 name: "outgoing-link-audit"
 description: "Liveness audit of every OUTGOING (external) link on an Astro site built with the new-website kit. Builds the site, extracts each external href from dist/, fetches it, and classifies it OK / REDIRECT / REBRAND / DEAD — flagging links that 404, time out, or now redirect to a different domain (a rebrand), with the source page and a suggested fix. This is the network-dependent complement to the offline `tests/links.spec.ts` guard (which only blocks already-known-dead domains from regressing). Run it about once a month, or before a release/launch. Trigger phrases: \"audit outgoing links\", \"check…"
+summary: "Checks all external links on a built site to identify broken links, timeouts, and redirects."
 category: "technical-crawling-indexing"
 platforms: ["unspecified"]
 platform_source: "none"

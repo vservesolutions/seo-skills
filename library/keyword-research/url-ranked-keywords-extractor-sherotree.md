@@ -1,6 +1,7 @@
 ---
 name: "url-ranked-keywords-extractor"
 description: "Standalone extractor for Google ranked keywords of a given URL via DataForSEO Labs ranked_keywords/live. Returns Intent, Position, Volume, KD, CPC, Traffic, and Competition. Use only when the user asks to extract ranking keywords for a specific page or domain URL. Do not use for site audits, GEO, schema, content optimization, or seed-keyword research."
+summary: "Extracts ranked keywords and metrics for a given URL using DataForSEO Labs data."
 category: "keyword-research"
 platforms: ["any-agent"]
 platform_source: "declared"

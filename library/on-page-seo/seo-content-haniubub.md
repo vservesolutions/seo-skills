@@ -1,6 +1,7 @@
 ---
 name: "seo-content"
 description: "Content quality and E-E-A-T analysis with AI citation readiness assessment. Use when user says \"content quality\", \"E-E-A-T\", \"content analysis\", \"readability check\", \"thin content\", or \"content audit\"."
+summary: "Assesses content quality, readability, and E-E-A-T signals with AI citation readiness checks to identify thin content."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

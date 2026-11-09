@@ -1,6 +1,7 @@
 ---
 name: "seo-schema"
 description: "Detect existing JSON-LD structured data on a page, validate against Google's rich-result requirements, and generate missing schema markup (Article, Product, LocalBusiness, FAQPage, BreadcrumbList). Produces paste-ready JSON-LD script blocks. Use when the user asks for \"schema markup\", \"structured data\", \"JSON-LD\", \"rich results\", \"schema validation\", or \"fix the schema on this page\"."
+summary: "Detects, validates, and generates JSON-LD schema markup aligned with rich result requirements."
 category: "structured-data"
 platforms: ["claude-code"]
 platform_source: "declared"

@@ -1,6 +1,7 @@
 ---
 name: "geo-content-optimizer"
 description: "Apply 6 GEO techniques + per-engine weighted optimization. Citation Capsules, Information Gain Markers, entity richness, Q&A structure, fact density, FAQPage schema."
+summary: "This skill optimizes content using generative engine optimization techniques and structured data."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

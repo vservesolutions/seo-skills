@@ -1,6 +1,7 @@
 ---
 name: "seo-analytics"
 description: "Seo Analytics — Skill especializada para seo analytics"
+summary: "Analyzes SEO performance data and provides actionable insights."
 category: "analytics-measurement"
 platforms: ["unspecified"]
 platform_source: "none"

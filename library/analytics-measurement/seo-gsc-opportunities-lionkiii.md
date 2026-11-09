@@ -1,6 +1,7 @@
 ---
 name: "seo-gsc-opportunities"
 description: "Find quick SEO wins by identifying high-impression, low-CTR keywords using Google Search Console data. Surfaces keywords already ranking where better titles or content expansion could quickly boost traffic. Use when user says \"GSC opportunities\", \"quick wins\", \"low CTR keywords\", \"high impressions low clicks\", or \"easy SEO wins\"."
+summary: "Finds quick SEO wins by identifying high-impression, low-CTR keywords in Google Search Console."
 category: "analytics-measurement"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

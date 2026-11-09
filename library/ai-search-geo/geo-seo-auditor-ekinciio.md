@@ -1,6 +1,7 @@
 ---
 name: "geo-seo-auditor"
 description: "Audit websites for AI search engine visibility (GEO - Generative Engine Optimization). Analyzes citability score, AI crawler access, llms.txt compliance, brand authority signals, and platform-specific optimization for ChatGPT, Claude, Perplexity, and Google AI Overviews. Use when the user mentions GEO, AI SEO, generative engine optimization, AI search visibility, citability, llms.txt, AI crawler, robots.txt, AI Overviews, ChatGPT search, wants to get cited by AI, or wants to optimize content for AI-powered search engines."
+summary: "Audits websites for generative engine optimization and AI search platform visibility."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared"

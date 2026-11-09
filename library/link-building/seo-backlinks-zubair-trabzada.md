@@ -1,6 +1,7 @@
 ---
 name: "seo-backlinks"
 description: "Backlink profile audit via the DataForSEO Backlinks API. Returns total backlinks, referring domains, dofollow ratio, top anchors with over-optimization flags, top referring domains by authority, and a toxicity assessment with an Authority Score (0-100)."
+summary: "Audits backlink profiles, referring domains, anchor texts, and toxicity using the DataForSEO Backlinks API."
 category: "link-building"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

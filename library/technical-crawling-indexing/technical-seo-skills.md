@@ -1,6 +1,7 @@
 ---
 name: "technical"
 description: "Check whether crawlers can reach, read and index a site: robots.txt access for the AI crawler tokens, noindex and canonical problems, metadata, redirect health, HTTPS and URL structure. Use when asked why a site is not appearing in AI answers at all, or to check crawlability, indexability or bot access."
+summary: "Checks crawler accessibility, robots.txt directives, and indexation issues for AI search visibility."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

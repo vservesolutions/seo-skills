@@ -1,6 +1,7 @@
 ---
 name: "multi-domain-brand-seo"
 description: "When the user wants to optimize brand search for a company with multiple domains (e.g. parent company.com vs product.ai). Ensure the parent/company domain ranks first for brand queries. Also use when the user mentions \"brand search,\" \"multi-domain SEO,\" \"company domain first,\" \"parent vs product domain,\" \"hub-spoke domain,\" \"brand SERP control,\" or \"differentiate company and product domains.\" For domain structure, use domain-architecture."
+summary: "Manages brand search visibility across multiple company domains."
 category: "serp-features"
 platforms: ["claude-code"]
 platform_source: "declared"

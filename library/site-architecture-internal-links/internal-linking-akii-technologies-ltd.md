@@ -1,6 +1,7 @@
 ---
 name: "internal-linking"
 description: "Analyze and improve internal linking strategy. Use when the user asks about \"internal links\", \"link structure\", \"site architecture\", \"link strategy\", \"orphan pages\", \"link equity\", \"page authority distribution\", \"anchor text\", \"topical clusters\", \"siloing\", or wants to improve how pages connect."
+summary: "Analyzes and improves site architecture and internal link equity distribution."
 category: "site-architecture-internal-links"
 platforms: ["claude-code"]
 platform_source: "declared"

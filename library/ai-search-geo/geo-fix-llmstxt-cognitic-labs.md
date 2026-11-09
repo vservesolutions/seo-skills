@@ -1,6 +1,7 @@
 ---
 name: "geo-fix-llmstxt"
 description: "Generate llms.txt and llms-full.txt files for a website to improve AI discoverability. Use when the user asks to create llms.txt, generate llms.txt, fix llms.txt, make site AI-readable, or mentions llms.txt generation."
+summary: "This skill generates llms.txt and llms-full.txt files to enhance website discoverability for AI tools."
 category: "ai-search-geo"
 platforms: ["claude-code", "openclaw"]
 platform_source: "declared"

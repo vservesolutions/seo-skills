@@ -1,6 +1,7 @@
 ---
 name: "international-seo"
 description: "Use when implementing and auditing international SEO strategies for multi-regional or multi-lingual websites. Use for hreflang reciprocity audits, regional URL structure planning, and preventing duplicate content across locales."
+summary: "Implements and audits international SEO strategies including hreflang and regional URL planning."
 category: "international-seo"
 platforms: ["claude-code"]
 platform_source: "detected"

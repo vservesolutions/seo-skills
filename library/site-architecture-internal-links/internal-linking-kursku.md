@@ -1,6 +1,7 @@
 ---
 name: "internal-linking"
 description: "Internal Linking — Skill especializada para internal linking"
+summary: "Plans and implements internal linking structures for websites."
 category: "site-architecture-internal-links"
 platforms: ["unspecified"]
 platform_source: "none"

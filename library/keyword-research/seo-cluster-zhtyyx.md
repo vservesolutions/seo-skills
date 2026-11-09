@@ -1,6 +1,7 @@
 ---
 name: "seo-cluster"
 description: "Cluster keywords by SERP overlap and design hub-and-spoke content architecture with internal links. Use for planning; `$seo cluster execute` then writes the posts with claude-blog's blog-write skill when it is installed, or content briefs when it is not."
+summary: "Clusters keywords by SERP overlap to design hub-and-spoke content architectures."
 category: "keyword-research"
 platforms: ["codex"]
 platform_source: "declared"

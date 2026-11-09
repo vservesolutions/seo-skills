@@ -1,6 +1,7 @@
 ---
 name: "seo-images"
 description: "Image optimization analysis for SEO and performance. Checks alt text, file sizes, formats, responsive images, lazy loading, and CLS prevention. Use when user says \"image optimization\", \"alt text\", \"image SEO\", \"image size\", or \"image audit\"."
+summary: "Analyzes image optimization factors for search engine optimization and performance, checking alt text, file sizes, formats, and lazy loading."
 category: "core-web-vitals-performance"
 platforms: ["antigravity", "claude-code"]
 platform_source: "declared+detected"

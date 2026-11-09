@@ -1,6 +1,7 @@
 ---
 name: "seo-firecrawl"
 description: "Crawl, map, or scrape websites with Firecrawl when an authorized connector is available. Use for JavaScript-rendered pages, site inventories, broken-link discovery, and bounded multi-page SEO collection."
+summary: "Crawls and scrapes websites for JavaScript rendering, site inventories, and broken links."
 category: "technical-crawling-indexing"
 platforms: ["unspecified"]
 platform_source: "none"

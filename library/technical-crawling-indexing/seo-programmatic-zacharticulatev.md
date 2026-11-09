@@ -1,6 +1,7 @@
 ---
 name: "seo-programmatic"
 description: "Programmatic SEO planning and safeguards for pages generated at scale — template design, URL patterns, internal-link automation, thin-content thresholds, and index-bloat prevention. Trigger when the user says \"programmatic SEO\", \"pSEO\", \"pages at scale\", \"dynamic pages\", \"template pages\", \"generated pages\", \"data-driven SEO\", or \"scaled pages\"."
+summary: "Plans programmatic SEO templates and safeguards to prevent index bloat at scale."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared"

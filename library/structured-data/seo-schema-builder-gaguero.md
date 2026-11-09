@@ -1,6 +1,7 @@
 ---
 name: "seo-schema-builder"
 description: "Generates and validates schema.org structured data as JSON-LD for rich results — Organization, LocalBusiness, Product, Service, Article, Breadcrumb, FAQPage, Event, Recipe, Review/AggregateRating, and more. Enforces strict no-fabrication rules: it refuses to invent ratings, reviews, prices, availability, authors or any value not backed by real, on-page data. Use when someone asks for structured data, JSON-LD, schema markup, rich results / rich snippets, or wants a page eligible for enhanced search appearances."
+summary: "Generates and validates structured data markup according to schema.org guidelines."
 category: "structured-data"
 platforms: ["any-agent"]
 platform_source: "declared"

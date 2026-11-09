@@ -1,6 +1,7 @@
 ---
 name: "seo-cluster"
 description: "Compatibility skill for seo cluster. Use when a user or upstream workflow invokes this name; route the task to `content-strategy` while preserving the requested scope and source-specific intent."
+summary: "This routing skill maps to content strategy tasks."
 category: "keyword-research"
 platforms: ["unspecified"]
 platform_source: "none"

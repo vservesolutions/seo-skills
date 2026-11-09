@@ -1,6 +1,7 @@
 ---
 name: "seo-report"
 description: "Generate and save a complete SEO report to disk. Use when user says \"SEO report\", \"generate report\", \"monthly report\", \"weekly report\", \"audit report\", \"competitor report\", \"save report\", \"export SEO data\", \"create SEO summary\", \"export my SEO data\", \"save Ahrefs report\", \"download SEO report\". Requires report type: monthly | weekly | audit | competitor."
+summary: "Generates and saves formatted SEO performance and audit reports."
 category: "analytics-measurement"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

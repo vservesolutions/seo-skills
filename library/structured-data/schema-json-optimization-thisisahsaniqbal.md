@@ -1,6 +1,7 @@
 ---
 name: "schema-json-optimization"
 description: "Validates existing JSON-LD structured data and suggests relevant schemas based on auto-detected page type. Does NOT enforce all schema types — only checks what is applicable to the current page context. Use when auditing or generating structured data for search engine rich results."
+summary: "This skill validates existing JSON-LD structured data and suggests relevant schemas based on page type."
 category: "structured-data"
 platforms: ["claude-code"]
 platform_source: "declared"

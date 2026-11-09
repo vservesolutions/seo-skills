@@ -1,6 +1,7 @@
 ---
 name: "seo-schema"
 description: "Détecte, valide et génère les données structurées Schema.org (JSON-LD) de {{COMPANY_NAME}} selon les types actifs chez Google. À utiliser sur « schema », « données structurées », « rich results », « JSON-LD », « balisage », ou après publication d'une page."
+summary: "Detects, validates, and generates Schema.org JSON-LD structured data for rich results eligibility."
 category: "structured-data"
 platforms: ["claude-code"]
 platform_source: "declared"

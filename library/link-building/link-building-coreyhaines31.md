@@ -1,6 +1,7 @@
 ---
 name: "link-building"
 description: "When the user wants to earn backlinks or third-party mentions that lift rankings and AI citations. Also use when the user mentions 'link building,' 'linkbuilding,' 'backlinks,' 'get more backlinks,' 'link prospecting,' 'link gap,' 'competitor backlinks,' 'unlinked mentions,' 'link reclamation,' 'broken link building,' 'resource pages,' 'guest posting,' 'get into best-of lists,' 'listicle outreach,' 'domain rating,' 'referring domains,' 'anchor text,' or 'is this link vendor safe.' Use this whenever rankings stall on authority or someone wants off-site mentions that AI engines cite. Never…"
+summary: "Executes link building outreach and backlink acquisition campaigns to improve search rankings."
 category: "link-building"
 platforms: ["claude-code"]
 platform_source: "declared"

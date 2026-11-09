@@ -1,6 +1,7 @@
 ---
 name: "keyword-cluster"
 description: "Cluster keywords or queries into topic hubs and spoke pages by SERP overlap. \"cluster these keywords\""
+summary: "Clusters keywords into topic hubs based on SERP overlap."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "detected"

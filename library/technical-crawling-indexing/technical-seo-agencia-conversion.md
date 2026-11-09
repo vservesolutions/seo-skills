@@ -1,6 +1,7 @@
 ---
 name: "technical-seo"
 description: "When the user wants a deterministic technical SEO audit, page-template validation, JSON audit interpretation, or repair-priority report for a rendered page or site URL."
+summary: "Performs deterministic technical SEO audits, page-template validation, JSON audit interpretation, and priority repair reports for web pages."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared"

@@ -1,6 +1,7 @@
 ---
 name: "seo-go-live-check"
 description: "The first-weeks checklist after a website goes live. Confirms Google can find and read the site, the tracked keywords are checking, and the owner's numbers have started arriving. Use during the first month after a site first goes live, and before and after a redesign, a domain move, or a template change. For a batch of new pages, use seo-indexing."
+summary: "Executes post-launch checklists to confirm search engine indexing and tracking."
 category: "technical-crawling-indexing"
 platforms: ["unspecified"]
 platform_source: "none"

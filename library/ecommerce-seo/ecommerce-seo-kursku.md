@@ -1,6 +1,7 @@
 ---
 name: "ecommerce-seo"
 description: "Ecommerce Seo — Skill especializada para otimização de motores de busca em plataformas de comércio eletrônico, abrangendo aspectos técnicos, de conteúdo e autoridade."
+summary: "Optimizes e-commerce platforms for search engines covering technical, content, and authority factors."
 category: "ecommerce-seo"
 platforms: ["unspecified"]
 platform_source: "none"

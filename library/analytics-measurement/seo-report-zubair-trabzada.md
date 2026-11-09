@@ -1,6 +1,7 @@
 ---
 name: "seo-report"
 description: "Generate a markdown SEO report deliverable from a saved DataForSEO-powered audit. Produces a client-ready markdown document with executive summary, scores, key findings, prioritized actions, and supporting data tables — ready to send to a client."
+summary: "Generates a client-ready markdown SEO report from saved audit data."
 category: "analytics-measurement"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

@@ -1,6 +1,7 @@
 ---
 name: "ai-readiness-audit"
 description: "Audit any website for AI agent readiness. Check llms.txt, MCP servers, structured data, semantic HTML, meta quality, and more. Use when optimizing a site for AI agents, checking AI discoverability, or preparing for AI search engines."
+summary: "Audits websites for AI agent readiness, structured data, semantic HTML, and llms.txt discoverability."
 category: "technical-crawling-indexing"
 platforms: ["any-agent"]
 platform_source: "declared"

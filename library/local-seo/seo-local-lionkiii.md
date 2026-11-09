@@ -1,6 +1,7 @@
 ---
 name: "seo-local"
 description: "Local SEO audit covering NAP consistency, local schema markup, Google Business Profile signals, local content, citations, review signals, and mobile optimization. No MCP required — fetches pages via WebFetch. Use when user says \"local SEO\", \"Google Business Profile\", \"GBP\", \"NAP consistency\", \"local citations\", \"local schema\", \"local pack\", \"map pack\"."
+summary: "Conducts local SEO audits covering NAP consistency, schema markup, and Google Business Profile signals."
 category: "local-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

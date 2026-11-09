@@ -1,6 +1,7 @@
 ---
 name: "geo-monitor"
 description: "Monitor GEO visibility over time across six AI answer engines, with a 0-100 trend. \"is ChatGPT mentioning us\""
+summary: "Monitors AI search visibility over time across engines."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "detected"

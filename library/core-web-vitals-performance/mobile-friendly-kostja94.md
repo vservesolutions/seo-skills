@@ -1,6 +1,7 @@
 ---
 name: "mobile-friendly"
 description: "When the user wants to optimize for mobile-first indexing or fix mobile usability. Also use when the user mentions \"mobile-friendly,\" \"mobile-first indexing,\" \"mobile SEO,\" \"responsive design,\" \"mobile adaptation,\" \"mobile viewport,\" \"viewport meta,\" \"touch targets,\" \"font size mobile,\" \"AMP,\" or \"Accelerated Mobile Pages.\" For viewport meta, use page-metadata."
+summary: "Optimizes websites for mobile-first indexing and usability standards."
 category: "core-web-vitals-performance"
 platforms: ["claude-code"]
 platform_source: "declared"

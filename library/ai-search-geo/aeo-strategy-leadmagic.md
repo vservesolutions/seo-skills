@@ -1,6 +1,7 @@
 ---
 name: "aeo-strategy"
 description: "Builds an answer engine optimization (AEO/GEO) plan so content gets cited by ChatGPT, Perplexity, Gemini, Claude, and Google AI Overviews: answer-first structure, entity coverage, citation-worthy data, and AI-visibility measurement. Use when the user wants to rank in AI search results or get their brand cited by AI assistants. Triggers on: \"AEO\", \"answer engine optimization\", \"AI search\", \"generative engine optimization\", \"GEO\", \"optimize for AI search\", \"get cited by ChatGPT\"."
+summary: "Builds answer engine optimization strategies to secure citations in AI search results and assistants."
 category: "ai-search-geo"
 platforms: ["claude-code", "gemini-cli", "windsurf", "copilot"]
 platform_source: "detected"

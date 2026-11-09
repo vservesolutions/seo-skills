@@ -1,6 +1,7 @@
 ---
 name: "ds-seo-weekly"
 description: "Use this skill when the user wants to review organic search performance, identify SEO opportunities, or diagnose ranking drops. Activate when the user says \"SEO report\", \"how is our organic doing\", \"check Search Console\", \"why did we lose rankings\", \"find quick wins for SEO\", \"which queries should we target\", \"impressions dropped\", \"CTR is low\", or any question about organic traffic, rankings, or search visibility. Works best with Dataslayer MCP connected (Search Console + GA4). Also works with manual data."
+summary: "Reviews organic search performance, identifies SEO opportunities, and diagnoses ranking drops."
 category: "analytics-measurement"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

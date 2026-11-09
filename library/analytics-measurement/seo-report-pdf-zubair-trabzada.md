@@ -1,6 +1,7 @@
 ---
 name: "seo-report-pdf"
 description: "Generate a professional, client-ready PDF SEO report from a saved DataForSEO-powered audit. Produces a polished PDF with score gauges, prioritized action plan, keyword opportunity tables, and competitive landscape — ready to send to a client."
+summary: "Produces a professional PDF SEO report deliverable from saved audit data."
 category: "analytics-measurement"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

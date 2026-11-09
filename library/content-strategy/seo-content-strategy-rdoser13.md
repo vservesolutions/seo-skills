@@ -1,6 +1,7 @@
 ---
 name: "seo-content-strategy"
 description: "SEO content strategy assistant for any website or brand. Use when asked to plan, prioritize, or update a content strategy — including mapping blog post ideas to content types, prioritizing posts by funnel stage and keyword intent, auditing a content plan, identifying content gaps, or making strategic decisions about what to write next. Also use when asked about SEO goals, competitor landscape, content clusters, or publishing cadence. Trigger phrases include \"content strategy\", \"what should we write next\", \"content plan\", \"SEO roadmap\", \"content audit\", \"content gap analysis\", \"editorial…"
+summary: "Assists in planning, prioritizing, and auditing SEO content strategies for websites."
 category: "content-strategy"
 platforms: ["claude-code"]
 platform_source: "declared"

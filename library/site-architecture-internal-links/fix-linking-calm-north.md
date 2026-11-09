@@ -1,6 +1,7 @@
 ---
 name: "fix-linking"
 description: "Design or audit internal link structure for a website. Use when the user asks about internal linking, link architecture, orphan pages, PageRank flow, anchor text, site structure, silo architecture, or why pages aren't ranking despite good content. For external link building, see build-links."
+summary: "Audits and designs internal link structures to optimize PageRank flow and address orphan pages."
 category: "site-architecture-internal-links"
 platforms: ["unspecified"]
 platform_source: "none"

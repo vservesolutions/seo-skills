@@ -1,6 +1,7 @@
 ---
 name: "local-seo"
 description: "Local SEO and Google Business Profile audit: diagnose why a business isn't ranking in the local pack / map results and produce a fix plan. Covers GBP completeness, NAP (name/address/phone) consistency across the site and citations, local pack and \"near me\" ranking factors, review velocity and responses, local landing pages, service-area pages, and LocalBusiness JSON-LD. Use whenever the user asks about local rankings, map results, Google Maps ranking, NAP consistency, store/branch pages, or multi-location SEO. Trigger on: \"local SEO\", \"Google Business Profile\", \"GBP audit\", \"rank on Google…"
+summary: "Diagnoses local pack rankings and Google Business Profile optimization factors."
 category: "local-seo"
 platforms: ["claude-code"]
 platform_source: "detected"

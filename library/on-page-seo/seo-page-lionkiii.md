@@ -1,6 +1,7 @@
 ---
 name: "seo-page"
 description: "Deep single-page SEO analysis covering on-page elements, content quality, technical meta tags, schema, images, and performance. Enhanced with live Ahrefs (page authority, referring domains) and GSC (search performance, top keywords) data when MCPs are available. Use when user says \"analyze this page\", \"check page SEO\", or provides a single URL for review."
+summary: "Performs comprehensive single-page SEO analysis incorporating on-page, technical, and authority metrics."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

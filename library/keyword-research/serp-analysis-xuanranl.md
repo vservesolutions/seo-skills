@@ -1,6 +1,7 @@
 ---
 name: "serp-analysis"
 description: "Identifies SERP features for a keyword (featured_snippet / video / image_pack / shopping / AI_overview / PAA / knowledge_panel / site_links). Use to inform format selection and content planning. Triggered when user requests SERP analysis, asks \"what's the SERP for X\", or before format selection in /article pipeline."
+summary: "This skill identifies SERP features and search intent to inform format selection."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

@@ -1,6 +1,7 @@
 ---
 name: "signallayer-backlinks-client"
 description: "使用 SignalLayer.io 的真实 OpenClaw API 创建、查询和分页管理外链 Campaign。适用于用户要求配置 SignalLayer API Key、查询积分、创建外链任务、查看任务状态或列出 Campaign；客户端未指定数量时默认 200，但服务端 linkCount 始终必填。"
+summary: "This skill manages backlink campaigns via the SignalLayer API."
 category: "link-building"
 platforms: ["openclaw"]
 platform_source: "detected"

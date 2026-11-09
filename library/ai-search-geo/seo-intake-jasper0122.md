@@ -1,6 +1,7 @@
 ---
 name: "seo-intake"
 description: "Run and read the SEO intake pipeline. Pulls the organic keyword set for your domain and for each competitor through the Monid tool layer, computes the gap locally, and routes every keyword to the one action that can help it (write-new / striking / build-depth / defend / noise). Use when asked to refresh the SEO queue, decide what content to commission, check keyword gaps or rankings, or read the intake. Triggers \"SEO queue\", \"keyword gap\", \"what should we write\", \"seo intake\", \"rankings\", \"competitor keywords\"."
+summary: "Pulls organic keyword sets and competitor data to compute keyword gaps and actions."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared"

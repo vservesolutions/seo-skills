@@ -1,6 +1,7 @@
 ---
 name: "linking-and-schema"
 description: "Generate an internal-linking plan and JSON-LD structured data from a brand's topical map and entity profile. Use whenever the user asks about internal links, anchor text, site structure, linking strategy, schema markup, structured data, or JSON-LD — or right after new content is drafted or published. Produces an actionable link checklist (with varied anchors) and validated per-node schema files. Triggers on linking/schema intent broadly."
+summary: "Generates internal-linking plans and validated JSON-LD schema markup from a topical map."
 category: "structured-data"
 platforms: ["claude-code"]
 platform_source: "declared"

@@ -1,6 +1,7 @@
 ---
 name: "30x-seo-keywords"
 description: "Comprehensive keyword research and analysis using DataForSEO API. Discover keyword opportunities, analyze search volume and difficulty, find related keywords, track rankings, and identify content gaps. Use when user says \"keywords\", \"keyword research\", \"search volume\", \"keyword difficulty\", \"ranking keywords\", \"keyword ideas\", \"keyword suggestions\", or \"content gap\"."
+summary: "Conducts keyword research and analyzes search volume using the DataForSEO API."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

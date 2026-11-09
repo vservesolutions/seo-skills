@@ -1,6 +1,7 @@
 ---
 name: "seo-link-strategy"
 description: "Research backlink opportunities, record contact evidence, and generate personalized local outreach drafts from user-provided product and contact data. Use for backlink planning and draft preparation; never send messages or submit forms without explicit authorization for the exact target and payload."
+summary: "This skill researches backlink opportunities and drafts personalized outreach messages."
 category: "link-building"
 platforms: ["unspecified"]
 platform_source: "none"

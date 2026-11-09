@@ -1,6 +1,7 @@
 ---
 name: "onpage-optimization"
 description: "Validates heading hierarchy, keyword density and placement, and internal/external link structure. Use when auditing on-page SEO factors for an HTML page."
+summary: "This skill validates heading hierarchy, keyword density, and internal link structure for HTML pages."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "declared"

@@ -1,6 +1,7 @@
 ---
 name: "seo-llms-txt"
 description: "Generates specification-compliant llms.txt and llms-full.txt files from website sitemaps and content collections to optimize discovery by AI models (Perplexity, ChatGPT, Claude, Gemini)."
+summary: "Generates specification-compliant llms.txt and llms-full.txt files to aid AI discovery."
 category: "ai-search-geo"
 platforms: ["claude-code", "windsurf", "antigravity", "gemini-cli"]
 platform_source: "declared+detected"

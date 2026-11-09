@@ -1,6 +1,7 @@
 ---
 name: "content-brief-generator"
 description: "Generate entity-aware, Koray-style content briefs from a topical-map node or any target query — a semantically ordered heading skeleton with entity/attribute tags, internal-link targets, snippet target, word budgets, locked-facts references, and a do-not-fabricate list. Use whenever the user asks for a content brief, an article outline, writer instructions, \"brief for X\", or wants to start writing an article that exists in the topical map. Runs SERP recon first. Triggers on outline/brief intent broadly, not just the word \"brief\"."
+summary: "Generates entity-aware content briefs and article outlines based on topical maps and target queries."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared"

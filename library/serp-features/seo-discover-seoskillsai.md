@@ -1,6 +1,7 @@
 ---
 name: "seo-discover"
 description: "Google Discover optimization, Media RSS XML feed generation, and First-Exposure AI Editorial Byline disclosure protocol for high-traffic editorial reach."
+summary: "Optimizes content for Google Discover through RSS feeds and editorial markup."
 category: "serp-features"
 platforms: ["claude-code", "windsurf", "antigravity"]
 platform_source: "declared"

@@ -1,6 +1,7 @@
 ---
 name: "seo-content"
 description: "Content quality and E-E-A-T analysis with AI citation readiness assessment. Enhanced with live Ahrefs (actual keyword rankings, positions) and GSC (search query performance) data to validate static E-E-A-T analysis with real user behavior. Use when user says \"content quality\", \"E-E-A-T\", \"content analysis\", \"readability check\", \"thin content\", or \"content audit\"."
+summary: "Analyzes content quality and E-E-A-T signals validated with Ahrefs and Search Console data."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

@@ -1,6 +1,7 @@
 ---
 name: "seo-content-gap"
 description: "Find keywords competitors rank for that you don't, via the DataForSEO Labs domain_intersection endpoint. Surfaces the highest-leverage content opportunities sorted by search volume and the competitor's ranking position, with cross-competitor consensus signals."
+summary: "Finds competitor keyword gaps using the DataForSEO Labs domain intersection endpoint."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

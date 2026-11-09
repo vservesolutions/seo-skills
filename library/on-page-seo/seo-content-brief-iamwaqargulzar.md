@@ -1,6 +1,7 @@
 ---
 name: "seo-content-brief"
 description: "Generate competitive SEO content briefs with per-section word counts, competitor scoring, keyword density guidance, and page-type templates. Supports both new page briefs and improve-existing-page briefs. Use when user says \"content brief\", \"write a brief\", \"content outline\", \"blog brief\", \"service page brief\", \"brief for\", \"writing brief\", \"content plan\", or \"outline for\"."
+summary: "Generates competitive SEO content briefs with word counts, competitor scoring, and keyword guidance."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "detected"

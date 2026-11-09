@@ -1,6 +1,7 @@
 ---
 name: "seo-competitor-pages"
 description: "Generate SEO-optimized competitor comparison and alternatives pages. Covers \"X vs Y\" layouts, \"alternatives to X\" pages, feature matrices, schema markup, and conversion optimization. Use when user says \"comparison page\", \"vs page\", \"alternatives page\", \"competitor comparison\", \"X vs Y\", \"alternatives page\", \"versus page\", \"comparison matrix\", or \"feature comparison\"."
+summary: "Generates SEO-optimized competitor comparison and alternative landing pages with schema markup."
 category: "structured-data"
 platforms: ["claude-code"]
 platform_source: "declared"

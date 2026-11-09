@@ -1,6 +1,7 @@
 ---
 name: "content-brief"
 description: "Content brief template and creation methodology for SEO-optimized content. Use when preparing briefs for writers or planning new content pieces."
+summary: "Creates SEO-optimized content briefs for writers and planning purposes."
 category: "on-page-seo"
 platforms: ["claude-code", "codex", "cursor"]
 platform_source: "declared"

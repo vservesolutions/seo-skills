@@ -1,6 +1,7 @@
 ---
 name: "backlink-gap"
 description: "Find backlink gap domains linking to competitors, not you, scored by script. \"who links to our competitors but not us\""
+summary: "Identifies competitor backlink gaps."
 category: "link-building"
 platforms: ["claude-code"]
 platform_source: "detected"

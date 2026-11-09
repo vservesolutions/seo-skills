@@ -1,6 +1,7 @@
 ---
 name: "internal-links"
 description: "Audits and designs internal links for a site, page family or article. Use for orphan pages, link equity, click depth, hubs, anchor text, old-post backfill and product navigation."
+summary: "Audits and designs internal link structures to manage link equity and orphan pages."
 category: "site-architecture-internal-links"
 platforms: ["claude-code"]
 platform_source: "declared"

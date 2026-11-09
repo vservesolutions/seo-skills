@@ -1,6 +1,7 @@
 ---
 name: "programmatic-seo"
 description: "Designs scaled content strategies producing hundreds or thousands of pages from structured data. Covers integrations"
+summary: "Designs scaled content strategies producing numerous pages from structured data."
 category: "structured-data"
 platforms: ["claude-code"]
 platform_source: "declared"

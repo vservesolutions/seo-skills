@@ -54,7 +54,7 @@ test('no key means the whole pass is a no-op', async () => {
 test('gemini is the default endpoint and groq can be swapped in by env', () => {
   const gemini = llmConfig({ SEO_LLM_KEY: 'k' });
   assert.equal(gemini.base, 'https://generativelanguage.googleapis.com/v1beta/openai');
-  assert.equal(gemini.model, 'gemini-2.5-flash-lite');
+  assert.equal(gemini.model, 'gemini-3.5-flash-lite');
 
   const groq = llmConfig({
     SEO_LLM_KEY: 'k',
@@ -66,7 +66,7 @@ test('gemini is the default endpoint and groq can be swapped in by env', () => {
 });
 
 test('items are batched and every verdict is recorded', async () => {
-  const config = { ...llmConfig({ SEO_LLM_KEY: 'k' }), batchSize: 4, maxItems: 100 };
+  const config = { ...llmConfig({ SEO_LLM_KEY: 'k', SEO_LLM_DELAY: '0' }), batchSize: 4, maxItems: 100 };
   const items = Array.from({ length: 10 }, (_, index) => item(String(index)));
   const sizes = [];
   const outcome = await auditSkills(items, {
@@ -107,7 +107,7 @@ test('a cached fingerprint is never sent again', async () => {
 });
 
 test('malformed and chatty replies are tolerated instead of crashing', async () => {
-  const config = { ...llmConfig({ SEO_LLM_KEY: 'k' }), batchSize: 1 };
+  const config = { ...llmConfig({ SEO_LLM_KEY: 'k', SEO_LLM_DELAY: '0' }), batchSize: 1 };
   let call = 0;
   const outcome = await auditSkills([item('a'), item('b')], {
     config,
@@ -129,8 +129,8 @@ test('malformed and chatty replies are tolerated instead of crashing', async () 
   assert.equal(outcome.results.get('b').summary, '');
 });
 
-test('a 429 is retried once, then a hard failure is reported without losing the run', async () => {
-  const config = { ...llmConfig({ SEO_LLM_KEY: 'k' }), batchSize: 5 };
+test('a 429 is retried, then a hard failure is reported without losing the run', async () => {
+  const config = { ...llmConfig({ SEO_LLM_KEY: 'k', SEO_LLM_DELAY: '0' }), batchSize: 5 };
   let calls = 0;
   const outcome = await auditSkills([item('a')], {
     config,
@@ -161,6 +161,20 @@ test('a 429 is retried once, then a hard failure is reported without losing the 
   });
   assert.equal(failing.results.size, 0);
   assert.match(failing.errors[0], /401/);
+});
+
+test('verdicts are aligned by position when the model echoes different ids', async () => {
+  const config = { ...llmConfig({ SEO_LLM_KEY: 'k', SEO_LLM_DELAY: '0' }), batchSize: 2 };
+  const logs = [];
+  const outcome = await auditSkills([item('a'), item('b')], {
+    config,
+    categories,
+    log: (line) => logs.push(line),
+    fetchImpl: async () => reply(['first', 'second'])
+  });
+  assert.equal(outcome.results.size, 2, 'a same-length reply is not discarded');
+  assert.equal(outcome.results.get('a').seo, true);
+  assert.match(logs[0], /aligned 2 verdicts by position/);
 });
 
 test('parseResults ignores malformed rows and clamps confidence', () => {

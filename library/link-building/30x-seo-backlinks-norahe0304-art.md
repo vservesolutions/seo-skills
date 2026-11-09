@@ -1,6 +1,7 @@
 ---
 name: "30x-seo-backlinks"
 description: "Comprehensive backlink analysis using DataForSEO API. Analyze backlink profiles, find link building opportunities, detect toxic links, compare with competitors, and identify link gaps. Use when user says \"backlinks\", \"link building\", \"referring domains\", \"link profile\", \"toxic links\", \"link gap\", \"competitor links\", or \"domain authority\"."
+summary: "Analyzes backlink profiles and link opportunities using the DataForSEO API."
 category: "link-building"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

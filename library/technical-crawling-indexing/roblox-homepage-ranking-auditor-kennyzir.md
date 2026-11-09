@@ -1,6 +1,7 @@
 ---
 name: "roblox-homepage-ranking-auditor"
 description: "Audit a Roblox or game-site homepage against the RB Auto Golden Homepage model. Use when Codex must inspect a live homepage or repository, identify the primary player job and main engine, score structural ranking potential across eight dimensions, detect empty query modules, weak information gain, root/child intent conflicts, duplicate full tools, generic content, and missing P0 internal links, then return evidence-backed PASS/REMEDIATE/BLOCKED and minimal repair orders. Do not use for generic site-wide SEO audits, backlink analysis, traffic forecasting, or factual accuracy scoring alone."
+summary: "This skill audits game site homepages against structural ranking and information gain models."
 category: "technical-crawling-indexing"
 platforms: ["unspecified"]
 platform_source: "none"

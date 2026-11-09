@@ -1,6 +1,7 @@
 ---
 name: "openseo-keyword-research"
 description: "Discover keyword opportunities with MEASURED volume, keyword difficulty, CPC, and intent from OpenSEO, then write them into brand/keyword-plan.md. Use this skill whenever someone asks for keyword difficulty, KD, search volume, keyword ideas with metrics, striking-distance opportunities from Search Console, or SERP-validated keyword priorities. For qualitative research without an OpenSEO connection, use mktg's keyword-research instead (metrics will be unknown). Triggers: \"keyword difficulty\", \"search volume\", \"keyword opportunities\", \"striking distance keywords\", \"measured keyword research\"."
+summary: "Discovers keyword opportunities with measured metrics and intent data."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "detected"

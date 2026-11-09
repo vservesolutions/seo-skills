@@ -1,6 +1,7 @@
 ---
 name: "restaurant-local-seo"
 description: "Local SEO audit — \"best [cuisine] near me\" targeting, Google Business Profile optimization, NAP consistency, citation building, restaurant schema markup"
+summary: "This skill audits and optimizes local search visibility and Google Business Profiles specifically for restaurants."
 category: "local-seo"
 platforms: ["claude-code"]
 platform_source: "declared"

@@ -1,6 +1,7 @@
 ---
 name: "seo-audit-pdf"
 description: "Turn a finished SEO + GEO audit into a client-ready PDF report with a fixed, polished layout. Input: the findings of an audit (usually from seo-geo-audit and the skills it hands off to). Output: one A4 PDF where no block is ever split across two pages, with a verdict, measured strengths, top priorities, every finding by category, an ordered action plan with no dates or delays, what was not verified, and the method. Use when an audit must be sent as a PDF, attached to an email, forwarded to a developer, or when the user asks for an audit report, a PDF audit, or a client deliverable."
+summary: "Compiles finished SEO and GEO audit findings into a client-ready, formatted PDF report."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared"

@@ -1,6 +1,7 @@
 ---
 name: "image-seo"
 description: "Image Seo — Skill especializada para otimizar imagens para mecanismos de busca, melhorando a visibilidade e performance."
+summary: "Optimizes images for search engines to improve visibility and performance."
 category: "core-web-vitals-performance"
 platforms: ["unspecified"]
 platform_source: "none"

@@ -1,6 +1,7 @@
 ---
 name: "llms-txt"
 description: "Generate and maintain llms.txt and llms-full.txt — the emerging standard telling LLM-powered crawlers what content matters most on your site. Use when the user asks \"llms.txt\", \"llms-full.txt\", \"LLM-friendly file\", \"tell AI crawlers about my site\", \"AI-readable manifest\", \"site summary for LLMs\", \"llms file\", \"generative AI sitemap\", or wants their site optimized for AI crawler ingestion."
+summary: "Generates and maintains llms.txt and llms-full.txt files to guide AI crawlers on a website."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared"

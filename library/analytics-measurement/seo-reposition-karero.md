@@ -1,6 +1,7 @@
 ---
 name: "seo-reposition"
 description: "Reposition a LIVE site whose category/keyword phrasing is not ranking or is being mis-filed by Google/LLMs into unrelated concepts (GSC shows brand-only demand; category pages pull ~0 non-brand impressions). Method proven on two sites: SERP trap-test every candidate phrase → find the winnable wedge → rewording plan with a target-vs-copy rule → GUARD TESTS FIRST (red→green ratchet) → phased gated implementation → ship → schedule a predicted-vs-actual grading run. Review at the plan and PR gates is the owner's choice (the phase gates state the options). Trigger phrases: \"reposition the site's…"
+summary: "Repositions live websites suffering from misfiled category rankings or low non-brand organic demand."
 category: "analytics-measurement"
 platforms: ["claude-code"]
 platform_source: "detected"

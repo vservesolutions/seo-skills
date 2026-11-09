@@ -1,6 +1,7 @@
 ---
 name: "schema-fix-writer"
 description: "Propose schema markup changes from page type and SERP context. Use when Codex needs to write or fix structured data for better SERP display and rich results eligibility."
+summary: "Proposes and writes schema markup changes to improve SERP display and rich results."
 category: "structured-data"
 platforms: ["unspecified"]
 platform_source: "none"

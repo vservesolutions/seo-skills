@@ -1,6 +1,7 @@
 ---
 name: "content-gap-analysis"
 description: "Identify 5-framework content gaps (SEO gap / AI gap / FAQ gap / Format gap / Authority gap) from research.json. Returns prioritized opportunity list for outline-architect."
+summary: "Identifies multi-framework content gaps from research data."
 category: "serp-features"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

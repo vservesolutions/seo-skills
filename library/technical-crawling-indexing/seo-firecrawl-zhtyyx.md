@@ -1,6 +1,7 @@
 ---
 name: "seo-firecrawl"
 description: "Full-site crawling, scraping, and site mapping via Firecrawl MCP. Use when user says \"crawl site\", \"map site\", \"full crawl\", \"find all pages\", \"broken links\", \"site structure\", \"discover pages\", \"JS rendering\", or needs site-wide analysis."
+summary: "Performs full-site crawling, site mapping, and structural analysis via Firecrawl."
 category: "technical-crawling-indexing"
 platforms: ["codex"]
 platform_source: "declared"

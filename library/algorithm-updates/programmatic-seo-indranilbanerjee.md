@@ -1,6 +1,7 @@
 ---
 name: "programmatic-seo"
 description: "Plan or audit programmatic SEO pages at scale, gated against thin content. \"audit our location pages\""
+summary: "Plans and audits programmatic SEO page generation."
 category: "algorithm-updates"
 platforms: ["claude-code"]
 platform_source: "detected"

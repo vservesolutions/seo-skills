@@ -1,6 +1,7 @@
 ---
 name: "content-seo"
 description: "When the user wants to brief, write, review, optimize, or publish public SEO content. Also use for article outlines, blog posts, landing-page copy, refreshes, and ranking-oriented editorial drafts."
+summary: "This skill briefs, writes, reviews, and optimizes public SEO content and editorial drafts."
 category: "link-building"
 platforms: ["claude-code"]
 platform_source: "declared"

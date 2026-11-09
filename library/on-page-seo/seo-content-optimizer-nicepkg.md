@@ -1,6 +1,7 @@
 ---
 name: "seo-content-optimizer"
 description: "Optimize content for search engines with keyword analysis, readability scoring, meta descriptions, and competitor comparison. Use this when users want to improve SEO, optimize blog posts, or analyze content for search performance."
+summary: "Optimizes content for search engines using keyword analysis and competitor comparisons."
 category: "on-page-seo"
 platforms: ["claude-code", "codex", "cursor"]
 platform_source: "declared"

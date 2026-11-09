@@ -1,6 +1,7 @@
 ---
 name: "seo-content-strategy"
 description: "Turn customer questions and observed search demand into a prioritized content brief with original evidence, internal links, and a measurement plan. Use for content planning or improving an existing resource; technical blockers should be diagnosed first."
+summary: "Turns search demand into prioritized content briefs with internal links and measurement plans."
 category: "content-strategy"
 platforms: ["unspecified"]
 platform_source: "none"

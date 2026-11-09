@@ -1,6 +1,7 @@
 ---
 name: "seo-audit"
 description: "SEO 诊断专家,基于 Google、Ahrefs、微软搜索指南设计的 92 项检查清单。 触发词:SEO审计、SEO诊断、网站SEO检查、为什么排名不好、技术SEO检查、页面SEO、E-E-A-T检查、内容质量分析。 输入一个网址,自动执行技术SEO(29项)、页面元素(27项)、内容质量与E-E-A-T(33项)、本地SEO(3项)四维度诊断,支持智能语言检测、站点分类与动态选页,生成中英文报告。"
+summary: "Executes a comprehensive multi-dimensional SEO audit and generates a diagnostic report."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

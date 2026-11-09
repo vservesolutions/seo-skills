@@ -1,6 +1,7 @@
 ---
 name: "competitor-content-analysis"
 description: "Use this skill to analyze what a competitor publishes, which content earns estimated traffic, the SEO plays they use, and where gaps exist. Trigger it before creating or refreshing a content strategy or when investigating a competitor's organic content performance."
+summary: "Analyzes competitor content performance, traffic estimates, and SEO strategies."
 category: "content-strategy"
 platforms: ["claude-code"]
 platform_source: "declared"

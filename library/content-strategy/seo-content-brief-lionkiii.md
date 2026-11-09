@@ -1,6 +1,7 @@
 ---
 name: "seo-content-brief"
 description: "Generate a structured SEO content brief for a keyword using live Ahrefs SERP data and optional GSC overlay. Use when user says \"content brief\", \"write a brief for\", \"content plan for keyword\", \"what should I write about\", \"brief for article\", \"content strategy for keyword\", \"help me write content for\", or \"create a brief for\"."
+summary: "Creates structured SEO content briefs using live Ahrefs SERP and Search Console data."
 category: "content-strategy"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

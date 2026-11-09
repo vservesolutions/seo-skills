@@ -1,6 +1,7 @@
 ---
 name: "geo"
 description: "Analyze and score only a page's AI-search visibility (GEO/AEO) — answer extractability, fact density, AI-crawler access and Google AI-feature snippet eligibility, entity linking, AI discovery files, and agent-readiness — and report an AI Visibility score with a citability breakdown, plus optional unscored probes (web-search presence, Search Console generative-AI impressions). Read-only. Use for \"will AI engines cite this?\", GEO/AEO, or ChatGPT/Perplexity/Google AI Overviews/Gemini optimization."
+summary: "Analyzes and scores a page's AI-search visibility, answer extractability, fact density, and crawler access."
 category: "ai-search-geo"
 platforms: ["claude-code", "codex"]
 platform_source: "declared+detected"

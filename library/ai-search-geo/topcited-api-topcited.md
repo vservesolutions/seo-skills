@@ -1,6 +1,7 @@
 ---
 name: "topcited-api"
 description: "Drive a TopCited account with the `topcited` CLI — brands, competitors, AI-visibility monitoring, site audits, keyword/prompt/content recommendations, reports, usage — with `topcited api` as the raw escape hatch to the TopCited API. Use whenever the task involves reading or changing data in a TopCited account, or measuring a brand's visibility in search engines and AI assistants."
+summary: "Monitors brand visibility in search engines and AI assistants using the TopCited API."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared"

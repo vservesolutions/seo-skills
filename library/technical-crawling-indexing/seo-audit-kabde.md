@@ -1,6 +1,7 @@
 ---
 name: "seo-audit"
 description: "Full website SEO audit with parallel subagent delegation. Detects business type, delegates to specialists, generates health score. Use when user says audit, full SEO check, analyze my site, or website health check."
+summary: "Performs comprehensive website SEO audits using specialized subagents to generate health scores."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

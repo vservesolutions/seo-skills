@@ -1,6 +1,7 @@
 ---
 name: "blog-locale-audit"
 description: "Read-only audit of a folder of existing multilingual blog posts: translation coverage, parity, hreflang and canonical consistency, meta-tag parity, and stale translations, with a prioritized report. Use when the user says \"locale audit\", \"check translations\", \"multilingual audit\", \"hreflang check\", \"Uebersetzungen pruefen\" about posts that already exist. Not for creating or fixing translations (blog-translate, blog-localize, blog-multilingual) or for a site-wide technical hreflang crawl (claude-seo seo-hreflang)."
+summary: "This skill audits multilingual blog posts for translation coverage, hreflang tags, and canonical consistency."
 category: "local-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

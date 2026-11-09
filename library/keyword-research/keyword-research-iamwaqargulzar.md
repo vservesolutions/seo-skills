@@ -1,6 +1,7 @@
 ---
 name: "keyword-research"
 description: "Use when the user asks to \"find keywords\", \"挖词\", or \"搜什么词\"; prioritizes search volume, keyword difficulty, intent, and topic clusters from provided or connected data. Not for competitor-relative coverage gaps — use content-gap-analysis. 关键词研究/内容选题"
+summary: "Identifies search volume, difficulty, intent, and topic clusters for target keywords."
 category: "keyword-research"
 platforms: ["unspecified"]
 platform_source: "none"

@@ -1,6 +1,7 @@
 ---
 name: "ultimate-seo-geo"
 description: "Audits and optimizes websites for search engine visibility (SEO) and AI search citation (GEO), covering technical health, E-E-A-T content scoring, domain authority, structured data, rich results, and entity signals. Use when running SEO audits, diagnosing traffic drops or ranking losses, generating Schema.org JSON-LD, checking Core Web Vitals, crawlability, robots.txt, sitemaps, hreflang, backlinks, planning content strategy or site migrations, fixing indexing issues, or optimizing for AI Overviews, ChatGPT, and Perplexity. NOT for paid ads (PPC/SEM), social media strategy, email marketing…"
+summary: "Audits websites for search engine visibility and AI search citation performance."
 category: "ai-search-geo"
 platforms: ["claude-code", "codex", "gemini-cli", "windsurf"]
 platform_source: "detected"

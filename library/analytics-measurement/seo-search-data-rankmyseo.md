@@ -1,6 +1,7 @@
 ---
 name: "seo-search-data"
 description: "How to read Search Console and GA4 numbers, directly or through RankMySEO, and what they can and cannot tell an owner. Use when the owner asks how the site is doing, what got clicks, which pages people open, or before drawing any conclusion from the numbers."
+summary: "Interprets metrics from Google Search Console and Google Analytics 4 to evaluate search performance."
 category: "analytics-measurement"
 platforms: ["unspecified"]
 platform_source: "none"

@@ -1,6 +1,7 @@
 ---
 name: "schema-markup"
 description: "When the user wants to add or optimize structured data (Schema.org, JSON-LD). Also use when the user mentions \"schema,\" \"structured data,\" \"JSON-LD,\" \"rich results,\" \"rich snippets,\" \"Google rich snippets,\" \"featured snippet schema,\" \"add schema to page,\" \"missing structured data,\" \"schema validation error,\" \"Schema Markup Validator,\" \"Google Rich Results Test,\" \"FAQ schema,\" \"Article schema,\" \"Organization schema,\" \"JobPosting,\" \"HowTo,\" \"Event,\" \"SoftwareApplication,\" \"BreadcrumbList,\" \"WebSite,\" \"Recipe,\" \"Product,\" or \"Dataset.\" For SERP feature types and zero-click patterns, use…"
+summary: "Assists in adding and optimizing structured data and JSON-LD schema for search engines."
 category: "structured-data"
 platforms: ["unspecified"]
 platform_source: "none"

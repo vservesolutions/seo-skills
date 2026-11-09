@@ -1,6 +1,7 @@
 ---
 name: "seo-audit"
 description: "Full website SEO audit with parallel subagent delegation. Crawls up to 500 pages, detects business type, delegates to up to 15 specialists (8 always + 7 conditional), generates health score. Use when user says audit, full SEO check, analyze my site, or website health check."
+summary: "This skill performs a full website SEO audit using parallel subagent delegation for up to 500 pages."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

@@ -1,6 +1,7 @@
 ---
 name: "setup-llms-txt"
 description: "Create and configure llms.txt for any website or project. Analyzes project structure, generates llms.txt and llms-full.txt, places files in the correct location for your framework. Use when setting up llms.txt, improving AI discoverability, or making a site LLM-friendly."
+summary: "Creates and configures llms.txt and llms-full.txt files to improve AI discoverability."
 category: "ai-search-geo"
 platforms: ["any-agent"]
 platform_source: "declared"

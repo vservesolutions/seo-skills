@@ -1,6 +1,7 @@
 ---
 name: "keyword-research"
 description: "Perform keyword research using the SemRush API. Use when the user says \"find keywords\", \"keyword research\", \"what should I rank for\", \"keyword ideas\", \"search volume\", \"keyword difficulty\", \"topic clusters\", \"content gaps\", or asks about SEO keywords for a topic or niche."
+summary: "Performs keyword research and search volume analysis using the Semrush API."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared"

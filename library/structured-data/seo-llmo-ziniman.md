@@ -1,6 +1,7 @@
 ---
 name: "seo-llmo"
 description: "Use this skill whenever the user is building, reviewing, or launching a public website or web app; SEO, LLMO, and agent-readiness are baseline for every public site. Covers meta tags, Open Graph, JSON-LD, robots.txt for AI search and training crawlers (OAI-SearchBot, GPTBot, Claude-SearchBot, ClaudeBot, PerplexityBot, Google-Extended) with Content-Signal, sitemap.xml, llms.txt, Markdown content negotiation, Link headers, A2A Agent Card, MCP Server Card and AI Catalog discovery, Agent Skills index, pricing.md, and the \"explicit absence beats silence\" rule. Trigger for marketing sites, landing…"
+summary: "Handles meta tags, Open Graph, JSON-LD, and robots.txt for AI search and training crawlers."
 category: "structured-data"
 platforms: ["claude-code", "windsurf"]
 platform_source: "declared"

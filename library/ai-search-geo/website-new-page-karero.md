@@ -1,6 +1,7 @@
 ---
 name: "website-new-page"
 description: "Add a page to a site, or rewrite one, so it is worth reading and findable before it is built. Writes one page document (a brief, then the full draft), has a fresh pair of eyes judge it for the reader, for search and AI answers, and for originality, takes the owner's go on the exact sentences, builds, then checks the build kept the approved text. It calls the checks other skills own (website-seo-geo, ai-seo, seo-audit, copywriting, search-console-insights, website-review) and does not repeat them. Use for a new page, a new article, a page rewrite, or \"is this page any good\". Trigger phrases…"
+summary: "This skill helps draft, review, and build new web pages optimized for readers and search engines."
 category: "ai-search-geo"
 platforms: ["codex"]
 platform_source: "detected"

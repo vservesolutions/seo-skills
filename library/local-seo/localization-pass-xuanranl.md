@@ -1,6 +1,7 @@
 ---
 name: "localization-pass"
 description: "7-dimension locale adaptation (currency / units / spelling-dialect / idioms / regulations / tone / date-format) + multilingual audit (translation coverage matrix / hreflang validation / SEO parity / freshness check). Triggered when state.brief.target_market_locale != en-US, or via /locale-audit on existing multilingual directory."
+summary: "This skill adapts content for specific locales and validates multilingual setup and hreflang."
 category: "local-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

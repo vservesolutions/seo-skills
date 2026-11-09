@@ -1,6 +1,7 @@
 ---
 name: "aeo-audit"
 description: "Run a one-time AEO audit of six AI answer engines, scored per surface. \"check our AI search visibility\""
+summary: "Audits visibility across six AI answer engines."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "detected"

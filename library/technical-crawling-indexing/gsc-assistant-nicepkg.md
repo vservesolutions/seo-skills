@@ -1,6 +1,7 @@
 ---
 name: "gsc-assistant"
 description: "Google Search Console indexing assistant. Use when the user wants to track page indexing status, compare sitemap against GSC indexed pages, manage submission tracking, or move false positives (pages indexed per URL Inspection but not yet in GSC export) to the indexed list. Maintains two tracking files (indexed.md, to-index.md) with prioritization support."
+summary: "Manages and tracks page indexing status against Google Search Console data."
 category: "technical-crawling-indexing"
 platforms: ["claude-code", "codex", "cursor"]
 platform_source: "declared"

@@ -1,6 +1,7 @@
 ---
 name: "audit"
 description: "Run the Growth OS growth audit — SEO, page speed / Core Web Vitals, GEO (AI visibility), competitors, and a live GA4/GSC baseline — and write the results as an \"## Audit Findings\" section in the context hub. Use when someone runs /growth-os:audit, says \"audit my growth,\" \"how's my SEO,\" \"give me a growth report,\" \"what should I fix,\" or after onboarding to get a first read on the business."
+summary: "Executes a comprehensive growth audit covering SEO, Core Web Vitals, AI visibility, and traffic baselines."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared"

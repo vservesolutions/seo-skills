@@ -1,6 +1,7 @@
 ---
 name: "local-seo-optimizer"
 description: "Audits local SEO presence including Google Business Profile completeness, local search ranking factors, NAP consistency, citation sources, and local content optimization. Provides actionable recommendations for improving local search visibility. Use when the user mentions local SEO, Google Business Profile, GBP, Google Maps, local search, map pack, NAP consistency, or local business optimization."
+summary: "This skill audits local SEO factors including Google Business Profile completeness and NAP consistency."
 category: "local-seo"
 platforms: ["claude-code"]
 platform_source: "declared"

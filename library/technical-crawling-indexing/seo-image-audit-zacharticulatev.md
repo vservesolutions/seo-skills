@@ -1,6 +1,7 @@
 ---
 name: "seo-image-audit"
 description: "Audit a page's images for SEO and performance — alt-text quality (missing, linked-empty, filename, stuffed, reused), modern formats (WebP/AVIF), responsive srcset/sizes, LCP loading (lazy hero, fetchpriority), CLS-safe dimensions, real byte and pixel budgets read from the image files, and og:image — scored, with ready-to-run conversion commands. Uses DataForSEO for live image-SERP rankings when connected; otherwise audits from page fetch and parsing alone. Trigger when the user says \"image seo\", \"image audit\", \"alt text\", \"image optimization\", \"convert to webp\", \"convert to avif\", or \"image…"
+summary: "Audits webpage images for SEO alt-text quality, modern formats, responsive loading, and performance budgets."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

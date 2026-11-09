@@ -1,6 +1,7 @@
 ---
 name: "market-seo"
 description: "SEO audit covering on-page, technical, content quality (E-E-A-T), and AI search / GEO readiness for Google AI Overviews, ChatGPT, and Perplexity. Invoke whenever the user says \"SEO\", \"rank higher\", \"Google traffic\", \"meta tags\", \"schema\", \"llms.txt\", or runs `/market seo <url>`. Produces SEO-AUDIT.md with prioritized fixes and before/after examples."
+summary: "Conducts comprehensive SEO audits covering technical factors, content quality, and AI search readiness."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "declared"

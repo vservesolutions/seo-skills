@@ -1,6 +1,7 @@
 ---
 name: "seo-local"
 description: "Audit and generate Local SEO signals for local-business pages — verify LocalBusiness JSON-LD, NAP consistency, geo coordinates, openingHoursSpecification, and service-area, advise on Google Business Profile alignment, and produce ready-to-inject LocalBusiness JSON-LD. Module M19 (conditional). Feeds both the Search SEO and AI Visibility scores."
+summary: "Verifies local business structured data, NAP consistency, and Google Business Profile alignment."
 category: "local-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

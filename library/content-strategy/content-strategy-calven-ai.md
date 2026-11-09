@@ -1,6 +1,7 @@
 ---
 name: "content-strategy"
 description: "Decide what content to make next quarter: pillars, clusters, formats and gaps against keywords, AI prompts and the inventory. Use when \"content strategy\", \"what should we write\", \"content gaps\"."
+summary: "Develops quarterly content strategies including topic clusters and keyword gap analyses."
 category: "content-strategy"
 platforms: ["codex"]
 platform_source: "detected"

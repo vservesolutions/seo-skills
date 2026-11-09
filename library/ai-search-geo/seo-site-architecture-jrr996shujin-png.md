@@ -1,6 +1,7 @@
 ---
 name: "seo-site-architecture"
 description: "站内架构诊断子模块。检查网站的内部链接健康度和核心页面点击深度。当用户提到\"内部链接\"\"网站架构\"\"页面深度\"\"链接结构\"\"孤岛页面\"\"导航结构\"时触发。良好的站内架构帮助搜索引擎和 AI 引擎高效地发现和理解网站全部内容。"
+summary: "Evaluates internal linking health and click depths for improved search engine discovery."
 category: "ai-search-geo"
 platforms: ["openclaw"]
 platform_source: "declared"

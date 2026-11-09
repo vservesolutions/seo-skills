@@ -1,6 +1,7 @@
 ---
 name: "ai-seo"
 description: "Optimize content for AI search and LLM citations across AI Overviews, ChatGPT, Perplexity, Claude, Gemini, and similar systems. Use when improving AI visibility, answer engine optimization, or citation readiness."
+summary: "Optimizes content and improves citation readiness for AI search engines and large language models."
 category: "ai-search-geo"
 platforms: ["antigravity"]
 platform_source: "declared"

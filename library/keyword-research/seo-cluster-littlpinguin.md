@@ -1,6 +1,7 @@
 ---
 name: "seo-cluster"
 description: "Clustering sémantique par recouvrement de SERP pour {{COMPANY_NAME}} : expansion de mots-clés, architecture hub-and-spoke, maillage interne, briefs 09-seo/. À utiliser sur « cluster », « topic cluster », « page pilier », « hub and spoke », « regrouper des mots-clés »."
+summary: "Performs semantic clustering via SERP overlap for keyword expansion and internal linking architecture."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared"

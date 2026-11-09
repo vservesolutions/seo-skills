@@ -1,6 +1,7 @@
 ---
 name: "youtube-seo-optimizer"
 description: "Optimize YouTube videos for search and discovery. Generates SEO-optimized titles, descriptions, tags, hashtags, and chapters. Includes keyword research and competitor analysis. Use when publishing videos, improving discoverability, or optimizing existing content."
+summary: "Optimizes YouTube videos with SEO metadata, tags, and keyword research."
 category: "keyword-research"
 platforms: ["claude-code", "codex", "cursor"]
 platform_source: "declared"

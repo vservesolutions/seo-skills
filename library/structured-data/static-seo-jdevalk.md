@@ -1,6 +1,7 @@
 ---
 name: "static-seo"
 description: "Audits and improves SEO for static HTML sites. Use when the user asks to audit, set up, or improve SEO on a static site (Hugo, Jekyll, 11ty, Gatsby, Next.js static export, hand-rolled HTML, or `wp-static-clone` output), or mentions head metadata, structured data, JSON-LD, sitemaps, IndexNow, Open Graph images, schema endpoints, NLWeb, hreflang, or search engine indexing for a static site. For Astro projects, use `astro-seo` instead — its recipes produce less hand-rolled boilerplate by routing through `@jdevalk/astro-seo-graph`."
+summary: "Audits and improves SEO implementation for static HTML websites."
 category: "structured-data"
 platforms: ["codex"]
 platform_source: "detected"

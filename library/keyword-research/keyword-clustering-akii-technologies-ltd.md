@@ -1,6 +1,7 @@
 ---
 name: "keyword-clustering"
 description: "Cluster and organize keywords into topical groups for SEO. Use when the user asks to \"cluster keywords\", \"group keywords\", \"organize keywords\", \"keyword mapping\", \"topic clusters\", \"keyword grouping\", \"build a content plan\", \"pillar pages\", \"topical authority\", \"semantic clustering\", or pastes a list of keywords."
+summary: "Clusters keywords into topical groups to build semantic content plans."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared"

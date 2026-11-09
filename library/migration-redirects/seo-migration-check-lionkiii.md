@@ -1,6 +1,7 @@
 ---
 name: "seo-migration-check"
 description: "Validate SEO preservation during site migrations. Checks redirect chains (301 vs 302, hop count), canonical consistency, title/meta preservation, HTTP status codes, content similarity, and schema preservation. Accepts single URL pair or CSV file of URL pairs. Use when user says \"migration check\", \"site migration\", \"redirect audit\", \"URL mapping\", \"domain change\", \"relaunch\", \"site move\"."
+summary: "Validates SEO preservation and redirect chains during site migrations."
 category: "migration-redirects"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

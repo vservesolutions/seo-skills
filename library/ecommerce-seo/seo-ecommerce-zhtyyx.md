@@ -1,6 +1,7 @@
 ---
 name: "seo-ecommerce"
 description: "Analyze ecommerce SEO across product pages, product schema, Shopping visibility, marketplace signals, and keyword gaps. Use only for stores, catalogs, or product listings."
+summary: "Analyzes ecommerce SEO performance across product pages, schema, and marketplace visibility."
 category: "ecommerce-seo"
 platforms: ["codex"]
 platform_source: "declared"

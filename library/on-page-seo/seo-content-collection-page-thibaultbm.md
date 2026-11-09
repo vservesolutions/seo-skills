@@ -1,6 +1,7 @@
 ---
 name: "seo-content-collection-page"
 description: "Spec, audit, competitor benchmark and build for e-commerce collection, category and product listing pages (PLPs) on Shopify, WooCommerce, Magento, BigCommerce, PrestaShop or a custom store. Runs four phases: the collection spec (COL-01 to COL-24 plus the common rows), an audit of the live page with the bundled scripts, a benchmark against the stores and marketplaces ranking on the category term, and the build: Search Console demand mining, a 1-2 sentence top intro, a 400-800 word bottom block (buying guide, comparison table, definitions, FAQ of real questions), product cards with images…"
+summary: "Optimizes e-commerce category, collection, and product listing pages for improved search visibility and conversions."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "declared"

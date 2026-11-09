@@ -1,6 +1,7 @@
 ---
 name: "seo-image-gen"
 description: "Generate SEO-ready images — OG/social previews, blog heroes, product shots, infographics, and favicons — at correct dimensions with SEO-aware filenames and alt text. Uses the Gemini CLI or a connected image-gen MCP/provider key when available; otherwise delivers production-ready prompts and exact specs to render elsewhere (there is no built-in renderer). Trigger when the user says \"generate image\", \"og image\", \"social preview\", \"hero image\", \"product photo\", \"infographic\", \"favicon\", or \"create a visual\"."
+summary: "Generates SEO-ready images such as OpenGraph previews and blog heroes with appropriate metadata."
 category: "on-page-seo"
 platforms: ["claude-code", "gemini-cli"]
 platform_source: "declared+detected"

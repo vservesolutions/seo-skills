@@ -1,6 +1,7 @@
 ---
 name: "aeo-report"
 description: "Read accumulated aeo-baseline evidence files and produce a visibility trend report. Surfaces visibility score trends, citation-rate decay, content cannibalization (multiple owned URLs competing for the same prompt), hub-page opportunities (one URL winning across many prompts), and competitor share-of-voice changes. Outputs Markdown + single-file HTML with embedded SVG charts. Pure analysis — no provider API calls, no API keys required. Use when a user wants to: see how their AI visibility is changing over time, find pages losing citations, identify which owned URLs are working across multiple…"
+summary: "Generates visibility trend reports and cannibalization analysis for answer engine optimization campaigns."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

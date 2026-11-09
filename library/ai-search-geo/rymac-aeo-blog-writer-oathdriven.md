@@ -1,6 +1,7 @@
 ---
 name: "rymac-aeo-blog-writer"
 description: "Writes SEO + AEO (Answer Engine Optimized) blog posts built to rank on Google AND get cited by AI answer engines (Google AI Overviews, ChatGPT, Perplexity). Runs live SERP recon, writes answer-first, and wires internal + external authority links. Use when someone wants a blog post that ranks and gets quoted by AI, says \"write an AEO post\", \"answer-engine optimization\", \"get cited by AI Overviews\", \"rank AND get quoted\", or wants the pro version of an SEO article. For quick keyword blog posts use rymac-seo-writer instead."
+summary: "Writes blog posts optimized to rank on search engines and get cited in AI answers."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared"

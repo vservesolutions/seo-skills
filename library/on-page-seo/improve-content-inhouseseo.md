@@ -1,6 +1,7 @@
 ---
 name: "improve-content"
 description: "Use when rewriting or refreshing an existing page that's underperforming. The agent fetches the URL, analyzes the current content, researches the SERP, and rewrites using the full anti-AI-slop ruleset — no data exports needed."
+summary: "This skill analyzes and rewrites underperforming web pages based on SERP research and quality guidelines."
 category: "on-page-seo"
 platforms: ["unspecified"]
 platform_source: "none"

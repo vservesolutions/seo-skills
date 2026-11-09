@@ -1,6 +1,7 @@
 ---
 name: "seo-eeat-audit"
 description: "Standalone E-E-A-T scoring rubric for a URL or content draft. Scores Experience, Expertise, Authoritativeness, and Trust 0-5 each using concrete detectable signals, framed per Google's creating-helpful-content doc. Use when user says \"E-E-A-T\", \"EEAT\", \"experience expertise\", \"trust signals\", or \"author authority\"."
+summary: "Evaluates web content against an E-E-A-T scoring rubric based on Google guidelines."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

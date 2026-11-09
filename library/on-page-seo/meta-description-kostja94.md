@@ -1,6 +1,7 @@
 ---
 name: "meta-description"
 description: "When the user wants to write, audit, or optimize a meta description, SEO description, SERP snippet candidate, duplicate description, description length, or description rewrite issue. For a sitewide metadata lifecycle including implementation and production validation, use page-metadata."
+summary: "Writes and audits meta descriptions for search engine result snippets."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "declared"

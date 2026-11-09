@@ -1,6 +1,7 @@
 ---
 name: "article-content"
 description: "When the user wants to write, generate, or create article body content—blog post body, long-form content, how-to guide, listicle. Also use when the user mentions \"write article,\" \"article content,\" \"blog post content,\" \"article body,\" \"long-form content creation,\" \"generate article,\" \"article draft,\" \"how-to guide content,\" \"listicle content,\" \"information gain,\" or \"content density.\" For single post page structure, schema, and SEO metadata, use article-page-generator. For blog index/listing page, use blog-page-generator. For short ad, landing, or email copy, use copywriting."
+summary: "Generates long-form article content optimized for information gain and density."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "declared"

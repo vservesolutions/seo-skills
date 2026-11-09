@@ -1,6 +1,7 @@
 ---
 name: "seo-firecrawl"
 description: "Ad-hoc web scraping, site mapping, and full-site crawling via Firecrawl MCP. Returns raw HTML, parsed metadata (og:*, twitter:*, JSON-LD, canonical, robots), JS-rendered DOM, and screenshots that WebFetch cannot. Distinct from the SE Ranking skills (which give keyword/traffic/SERP data) and from WebFetch (which gives markdown prose only). Use when the user says \"scrape this page\", \"crawl this site\", \"map this site\", \"find all pages on\", \"get the OG tags\", \"get the JSON-LD\", \"render this JS-heavy page\", or any task where raw HTML head metadata, structured-data scripts, or post-JS DOM are the…"
+summary: "Scrapes web pages and crawls sites to extract raw HTML, metadata, and rendered DOM structures."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared"

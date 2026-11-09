@@ -1,6 +1,7 @@
 ---
 name: "indexnow"
 description: "When the user wants to implement IndexNow, notify search engines of new/updated URLs, or speed up Bing indexing. Also use when the user mentions \"IndexNow,\" \"Bing indexing,\" \"URL notification,\" \"instant indexing,\" \"sitemap IndexNow sync,\" \"share URL list with sitemap,\" or \"IndexNow API.\" For sitemap SSOT, use xml-sitemap."
+summary: "Implements IndexNow protocol to instantly notify search engines of URL updates."
 category: "technical-crawling-indexing"
 platforms: ["unspecified"]
 platform_source: "none"

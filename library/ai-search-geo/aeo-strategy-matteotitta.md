@@ -1,6 +1,7 @@
 ---
 name: "aeo-strategy"
 description: "Develops a research-backed content strategy for search and AI visibility. Produces cluster taxonomy, keyword"
+summary: "Develops research-backed content strategies for search engines and AI visibility."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared"

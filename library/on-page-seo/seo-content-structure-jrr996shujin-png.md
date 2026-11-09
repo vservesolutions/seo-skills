@@ -1,6 +1,7 @@
 ---
 name: "seo-content-structure"
 description: "内容结构诊断子模块。检查页面的 Meta 标签（title/description）质量、H1-H4 标题层级、列表独立性、结构化表格、FAQ 格式。当用户提到\"标题标签\"\"meta description\"\"内容结构\"\"heading 层级\"\"FAQ 优化\"时触发。这些检查直接影响 AI 引擎对页面内容的解析和引用能力。"
+summary: "Audits meta tags, heading hierarchies, and FAQ formatting for search and AI engine parseability."
 category: "on-page-seo"
 platforms: ["openclaw"]
 platform_source: "declared"

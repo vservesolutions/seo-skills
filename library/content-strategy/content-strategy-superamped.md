@@ -1,6 +1,7 @@
 ---
 name: "content-strategy"
 description: "Use this skill to create or refresh a content strategy with pillars, topic clusters, buyer-stage keyword mapping, priorities, and an editorial calendar. Trigger it when planning what a company should publish and why, before drafting individual pieces."
+summary: "Creates content strategies with pillars, topic clusters, and buyer-stage keyword mapping."
 category: "content-strategy"
 platforms: ["claude-code"]
 platform_source: "declared"

@@ -1,6 +1,7 @@
 ---
 name: "sistrix-monday-recovery-check"
 description: "CSV-first weekly recovery review during an active SEO recovery. No SISTRIX API key required. Compares current and previous SISTRIX keyword exports and produces a structured Monday Check report with Recovery Signal Score, per-cluster recovery stage, winner/loser neutralization analysis, money-keyword protection list, URL-level recovery table, optional GSC cross-check, optional conversion-rate validation, and one of six recommended actions (Observe / Protect / Strengthen / Investigate / Correct / Escalate) with an explicit What-Not-To-Touch guard for winning URLs. Triggers from \"Monday recovery…"
+summary: "Conducts weekly keyword export comparisons to monitor SEO recovery progress without an API."
 category: "algorithm-updates"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

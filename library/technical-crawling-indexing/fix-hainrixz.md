@@ -1,6 +1,7 @@
 ---
 name: "fix"
 description: "Opt-in fixer (the /claude-seo-ai:fix command). Applies the safe, deterministic SEO/AI-search fixes from a persisted audit to the user's site — meta viewport/charset/lang, JSON-LD, robots.txt AI directives, hreflang, sitemaps, OG/Twitter cards, image dimensions, canonical, AI discovery files — through the adapter that matches the platform (local files, Shopify theme/Admin, WordPress REST/WP-CLI, page APIs, or step-by-step instructions). Dry-run preview by default; writes only after explicit per-change confirmation. Runs only when the user invokes it — never auto-triggered."
+summary: "Applies safe, deterministic SEO and AI-search fixes from a persisted audit to the user site through platform-matched adapters."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

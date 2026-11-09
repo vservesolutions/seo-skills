@@ -1,6 +1,7 @@
 ---
 name: "seo-content-brief"
 description: "Seo Content Brief — Skill especializada para seo content brief"
+summary: "Creates content briefs optimized for search engine visibility."
 category: "content-strategy"
 platforms: ["unspecified"]
 platform_source: "none"

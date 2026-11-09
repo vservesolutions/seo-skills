@@ -1,6 +1,7 @@
 ---
 name: "seo-serp"
 description: "Analyze SERP for a keyword using Ahrefs live data: ranking pages, DR scores, traffic estimates, and content angle analysis. Use when user says \"SERP analysis\", \"who ranks for\", \"SERP breakdown\", \"competitors ranking for keyword\", \"serp overview\", \"what's ranking for\", \"show me the SERP for\", or \"SERP competition for\"."
+summary: "Analyzes live SERP competitors, rankings, and traffic metrics for specific keywords."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

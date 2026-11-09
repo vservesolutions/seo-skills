@@ -1,6 +1,7 @@
 ---
 name: "ai-seo-engine"
 description: "Programmatic access to AI SEO Engine via the `aiseo` CLI. Use this skill to manage SEO projects, generate AI content, retrieve deliverables from Google Drive, and publish to CMS platforms. Trigger when the task involves AI SEO Engine, the `aiseo` CLI, or SEO content automation."
+summary: "Manages SEO projects, generates AI content, and publishes deliverables using a programmatic CLI."
 category: "keyword-research"
 platforms: ["any-agent"]
 platform_source: "declared"

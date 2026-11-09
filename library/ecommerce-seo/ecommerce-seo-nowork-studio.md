@@ -1,6 +1,7 @@
 ---
 name: "ecommerce-seo"
 description: "E-commerce SEO audit for online stores (WooCommerce, Shopify, Magento, custom). Covers category / product listing pages (PLP), product detail pages (PDP), faceted navigation and its crawl-budget and duplicate-content traps, pagination, canonicals for variants and filters, out-of-stock / discontinued products, internal linking and breadcrumbs, and Product / Offer / Review / AggregateRating / BreadcrumbList structured data. Use whenever the user runs an online store and asks about product or category page SEO, filter URLs being indexed, product rich results, or thin/duplicate product pages…"
+summary: "Audits e-commerce site architecture, faceted navigation, and product schema."
 category: "ecommerce-seo"
 platforms: ["claude-code"]
 platform_source: "detected"

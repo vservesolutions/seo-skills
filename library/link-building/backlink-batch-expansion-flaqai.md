@@ -1,6 +1,7 @@
 ---
 name: "backlink-batch-expansion"
 description: "Build and maintain a reusable backlink-submission candidate pool with global deduplication, fee and brand classification, configurable batch exports, and executor feedback. Use for large-scale directory, tool-listing, startup-database, community, or resource-page backlink expansion; do not use for editorial guest-post production or actual submission without separate authorization."
+summary: "Builds and maintains a reusable backlink-submission candidate pool with global deduplication and batch exports."
 category: "link-building"
 platforms: ["unspecified"]
 platform_source: "none"

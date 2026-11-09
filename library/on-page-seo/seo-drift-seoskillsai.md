@@ -1,6 +1,7 @@
 ---
 name: "seo-drift"
 description: "SEO drift monitoring with local SQLite snapshots. Tracks on-page title, schema, heading, and content changes across deployments with 17 comparison rules."
+summary: "Monitors on-page SEO changes over time by comparing local snapshots across deployments."
 category: "on-page-seo"
 platforms: ["claude-code", "windsurf", "antigravity"]
 platform_source: "declared"

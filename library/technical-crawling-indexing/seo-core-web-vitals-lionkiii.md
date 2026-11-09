@@ -1,6 +1,7 @@
 ---
 name: "seo-core-web-vitals"
 description: "Dedicated Core Web Vitals deep-dive: pull field data (CrUX / PageSpeed Insights), fall back to Lighthouse lab data, score LCP, INP, and CLS against Google's thresholds at the 75th percentile, and run per-metric diagnosis playbooks with concrete fixes. Use when user says \"core web vitals\", \"CWV\", \"LCP\", \"INP\", \"CLS\", \"page speed metrics\", or \"field data\"."
+summary: "Analyzes core web vitals field and lab data to diagnose performance issues and fixes."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

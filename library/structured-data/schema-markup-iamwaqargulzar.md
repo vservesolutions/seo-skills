@@ -1,6 +1,7 @@
 ---
 name: "schema-markup"
 description: "Compatibility skill for schema markup. Use when a user or upstream workflow invokes this name; route the task to `schema` while preserving the requested scope and source-specific intent."
+summary: "This skill acts as a compatibility wrapper that routes schema markup tasks to the core schema skill."
 category: "structured-data"
 platforms: ["unspecified"]
 platform_source: "none"

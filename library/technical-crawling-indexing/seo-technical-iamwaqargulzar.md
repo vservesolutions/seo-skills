@@ -1,6 +1,7 @@
 ---
 name: "seo-technical"
 description: "Preserve technical-SEO compatibility routing to `seo-audit`. Use for crawl/index/rendering concerns and explicitly authorized read-only server-stack/CVE exposure review; observations do not prove a runtime is safe or exploitable."
+summary: "Handles technical SEO routing for crawl, index, and rendering concerns."
 category: "technical-crawling-indexing"
 platforms: ["unspecified"]
 platform_source: "none"

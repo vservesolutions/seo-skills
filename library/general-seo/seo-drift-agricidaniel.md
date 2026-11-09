@@ -1,6 +1,7 @@
 ---
 name: "seo-drift"
 description: "Compare SEO snapshots, baselines or exports and explain observable changes. Use for SEO drift or before/after checks."
+summary: "Compares SEO snapshots to explain performance changes."
 category: "general-seo"
 platforms: ["unspecified"]
 platform_source: "none"

@@ -1,6 +1,7 @@
 ---
 name: "seo-content-brief"
 description: "Generates comprehensive, search-intent grounded content briefs with EAV entity modeling, heading hierarchies, semantic keywords, internal linking conduits, and schema specifications."
+summary: "Generates comprehensive search-intent-grounded content briefs with heading hierarchies and schema specs."
 category: "keyword-research"
 platforms: ["claude-code", "windsurf", "antigravity"]
 platform_source: "declared"

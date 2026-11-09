@@ -1,6 +1,7 @@
 ---
 name: "aeo-schema"
 description: "Analyze web pages and generate structured data (JSON-LD) optimized for AI citation. Fetches a page, analyzes its content structure, checks existing schema markup, and generates optimized JSON-LD that helps Gemini 3 Flash and other AI models identify and cite the content. Includes templates for Article, FAQ, HowTo, Product, LocalBusiness, and BreadcrumbList. SKILL.md-only skill — no script, the agent follows the methodology. Use when a user wants to: add or improve structured data on a page, optimize schema for AI Overviews, generate JSON-LD for their content, audit existing schema markup, or…"
+summary: "Analyzes pages and generates JSON-LD structured data optimized for AI model citation."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

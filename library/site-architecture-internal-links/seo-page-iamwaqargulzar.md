@@ -1,6 +1,7 @@
 ---
 name: "seo-page"
 description: "Compatibility skill for seo page. Use when a user or upstream workflow invokes this name; route the task to `seo-audit` while preserving the requested scope and source-specific intent."
+summary: "Routes page-level SEO requests to the appropriate audit workflow."
 category: "site-architecture-internal-links"
 platforms: ["unspecified"]
 platform_source: "none"

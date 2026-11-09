@@ -1,6 +1,7 @@
 ---
 name: "drift-detector"
 description: "17-rule diff vs SQLite baseline. Detects: title/meta changed, schema removed, H1 changed, AI bots policy changed, broken internal links emerged, AIO citation lost, etc. Triggered by /drift command or scheduled weekly."
+summary: "This skill detects SEO metric and code changes using a rule-based diff against a baseline."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

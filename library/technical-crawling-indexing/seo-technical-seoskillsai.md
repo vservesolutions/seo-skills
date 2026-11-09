@@ -1,6 +1,7 @@
 ---
 name: "seo-technical"
 description: "9-category technical SEO audit: crawlability, indexability, security, Core Web Vitals (INP/LCP/CLS), canonicals, redirects, HTTP headers, and IndexNow."
+summary: "Performs comprehensive technical SEO audits covering crawlability, indexability, and Core Web Vitals."
 category: "technical-crawling-indexing"
 platforms: ["claude-code", "windsurf", "antigravity"]
 platform_source: "declared"

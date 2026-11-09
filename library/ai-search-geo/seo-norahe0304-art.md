@@ -1,6 +1,7 @@
 ---
 name: "seo"
 description: "Master SEO orchestrator with 24 specialized sub-skills across 9 categories. Comprehensive SEO analysis for any website or business type. Performs full site audits, single-page deep analysis, technical SEO checks (crawlability, indexability, Core Web Vitals with INP), schema markup, content quality (E-E-A-T framework), image optimization, sitemap analysis, site architecture planning, AI search optimization (GEO for ChatGPT, Perplexity, AI Overviews), backlink analysis, keyword research, SERP tracking, and AI visibility monitoring. Industry detection for SaaS, e-commerce, local business…"
+summary: "Performs full site SEO audits and checks across multiple specialized sub-skills."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

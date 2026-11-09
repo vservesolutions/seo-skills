@@ -1,6 +1,7 @@
 ---
 name: "programmatic-seo"
 description: "How to design and run a programmatic SEO program that produces durable traffic instead of penalty-bait. Data source identification, template design, schema patterns, quality control at scale, internal linking architecture, crawl budget management, AEO/GEO for programmatic pages, refresh discipline, and the make-or-break question of whether pSEO is the right answer for your program at all. Triggers on programmatic SEO, pSEO, scaled content, page generation, template SEO, location pages, comparison pages, directory site, listing site, scaled landing pages, programmatic content. Also triggers…"
+summary: "Designs and executes programmatic SEO programs with scalable data sources and quality controls."
 category: "structured-data"
 platforms: ["unspecified"]
 platform_source: "none"

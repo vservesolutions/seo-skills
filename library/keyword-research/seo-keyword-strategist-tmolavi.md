@@ -1,6 +1,7 @@
 ---
 name: "seo-keyword-strategist"
 description: "Analyzes keyword usage in provided content, calculates density,"
+summary: "Analyzes keyword usage and calculates density within provided content drafts."
 category: "keyword-research"
 platforms: ["antigravity"]
 platform_source: "declared"

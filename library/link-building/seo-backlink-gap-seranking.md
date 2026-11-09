@@ -1,6 +1,7 @@
 ---
 name: "seo-backlink-gap"
 description: "Find referring domains that link to multiple competitors but not to your site, then enrich with authority, anchor samples, and outreach angle per row. Produces a prospect list an outreach team can start emailing tomorrow. Use when the user asks for backlink gap analysis, link building opportunities, competitor backlink intersection, link prospecting, or wants referring domains they are missing."
+summary: "Performs backlink gap analysis to identify competitor linking domains missing from your own site."
 category: "link-building"
 platforms: ["claude-code"]
 platform_source: "declared"

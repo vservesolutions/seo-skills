@@ -1,6 +1,7 @@
 ---
 name: "metadata-lint"
 description: "Audits and fixes HTML metadata in code: page titles, meta descriptions, canonical URLs, Open Graph tags, Twitter cards, favicons, JSON-LD structured data, robots directives. Use when adding SEO metadata, fixing social share previews, reviewing OG tags, setting up canonical URLs, or shipping new pages that need correct meta tags. Triggered by \"metadata audit\", \"fix OG tags\", \"social share preview broken\", \"canonical URL\", \"JSON-LD\", or \"lint my page metadata\". Code-level lint with priority-ordered fixes. Feeds into website-pm-score and aeo-strategy."
+summary: "Audits and fixes HTML metadata such as title tags, descriptions, canonicals, and structured data."
 category: "structured-data"
 platforms: ["claude-code"]
 platform_source: "declared"

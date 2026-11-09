@@ -1,6 +1,7 @@
 ---
 name: "seo-geo-skill-finder"
 description: "Recommend SEO and GEO (generative engine optimization) skills and MCP tools from a hand-checked, security-scanned list, matched to the job (keyword and competitor research, content writing and optimization, technical SEO and site audits, analytics and rank tracking, local, e-commerce and app stores, backlinks and PR, getting cited in AI answers), the target (Google, Bing, Baidu/百度, ChatGPT, Perplexity, Gemini, Claude, Google AI Overviews, Doubao/豆包, Yuanbao/元宝, Kimi, DeepSeek, Qwen/千问) and the agent (Claude Code, Codex, OpenClaw/龙虾, Qwen, Doubao, WorkBuddy). Use when someone asks which skill…"
+summary: "Recommends verified SEO and generative engine optimization skills and tools matched to specific search marketing jobs."
 category: "ai-search-geo"
 platforms: ["claude-code", "openclaw"]
 platform_source: "declared+detected"

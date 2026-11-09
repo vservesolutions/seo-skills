@@ -1,6 +1,7 @@
 ---
 name: "suede-ai-seo"
 description: "Suede AI Answer Engine Optimization Skills. Use when asked to \"improve our AI citations\" or optimize for ChatGPT/Perplexity: crawler policy, entity consistency, citation-ready pages, off-site evidence and prompt-panel measurement. NOT FOR: nine-lane technical SEO audits (suede-seo-audit), quick promotion grades (suede-visibility-grader), or funnel implementation (suede-site-alchemy)."
+summary: "Optimizes websites for answer engines and AI citations through crawler policies and entity consistency."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared"

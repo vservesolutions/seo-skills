@@ -1,6 +1,7 @@
 ---
 name: "seo-for-startups"
 description: "Seo For Startups — Skill especializada para seo for startups"
+summary: "Provides foundational SEO guidance tailored for startup growth."
 category: "link-building"
 platforms: ["unspecified"]
 platform_source: "none"

@@ -1,6 +1,7 @@
 ---
 name: "seo-profound"
 description: "Profound LLM citation tracker (extension). Time-series brand citation rates across ChatGPT, Perplexity, and other LLMs. Pairs with seo-seranking for triangulated AI visibility coverage."
+summary: "Tracks brand citation rates across ChatGPT, Perplexity, and other large language models."
 category: "ai-search-geo"
 platforms: ["codex"]
 platform_source: "declared+detected"

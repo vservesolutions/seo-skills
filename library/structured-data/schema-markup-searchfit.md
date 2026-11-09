@@ -1,6 +1,7 @@
 ---
 name: "schema-markup"
 description: "Generate JSON-LD structured data / schema markup for web pages. Use when the user asks to \"add schema\", \"generate JSON-LD\", \"structured data\", \"schema markup\", \"rich snippets\", \"add schema.org\", or wants to improve how their pages appear in search results."
+summary: "This skill generates JSON-LD structured data and schema markup to enhance search engine rich snippets."
 category: "structured-data"
 platforms: ["claude-code"]
 platform_source: "declared"

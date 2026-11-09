@@ -1,6 +1,7 @@
 ---
 name: "seo-wordpress-publish"
 description: "Publish articles to WordPress via REST API. Supports creating posts, setting categories/tags, featured images, Yoast/RankMath meta, and scheduling. Can publish from Markdown files or direct content. Use when user says \"publish\", \"publier\", \"post to wordpress\", or \"mettre en ligne\"."
+summary: "Publishes optimized articles to WordPress via REST API with metadata and scheduling support."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

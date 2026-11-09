@@ -1,6 +1,7 @@
 ---
 name: "schema-markup"
 description: "Generate Schema.org structured data (JSON-LD) for any page type. Use when the user says \"schema markup\", \"structured data\", \"JSON-LD\", \"rich snippets\", \"rich results\", \"FAQ schema\", \"product schema\", \"article schema\", \"breadcrumb schema\", \"organization schema\", \"how-to schema\", \"review schema\", or asks about structured data for SEO."
+summary: "Generates Schema.org structured data in JSON-LD format for various page types."
 category: "structured-data"
 platforms: ["claude-code"]
 platform_source: "declared"

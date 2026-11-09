@@ -1,6 +1,7 @@
 ---
 name: "aeo-prompt-research-free"
 description: "Discover which AI prompts and topics matter for a brand's Answer Engine Optimization (AEO) using only free tools. Crawls a website, analyzes the brand's positioning, generates prioritized prompts people ask AI assistants, and audits existing content coverage — all without paid APIs. Use when a user wants to: find what questions people ask AI about their industry, discover AEO opportunities, research prompts for content creation, audit a site's AI visibility, or build an AEO content strategy. No API keys required — uses web_fetch, web_search (free tier), and LLM reasoning only."
+summary: "Discovers AI prompt opportunities and analyzes content coverage for a brand using free tools."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

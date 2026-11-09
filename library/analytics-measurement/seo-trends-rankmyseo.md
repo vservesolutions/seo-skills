@@ -1,6 +1,7 @@
 ---
 name: "seo-trends"
 description: "Find which searches are rising or falling for the site and its market, spot seasonal peaks, and check new topics against social and news signals before writing about them. Ends with a short timing plan for the next three months. Use when the owner asks what people are searching for now, what is trending in their market, or when to publish seasonal pages."
+summary: "Identifies rising search trends, seasonal peaks, and content opportunities in specific markets."
 category: "analytics-measurement"
 platforms: ["unspecified"]
 platform_source: "none"

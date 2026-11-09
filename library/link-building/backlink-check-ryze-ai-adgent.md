@@ -1,6 +1,7 @@
 ---
 name: "backlink-check"
 description: "Backlink profile for any domain — referring domains, authority, anchors, new/lost links, and a side-by-side vs a competitor. Use when asked \"check my backlinks\", \"backlink profile of X\", \"who links to them\", or \"link gap vs competitor\"."
+summary: "Evaluates domain backlink profiles, referring domains, anchor distributions, and competitive link gaps."
 category: "link-building"
 platforms: ["claude-code"]
 platform_source: "detected"

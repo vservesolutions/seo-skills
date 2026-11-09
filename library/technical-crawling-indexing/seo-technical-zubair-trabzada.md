@@ -1,6 +1,7 @@
 ---
 name: "seo-technical"
 description: "Technical SEO site audit via the DataForSEO On-Page API. Crawls the site (up to 100 pages by default), surfaces critical errors (broken links, redirect chains, missing meta, slow pages, schema gaps, indexability issues), and returns a Technical Score (0-100) with prioritized fixes."
+summary: "Performs a technical SEO site audit and surfaces critical crawler and indexability errors using DataForSEO."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

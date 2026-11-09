@@ -1,6 +1,7 @@
 ---
 name: "seo-audit"
 description: "Run a full-site SEO audit on a cross-border DTC / 外贸独立站 (Shopify, WooCommerce, Wix, custom). Crawls the whole site (sitemap-first, robots-respecting, optional JS render), detects P0–P3 issues, builds TF-IDF keyword clusters, generates Fan-Out candidate queries with ✓/✗ coverage, and outputs a brandable HTML report + Excel. Use when the user asks to \"audit\"/\"体检\"/\"诊断\" a store's SEO, check a site's SEO health, find why a store has no traffic, or generate a client-ready SEO report. Triggers on a store URL plus words like SEO audit, 外贸 SEO, 独立站 SEO, Shopify SEO, sitemap/title/meta/收录 check."
+summary: "This skill runs a full-site SEO audit specifically tailored for cross-border e-commerce and DTC independent stores."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

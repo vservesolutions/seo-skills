@@ -1,6 +1,7 @@
 ---
 name: "backlink-audit"
 description: "Audit a domain's backlink profile using the SemRush API. Use when the user says \"audit backlinks\", \"check my backlinks\", \"backlink analysis\", \"link profile\", \"toxic links\", \"disavow\", \"link building opportunities\", \"referring domains\", \"anchor text\", or asks about a site's link authority."
+summary: "Audits a domain's backlink profile using Semrush to identify toxic links."
 category: "link-building"
 platforms: ["claude-code"]
 platform_source: "declared"

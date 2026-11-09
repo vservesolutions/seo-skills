@@ -1,6 +1,7 @@
 ---
 name: "seo-headings-structure"
 description: "Audit and propose fixes for a page's heading hierarchy and semantic outline — verify exactly one H1, logical H2-H6 nesting with no skipped levels, descriptive heading text, and HTML5 landmarks (article/section/nav/main/footer) — so the document outline is extractable. Module M7c. Feeds the Search SEO score (clean headings also support AI answer-block extraction, which is scored separately under M11)."
+summary: "Audits and proposes fixes for heading hierarchy, semantic outline, and HTML5 landmarks."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

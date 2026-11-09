@@ -1,6 +1,7 @@
 ---
 name: "seo-analysis"
 description: "When the user wants a keyword SERP analysis with competitor comparison, target page gaps, or player-score interpretation. Also use before topic cluster or content brief work that needs SERP evidence."
+summary: "This skill analyzes keyword SERPs and competitor gaps for content planning."
 category: "content-strategy"
 platforms: ["claude-code"]
 platform_source: "declared"

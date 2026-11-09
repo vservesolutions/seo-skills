@@ -1,6 +1,7 @@
 ---
 name: "aeo-grounding-query-mapper"
 description: "Map the exact search queries Gemini 3 Flash fires when answering prompts. Run prompts multiple times with Google Search grounding to capture query frequency, cluster similar queries, identify patterns/themes, and analyze query evolution. Supports single prompts and batch mode (file input). Upgraded version of prompt-frequency-analyzer with richer analysis including query clustering, cross-prompt overlap, and theme detection. Use when investigating: what Google's AI actually searches for, query pattern analysis across related prompts, how to align content with AI search behavior, or comparing…"
+summary: "Maps exact search queries triggered by AI models during grounded answer generation for optimization research."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

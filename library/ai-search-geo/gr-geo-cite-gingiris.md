@@ -1,6 +1,7 @@
 ---
 name: "gr-geo-cite"
 description: "GEO (Generative Engine Optimization) 引用追踪 + 优化。每周对 4 大 AI（Claude/GPT/Perplexity/Gemini） 跑固定查询，检测回答里是否引用 gingiris 域名。对未被引用的目标页补 Citable Statistics + llms.txt 条目。 当用户说\"我有没有被 AI 引用\"、\"GEO 优化\"、\"llms.txt 更新\"、\"AI 引用追踪\"时调用。"
+summary: "This skill tracks and optimizes brand citations across major AI answer engines."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared"

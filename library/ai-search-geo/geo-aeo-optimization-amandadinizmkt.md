@@ -1,6 +1,7 @@
 ---
 name: "geo-aeo-optimization"
 description: "Otimiza conteudo para AI Overviews, Perplexity e motores de resposta (GEO/AEO)"
+summary: "This skill optimizes content for AI Overviews, Perplexity, and answer engines using GEO and AEO strategies."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared"

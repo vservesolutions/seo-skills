@@ -1,6 +1,7 @@
 ---
 name: "on-page-seo"
 description: "On Page Seo — Skill especializada para on page seo"
+summary: "Optimizes on-page elements for better search engine rankings."
 category: "on-page-seo"
 platforms: ["unspecified"]
 platform_source: "none"

@@ -1,6 +1,7 @@
 ---
 name: "content-research-brief"
 description: "Research trending topics, collect source articles, and generate a structured research brief for content creation. Stop writing from thin air — write from real sources. Use this skill when the user wants to research a topic before writing, collect sources for an article, create a research-backed content brief, or says \"research [topic] for me\", \"find sources about [keyword]\", \"content brief for [topic]\", \"what's the latest on [product]\", \"research before writing\", \"collect articles about [keyword]\", \"trending news about [topic]\", \"gather sources for my article\", \"brief me on [topic]\", \"what…"
+summary: "Researches trending topics and generates structured research briefs for content creation."
 category: "content-strategy"
 platforms: ["claude-code", "windsurf", "openclaw", "gemini-cli"]
 platform_source: "declared+detected"

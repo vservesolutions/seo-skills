@@ -1,6 +1,7 @@
 ---
 name: "ai-visibility"
 description: "Analyze and improve how a brand appears in AI-generated responses (ChatGPT, Claude, Gemini, Perplexity). Use when the user asks about \"AI visibility\", \"AI tracking\", \"how does my brand appear in AI\", \"AI mentions\", \"LLM visibility\", \"AI search optimization\", \"GEO\", \"generative engine optimization\", \"answer engine optimization\", \"AEO\", or wants their brand to be recommended by AI assistants."
+summary: "This skill analyzes and improves brand visibility in AI-generated search responses and language model assistants."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared"

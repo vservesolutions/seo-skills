@@ -1,6 +1,7 @@
 ---
 name: "schema-generator"
 description: "Generate complete JSON-LD @graph for an article — BlogPosting/Article + Person + Organization + BreadcrumbList + FAQPage + ImageObject + VideoObject. Stable @id references for entity linking. Validates against Google requirements + warns deprecated types (HowTo, SpecialAnnouncement, Q&A). +13% AI citation likelihood when 3+ schema types present."
+summary: "This skill generates JSON-LD structured data graphs for articles and entities."
 category: "structured-data"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

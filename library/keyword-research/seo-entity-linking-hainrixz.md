@@ -1,6 +1,7 @@
 ---
 name: "seo-entity-linking"
 description: "Audit and generate entity & knowledge-graph linkage for a page — verify sameAs identity links (Wikidata/Wikipedia/LinkedIn/Crunchbase/official profiles) on Organization/Person, check NAP/entity consistency for local, confirm a defined primary entity, and measure entity density, then propose ready-to-inject sameAs/about/mentions references. Module M6. Feeds the AI Visibility score."
+summary: "Audits and generates entity and knowledge-graph linkage using sameAs identity links and entity consistency."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

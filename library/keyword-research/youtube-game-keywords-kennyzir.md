@@ -1,6 +1,7 @@
 ---
 name: "youtube-game-keywords"
 description: "YouTube 订阅频道游戏关键词提取工具。自动抓取订阅频道视频，识别游戏关键词， 归类为 Roblox / 独立游戏 / 主机PC 等赛道，生成结构化日报。 触发词：YouTube 游戏关键词日报 / YouTube 订阅源 / 游戏热度 / YouTube game keywords。"
+summary: "Extracts gaming keywords from YouTube subscriptions and generates structured reports."
 category: "keyword-research"
 platforms: ["openclaw"]
 platform_source: "detected"

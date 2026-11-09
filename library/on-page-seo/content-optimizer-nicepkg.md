@@ -1,6 +1,7 @@
 ---
 name: "content-optimizer"
 description: "On-page SEO optimization techniques including keyword density, meta tags, heading structure, and readability. Use when optimizing existing content or validating new content against SEO requirements."
+summary: "Optimizes on-page SEO elements including keyword density, meta tags, and readability."
 category: "on-page-seo"
 platforms: ["claude-code", "codex", "cursor"]
 platform_source: "declared"

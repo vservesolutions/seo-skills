@@ -1,6 +1,7 @@
 ---
 name: "write-content"
 description: "Use when writing a complete SEO article. Includes the full anti-AI-slop ruleset (banned vocabulary, banned phrases, banned structural patterns) and voice rules. The agent researches the SERP itself if needed — no keyword data exports required."
+summary: "This skill generates complete SEO-optimized articles using SERP research and anti-AI-slop writing rules."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "detected"

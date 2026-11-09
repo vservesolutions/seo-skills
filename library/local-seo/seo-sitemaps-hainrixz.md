@@ -1,6 +1,7 @@
 ---
 name: "seo-sitemaps"
 description: "Audit and generate sitemaps and discovery files — validate XML sitemap presence/size/extensions/lastmod, check robots.txt referencing and sitemap-to-canonical consistency, reconcile orphans against the link graph, and produce repaired sitemap entries plus a robots.txt Sitemap line. Module M17. Feeds the Search SEO score."
+summary: "Validates XML sitemaps, checks robots.txt references, and identifies orphan pages."
 category: "local-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

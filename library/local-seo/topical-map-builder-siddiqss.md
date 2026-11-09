@@ -1,6 +1,7 @@
 ---
 name: "topical-map-builder"
 description: "Build or extend a full topical map — a pillar/cluster/supporting content architecture grounded in entity-based semantic SEO — for a brand. Use whenever the user asks for a topical map, a content plan or content strategy, keyword clustering into topics, \"what should we write about\", niche coverage, or how to build topical authority — even if they only mention keywords or blog ideas. Produces topical-map.json plus a readable tree and a prioritised content calendar. If the brand has no entity-profile.json, run seo-brand-foundation first. Triggers on content-planning intent broadly, not just the…"
+summary: "Builds comprehensive entity-based topical maps and content architectures for brand authority."
 category: "local-seo"
 platforms: ["claude-code"]
 platform_source: "declared"

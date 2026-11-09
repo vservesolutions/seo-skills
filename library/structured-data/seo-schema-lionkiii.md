@@ -1,6 +1,7 @@
 ---
 name: "seo-schema"
 description: "Detect, validate, and generate Schema.org structured data with Ahrefs traffic prioritization. JSON-LD format preferred. Use when user says \"schema\", \"structured data\", \"rich results\", \"JSON-LD\", \"markup\", or \"schema priority\"."
+summary: "Detects, validates, and generates Schema.org structured data using traffic prioritization."
 category: "structured-data"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

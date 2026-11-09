@@ -1,6 +1,7 @@
 ---
 name: "openseo-project-setup"
 description: "Bind this repo to an OpenSEO project and prepare the local SEO state directories. Use this skill when starting SEO work on a fresh project, when `.seo/openseo.json` does not exist yet, when the OpenSEO project id is unknown, or when Google Search Console needs connecting before keyword or rank work can start. Triggers: \"set up openseo\", \"link seo project\", \"connect gsc\", \"start seo for this site\", \"openseo project id\"."
+summary: "Connects repositories to OpenSEO and Google Search Console for local SEO tracking."
 category: "analytics-measurement"
 platforms: ["claude-code"]
 platform_source: "detected"

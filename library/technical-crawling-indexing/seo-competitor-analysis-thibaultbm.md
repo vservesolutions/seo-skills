@@ -1,6 +1,7 @@
 ---
 name: "seo-competitor-analysis"
 description: "Market analysis that reads every sitemap of every competitor and finds the keywords, topics and page models they cover and you do not. Always starts by asking the user for up to 5 known competitors, or whether to find them autonomously, before anything runs. Input: your site, plus competitors given or found. Output: competitor_sitemaps.py run on all of them (every sitemap followed, every URL sorted into a page model, publishing pace with real publication dates, slugs turned into topics), a page-model gap table (comparison, alternatives, glossary, free tools, integrations, use cases…"
+summary: "Analyzes competitor sitemaps to identify content gaps, missing keywords, and unoptimized topic areas."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

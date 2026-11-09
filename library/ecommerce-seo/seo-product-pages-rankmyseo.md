@@ -1,6 +1,7 @@
 ---
 name: "seo-product-pages"
 description: "Make product and category pages for an online shop easy to find in Google. Checks demand for each product, how rival product pages look, the page content, URLs for variants and filters, Product markup, and the Merchant Center feed. Use for any site that sells products online, before launch or when product pages get little traffic."
+summary: "Optimizes e-commerce product and category pages for better search visibility, structure, and feed integration."
 category: "ecommerce-seo"
 platforms: ["unspecified"]
 platform_source: "none"

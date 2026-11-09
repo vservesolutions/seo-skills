@@ -1,6 +1,7 @@
 ---
 name: "geo-technical"
 description: "Technical SEO audit with GEO-specific checks: crawlability, indexability, security, performance, SSR, and AI crawler access"
+summary: "Performs a technical SEO audit with specific checks for crawlability, indexability, security, performance, server-side rendering, and AI crawler access."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "detected"

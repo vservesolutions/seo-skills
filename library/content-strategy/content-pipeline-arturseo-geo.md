@@ -1,6 +1,7 @@
 ---
 name: "content-pipeline"
 description: "Run a multi-agent content production pipeline where specialist agents work together to research, write, edit, optimise for SEO/GEO, and validate against analytics data — with a master agent reviewing all outputs before human approval. Use this skill whenever the user wants to produce content using multiple agents, asks about agent pipelines, content automation, multi-agent content workflow, orchestrated content creation, or wants one agent to search the web while others write and optimise. Also trigger when the user says \"run the content pipeline\", \"create content for [topic]\", or wants to…"
+summary: "Runs a multi-agent content pipeline for researching, writing, and optimizing search content."
 category: "content-strategy"
 platforms: ["claude-code"]
 platform_source: "declared"

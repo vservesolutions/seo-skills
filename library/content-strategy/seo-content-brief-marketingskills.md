@@ -1,6 +1,7 @@
 ---
 name: "seo-content-brief"
 description: "Create a search-intent, entity, outline, and internal-link brief for a new page. Use when Codex needs to produce a content brief optimized for SEO performance."
+summary: "Creates comprehensive content briefs optimized for search intent, entities, and internal linking."
 category: "content-strategy"
 platforms: ["unspecified"]
 platform_source: "none"

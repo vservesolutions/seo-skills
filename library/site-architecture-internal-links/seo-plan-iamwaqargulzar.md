@@ -1,6 +1,7 @@
 ---
 name: "seo-plan"
 description: "Compatibility skill for seo plan. Use when a user or upstream workflow invokes this name; route the task to `seo` while preserving the requested scope and source-specific intent."
+summary: "Routes SEO planning requests to the main optimization workflow."
 category: "site-architecture-internal-links"
 platforms: ["unspecified"]
 platform_source: "none"

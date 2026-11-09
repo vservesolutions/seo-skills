@@ -1,6 +1,7 @@
 ---
 name: "seo-keyword-content"
 description: "Build and normalize SEO-rich tool directory content using keyword-driven rules, including long-tail phrase patterns and modifier vocabulary, for oneLiner, longDescription, whoItsFor, notFor, workflows, features, advantages, disadvantages, tips, and faqs."
+summary: "Builds and normalizes keyword-driven directory content according to specific SEO optimization rules."
 category: "keyword-research"
 platforms: ["any-agent"]
 platform_source: "declared"

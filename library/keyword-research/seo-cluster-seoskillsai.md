@@ -1,6 +1,7 @@
 ---
 name: "seo-cluster"
 description: "SERP-based semantic keyword and topic clustering. Groups search terms by SERP URL overlap percentage to eliminate keyword cannibalization."
+summary: "Clusters search terms semantically based on SERP URL overlap to prevent keyword cannibalization."
 category: "keyword-research"
 platforms: ["claude-code", "windsurf", "antigravity"]
 platform_source: "declared"

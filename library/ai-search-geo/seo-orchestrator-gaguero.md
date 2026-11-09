@@ -1,6 +1,7 @@
 ---
 name: "seo-orchestrator"
 description: "Plans and routes SEO work for AI agents. Takes a URL or site plus a business goal, language, market and competitors, then produces a prioritized, impact/effort/risk-ranked SEO plan and dispatches the right specialist skills (technical audit, content brief, schema, AI-search, quality gates). Use this first whenever someone asks to \"do SEO\", \"audit my site\", \"improve rankings\", \"optimize a page\", \"rank in AI / ChatGPT / AI Overviews\", or when the request spans more than one SEO discipline. Coordinates the rest of the seo-agent-skills pack."
+summary: "Plans and prioritizes SEO workflows and dispatches specialist optimization tasks."
 category: "ai-search-geo"
 platforms: ["any-agent"]
 platform_source: "declared"

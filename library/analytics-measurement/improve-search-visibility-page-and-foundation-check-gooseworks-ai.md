@@ -1,6 +1,7 @@
 ---
 name: "improve-search-visibility-page-and-foundation-check"
 description: "Step of the improve-search-visibility playbook: audits site indexing, crawling, technical and page issues at the requested scope, or checks pages behind lost visibility questions. Run improve-search-visibility instead; not for direct use."
+summary: "Audits site indexing, crawling, and technical page issues for visibility troubleshooting."
 category: "analytics-measurement"
 platforms: ["unspecified"]
 platform_source: "none"

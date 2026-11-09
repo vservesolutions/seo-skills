@@ -1,6 +1,7 @@
 ---
 name: "seo-geo"
 description: "Compatibility skill for seo geo. Use when a user or upstream workflow invokes this name; route the task to `ai-seo` while preserving the requested scope and source-specific intent."
+summary: "This compatibility skill routes AI SEO tasks."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

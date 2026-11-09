@@ -1,6 +1,7 @@
 ---
 name: "seo-geo"
 description: "Optimize content to be cited inline by AI answer engines — AI Overviews, ChatGPT, Perplexity, and Bing Copilot. Scores passage-level citability, generates llms.txt, audits AI-crawler access, and recommends structured-data and brand-mention signals. Uses DataForSEO for LLM-mention tracking when connected; otherwise scores citability and gives on-page guidance without live mention data. Trigger when the user says \"AI Overviews\", \"GEO\", \"generative engine optimization\", \"AI search optimization\", \"Perplexity citations\", \"ChatGPT search\", \"AI visibility optimization\", or \"llms.txt\"."
+summary: "Optimizes content for inline citations in AI answer engines and generative search results."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

@@ -1,6 +1,7 @@
 ---
 name: "che-wordstat-keyword-research"
 description: "Подбирает и проверяет семантику Wordstat: частотность, связанные запросы, регион и кластеризацию. Применяется для ключевых слов статьи/страницы и семантического ядра; исторические тренды анализирует che-wordstat-trend-radar."
+summary: "Researches and clusters keyword semantics using Wordstat data."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "detected"

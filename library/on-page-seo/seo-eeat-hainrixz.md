@@ -1,6 +1,7 @@
 ---
 name: "seo-eeat"
 description: "Audit and strengthen E-E-A-T and trust signals on a page — verify author identity/credentials (Person schema, byline, author page, sameAs), Organization about/contact/policies, visible experience/expertise markers, and transparency (sourcing, disclosures), and generate Person/Organization trust JSON-LD. Module M16. Feeds both the Search SEO and AI Visibility scores."
+summary: "Audits and strengthens E-E-A-T and trust signals on a page by verifying author and organization schema."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

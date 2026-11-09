@@ -1,6 +1,7 @@
 ---
 name: "seo-backlinks"
 description: "Free backlink profile audit using Common Crawl web graphs, Moz Link Explorer API, and Bing Webmaster Tools without expensive SaaS subscriptions."
+summary: "Audits backlink profiles utilizing multiple web graph and link explorer APIs."
 category: "link-building"
 platforms: ["claude-code", "windsurf", "antigravity"]
 platform_source: "declared"

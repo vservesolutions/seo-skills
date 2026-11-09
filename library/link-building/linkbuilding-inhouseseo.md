@@ -1,6 +1,7 @@
 ---
 name: "linkbuilding"
 description: "Use when planning link acquisition. Classifies the site's authority phase from site age and visible signals, then recommends phase-appropriate tactics from the bundled tactic playbook library. No backlink tool required."
+summary: "This skill assesses site authority and recommends phase-appropriate link building tactics."
 category: "link-building"
 platforms: ["unspecified"]
 platform_source: "none"

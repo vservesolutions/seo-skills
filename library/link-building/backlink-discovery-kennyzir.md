@@ -1,6 +1,7 @@
 ---
 name: "backlink-discovery"
 description: "外链机会发现引擎。用户输入目标网址，立即用 web_search 开始多轮关键词派生搜索， 目标发现 300 个相关平台后自动停止，结果存入该网址专属数据库。 不限外链方式（论坛/GitHub/Wiki/目录等），只发现不执行。 触发：用户提供网址，说\"发现外链\"、\"找外链机会\"、\"发现外链机会\"。"
+summary: "This skill discovers backlink and platform opportunities via multi-round web searches."
 category: "link-building"
 platforms: ["unspecified"]
 platform_source: "none"

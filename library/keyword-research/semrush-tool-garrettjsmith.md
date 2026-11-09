@@ -1,6 +1,7 @@
 ---
 name: "semrush-tool"
 description: "When the user wants keyword research with search volume, competitive keyword analysis, site audit data, position tracking, or competitor organic analysis. Trigger on \"keyword research,\" \"search volume,\" \"keyword difficulty,\" \"what keywords do they rank for,\" \"site audit,\" \"Semrush,\" or \"competitive analysis.\" Use Semrush for keyword data and competitive intelligence — use Ahrefs for backlink-focused analysis."
+summary: "Provides keyword research, search volume data, and competitive analysis."
 category: "keyword-research"
 platforms: ["unspecified"]
 platform_source: "none"

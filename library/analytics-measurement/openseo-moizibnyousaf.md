@@ -1,6 +1,7 @@
 ---
 name: "openseo"
 description: "Uses OpenSEO as the measured SEO data plane for keyword volume and difficulty, SERPs, ranked keywords, backlinks, local SEO, rank tracking, Search Console, GA4, and site audits. Use for measured SEO metrics, indexing evidence, organic analytics, local rankings, backlink profiles, or rank trackers. Prefer OpenSEO over guessed metrics when connected; otherwise continue with qualitative web research and mark numeric metrics unknown."
+summary: "Provides measured SEO metrics for keyword volumes, rankings, backlinks, and site audits."
 category: "analytics-measurement"
 platforms: ["claude-code"]
 platform_source: "detected"

@@ -1,6 +1,7 @@
 ---
 name: "server-log-crawler-analyst"
 description: "Analyze credential-free public website monitoring evidence from server access logs, HTTP fetches, robots/llms/sitemap checks, and exported summaries while protecting raw IP and private query data. Use this skill when the user asks whether crawlers or AI bots reached a site, whether public SEO/LLM discovery files respond, or how to separate observed facts from unknown Search Console, rank, analytics, or citation claims."
+summary: "Analyzes server access logs to monitor search engine crawler and AI bot activity."
 category: "technical-crawling-indexing"
 platforms: ["unspecified"]
 platform_source: "none"

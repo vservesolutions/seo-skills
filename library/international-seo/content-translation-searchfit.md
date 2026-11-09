@@ -1,6 +1,7 @@
 ---
 name: "content-translation"
 description: "Translate and localize website content for international SEO. Use when the user asks to \"translate content\", \"localize my site\", \"multilingual SEO\", \"translate to [language]\", \"international SEO\", \"hreflang\", \"multi-language website\", or wants to expand content to new languages and markets."
+summary: "This skill translates and localizes website content to support international SEO and multilingual expansion."
 category: "international-seo"
 platforms: ["claude-code"]
 platform_source: "declared"

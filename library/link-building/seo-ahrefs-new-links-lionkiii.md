@@ -1,6 +1,7 @@
 ---
 name: "seo-ahrefs-new-links"
 description: "See recently acquired and lost backlinks for a domain using Ahrefs. Shows new referring domains in the last 30 days and any lost referring domains. Use when user says \"new backlinks\", \"new links\", \"recently acquired links\", \"lost links\", or \"new referring domains\"."
+summary: "Monitors newly acquired and lost referring domains over a thirty-day window using Ahrefs."
 category: "link-building"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

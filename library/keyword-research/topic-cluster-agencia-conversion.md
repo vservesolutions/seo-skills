@@ -1,6 +1,7 @@
 ---
 name: "topic-cluster"
 description: "When the user wants to build, refresh, or promote an SEO topic cluster (pillar + satellites) backed by keyword and SERP evidence. Runs in four phases — Pesquisar, Curar, Estruturar, Promover — with the cluster draft kept outside the brain until human approval."
+summary: "Builds, refreshes, and promotes SEO topic clusters using keyword and SERP evidence across structured workflow phases."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared"

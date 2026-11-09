@@ -1,6 +1,7 @@
 ---
 name: "seo-vs-ads"
 description: "Find money leaking between search ads and SEO — queries you pay for while already ranking organically, and paid queries with no organic coverage. Use when asked \"am I paying for clicks I'd get free\", \"brand bidding waste\", \"SEO vs ads overlap\", or \"cut wasted ad spend with SEO\"."
+summary: "Analyzes overlap between paid search ads and organic SEO to reduce budget waste."
 category: "analytics-measurement"
 platforms: ["claude-code"]
 platform_source: "detected"

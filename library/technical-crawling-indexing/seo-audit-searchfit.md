@@ -1,6 +1,7 @@
 ---
 name: "seo-audit"
 description: "Run a comprehensive SEO audit on a website or codebase. Use when the user asks to \"audit SEO\", \"check my site's SEO\", \"find SEO issues\", \"SEO health check\", \"technical SEO review\", \"site audit\", or wants to identify SEO problems on their website."
+summary: "This skill performs comprehensive technical and on-page SEO audits to identify website optimization issues."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared"

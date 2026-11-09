@@ -1,6 +1,7 @@
 ---
 name: "seo-strategy"
 description: "Define audience, business model, conversion path, topical authority, and execution capacity for an SEO strategy. Use when Codex needs to develop a high-level SEO strategy for a site."
+summary: "Defines audience, topical authority, and high-level execution strategy for website SEO."
 category: "content-strategy"
 platforms: ["unspecified"]
 platform_source: "none"

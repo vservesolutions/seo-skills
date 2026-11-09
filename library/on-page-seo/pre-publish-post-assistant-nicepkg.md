@@ -1,6 +1,7 @@
 ---
 name: "pre-publish-post-assistant"
 description: "Pre-publish assistant for new blog posts. Use when the user wants to classify a new post with categories and tags, generate SEO metadata (title, description, focus keyphrase), or get intelligent suggestions with rationale. Works with draft content (file path, URL, or text) and suggests from existing taxonomy to maintain balanced distribution."
+summary: "Generates SEO metadata and suggests categories for new blog post drafts."
 category: "on-page-seo"
 platforms: ["claude-code", "codex", "cursor"]
 platform_source: "declared"

@@ -1,6 +1,7 @@
 ---
 name: "seo-robots-ai"
 description: "Audit robots.txt for AI crawler access policies. Checks GPTBot, ClaudeBot, PerplexityBot, Google-Extended, and other AI crawlers. Use when user says \"robots AI\", \"AI crawlers\", \"block AI\", \"allow AI bots\", \"AI crawl policy\"."
+summary: "Audits robots.txt files specifically for AI crawler access and bot policies."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

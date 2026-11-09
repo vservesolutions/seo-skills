@@ -1,6 +1,7 @@
 ---
 name: "suparank"
 description: "AI-powered SEO content creation toolkit. Research keywords, write optimized articles, and publish to WordPress/Ghost."
+summary: "Creates AI-powered SEO content and publishes directly to platforms."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared"

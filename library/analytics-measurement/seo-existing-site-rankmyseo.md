@@ -1,6 +1,7 @@
 ---
 name: "seo-existing-site"
 description: "Baseline audit for a website that is already live. Builds a page inventory, reads what ranks and what is broken, decides keep, refresh, merge, or redirect for each page, checks for competing pages, and plans redirects for any URL that moves. Use the first time you take on an existing site, or when the owner asks for a full review."
+summary: "Performs baseline inventories and audits for existing live websites."
 category: "analytics-measurement"
 platforms: ["unspecified"]
 platform_source: "none"

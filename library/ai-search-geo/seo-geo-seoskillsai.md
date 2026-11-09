@@ -1,6 +1,7 @@
 ---
 name: "seo-geo"
 description: "Generative Engine Optimization (GEO). Optimizes website content for citations in Google AI Overviews, Perplexity Pro, ChatGPT Search, and Bing Copilot."
+summary: "Optimizes content for citations across generative AI search engines and answer platforms."
 category: "ai-search-geo"
 platforms: ["claude-code", "windsurf", "antigravity"]
 platform_source: "declared"

@@ -1,6 +1,7 @@
 ---
 name: "technical-seo"
 description: "Perform a technical SEO audit on a website or codebase. Use when the user asks for \"technical SEO\", \"site speed\", \"core web vitals\", \"crawlability\", \"indexation issues\", \"robots.txt\", \"sitemap check\", \"render blocking\", \"page speed\", \"mobile-friendly check\", or wants to fix technical factors affecting search rankings."
+summary: "This skill performs technical SEO audits covering site speed, core web vitals, crawlability, and indexation."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared"

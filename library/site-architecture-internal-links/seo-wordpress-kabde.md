@@ -1,6 +1,7 @@
 ---
 name: "seo-wordpress"
 description: "WordPress SEO audit via REST API with Application Password. Analyzes posts, pages, categories, tags, media, internal linking, SEO plugin meta (Yoast/RankMath), content depth, and schema markup. Use when user says \"wordpress\", \"wp audit\", \"blog audit\", \"analyse wordpress\", \"contenu wordpress\", or provides a WordPress URL."
+summary: "Audits WordPress sites via REST API for content depth, internal links, and SEO plugin metadata."
 category: "site-architecture-internal-links"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

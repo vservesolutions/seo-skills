@@ -1,6 +1,7 @@
 ---
 name: "seo-content"
 description: "Assess a draft or page for usefulness, search intent, factual support and experience/expertise signals. Use for SEO content audits or revisions."
+summary: "Assesses content for search intent and E-E-A-T signals."
 category: "keyword-research"
 platforms: ["unspecified"]
 platform_source: "none"

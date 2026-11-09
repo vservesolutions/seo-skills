@@ -1,6 +1,7 @@
 ---
 name: "information-architecture-seo"
 description: "Convert a semantic core into crawlable SEO and LLM-friendly information architecture. Use this skill when the user asks for URL structure, page taxonomy, canonical rules, hreflang groups, page roles, pillar/topic/news/article/blog/project separation, multilingual route strategy, or a durable content model such as one short brief plus one longform article. It prevents duplicate public content bodies and hands link-graph work to internal-link-graph-architect."
+summary: "Converts semantic cores into crawlable SEO and LLM-friendly information architectures and URL structures."
 category: "site-architecture-internal-links"
 platforms: ["unspecified"]
 platform_source: "none"

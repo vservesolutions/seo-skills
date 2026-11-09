@@ -1,6 +1,7 @@
 ---
 name: "audit"
 description: "Run a comprehensive SEO audit on a website covering technical health, on-page optimization, content quality, and backlink profile. Use when the user asks for an SEO audit, site review, SEO health check, \"what's wrong with my SEO\", website analysis, or a full diagnostic of their site's search performance. For speed-specific issues, see audit-speed. For technical crawl/index issues only, see diagnose-seo."
+summary: "Conducts a comprehensive SEO audit covering technical health, on-page, and backlinks."
 category: "technical-crawling-indexing"
 platforms: ["unspecified"]
 platform_source: "none"

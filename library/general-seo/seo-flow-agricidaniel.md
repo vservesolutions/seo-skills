@@ -1,6 +1,7 @@
 ---
 name: "seo-flow"
 description: "Apply the FLOW framework to organize an SEO initiative through Find, Leverage, Optimize and Win. Use when FLOW is requested."
+summary: "Organizes SEO initiatives through the FLOW framework."
 category: "general-seo"
 platforms: ["unspecified"]
 platform_source: "none"

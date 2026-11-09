@@ -1,6 +1,7 @@
 ---
 name: "seo-markdown-audit"
 description: "Audit markdown files for SEO before publishing. Checks heading structure, meta description, keyword density, content length, link quality, image alt text, and frontmatter completeness. Use when user says \"markdown audit\", \"check my markdown\", \"SEO check markdown\", or \"audit this post\"."
+summary: "Audits markdown files for on-page SEO factors prior to publication."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

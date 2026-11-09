@@ -1,6 +1,7 @@
 ---
 name: "geo-content"
 description: "Make a page more likely to be cited and quoted by AI assistants. Applies a 9-pattern citability checklist (answer-first, descriptive headings, standalone sections, tables, lists, fact density, entity naming, clean HTML) and adds llms.txt plus FAQPage schema. Use when someone runs /growth-os:geo-content, says \"optimize for AI citations,\" \"make this quotable,\" \"GEO content,\" \"help ChatGPT quote my page,\" or after geo-audit shows the brand is invisible or out-cited."
+summary: "Optimizes web content with specific citability patterns, llms.txt, and FAQ schema to increase AI assistant citations."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared"

@@ -1,6 +1,7 @@
 ---
 name: "aeo-analytics-free"
 description: "Track AI visibility — measure whether a brand is mentioned and cited by AI assistants (Gemini, ChatGPT, Perplexity) for target prompts. Runs scans, tracks mention/citation rates over time, detects trends, and identifies opportunities. Uses Gemini API free tier (with grounding) as primary method, web search as fallback. Use when a user wants to: check if AI models mention their brand, track AI citation changes over time, measure AEO content effectiveness, monitor competitor AI visibility, or audit their brand's presence in AI-generated answers. Pairs with aeo-prompt-research-free (identifies…"
+summary: "Tracks brand mention and citation rates by AI assistants over time using free API tools."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

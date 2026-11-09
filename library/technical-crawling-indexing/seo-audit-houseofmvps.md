@@ -1,6 +1,7 @@
 ---
 name: "seo-audit"
 description: "Run SEO audit (39 rules) with AI visibility checks — GEO (20 rules for AI bot access, snippet restrictions) and AEO (4 schema checks). Auto-fix included. Use when user wants to check or improve search visibility."
+summary: "Executes technical SEO audits with automated AI visibility checks and fixes."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

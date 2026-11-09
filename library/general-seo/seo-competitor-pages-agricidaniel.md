@@ -1,6 +1,7 @@
 ---
 name: "seo-competitor-pages"
 description: "Research and draft fair comparison or alternatives pages with verifiable product facts. Use for competitor comparison page requests."
+summary: "Drafts competitor comparison and alternative pages."
 category: "general-seo"
 platforms: ["unspecified"]
 platform_source: "none"

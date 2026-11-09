@@ -1,6 +1,7 @@
 ---
 name: "seo-plan"
 description: "Build a 12-month organic SEO plan: four scored pillars, phased year roadmap. \"build an SEO strategy\""
+summary: "Develops multi-pillar long-term organic SEO strategies."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "detected"

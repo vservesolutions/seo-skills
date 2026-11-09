@@ -1,6 +1,7 @@
 ---
 name: "title-tag"
 description: "When the user wants to optimize the title tag, page title, or SERP title. Also use when the user mentions \"title tag,\" \"meta title,\" \"page title,\" \"SEO title,\" \"SERP title,\" \"browser tab title,\" \"title optimization,\" \"headline for search,\" \"title too long,\" \"title tag length,\" \"duplicate title tags,\" or \"optimize title for CTR.\" For meta description, use meta-description. For structured data, use schema-markup."
+summary: "This skill optimizes HTML title tags and meta titles to improve search visibility and click-through rates."
 category: "on-page-seo"
 platforms: ["unspecified"]
 platform_source: "none"

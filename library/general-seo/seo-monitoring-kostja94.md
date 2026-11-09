@@ -1,6 +1,7 @@
 ---
 name: "seo-monitoring"
 description: "Compatibility pointer for recurring SEO monitoring; maintained in Open Analytics."
+summary: "Monitors ongoing SEO performance metrics and search visibility indicators."
 category: "general-seo"
 platforms: ["claude-code"]
 platform_source: "declared"

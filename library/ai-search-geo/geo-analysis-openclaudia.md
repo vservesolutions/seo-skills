@@ -1,6 +1,7 @@
 ---
 name: "geo-analysis"
 description: "Run a full GEO/SEO client analysis for a domain via the Enception external API — start the analysis, poll its status, and download the PDF report covering AI visibility, market research, and competitors. Use when the user says 'run a client analysis', 'analyze <domain> for GEO', 'GEO analysis for <domain>', or 'check analysis status'."
+summary: "Runs a comprehensive GEO and SEO client analysis covering AI visibility and competitors."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared"

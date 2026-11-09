@@ -1,6 +1,7 @@
 ---
 name: "seo-cluster"
 description: "SERP-overlap semantic topic clustering for content architecture — groups keywords into hub-and-spoke clusters (one pillar + supporting spokes) with an internal-link matrix and intent labels. The free path clusters keywords by actual shared Google results (SERPs acquired via WebSearch, clustered deterministically by serp_cluster.py); DataForSEO/Semrush deepen it with live bulk SERPs and keyword volume/CPC/difficulty. Trigger when the user says \"topic cluster\", \"content cluster\", \"semantic clustering\", \"pillar page\", \"hub and spoke\", \"content architecture\", \"keyword grouping\", or \"cluster plan\"."
+summary: "Clusters keywords into hub-and-spoke topic structures using SERP overlap and intent data."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

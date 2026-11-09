@@ -1,6 +1,7 @@
 ---
 name: "content-moat-calculator"
 description: "Estimate pages needed for topical authority. Go/no-go decision before investing months in content. Triggers on: \"how much content do I need\", \"topical authority estimate\", \"content moat\", \"how many articles\", \"content gap analysis\", \"can I compete in this niche\", \"content investment calculator\", \"is this niche worth the effort\", \"SEO feasibility\", \"how many pages to rank\", \"content volume needed\", \"competitive content analysis\", \"moat calculation\", \"authority gap\", \"should I invest in this niche\"."
+summary: "Estimates pages needed for building topical authority in a niche."
 category: "content-strategy"
 platforms: ["claude-code", "windsurf", "openclaw", "gemini-cli"]
 platform_source: "declared+detected"

@@ -1,6 +1,7 @@
 ---
 name: "ai-search-optimization"
 description: "Optimizes content for AI-driven search and answer engines — Google AI Overviews, ChatGPT search, Perplexity, Gemini, Copilot — also called GEO (Generative Engine Optimization) and AEO (Answer Engine Optimization). Makes content extractable and citable: direct up-front answers, clear definitions, comparison tables, genuine FAQs, named entities, and verifiable external authority. Use when someone wants to appear or be cited in AI answers, asks about GEO/AEO, AI Overviews, \"ranking in ChatGPT/Perplexity\", LLM/answer-engine visibility, or zero-click search."
+summary: "Optimizes content for AI-driven answer engines and generative search visibility."
 category: "ai-search-geo"
 platforms: ["any-agent"]
 platform_source: "declared"

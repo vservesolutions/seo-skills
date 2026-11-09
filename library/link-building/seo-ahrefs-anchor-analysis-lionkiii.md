@@ -1,6 +1,7 @@
 ---
 name: "seo-ahrefs-anchor-analysis"
 description: "Analyze a domain's anchor text distribution from Ahrefs: see the breakdown of anchor text used across all backlinks and assess link profile health. Use when user says \"anchor text\", \"anchor analysis\", \"anchor distribution\", \"link anchors\", or \"anchor text profile\"."
+summary: "This skill analyzes backlink anchor text distributions using Ahrefs data to evaluate link profile health."
 category: "link-building"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

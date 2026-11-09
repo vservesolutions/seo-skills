@@ -1,6 +1,7 @@
 ---
 name: "seo-local"
 description: "Compatibility skill for seo local. Use when a user or upstream workflow invokes this name; route the task to `seo-audit` while preserving the requested scope and source-specific intent."
+summary: "Routes local SEO requests to the SEO audit workflow while preserving the original scope."
 category: "local-seo"
 platforms: ["unspecified"]
 platform_source: "none"

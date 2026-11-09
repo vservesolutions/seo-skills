@@ -1,6 +1,7 @@
 ---
 name: "schema-markup"
 description: "Design, validate, and optimize schema.org structured data for eligibility, correctness, and measurable SEO impact."
+summary: "Designs, validates, and optimizes schema.org structured data for search eligibility."
 category: "structured-data"
 platforms: ["unspecified"]
 platform_source: "none"

@@ -1,6 +1,7 @@
 ---
 name: "seo-page-brief"
 description: "Write a content brief for one new page before it is drafted, and collect the facts the owner must supply first (prices, team, proof, hours, location, and similar). Checks what ranks now, then sets reader, intent, angle, outline, schema type, links, and call to action. Use before writing any new page from zero."
+summary: "Creates detailed content briefs with intent, angle, outline, and schema requirements for new pages."
 category: "content-strategy"
 platforms: ["unspecified"]
 platform_source: "none"

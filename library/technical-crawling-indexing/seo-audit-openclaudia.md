@@ -1,6 +1,7 @@
 ---
 name: "seo-audit"
 description: "Run a full technical and on-page SEO audit on any website or page. Use when the user says \"audit my site\", \"SEO check\", \"technical SEO review\", \"site health\", \"check my SEO\", \"what's wrong with my site\", or provides a URL and asks for SEO feedback."
+summary: "Performs comprehensive technical and on-page SEO audits on websites and individual web pages."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared"

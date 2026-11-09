@@ -1,6 +1,7 @@
 ---
 name: "seo-sxo"
 description: "Search Experience Optimization (SXO), centerpiece fold annotation (<350px viewport), click-input-click interactive loops, and dwell-time retention moats."
+summary: "Optimizes search experience, fold annotations, and dwell-time retention metrics."
 category: "general-seo"
 platforms: ["claude-code", "windsurf", "antigravity"]
 platform_source: "declared"

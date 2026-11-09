@@ -1,6 +1,7 @@
 ---
 name: "seo-programmatic"
 description: "Compatibility skill for seo programmatic. Use when a user or upstream workflow invokes this name; route the task to `programmatic-seo` while preserving the requested scope and source-specific intent."
+summary: "Routes programmatic SEO requests to the corresponding implementation workflow."
 category: "site-architecture-internal-links"
 platforms: ["unspecified"]
 platform_source: "none"

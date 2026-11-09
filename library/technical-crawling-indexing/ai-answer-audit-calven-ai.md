@@ -1,6 +1,7 @@
 ---
 name: "ai-answer-audit"
 description: "Audits how ChatGPT, Claude, Gemini and Perplexity describe your company and whether they name you for buyer questions. Use when \"AI visibility\", \"does ChatGPT mention us\", \"AI answer audit\"."
+summary: "Audits brand visibility and mentions across major AI search and answer engines."
 category: "technical-crawling-indexing"
 platforms: ["unspecified"]
 platform_source: "none"

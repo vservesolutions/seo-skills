@@ -1,6 +1,7 @@
 ---
 name: "recovery-diagnose"
 description: "Automatic domain diagnosis for Core Update recovery. Calls Sistrix + DataForSEO MCP, quantifies VI drop, identifies keyword losses, scans backlink profile, correlates with known Core Update dates. Outputs structured befund.json to cache. Use when starting recovery analysis for a domain. Data-driven: requires Sistrix/DataForSEO MCP access (CSV fallbacks exist) and writes befund.json — for the tool-free pure-Markdown framework use post-core-update-recovery instead."
+summary: "Automates core update recovery diagnosis using external SEO APIs to quantify metric drops."
 category: "algorithm-updates"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

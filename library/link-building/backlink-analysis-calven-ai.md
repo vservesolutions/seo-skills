@@ -1,6 +1,7 @@
 ---
 name: "backlink-analysis"
 description: "Profile our backlinks and the gap versus competitors, with link targets worth pursuing. Use when \"backlink profile\", \"who links to Acme but not us\", \"link gap\"."
+summary: "Analyzes backlink profiles and competitor link gaps to identify link-building targets."
 category: "link-building"
 platforms: ["codex"]
 platform_source: "detected"

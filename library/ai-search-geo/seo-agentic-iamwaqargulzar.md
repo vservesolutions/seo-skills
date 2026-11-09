@@ -1,6 +1,7 @@
 ---
 name: "seo-agentic"
 description: "Audit and improve a website's readiness for AI agents that browse, understand interfaces, complete forms, or perform user-authorized tasks. Use for agent accessibility, server-rendered content, AI access policy, Markdown/discovery surfaces, or optional browser-agent tools. For citation visibility use `ai-seo`; for commerce protocols use `seo-ecommerce`."
+summary: "This skill audits and improves a website's readiness and accessibility for AI browsing agents."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

@@ -1,6 +1,7 @@
 ---
 name: "page-metadata"
 description: "When the user wants a full-page metadata audit or implementation across discovery, search intent, title, description, canonical, robots, hreflang, Open Graph, Twitter Cards, code or CMS changes, build validation, rendered HTML, production verification, localization, or post-release observation. Also use for \"metadata audit,\" \"sitewide meta optimization,\" \"metadata implementation,\" \"meta robots,\" \"hreflang,\" \"viewport,\" or \"charset.\" For an isolated title, description, heading, Open Graph, or Twitter Card task, use its specialist skill directly."
+summary: "Conducts comprehensive page metadata audits and implementations."
 category: "international-seo"
 platforms: ["claude-code"]
 platform_source: "declared"

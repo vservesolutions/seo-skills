@@ -1,6 +1,7 @@
 ---
 name: "seo-schema-markup"
 description: "Get valid Schema.org JSON-LD that still earns surfaces in 2026. Input: a page and its type (article, product, local business, person, and so on). Output: ready-to-adapt JSON-LD (Organization with sameAs, Article, Product, Offer, AggregateRating, LocalBusiness, BreadcrumbList, Person, WebSite, VideoObject, Event), entity graph linking with @id, a what-Google-dropped status table, and a two-validator routine. Use for schema, structured data, JSON-LD, rich results, review stars, breadcrumbs, sameAs, knowledge panel, or Rich Results Test errors."
+summary: "Generates valid Schema.org JSON-LD structured data for rich snippets and AI search visibility."
 category: "structured-data"
 platforms: ["claude-code"]
 platform_source: "declared"

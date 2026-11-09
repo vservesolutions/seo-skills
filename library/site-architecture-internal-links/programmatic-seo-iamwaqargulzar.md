@@ -1,6 +1,7 @@
 ---
 name: "programmatic-seo"
 description: "Design scalable SEO page systems using templates, structured data sources, quality thresholds, internal linking, indexation controls and anti-thin-content gates."
+summary: "This skill designs scalable programmatic SEO page systems with templates and indexation controls."
 category: "site-architecture-internal-links"
 platforms: ["unspecified"]
 platform_source: "none"

@@ -1,6 +1,7 @@
 ---
 name: "seo-plan"
 description: "Create an SEO strategy and implementation roadmap around business goals, available evidence and resources. Use for SEO planning."
+summary: "Creates an SEO strategy and implementation roadmap around business goals and available evidence."
 category: "general-seo"
 platforms: ["unspecified"]
 platform_source: "none"

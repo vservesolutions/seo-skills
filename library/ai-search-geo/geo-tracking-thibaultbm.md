@@ -1,6 +1,7 @@
 ---
 name: "geo-tracking"
 description: "Measure AI visibility without paid tools or API keys. Input: your site (GA4 and server logs) and a buyer prompt panel. Output: GA4 AI-traffic reporting (custom channel group plus referrer regex above Referral), monthly brand mention rate, citation rate, and share of voice versus competitors across ChatGPT, Perplexity, AI Overviews, Claude, and Gemini, plus verified AI-crawler hits from logs. Repo reference for measurement. Use to track AI traffic, monitor brand mentions, run prompt tracking, compute share of voice, or build a monthly GEO report."
+summary: "Measures AI search visibility and brand mention rates across multiple AI engines using analytics and server log data."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared"

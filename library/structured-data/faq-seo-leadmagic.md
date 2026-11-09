@@ -1,6 +1,7 @@
 ---
 name: "faq-seo"
 description: "Builds question-driven FAQ content that wins featured snippets and People Also Ask placements: question research, answer formatting, FAQ schema, and page placement. Use when the user wants to target featured snippets, PAA boxes, or voice search, or needs an FAQ page that ranks. Triggers on: \"FAQ SEO\", \"featured snippet\", \"People Also Ask\", \"question SEO\", \"answer content\"."
+summary: "Creates question-driven FAQ content targeting featured snippets and People Also Ask placements."
 category: "structured-data"
 platforms: ["claude-code", "gemini-cli", "windsurf", "copilot"]
 platform_source: "detected"

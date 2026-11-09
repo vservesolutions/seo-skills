@@ -1,6 +1,7 @@
 ---
 name: "seo-technical"
 description: "Audit technical SEO across crawlability, indexability, security, URLs, mobile, Core Web Vitals, rendering, structured data, and IndexNow. Use when the user asks for a technical SEO audit or about crawling, indexing, rendering, or site speed. Exclude content strategy and backlinks."
+summary: "Audits technical SEO factors including crawlability, indexability, core web vitals, and rendering."
 category: "technical-crawling-indexing"
 platforms: ["codex"]
 platform_source: "declared"

@@ -1,6 +1,7 @@
 ---
 name: "serp-extract"
 description: "When the user wants to capture SERP evidence, search result snapshots, competitor URLs, or SERP features for specific keywords without doing SEO analysis."
+summary: "This skill captures SERP snapshots and competitor URLs for search analysis."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared"

@@ -1,6 +1,7 @@
 ---
 name: "aeo-answer-optimizer"
 description: "Use this skill when you want your brand recommended and cited by AI assistants and answer engines (ChatGPT, Claude, Gemini, Perplexity, AI Overviews): \"answer engine optimisation\", \"get cited by ChatGPT\", \"AEO audit\", \"why doesn't AI recommend us\", \"generative engine optimization\". Finds the questions buyers ask assistants in your category, checks how answers describe you today, and rewrites pages so they give extractable, factual, well-structured answers with clear entities, comparisons, schema and third-party corroboration."
+summary: "Optimizes brand visibility and citations within AI assistants and answer engines."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared"

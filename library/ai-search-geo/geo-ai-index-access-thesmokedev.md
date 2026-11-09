@@ -1,6 +1,7 @@
 ---
 name: "geo-ai-index-access"
 description: "Index and access layer audit for AI search -- the hard prerequisites. Verifies Bing indexation (the ChatGPT entry ticket), audits robots.txt and CDN-level AI-crawler access, removes legacy nosnippet/max-snippet preview restrictions, and confirms key content is server-rendered. Use before any content-level GEO work, or when a site is invisible to ChatGPT despite good content."
+summary: "This skill audits indexation and crawler access layers specifically for AI search engines."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

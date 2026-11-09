@@ -1,6 +1,7 @@
 ---
 name: "schema"
 description: "Design, validate and implement structured data that accurately represents visible page content and current search-engine eligibility rules."
+summary: "This skill designs and validates structured data representing visible page content according to search engine rules."
 category: "structured-data"
 platforms: ["unspecified"]
 platform_source: "none"

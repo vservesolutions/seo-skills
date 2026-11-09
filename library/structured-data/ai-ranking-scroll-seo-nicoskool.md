@@ -1,6 +1,7 @@
 ---
 name: "ai-ranking-scroll-seo"
 description: "Build premium scroll-driven websites that also rank: dimensional layered heroes, a bespoke signature move, restrained scroll motion, AND hard SEO gates (WebP-only images inside byte budgets, JSON-LD schema, the researched keyword in the title and H1, Lighthouse 95+ on performance, accessibility, best practices and SEO on mobile and desktop, and agentic browsing readiness with llms.txt and WebMCP). Multi-language via Astro. Generates photoreal assets via fal.ai (GPT Image 2.5) or kie.ai, captioned as illustrative in trust mode. Use for \"scroll site\", \"scroll animation website\", \"premium hero\"…"
+summary: "Builds scroll-driven websites optimized for performance, structured data, and search engine visibility."
 category: "structured-data"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

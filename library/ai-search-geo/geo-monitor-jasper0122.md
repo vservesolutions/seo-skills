@@ -1,6 +1,7 @@
 ---
 name: "geo-monitor"
 description: "Run and read the GEO pipeline, which measures whether AI answer engines mention, recommend and cite your site. Puts a fixed registry of real user questions to an answer engine through the Monid tool layer, detects the three signals plus competitors, and turns \"a rival is named and we are not\" into a tracked work queue. Optionally cross checks against citation counts for eight assistants. Use when asked to run a GEO cycle, check AI answer visibility, find attack words, add questions to the registry, review the competitor dictionary, or interpret a mention/recommendation/citation rate. Triggers…"
+summary: "This skill measures whether AI answer engines mention, recommend, and cite the target website."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared"

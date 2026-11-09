@@ -1,6 +1,7 @@
 ---
 name: "seo-hreflang"
 description: "International SEO, multi-regional architecture, and hreflang tag validation. Enforces bidirectional return tags and cultural localization profiles."
+summary: "Manages international multi-regional architecture and validates bidirectional hreflang tags."
 category: "international-seo"
 platforms: ["claude-code", "windsurf", "antigravity"]
 platform_source: "declared"

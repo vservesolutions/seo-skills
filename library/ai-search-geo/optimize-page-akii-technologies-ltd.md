@@ -1,6 +1,7 @@
 ---
 name: "optimize-page"
 description: "Comprehensive single-page optimization across all three layers — traditional SEO (title / meta / H1 / internal links), AEO (chunk quality, direct-answer leads, FAQ extraction), and GEO rewrites using the tactics published by the Princeton/IIT Delhi GEO study (citation integration, expert quotes, statistics enrichment, fluency optimization, authoritative tone). Use when the user asks to \"optimize this page\", \"improve SEO for this page\", \"AEO optimize\", \"GEO optimize\", \"apply Princeton GEO method\", \"rewrite for AI search\", \"make this snippet-able\", \"optimize for ChatGPT/Claude/Gemini/Perplexity…"
+summary: "Performs single-page optimization combining traditional SEO, answer engine optimization, and generative engine optimization tactics."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared"

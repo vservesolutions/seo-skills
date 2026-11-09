@@ -1,6 +1,7 @@
 ---
 name: "suparank/research"
 description: "SEO research phase - keyword research, SEO strategy, topical maps, and content calendars."
+summary: "Conducts keyword research and builds topical content maps."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

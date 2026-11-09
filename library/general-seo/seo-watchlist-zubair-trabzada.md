@@ -1,6 +1,7 @@
 ---
 name: "seo-watchlist"
 description: "Track multiple domains and keywords across runs using the DataForSEO SERP API. Saves a local watchlist of domains + their target keywords, then re-runs live rank checks on demand and surfaces any position changes (gains, losses, drops) since the last check."
+summary: "Tracks keyword ranking changes across multiple domains over time using DataForSEO."
 category: "general-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

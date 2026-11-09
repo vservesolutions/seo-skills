@@ -1,6 +1,7 @@
 ---
 name: "seo-gsc-compare"
 description: "Compare Google Search Console performance between two time periods to identify trends and changes. Supports month-over-month (MoM), year-over-year (YoY), or custom date ranges. Use when user says \"GSC compare\", \"period comparison\", \"month over month\", \"year over year\", \"compare performance\", \"MoM\", or \"YoY\"."
+summary: "Compares Google Search Console performance data between two time periods to identify SEO trends."
 category: "analytics-measurement"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

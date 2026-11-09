@@ -1,6 +1,7 @@
 ---
 name: "seo-compare"
 description: "Head-to-head SEO comparison of two domains powered by the DataForSEO API. Side-by-side metrics across keywords, traffic, backlinks, referring domains, and shared keyword overlap with a verdict on which domain has the stronger SEO position."
+summary: "Compares two domains side-by-side across keywords, traffic, and backlinks using DataForSEO."
 category: "link-building"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

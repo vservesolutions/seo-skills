@@ -1,6 +1,7 @@
 ---
 name: "seo-page"
 description: "Deep single-page SEO analysis covering on-page elements, content quality, technical meta tags, schema, images, and performance. Use when user says \"analyze this page\", \"check page SEO\", or provides a single URL for review."
+summary: "Performs a deep single-page SEO review covering on-page elements, content quality, technical meta tags, schema, and performance."
 category: "on-page-seo"
 platforms: ["antigravity", "claude-code"]
 platform_source: "declared+detected"

@@ -1,6 +1,7 @@
 ---
 name: "seo-competitors"
 description: "Find who the site actually competes with in search, benchmark against them, watch what they change, and turn the keywords and topics they win into a plan. Covers search rivals (which may differ from business rivals), keyword and content gaps, a monthly watch with alert rules, and an optional look at the ads a rival runs. Use when the owner asks who they compete with, what rivals are doing, or what topics they are missing."
+summary: "Finds search competitors and analyzes keyword and content gaps."
 category: "content-strategy"
 platforms: ["unspecified"]
 platform_source: "none"

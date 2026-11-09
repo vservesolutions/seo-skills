@@ -1,6 +1,7 @@
 ---
 name: "seo-technical"
 description: "Find and fix what stops a site from being indexed, fast, and visible to AI crawlers. Input: a site or specific pages. Output: fixes for indexation, robots.txt, sitemaps, IndexNow, Core Web Vitals (LCP/INP/CLS), JS rendering, AI crawler access (GPTBot, ClaudeBot, PerplexityBot, and more), canonicals, hreflang, HTTPS, and migrations. Repo reference for AI crawler control. Use for a technical audit, pages not indexed, slow pages, robots.txt or sitemap issues, llms.txt, content invisible to ChatGPT, a migration, or a hacked site."
+summary: "Identifies and fixes technical issues affecting indexation, performance, and AI crawler access."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared"

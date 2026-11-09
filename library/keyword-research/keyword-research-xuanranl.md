@@ -1,6 +1,7 @@
 ---
 name: "keyword-research"
 description: "Deep keyword research via Tavily SERP + Crossref + AI-search probe. Builds research.json with intent, semantic clusters, PAA, competitor titles, SERP features, AI engine findings, content gaps. Triggered by phase-research orchestrator or directly when user requests keyword research for an article topic. ALWAYS the first stage for /article command. Use it whenever the user provides a keyword + wants to start the SEO writing pipeline OR asks \"what should I write about for X\" OR \"research keyword X for me\"."
+summary: "This skill conducts deep keyword and SERP research to identify semantic clusters and content gaps."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

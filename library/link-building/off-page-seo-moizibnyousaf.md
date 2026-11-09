@@ -1,6 +1,7 @@
 ---
 name: "off-page-seo"
 description: "Ongoing link-building campaigns that raise domain authority and expand a site's KD ceiling beyond what on-page work alone can earn. Use when the user mentions 'off-page SEO', 'link building', 'directory link building', 'backlink campaign', 'listicle placements', 'guest posts', 'outreach targets', 'get listed in listicles', or asks 'how do I get more domain authority'. Generates a prioritized, researched target list across directories, listicles, and guest-post candidates — does NOT submit anything on the user's behalf. Pairs with `mktg-backlink-prospector` agent for parallel research. For a…"
+summary: "Manages ongoing link-building campaigns to increase domain authority and search visibility."
 category: "link-building"
 platforms: ["unspecified"]
 platform_source: "none"

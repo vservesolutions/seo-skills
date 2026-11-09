@@ -1,6 +1,7 @@
 ---
 name: "aeo-content-free"
 description: "Create or refresh AEO-optimized content that gets cited by AI assistants (Gemini, ChatGPT, Perplexity) using only free tools. Two modes: CREATE new content targeting a specific prompt, or REFRESH existing content to improve AI citation-worthiness. Researches what AI models currently cite, builds a competitive brief, and produces citation-worthy content. Use when a user wants to: write content optimized for AI citations, create articles that show up in AI answers, refresh/update existing content for better AI visibility, build authority content for answer engines, or produce AEO content…"
+summary: "Creates and refreshes content optimized to be cited by AI assistants using free research methods."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

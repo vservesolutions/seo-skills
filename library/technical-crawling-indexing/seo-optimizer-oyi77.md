@@ -1,6 +1,7 @@
 ---
 name: "seo-optimizer"
 description: "Use when optimizing content for search engines. Perform keyword research,"
+summary: "Optimizes content for search engines including keyword research tasks."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "detected"

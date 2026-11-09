@@ -1,6 +1,7 @@
 ---
 name: "seo-aeo-internal-linking"
 description: "Maps internal link opportunities between pages with anchor text, placement instructions, orphan page detection, and cannibalization checks. Activate when the user wants to build an internal linking strategy or find link opportunities."
+summary: "Maps internal linking opportunities, anchor text strategies, and checks for orphan pages and cannibalization."
 category: "ai-search-geo"
 platforms: ["antigravity"]
 platform_source: "declared"

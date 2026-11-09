@@ -1,6 +1,7 @@
 ---
 name: "google-search-console"
 description: "Google Search Console — Skill especializada para otimização e monitoramento de performance em busca orgânica do Google."
+summary: "Analyzes and monitors organic search performance using Google Search Console data."
 category: "analytics-measurement"
 platforms: ["unspecified"]
 platform_source: "none"

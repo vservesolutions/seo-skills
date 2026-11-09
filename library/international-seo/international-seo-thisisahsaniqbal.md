@@ -1,6 +1,7 @@
 ---
 name: "international-seo"
 description: "Validates hreflang tags, multi-language configuration, regional targeting, and internationalisation best practices. Use when auditing sites with multiple languages, regions, or localised content."
+summary: "This skill validates hreflang tags, multi-language configurations, and international targeting best practices."
 category: "international-seo"
 platforms: ["claude-code"]
 platform_source: "declared"

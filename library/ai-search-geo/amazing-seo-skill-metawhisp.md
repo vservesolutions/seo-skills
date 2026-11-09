@@ -1,6 +1,7 @@
 ---
 name: "amazing-seo-skill"
 description: "SEO + AEO + GEO analysis for any website (SaaS, e-commerce, local, publisher, agency). Full-site audits, single-page deep-dive, technical SEO (crawl, index, CWV with INP, JS-rendering), Schema.org detection/validation/gen, E-E-A-T content quality, image optimization, sitemap, hreflang, programmatic SEO, competitor pages, and Generative/Answer Engine Optimization (AI Overviews, ChatGPT, Perplexity, Claude, Gemini citations). Detects business type, applies industry thresholds. 4-layer model: reasoning, deterministic Python checkers, real-browser CWV, 5-LLM citation ensemble. Triggers on: \"SEO\"…"
+summary: "This skill performs comprehensive SEO, AEO, and GEO audits covering technical, content, and schema elements."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

@@ -1,6 +1,7 @@
 ---
 name: "phase-research"
 description: "Run Phase 1 Research only — keyword research, SERP analysis, competitor analysis, content gap analysis, surface targeting. Use when user wants research-only output without writing an article. Triggered by /seo-blog research, \"research this keyword\", \"what's the SERP for X\", \"competitor analysis for\"."
+summary: "This skill executes research phases including keyword research, SERP analysis, and content gaps."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

@@ -1,6 +1,7 @@
 ---
 name: "internal-link-builder"
 description: "Suggest source pages, anchor text, target URLs, and rationale for internal link improvements. Use when Codex needs to strengthen topical clusters and distribute page authority through internal links."
+summary: "Suggests internal link improvements, anchor text, and target URLs to distribute authority."
 category: "link-building"
 platforms: ["unspecified"]
 platform_source: "none"

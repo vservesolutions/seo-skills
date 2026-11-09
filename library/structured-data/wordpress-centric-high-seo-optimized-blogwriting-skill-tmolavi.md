@@ -1,6 +1,7 @@
 ---
 name: "wordpress-centric-high-seo-optimized-blogwriting-skill"
 description: "Create long-form, high-quality, SEO-optimized blog posts ready for WordPress with truth boxes and FAQ schema."
+summary: "This skill creates long-form, SEO-optimized blog posts with FAQ schema for WordPress publishing."
 category: "structured-data"
 platforms: ["antigravity"]
 platform_source: "declared"

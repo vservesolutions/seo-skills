@@ -1,6 +1,7 @@
 ---
 name: "broken-link-scan"
 description: "Find broken links on any website. Crawls the page, checks every link for 404s, redirects, and timeouts. Reports dead links with their location. Uses Playwright MCP only — no signup."
+summary: "Crawls a website to find broken links, redirects, and timeouts using Playwright."
 category: "migration-redirects"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

@@ -1,6 +1,7 @@
 ---
 name: "seo-orchestrator"
 description: "Orchestrates a full SEO + AI-search audit — acquires the site with the bundled scripts (crawl/snapshot), detects platform and vertical, runs the deterministic checks, dispatches the read-only specialist subagents in parallel with a dispatch envelope, merges their findings into a persisted report, and presents the two scores. Invoked by the `audit` and `geo` commands; not called directly."
+summary: "Orchestrates comprehensive SEO and AI-search audits across specialized subagents."
 category: "international-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

@@ -1,6 +1,7 @@
 ---
 name: "youtube-content-gen"
 description: "A complete pipeline to convert YouTube videos into high-quality, SEO-optimized guide pages using Gemini AI."
+summary: "Converts YouTube videos into SEO-optimized guide pages using AI."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

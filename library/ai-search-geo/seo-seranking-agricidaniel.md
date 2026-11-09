@@ -1,6 +1,7 @@
 ---
 name: "seo-seranking"
 description: "SE Ranking AI visibility analyst (extension). Tracks AI Share-of-Voice across ChatGPT, Gemini, Perplexity, AI Overviews, and AI Mode in a single query."
+summary: "Tracks AI search visibility and share of voice across multiple generative answer engines."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

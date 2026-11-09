@@ -1,6 +1,7 @@
 ---
 name: "seo-sitemap"
 description: "Validate, analyze or generate XML sitemaps from a supplied document or verified URL inventory. Use for sitemap tasks."
+summary: "Validates, analyzes, or generates XML sitemaps from documents or verified URL inventories."
 category: "local-seo"
 platforms: ["unspecified"]
 platform_source: "none"

@@ -1,6 +1,7 @@
 ---
 name: "build-clusters"
 description: "Build a topical authority cluster from a seed keyword or topic. Use when the user asks about topic clusters, content silos, pillar pages, topical authority, content architecture, or how to structure content around a theme. For finding the right keywords, see find-keywords. For writing individual pieces, see brief."
+summary: "Builds topical authority clusters and content silos from a seed keyword."
 category: "keyword-research"
 platforms: ["unspecified"]
 platform_source: "none"

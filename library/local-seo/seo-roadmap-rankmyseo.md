@@ -1,6 +1,7 @@
 ---
 name: "seo-roadmap"
 description: "Turn everything known about a site into a 90-day SEO plan the owner can follow. Sets the goals and how they are measured, picks a few initiatives by impact, effort, and confidence, splits them into 30, 60, and 90 day milestones, and says who does each task. Use when the owner asks for a strategy, a plan for the next quarter, or what to focus on first."
+summary: "Develops structured 90-day SEO implementation plans based on site performance and priority initiatives."
 category: "local-seo"
 platforms: ["unspecified"]
 platform_source: "none"

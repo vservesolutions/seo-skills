@@ -1,6 +1,7 @@
 ---
 name: "competitive-analysis"
 description: "When the user wants to compare domains or URLs against competitors across SEO footprint, share of voice, keyword/content gap, head-to-head pages, off-page link gap (via backlink-analysis), and brand positioning. Orchestrates evidence from serp-extract, keyword-research, backlink-analysis, and topic-cluster without duplicating their work."
+summary: "Compares domains against competitors across SEO footprint and content gaps."
 category: "link-building"
 platforms: ["claude-code"]
 platform_source: "declared"

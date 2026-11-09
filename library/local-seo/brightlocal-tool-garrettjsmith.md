@@ -1,6 +1,7 @@
 ---
 name: "brightlocal-tool"
 description: "When the user wants citation audits, citation building, review monitoring across platforms, GBP audit scoring, or white-label local SEO reports. Trigger on \"citation audit,\" \"check my citations,\" \"NAP consistency,\" \"where am I listed,\" \"BrightLocal,\" \"directory listings,\" \"review monitoring,\" or \"client report.\""
+summary: "Performs citation audits, review monitoring, and local SEO reporting via BrightLocal."
 category: "local-seo"
 platforms: ["unspecified"]
 platform_source: "none"

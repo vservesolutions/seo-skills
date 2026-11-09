@@ -1,6 +1,7 @@
 ---
 name: "seo-geo"
 description: "SEO / GEO / AEO knowledge base for visibility work. Use when making any judgment call about search visibility, AI-assistant visibility, technical SEO, content strategy, link building, or measurement — read the relevant knowledge file before advising or acting."
+summary: "Provides knowledge base references for search visibility, technical SEO, and AI assistant optimization."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared"

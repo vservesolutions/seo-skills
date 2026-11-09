@@ -1,6 +1,7 @@
 ---
 name: "recovery-full"
 description: "Full recovery workflow orchestrator. Chains recovery-diagnose, recovery-crawl, recovery-audit, recovery-plan, and recovery-monitor in sequence. One command for complete domain recovery analysis from diagnosis to monitoring setup. Gracefully degrades if individual steps fail."
+summary: "Orchestrates a complete multi-step domain recovery workflow from diagnosis to monitoring."
 category: "algorithm-updates"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

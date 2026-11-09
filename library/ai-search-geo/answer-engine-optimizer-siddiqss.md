@@ -1,6 +1,7 @@
 ---
 name: "answer-engine-optimizer"
 description: "Optimize a brand's mapped content to get cited by AI answer engines — Google AI Overviews, ChatGPT, Perplexity, Gemini. Scores drafts for citation-readiness with aeo_score.py, produces a per-node hardening checklist, and spot-checks live AI answers for whether the brand (vs competitors) is cited. Use whenever the user mentions AEO, GEO, LLM SEO, \"getting cited by ChatGPT/Perplexity\", AI Overviews, answer engines, AI search visibility, or asks why an AI assistant recommends competitors and not them. The GEO half of seo-performance-tracker. Never invents a visibility score. Triggers on…"
+summary: "Optimizes content to improve citation rates in AI answer engines."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared"

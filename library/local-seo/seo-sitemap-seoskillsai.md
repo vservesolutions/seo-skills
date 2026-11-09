@@ -1,6 +1,7 @@
 ---
 name: "seo-sitemap"
 description: "Twin XML and dynamic HTML sitemap architecture. Generates machine-readable XML sitemaps and accessible, categorized HTML sitemaps ensuring zero orphan pages and <=2 click crawl depth."
+summary: "Builds XML and HTML sitemaps to prevent orphan pages and maintain crawl depth."
 category: "local-seo"
 platforms: ["claude-code", "windsurf", "antigravity"]
 platform_source: "declared"

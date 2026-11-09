@@ -1,6 +1,7 @@
 ---
 name: "local-seo"
 description: "Build local SEO strategy: Business Profile, NAP, map pack, location pages, reviews. \"rank for near me searches\""
+summary: "Builds comprehensive local SEO strategies."
 category: "local-seo"
 platforms: ["claude-code"]
 platform_source: "detected"

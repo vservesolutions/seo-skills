@@ -1,6 +1,7 @@
 ---
 name: "seo-backlinks"
 description: "Plan and run off-page SEO to earn links and brand mentions, including for AI visibility. Input: a site, niche, and competitors. Output: a link strategy and 90-day plan, a profile review without paid tools, ninja linking, digital PR on proprietary data, broken-link building, linkable assets, and unlinked-mention conversion. Use for backlinks, link building, netlinking, domain authority, anchor text, guest posts, digital PR, disavow or toxic links, or evaluating a single link opportunity."
+summary: "Plans and executes off-page SEO strategies to earn backlinks, digital PR coverage, and brand mentions."
 category: "link-building"
 platforms: ["claude-code"]
 platform_source: "declared"

@@ -1,6 +1,7 @@
 ---
 name: "local-seo"
 description: "本地 SEO 分析和优化专家。自动检测项目是否需要本地 SEO，分析 NAP（Name, Address, Phone）一致性、本地关键词优化、Google Business Profile (GBP) 优化和本地结构化数据生成。提供本地商家搜索引擎排名优化建议，包括 NAP 标准化、本地关键词策略、GBP 完整性检查、评论策略、地图嵌入和本地 SEO 审计。"
+summary: "Analyzes and optimizes local SEO elements including NAP consistency and Google Business Profile."
 category: "local-seo"
 platforms: ["claude-code"]
 platform_source: "declared"

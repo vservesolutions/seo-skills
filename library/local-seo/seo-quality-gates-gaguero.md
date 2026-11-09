@@ -1,6 +1,7 @@
 ---
 name: "seo-quality-gates"
 description: "Final guardrail that reviews SEO output before it ships and blocks unsafe or low-quality work. Detects and stops keyword stuffing, fabricated structured data, fake or self-serving reviews/ratings, unnecessary or fake FAQPage markup, thin / doorway / AI-slop content, keyword cannibalization, cloaking/hidden text, risky robots/canonical/redirect/hreflang changes, and over-automation that violates Google's spam policies. Use as the last step before publishing any SEO change, or whenever someone wants a safety/quality review of SEO content, markup, or technical edits."
+summary: "Reviews SEO outputs to block unsafe practices and policy violations before publishing."
 category: "local-seo"
 platforms: ["any-agent"]
 platform_source: "declared"

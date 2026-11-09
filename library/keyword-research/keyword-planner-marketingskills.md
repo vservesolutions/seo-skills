@@ -1,6 +1,7 @@
 ---
 name: "keyword-planner"
 description: "Get keyword ideas, average monthly search volume, competition, and bid ranges from the local Google Ads Keyword Planner CLI. Use when Codex needs live keyword demand data from Google Keyword Planner for seed keywords or a seed URL, needs JSON keyword idea exports for SEO prioritization, needs country/language-specific demand checks, or needs to exclude already-covered content from keyword research."
+summary: "Retrieves search volume and competition metrics from the Google Ads Keyword Planner."
 category: "keyword-research"
 platforms: ["unspecified"]
 platform_source: "none"

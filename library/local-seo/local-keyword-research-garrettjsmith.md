@@ -1,6 +1,7 @@
 ---
 name: "local-keyword-research"
 description: "When the user wants to research keywords for a local business, find local search opportunities, build a keyword map for location pages, or understand local search intent. Also use when the user mentions \"local keywords,\" \"keyword research,\" \"service area keywords,\" \"near me keywords,\" \"local search volume,\" \"keyword map,\" \"city keywords,\" \"geo-modified keywords,\" \"implicit local intent,\" or \"local keyword strategy.\" For content creation from keywords, see local-landing-pages. For competitor keyword analysis, see local-competitor-analysis."
+summary: "Conducts keyword research for local businesses and maps geo-modified search terms."
 category: "local-seo"
 platforms: ["unspecified"]
 platform_source: "none"

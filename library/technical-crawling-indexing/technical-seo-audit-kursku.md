@@ -1,6 +1,7 @@
 ---
 name: "technical-seo-audit"
 description: "Technical Seo Audit — Skill especializada para technical seo audit"
+summary: "Executes technical SEO audits to identify site health and indexation issues."
 category: "technical-crawling-indexing"
 platforms: ["unspecified"]
 platform_source: "none"

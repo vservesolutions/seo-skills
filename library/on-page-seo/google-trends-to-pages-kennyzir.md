@@ -1,6 +1,7 @@
 ---
 name: "google-trends-to-pages"
 description: "将 Google Trends 关键词分类为搜索意图并生成 SEO 页面结构建议。适用于根据搜索量和增长率确定内容优先级、标题层级、内链与 Schema 类型。"
+summary: "This skill classifies Google Trends keywords into search intents to generate SEO page structure recommendations."
 category: "on-page-seo"
 platforms: ["unspecified"]
 platform_source: "none"

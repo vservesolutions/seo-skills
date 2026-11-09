@@ -1,6 +1,7 @@
 ---
 name: "local-falcon-tool"
 description: "When the user wants to run a geogrid scan, check existing scan reports, track ranking trends over time, monitor GBP changes via Falcon Guard, or analyze reviews. Also use when the user says \"run a scan,\" \"check my rankings,\" \"Local Falcon,\" \"how am I ranking,\" \"ranking heatmap,\" or \"scan this keyword.\" This is the execution tool — for interpreting results, also load geogrid-analysis."
+summary: "Executes geogrid scans and monitors local ranking trends over time."
 category: "local-seo"
 platforms: ["unspecified"]
 platform_source: "none"

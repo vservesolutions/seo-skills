@@ -1,6 +1,7 @@
 ---
 name: "audit"
 description: "Audit a website or web codebase for SEO and AI-search (GEO/AEO) — produces two independent 0-100 scores (Search SEO + AI Visibility) plus a prioritized, evidence-backed report persisted on disk. Read-only; never writes to the project. Use when the user asks to audit, analyze, check, or score a site's SEO, structured data/schema, meta tags, Core Web Vitals, robots.txt, sitemaps, or AI discovery files, or how it ranks in Google and is cited by AI engines (ChatGPT, Perplexity, Google AI Overviews, Gemini, Claude)."
+summary: "Audits a website or web codebase for SEO and AI-search visibility, producing dual 0-100 scores and a prioritized report."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

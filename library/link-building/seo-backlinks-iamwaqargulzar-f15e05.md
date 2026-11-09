@@ -1,6 +1,7 @@
 ---
 name: "seo-backlinks"
 description: "Analyze a site's backlink profile, anchors, toxic signals, competitors, gaps, and disavow candidates. Use only when links or referring domains are the requested focus."
+summary: "Analyzes backlink profiles, anchor texts, and toxic link signals for SEO optimization."
 category: "link-building"
 platforms: ["claude-code"]
 platform_source: "detected"

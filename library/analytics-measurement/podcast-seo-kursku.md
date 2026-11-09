@@ -1,6 +1,7 @@
 ---
 name: "podcast-seo"
 description: "Podcast Seo — Skill especializada para podcast seo"
+summary: "Optimizes podcast content and metadata for search discovery."
 category: "analytics-measurement"
 platforms: ["claude-code"]
 platform_source: "detected"

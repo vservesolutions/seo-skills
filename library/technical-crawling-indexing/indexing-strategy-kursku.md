@@ -1,6 +1,7 @@
 ---
 name: "indexing-strategy"
 description: "Indexing Strategy — Skill especializada para indexing strategy"
+summary: "Develops strategies to manage search engine indexing."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "detected"

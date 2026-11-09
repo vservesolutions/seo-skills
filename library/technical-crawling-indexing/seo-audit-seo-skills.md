@@ -1,6 +1,7 @@
 ---
 name: "seo-audit"
 description: "Audit websites for SEO, technical, content, security, JS rendering, and AI readiness using SEOmator CLI. Returns LLM-optimized reports with health scores across 373 rules and 20 categories, and can diff two audits to show what a deploy changed. Use when analyzing websites, debugging SEO issues, checking site health, or comparing a site before and after a change."
+summary: "Conducts detailed technical and AI readiness audits using external CLI tools."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "detected"

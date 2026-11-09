@@ -1,6 +1,7 @@
 ---
 name: "seo-images"
 description: "Visual semantic image optimization, WebP/AVIF compression standards, Google Discover 1200px 16:9 aspect ratios, and IPTC AI metadata labeling."
+summary: "Optimizes images with WebP/AVIF compression, Discover aspect ratios, and IPTC metadata."
 category: "core-web-vitals-performance"
 platforms: ["claude-code", "windsurf", "antigravity"]
 platform_source: "declared"

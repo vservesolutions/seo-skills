@@ -1,6 +1,7 @@
 ---
 name: "ai-seo"
 description: "Optimize AI-search and agent-task discoverability with prompt panels, answer-claim accuracy, citation/recommendation evidence, multilingual/commerce fit, crawler access, and attributable business-outcome evaluation. Use for GEO/AEO/LLMO and AI-answer visibility; for conversion event delivery use `conversion-tracking`."
+summary: "This skill optimizes AI search discoverability, answer-claim accuracy, and citation visibility."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

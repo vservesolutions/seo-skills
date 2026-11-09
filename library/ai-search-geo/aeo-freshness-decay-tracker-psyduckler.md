@@ -1,6 +1,7 @@
 ---
 name: "aeo-freshness-decay-tracker"
 description: "Monitor how citation rates change as content ages. Runs prompts against Gemini 3 Flash with grounding and records citation/mention rates over time in an append-only JSON file. Detects decay trends, estimates time until citation loss, and flags pages needing urgent refresh. Use when a user wants to: track citation rate changes over time, detect content decay, find pages losing AI visibility, prioritize content refreshes, or monitor whether content updates restored citations."
+summary: "Tracks content citation rates in AI answers over time to detect decay and identify pages needing refresh."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

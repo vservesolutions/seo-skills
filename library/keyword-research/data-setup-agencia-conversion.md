@@ -1,6 +1,7 @@
 ---
 name: "data-setup"
 description: "When the user wants to configure, validate, or troubleshoot DataForSEO or another SEO data provider securely. Also use when provider credentials are missing before keyword, SERP, or SEO analysis work."
+summary: "This skill configures and validates DataForSEO credentials for keyword and SERP analysis tasks."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared"

@@ -1,6 +1,7 @@
 ---
 name: "website-seo-geo"
 description: "The on-page SEO + GEO contract for a new site: exact metadata limits (title 50–60 chars, meta description 140–160 with a 120 floor), og:title/og:description == title/desc, twitter inherits OG, clean canonical == og:url, required JSON-LD schema, and an llms.txt index of the site. Use when building or reviewing a page's head / metadata (step 6 of the new-website pipeline), or when a title/description is too long or tags are out of sync. Enforced by the seo.spec.ts check in the new-website test suite. Delegates depth to ai-seo (GEO) and schema-markup. Trigger phrases: \"SEO metadata\", \"title too…"
+summary: "This skill enforces on-page metadata limits, canonical URLs, JSON-LD schema, and llms.txt generation."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

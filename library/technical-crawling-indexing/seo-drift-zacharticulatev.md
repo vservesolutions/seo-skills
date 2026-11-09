@@ -1,6 +1,7 @@
 ---
 name: "seo-drift"
 description: "Git-for-SEO — capture baselines of on-page SEO-critical elements and diff against them to catch regressions a deploy introduced (title changed, canonical flipped, noindex added, schema removed). Stores baselines in a local SQLite history so you can compare and trend over time. Trigger when the user says \"SEO drift\", \"SEO baseline\", \"track changes\", \"did anything break\", \"SEO regression\", \"compare SEO\", \"before and after deploy\", \"monitor SEO changes\", or \"deployment check\"."
+summary: "Captures SEO element baselines and tracks changes over time to catch site regressions."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

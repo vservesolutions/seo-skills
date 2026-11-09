@@ -1,6 +1,7 @@
 ---
 name: "seo-unlighthouse"
 description: "Multi-page Lighthouse audit via the MIT-licensed Unlighthouse CLI. Free-tier alternative to running PageSpeed against every URL on a site, no API quota burn, runs locally."
+summary: "Runs multi-page Lighthouse performance and SEO audits locally using the Unlighthouse CLI."
 category: "core-web-vitals-performance"
 platforms: ["codex"]
 platform_source: "declared"

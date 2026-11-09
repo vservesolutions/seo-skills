@@ -1,6 +1,7 @@
 ---
 name: "seo-backlinks"
 description: "Compatibility skill for seo backlinks. Use when a user or upstream workflow invokes this name; route the task to `offsite-signal-analyzer` while preserving the requested scope and source-specific intent."
+summary: "This skill serves as a compatibility wrapper that routes backlink tasks to the offsite signal analyzer."
 category: "link-building"
 platforms: ["unspecified"]
 platform_source: "none"

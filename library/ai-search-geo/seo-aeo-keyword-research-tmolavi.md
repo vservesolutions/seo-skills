@@ -1,6 +1,7 @@
 ---
 name: "seo-aeo-keyword-research"
 description: "Researches and prioritises SEO keywords with AEO question queries, difficulty tiers, cannibalization checks, and a content map. Activate when the user wants to find keywords, research search terms, or build a keyword strategy."
+summary: "Researches keywords and question queries with difficulty tiers and cannibalization checks."
 category: "ai-search-geo"
 platforms: ["antigravity"]
 platform_source: "declared"

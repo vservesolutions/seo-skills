@@ -1,6 +1,7 @@
 ---
 name: "aeo-competitor-monitor"
 description: "Track competitor citations in AI Overviews over time. Runs prompts through Gemini 3 Flash with grounding and records which competitor domains get cited, how often, and with what snippets. Saves results to an append-only JSON data file for trend analysis. Generates comparison reports showing citation share changes over time. Use when a user wants to: track competitors' AI visibility, compare citation share across brands, monitor who's winning AI Overviews for key prompts, or detect when competitors gain or lose AI citations."
+summary: "Tracks and compares competitor citation shares and visibility in AI Overviews over time."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

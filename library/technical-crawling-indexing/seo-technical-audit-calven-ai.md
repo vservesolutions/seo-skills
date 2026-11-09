@@ -1,6 +1,7 @@
 ---
 name: "seo-technical-audit"
 description: "Audit crawlability, indexation, speed, on-page basics, orphan pages, schema and llms.txt as a prioritised fix list. Use when \"audit the site\", \"traffic dropped\", \"why aren't we indexed\"."
+summary: "Audits site crawlability, indexation, speed, and schema as a prioritized fix list."
 category: "technical-crawling-indexing"
 platforms: ["codex"]
 platform_source: "detected"

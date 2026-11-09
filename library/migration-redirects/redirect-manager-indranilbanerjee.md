@@ -1,6 +1,7 @@
 ---
 name: "redirect-manager"
 description: "Create, audit and fix URL redirects on a connected CMS, approval-gated. \"set up a 301 redirect\""
+summary: "Creates and manages URL redirects on a CMS."
 category: "migration-redirects"
 platforms: ["claude-code"]
 platform_source: "detected"

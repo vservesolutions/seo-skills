@@ -1,6 +1,7 @@
 ---
 name: "keyword-research"
 description: "Keyword research from a seed topic — ideas, real Google volume/CPC, intent, difficulty, clustered into a plan. Use when asked to \"find keywords\", \"keyword research for X\", \"what should I rank for\", or \"build a keyword plan\"."
+summary: "Performs keyword research from seed topics to generate clustered content plans with search volume and intent."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "detected"

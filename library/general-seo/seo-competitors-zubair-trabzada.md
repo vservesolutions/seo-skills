@@ -1,6 +1,7 @@
 ---
 name: "seo-competitors"
 description: "Identify true SEO competitors and quantify the gap, powered by the DataForSEO Labs API. Returns the top 10 competing domains by SERP overlap, with shared and unique keywords, traffic estimates, and a Competitive Score (0-100) showing how dominant the target is in its category."
+summary: "Identifies SEO competitors and analyzes keyword overlap using the DataForSEO Labs API."
 category: "general-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

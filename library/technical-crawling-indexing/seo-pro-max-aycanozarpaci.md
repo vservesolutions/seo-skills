@@ -1,6 +1,7 @@
 ---
 name: "seo-pro-max"
 description: "Production-grade SEO implementation skill. Analyzes the existing project first, asks the user the right questions, and then implements every chosen SEO surface (meta tags, Open Graph, Twitter Cards, canonical, robots, sitemap, schema.org/JSON-LD, favicons, llms.txt, admin-panel wiring, database schema) exactly as the user decided. The skill is an EXECUTOR, not a decision-maker."
+summary: "Implements technical and on-page SEO surfaces including meta tags, sitemaps, and schema markup."
 category: "technical-crawling-indexing"
 platforms: ["claude-code", "windsurf", "copilot"]
 platform_source: "declared+detected"

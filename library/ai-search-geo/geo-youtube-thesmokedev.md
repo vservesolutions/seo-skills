@@ -1,6 +1,7 @@
 ---
 name: "geo-youtube"
 description: "YouTube citation playbook for AI search. YouTube is the most-cited domain in Google AI Overviews and the strongest single brand-visibility signal measured. Optimizes videos for AI citation through transcripts, chapters, titles, and cross-posted text claims -- not views or subscribers. Use when planning video content for AI visibility or auditing an existing channel for citation readiness."
+summary: "Optimizes YouTube videos for AI search citations by structuring transcripts, chapters, and titles for visibility in AI overviews."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

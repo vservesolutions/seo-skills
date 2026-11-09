@@ -1,6 +1,7 @@
 ---
 name: "keyword-research"
 description: "Strategic keyword research powered by web search and brand context. Use this skill whenever the user mentions keywords, keyword research, SEO topics, content topics, 'what should I write about', content strategy, blog ideas, search traffic, or content planning. Also trigger when the user wants to plan what content to create, when existing content isn't attracting search traffic, when any skill needs keyword-plan.md but it doesn't exist, or when the user asks about SEO in the context of content creation. Even casual mentions like 'I need blog post ideas' or 'what topics should I cover' warrant…"
+summary: "Conducts strategic keyword research and content planning using search data."
 category: "keyword-research"
 platforms: ["unspecified"]
 platform_source: "none"

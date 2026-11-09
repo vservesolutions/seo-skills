@@ -1,6 +1,7 @@
 ---
 name: "geo-crawlers"
 description: "Compatibility skill for geo crawlers. Use when a user or upstream workflow invokes this name; route the task to `ai-seo` while preserving the requested scope and source-specific intent."
+summary: "This skill routes geo-crawler compatibility tasks to AI-focused SEO workflows."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

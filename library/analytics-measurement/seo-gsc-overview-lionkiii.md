@@ -1,6 +1,7 @@
 ---
 name: "seo-gsc-overview"
 description: "Show a Google Search Console performance dashboard for the last 28 days. Displays total clicks, impressions, CTR, and average position, plus top 25 queries and top 25 pages. Use when user says \"GSC overview\", \"search console performance\", \"how is my site doing in Google\", \"clicks and impressions\", or \"show me my GSC data\"."
+summary: "Displays a Google Search Console performance dashboard showing clicks, impressions, and top queries."
 category: "analytics-measurement"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

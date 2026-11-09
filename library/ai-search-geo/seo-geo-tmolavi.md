@@ -1,6 +1,7 @@
 ---
 name: "seo-geo"
 description: "Optimize content for AI Overviews, ChatGPT, Perplexity, and other AI search systems. Use when improving GEO, AI citations, llms.txt readiness, crawler accessibility, and passage-level citability."
+summary: "Optimizes content for AI search systems, AI overviews, and LLM citation readiness."
 category: "ai-search-geo"
 platforms: ["antigravity", "claude-code"]
 platform_source: "declared+detected"

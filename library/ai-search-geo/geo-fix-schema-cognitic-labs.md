@@ -1,6 +1,7 @@
 ---
 name: "geo-fix-schema"
 description: "Analyze a website's structured data and generate ready-to-use JSON-LD schema markup to improve AI discoverability. Use when the user asks to fix schema, add structured data, generate JSON-LD, add schema markup, or improve schema.org markup for AI engines."
+summary: "This skill analyzes and generates JSON-LD schema markup to improve structured data for AI discovery."
 category: "ai-search-geo"
 platforms: ["claude-code", "openclaw"]
 platform_source: "declared"

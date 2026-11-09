@@ -1,6 +1,7 @@
 ---
 name: "seo"
 description: "Route a broad SEO request to the relevant audit, strategy or optimization workflow. Use when the SEO goal is not yet specific."
+summary: "Routes broad SEO requests to appropriate workflows."
 category: "general-seo"
 platforms: ["unspecified"]
 platform_source: "none"

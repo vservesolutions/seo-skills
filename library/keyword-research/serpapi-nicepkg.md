@@ -1,6 +1,7 @@
 ---
 name: "serpapi"
 description: "SerpApi search engine results API via curl. Use this skill to scrape Google, Bing, YouTube, and other search engines."
+summary: "Retrieves search engine results data using SerpApi via curl."
 category: "keyword-research"
 platforms: ["claude-code", "codex", "cursor"]
 platform_source: "declared+detected"

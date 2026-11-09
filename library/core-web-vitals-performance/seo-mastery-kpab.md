@@ -1,6 +1,7 @@
 ---
 name: "seo-mastery"
 description: "Evidence-based SEO and generative search visibility: technical/content SEO, schema.org / JSON-LD, Core Web Vitals, E-E-A-T, Astro, Cloudflare Workers/Pages, and audits. Use for SEO, robots.txt, sitemaps, canonical, hreflang, meta tags, LCP/INP/CLS, GEO (Generative Engine Optimization), LLMO (Large Language Model Optimization), AEO (Answer Engine Optimization), AI visibility, AI citation / AI citations, AI mentions, generative search, ChatGPT Search, Perplexity, Claude search, AI search optimization, AI Overviews / AI Mode, llms.txt, AI crawler control, citation readiness, entity clarity, and…"
+summary: "Provides evidence-based technical and content SEO audits including generative search visibility and Core Web Vitals."
 category: "core-web-vitals-performance"
 platforms: ["claude-code"]
 platform_source: "declared"

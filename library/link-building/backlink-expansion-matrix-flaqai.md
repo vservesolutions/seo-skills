@@ -1,6 +1,7 @@
 ---
 name: "backlink-expansion-matrix"
 description: "Orchestrate an end-to-end backlink expansion project from Semrush or local source files through batch and editorial screening, historical deduplication, workbook delivery, and QA. Use when the request spans more than one backlink stage; do not treat candidates as submitted or published links."
+summary: "Orchestrates an end-to-end backlink expansion project from source files through screening and QA."
 category: "link-building"
 platforms: ["unspecified"]
 platform_source: "none"

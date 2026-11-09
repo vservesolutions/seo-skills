@@ -1,6 +1,7 @@
 ---
 name: "30x-seo-serp"
 description: "Track SERP rankings, monitor position changes, analyze SERP features, and identify ranking opportunities using DataForSEO. Alternative to Google Search Console for ranking data. Use when user says \"rankings\", \"SERP tracking\", \"position monitoring\", \"rank tracking\", \"keyword positions\", or \"SERP analysis\"."
+summary: "Tracks SERP rankings and monitors position changes via DataForSEO."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

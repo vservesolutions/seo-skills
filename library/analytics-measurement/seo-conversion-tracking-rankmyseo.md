@@ -1,6 +1,7 @@
 ---
 name: "seo-conversion-tracking"
 description: "Turn the owner's lead definition into GA4 key events, so the site can show which search pages lead to sign-ups, contacts, bookings, or purchases. Covers defining the actions, naming the events, marking them as key events, and keeping personal data out of event parameters. Use after the owner defines what counts as a lead, and before the first monthly report."
+summary: "Configures analytics key events to track search-driven conversions."
 category: "analytics-measurement"
 platforms: ["unspecified"]
 platform_source: "none"

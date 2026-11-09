@@ -1,6 +1,7 @@
 ---
 name: "seo-crawlability"
 description: "Audit and generate robots.txt and general crawl access for a page — verify robots.txt reachability and syntax, detect Disallow rules that block CSS/JS or important content, sanity-check crawl-delay, confirm a Sitemap directive, and assert overall crawl access for Googlebot/Bingbot. Module M1. Feeds the Search SEO score."
+summary: "Audits and generates robots.txt files and general crawl access rules for search engine bots."
 category: "technical-crawling-indexing"
 platforms: ["claude-code", "codex"]
 platform_source: "declared+detected"

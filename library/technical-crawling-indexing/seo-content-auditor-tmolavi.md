@@ -1,6 +1,7 @@
 ---
 name: "seo-content-auditor"
 description: "Analyzes provided content for quality, E-E-A-T signals, and SEO"
+summary: "Analyzes content quality, E-E-A-T signals, and SEO performance metrics."
 category: "technical-crawling-indexing"
 platforms: ["antigravity"]
 platform_source: "declared"

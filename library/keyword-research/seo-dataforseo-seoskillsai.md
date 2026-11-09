@@ -1,6 +1,7 @@
 ---
 name: "seo-dataforseo"
 description: "DataForSEO live SERP, search volume, backlink, and keyword ranking API connector. Provides enterprise-grade live SERP data without manual browser scraping."
+summary: "Connects to live SEO APIs to retrieve search volume, rankings, and backlink data."
 category: "keyword-research"
 platforms: ["claude-code", "windsurf", "antigravity"]
 platform_source: "declared"

@@ -1,6 +1,7 @@
 ---
 name: "seo-audit"
 description: "Full website SEO audit with parallel subagent delegation. Crawls up to 500 pages, detects business type, delegates to up to 7 specialists, generates health score. Enhanced with live Ahrefs (DR, backlinks, traffic) and GSC (indexing, top pages) data when MCPs are available. Use when user says \"audit\", \"full SEO check\", \"analyze my site\", or \"website health check\"."
+summary: "Performs a comprehensive website SEO health audit integrating crawler, Ahrefs, and GSC data."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

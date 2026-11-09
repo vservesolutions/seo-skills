@@ -1,6 +1,7 @@
 ---
 name: "backlink-quality-expansion"
 description: "Screen and expand editorial backlink opportunities such as guest articles, expert contributions, industry publications, and curated resource pages. Use when topic fit, admission difficulty, and expected return must be balanced; do not write, pitch, pay, or submit without separate authorization."
+summary: "Screens and expands editorial backlink opportunities such as guest articles and industry publications."
 category: "link-building"
 platforms: ["unspecified"]
 platform_source: "none"

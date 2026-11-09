@@ -1,6 +1,7 @@
 ---
 name: "geo-measurement"
 description: "Volatility-aware AI-visibility measurement. Designs fixed prompt panels, computes share-of-citation per engine, tracks citation position and turn-1 concentration, and reports trends without overreacting to structural platform swings. Use when measuring whether GEO work is actually increasing AI citations, or when monthly citation counts look alarming."
+summary: "This skill measures AI visibility and share-of-citation trends across various generative engines."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

@@ -1,6 +1,7 @@
 ---
 name: "answer-engine-optimization"
 description: "Answer Engine Optimization — Skill especializada para answer engine optimization"
+summary: "Optimizes digital content for answer engines and AI search visibility."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

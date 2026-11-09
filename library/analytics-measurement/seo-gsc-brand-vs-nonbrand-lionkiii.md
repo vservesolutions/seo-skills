@@ -1,6 +1,7 @@
 ---
 name: "seo-gsc-brand-vs-nonbrand"
 description: "Analyze branded vs non-branded traffic split using Google Search Console data. Shows what percentage of organic clicks come from brand name searches vs generic queries. Requires user to confirm brand terms before analysis. Use when user says \"brand vs nonbrand\", \"branded traffic\", \"brand queries\", \"non-brand traffic\", or \"branded vs generic\"."
+summary: "Calculates the organic traffic split between branded and generic queries using Search Console data."
 category: "analytics-measurement"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

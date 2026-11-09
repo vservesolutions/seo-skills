@@ -1,6 +1,7 @@
 ---
 name: "seo-schema-jsonld"
 description: "Audit and generate structured data (JSON-LD) for a page — detect, validate, and complete Tier-1 schema.org types (Article, Organization, Person, Product/Offer, BreadcrumbList, LocalBusiness, Review, VideoObject, Event), flag microdata/RDFa and deprecated-for-rich-results types (FAQPage/HowTo), and produce ready-to-inject JSON-LD blocks. Module M5. Feeds both the Search SEO and AI Visibility scores."
+summary: "Validates and generates structured data JSON-LD blocks for key schema types."
 category: "structured-data"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

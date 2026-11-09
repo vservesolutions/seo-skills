@@ -1,6 +1,7 @@
 ---
 name: "roblox-site-architect"
 description: "Orchestrate an evidence-backed seven-stage Roblox site growth pipeline from opportunity assessment through keyword research, source collection, site planning, SEO QA, freshness, and growth. Use when work needs staged artifacts and explicit handoffs rather than a one-click site generator."
+summary: "This skill orchestrates a multi-stage site growth and keyword research pipeline."
 category: "keyword-research"
 platforms: ["unspecified"]
 platform_source: "none"

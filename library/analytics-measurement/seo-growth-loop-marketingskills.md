@@ -1,6 +1,7 @@
 ---
 name: "seo-growth-loop"
 description: "Run a closed-loop SEO growth workflow for a website by using Search Console or equivalent performance data, keyword demand, SERP Authority Mark checks, and the available publishing path. Use when Codex is asked to improve organic traffic, choose SEO work, optimize existing pages, plan or publish new SEO pages, operate a recurring SEO loop, or package a site-specific SEO growth process across CMS/API/local-code/advisory environments."
+summary: "Runs a closed-loop SEO workflow to improve organic traffic using performance data and publishing paths."
 category: "analytics-measurement"
 platforms: ["claude-code"]
 platform_source: "detected"

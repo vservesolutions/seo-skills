@@ -1,6 +1,7 @@
 ---
 name: "seo-audit"
 description: "Run a site-wide SEO audit into a ranked PLAN.md: technical, content, links, local. A single page → page-seo-analysis. \"why did our traffic drop\""
+summary: "Executes site-wide technical and content SEO audits."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "detected"

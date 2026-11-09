@@ -1,6 +1,7 @@
 ---
 name: "content-marketing"
 description: "Build content marketing strategies that generate pipeline — SEO/AEO optimization, pillar page design, programmatic SEO, content-to-pipeline mapping. Use when the user wants to plan content strategy, build a content calendar, improve SEO, create pillar content, or generate pipeline from content. Triggers on: \"content marketing\", \"SEO strategy\", \"content strategy\", \"blog\", \"pillar page\", \"content calendar\", \"AEO\", \"AI search optimization\", \"programmatic SEO\", or any request about content-driven growth."
+summary: "Builds content marketing strategies incorporating SEO and answer engine optimization."
 category: "content-strategy"
 platforms: ["claude-code", "gemini-cli", "windsurf", "copilot"]
 platform_source: "detected"

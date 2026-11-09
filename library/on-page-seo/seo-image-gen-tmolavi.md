@@ -1,6 +1,7 @@
 ---
 name: "seo-image-gen"
 description: "Generate SEO-focused images such as OG cards, hero images, schema assets, product visuals, and infographics. Use when image generation is part of an SEO workflow or content publishing task."
+summary: "Generates SEO-focused images like OG cards and schema assets for content publishing workflows."
 category: "on-page-seo"
 platforms: ["antigravity", "claude-code"]
 platform_source: "declared+detected"

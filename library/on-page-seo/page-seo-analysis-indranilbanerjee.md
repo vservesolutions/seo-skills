@@ -1,6 +1,7 @@
 ---
 name: "page-seo-analysis"
 description: "Analyze the SEO of one URL, scored /80 with paste-ready fixes. \"analyze the SEO of this page\""
+summary: "Analyzes single page SEO performance and provides fixes."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "detected"

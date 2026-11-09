@@ -1,6 +1,7 @@
 ---
 name: "site-growth-orchestrator"
 description: "Coordinate SEO, LLM-readable site architecture, UX, content, monitoring, security, and external authority work as a task-plan-driven sequence. Use this skill when the user asks to plan, execute, validate, or route multi-skill website growth work; asks what to do next across semantic core, URL structure, internal linking, schema, llms.txt, UX journeys, analytics, citation monitoring, or white-hat link placement; or wants a central architect that preserves evidence, alarms, handoffs, and tests."
+summary: "Orchestrates SEO, LLM-readable site architecture, internal linking, and authority tasks."
 category: "site-architecture-internal-links"
 platforms: ["unspecified"]
 platform_source: "none"

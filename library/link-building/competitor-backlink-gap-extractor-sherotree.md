@@ -1,6 +1,7 @@
 ---
 name: "competitor-backlink-gap-extractor"
 description: "Extract high-quality competitor backlinks via DataForSEO Backlinks API, filter live/non-broken/non-UGC/high-rank/high-traffic referring domains (nofollow allowed), and optionally compute link intersection or backlink gap vs our site. Use when the user asks for competitor backlinks, backlink gap, link intersection, outreach list, or referring domains for a competitor URL or domain. Do not use for ranked keywords, site audits, GEO, or content optimization."
+summary: "Extracts competitor backlinks and identifies link gaps using an external SEO API."
 category: "link-building"
 platforms: ["any-agent"]
 platform_source: "declared"

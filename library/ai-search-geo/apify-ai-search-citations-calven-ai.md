@@ -1,6 +1,7 @@
 ---
 name: "apify-ai-search-citations"
 description: "Prompts that surface competitors in AI answers, citation gaps and a mentions snapshot via scraping. Use when \"which prompts cite Acme\"."
+summary: "Scrapes AI search citations and prompts to identify competitor mentions and gaps."
 category: "ai-search-geo"
 platforms: ["codex"]
 platform_source: "detected"

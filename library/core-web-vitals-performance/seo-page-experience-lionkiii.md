@@ -1,6 +1,7 @@
 ---
 name: "seo-page-experience"
 description: "Holistic page-experience self-assessment mirroring Google's own question list: Core Web Vitals, HTTPS, intrusive interstitials, mobile usability, content prominence, and ad distinguishability. Use when user says \"page experience\", \"UX signals\", \"interstitials\", \"mobile friendly\", or \"HTTPS check\"."
+summary: "Assesses page experience signals including Core Web Vitals, HTTPS, and mobile usability."
 category: "core-web-vitals-performance"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

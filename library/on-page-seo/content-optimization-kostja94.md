@@ -1,6 +1,7 @@
 ---
 name: "content-optimization"
 description: "When the user wants to optimize content for SEO—word count, H2 keywords, keyword density, multimedia, tables, lists. Also use when the user mentions \"content length,\" \"word count,\" \"keyword stuffing,\" \"H2 keywords,\" \"keyword density,\" \"tables,\" \"bullet points,\" or \"content structure.\" For keywords, use keyword-research."
+summary: "Optimizes existing page content for SEO metrics like keyword density and structure."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "declared"

@@ -1,6 +1,7 @@
 ---
 name: "keyword-research"
 description: "Use this skill to expand seed topics with Keywords Everywhere, retrieve live metrics, cluster terms by search intent, and score priorities. Trigger it when building a keyword universe, planning SEO content, validating demand, or finding search gaps."
+summary: "Expands seed topics, retrieves search metrics, and clusters keywords by intent."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared"

@@ -1,6 +1,7 @@
 ---
 name: "keyword-research"
 description: "Coordinates keyword research from a seed or existing keyword data through discovery, intent clustering, opportunity assessment and page mapping."
+summary: "Executes comprehensive keyword research from discovery to mapping."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared"

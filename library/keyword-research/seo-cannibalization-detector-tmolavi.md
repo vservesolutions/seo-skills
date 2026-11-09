@@ -1,6 +1,7 @@
 ---
 name: "seo-cannibalization-detector"
 description: "Analyzes multiple provided pages to identify keyword overlap and"
+summary: "Analyzes multiple pages to identify keyword overlap and content cannibalization issues."
 category: "keyword-research"
 platforms: ["antigravity"]
 platform_source: "declared"

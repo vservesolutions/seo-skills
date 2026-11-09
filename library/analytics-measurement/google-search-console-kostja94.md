@@ -1,6 +1,7 @@
 ---
 name: "google-search-console"
 description: "Compatibility pointer for Search Console performance and indexing analysis; maintained in Open Analytics."
+summary: "Analyzes Google Search Console performance and indexing data."
 category: "analytics-measurement"
 platforms: ["claude-code"]
 platform_source: "declared"

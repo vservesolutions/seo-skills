@@ -1,6 +1,7 @@
 ---
 name: "start"
 description: "Friendly first-run alias that routes new Agentic SEO users to the canonical agentic-seo and project-init workflow without duplicating process rules."
+summary: "This skill routes users to initial project setup workflows for agentic SEO tools."
 category: "technical-crawling-indexing"
 platforms: ["claude-code", "codex"]
 platform_source: "declared+detected"

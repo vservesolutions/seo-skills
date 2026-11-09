@@ -1,6 +1,7 @@
 ---
 name: "technical-seo-schema-engineer"
 description: "Design deterministic technical SEO and schema.org guidance for crawlable public pages. Use this skill when the user asks for title and meta description rules, canonical and hreflang tags, JSON-LD schema, NewsArticle, Article, TechArticle, BreadcrumbList, WebSite, Organization, Person, OpenGraph, Twitter cards, sitemap, news-sitemap, RSS, robots.txt, llms.txt, publisher logo, ImageObject, or metadata templates that must match visible content."
+summary: "Generates technical SEO guidelines and structured data markup for crawlable web pages."
 category: "technical-crawling-indexing"
 platforms: ["unspecified"]
 platform_source: "none"

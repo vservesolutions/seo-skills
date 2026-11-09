@@ -1,6 +1,7 @@
 ---
 name: "seo-keywords"
 description: "Keyword research and opportunity scoring via the DataForSEO Keywords Data and Labs APIs. Returns search volume, CPC, competition, intent classification, related keywords, and long-tail suggestions with a Keyword Score (0-100)."
+summary: "Performs keyword research and intent classification using DataForSEO APIs."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

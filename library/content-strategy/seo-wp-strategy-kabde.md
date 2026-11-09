@@ -1,6 +1,7 @@
 ---
 name: "seo-wp-strategy"
 description: "Content strategy generator for WordPress bloggers. Creates editorial calendars, topic cluster plans, content gap analysis, and growth roadmaps based on existing WordPress content audit. Use when user says \"content strategy\", \"editorial calendar\", \"blog strategy\", \"topic clusters\", \"content plan\", or \"que publier\"."
+summary: "Generates editorial calendars and content strategies based on WordPress site audits."
 category: "content-strategy"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

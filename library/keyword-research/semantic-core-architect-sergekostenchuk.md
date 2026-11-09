@@ -1,6 +1,7 @@
 ---
 name: "semantic-core-architect"
 description: "Build evidence-labeled semantic cores for SEO, LLM-readable architecture, and site information design. Use this skill when the user asks for semantic core, query clusters, search intents, audience segments, entity/topic maps, language or locale priorities, competitor/source evidence, pillar-topic planning, or a structured handoff before URL architecture and internal linking. It must mark unknown search volume, difficulty, and ranking data as unknown instead of inventing metrics."
+summary: "Builds evidence-based semantic cores, query clusters, and topic maps for search and AI architectures."
 category: "keyword-research"
 platforms: ["unspecified"]
 platform_source: "none"

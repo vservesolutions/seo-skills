@@ -1,6 +1,7 @@
 ---
 name: "seo-indexing"
 description: "Hand off a finished batch of new or changed pages for indexing. Runs pre-submission checks, asks the owner which submissions they want the agent to make, gives the owner exact steps for Google Search Console and Bing Webmaster Tools, records what was submitted, and sets check-back dates. Use when a finished batch of new or changed pages is ready to submit, or when new pages are not showing in search."
+summary: "Submits new or updated batches of pages to search engines for indexing."
 category: "technical-crawling-indexing"
 platforms: ["unspecified"]
 platform_source: "none"

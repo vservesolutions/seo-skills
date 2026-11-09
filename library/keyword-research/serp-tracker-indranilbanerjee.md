@@ -1,6 +1,7 @@
 ---
 name: "serp-tracker"
 description: "Deprecated; use rank-monitor --features. \"track SERP features\""
+summary: "Tracks SERP features and rankings."
 category: "keyword-research"
 platforms: ["unspecified"]
 platform_source: "none"

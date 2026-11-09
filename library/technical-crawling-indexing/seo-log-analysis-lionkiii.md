@@ -1,6 +1,7 @@
 ---
 name: "seo-log-analysis"
 description: "Analyze server log files for crawl budget insights. Reads Apache Combined/Common or Nginx access logs locally (no external calls). Classifies bot vs user traffic, identifies top crawled URLs, crawl frequency by path, and crawl budget concerns. Use when user says \"log analysis\", \"crawl budget\", \"server logs\", \"bot traffic\", \"crawl frequency\", \"access log\", \"analyze logs\"."
+summary: "Analyzes server access logs to evaluate crawl budget, bot behavior, and crawl frequency."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

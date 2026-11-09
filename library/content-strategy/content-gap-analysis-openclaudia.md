@@ -1,6 +1,7 @@
 ---
 name: "content-gap-analysis"
 description: "Identify content gaps between your site and competitors. Use when the user says \"content gaps\", \"what am I missing\", \"competitor content\", \"content opportunities\", \"topics I should cover\", \"content gap analysis\", or asks about finding topics and keywords their site doesn't cover but competitors do."
+summary: "Identifies content and keyword gaps between a site and its competitors."
 category: "content-strategy"
 platforms: ["claude-code"]
 platform_source: "declared"

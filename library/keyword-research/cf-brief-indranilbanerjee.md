@@ -1,6 +1,7 @@
 ---
 name: "cf-brief"
 description: "Write a research-backed content brief from a keyword or topic: intent, competitors, outline. \"brief me on this topic\""
+summary: "This skill generates research-backed content briefs incorporating search intent and competitor analysis."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "detected"

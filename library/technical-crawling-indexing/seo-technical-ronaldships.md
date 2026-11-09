@@ -1,6 +1,7 @@
 ---
 name: "seo-technical"
 description: "Diagnose crawl access, HTTP responses, canonicals, sitemaps, rendering, and Core Web Vitals using observed site evidence. Use for technical indexing or performance problems; use seo-on-page for copy and seo-analytics for a traffic-loss investigation."
+summary: "Diagnoses crawl access, HTTP responses, canonicals, sitemaps, rendering, and Core Web Vitals."
 category: "technical-crawling-indexing"
 platforms: ["unspecified"]
 platform_source: "none"

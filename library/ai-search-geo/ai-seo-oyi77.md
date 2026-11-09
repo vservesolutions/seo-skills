@@ -1,6 +1,7 @@
 ---
 name: "ai-seo"
 description: "Use when optimize for AI search engines — Perplexity, ChatGPT Search,"
+summary: "Optimizes content for generative AI search engines and answer platforms."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "detected"

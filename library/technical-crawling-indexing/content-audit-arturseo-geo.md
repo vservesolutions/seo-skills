@@ -1,6 +1,7 @@
 ---
 name: "content-audit"
 description: "Post-publication content maintenance and compliance skill. Audit published content for GEO compliance, detect freshness decay, test LLM readability, check citation-readiness, and manage re-test cadence. Use this skill whenever the user mentions content audit, compliance check, content freshness, stale content, citation decay, LLM readability test, re-test cadence, content maintenance, statistical currency, pronoun resolution, declarative structure check, GEO compliance, post-publication QC, or any task involving reviewing published content for AI search quality. This skill covers the…"
+summary: "Audits published content for generative engine optimization compliance, freshness decay, and LLM readability."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared"

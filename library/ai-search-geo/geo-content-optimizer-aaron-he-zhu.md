@@ -1,6 +1,7 @@
 ---
 name: "geo-content-optimizer"
 description: "Use when the user asks to \"optimize for AI citations\"; improves citation readiness for ChatGPT, Perplexity, AI Overviews, Gemini, and Claude. Not for structural on-page SEO — use on-page-seo-checker; not for net-new drafting — use content-writer. AI引用优化/GEO优化/AI搜索"
+summary: "Improves content citation readiness for AI search engines like ChatGPT and Perplexity."
 category: "ai-search-geo"
 platforms: ["claude-code", "codex", "cursor", "openclaw"]
 platform_source: "declared+detected"

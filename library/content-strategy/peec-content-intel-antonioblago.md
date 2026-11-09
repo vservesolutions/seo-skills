@@ -1,6 +1,7 @@
 ---
 name: "peec-content-intel"
 description: "Content-intelligence workflow that turns a Peec AI visibility gap into a publish-ready content brief. Combines Peec (prompt visibility, source URLs, scraped chat responses), Visibly AI (backlinks, onpage, keywords, GSC), and Reddit / forum mining. Uses Query Fan-Out to expand one prompt into 5–8 sub-queries and scores competitor URLs for attackability. Use when the user wants to find content opportunities, evaluate competitor content, build a content brief from Peec data, or discover what content wins specific AI prompts."
+summary: "Turns visibility gaps and search data into publish-ready content briefs."
 category: "content-strategy"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

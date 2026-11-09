@@ -1,6 +1,7 @@
 ---
 name: "seo-offpage"
 description: "Plan and execute off-page SEO including link building, digital PR, brand mentions, citation building, and external authority signals. Use this skill whenever the user wants to build backlinks, plan a digital PR campaign, list local citations, run guest post outreach, develop linkable assets, recover lost links, or audit a backlink profile for risk. Triggers on link building, backlinks, digital PR, brand mentions, citation building, guest post, outreach, linkable asset, broken link building, HARO, podcast outreach, off-page SEO, anchor text, link velocity, toxic backlinks, disavow. Also…"
+summary: "Plans off-page SEO strategies including link building, digital PR, and citation acquisition."
 category: "link-building"
 platforms: ["unspecified"]
 platform_source: "none"

@@ -1,6 +1,7 @@
 ---
 name: "seo-content-comparison-hub"
 description: "The ideal structure of a comparison hub, the 'best X' ranking page that lists many items (10 to 60 tools, apps, providers or platforms): 'best {category} in {year}', top 10 and ranking pages, tool directories, marketplace comparisons. Gives the order of the sections from the head to the footer and, for each section, its role, its content and its organization: H1 with the exact count, short answer, quick picks computed from the data, disclosure and ordering rule, comparison table usable on a phone, the publisher's own offer kept apart, method, one fixed card per item, items considered, buying…"
+summary: "Structures large-scale comparison hubs and listicles to target high-intent search queries and aggregations."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "declared"

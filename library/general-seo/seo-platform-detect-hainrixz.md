@@ -1,6 +1,7 @@
 ---
 name: "seo-platform-detect"
 description: "Build the SiteProfile for an audited site — platform, framework, CMS plugins, hosting, environment, capabilities and write targets — by running scripts/detect-platform.mjs over the persisted PageSnapshot, then pick the knowledge cards each subagent needs. Support skill for seo-orchestrator; it merges this output with seo-vertical-detect into <run_dir>/profile.json."
+summary: "Builds a site profile detecting platform, framework, and CMS capabilities for SEO audits."
 category: "general-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

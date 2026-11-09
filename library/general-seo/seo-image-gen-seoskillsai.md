@@ -1,6 +1,7 @@
 ---
 name: "seo-image-gen"
 description: "Contextual AI image and asset generation guidelines. Enforces strict prompt design for informational diagrams, editorial infographics, and compliance with Google AI image guidelines."
+summary: "Generates contextual images following Google AI asset guidelines."
 category: "general-seo"
 platforms: ["claude-code", "windsurf", "antigravity"]
 platform_source: "declared"

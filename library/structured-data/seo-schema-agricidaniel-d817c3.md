@@ -1,6 +1,7 @@
 ---
 name: "seo-schema"
 description: "Inspect, validate or draft Schema.org JSON-LD grounded in visible page facts. Use for structured data or rich-result markup requests."
+summary: "Inspects, validates, or drafts Schema.org JSON-LD markup grounded in visible page facts."
 category: "structured-data"
 platforms: ["unspecified"]
 platform_source: "none"

@@ -1,6 +1,7 @@
 ---
 name: "serp-analysis"
 description: "Use when the user asks to \"analyze the SERP\" or \"SERP分析\"; maps SERP features, layout, ranking factors, search intent, AI Overviews, and snippet opportunities for a query. Not for keyword demand discovery — use keyword-research. SERP分析/搜索结果"
+summary: "Maps SERP features, layout, ranking factors, search intent, and AI Overviews for queries."
 category: "keyword-research"
 platforms: ["claude-code", "codex", "cursor", "openclaw"]
 platform_source: "declared+detected"

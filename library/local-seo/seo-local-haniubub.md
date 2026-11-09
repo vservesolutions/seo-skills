@@ -1,6 +1,7 @@
 ---
 name: "seo-local"
 description: "Local SEO analysis covering Google Business Profile optimization, NAP consistency, citation health, review signals, local schema markup, location page quality, multi-location SEO, and industry-specific recommendations. Detects business type (brick-and-mortar, SAB, hybrid) and industry vertical. Use when user says \"local SEO\", \"Google Business Profile\", \"GBP\", \"map pack\", \"local pack\", \"citations\", \"NAP consistency\", \"service area\", or \"multi-location\"."
+summary: "Conducts local SEO analysis covering Google Business Profile optimization, citation health, and local schema markup."
 category: "local-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

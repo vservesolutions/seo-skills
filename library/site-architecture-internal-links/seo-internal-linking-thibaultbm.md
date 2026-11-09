@@ -1,6 +1,7 @@
 ---
 name: "seo-internal-linking"
 description: "Design internal linking so authority flows to the pages that sell and every page stays crawlable. Input: a sitemap, an article, or a set of posts. Output: money-page mapping, orphan-page fixes, content silos and hub-and-spoke clusters, anchor-text variation, breadcrumb/menu/footer roles, and keyword cannibalization merges with 301s. Use to add internal links, build a topic cluster or silo, fix orphan pages, plan or audit site architecture, or when a page is indexed but never ranks."
+summary: "Designs site architecture and internal linking strategies to distribute authority and prevent orphan pages."
 category: "site-architecture-internal-links"
 platforms: ["claude-code"]
 platform_source: "declared"

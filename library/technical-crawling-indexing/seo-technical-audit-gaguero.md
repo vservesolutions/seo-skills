@@ -1,6 +1,7 @@
 ---
 name: "seo-technical-audit"
 description: "Audits the technical SEO health of a page or site: crawlability, indexing, rendering (JS), HTTP status codes, redirects, robots.txt, XML sitemaps, canonical tags, pagination, soft 404s, hreflang / international targeting, site architecture and internal-link depth, plus Core Web Vitals (LCP, INP, CLS) and mobile-friendliness. Produces a severity-ranked findings list with evidence and exact fixes. Use when someone asks why pages aren't indexed or ranking, mentions crawl errors, robots/sitemap/canonical/redirect/hreflang issues, page speed, Core Web Vitals, or wants a technical SEO audit."
+summary: "Performs comprehensive technical SEO audits covering crawlability, indexing, and site performance."
 category: "technical-crawling-indexing"
 platforms: ["any-agent"]
 platform_source: "declared"

@@ -1,6 +1,7 @@
 ---
 name: "cannibalization-check"
 description: "Find query and page overlap from GSC data and recommend consolidation, differentiation, or internal-link fixes. Use when Codex needs to identify and resolve keyword cannibalization issues."
+summary: "Identifies keyword cannibalization by analyzing query and page overlap from Google Search Console data."
 category: "analytics-measurement"
 platforms: ["unspecified"]
 platform_source: "none"

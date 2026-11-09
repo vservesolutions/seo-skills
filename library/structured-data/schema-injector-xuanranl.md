@@ -1,6 +1,7 @@
 ---
 name: "schema-injector"
 description: "Inject final JSON-LD @graph into the published post's <head> (via Yoast MU-plugin OR direct REST). Runs after wp publish."
+summary: "This skill injects generated JSON-LD structured data into published website headers."
 category: "structured-data"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

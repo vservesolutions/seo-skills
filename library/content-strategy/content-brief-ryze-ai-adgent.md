@@ -1,6 +1,7 @@
 ---
 name: "content-brief"
 description: "SERP-driven content brief for a target keyword — what ranks, what to cover, headings, questions, internal links from your own data. Use when asked for a \"content brief\", \"outline to rank for X\", \"what should this article cover\", or before writing any SEO page."
+summary: "Generates SERP-driven content briefs outlining required topics, headings, and internal linking structures."
 category: "content-strategy"
 platforms: ["claude-code"]
 platform_source: "detected"

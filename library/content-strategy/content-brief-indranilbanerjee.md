@@ -1,6 +1,7 @@
 ---
 name: "content-brief"
 description: "Write an executable content brief: keyword map, outline, intent, SEO checklist. \"write a brief for this topic\""
+summary: "Generates detailed SEO content briefs."
 category: "content-strategy"
 platforms: ["claude-code"]
 platform_source: "detected"

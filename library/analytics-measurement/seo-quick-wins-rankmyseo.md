@@ -1,6 +1,7 @@
 ---
 name: "seo-quick-wins"
 description: "A focused push on the pages and keywords closest to earning more clicks, run as a short sprint of up to ten items. Finds keywords at positions 4 to 20, pages shown often but rarely clicked, and pages sliding down, ranks them by impact and effort, plans the sprint with the owner, and compares before and after. Use when the owner wants faster results than the weekly three actions, or asks for quick wins."
+summary: "Prioritizes and executes rapid optimization sprints for near-top ranking keywords and underperforming pages."
 category: "analytics-measurement"
 platforms: ["unspecified"]
 platform_source: "none"

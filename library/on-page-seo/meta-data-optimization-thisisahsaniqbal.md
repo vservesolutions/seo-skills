@@ -1,6 +1,7 @@
 ---
 name: "meta-data-optimization"
 description: "Validates title tags, meta descriptions, Open Graph tags, and Twitter Cards. Use when auditing or fixing meta data for search engine and social media optimisation. For canonical URLs and robots directives, see the technical-seo skill."
+summary: "This skill validates title tags, meta descriptions, Open Graph tags, and Twitter Cards."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "declared"

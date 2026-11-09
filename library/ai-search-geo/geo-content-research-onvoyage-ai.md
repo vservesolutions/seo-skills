@@ -1,6 +1,7 @@
 ---
 name: "geo-content-research"
 description: "Researches what prompts people ask AI engines (ChatGPT, Gemini, Perplexity, Claude) about a product category and produces a prompts.csv artifact — a prioritized, strictly-schema'd list of the queries where the brand should be cited. Feeds the monitor workflow."
+summary: "Researches prompts asked to AI search engines to identify citation opportunities."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared"

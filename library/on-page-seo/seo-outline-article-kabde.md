@@ -1,6 +1,7 @@
 ---
 name: "seo-outline-article"
 description: "Article structure planner. Analyzes top SERP results and generates detailed article outlines with H1-H3 hierarchy, word count targets per section, key points, sources, and internal linking opportunities. Use when user says \"outline\", \"plan article\", \"article structure\", or \"plan de contenu\"."
+summary: "Analyzes SERP results to generate structured article outlines with headings and internal linking opportunities."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

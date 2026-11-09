@@ -1,6 +1,7 @@
 ---
 name: "seo-blog"
 description: "Production-grade SEO + GEO content factory. Routes user intent to one of 5 phases (research / build / optimize / publish / monitor) or runs end-to-end. Use whenever the user wants to write a blog post, create SEO/GEO-optimized articles, refresh existing content, audit a page, or publish to WordPress. Always trigger when user mentions \"blog\", \"article\", \"content\", \"SEO\", \"SERP\", \"AI search\", \"ChatGPT visibility\", \"Google AIO\", \"Perplexity\", \"rank\", or supplies a topic + keyword combination. Also triggers on URL + write intent."
+summary: "This skill operates an end-to-end SEO and AI search content production factory."
 category: "ai-search-geo"
 platforms: ["claude-code", "codex"]
 platform_source: "declared+detected"

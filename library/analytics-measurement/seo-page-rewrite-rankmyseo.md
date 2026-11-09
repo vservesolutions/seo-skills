@@ -1,6 +1,7 @@
 ---
 name: "seo-page-rewrite"
 description: "Write or rewrite a page's title, description, headings, and body for one target keyword, in plain customer language. Checks length, honesty, and AI-sounding wording before handing the result back. Use when an existing page needs new copy, a new title, or a new description. For a brand-new page, use seo-page-brief first."
+summary: "Rewrites and optimizes page metadata, headings, and body copy for specific target keywords."
 category: "analytics-measurement"
 platforms: ["unspecified"]
 platform_source: "none"

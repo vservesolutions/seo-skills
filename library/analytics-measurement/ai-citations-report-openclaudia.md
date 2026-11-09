@@ -1,6 +1,7 @@
 ---
 name: "ai-citations-report"
 description: "Generate an AI Citations Report (GEO) for a domain — which AI-search prompts cite the site across Google AI Overview and ChatGPT, plus organic-traffic context and per-article citation coverage. Use when the user asks for an 'AI citations report', 'GEO citations report', or 'which AI prompts cite <domain>'."
+summary: "Generates reports on how often a domain is cited in AI search engines."
 category: "analytics-measurement"
 platforms: ["claude-code"]
 platform_source: "declared"

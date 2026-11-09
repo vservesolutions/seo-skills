@@ -1,6 +1,7 @@
 ---
 name: "international-seo"
 description: "International Seo — Skill especializada para international seo"
+summary: "Manages international SEO strategies including multi-region and multi-language setups."
 category: "international-seo"
 platforms: ["unspecified"]
 platform_source: "none"

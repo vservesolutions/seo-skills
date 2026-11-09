@@ -1,6 +1,7 @@
 ---
 name: "ai-seo-content"
 description: "Ai Seo Content — Skill especializada para ai seo content"
+summary: "Optimizes content creation specifically for search engines using AI techniques."
 category: "structured-data"
 platforms: ["unspecified"]
 platform_source: "none"

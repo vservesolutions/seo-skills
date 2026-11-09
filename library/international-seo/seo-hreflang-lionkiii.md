@@ -1,6 +1,7 @@
 ---
 name: "seo-hreflang"
 description: "Hreflang and international SEO audit, validation, and generation. Detects common mistakes, validates language/region codes, and generates correct hreflang implementations. Use when user says \"hreflang\", \"i18n SEO\", \"international SEO\", \"multi-language\", \"multi-region\", \"language tags\", \"language targeting\", \"country targeting\", \"x-default\", \"locale\", or \"multilingual SEO\"."
+summary: "Audits, validates, and generates hreflang tags for international SEO implementations."
 category: "international-seo"
 platforms: ["claude-code"]
 platform_source: "declared"

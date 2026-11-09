@@ -1,6 +1,7 @@
 ---
 name: "seo-meta-optimizer"
 description: "Creates optimized meta titles, descriptions, and URL suggestions"
+summary: "Creates optimized meta titles, descriptions, and URL structures for search listings."
 category: "on-page-seo"
 platforms: ["antigravity"]
 platform_source: "declared"

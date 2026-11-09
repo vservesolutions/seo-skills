@@ -1,6 +1,7 @@
 ---
 name: "competitor-research"
 description: "When the user wants to analyze competitors for SEO, content, backlinks, or positioning. Also use when the user mentions \"competitor analysis,\" \"competitor research,\" \"competitor keywords,\" \"competitor backlinks,\" \"link gap,\" \"content gap,\" \"competitor content,\" \"competitive analysis,\" or \"competitor comparison.\" For content roadmap, use content-strategy."
+summary: "Analyzes competitor content, keywords, and link profiles to identify strategic content gaps."
 category: "link-building"
 platforms: ["unspecified"]
 platform_source: "none"

@@ -1,6 +1,7 @@
 ---
 name: "rescue"
 description: "Orchestrator and entry point for the seo-rescue plugin. Routes to the specialized sub-skills and recovery commands covering SEO rescue work after Google Core Updates: free-tier audit, recovery framework, decision-maker PDF reports, channel economics, competitor gap analysis, weekly PSI tracking, AI search rescue, AI citations tracker, GSC deep-dive, SISTRIX Monday recovery check (CSV-first weekly review), subscription monetization audit, and the recovery-workflow commands (diagnose, crawl, plan, monitor, full) governed by the SEO Change Governor + Settlement Gate. Type `/seo-rescue:rescue` to…"
+summary: "Orchestrates specialized sub-skills for recovering search traffic after Google core updates."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

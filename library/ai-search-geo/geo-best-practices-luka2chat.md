@@ -1,6 +1,7 @@
 ---
 name: "geo-best-practices"
 description: "Best practices for Generative Engine Optimization (GEO) - optimizing content for AI search engines and LLM-based answer engines"
+summary: "Outlines best practices for optimizing content for AI-powered search and answer engines."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

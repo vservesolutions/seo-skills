@@ -1,6 +1,7 @@
 ---
 name: "seo-auditor"
 description: "A comprehensive SEO audit framework and checklist for web projects. Includes a reusable checklist template, detailed standards, and common validation rules."
+summary: "This skill provides a comprehensive SEO audit framework, checklist, and validation rules."
 category: "technical-crawling-indexing"
 platforms: ["unspecified"]
 platform_source: "none"

@@ -1,6 +1,7 @@
 ---
 name: "seo-audit"
 description: "Audit a website for SEO problems and prioritize a practical fix plan. Use for whole-site audits or a broad request to improve a site."
+summary: "Audits websites for SEO issues and creates fix plans."
 category: "technical-crawling-indexing"
 platforms: ["unspecified"]
 platform_source: "none"

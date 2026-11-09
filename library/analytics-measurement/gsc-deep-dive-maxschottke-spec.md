@@ -1,6 +1,7 @@
 ---
 name: "gsc-deep-dive"
 description: "Use when the user wants Google Search Console data pulled directly into the session instead of manually screenshotting / CSV-exporting from search.google.com. Pulls top queries, top pages, coverage status, manual actions, security issues, and Core Web Vitals field data via the GSC API in one call. Triggers from \"pull GSC data for example.com\", \"Search Console deep dive\", \"GSC queries last 90 days\", \"GSC coverage report\", \"GSC indexing status\", \"GSC manual actions check\", \"GSC Core Web Vitals field data\". Removes the manual GSC click-through that is the friction point of every recovery / audit…"
+summary: "Pulls Google Search Console data via API to analyze queries, pages, and core web vitals."
 category: "analytics-measurement"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

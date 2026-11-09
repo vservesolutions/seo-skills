@@ -1,6 +1,7 @@
 ---
 name: "website-audit"
 description: "Full website SEO audit — crawls up to 500 pages, detects business type, spawns up to 15 parallel specialist agents (8 always + 7 conditional), generates SEO Health Score (0-100) with enterprise HTML report. Completely standalone — not connected to the blog-writer pipeline. Triggers on: audit my site, website audit, full SEO check, site health, analyze my website, SEO analysis, technical SEO audit, or any URL + audit intent. Use whenever user mentions 'audit', 'check my site', 'SEO health', 'website analysis', or provides a URL asking for SEO evaluation."
+summary: "Executes full website SEO audits crawling up to 500 pages with parallel specialist agents to generate comprehensive health reports."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

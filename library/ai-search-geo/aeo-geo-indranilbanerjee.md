@@ -1,6 +1,7 @@
 ---
 name: "aeo-geo"
 description: "Plan AEO/GEO strategy to get cited by AI: content, entities, schema, 90-day plan. \"how do we get cited by AI\""
+summary: "Plans strategy to gain citations in AI answer engines."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "detected"

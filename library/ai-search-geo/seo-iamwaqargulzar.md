@@ -1,6 +1,7 @@
 ---
 name: "seo"
 description: "Orchestrate comprehensive SEO work across technical, content, schema, backlinks, local, ecommerce, programmatic SEO and AI-search/GEO. Use for full-site audits, SEO plans, or multi-specialist SEO investigations."
+summary: "This skill orchestrates comprehensive SEO work across technical, content, schema, backlinks, local, and ecommerce domains."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

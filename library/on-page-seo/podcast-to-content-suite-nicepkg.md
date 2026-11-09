@@ -1,6 +1,7 @@
 ---
 name: "podcast-to-content-suite"
 description: "Transform podcast transcripts into comprehensive content marketing suites including blog posts, social media content, newsletters, SEO-optimized articles, and timestamps. Use when user provides podcast transcripts or wants to repurpose podcast content."
+summary: "Transforms podcast transcripts into SEO-optimized articles and marketing suites."
 category: "on-page-seo"
 platforms: ["claude-code", "codex", "cursor"]
 platform_source: "declared"

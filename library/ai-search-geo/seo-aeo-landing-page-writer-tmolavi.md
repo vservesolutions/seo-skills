@@ -1,6 +1,7 @@
 ---
 name: "seo-aeo-landing-page-writer"
 description: "Writes complete, structured landing pages optimized for SEO ranking, AEO citation, and visitor conversion. Activate when the user wants to write or generate a landing page for a product, service, or offer."
+summary: "Generates structured landing pages optimized for search rankings, AI citations, and conversions."
 category: "ai-search-geo"
 platforms: ["antigravity"]
 platform_source: "declared"

@@ -1,6 +1,7 @@
 ---
 name: "seo-page"
 description: "Analyze one supplied URL across on-page, content, technical metadata, schema, images, and performance. Use only for a single-page review."
+summary: "Performs a single-page SEO audit covering metadata, schema, content, and technical elements."
 category: "on-page-seo"
 platforms: ["codex"]
 platform_source: "declared"

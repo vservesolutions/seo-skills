@@ -1,6 +1,7 @@
 ---
 name: "seo-mobile"
 description: "Audit mobile-friendliness of a page from the PageSnapshot — verify the viewport meta, no horizontal-scroll/fixed-width layouts, adequate tap targets, legible base font, and mobile/desktop content parity — and generate the viewport meta when missing. Module M7b. Feeds the Search SEO score."
+summary: "Audits mobile-friendliness factors including viewports, tap targets, and content parity."
 category: "general-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

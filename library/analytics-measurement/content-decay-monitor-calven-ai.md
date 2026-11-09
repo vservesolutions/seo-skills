@@ -1,6 +1,7 @@
 ---
 name: "content-decay-monitor"
 description: "Find published pages losing rank or organic traffic month over month and rank them for refresh. Use when \"what's decaying\", \"which posts to refresh\", or on the monthly cadence."
+summary: "Finds published web pages losing organic traffic or rankings month over month for refreshing."
 category: "analytics-measurement"
 platforms: ["codex"]
 platform_source: "detected"

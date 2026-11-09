@@ -1,6 +1,7 @@
 ---
 name: "seo-content-brief"
 description: "Create an SEO content brief for writers. Use when the user says \"content brief\", \"SEO brief\", \"writing brief\", \"brief for\", \"writer brief\", \"outline for SEO\", or asks about creating a structured brief to hand to a writer for producing search-optimized content."
+summary: "Creates structured SEO content briefs and outlines for writers to produce optimized content."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "declared"

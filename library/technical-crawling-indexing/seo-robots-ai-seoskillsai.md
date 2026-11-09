@@ -1,6 +1,7 @@
 ---
 name: "seo-robots-ai"
 description: "AI bot crawler budget and permissions manager. Configures robots.txt to grant access to citation-capable AI search crawlers (GPTBot, ClaudeBot, Google-Extended) while blocking aggressive scrapers."
+summary: "Configures robots.txt rules to manage access for AI citation crawlers and scrapers."
 category: "technical-crawling-indexing"
 platforms: ["claude-code", "windsurf", "antigravity"]
 platform_source: "declared"

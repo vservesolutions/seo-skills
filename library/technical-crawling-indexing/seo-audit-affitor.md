@@ -1,6 +1,7 @@
 ---
 name: "seo-audit"
 description: "Audit affiliate blog posts and landing pages for SEO issues. Triggers on: \"audit my blog post for SEO\", \"check my SEO\", \"SEO review\", \"improve my rankings\", \"SEO checklist\", \"on-page SEO audit\", \"keyword optimization check\", \"why isn't my page ranking\", \"SEO score\", \"content quality audit\", \"check my meta tags\", \"internal linking audit\", \"quick SEO wins\"."
+summary: "Audits blog posts and landing pages for on-page SEO issues."
 category: "technical-crawling-indexing"
 platforms: ["claude-code", "windsurf", "openclaw", "gemini-cli"]
 platform_source: "declared+detected"

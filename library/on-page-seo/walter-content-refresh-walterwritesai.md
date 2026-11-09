@@ -1,6 +1,7 @@
 ---
 name: "walter-content-refresh"
 description: "Use to refresh old blog posts for current SEO standards. Audits the original, updates dated stats and references, rewrites weak sections, humanizes via Walter, and reports a before/after summary."
+summary: "Refreshes outdated blog posts to meet current SEO standards and accuracy."
 category: "on-page-seo"
 platforms: ["unspecified"]
 platform_source: "none"

@@ -1,6 +1,7 @@
 ---
 name: "seo-audit"
 description: "Full SEO audit powered by the DataForSEO API. Orchestrates 5 specialist subagents (keywords, technical, competitors, content, backlinks) hitting DataForSEO Keywords Data, SERP, On-Page, Backlinks, and Labs endpoints in parallel, then produces a composite SEO Score (0-100) with prioritized action plan and audit JSON ready for PDF export."
+summary: "Executes a parallel multi-agent SEO audit using DataForSEO endpoints to generate a composite score and action plan."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

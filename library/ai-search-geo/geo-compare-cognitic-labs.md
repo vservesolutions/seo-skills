@@ -1,6 +1,7 @@
 ---
 name: "geo-compare"
 description: "Compare GEO scores across 2-3 competing websites side by side — identify where competitors lead and where you should focus optimization efforts. Use when the user asks to compare sites for AI visibility, benchmark against competitors, or mentions competitor analysis for AI search."
+summary: "This skill compares AI visibility and GEO scores side-by-side against competing websites."
 category: "ai-search-geo"
 platforms: ["claude-code", "openclaw"]
 platform_source: "declared"

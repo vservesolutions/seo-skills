@@ -1,6 +1,7 @@
 ---
 name: "seo-keyword-research"
 description: "Get a keyword map and an AI prompt panel grounded in how buyers actually search. Input: a site, niche, or seed topics (plus Google Search Console if available). Output: keywords mapped one-to-one to intent and pages, quick wins, a cannibalization check, an on-page placement matrix, and a 50-100 buyer prompt panel for ChatGPT, Perplexity, and Google AI Mode. Works without paid tools. Use for keyword research, search intent, keyword mapping, cannibalization, content gaps, prompt research, or deciding what to write and which queries to target."
+summary: "Maps keywords to search intent and buyer prompts across search engines and AI tools."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared"

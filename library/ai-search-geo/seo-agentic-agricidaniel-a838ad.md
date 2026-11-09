@@ -1,6 +1,7 @@
 ---
 name: "seo-agentic"
 description: "Inspect how a website can be read and used by browsing agents. Use for agent readiness, accessibility trees, discovery files or WebMCP."
+summary: "Inspects website readiness for browsing AI agents."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

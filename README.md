@@ -297,7 +297,9 @@ npm run enrich -- --all --limit 100        # re-review skills this model already
 npm run build                              # redraw the dashboard with the new summaries
 ```
 
-Any provider works by changing two variables — for example Groq's free tier:
+Google retires model ids for new keys, so `SEO_LLM_MODEL` is configurable: pin the current
+`gemini-3.5-flash-lite`, or set `gemini-flash-lite-latest` to follow upgrades automatically. Any
+provider works by changing two variables — for example Groq's free tier:
 
 ```bash
 SEO_LLM_BASE=https://api.groq.com/openai/v1

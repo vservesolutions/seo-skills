@@ -1,6 +1,7 @@
 ---
 name: "seo-hreflang"
 description: "Compatibility skill for seo hreflang. Use when a user or upstream workflow invokes this name; route the task to `seo-audit` while preserving the requested scope and source-specific intent."
+summary: "This compatibility skill routes hreflang audit tasks."
 category: "international-seo"
 platforms: ["unspecified"]
 platform_source: "none"

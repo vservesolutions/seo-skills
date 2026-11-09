@@ -1,6 +1,7 @@
 ---
 name: "audit-speed"
 description: "Deep Core Web Vitals and page speed audit. Use when the user asks about page speed, Core Web Vitals, LCP, CLS, INP, FCP, TTFB, Lighthouse scores, why a page is slow, performance optimization, or resource size analysis. For broader technical SEO issues, see diagnose-seo."
+summary: "Executes a deep audit of Core Web Vitals and page speed performance metrics."
 category: "technical-crawling-indexing"
 platforms: ["unspecified"]
 platform_source: "none"

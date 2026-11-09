@@ -1,6 +1,7 @@
 ---
 name: "seo-audit-checklist"
 description: "Seo Audit Checklist — Skill especializada para seo audit checklist"
+summary: "Provides a checklist for executing comprehensive SEO audits."
 category: "technical-crawling-indexing"
 platforms: ["unspecified"]
 platform_source: "none"

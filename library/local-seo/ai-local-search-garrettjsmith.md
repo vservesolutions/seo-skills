@@ -1,6 +1,7 @@
 ---
 name: "ai-local-search"
 description: "When the user wants to optimize for AI-powered local search results including Google AI Overviews, AI Mode, ChatGPT, Gemini, Perplexity, or Grok. Also use when the user mentions \"AI Overviews,\" \"AI search local,\" \"ChatGPT local,\" \"GEO,\" \"LLMO,\" \"generative search,\" \"AI recommendations,\" \"AI Mode,\" or \"showing up in AI answers for local.\" For traditional map pack ranking, see gbp-optimization."
+summary: "Optimizes local business visibility for generative AI search engines and AI overviews."
 category: "local-seo"
 platforms: ["unspecified"]
 platform_source: "none"

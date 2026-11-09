@@ -1,6 +1,7 @@
 ---
 name: "local-link-building"
 description: "When the user wants to build local backlinks, earn links from community organizations, or develop a local link building strategy. Also use when the user mentions \"local links,\" \"local backlinks,\" \"community links,\" \"sponsor links,\" \"chamber of commerce link,\" or \"local PR.\" For citation building, see local-citations. For content strategy, see local-content."
+summary: "Develops local link building strategies to earn community and PR backlinks."
 category: "local-seo"
 platforms: ["unspecified"]
 platform_source: "none"

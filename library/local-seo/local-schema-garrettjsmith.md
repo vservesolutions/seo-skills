@@ -1,6 +1,7 @@
 ---
 name: "local-schema"
 description: "When the user wants to implement LocalBusiness structured data, location schema, or local-specific JSON-LD markup. Also use when the user mentions \"local schema,\" \"LocalBusiness schema,\" \"structured data for local,\" \"JSON-LD for business,\" \"NAP schema,\" or \"local business markup.\" For general schema, see schema-markup skill. For GBP profile work, see gbp-optimization."
+summary: "Implements LocalBusiness structured data and location-specific JSON-LD markup."
 category: "local-seo"
 platforms: ["unspecified"]
 platform_source: "none"

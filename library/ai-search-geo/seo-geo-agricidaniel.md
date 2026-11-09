@@ -1,6 +1,7 @@
 ---
 name: "seo-geo"
 description: "Review a site for useful, attributable and accessible answers in AI-search surfaces. Use for GEO, AI Overviews or citation-readiness questions."
+summary: "Reviews site visibility and citations in AI search surfaces."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

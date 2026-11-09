@@ -1,6 +1,7 @@
 ---
 name: "recovery-monitor"
 description: "Weekly recovery tracking. Fetches current VI + keyword positions, computes 0-100 recovery score, appends to NDJSON history, outputs delta report. Run weekly or on-demand to track recovery progress over time. API-driven (Sistrix/DataForSEO MCP) — for the CSV-only weekly review without any API access use sistrix-monday-recovery-check instead."
+summary: "Tracks recovery progress weekly by monitoring visibility scores and keyword positions."
 category: "algorithm-updates"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

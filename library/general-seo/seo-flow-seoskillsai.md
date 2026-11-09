@@ -1,6 +1,7 @@
 ---
 name: "seo-flow"
 description: "7-layer recursive multi-agent SEO execution prompt workflow. Choreographs research, outline generation, semantic drafting, and schema validation."
+summary: "Executes a multi-agent workflow for SEO research, content drafting, and schema validation."
 category: "general-seo"
 platforms: ["claude-code", "windsurf", "antigravity"]
 platform_source: "declared"

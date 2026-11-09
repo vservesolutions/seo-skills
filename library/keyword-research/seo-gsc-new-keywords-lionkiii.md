@@ -1,6 +1,7 @@
 ---
 name: "seo-gsc-new-keywords"
 description: "Discover newly ranking keywords using Google Search Console data. Finds queries that had zero clicks or impressions in the prior 28 days but started appearing in the current period, revealing emerging content opportunities. Use when user says \"new keywords\", \"new rankings\", \"keywords started ranking\", \"recently ranking\", or \"new queries\"."
+summary: "Discovers newly ranking keywords using Google Search Console performance data."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

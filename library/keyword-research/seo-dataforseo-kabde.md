@@ -1,6 +1,7 @@
 ---
 name: "seo-dataforseo"
 description: "Live SEO data via DataForSEO MCP server. SERP analysis (Google, Bing, Yahoo, YouTube), keyword research (volume, difficulty, intent, trends), backlink profiles, on-page analysis (Lighthouse, content parsing), competitor analysis, content analysis, business listings, AI visibility (ChatGPT scraper, LLM mention tracking), and domain analytics. Requires DataForSEO extension installed. Use when user says \"dataforseo\", \"live SERP\", \"keyword volume\", \"backlink data\", \"competitor data\", \"AI visibility check\", \"LLM mentions\", or \"real search data\"."
+summary: "Fetches live SEO data for SERPs, keywords, backlinks, and AI visibility via DataForSEO."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

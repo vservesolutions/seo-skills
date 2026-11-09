@@ -1,6 +1,7 @@
 ---
 name: "seo-machine"
 description: "Build an organic-traffic operating system for any site or app: a multi-phase, resumable engine that plans and ships a BATCH ROADMAP of landing pages (use-cases, playbooks, /for/ pages, roundups) on top of real keyword research, with a persistent phase tracker. Use when the user says 'SEO machine', 'build organic traffic', 'rank on Google', 'we need traffic', 'SEO roadmap', 'batch of pages', 'pages roadmap', or 'build an SEO engine'. Distinct from `seo-audit` (one-off diagnostic) and `seo-content` (single-article writer): this skill owns the multi-page roadmap, run sequencing, page generation…"
+summary: "This skill plans and generates batch roadmaps of landing pages based on keyword research."
 category: "keyword-research"
 platforms: ["codex"]
 platform_source: "detected"

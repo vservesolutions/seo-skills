@@ -1,6 +1,7 @@
 ---
 name: "seo"
 description: "Master AI SEO Orchestrator. Coordinates 27 sub-skills and 18 specialist agents across technical SEO, Topical Semantic semantic content, 2026 schema, llms.txt, Discover RSS, drift monitoring, and backlinks."
+summary: "Coordinates multiple specialist agents across technical SEO, semantic content, and schema optimization."
 category: "ai-search-geo"
 platforms: ["claude-code", "windsurf", "antigravity"]
 platform_source: "declared"

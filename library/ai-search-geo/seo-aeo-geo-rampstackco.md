@@ -1,6 +1,7 @@
 ---
 name: "seo-aeo-geo"
 description: "Optimize content and site structure for AI-driven search experiences including AI overviews, large language model citations, generative answer engines, and AI assistants. Use this skill whenever the user wants to optimize for AI search, get cited by language models, appear in AI overviews, build llms.txt, structure content for AI extraction, or future-proof their SEO for the shift from blue links to AI answers. Triggers on AEO, GEO, AI search, AI SEO, AI overview, generative search, LLM optimization, llms.txt, AI citation, ChatGPT search, Perplexity, Gemini, Claude search, AI assistant…"
+summary: "Optimizes website content and structure for AI search engines, large language models, and AI overviews."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

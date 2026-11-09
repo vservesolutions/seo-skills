@@ -1,6 +1,7 @@
 ---
 name: "competitor-keyword-analysis"
 description: "Use this skill to map a competitor's organic search footprint with Keywords Everywhere ranking keywords, traffic estimates, and content-theme clusters. Trigger it when comparing SEO visibility, identifying competitor keyword strengths, or preparing deeper content-gap analysis."
+summary: "Maps competitor organic search footprints and keyword ranking strategies."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared"

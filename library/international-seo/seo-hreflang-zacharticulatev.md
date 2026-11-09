@@ -1,6 +1,7 @@
 ---
 name: "seo-hreflang"
 description: "Validates and generates hreflang annotations for international SEO. Checks language/region codes, self-reference, x-default, duplicates, and absolute URLs, and flags return-link reciprocity to verify; generates HTML alternate link tags and identifies HTTP Link header and XML sitemap placement. Trigger when the user says \"hreflang\", \"i18n SEO\", \"international SEO\", \"multi-language\", \"multi-region\", \"language tags\", or \"regional SEO\"."
+summary: "Validates and generates hreflang annotations and HTML alternate link tags for international SEO."
 category: "international-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

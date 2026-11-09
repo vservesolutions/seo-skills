@@ -1,6 +1,7 @@
 ---
 name: "seo-audit"
 description: "An SEO agent skill for quick, lightweight, default single-page SEO audits. Performs basic on-page and site-level checks and outputs a structured basic SEO audit report. Use when the user asks for \"SEO audit\", \"SEO check\", \"check my page SEO\", \"page analysis\", or wants a first-pass review of a URL. If the user requests \"deep audit\", \"full report\", \"technical SEO audit\", or \"advanced SEO\", use seo-audit-full instead."
+summary: "Performs quick, lightweight on-page and site-level SEO audits."
 category: "technical-crawling-indexing"
 platforms: ["claude-code", "openclaw"]
 platform_source: "declared+detected"

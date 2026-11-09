@@ -1,6 +1,7 @@
 ---
 name: "content-brief"
 description: "Use when planning a new article. The agent Googles the keyword, reads the top 10 results, classifies intent, maps the content gap, and produces a writer-ready brief with structure, outline, and on-page artifacts. No keyword tool required."
+summary: "Analyzes top search results to generate structured content briefs for writers."
 category: "on-page-seo"
 platforms: ["unspecified"]
 platform_source: "none"

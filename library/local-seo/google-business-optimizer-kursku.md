@@ -1,6 +1,7 @@
 ---
 name: "google-business-optimizer"
 description: "Google Business Optimizer — Skill especializada para otimização de perfis no Google Meu Negócio e rankeamento local."
+summary: "Optimizes Google Business Profiles and local search rankings."
 category: "local-seo"
 platforms: ["unspecified"]
 platform_source: "none"

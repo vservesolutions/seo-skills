@@ -1,6 +1,7 @@
 ---
 name: "content-brief-generator"
 description: "Generate comprehensive content briefs for writers, ensuring clarity, alignment, and strategic content creation across all formats."
+summary: "Generates comprehensive content briefs to ensure strategic and clear content creation."
 category: "on-page-seo"
 platforms: ["claude-code", "codex", "cursor"]
 platform_source: "declared"

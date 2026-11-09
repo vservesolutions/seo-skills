@@ -1,6 +1,7 @@
 ---
 name: "ai-content-creator"
 description: "AI 内容创作专家，生成高质量的 SEO 和 GEO 优化内容，支持多种内容类型和风格。"
+summary: "Generates SEO and GEO-optimized content across multiple styles."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

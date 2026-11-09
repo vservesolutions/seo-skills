@@ -1,6 +1,7 @@
 ---
 name: "seo-structure-architect"
 description: "Analyzes and optimizes content structure including header"
+summary: "This skill analyzes and optimizes website content structure including header tags."
 category: "site-architecture-internal-links"
 platforms: ["antigravity"]
 platform_source: "declared"

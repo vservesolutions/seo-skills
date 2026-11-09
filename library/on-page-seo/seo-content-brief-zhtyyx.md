@@ -1,6 +1,7 @@
 ---
 name: "seo-content-brief"
 description: "Generate competitive SEO content briefs with per-section word counts, competitor scoring, keyword placement guidance, and page-type templates. Supports both new page briefs and improve-existing-page briefs. Use when user says \"content brief\", \"write a brief\", \"content outline\", \"blog brief\", \"service page brief\", \"brief for\", \"writing brief\", \"content plan\", or \"outline for\"."
+summary: "Creates competitive SEO content briefs with target word counts, outlines, and keyword guidance."
 category: "on-page-seo"
 platforms: ["codex"]
 platform_source: "declared"

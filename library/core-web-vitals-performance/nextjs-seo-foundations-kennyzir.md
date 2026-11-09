@@ -1,6 +1,7 @@
 ---
 name: "nextjs-seo-foundations"
 description: "Next.js 14 应用的生产级 SEO 工程化规范 (Metadata, Schema, Performance)"
+summary: "This skill establishes production-grade engineering standards for Next.js metadata, schema, and performance."
 category: "core-web-vitals-performance"
 platforms: ["unspecified"]
 platform_source: "none"

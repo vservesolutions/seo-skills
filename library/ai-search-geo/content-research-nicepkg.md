@@ -1,6 +1,7 @@
 ---
 name: "content-research"
 description: "Research-first content creation optimized for both human readers and AI search engines (Claude, ChatGPT, Perplexity, Gemini). Creates authentic, authoritative content that becomes the go-to citation source for AI models answering user questions. Use this skill when: - Creating content that should appear in AI search results (Perplexity, ChatGPT, Claude) - Building topical authority to become THE source AI cites for a topic - Launching a new product and need compelling, citable content - Creating blog posts, articles, social media, or press releases - Need content that references real trends…"
+summary: "Researches and creates content optimized for human readers and AI search engine citations."
 category: "ai-search-geo"
 platforms: ["claude-code", "codex", "cursor"]
 platform_source: "declared"

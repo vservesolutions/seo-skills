@@ -1,6 +1,7 @@
 ---
 name: "web-cafe-seo-agent"
 description: "Use the logged-in 哥飞 SEO Agent at seo.web.cafe through a browser-control integration for explicit requests to research a domain, URL, keyword, competitors, SEO traffic changes, website valuation, or SEO growth opportunities. Run browser work hidden by default and render the Web.Cafe transcript plus an evidence-calibrated analysis directly in the agent conversation. Reuse the user's active browser session without reading or exporting cookies, tokens, or other authentication data."
+summary: "Uses a browser-based SEO agent to research domains, keywords, competitors, and traffic changes."
 category: "algorithm-updates"
 platforms: ["unspecified"]
 platform_source: "none"

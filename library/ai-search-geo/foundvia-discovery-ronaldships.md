@@ -1,6 +1,7 @@
 ---
 name: "foundvia-discovery"
 description: "Audit a SaaS website's Google and ChatGPT discovery blockers, propose evidence-backed fixes, and build a measurable first-100-visits plan. Use for indexing problems, AI search visibility, or early organic acquisition. For an established site's traffic-loss investigation, prioritize its Search Console history instead of a launch plan."
+summary: "Audits website discovery blockers for Google and ChatGPT to improve early organic acquisition and indexing."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

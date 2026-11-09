@@ -1,6 +1,7 @@
 ---
 name: "seo-lighthouse-audit"
 description: "Run a Lighthouse audit against any URL via the local Lighthouse CLI or the PageSpeed Insights API fallback, parse category scores and failed audits, and map every failed audit ID to its official Chrome docs page plus a one-line fix. Use when user says \"lighthouse\", \"lighthouse audit\", \"run lighthouse\", \"lighthouse score\", or \"pagespeed\"."
+summary: "Runs Lighthouse audits to parse performance scores and map failed checks to documentation."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

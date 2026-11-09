@@ -1,6 +1,7 @@
 ---
 name: "redirects-migration"
 description: "Redirects Migration — Skill especializada para planejamento, execução e validação de migrações de redirecionamentos 301."
+summary: "Plans, executes, and validates 301 redirect migrations for SEO."
 category: "analytics-measurement"
 platforms: ["unspecified"]
 platform_source: "none"

@@ -1,6 +1,7 @@
 ---
 name: "schema-markup"
 description: "Schema Markup — Skill especializada para schema markup"
+summary: "Implements and validates schema markup for search engines."
 category: "structured-data"
 platforms: ["unspecified"]
 platform_source: "none"

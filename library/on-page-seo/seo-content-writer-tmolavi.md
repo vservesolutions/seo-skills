@@ -1,6 +1,7 @@
 ---
 name: "seo-content-writer"
 description: "Writes SEO-optimized content based on provided keywords and topic"
+summary: "Writes SEO-optimized content based on targeted keywords and topic structures."
 category: "on-page-seo"
 platforms: ["antigravity"]
 platform_source: "declared"

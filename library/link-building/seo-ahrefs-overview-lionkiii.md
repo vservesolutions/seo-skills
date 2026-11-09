@@ -1,6 +1,7 @@
 ---
 name: "seo-ahrefs-overview"
 description: "Get Ahrefs domain overview: Domain Rating, total backlinks, referring domains, organic keywords, estimated monthly traffic, and traffic value. Use when user says \"Ahrefs overview\", \"domain rating\", \"DR score\", \"check backlinks\", \"how strong is this domain\", \"domain authority\", or \"check domain in Ahrefs\"."
+summary: "Provides an Ahrefs domain overview including Domain Rating, traffic, and backlink metrics."
 category: "link-building"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

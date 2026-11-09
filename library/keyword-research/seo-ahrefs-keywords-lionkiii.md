@@ -1,6 +1,7 @@
 ---
 name: "seo-ahrefs-keywords"
 description: "Get a domain's top organic keyword rankings from Ahrefs: keyword, position, search volume, CPC, estimated traffic, and traffic share. Use when user says \"Ahrefs keywords\", \"organic keywords\", \"keyword rankings\", \"what keywords rank\", or \"ranking keywords\"."
+summary: "Retrieves organic keyword rankings, positions, and estimated traffic from Ahrefs."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

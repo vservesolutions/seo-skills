@@ -1,6 +1,7 @@
 ---
 name: "internal-link-graph-architect"
 description: "Design intentional internal link graphs for SEO, UX, and LLM-readable sites. Use this skill when the user asks for links between short briefs, longform articles, topics, projects, author pages, breadcrumbs, source trails, related stories, orphan-page checks, overlink checks, anchor intent, or validation that a link graph reinforces the canonical content model without creating duplicate story bodies or hidden links."
+summary: "Designs internal link graphs to optimize content structure for search engines and AI assistants."
 category: "technical-crawling-indexing"
 platforms: ["unspecified"]
 platform_source: "none"

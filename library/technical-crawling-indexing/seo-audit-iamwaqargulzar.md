@@ -1,6 +1,7 @@
 ---
 name: "seo-audit"
 description: "Audit a site or page across technical SEO, on-page quality, content, structured data, performance, indexability, AI-search readiness and conversion-sensitive search experience."
+summary: "This skill audits a site or page across technical SEO, on-page quality, structured data, and performance."
 category: "technical-crawling-indexing"
 platforms: ["unspecified"]
 platform_source: "none"

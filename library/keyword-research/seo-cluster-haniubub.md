@@ -1,6 +1,7 @@
 ---
 name: "seo-cluster"
 description: "SERP-based semantic topic clustering for content architecture planning. Groups keywords by actual Google SERP overlap (not text similarity), designs hub-and-spoke content clusters with internal link matrices, and generates interactive visualizations. Optionally executes content creation if claude-blog is installed. Use when user says \"topic cluster\", \"content cluster\", \"semantic clustering\", \"pillar page\", \"hub and spoke\", \"content architecture\", \"keyword grouping\", or \"cluster plan\"."
+summary: "This skill performs SERP-based semantic topic clustering for content architecture and internal link planning."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

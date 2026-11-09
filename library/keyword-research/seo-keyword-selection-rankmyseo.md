@@ -1,6 +1,7 @@
 ---
 name: "seo-keyword-selection"
 description: "Choose the next keywords to target, for a new website from the owner's intake, or for an existing website from measured search demand. Sets a primary and alternate keywords, validates them with RankMySEO or Search Console, checks relevance to the business, and classifies each as money, tool, hub, or informational. Use before a plan is written for a new site, or when the owner asks what to target next on an existing one."
+summary: "Chooses and validates primary and alternate keywords based on search demand and relevance."
 category: "keyword-research"
 platforms: ["unspecified"]
 platform_source: "none"

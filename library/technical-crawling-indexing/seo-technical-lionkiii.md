@@ -1,6 +1,7 @@
 ---
 name: "seo-technical"
 description: "Technical SEO audit across 8 categories: crawlability, indexability, security, URL structure, mobile, Core Web Vitals, structured data, and JavaScript rendering. Enhanced with live GSC (indexing status, crawl data) and Ahrefs (backlink profile) data when MCPs are available. Use when user says \"technical SEO\", \"crawl issues\", \"robots.txt\", \"Core Web Vitals\", \"site speed\", or \"security headers\"."
+summary: "Performs a technical SEO audit covering crawlability, rendering, and Core Web Vitals."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

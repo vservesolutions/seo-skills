@@ -1,6 +1,7 @@
 ---
 name: "negative-seo-defense"
 description: "Negative Seo Defense — Skill especializada para negative seo defense"
+summary: "Protects websites against negative SEO attacks and toxic backlinks."
 category: "analytics-measurement"
 platforms: ["unspecified"]
 platform_source: "none"

@@ -1,6 +1,7 @@
 ---
 name: "content-strategy"
 description: "Develop a content strategy covering editorial positioning, content pillars, formats, calendar, governance, and topical authority planning. Use this skill whenever the user wants to plan a content program, define content pillars, build an editorial calendar, structure topic clusters, set up content governance, or align content production with broader brand and SEO goals. Triggers on content strategy, content plan, editorial strategy, content pillars, content calendar, editorial calendar, topical authority, topic clusters, content governance, content roadmap, content production. Also triggers…"
+summary: "Builds comprehensive content strategies, editorial pillars, and topical authority plans for search visibility."
 category: "content-strategy"
 platforms: ["unspecified"]
 platform_source: "none"

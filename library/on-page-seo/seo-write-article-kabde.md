@@ -1,6 +1,7 @@
 ---
 name: "seo-write-article"
 description: "AI-assisted SEO article writer. Generates full blog articles optimized for Google and AI search engines (ChatGPT, Perplexity, AI Overviews). Supports templates: how-to, listicle, guide, comparison, case study, explainer. Integrates E-E-A-T signals, GEO citability, and internal linking. Use when user says \"write article\", \"rediger\", \"draft\", \"create post\", or \"write blog\"."
+summary: "Writes AI-assisted SEO blog articles optimized for search engines and AI answer platforms."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

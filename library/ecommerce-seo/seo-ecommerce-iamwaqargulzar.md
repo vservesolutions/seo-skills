@@ -1,6 +1,7 @@
 ---
 name: "seo-ecommerce"
 description: "Compatibility skill for seo ecommerce. Use when a user or upstream workflow invokes this name; route the task to `seo-audit` while preserving the requested scope and source-specific intent."
+summary: "This compatibility skill routes SEO audit tasks for ecommerce."
 category: "ecommerce-seo"
 platforms: ["unspecified"]
 platform_source: "none"

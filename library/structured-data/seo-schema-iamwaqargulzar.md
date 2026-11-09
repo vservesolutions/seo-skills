@@ -1,6 +1,7 @@
 ---
 name: "seo-schema"
 description: "Detect, validate, or generate Schema.org JSON-LD for a supplied page or entity. Use only when structured data or rich-result markup is requested."
+summary: "Detects, validates, and generates Schema.org JSON-LD structured data for web pages."
 category: "structured-data"
 platforms: ["claude-code"]
 platform_source: "detected"

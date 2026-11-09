@@ -1,6 +1,7 @@
 ---
 name: "seo-writer"
 description: "Use when writing content targeting search visibility, optimizing articles for keywords and featured snippets, planning SEO-aware heading architecture, or validating on-page SEO elements."
+summary: "Optimizes articles and heading architecture for search visibility and featured snippets."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "declared"

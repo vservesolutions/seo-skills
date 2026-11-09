@@ -1,6 +1,7 @@
 ---
 name: "shopify-json-ld"
 description: "Use when adding structured data / JSON-LD / schema markup to a Shopify store: recipe, FAQ, Article/BlogPosting, CollectionPage, AboutPage, or Organization schema; chasing Google rich-results / rich-snippet eligibility; debugging a Search Console \"Invalid object type\" or \"missing field\" schema error; or a request like \"add schema to my store\", \"add recipe schema\", or \"why isn't my product showing rich results\". This skill adds SUPPLEMENTAL JSON-LD the theme cannot emit dynamically, stored in a metafield and rendered by one Liquid snippet. Not for meta titles, meta descriptions, canonical tags…"
+summary: "Adds and debugs structured data and JSON-LD schema markup on Shopify stores to achieve rich-result eligibility."
 category: "ecommerce-seo"
 platforms: ["claude-code"]
 platform_source: "detected"

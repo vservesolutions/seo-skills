@@ -1,6 +1,7 @@
 ---
 name: "backlink-analysis"
 description: "When the user wants backlink, referring-domain, anchor, link-quality, link-gap, link-intersect, anchor-diff, link-velocity, brand-mention, or competitor link-profile analysis for one target domain or URL."
+summary: "Analyzes backlink profiles, referring domains, and link gaps for target domains."
 category: "link-building"
 platforms: ["claude-code"]
 platform_source: "declared"

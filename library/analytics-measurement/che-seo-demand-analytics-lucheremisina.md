@@ -1,6 +1,7 @@
 ---
 name: "che-seo-demand-analytics"
 description: "Связывает рыночный спрос Wordstat, видимость Вебмастера и органический трафик Метрики, сохраняя границы источников. Применяется для SEO-воронки, сопоставления спроса и видимости и выбора действий; не выдаёт спрос за трафик сайта."
+summary: "Integrates search demand data with webmaster visibility and traffic analytics."
 category: "analytics-measurement"
 platforms: ["claude-code"]
 platform_source: "detected"

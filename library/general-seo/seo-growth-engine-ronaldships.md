@@ -1,6 +1,7 @@
 ---
 name: "seo-growth-engine"
 description: "Design a small organic acquisition experiment using a useful tutorial, comparison, audience-specific page, or working tool. Use after checking discovery blockers and customer demand; do not generate mass pages or promise traffic from a publishing quota."
+summary: "Designs small organic acquisition experiments using useful tutorials or comparison pages."
 category: "general-seo"
 platforms: ["unspecified"]
 platform_source: "none"

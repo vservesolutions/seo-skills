@@ -1,6 +1,7 @@
 ---
 name: "seo-geo"
 description: "Visibilité de {{COMPANY_NAME}} dans les moteurs de réponse IA (AI Overviews, ChatGPT, Perplexity, Claude) : crawlers IA, llms.txt, citabilité, mentions de marque. À utiliser sur « GEO », « AEO », « AI Overviews », « être cité par ChatGPT », « visibilité IA », « llms.txt »."
+summary: "Optimizes brand visibility and citability within AI-powered answer engines and LLM search results."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared"

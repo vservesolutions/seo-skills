@@ -1,6 +1,7 @@
 ---
 name: "seo-content-refresher"
 description: "Identifies outdated elements in provided content and suggests"
+summary: "Identifies outdated elements in existing content and suggests targeted updates for freshness."
 category: "site-architecture-internal-links"
 platforms: ["antigravity"]
 platform_source: "declared"

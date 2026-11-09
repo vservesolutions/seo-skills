@@ -1,6 +1,7 @@
 ---
 name: "seo-slug-dates"
 description: "Audit publication dates, dateModified, and sitemap lastmod for truthful source records, and migrate away from synthetic slug-derived history. Use when page dates are generated, inaccurate, or reset on every build."
+summary: "Audits publication dates and sitemap lastmod records to migrate away from synthetic slug history."
 category: "technical-crawling-indexing"
 platforms: ["unspecified"]
 platform_source: "none"

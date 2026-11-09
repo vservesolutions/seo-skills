@@ -1,6 +1,7 @@
 ---
 name: "content-seo"
 description: "Audits a blog post draft or page copy for content-level SEO: search intent fit, focus keyphrase placement, E-E-A-T signals (experience, expertise, authoritativeness, trustworthiness), helpfulness and originality, content freshness, and internal linking. Use when the user asks \"will this rank\", \"SEO check this post\", \"content SEO audit\", or \"optimize this post for search\" — or proactively after a readability pass on a post that's meant to rank. For how the prose reads, use the `readability-check` skill; for titles and meta descriptions, use `metadata-check`; for site-wide technical SEO…"
+summary: "Audits blog posts and page copy for search intent, E-E-A-T, and keyword optimization."
 category: "keyword-research"
 platforms: ["unspecified"]
 platform_source: "none"

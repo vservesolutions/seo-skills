@@ -1,6 +1,7 @@
 ---
 name: "internal-links"
 description: "When the user wants internal link opportunities, contextual link recommendations, anchor text improvements, or validation before applying internal links."
+summary: "This skill provides internal linking recommendations and anchor text improvements."
 category: "site-architecture-internal-links"
 platforms: ["claude-code"]
 platform_source: "declared"

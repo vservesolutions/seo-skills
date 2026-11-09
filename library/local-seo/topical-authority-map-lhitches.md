@@ -1,6 +1,7 @@
 ---
 name: "topical-authority-map"
 description: "Builds a 4-cluster Topical Authority Map from a seed keyword. Outputs an .xlsx spreadsheet with five tabs (Core Pages, AOR Pages, Linking Map, Buyer Journey, Publishing Order) plus a markdown strategy document. Interactive, asks the user to confirm central entity, source context, persona, classification, and gaps at five checkpoints. Trigger when the user provides a seed keyword, niche, business type, or asks for a topical map, content plan, site architecture, topic cluster, or publishing roadmap."
+summary: "This skill generates a structured topical authority map spreadsheet and strategy document from a seed keyword."
 category: "local-seo"
 platforms: ["claude-code"]
 platform_source: "declared"

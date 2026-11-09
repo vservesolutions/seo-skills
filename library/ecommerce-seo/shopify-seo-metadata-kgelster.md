@@ -1,6 +1,7 @@
 ---
 name: "shopify-seo-metadata"
 description: "Use when a store has missing SEO titles or meta descriptions and you want to backfill them: \"backfill missing SEO titles/descriptions\", \"meta description sweep\", \"SEO meta backfill across products/collections/pages/blog posts\", \"missing page titles\", \"fix blank search-appearance metadata\", \"generate SEO meta for products\". Safe-mode: fills only the empty search-appearance fields (SEO title, meta description) on products, collections, pages, and blog articles, never touching human-written values. Not for image alt text (use shopify-alt-text) or JSON-LD (use shopify-json-ld)."
+summary: "Backfills missing SEO titles and meta descriptions across Shopify products, collections, pages, and blog posts."
 category: "ecommerce-seo"
 platforms: ["claude-code"]
 platform_source: "detected"

@@ -1,6 +1,7 @@
 ---
 name: "seo-gsc-content-decay"
 description: "Detect content decay by identifying pages that are losing both clicks and impressions over a 90-day comparison window in Google Search Console. Surfaces pages with true long-term decline (not seasonal variation) and assigns decay severity ratings. Use when user says \"content decay\", \"declining pages\", \"losing rankings\", \"pages losing traffic over time\", or \"90 day decline\"."
+summary: "Identifies content decay by detecting pages losing clicks and impressions over a 90-day period in Google Search Console."
 category: "analytics-measurement"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

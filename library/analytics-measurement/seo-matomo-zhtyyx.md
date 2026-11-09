@@ -1,6 +1,7 @@
 ---
 name: "seo-matomo"
 description: "Matomo Reporting API extension. Self-hosted or Matomo Cloud analytics as a GA4 alternative or complement. Organic traffic, landing pages, device / country breakdowns, referrers, search keywords. Triggers on \"Matomo\", \"self-hosted analytics\", \"analytics ohne Google\", \"GA4 alternative\", \"Matomo Reporting\", \"Piwik\"."
+summary: "Integrates Matomo analytics data for organic traffic and keyword performance tracking."
 category: "analytics-measurement"
 platforms: ["codex"]
 platform_source: "declared"

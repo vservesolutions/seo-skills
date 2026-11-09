@@ -1,6 +1,7 @@
 ---
 name: "che-seo-geo-auditor-pro"
 description: "Проверяет отдельную страницу, title, описание, Schema.org, ссылку, индексацию или спорный пункт SEO/GEO/AEO-аудита. Применяется для точечного доказательного разбора; не запускает полный аудит сайта без соответствующей задачи."
+summary: "Audits specific page elements, tags, and schema markup."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "detected"

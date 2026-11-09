@@ -1,6 +1,7 @@
 ---
 name: "keyword-discovery"
 description: "Finds long-tail search expressions from a seed, competitor sites, search suggestions and customer language. Use for keyword expansion and demand discovery."
+summary: "Discovers long-tail search queries from seeds and competitors."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared"

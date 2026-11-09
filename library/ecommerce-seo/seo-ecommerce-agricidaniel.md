@@ -1,6 +1,7 @@
 ---
 name: "seo-ecommerce"
 description: "Audit product and category pages for discoverability, buyer information, variants and truthful structured data. Use for ecommerce SEO."
+summary: "Audits ecommerce pages for discoverability and structured data."
 category: "ecommerce-seo"
 platforms: ["unspecified"]
 platform_source: "none"

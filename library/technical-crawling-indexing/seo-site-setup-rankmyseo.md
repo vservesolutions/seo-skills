@@ -1,6 +1,7 @@
 ---
 name: "seo-site-setup"
 description: "Technical and on-page setup for a website that is being built or fixed. Covers rendering, HTML structure, on-page basics, link attributes, robots.txt and AI crawler choices, sitemap naming, llms.txt, structured data validation, speed, languages, and measurement. Use before a site goes live, or when the owner asks what is missing."
+summary: "Configures technical and on-page elements including rendering, crawling directives, and structured data for new sites."
 category: "technical-crawling-indexing"
 platforms: ["unspecified"]
 platform_source: "none"

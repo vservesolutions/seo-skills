@@ -1,6 +1,7 @@
 ---
 name: "seo-audit"
 description: "Single audit entry point — surface-level scorecard or deep infrastructure dive depending on the requested mode. Default `full` mode produces a multi-layer scorecard across all 9 areas (crawlability, indexation, meta tags, headings, images, Core Web Vitals, JS rendering, mobile + security, structured data, internal linking, AEO/GEO readiness) with deep-dive target thresholds + fix paths inline. `quick` mode = scorecard only, surface-level pass/fail. `technical` mode = infrastructure-only deep dive (Core Web Vitals targets, crawlability, indexation, JS rendering, HTTPS / HSTS / mixed content)…"
+summary: "Conducts comprehensive technical and on-page SEO audits across multiple infrastructure and content areas."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared"

@@ -1,6 +1,7 @@
 ---
 name: "seo-rendering"
 description: "Audit a page's rendering strategy and JavaScript dependency — diff raw HTML against the rendered DOM to measure how much primary content, links, headings, and JSON-LD exist only after JS executes, classify CSR-only / SSR / SSG / ISR, and emit framework-specific guidance. Module M4. Feeds both the Search SEO and AI Visibility scores."
+summary: "Analyzes JavaScript rendering dependencies by diffing raw HTML against the rendered DOM."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

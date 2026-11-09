@@ -1,6 +1,7 @@
 ---
 name: "seo-schema"
 description: "Detect, validate, and generate Schema.org structured data. JSON-LD format preferred. Use when user says \"schema\", \"structured data\", \"rich results\", \"JSON-LD\", or \"markup\"."
+summary: "Detects, validates, and generates Schema.org structured data in JSON-LD format."
 category: "structured-data"
 platforms: ["claude-code"]
 platform_source: "detected"

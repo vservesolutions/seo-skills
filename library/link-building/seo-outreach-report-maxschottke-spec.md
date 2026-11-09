@@ -1,6 +1,7 @@
 ---
 name: "seo-outreach-report"
 description: "Use when generating a polished single-PDF SEO snapshot for a third-party domain owner. The output is a decision-maker-friendly document in plain language for non-SEO-experts (shop owners, founders, executives), not a technical site audit. Triggers include \"send the owner of X.de an SEO snapshot\", \"generate a report for the owner\", \"show X.de their SEO status\", \"make a PDF for a non-technical decision maker about their SEO\". Complements `claude-seo:seo-audit` when the goal is communication for a non-technical audience rather than technical depth. Complements `make-pdf` when the input is a…"
+summary: "Generates a non-technical PDF SEO snapshot report for third-party domain owners."
 category: "link-building"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

@@ -1,6 +1,7 @@
 ---
 name: "build-backlinks"
 description: "Finds free backlink and brand mention opportunities across Hacker News, Quora, GitHub, directories, and niche communities. Outputs a prioritized action plan with draft responses ready to post. Use after brand research and content creation to amplify reach and AI engine citations."
+summary: "This skill finds free backlink and brand mention opportunities across community platforms to improve authority."
 category: "link-building"
 platforms: ["claude-code"]
 platform_source: "declared"

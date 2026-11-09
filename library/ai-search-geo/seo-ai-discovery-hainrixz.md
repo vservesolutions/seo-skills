@@ -1,6 +1,7 @@
 ---
 name: "seo-ai-discovery"
 description: "Audit AI discovery files and agent endpoints at the site root — /llms.txt and /llms-full.txt structure and link health, /agents.md, the UCP merchant profile at /.well-known/ucp (only when no ecommerce module owns it), the ARD /.well-known/ai-catalog.json, and /sitemap_agentic_discovery.xml — plus a robots cross-check that these files are not blocked for the bots meant to read them. Module M21 \"AI discovery & agent endpoints\" (weight 0 — reported, never scored). Appears in the AI Visibility report only."
+summary: "Audits site root AI discovery files and agent endpoints including llms.txt and agent catalog JSON."
 category: "ai-search-geo"
 platforms: ["claude-code", "codex"]
 platform_source: "declared+detected"

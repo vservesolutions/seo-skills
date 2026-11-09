@@ -1,6 +1,7 @@
 ---
 name: "seo-cluster"
 description: "Group keywords into useful page targets and an internal-link architecture using intent and available SERP overlap. Use for topic clusters."
+summary: "Groups keywords into topic clusters and internal links."
 category: "keyword-research"
 platforms: ["unspecified"]
 platform_source: "none"

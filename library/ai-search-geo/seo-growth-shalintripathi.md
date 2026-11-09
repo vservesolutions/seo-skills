@@ -1,6 +1,7 @@
 ---
 name: "seo-growth"
 description: "End-to-end SEO operations for B2B SaaS organic visibility. Use this skill when you need keyword research, technical SEO audits, content optimization, link building strategy, international expansion, AI/AEO optimization, schema markup, Core Web Vitals improvements, and organic traffic growth planning. Also triggers on: SEO, SEO forecast, forecast our organic traffic, how much traffic will SEO bring, SEO business case, is SEO worth the investment, SEO budget, prioritize our SEO roadmap, what should SEO work on first, organic traffic report for leadership, brand vs non-brand traffic, did the…"
+summary: "Executes comprehensive end-to-end SEO operations including technical audits, keyword research, and optimizations."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared"

@@ -1,6 +1,7 @@
 ---
 name: "seo-analyst"
 description: "Google ranks, AI Overviews and the keyword set by tier, with why we do not rank and the one fix. Use when asked about ranks, volumes, Search Console or keyword ideas."
+summary: "Analyzes keyword rankings, AI Overviews, and Search Console data to identify performance fixes."
 category: "analytics-measurement"
 platforms: ["codex"]
 platform_source: "detected"

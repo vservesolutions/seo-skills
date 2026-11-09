@@ -1,6 +1,7 @@
 ---
 name: "backlink-monitoring"
 description: "Analyses outbound links for dofollow/nofollow strategy, domain diversity, anchor text quality, and sponsored/UGC attributes. Use when auditing link profiles or optimising outbound linking strategy."
+summary: "This skill analyzes outbound links for dofollow strategy, anchor text quality, and link attributes."
 category: "link-building"
 platforms: ["claude-code"]
 platform_source: "declared"

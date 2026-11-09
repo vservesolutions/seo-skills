@@ -1,6 +1,7 @@
 ---
 name: "migrate-site"
 description: "Guide a website migration without losing rankings — domain moves, CMS switches, URL restructures, HTTP to HTTPS, or redesigns. Use when the user asks about site migration, domain change, CMS migration, URL restructure, redesign SEO impact, redirect mapping, or how to move a site safely."
+summary: "Guides safe website migrations across domains, CMS platforms, and URL structures without losing rankings."
 category: "migration-redirects"
 platforms: ["unspecified"]
 platform_source: "none"

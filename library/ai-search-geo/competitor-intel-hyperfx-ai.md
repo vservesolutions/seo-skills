@@ -1,6 +1,7 @@
 ---
 name: "competitor-intel"
 description: "Run end-to-end competitor research and monitoring through the Hyper MCP — pick the set, scrape every public surface (site, blog, pricing, organic social, search rank, mentions, demand) via Firecrawl + HyperSEO + the Apify scrapers, diff against last run, and synthesize a brief. Use when the user wants to research competitors, build a battle card or comparison page, run a weekly digest, or asks \"what's [competitor] doing?\" or \"how do we compare?\"."
+summary: "Runs comprehensive competitor research and monitoring across digital channels."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

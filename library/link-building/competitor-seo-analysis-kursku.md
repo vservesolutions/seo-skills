@@ -1,6 +1,7 @@
 ---
 name: "competitor-seo-analysis"
 description: "Competitor Seo Analysis — Skill especializada para competitor seo analysis"
+summary: "Analyzes competitor search engine optimization metrics and strategies."
 category: "link-building"
 platforms: ["unspecified"]
 platform_source: "none"

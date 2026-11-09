@@ -1,6 +1,7 @@
 ---
 name: "Pre-Launch Website Audit"
 description: "Run a comprehensive pre-launch website audit covering technical SEO, AI accessibility, security, performance, and on-page SEO. Detects tech stack, tailors checks to framework, orchestrates 5 sub-audits with parallel execution, and delivers a prioritized report with stack-specific fix recommendations. Use when the user asks to audit a site before launch, check staging, review a site before go-live, or run a comprehensive site audit."
+summary: "Conducts comprehensive pre-launch website audits covering technical SEO, performance, and AI accessibility."
 category: "technical-crawling-indexing"
 platforms: ["unspecified"]
 platform_source: "none"

@@ -1,6 +1,7 @@
 ---
 name: "backlink-intelligence"
 description: "AI/Tools目录外链情报收集与评估。当需要为项目寻找外链机会时使用，包括： (1) 搜索免费AI工具目录、SaaS目录、创业目录 (2) 批量评估目标站点的收费/登录/审核要求 (3) 记录外链提交结果到memory文件 (4) 生成待提交清单 触发场景：用户要求\"提交外链\"、\"找目录\"、\"增加曝光\"、\"外链情报\"等"
+summary: "This skill finds and evaluates directory and SaaS platform backlink opportunities."
 category: "link-building"
 platforms: ["unspecified"]
 platform_source: "none"

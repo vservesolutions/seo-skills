@@ -1,6 +1,7 @@
 ---
 name: "serp-markup-builder"
 description: "Use when the user asks to \"optimize meta tags\", \"write title tags / meta descriptions\", \"add Open Graph or Twitter cards\", or \"generate schema / JSON-LD\" for FAQ, HowTo, Article, Product, or LocalBusiness rich-result candidates. Produces title/description options, an OG+Twitter block, and validated JSON-LD for the document head. Not for body copy — use content-writer; not for crawl/index technical issues — use technical-seo-checker. 标题优化/元描述/Schema标记/结构化数据"
+summary: "This skill generates meta tags, Open Graph cards, and validated JSON-LD schema markup for enhanced search engine results pages."
 category: "keyword-research"
 platforms: ["claude-code", "codex", "cursor", "openclaw"]
 platform_source: "declared+detected"

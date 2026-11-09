@@ -1,6 +1,7 @@
 ---
 name: "seo"
 description: "Comprehensive SEO analysis for any website or business type. Full site audits, single-page analysis, technical SEO (crawlability, indexability, Core Web Vitals with INP), schema markup, content quality (E-E-A-T), image optimization, sitemap analysis, and GEO for AI Overviews/ChatGPT/Perplexity. Industry detection for SaaS, e-commerce, local, publishers, agencies. Triggers on: SEO, audit, schema, Core Web Vitals, sitemap, E-E-A-T, AI Overviews, GEO, technical SEO, content quality, page speed."
+summary: "This skill performs comprehensive SEO analysis covering technical audits, Core Web Vitals, schema, and AI search GEO."
 category: "core-web-vitals-performance"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

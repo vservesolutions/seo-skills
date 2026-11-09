@@ -1,6 +1,7 @@
 ---
 name: "geo-optimizer"
 description: "Audit and fix a website for AI search visibility (Generative Engine Optimization). Use when asked to check whether a site or page can be found and cited by ChatGPT Search, Perplexity, Claude or Google AI Overviews, to score it 0-100 with `geo audit`, or to fix robots.txt AI crawler rules, llms.txt, JSON-LD schema, meta tags and citability of the content before publishing."
+summary: "Audits and fixes websites for AI search visibility across major generative engines."
 category: "ai-search-geo"
 platforms: ["claude-code", "cursor", "windsurf"]
 platform_source: "detected"

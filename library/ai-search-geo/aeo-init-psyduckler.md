@@ -1,6 +1,7 @@
 ---
 name: "aeo-init"
 description: "Initialize an AEO workspace by writing aeo.config.json — the workspace configuration file that every other v2 skill (aeo-baseline, aeo-track, aeo-report, aeo-optimize) reads. Captures the brand name and domain, aliases, competitors, the prompts to track, and spend limits. Supports both interactive prompts (for first-time setup) and flag-driven invocation (for agents). The output conforms to schemas/aeo-config-v1.json and validates against it when jsonschema is available. Use when a user wants to: start a new AEO tracking project, scaffold the config that aeo-baseline reads, regenerate a…"
+summary: "Initializes an answer engine optimization workspace configuration file with domains, competitors, and tracked prompts."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

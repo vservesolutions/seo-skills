@@ -1,6 +1,7 @@
 ---
 name: "seo-drift"
 description: "Compare two SEO exports (Search Console, two dates): gainers, losers, drift classes. \"what moved after the core update\""
+summary: "Compares search analytics exports to track performance shifts."
 category: "analytics-measurement"
 platforms: ["claude-code"]
 platform_source: "detected"

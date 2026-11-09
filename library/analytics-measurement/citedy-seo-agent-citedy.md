@@ -1,6 +1,7 @@
 ---
 name: "citedy-seo-agent"
 description: "Full-stack AI marketing toolkit — scout X/Twitter and Reddit for trending topics, discover and deep-analyze competitors, find content gaps, publish SEO- and GEO-optimized articles with AI illustrations and voice-over in 55 languages, create social media adaptations for X, LinkedIn, Facebook, Reddit, Threads, Instagram, Instagram Reels, YouTube Shorts, and Shopify, generate lead magnets (checklists, swipe files, frameworks), ingest any URL (YouTube videos, web articles, PDFs, audio files) into structured content, ultra-cheap turbo articles from 2 credits, generate short-form AI UGC viral…"
+summary: "Conducts competitor analysis, discovers trending topics, and publishes SEO- and GEO-optimized articles across platforms."
 category: "analytics-measurement"
 platforms: ["openclaw"]
 platform_source: "detected"

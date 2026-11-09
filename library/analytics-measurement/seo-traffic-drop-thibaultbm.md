@@ -1,6 +1,7 @@
 ---
 name: "seo-traffic-drop"
 description: "Diagnose a traffic or ranking loss before fixing anything. Input: Search Console exports from a healthy period and a damaged one, plus what changed on the site. Output: whether the drop is real or a reporting artifact, the exact date and shape of the loss (visibility, ranking, click-through, demand), the pages and queries carrying it, a differential diagnosis with the test that confirms each cause, and the handoff to the skill that fixes it. Bundled zero-dependency script compares two exports and dates the drop. Use when traffic fell, rankings dropped, impressions or clicks collapsed, a core…"
+summary: "Diagnoses traffic and ranking losses using Search Console data to identify root causes."
 category: "analytics-measurement"
 platforms: ["claude-code"]
 platform_source: "declared"

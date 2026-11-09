@@ -1,6 +1,7 @@
 ---
 name: "core-web-vitals"
 description: "Audits HTML patterns that affect Core Web Vitals (LCP, CLS, INP). Checks for layout shift causes, largest contentful paint blockers, and interaction responsiveness issues. Use when optimising page performance or fixing Google PageSpeed Insights warnings."
+summary: "This skill audits HTML patterns that affect Core Web Vitals performance metrics."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared"

@@ -1,6 +1,7 @@
 ---
 name: "optimize-for-ai"
 description: "Optimize content for AI search engines — ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews. Use when the user asks about AI SEO, AISO, getting cited by AI, appearing in AI answers, answer engine optimization, AEO, GEO, LLMO, AI Overviews, zero-click search, or how to appear in ChatGPT/Perplexity results. For traditional SEO, see diagnose-seo."
+summary: "Optimizes content for visibility in AI search engines, answer engines, and AI overviews."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

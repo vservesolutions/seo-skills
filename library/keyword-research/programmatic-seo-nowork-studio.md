@@ -1,6 +1,7 @@
 ---
 name: "programmatic-seo"
 description: "Programmatic SEO planning and audit: building or evaluating large sets of template-generated pages that target long-tail query patterns (e.g. \"[service] in [city]\", \"[product] vs [product]\", \"[tool] for [use-case]\"). Covers data-source and template design, thin/duplicate-content and doorway-page risks, per-page uniqueness and value thresholds, internal linking and hubs, indexation management (publish vs. noindex), and scaling without a manual action. Use whenever the user wants to generate many pages from a template/dataset, build location/comparison/use-case pages at scale, or asks why…"
+summary: "Plans and audits large sets of template-generated pages targeting long-tail query patterns."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "detected"

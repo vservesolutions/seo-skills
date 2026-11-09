@@ -1,6 +1,7 @@
 ---
 name: "seo-internal-linking"
 description: "Audit and improve a site's internal-linking topology and semantic HTML — map pillar/cluster structure, count and grade contextual in-body links and anchor text, surface orphan pages and nav-heavy templates, and propose specific source→target link insertions. Module M10. Feeds the Search SEO score."
+summary: "Audits site internal-linking structure, grades contextual links, and proposes specific link insertions."
 category: "link-building"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

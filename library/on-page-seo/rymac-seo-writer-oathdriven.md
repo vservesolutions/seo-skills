@@ -1,6 +1,7 @@
 ---
 name: "rymac-seo-writer"
 description: "Writes keyword-optimized blog posts for any business or niche. Researches keywords, writes the full article, and formats it ready to publish. Use this skill when someone needs blog content, SEO articles, website copy, or wants to rank on Google. Also triggers when someone says \"write a blog post\", \"I need content for my client's site\", \"help me rank for [keyword]\", or anything about SEO content writing."
+summary: "Researches keywords and writes search-optimized blog posts and website copy."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "declared"

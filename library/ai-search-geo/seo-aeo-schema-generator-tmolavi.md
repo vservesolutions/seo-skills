@@ -1,6 +1,7 @@
 ---
 name: "seo-aeo-schema-generator"
 description: "Generates valid JSON-LD structured data for 10 schema types with rich result eligibility validation and implementation-ready script blocks. Activate when the user wants to generate schema markup, JSON-LD, or structured data for any page."
+summary: "Generates valid JSON-LD structured data and validates rich result eligibility for various schema types."
 category: "ai-search-geo"
 platforms: ["antigravity"]
 platform_source: "declared"

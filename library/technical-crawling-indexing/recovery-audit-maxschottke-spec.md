@@ -1,6 +1,7 @@
 ---
 name: "recovery-audit"
 description: "Audits all SEO changes made to a domain within a given period (read-only). Reconstructs change history from cache, Shopware updatedAt fields and crawl diffs when logs are missing. Detects Settlement-Gate-triggering Major Batches, writes recovery-gate.json, and emits the hypothesis_registry that recovery-plan needs for live-fix-eligible actions."
+summary: "Audits historical SEO changes on a domain to support core update recovery."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

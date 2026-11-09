@@ -1,6 +1,7 @@
 ---
 name: "ecommerce-seo"
 description: "Use when optimizing e-commerce stores for search engines. Focus on faceted navigation, product schema, variant canonicalization, and crawl budget management for large catalogs."
+summary: "Optimizes e-commerce stores focusing on faceted navigation, product schema, and crawl budget."
 category: "ecommerce-seo"
 platforms: ["claude-code"]
 platform_source: "detected"

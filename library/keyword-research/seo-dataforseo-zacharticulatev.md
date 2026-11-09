@@ -1,6 +1,7 @@
 ---
 name: "seo-dataforseo"
 description: "Pulls live SERP, keyword, backlink, and AI-visibility data from the DataForSEO MCP when connected — search volume, keyword difficulty, multi-engine and image SERP, referring domains, and LLM-mention tracking; otherwise reads the current SERP and competitor set from built-in web search, clearly labeled as lower-fidelity with the metrics that need the MCP named. Trigger when the user says \"dataforseo\", \"live SERP\", \"keyword volume\", \"keyword difficulty\", \"backlink data\", \"AI-visibility data\", \"image SERP\", or \"real search data\"."
+summary: "Retrieves live SERP, keyword, backlink, and AI visibility metrics from the DataForSEO API."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared"

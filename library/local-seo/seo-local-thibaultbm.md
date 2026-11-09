@@ -1,6 +1,7 @@
 ---
 name: "seo-local"
 description: "Run spec, audit, competitor benchmark and build for local visibility, on the two assets a local business owns: the location page and the Google Business Profile, plus reviews and NAP citations. Spec: LOC, GBP, REV and CIT requirements with IDs. Audit: seo_audit.py and section_audit.py --type location on the page, a manual GBP checklist. Benchmark: the local pack and top organic results for '{service} {city}', their pages via page_benchmark.py, their profiles by hand (categories, review count and velocity, photos, posts). Build: name and category decisions, a 100% complete profile, a review…"
+summary: "Audits and optimizes location pages and Google Business Profiles for local search visibility."
 category: "local-seo"
 platforms: ["claude-code"]
 platform_source: "declared"

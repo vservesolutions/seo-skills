@@ -1,6 +1,7 @@
 ---
 name: "youtube"
 description: "Work with YouTube content end to end — fetch transcripts and turn them into summaries, blog posts, social content, quotes, or show notes; create high-CTR thumbnails (with the user's face from an upload), clone the style of top-ranking thumbnails; and produce SEO-optimised titles + descriptions. Use when the user pastes a YouTube URL, wants to repurpose video content, research competitor videos, make or refresh a thumbnail, or package a video for upload."
+summary: "Repurposes video transcripts and optimizes metadata for search visibility."
 category: "analytics-measurement"
 platforms: ["unspecified"]
 platform_source: "none"

@@ -1,6 +1,7 @@
 ---
 name: "seo-content-planner"
 description: "Creates comprehensive content outlines and topic clusters for SEO."
+summary: "Creates comprehensive SEO content outlines and topic clusters."
 category: "content-strategy"
 platforms: ["antigravity"]
 platform_source: "declared"

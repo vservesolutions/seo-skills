@@ -1,6 +1,7 @@
 ---
 name: "technical-seo"
 description: "Audits sitemap references, robots.txt directives, canonical tags, crawlability, URL structure, redirect chains, and indexability. Use when checking technical SEO foundations or fixing crawl/index issues."
+summary: "Audits sitemaps, robots.txt directives, canonical tags, and indexability for technical SEO."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared"

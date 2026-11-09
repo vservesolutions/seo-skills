@@ -1,6 +1,7 @@
 ---
 name: "local-seo-audit"
 description: "When the user wants to audit, review, or diagnose a business's local search presence. Also use when the user mentions \"local SEO audit,\" \"why am I not showing up on Google Maps,\" \"local search issues,\" \"local ranking problems,\" \"GBP audit,\" or \"local presence check.\" For geogrid-specific analysis, see geogrid-analysis. For GBP-only optimization, see gbp-optimization."
+summary: "Audits and diagnoses local search presence and map pack issues."
 category: "local-seo"
 platforms: ["unspecified"]
 platform_source: "none"

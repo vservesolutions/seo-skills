@@ -1,6 +1,7 @@
 ---
 name: "seo-local"
 description: "Audit real local-business pages, location details, and Google Business Profile eligibility from verified business information. Use for physical or eligible service-area businesses; an online-only SaaS should use general discovery guidance."
+summary: "Audits local business pages, location details, and Google Business Profile eligibility."
 category: "local-seo"
 platforms: ["unspecified"]
 platform_source: "none"

@@ -1,6 +1,7 @@
 ---
 name: "seo-content-comparison-page"
 description: "Spec, audit, competitor benchmark and build for the bottom-funnel pages that capture buyers at the decision moment: 'X vs Y', 'alternatives to X', 'best X for Y', the comparison hub, and audience or segment pages ('for agencies', 'for freelancers'). Runs four phases: the CMP spec with stable IDs on top of the common page spec, an audit of the existing page with seo_audit.py and section_audit.py, a benchmark against the comparison and alternatives pages that rank on the query (review sites, affiliate lists, the competitors' own vs pages) with page_benchmark.py, then the build: which…"
+summary: "Builds and optimizes bottom-funnel comparison and alternative pages designed to capture high-intent buyer traffic."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "declared"

@@ -1,6 +1,7 @@
 ---
 name: "link-building"
 description: "Plan earned backlinks and third-party mentions for specific pages: page-level link gaps, linkable assets, reclamation, partner/resource-page outreach, and link-vendor risk checks. For backlink-profile diagnosis use `offsite-signal-analyzer`; for journalists use `public-relations`; for directories use `directory-submissions`."
+summary: "This skill plans earned backlinks, linkable assets, and outreach strategies for specific pages."
 category: "link-building"
 platforms: ["unspecified"]
 platform_source: "none"

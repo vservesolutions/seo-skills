@@ -1,6 +1,7 @@
 ---
 name: "seo-performance-tracker"
 description: "Track topical-map performance from Google Search Console — per-pillar impressions/ clicks/position rollups, striking-distance opportunities, decaying pages, measured cannibalization, and GSC queries the map doesn't yet cover. Use whenever the user asks how content is performing, wants a GSC/Search Console report, mentions rankings, impressions, clicks, or asks what to update or write next based on real data. Requires GSC access; degrades honestly if it's not configured. Triggers on performance/analytics intent broadly."
+summary: "Tracks topical map performance and query coverage using Google Search Console data."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared"

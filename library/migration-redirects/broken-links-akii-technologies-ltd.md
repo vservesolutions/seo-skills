@@ -1,6 +1,7 @@
 ---
 name: "broken-links"
 description: "Find and fix broken links — three modes with different scale ceilings. `local` audits any local repo (HTML/MD/MDX, no size limit) via Glob/Grep + per-link verification. `page` checks one live URL deeply (~30-100 outbound links per run). `site` requires the Ahrefs site-audit MCP for true multi-page crawl — without it, refuses and tells the user how to get there. Use when the user asks to \"check broken links\", \"find dead links\", \"fix 404s\", \"link checker\", \"broken link audit\", \"redirect chains\", \"find dead URLs\", \"link validation\", \"mixed content\". Accepts a mode modifier…"
+summary: "Identifies and fixes broken links across local repositories and live URLs."
 category: "migration-redirects"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

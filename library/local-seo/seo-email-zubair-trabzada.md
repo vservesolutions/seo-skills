@@ -1,6 +1,7 @@
 ---
 name: "seo-email"
 description: "Draft a personalized cold email to a prospect based on the SEO audit findings. Reads the audit JSON for the given domain, picks the 2-3 most impactful issues, and writes an outreach email that references specific data (current ranking, traffic value, named issues) so it doesn't look like spam."
+summary: "Drafts personalized SEO prospect outreach emails referencing specific audit findings."
 category: "local-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

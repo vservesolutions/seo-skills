@@ -1,6 +1,7 @@
 ---
 name: "video-optimization"
 description: "When the user wants to optimize videos for Google Search, video sitemap, VideoObject schema, or video SEO on websites. Also use when the user mentions \"video SEO,\" \"video sitemap,\" \"VideoObject,\" \"video thumbnail,\" \"video indexing,\" \"video preview,\" \"key moments,\" \"Clip schema,\" or \"embedded video optimization.\" For page template, use article-page-generator."
+summary: "Optimizes videos for search engines using video sitemaps and VideoObject schema markup."
 category: "technical-crawling-indexing"
 platforms: ["unspecified"]
 platform_source: "none"

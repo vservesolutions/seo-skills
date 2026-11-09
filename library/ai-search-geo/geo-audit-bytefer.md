@@ -1,6 +1,7 @@
 ---
 name: "geo-audit"
 description: "Full website GEO+SEO audit with parallel agents first and skills fallback. Orchestrates a comprehensive Generative Engine Optimization audit across AI citability, platform analysis, technical infrastructure, content quality, and schema markup. Produces a composite GEO Score (0-100) with prioritized action plan."
+summary: "Performs a comprehensive generative engine optimization and technical SEO audit producing a composite score."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

@@ -1,6 +1,7 @@
 ---
 name: "aeo-page-optimize"
 description: "Make a page citable by answer engines: direct answers, question headings, entities, passage structure, proof. Use when \"make this citable\", \"AEO for this page\", \"why doesn't ChatGPT cite us\"."
+summary: "Optimizes web pages for citation in AI answer engines by structuring content for direct answers."
 category: "ai-search-geo"
 platforms: ["codex"]
 platform_source: "detected"

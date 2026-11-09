@@ -1,6 +1,7 @@
 ---
 name: "score"
 description: "Recompute and display the two scores (Search SEO + AI Visibility) from a persisted audit run, without re-crawling. Use to re-show or refresh the scores after an audit, to score a specific run directory or host, or to score a saved findings JSON file."
+summary: "Recomputes and displays search SEO and AI visibility scores from a persisted audit run without re-crawling."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

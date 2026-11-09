@@ -1,6 +1,7 @@
 ---
 name: "blog-seo-writer"
 description: "Blog Seo Writer — Skill especializada em conteúdo & copywriting"
+summary: "Assists in writing and copywriting search-optimized blog content."
 category: "on-page-seo"
 platforms: ["unspecified"]
 platform_source: "none"

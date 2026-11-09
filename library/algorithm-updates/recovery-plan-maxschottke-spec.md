@@ -1,6 +1,7 @@
 ---
 name: "recovery-plan"
 description: "Generates a prioritized recovery action plan from diagnosis + crawl data. Determines recovery phase (R1-R5), builds Do-Not-Touch list for stable keywords, prioritizes actions by Impact x Effort x Risk, enforces batch-change limits. Requires recovery-diagnose to have run first."
+summary: "Generates prioritized action plans for recovering search visibility after algorithm updates."
 category: "algorithm-updates"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

@@ -1,6 +1,7 @@
 ---
 name: "seo-sitemap"
 description: "Pull a domain's XML sitemap (and sitemap-of-sitemaps), then compare against the most recent SE Ranking website audit. Surfaces (a) sitemap entries the crawler couldn't find (orphans from the sitemap), (b) audit pages missing from the sitemap (probably an oversight), (c) sitemap entries that are now 404, (d) lastmod inconsistencies. Use when the user asks for \"sitemap analysis\", \"check my sitemap\", \"sitemap vs audit\", \"missing pages\", \"orphan pages\", or \"sitemap health\"."
+summary: "Compares XML sitemaps against site audits to uncover orphan pages, 404s, and discrepancies."
 category: "local-seo"
 platforms: ["claude-code"]
 platform_source: "declared"

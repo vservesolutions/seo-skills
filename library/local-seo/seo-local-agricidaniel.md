@@ -1,6 +1,7 @@
 ---
 name: "seo-local"
 description: "Review local-business visibility signals, service pages, business information and review evidence. Use for local SEO requests."
+summary: "Reviews local-business visibility signals, service pages, business information, and review evidence."
 category: "local-seo"
 platforms: ["unspecified"]
 platform_source: "none"

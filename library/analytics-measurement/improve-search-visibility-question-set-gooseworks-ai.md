@@ -1,6 +1,7 @@
 ---
 name: "improve-search-visibility-question-set"
 description: "Step of the improve-search-visibility playbook: drafts and scores the buyer-question set in AI and Google forms and groups it into page clusters. Run improve-search-visibility instead; not for direct use."
+summary: "Drafts and categorizes buyer-intent question sets for search and AI platforms."
 category: "analytics-measurement"
 platforms: ["unspecified"]
 platform_source: "none"

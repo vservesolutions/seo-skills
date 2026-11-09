@@ -1,6 +1,7 @@
 ---
 name: "content-flywheel"
 description: "SEO & GEO content flywheel — research a topic, plan it, draft it, de-AI it, run a GEO/SEO + CORE-EEAT quality gate, fan out to social, publish, and feed analytics back into the next cycle. Zero-dependency Markdown skill for any AI agent."
+summary: "Executes an SEO and GEO content flywheel encompassing research, drafting, quality gates, and analytics."
 category: "on-page-seo"
 platforms: ["unspecified"]
 platform_source: "none"

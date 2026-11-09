@@ -1,6 +1,7 @@
 ---
 name: "seo-vertical-detect"
 description: "Classify a website as ecommerce, local-business, blog-publisher, saas, docs, or generic (multiple may apply), and report detected locales, from the persisted PageSnapshot plus the platform detector's vertical hints. Used by seo-orchestrator to decide which conditional modules to run and how to reweight the scores."
+summary: "Classifies website verticals to determine appropriate SEO audit modules and scoring."
 category: "international-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

@@ -1,6 +1,7 @@
 ---
 name: "seo-backlinks-profile"
 description: "Full backlink profile for a domain — referring domains, anchor text distribution, authority distribution, IP and subnet diversity, growth/decay trend, toxic-candidate flagging. Distinct from `seo-backlink-gap` (which is gap-vs-competitor only). Produces a profile health score and reviewable disavow candidate list (never auto-disavow). Use when the user asks \"backlink profile\", \"link profile audit\", \"anchor distribution\", \"toxic links\", \"disavow candidates\", or \"backlink health\"."
+summary: "Audits domain backlink profiles for anchor distribution, growth trends, and toxic link identification."
 category: "link-building"
 platforms: ["claude-code"]
 platform_source: "declared"

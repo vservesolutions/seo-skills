@@ -1,6 +1,7 @@
 ---
 name: "keyword-cluster-builder"
 description: "Techniques for expanding seed keywords and clustering by topic and intent. Use when building keyword lists, planning content calendars, or identifying topic clusters for pillar content strategy."
+summary: "Expands seed keywords and clusters them by topic and search intent."
 category: "keyword-research"
 platforms: ["claude-code", "codex", "cursor"]
 platform_source: "declared"

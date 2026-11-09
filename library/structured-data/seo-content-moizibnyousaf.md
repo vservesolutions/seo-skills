@@ -1,6 +1,7 @@
 ---
 name: "seo-content"
 description: "Create high-quality, SEO-optimized content that ranks AND reads like a human wrote it. Performs live SERP gap analysis, writes with anti-AI detection techniques, and adds schema markup. Use when someone needs a blog post, article, SEO page, or wants content that drives search traffic. Triggers on 'SEO content', 'blog post', 'article', 'SERP', 'programmatic SEO', 'content at scale', 'template pages at scale', 'write a post about', 'rank for', or 'search-optimized content'. Two modes: single article or programmatic SEO at scale. Owns programmatic SEO and content-at-scale generation. For a…"
+summary: "This skill creates SEO-optimized content with live SERP gap analysis and structured data markup."
 category: "structured-data"
 platforms: ["unspecified"]
 platform_source: "none"

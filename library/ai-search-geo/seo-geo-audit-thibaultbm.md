@@ -1,6 +1,7 @@
 ---
 name: "seo-geo-audit"
 description: "Get a prioritized SEO + GEO action plan for any website. Input: a URL (and optional competitors). Output: ranked fixes across technical health, content, keywords, e-commerce, local, backlinks, and AI visibility (ChatGPT, Perplexity, Google AI Overviews), or a plain-language summary. Use to audit or review a site, find why it does not rank or is not cited by AI, compare against competitors, or set a baseline before a bigger SEO project."
+summary: "Generates a prioritized SEO and generative engine optimization action plan for any website."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared"

@@ -1,6 +1,7 @@
 ---
 name: "hugo-landing"
 description: "Scaffold a production-ready Hugo landing page + blog site with Tailwind CSS, full SEO (OpenGraph, Twitter cards, JSON-LD, hreflang), configurable multilingual support, analytics, and CI/CD for GitHub Pages, Cloudflare Pages, Netlify or AWS Amplify. Use when the user wants to create a new landing page, marketing site, personal-brand site, or consultant/product site with Hugo."
+summary: "Scaffolds static sites with built-in SEO tags, structured data, and multilingual support."
 category: "international-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

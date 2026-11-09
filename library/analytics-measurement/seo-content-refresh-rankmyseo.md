@@ -1,6 +1,7 @@
 ---
 name: "seo-content-refresh"
 description: "Fix pages that are losing clicks and clean up pages that earn nothing. Finds declining and underperforming pages, works out why each one slipped, writes a refresh plan per page, and decides for pages with no search visibility whether to refresh, merge, redirect, or remove them. Use when the owner asks to refresh old content, when pages are sliding, or when the site has many pages no one finds."
+summary: "Identifies declining pages and creates strategies to refresh, merge, redirect, or remove them."
 category: "analytics-measurement"
 platforms: ["unspecified"]
 platform_source: "none"

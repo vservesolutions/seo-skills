@@ -1,6 +1,7 @@
 ---
 name: "geo-audit"
 description: "Comprehensive GEO audit diagnosing why AI systems cannot discover, cite, or recommend a website — scores technical, content, schema, and brand dimensions with a prioritized fix plan. Use when the user mentions GEO audit, AI visibility, AI search optimization, AI citability, or provides a URL and asks why AI can't find/cite/recommend their site."
+summary: "This skill conducts comprehensive GEO audits to diagnose website discoverability and citation by AI systems."
 category: "ai-search-geo"
 platforms: ["claude-code", "openclaw"]
 platform_source: "declared"

@@ -14,7 +14,7 @@
 import { createHash } from 'node:crypto';
 
 const DEFAULT_BASE = 'https://generativelanguage.googleapis.com/v1beta/openai';
-const DEFAULT_MODEL = 'gemini-2.5-flash-lite';
+const DEFAULT_MODEL = 'gemini-3.5-flash-lite';
 const MAX_SUMMARY_CHARS = 160;
 
 /** Read the optional LLM settings; disabled unless a key is configured. */
@@ -27,6 +27,8 @@ export function llmConfig(env = process.env) {
     model: String(env.SEO_LLM_MODEL || DEFAULT_MODEL),
     batchSize: clampInt(env.SEO_LLM_BATCH, 20, 1, 50),
     maxItems: clampInt(env.SEO_LLM_MAX, 400, 1, 5000),
+    // Free tiers meter requests per minute, so batches are paced rather than fired back to back.
+    delayMs: clampInt(env.SEO_LLM_DELAY, 1200, 0, 60_000),
     timeoutMs: 45_000
   };
 }
@@ -144,6 +146,24 @@ async function postOnce({ config, messages, fetchImpl }) {
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
+/** Send one batch, backing off on the throttling and overload answers free tiers give. */
+async function postWithRetry({ config, messages, fetchImpl }) {
+  const attempts = 3;
+  let lastError;
+  for (let attempt = 1; attempt <= attempts; attempt++) {
+    try {
+      return await postOnce({ config, messages, fetchImpl });
+    } catch (error) {
+      lastError = error;
+      const retryable = error.status === 429 || error.status >= 500;
+      if (!retryable || attempt === attempts) break;
+      const seconds = error.retryAfter || 2 ** attempt;
+      await sleep(Math.min(20_000, Math.max(1_000, seconds * 1000)));
+    }
+  }
+  throw lastError;
+}
+
 /**
  * Audit a list of skills. Cached fingerprints are never re-sent.
  *
@@ -185,21 +205,20 @@ export async function auditSkills(items, { config, cache = {}, categories = [], 
     ];
     let content = '';
     try {
-      try {
-        content = await postOnce({ config, messages, fetchImpl });
-      } catch (error) {
-        const retryable = error.status === 429 || error.status >= 500;
-        if (!retryable) throw error;
-        // Free tiers throttle aggressively; one short pause is usually enough.
-        await sleep(Math.min(5000, Math.max(1000, (error.retryAfter || 2) * 1000)));
-        content = await postOnce({ config, messages, fetchImpl });
-      }
+      if (offset > 0 && config.delayMs) await sleep(config.delayMs);
+      content = await postWithRetry({ config, messages, fetchImpl });
       outcome.requests++;
       const rows = parseResults(content, allowed);
       const byId = new Map(rows.map((row) => [row.id, row]));
-      for (const item of batch) {
-        const row = byId.get(item.id);
+      // Models sometimes echo ids loosely (renamed, renumbered). If the reply has one row per
+      // input but none of the ids match, trust the order instead of throwing the batch away.
+      const positional = rows.length === batch.length && !batch.some((item) => byId.has(item.id));
+      if (positional) log(`LLM ids did not match; aligned ${rows.length} verdicts by position`);
+      let matched = 0;
+      for (const [index, item] of batch.entries()) {
+        const row = positional ? rows[index] : byId.get(item.id);
         if (!row) continue;
+        matched++;
         const value = {
           seo: row.seo,
           category: row.category,
@@ -211,8 +230,8 @@ export async function auditSkills(items, { config, cache = {}, categories = [], 
         results.set(item.id, value);
         cache[item.fingerprint] = value;
       }
-      if (rows.length < batch.length) {
-        log(`LLM returned ${rows.length}/${batch.length} verdicts for one batch`);
+      if (matched < batch.length) {
+        log(`LLM returned ${matched}/${batch.length} verdicts for one batch`);
       }
     } catch (error) {
       // A failed batch leaves those skills unaudited; the library is unaffected.

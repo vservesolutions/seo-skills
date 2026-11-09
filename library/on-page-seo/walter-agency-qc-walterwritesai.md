@@ -1,6 +1,7 @@
 ---
 name: "walter-agency-qc"
 description: "Use for quality controlling content drafts inside an SEO agency. Runs AI detection, humanizes via Walter if needed, checks keyword preservation, and produces a QC summary with ready-to-publish recommendation."
+summary: "Performs quality control checks on SEO content drafts including AI detection and keyword preservation."
 category: "on-page-seo"
 platforms: ["unspecified"]
 platform_source: "none"

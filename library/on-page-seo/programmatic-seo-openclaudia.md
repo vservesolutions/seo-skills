@@ -1,6 +1,7 @@
 ---
 name: "programmatic-seo"
 description: "Create SEO-optimized pages at scale using programmatic/template-based approaches. Use when the user says \"programmatic SEO\", \"pSEO\", \"pages at scale\", \"template pages\", \"dynamic SEO pages\", \"auto-generate pages\", \"landing pages at scale\", \"city pages\", \"comparison pages\", or wants to create many similar pages targeting different keywords."
+summary: "Generates SEO-optimized landing pages at scale using templates and dynamic keyword targeting."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "declared"

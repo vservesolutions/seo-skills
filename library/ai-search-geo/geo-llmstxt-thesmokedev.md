@@ -1,6 +1,7 @@
 ---
 name: "geo-llmstxt"
 description: "Analyzes and generates llms.txt files -- a lightweight anti-hallucination facts hedge that tells AI systems your canonical business facts and key pages. NOT an AI-visibility or citation lever (debunked by Google, Zyppy, and SE Ranking). Can validate existing llms.txt files or generate new ones from scratch by crawling the site."
+summary: "This skill validates and generates llms.txt files to establish canonical business facts for AI systems."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

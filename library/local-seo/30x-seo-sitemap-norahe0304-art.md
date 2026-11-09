@@ -1,6 +1,7 @@
 ---
 name: "30x-seo-sitemap"
 description: "Analyze existing XML sitemaps or generate new ones with industry templates. Validates format, URLs, and structure. Use when user says \"sitemap\", \"generate sitemap\", \"sitemap issues\", or \"XML sitemap\"."
+summary: "Analyzes existing XML sitemaps or generates new ones."
 category: "local-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

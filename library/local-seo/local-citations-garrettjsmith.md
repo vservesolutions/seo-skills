@@ -1,6 +1,7 @@
 ---
 name: "local-citations"
 description: "When the user wants to build citations, fix NAP inconsistencies, manage business directory listings, or audit citation presence. Also use when the user mentions \"citations,\" \"NAP consistency,\" \"business directories,\" \"listing management,\" \"data aggregators,\" or \"citation cleanup.\" For GBP profile work, see gbp-optimization. For full audit, see local-seo-audit."
+summary: "Builds and cleans up local business citations and manages NAP consistency."
 category: "local-seo"
 platforms: ["unspecified"]
 platform_source: "none"

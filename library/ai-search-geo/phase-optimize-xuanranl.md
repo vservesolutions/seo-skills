@@ -1,6 +1,7 @@
 ---
 name: "phase-optimize"
 description: "Run Phase Optimize — humanize, meta build, schema, internal link, GEO optimize, visual design, CTA module + deterministic lint gates (render / density / keyword / PAA alignment / locale spelling / local uniqueness) + 4 quality gates + repair escalation. Use when draft.md exists and needs polish + quality assurance. Triggered by /seo-blog optimize, /audit, \"run quality checks\", \"make this ready to publish\"."
+summary: "This skill runs optimization and quality assurance gates on generated content drafts."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

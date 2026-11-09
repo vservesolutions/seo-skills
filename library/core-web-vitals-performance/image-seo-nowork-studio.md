@@ -1,6 +1,7 @@
 ---
 name: "image-seo"
 description: "Image SEO audit — make a site's images discoverable in Google Images and stop them from dragging down Core Web Vitals. Audits alt text quality and coverage, descriptive file names, modern formats (WebP/AVIF), dimensions and compression, responsive srcset, lazy-loading, explicit width/height (CLS), image sitemaps, and ImageObject structured data. Use this skill whenever the user asks about image SEO, alt text, Google Images ranking, image optimization for search, image file size hurting page speed, WebP/AVIF, or image structured data. Trigger on: \"image SEO\", \"alt text\", \"rank in Google…"
+summary: "Optimizes images for search discovery and core web vitals performance."
 category: "core-web-vitals-performance"
 platforms: ["claude-code"]
 platform_source: "detected"

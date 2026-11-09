@@ -1,6 +1,7 @@
 ---
 name: "blog-post-publishing"
 description: "Use when the user asks to create, add, convert, publish, or deploy a blog post from a draft, notes, Markdown, outline, or topic. Turns a draft into a complete, SEO/GEO-optimized post wired into the site (template, blog index, sitemap, routing) with QA and deploy. Framework-agnostic — discover the project's own conventions first."
+summary: "Publishes SEO-optimized blog posts with proper site wiring."
 category: "technical-crawling-indexing"
 platforms: ["claude-code", "codex"]
 platform_source: "declared+detected"

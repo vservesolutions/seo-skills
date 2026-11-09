@@ -1,6 +1,7 @@
 ---
 name: "ahrefs-tool"
 description: "When the user wants backlink analysis, link gap analysis, competitor link profiles, referring domain data, or link building research. Trigger on \"backlinks,\" \"who links to,\" \"link profile,\" \"referring domains,\" \"link gap,\" \"Ahrefs,\" \"link building research,\" or \"why do they outrank me\" (often a link authority issue)."
+summary: "Analyzes backlink profiles, referring domains, and link gaps using Ahrefs data."
 category: "link-building"
 platforms: ["unspecified"]
 platform_source: "none"

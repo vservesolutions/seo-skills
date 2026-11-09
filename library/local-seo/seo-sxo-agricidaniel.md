@@ -1,6 +1,7 @@
 ---
 name: "seo-sxo"
 description: "Assess whether a page satisfies searcher intent and supports the next useful task. Use for SXO, page-type mismatch or search journey reviews."
+summary: "Assesses whether a page satisfies searcher intent and supports the next useful task."
 category: "local-seo"
 platforms: ["unspecified"]
 platform_source: "none"

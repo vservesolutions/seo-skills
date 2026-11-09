@@ -1,6 +1,7 @@
 ---
 name: "internal-links"
 description: "When the user wants to optimize internal linking, fix orphan pages, or improve link structure. Also use when the user mentions \"internal links,\" \"internal linking,\" \"anchor text,\" \"link equity,\" \"internal linking strategy,\" or \"orphan pages.\" For IA, use website-structure."
+summary: "Optimizes internal link structures, anchor text distribution, and resolves orphan pages."
 category: "site-architecture-internal-links"
 platforms: ["unspecified"]
 platform_source: "none"

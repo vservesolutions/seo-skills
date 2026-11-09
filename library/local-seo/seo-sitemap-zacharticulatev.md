@@ -1,6 +1,7 @@
 ---
 name: "seo-sitemap"
 description: "Audits and generates sitemaps.org-compliant XML sitemaps and the internal-link architecture around them. Validates structure and honesty (protocol limits, hosts, duplicates, lastmod format/future/auto-bumped, image/video/news/hreflang extensions), runs quality gates (4xx, redirects, noindex, canonical-elsewhere, missing pages), maps the internal link graph (orphans, click depth, broken links, dead ends, generic anchors), and generates sitemaps with real per-URL lastmod. Trigger when the user says \"sitemap\", \"XML sitemap\", \"generate sitemap\", \"validate sitemap\", \"sitemap issues\", or \"sitemap…"
+summary: "Audits and generates XML sitemaps while analyzing internal link architecture and quality gates."
 category: "local-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

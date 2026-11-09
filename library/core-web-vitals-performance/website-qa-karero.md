@@ -1,6 +1,7 @@
 ---
 name: "website-qa"
 description: "The pre-launch QA gate for a new site: run the basic tests (a11y light+dark + seo + navigation + anchors + orphans + images + phone images + tone + positioning + placeholders + email + links), fix to green, then handle technical SEO / performance — run Lighthouse on the deployed site (PageSpeed Insights as the fallback) and act on First Contentful Paint (FCP) and Largest Contentful Paint (LCP). Use before launch (steps 7–8 of the new-website pipeline) and after any code/copy change. Delegates Core Web Vitals / crawl depth to seo-audit. Trigger phrases: \"run the tests\", \"QA the site\", \"is the…"
+summary: "This skill runs pre-launch quality assurance tests including technical SEO checks and Lighthouse performance audits."
 category: "core-web-vitals-performance"
 platforms: ["codex"]
 platform_source: "detected"

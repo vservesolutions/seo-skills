@@ -1,6 +1,7 @@
 ---
 name: "seo-google"
 description: "Google SEO APIs: public PSI/CrUX plus optional Search Console Search Analytics and GA4 organic sessions from ~/.config/seoskillsai/gsc_ga4.json."
+summary: "Fetches Google PageSpeed, Search Console analytics, and GA4 organic session metrics via APIs."
 category: "analytics-measurement"
 platforms: ["claude-code", "windsurf", "antigravity"]
 platform_source: "declared"

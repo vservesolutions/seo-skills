@@ -1,6 +1,7 @@
 ---
 name: "grok-geo"
 description: "Diagnose a brand's visibility, recommendations, citations, competitor presence, factual accuracy, and content gaps in AI-assisted web search. Use for GEO audits, AI search visibility analysis, AI citation analysis, brand-versus-competitor comparisons, website GEO content diagnostics, ChatGPT/豆包/DeepSeek/通义千问/智谱 GLM/Kimi/文心一言/Claude/Gemini/Perplexity brand mention analysis, AI search optimization, and generative engine optimization (GEO) reports. Supports 17+ AI engines (8 international + 9 Chinese). Do not use for ordinary copywriting, general SEO keyword research, social-media scraping…"
+summary: "Diagnoses brand visibility, citations, and content gaps across major AI-assisted search engines."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

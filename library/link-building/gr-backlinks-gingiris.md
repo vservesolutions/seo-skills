@@ -1,6 +1,7 @@
 ---
 name: "gr-backlinks"
 description: "Systematic backlink building for indie founders. Covers 5 channel types ranked by GEO + SEO ROI: Wikipedia (entities), authoritative media (PR), industry reviews (G2/Capterra/Product Hunt), Reddit/Quora discussions, and HARO/Featured.com expert quotes. Designed for 0→1 sites where domain authority is the bottleneck. Aligns with 2026 Google/Bing GEO guidance: backlinks are the strongest brand-authority signal AI search engines use to decide citations."
+summary: "This skill executes systematic backlink building across digital PR, directories, and expert platforms."
 category: "link-building"
 platforms: ["claude-code"]
 platform_source: "declared"

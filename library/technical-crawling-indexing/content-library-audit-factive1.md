@@ -1,6 +1,7 @@
 ---
 name: "content-library-audit"
 description: "Audit and remediate an existing body of content — a blog, resource library, docs set, knowledge base, or any directory of articles — for fabricated sources, false product claims, AI-accent voice, cross-article repetition, and search or AI-citation performance. Use when the user wants existing content audited, graded, fact-checked, de-slopped, or brought up to a quality bar across more than one piece, or names a directory, section, or site rather than a single page. For writing or editing one piece, use seo-geo-content instead."
+summary: "Audits existing content libraries for fact-checking, quality, and search or AI citation performance."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

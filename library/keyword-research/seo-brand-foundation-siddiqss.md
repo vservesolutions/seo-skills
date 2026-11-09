@@ -1,6 +1,7 @@
 ---
 name: "seo-brand-foundation"
 description: "Establish or update a brand's semantic-SEO foundation — central entity, source context, audience, competitors, EAV attribute inventory, and the locked-facts ledger. Use this whenever the user starts SEO work for a new brand or domain, says \"onboard this brand\", \"set up SEO for X\", \"build the entity profile\", mentions source context or central entity, or asks for a topical map / content plan for a brand that has no entity-profile.json yet. Always run this before topical-map-builder if the brand's foundation is missing. Triggers even when the user only says \"let's do SEO for a domain\" without…"
+summary: "Establishes semantic SEO foundations including central entities, attribute inventories, and topical maps."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared"

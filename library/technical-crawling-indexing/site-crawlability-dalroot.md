@@ -1,6 +1,7 @@
 ---
 name: "site-crawlability"
 description: "When the user wants to improve crawlability, fix orphan pages, or optimize site structure for search engines. Also use when the user mentions \"crawlability,\" \"crawl budget,\" \"orphan pages,\" \"internal links,\" \"site structure,\" \"site crawlability,\" \"infinite scroll,\" \"pagination,\" \"masonry SEO,\" \"AI crawler optimization,\" \"GPTBot crawlability,\" \"ClaudeBot crawlability,\" or \"content not indexed.\" For internal links, use internal-links."
+summary: "Improves site crawlability, addresses orphan pages, and optimizes site architecture for search engines."
 category: "technical-crawling-indexing"
 platforms: ["unspecified"]
 platform_source: "none"

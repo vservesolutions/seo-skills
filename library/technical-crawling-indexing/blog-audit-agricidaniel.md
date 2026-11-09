@@ -1,6 +1,7 @@
 ---
 name: "blog-audit"
 description: "Full-site blog health assessment scanning all blog files for quality scores, orphan pages, topic cannibalization, stale content, and AI citation readiness. Runs canonical batch analysis before site-wide checks. Produces per-post scores and a prioritized action queue. Use when the user asks for a site-wide blog health check across many posts (\"blog audit\", \"blog health\", \"audit all posts\", \"site audit of the blog\"). For one post, or a quality score with fixes for a few named files, use blog-analyze instead."
+summary: "This skill performs a site-wide blog health assessment checking for content quality, cannibalization, and stale posts."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

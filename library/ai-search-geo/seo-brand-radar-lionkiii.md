@@ -1,6 +1,7 @@
 ---
 name: "seo-brand-radar"
 description: "Monitor brand visibility in AI search and traditional search. Use when user says \"brand radar\", \"brand monitoring\", \"AI search visibility\", \"brand mentions\", \"share of voice\", \"who mentions my brand in AI\", \"brand in ChatGPT\", \"brand in Perplexity\", \"how visible is my brand\", \"brand awareness tracking\", \"AI brand presence\", \"is my brand cited in AI responses\"."
+summary: "Monitors brand visibility and share of voice across AI search engines and traditional search."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

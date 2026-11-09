@@ -1,6 +1,7 @@
 ---
 name: "seo-site-audit-pro"
 description: "Flagship comprehensive SEO audit combining Ahrefs and GSC data in sequential waves with checkpoint saves. Use when user says \"site audit pro\", \"full audit\", \"comprehensive audit\", \"audit with live data\", \"deep audit\", \"pro audit\", \"complete SEO audit\", \"run a full site audit\", or \"audit everything for this domain\". Requires domain param. Optional: site param for GSC overlay."
+summary: "Runs comprehensive technical and performance site audits using Ahrefs and GSC data."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

@@ -1,6 +1,7 @@
 ---
 name: "backlink-quality-validator"
 description: "Validate proposed or existing backlinks for relevance, editorial legitimacy, link attributes, spam/toxicity risk, platform compliance, anchor quality, target-page fit, and monitoring evidence. Use this skill when the user asks whether an external link opportunity or placed backlink is safe and useful, and reject toxic, irrelevant, paid-undisclosed, fake, or spam placements."
+summary: "Validates backlinks for relevance, toxicity risk, anchor quality, and editorial legitimacy."
 category: "link-building"
 platforms: ["unspecified"]
 platform_source: "none"

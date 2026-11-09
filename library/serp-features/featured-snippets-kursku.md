@@ -1,6 +1,7 @@
 ---
 name: "featured-snippets"
 description: "Featured Snippets — Skill especializada para featured snippets"
+summary: "Focuses on optimizing content to capture featured snippets in search results."
 category: "serp-features"
 platforms: ["claude-code"]
 platform_source: "detected"

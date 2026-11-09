@@ -1,6 +1,7 @@
 ---
 name: "geo-setup"
 description: "Initialize or repair the GEO-SEO Codex runtime for plugin and classic installer modes. Creates a Python virtual environment, installs requirements, verifies bundled scripts/templates, and explains optional PDF/browser dependencies."
+summary: "Initializes or repairs the technical runtime environment for GEO-SEO analysis tools."
 category: "ai-search-geo"
 platforms: ["codex"]
 platform_source: "detected"

@@ -1,6 +1,7 @@
 ---
 name: "seo-geo-optimizer"
 description: "SEO and GEO (generative engine optimization) for websites and web apps: technical SEO, meta tags, structured data, Core Web Vitals, sitemaps, robots.txt and AI crawlers, content SEO, and visibility in Google (including AI Overviews and AI Mode), Bing and Copilot, ChatGPT search and Perplexity. Use it for any SEO or GEO question about a site, so answers follow its myth list and official sources, and for full audits. One-off questions get a direct answer. The guided workflow (intake questions, competitor analysis, an approval gate, then tiered execution) starts only when the user asks to run…"
+summary: "This skill handles technical SEO, structured data, and generative engine optimization for websites."
 category: "ai-search-geo"
 platforms: ["claude-code", "windsurf", "copilot", "gemini-cli", "antigravity"]
 platform_source: "declared+detected"

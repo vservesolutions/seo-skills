@@ -1,6 +1,7 @@
 ---
 name: "entity-seo"
 description: "Entity SEO for a person or brand. Maps every entity (person, brand, legal company, each product and service, ideas and slogans), writes down why each relationship exists, then reinforces those relationships everywhere (a multi-entity JSON-LD graph, entity pages, titles, profiles, articles, images, video) so search engines and AI assistants learn who built what and who works where. Split into actions (map, audit, site, reinforce, content, measure, report) sharing one entities.yaml; with no argument it picks the next step. Includes on-site SEO, GEO, AEO, local SEO, off-site authority, free…"
+summary: "Executes entity SEO by mapping brand relationships and implementing multi-entity JSON-LD graphs and profiles."
 category: "keyword-research"
 platforms: ["unspecified"]
 platform_source: "none"

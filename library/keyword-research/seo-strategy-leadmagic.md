@@ -1,6 +1,7 @@
 ---
 name: "seo-strategy"
 description: "Builds a B2B SEO strategy: keyword research by funnel stage, content architecture, technical SEO priorities, link building, and measurement. Use when the user needs an SEO plan, wants to improve search rankings, or is starting SEO for a B2B product. Triggers on: \"SEO strategy\", \"search engine optimization\", \"B2B SEO\", \"keyword research\", \"SEO plan\"."
+summary: "Develops comprehensive B2B search engine optimization strategies covering keywords, architecture, and links."
 category: "keyword-research"
 platforms: ["claude-code", "gemini-cli", "windsurf", "copilot"]
 platform_source: "detected"

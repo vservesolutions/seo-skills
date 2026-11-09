@@ -1,6 +1,7 @@
 ---
 name: "pillar-pages"
 description: "Designs pillar pages and topic clusters: hub page outlines, cluster keyword maps, and internal linking so the hub ranks for high-intent head terms. Use when the user is building cornerstone content, organizing a blog into clusters, or planning a pillar page for a specific topic. Triggers on: \"pillar page\", \"topic cluster\", \"hub page\", \"cornerstone content\", \"SEO pillar\"."
+summary: "Designs pillar pages and topic clusters to build search authority for high-intent terms."
 category: "site-architecture-internal-links"
 platforms: ["claude-code", "gemini-cli", "windsurf", "copilot"]
 platform_source: "detected"

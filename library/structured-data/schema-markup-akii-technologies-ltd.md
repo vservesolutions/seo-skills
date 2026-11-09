@@ -1,6 +1,7 @@
 ---
 name: "schema-markup"
 description: "Fast-path schema generator — produce, audit, and validate JSON-LD structured data for a single page or file in one turn. This is the default for any schema question. Use when the user asks to \"generate schema\", \"add JSON-LD\", \"structured data\", \"schema markup\", \"rich snippets\", \"add schema.org\", \"LocalBusiness schema\", \"FAQ schema\", \"Product schema\", \"Article schema\", \"HowTo schema\", \"Organization schema\", \"BreadcrumbList schema\", \"audit schema\", \"fix schema errors\", \"Recipe schema\". **Do not invoke the `schema-generator` agent unless** the user explicitly says \"bulk schema\", \"across my…"
+summary: "Generates, audits, and validates JSON-LD structured data for web pages."
 category: "structured-data"
 platforms: ["claude-code"]
 platform_source: "declared"

@@ -1,6 +1,7 @@
 ---
 name: "pseo-strategy"
 description: "Plans programmatic SEO: template-driven pages for long-tail keyword patterns, data sources, quality thresholds that avoid thin content, and indexation control. Use when the user wants to generate landing pages at scale from a dataset or keyword pattern. Triggers on: \"pSEO\", \"programmatic SEO\", \"scalable SEO\", \"template SEO\", \"landing pages at scale\"."
+summary: "Plans programmatic SEO campaigns for template-driven landing pages at scale."
 category: "on-page-seo"
 platforms: ["claude-code", "gemini-cli", "windsurf", "copilot"]
 platform_source: "detected"

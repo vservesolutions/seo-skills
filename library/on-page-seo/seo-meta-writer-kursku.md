@@ -1,6 +1,7 @@
 ---
 name: "seo-meta-writer"
 description: "Seo Meta Writer — Skill especializada em conteúdo & copywriting"
+summary: "Writes optimized meta tags and copywriting for search engine listings."
 category: "on-page-seo"
 platforms: ["unspecified"]
 platform_source: "none"

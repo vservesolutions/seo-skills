@@ -1,6 +1,7 @@
 ---
 name: "competitor-alternatives"
 description: "Creates high-converting 'X vs Y' and 'X alternatives' SEO pages that capture comparison search traffic. Researches competitors, writes honest comparison content, and adds schema markup (FAQPage, ItemList). Use when someone needs alternatives pages, comparison content, or says 'alternatives page', 'vs page', 'comparison', 'competitor alternatives', 'X vs Y page', or wants to capture competitor brand search traffic with SEO content. Also trigger when someone wants to rank for competitor brand names, capture competitor search traffic, create a compare page, or build a competitive content hub…"
+summary: "Creates competitor comparison SEO pages and implements relevant structured data."
 category: "structured-data"
 platforms: ["claude-code"]
 platform_source: "detected"

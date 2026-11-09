@@ -1,6 +1,7 @@
 ---
 name: "seo-ahrefs-content-gap"
 description: "Find keywords that competitors rank for but the target domain does not, using Ahrefs data. Reveals content opportunities and topic gaps. Use when user says \"content gap\", \"keywords competitors rank for\", \"missing keywords\", \"competitor keywords\", or \"content gap analysis\"."
+summary: "Identifies missing keyword and content opportunities where competitors rank using Ahrefs."
 category: "content-strategy"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

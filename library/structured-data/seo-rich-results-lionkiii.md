@@ -1,6 +1,7 @@
 ---
 name: "seo-rich-results"
 description: "Per-type rich result eligibility checker. Given a URL or page type, determine WHICH Google rich results the page is eligible for, validate existing JSON-LD against Google's required/recommended properties per type, and produce a gap report. Use when user says \"rich results\", \"rich snippets\", \"eligible rich results\", \"structured data types\", or \"schema eligibility\"."
+summary: "Checks structured data eligibility and validates JSON-LD against rich result requirements."
 category: "structured-data"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

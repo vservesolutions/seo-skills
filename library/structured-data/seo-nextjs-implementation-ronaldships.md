@@ -1,6 +1,7 @@
 ---
 name: "seo-nextjs-implementation"
 description: "Implement route-specific Next.js App Router metadata, truthful structured data, canonical URLs, robots, and sitemaps in an authorized codebase. Use for concrete Next.js implementation; inspect the installed version and validate affected routes before claiming compatibility."
+summary: "Implements Next.js App Router metadata, structured data, canonical URLs, robots, and sitemaps."
 category: "structured-data"
 platforms: ["unspecified"]
 platform_source: "none"

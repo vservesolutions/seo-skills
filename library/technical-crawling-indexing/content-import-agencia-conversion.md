@@ -1,6 +1,7 @@
 ---
 name: "content-import"
 description: "When the user wants to bulk-import existing public content from a website (via sitemap or a list of URLs) into project/contents/<origin>/<slug>.md as the starting point for editorial work in this brain."
+summary: "Bulk-imports existing public content from a website to serve as an editorial starting point."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared"

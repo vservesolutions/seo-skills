@@ -1,6 +1,7 @@
 ---
 name: "walter-local-seo"
 description: "Use when producing location-specific SEO content at scale. Generates unique humanized pages per city, preserves '[service] in [city]' patterns, and flags overly similar pages that risk Google's duplicate location filter."
+summary: "Generates location-specific SEO landing pages at scale while avoiding duplicate content filters."
 category: "local-seo"
 platforms: ["unspecified"]
 platform_source: "none"

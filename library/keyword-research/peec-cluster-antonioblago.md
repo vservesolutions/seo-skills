@@ -1,6 +1,7 @@
 ---
 name: "peec-cluster"
 description: "Turns a Peec AI prompt set into strategic content zones — not keyword groups. Groups prompts by buyer intent + funnel stage + visibility gap + shared demand signals, producing 4–8 \"content zones\" with the competitive weakness to attack, supporting evidence (forum quotes, SERP patterns), and a rank-ordered next-move per zone. Use when a Peec project has 20+ prompts and needs a topic architecture — not a flat content calendar. Output is a strategic map, not a list."
+summary: "Organizes prompt sets into strategic content zones based on buyer intent and visibility gaps."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

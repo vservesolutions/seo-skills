@@ -1,6 +1,7 @@
 ---
 name: "write-seo-geo-content"
 description: "Writes product-led content pages optimized for both search engines and AI engine citations. Produces markdown files with frontmatter, following page-type frameworks (comparison, guide, use case, learn, trust) with verified sources and no fabricated data."
+summary: "Writes product-led content optimized for both traditional search and AI citations."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared"

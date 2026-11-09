@@ -1,6 +1,7 @@
 ---
 name: "local-content-briefs"
 description: "Generate complete semantic content briefs for local SEO content — location pages, service pages, blog posts, FAQ content, and pillar pages. Use this skill when the user needs a content brief for any piece of local SEO content, has a concept cluster from local-content-strategy and needs to brief the content, asks \"what should this page cover\", \"brief me on [topic] for local SEO\", \"what concepts should my location page cover\", or needs to know what depth to cover each topic at. Also trigger when producing briefs in bulk for a content production run. This skill combines semantic content brief…"
+summary: "Generates semantic content briefs specifically tailored for local SEO pages."
 category: "local-seo"
 platforms: ["unspecified"]
 platform_source: "none"

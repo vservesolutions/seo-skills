@@ -1,6 +1,7 @@
 ---
 name: "technical-seo-checker"
 description: "Use when the user asks to \"check technical SEO\"; audits crawlability, indexing, Core Web Vitals, robots.txt, sitemaps, canonicals, redirects, and migrations. Not for on-page tags or content — use on-page-seo-checker. 技术SEO/网站速度"
+summary: "This skill audits technical SEO elements including crawlability, indexing, Core Web Vitals, sitemaps, and redirects."
 category: "technical-crawling-indexing"
 platforms: ["claude-code", "codex", "cursor", "openclaw"]
 platform_source: "declared+detected"

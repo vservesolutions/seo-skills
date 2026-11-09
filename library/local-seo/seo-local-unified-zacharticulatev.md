@@ -1,6 +1,7 @@
 ---
 name: "seo-local-unified"
 description: "Audits and optimizes local SEO — Google Business Profile, NAP consistency, citations, review velocity, and LocalBusiness schema. Uses DataForSEO or Google Places for maps intelligence (geo-grid rank tracking, GBP API audit, competitor radius, Share of Local Voice) when connected; otherwise delivers the full strategy, NAP matrix, and schema by hand. Trigger when the user says \"local SEO\", \"Google Business Profile\", \"map pack\", \"NAP consistency\", \"citations\", \"geo-grid rank tracking\", \"multi-location SEO\", or \"Share of Local Voice\"."
+summary: "Audits and optimizes local SEO elements including Google Business Profile, citations, and schema."
 category: "local-seo"
 platforms: ["claude-code"]
 platform_source: "declared"

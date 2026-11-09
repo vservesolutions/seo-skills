@@ -1,6 +1,7 @@
 ---
 name: "seo-agent-content"
 description: "Sub-agent for the Content quality dimension of /audit (and /seo audit). Evaluates E-E-A-T signals, title tags, meta descriptions, heading structure, keyword usage, readability, thin content, and AI citation readiness. Not for whether the copy reads well as interface writing, use siteasy-agent-content instead; not for whether a claim is defensible, use siteasy-agent-claims."
+summary: "Evaluates content quality, E-E-A-T signals, meta tags, and AI citation readiness for web pages."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "declared"

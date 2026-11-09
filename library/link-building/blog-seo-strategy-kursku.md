@@ -1,6 +1,7 @@
 ---
 name: "blog-seo-strategy"
 description: "Blog Seo Strategy — Skill especializada para blog seo strategy"
+summary: "Provides strategies for planning and optimizing blog content to improve search engine rankings."
 category: "link-building"
 platforms: ["unspecified"]
 platform_source: "none"

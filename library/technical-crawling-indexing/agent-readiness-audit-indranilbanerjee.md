@@ -1,6 +1,7 @@
 ---
 name: "agent-readiness-audit"
 description: "Audit agent readiness by script: AI-crawler rules, product schema, no-JS HTML, feeds. \"can AI agents use our site\""
+summary: "Audits website readiness for AI crawlers and agents."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "detected"

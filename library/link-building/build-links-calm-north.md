@@ -1,6 +1,7 @@
 ---
 name: "build-links"
 description: "Design a link building campaign with prospect identification, asset creation, and outreach strategy. Use when the user asks about link building, backlinks, domain authority, how to get backlinks, outreach campaigns, digital PR, guest posting, or link acquisition. For internal linking, see fix-linking."
+summary: "Designs link-building campaigns with prospect identification and outreach strategies."
 category: "link-building"
 platforms: ["unspecified"]
 platform_source: "none"

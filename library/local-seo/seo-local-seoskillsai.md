@@ -1,6 +1,7 @@
 ---
 name: "seo-local"
 description: "Local SEO, Google Business Profile (GBP) audit, NAP consistency, multi-location architecture, and local citation tiers."
+summary: "Audits Google Business Profiles, NAP consistency, and local citation tiers."
 category: "local-seo"
 platforms: ["claude-code", "windsurf", "antigravity"]
 platform_source: "declared"

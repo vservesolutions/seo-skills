@@ -1,6 +1,7 @@
 ---
 name: "seo-geo-answerblocks"
 description: "Audit and generate answer-extractable content — verify each question heading is followed by a ~40-60 word direct answer, passages are self-contained (~134-167 words, no unresolved anaphora), and lists/tables/definitions/TL;DR blocks exist; draft answer-block and summary rewrites for the user to accept. Module M11. Feeds the AI Visibility score."
+summary: "Audits and generates answer-extractable content passages with direct answers and structured summaries."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

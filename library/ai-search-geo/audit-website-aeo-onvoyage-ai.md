@@ -1,6 +1,7 @@
 ---
 name: "audit-website-aeo"
 description: "Audits a live website for AI-engine discoverability (AEO/GEO). Crawls the site, runs 16 deterministic checks plus a 6-dimension content evaluation, and produces a scored report (A-F) with prioritized fixes. Use to get a baseline before improve-aeo-geo, or to measure progress after changes."
+summary: "This skill audits live websites for discoverability across AI search engines and generative answer engines."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared"

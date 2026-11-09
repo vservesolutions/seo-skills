@@ -1,6 +1,7 @@
 ---
 name: "seo"
 description: "Comprehensive SEO analysis for any website or business type. Orchestrates 52 sub-skills (52 active): full site audits, technical SEO (CWV/INP), schema, E-E-A-T content quality, images, sitemaps, GEO for AI Overviews, llms.txt generation, AI crawler audit, plus live GSC and Ahrefs MCP data. GSC: overview, drops, opportunities, brand-vs-nonbrand, cannibalization, compare, content-decay, index-issues, new-keywords. Ahrefs: overview, backlinks, keywords, competitors, content-gap, broken-links, new-links, anchor-analysis, dr-history, top-pages. Cross-MCP: serp, content-brief, brand-radar…"
+summary: "This skill executes comprehensive technical and on-page SEO audits combined with live performance data."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

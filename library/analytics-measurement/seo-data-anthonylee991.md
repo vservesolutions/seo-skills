@@ -1,6 +1,7 @@
 ---
 name: "seo-data"
 description: "Direct access to Google Search Console, Google Analytics 4, and Bing Webmaster Tools data via OAuth/API key. Use whenever the user asks SEO, search performance, organic traffic, ranking, impressions, clicks, CTR, conversions, traffic source, landing page, or analytics questions and wants real numbers from their own properties — not generic advice. Triggers on \"SEO\", \"search console\", \"GSC\", \"GA4\", \"analytics\", \"Bing webmaster\", \"rankings\", \"keywords\", \"impressions\", \"clicks\", \"organic traffic\", \"traffic drop\", \"top pages\", \"top queries\". Works with any subset of the three providers the user…"
+summary: "This skill retrieves real performance and traffic metrics directly from Google Search Console and GA4 APIs."
 category: "analytics-measurement"
 platforms: ["unspecified"]
 platform_source: "none"

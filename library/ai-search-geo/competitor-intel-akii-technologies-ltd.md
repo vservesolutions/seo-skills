@@ -1,6 +1,7 @@
 ---
 name: "competitor-intel"
 description: "Fast-path competitor intelligence — produces a side-by-side SEO + AEO + GEO + AI visibility scorecard plus ranked counter-move plan. Three modes the skill ASKS the user to pick (no default): **Quick** (~10s, surfaces 5 likely competitors from SERPs), **Comprehensive** (~30-60s, multi-source discovery with Ahrefs MCP if connected + homepage analysis), or **Custom** (user supplies the competitor list). Use when the user asks to \"analyze competitors\", \"compare with [competitor]\", \"competitor analysis\", \"competitor gap analysis\", \"what is [competitor] doing\", \"competitive audit\", \"competitor…"
+summary: "Produces side-by-side SEO and AI visibility scorecards and competitor counter-move plans."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared"

@@ -1,6 +1,7 @@
 ---
 name: "improve-search-visibility"
 description: "SEO and AI-answer visibility. Use for a site SEO or technical audit with ranked fixes, competitor keyword and topic gaps, a topic cluster, SEO metrics for domains, a programmatic SEO page-set plan, or checking where ChatGPT and Google name the brand. Delivers the requested audit, comparison, map or blueprint with dated evidence and clear data limits. Also covers app store listings and local search. Drafts changes; never edits live. Full pages go to make-content; paid search goes to run-paid-campaigns."
+summary: "Performs comprehensive SEO and AI-answer visibility audits with actionable ranked fixes."
 category: "content-strategy"
 platforms: ["unspecified"]
 platform_source: "none"

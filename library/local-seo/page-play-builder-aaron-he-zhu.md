@@ -1,6 +1,7 @@
 ---
 name: "page-play-builder"
 description: "Use when the user asks to \"build programmatic SEO pages\", \"generate pages at scale\", \"rank on a high-authority third-party site\", \"borrow domain authority\", \"build a vs / alternative page\", \"do local SEO\", \"optimize a Google Business Profile\", or \"fix NAP\" — one page-build router with four modes: programmatic (template × dataset systems), parasite (barnacle publishing on Medium/Reddit/LinkedIn/GitHub), comparison (vs / alternative pages in four formats), and local (GBP + NAP + citations + location pages), each with its own thin/duplicate, honesty, or reputation-abuse guardrail. Not for…"
+summary: "Builds programmatic pages, parasite SEO content, and local SEO optimizations."
 category: "local-seo"
 platforms: ["claude-code", "codex", "cursor", "openclaw"]
 platform_source: "declared+detected"

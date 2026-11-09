@@ -1,6 +1,7 @@
 ---
 name: "seo"
 description: "Diagnose and audit SEO issues. Injects Schema.org markup and optimizes for Answer Engines (AEO)."
+summary: "Diagnoses SEO issues and optimizes websites for search engines and answer engines."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

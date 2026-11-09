@@ -1,6 +1,7 @@
 ---
 name: "seo-technical"
 description: "Diagnose crawlability, indexing controls, canonicals, rendering, redirects and performance evidence. Use for technical SEO issues."
+summary: "Diagnoses crawlability, indexing controls, canonicals, rendering, redirects, and performance evidence."
 category: "technical-crawling-indexing"
 platforms: ["unspecified"]
 platform_source: "none"

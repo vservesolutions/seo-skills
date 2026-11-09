@@ -1,6 +1,7 @@
 ---
 name: "seo"
 description: "Use when the user wants to audit a website, analyze a page, plan an SEO strategy, fix technical SEO, add schema markup, improve content quality, optimize for AI search engines (GEO, llms.txt, AI crawler access), build local SEO, handle hreflang/i18n, generate sitemaps and robots.txt, optimize images, run programmatic SEO, build competitor comparison pages, cluster keywords, optimize Search Experience (SXO), monitor SEO drift, analyze backlinks, handle e-commerce SEO, or export a client report. Covers full-site audits with parallel sub-agents, single-page analysis, Core Web Vitals, JSON-LD and…"
+summary: "Plans and executes comprehensive SEO strategies covering technical fixes, schema, content quality, and AI search optimization."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

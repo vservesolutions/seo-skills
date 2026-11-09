@@ -1,6 +1,7 @@
 ---
 name: "schema-org"
 description: "Use when you need Schema.org JSON-LD structured data. Pure Python — no LLM call required. Supports FAQPage, Article, Breadcrumb. Part of brand-loom; hosted brand-memory version at neoxra.com."
+summary: "This skill generates Schema.org JSON-LD structured data for articles, FAQs, and breadcrumbs."
 category: "structured-data"
 platforms: ["claude-code", "openclaw"]
 platform_source: "detected"

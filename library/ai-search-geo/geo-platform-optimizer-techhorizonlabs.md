@@ -1,6 +1,7 @@
 ---
 name: "geo-platform-optimizer"
 description: "Platform-specific AI search optimization: audit and optimize for Google AI Overviews, ChatGPT, Perplexity, Gemini, and Bing Copilot individually"
+summary: "Audits and optimizes web content specifically for Google AI Overviews, ChatGPT, Perplexity, Gemini, and Copilot."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "detected"

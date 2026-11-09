@@ -1,6 +1,7 @@
 ---
 name: "featured-snippet"
 description: "When the user wants to optimize for Featured Snippets, Position Zero, or snippet extraction. Also use when the user mentions \"featured snippet,\" \"position zero,\" \"snippet optimization,\" \"answer box,\" \"definition box,\" \"list snippet,\" \"table snippet,\" \"paragraph snippet,\" \"PAA optimization,\" or \"win position zero.\" For schema, use schema-markup. For step-by-step HowTo sections (lists, copy), use howto-section-generator."
+summary: "Optimizes content for featured snippets and position zero placement."
 category: "serp-features"
 platforms: ["claude-code"]
 platform_source: "declared"

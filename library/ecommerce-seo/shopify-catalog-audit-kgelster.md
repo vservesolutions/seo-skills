@@ -1,6 +1,7 @@
 ---
 name: "shopify-catalog-audit"
 description: "Use when someone wants to find product-data problems across a Shopify catalog: \"audit my catalog\", \"find PDP problems\", \"which products have missing photos / thin or missing descriptions / pricing anomalies\", \"$0 or compare-at-inverted prices\", \"products missing type or vendor\", \"catalog quality sweep\", \"product data health check\", \"which listings are broken\", \"run a catalog audit before a big sale\". Read-only: it locates and ranks problems, it does not change anything. Not for FIXING the problems it finds (use shopify-catalog-cleanup for debris/archiving, shopify-seo-metadata for missing SEO…"
+summary: "Identifies product data problems, missing descriptions, and pricing anomalies across a Shopify catalog for quality sweeps."
 category: "ecommerce-seo"
 platforms: ["claude-code"]
 platform_source: "detected"

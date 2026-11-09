@@ -1,6 +1,7 @@
 ---
 name: "search-console-insights"
 description: "Pull and act on Google Search Console DATA for a verified site. Free GSC Search Analytics API (OAuth, read-only): where target keywords rank, striking-distance queries (pos ~8-20), and high-impression/low-CTR pages flagged for snippet/SERP investigation (title/meta rewrite only if the live-SERP check shows a snippet problem you control). Optional add-ons: the live competitor Top-10 via a SERP API, Bing Webmaster Tools as a Copilot/ChatGPT proxy, and a weekly check of whether AI engines name the business (GEO). First use runs a guided onboarding for non-technical owners. Trigger phrases: \"GSC…"
+summary: "Retrieves and analyzes Google Search Console data to identify keyword rankings and optimization opportunities."
 category: "analytics-measurement"
 platforms: ["claude-code"]
 platform_source: "detected"

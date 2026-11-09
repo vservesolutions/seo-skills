@@ -1,6 +1,7 @@
 ---
 name: "geo-content-planning"
 description: "Reads existing brand DNA, keywords.csv, and prompts.csv, then produces a plan.csv — a strictly-schema'd content architecture telling the next pipeline step which pages to create, for which keyword/prompt clusters, and in what build order."
+summary: "This skill produces a structured content architecture plan mapping target prompts and keywords to pages."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared"

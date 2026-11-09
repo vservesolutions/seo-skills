@@ -1,6 +1,7 @@
 ---
 name: "seo-google"
 description: "Interpret Google Search Console, Analytics, PageSpeed or CrUX evidence from exports or authorized read tools. Use for Google SEO metrics."
+summary: "Interprets Search Console and performance metrics."
 category: "analytics-measurement"
 platforms: ["unspecified"]
 platform_source: "none"

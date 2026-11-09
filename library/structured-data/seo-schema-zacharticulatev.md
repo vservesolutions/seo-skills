@@ -1,6 +1,7 @@
 ---
 name: "seo-schema"
 description: "Detect, validate, and generate Schema.org structured data as JSON-LD. Extracts every ld+json block from HTML, validates nested values (offers, return policies, shipping, ratings) and value rules (ISO dates, absolute URLs, numeric price, ISO 4217 currency) against September 2026 rich-results rules, flags retired displays (FAQ, HowTo, the 2025 set) as info, scores the result, graph-checks @id references across pages, and emits a linked Organization/WebSite/WebPage starter graph. Trigger when the user says \"schema\", \"structured data\", \"rich results\", \"JSON-LD\", \"schema markup\", \"validate…"
+summary: "Detects, validates, and generates Schema.org structured data in JSON-LD format."
 category: "structured-data"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

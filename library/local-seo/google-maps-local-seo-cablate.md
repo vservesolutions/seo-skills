@@ -1,6 +1,7 @@
 ---
 name: "google-maps-local-seo"
 description: "Analyze Google Business Profile visibility, geographic grid rankings, local search keywords, and nearby competitors through the standalone Google Maps CLI. Use for local SEO or location-strategy decisions, not ordinary place recommendations."
+summary: "Analyzes Google Business Profile visibility and local pack grid rankings."
 category: "local-seo"
 platforms: ["unspecified"]
 platform_source: "none"

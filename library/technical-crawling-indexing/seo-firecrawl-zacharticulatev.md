@@ -1,6 +1,7 @@
 ---
 name: "seo-firecrawl"
 description: "Site crawling, mapping, and JS-rendered scraping via the Firecrawl MCP when connected; otherwise builds a URL inventory from the sitemap and does targeted page fetches with the built-in fetcher, naming what a full crawl would add. Trigger when the user says \"crawl site\", \"map site\", \"full crawl\", \"find all pages\", \"broken links\", \"site structure\", \"discover pages\", \"JS rendering\", \"scrape with javascript\"."
+summary: "Crawls and maps website pages with JavaScript rendering support via Firecrawl."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

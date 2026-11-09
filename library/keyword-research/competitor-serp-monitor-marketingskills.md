@@ -1,6 +1,7 @@
 ---
 name: "competitor-serp-monitor"
 description: "Track competitors new pages, ranking shifts, SERP feature changes, and content strategies. Use when Codex needs to monitor competitor movements in organic search."
+summary: "Tracks competitor ranking shifts, new pages, and SERP feature changes in organic search."
 category: "keyword-research"
 platforms: ["unspecified"]
 platform_source: "none"

@@ -1,6 +1,7 @@
 ---
 name: "aeo-pack-ai-tools"
 description: "Curated prompt pack for AI tool brands tracking their visibility in AI answer engines. 17 prompts covering AI-task discovery, alternatives to incumbents (ChatGPT, Claude, etc.), free-vs-paid framing, accuracy claims, privacy positioning, and vertical use cases. Variables (task, competitor, use_case, domain) fill per workspace. Use when a user is tracking visibility for an AI product, building an AEO baseline for AI-tool category, or asks for prompt ideas for an AI startup."
+summary: "Provides a curated prompt pack for tracking AI product visibility and positioning within answer engines."
 category: "ai-search-geo"
 platforms: ["copilot"]
 platform_source: "detected"

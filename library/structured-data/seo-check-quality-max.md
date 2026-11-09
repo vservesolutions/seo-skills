@@ -1,6 +1,7 @@
 ---
 name: "seo-check"
 description: "Quick SEO health check of any URL. Checks meta tags, headings, image alts, structured data, open graph, and common SEO issues. Uses Playwright MCP only — no signup."
+summary: "Performs a quick SEO health check of any URL using Playwright."
 category: "structured-data"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

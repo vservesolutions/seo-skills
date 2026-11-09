@@ -1,6 +1,7 @@
 ---
 name: "backlink-workbook-delivery"
 description: "Deduplicate screened backlink candidates against history and frozen batches, assign configurable batches, build free and paid execution workbooks, and perform mechanical plus visual QA. Use after screening; do not research new sites or claim submission outcomes."
+summary: "Deduplicates screened backlink candidates and builds execution workbooks with QA checks."
 category: "link-building"
 platforms: ["unspecified"]
 platform_source: "none"

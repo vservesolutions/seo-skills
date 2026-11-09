@@ -1,6 +1,7 @@
 ---
 name: "seo-prospect"
 description: "Find local-business SEO prospects in a single command. Searches Google for \"<niche> <city>\", filters out aggregators (Yelp, Yellow Pages, Angi), enriches each remaining domain with DataForSEO Labs domain overview, On-Page technical audit, and Backlinks summary in parallel, then ranks the businesses by a closeability score (0-100) — highest scores are the easiest to land as SEO clients."
+summary: "Finds and qualifies local SEO client prospects by enriching Google search results with DataForSEO metrics."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

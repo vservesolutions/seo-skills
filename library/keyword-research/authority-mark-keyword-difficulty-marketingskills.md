@@ -1,6 +1,7 @@
 ---
 name: "authority-mark-keyword-difficulty"
 description: "Evaluate SEO keyword difficulty with the Authority Mark method instead of opaque keyword difficulty scores. Use when Codex needs to assess whether a user's domain can compete for a keyword by searching the live SERP, collecting the Ahrefs Domain Rating (DR) of the top organic ranking domains and the user's domain, identifying the first top-10 result whose DR is lower than the user's site, and explaining why this SERP-specific authority watermark is more actionable than a generic KD number."
+summary: "Evaluates keyword difficulty by comparing domain ratings of ranking competitors on live SERPs."
 category: "keyword-research"
 platforms: ["codex"]
 platform_source: "detected"

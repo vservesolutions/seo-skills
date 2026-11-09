@@ -1,6 +1,7 @@
 ---
 name: "geo-platform-optimizer"
 description: "Platform-specific AI search optimization — audit and optimize for Google AI Overviews, ChatGPT, Perplexity, Gemini, and Bing Copilot individually"
+summary: "This skill optimizes website content specifically for individual AI search platforms like ChatGPT and Perplexity."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

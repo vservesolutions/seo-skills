@@ -1,6 +1,7 @@
 ---
 name: "rank-local"
 description: "Build a local SEO strategy covering Google Business Profile, local citations, reviews, and NAP consistency. Use when the user asks about local SEO, Google Business Profile, Google Maps ranking, local pack, NAP consistency, local citations, review strategy, or ranking for \"[service] near me\" searches."
+summary: "Develops local SEO strategies covering Google Business Profile optimization, citations, and reviews."
 category: "local-seo"
 platforms: ["unspecified"]
 platform_source: "none"

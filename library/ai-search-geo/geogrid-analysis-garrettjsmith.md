@@ -1,6 +1,7 @@
 ---
 name: "geogrid-analysis"
 description: "When the user wants to analyze local ranking data using geogrid scans, interpret map pack rankings across a geographic area, or understand ARP/ATRP/SoLV metrics. Also use when the user mentions \"geogrid,\" \"rank grid,\" \"local rank tracking,\" \"Local Falcon,\" \"grid scan,\" \"map pack rankings,\" \"ranking heatmap,\" or \"where am I ranking.\" For broader local audit, see local-seo-audit. For competitor analysis, see local-competitor-analysis."
+summary: "Analyzes local ranking performance across geographic areas using geogrid scan data."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

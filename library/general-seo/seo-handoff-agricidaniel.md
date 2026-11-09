@@ -1,6 +1,7 @@
 ---
 name: "seo-handoff"
 description: "Turn SEO findings into a reviewable implementation brief or provide publisher resources when requested. Use for explicit implementation-help or publisher questions."
+summary: "Turns SEO findings into implementation briefs."
 category: "general-seo"
 platforms: ["unspecified"]
 platform_source: "none"

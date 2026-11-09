@@ -1,6 +1,7 @@
 ---
 name: "dataforseo"
 description: "Complete DataForSEO API integration for SEO data and analysis. Use when the user asks for keyword research, search volume, SERP analysis, backlink audits, competitor analysis, rank tracking, domain authority, technical SEO audits, content monitoring, Google Trends, or any SEO-related data queries. Covers all DataForSEO APIs including SERP, Keywords Data, DataForSEO Labs, Backlinks, OnPage, Domain Analytics, Content Analysis, Business Data, Merchant, App Data, and AI Optimization APIs. Outputs CSV files."
+summary: "Integrates DataForSEO APIs for keyword research, SERP analysis, backlink audits, and rank tracking data."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared"

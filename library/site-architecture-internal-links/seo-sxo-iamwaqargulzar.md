@@ -1,6 +1,7 @@
 ---
 name: "seo-sxo"
 description: "Compatibility skill for seo sxo. Use when a user or upstream workflow invokes this name; route the task to `cro` while preserving the requested scope and source-specific intent."
+summary: "Routes SXO requests to conversion rate optimization workflows."
 category: "site-architecture-internal-links"
 platforms: ["unspecified"]
 platform_source: "none"

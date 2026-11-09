@@ -1,6 +1,7 @@
 ---
 name: "blog-seo-check"
 description: "Post-writing SEO validation with pass/fail checklist covering title tag clarity and uniqueness, meta description quality, heading hierarchy, internal/external link audit with anchor text analysis, canonical URL verification, Open Graph meta tags (og:title, og:description, og:image), Twitter Card validation, structured data presence and validity, URL structure optimization, and image alt text presence. Produces prioritized fix list with specific recommendations. Use for ONE finished post when the user says \"seo check\", \"validate seo\", \"on-page seo\", \"title tag check\", \"link audit\". Not for a…"
+summary: "This skill executes a post-writing SEO validation checklist covering meta tags, headings, internal links, and schema."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

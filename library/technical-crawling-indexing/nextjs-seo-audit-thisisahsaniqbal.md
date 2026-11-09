@@ -1,6 +1,7 @@
 ---
 name: "nextjs-seo-audit"
 description: "Comprehensive SEO audit skill for Next.js and HTML pages. Covers on-page optimisation, JSON-LD schema validation, meta tags, Open Graph, semantic HTML, site speed, mobile responsiveness, and backlink analysis. Use when a user asks to audit, optimise, or fix SEO issues on a webpage or website."
+summary: "This skill performs a comprehensive SEO audit for Next.js and HTML pages, covering on-page optimization, schema, meta tags, and speed."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared"

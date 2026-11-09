@@ -1,6 +1,7 @@
 ---
 name: "canonical-tag"
 description: "Audit and fix duplicate-page canonicalization across protocol, host, slash, default-document, extension, case, and tracking-parameter URL variants. Use for canonical URLs, duplicate content, preferred URLs, URL consolidation, or conflicting canonical signals. For URL naming and hierarchy design, use url-structure."
+summary: "Audits and fixes duplicate-page canonicalization across various URL variants."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared"

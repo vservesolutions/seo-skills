@@ -1,6 +1,7 @@
 ---
 name: "seo-social-cards"
 description: "Audit and generate Open Graph and Twitter/X social-card tags for a page — check og:title/description/url/type, og:image presence/size/reachability, and twitter:card/title/description/image, then inject complete card tags inferred from the page. Module M8. Feeds the Search SEO score."
+summary: "Audits and generates Open Graph and Twitter social card tags for web pages."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

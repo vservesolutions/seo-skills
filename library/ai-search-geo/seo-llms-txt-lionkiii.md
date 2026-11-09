@@ -1,6 +1,7 @@
 ---
 name: "seo-llms-txt"
 description: "Generate, validate, or audit llms.txt files for AI search visibility. Crawls site structure, generates spec-compliant Markdown index for LLMs. Use when user says \"llms.txt\", \"llm txt\", \"AI crawlers\", \"generate llms\", \"LLM file\", \"AI readability file\"."
+summary: "Generates and validates llms.txt files for AI search visibility and crawler readability."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

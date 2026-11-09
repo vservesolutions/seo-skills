@@ -1,6 +1,7 @@
 ---
 name: "google-search-console"
 description: "When the user wants to analyze Google Search Console data, use the GSC API, or interpret search performance. Also use when the user mentions \"GSC,\" \"Search Console,\" \"indexing report,\" \"Core Web Vitals,\" \"Enhancements,\" \"Insights report,\" \"search performance,\" \"search queries,\" \"search performance report,\" \"URL inspection,\" \"impressions,\" \"CTR,\" \"average position,\" \"index coverage,\" \"GSC data analysis,\" \"Search Console API,\" or \"searchanalytics.query.\" When the user wants to rewrite title tags (not only report on them), use title-tag. For meta description rewrites, use meta-description."
+summary: "Interprets Google Search Console performance reports, index coverage, and Core Web Vitals data."
 category: "analytics-measurement"
 platforms: ["unspecified"]
 platform_source: "none"

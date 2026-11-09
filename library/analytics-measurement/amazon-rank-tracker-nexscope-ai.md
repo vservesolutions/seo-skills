@@ -1,6 +1,7 @@
 ---
 name: "amazon-rank-tracker"
 description: "Amazon keyword rank tracking and performance analysis. Comprehensive ranking factor analysis, change diagnosis, improvement strategy development, and competitive position monitoring. Use when the user asks about keyword rankings, position tracking, ranking changes, or competitive analysis."
+summary: "Tracks Amazon keyword rankings and analyzes competitive positions."
 category: "analytics-measurement"
 platforms: ["claude-code", "openclaw", "windsurf"]
 platform_source: "declared"

@@ -1,6 +1,7 @@
 ---
 name: "seo-page"
 description: "Inspect and improve one page for search intent, metadata, content, links and markup. Use for page-level SEO reviews."
+summary: "Inspects and improves individual pages for search intent, metadata, content, links, and markup."
 category: "keyword-research"
 platforms: ["unspecified"]
 platform_source: "none"

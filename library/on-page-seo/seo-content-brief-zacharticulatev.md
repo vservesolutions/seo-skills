@@ -1,6 +1,7 @@
 ---
 name: "seo-content-brief"
 description: "Generate competitive SEO content briefs — per-section heading structure, word-count guidance anchored on top-ranking pages, required entities, internal and external links, schema recommendations, and GEO citability guidance. Covers new-page and improve-existing-page briefs. Uses DataForSEO to auto-fetch the SERP when connected; otherwise analyzes the competitor URLs you provide. Trigger when the user says \"content brief\", \"write a brief\", \"content outline\", \"blog brief\", \"service page brief\", \"brief for\", \"writing brief\", or \"outline for\"."
+summary: "Generates competitive SEO content briefs with heading structures, word counts, and entity requirements."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "declared"

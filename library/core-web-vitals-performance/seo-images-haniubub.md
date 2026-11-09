@@ -1,6 +1,7 @@
 ---
 name: "seo-images"
 description: "Image optimization analysis for SEO and performance. Checks alt text, file sizes, formats, responsive images, lazy loading, CLS prevention, image SERP rankings (via DataForSEO), and image file optimization (WebP/AVIF conversion, IPTC/XMP metadata injection). Use when user says \"image optimization\", \"alt text\", \"image SEO\", \"image size\", \"image audit\", \"optimize images\", \"image metadata\", \"image SERP\", \"convert to webp\", or \"image file optimize\"."
+summary: "Analyzes image optimization factors including alt text, file formats, and technical performance."
 category: "core-web-vitals-performance"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

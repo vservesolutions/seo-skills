@@ -1,6 +1,7 @@
 ---
 name: "seo-implement"
 description: "Implement approved SEO fixes on a connected CMS, approval-gated. \"push the audit fixes live\""
+summary: "Implements approved SEO fixes directly on a CMS."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "detected"

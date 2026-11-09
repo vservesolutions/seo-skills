@@ -1,6 +1,7 @@
 ---
 name: "seo-maps"
 description: "Maps intelligence, geo-grid rank tracking, Google Business Profile radius analysis, and local competitor benchmarking."
+summary: "Performs geo-grid rank tracking and Google Business Profile radius analysis."
 category: "local-seo"
 platforms: ["claude-code", "windsurf", "antigravity"]
 platform_source: "declared"

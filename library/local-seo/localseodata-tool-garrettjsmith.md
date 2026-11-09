@@ -1,6 +1,7 @@
 ---
 name: "localseodata-tool"
 description: "When the user wants to pull local SEO data — SERP results, local pack rankings, business profile data, reviews, citations, audits, geogrid scans, keyword research, AI visibility, competitor analysis, or any local search intelligence. This is the DEFAULT data tool for LocalSEOSkills. Trigger on any data request before considering other tools. Also trigger on \"LocalSEOData,\" \"LSD,\" \"run an audit,\" \"check my rankings,\" \"pull reviews,\" \"citation check,\" \"keyword opportunities,\" \"AI visibility,\" or \"geogrid scan.\""
+summary: "Retrieves comprehensive local SEO intelligence, SERP results, and audit data."
 category: "local-seo"
 platforms: ["unspecified"]
 platform_source: "none"

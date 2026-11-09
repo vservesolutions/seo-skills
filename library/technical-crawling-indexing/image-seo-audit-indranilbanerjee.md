@@ -1,6 +1,7 @@
 ---
 name: "image-seo-audit"
 description: "Audit image SEO on a page: alt text, weight, formats, srcset, lazy loading, CLS. \"audit our image SEO\""
+summary: "Audits image optimization and performance factors."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "detected"

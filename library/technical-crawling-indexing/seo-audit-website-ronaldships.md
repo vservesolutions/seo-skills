@@ -1,6 +1,7 @@
 ---
 name: "seo-audit-website"
 description: "Review findings from a third-party website audit already supplied or explicitly requested by the user. Optional adapter, outside the default Foundvia workflow; do not install tools, crawl unrelated domains, or treat vendor scores as ranking evidence."
+summary: "Reviews findings from a third-party website SEO audit supplied by the user."
 category: "technical-crawling-indexing"
 platforms: ["unspecified"]
 platform_source: "none"

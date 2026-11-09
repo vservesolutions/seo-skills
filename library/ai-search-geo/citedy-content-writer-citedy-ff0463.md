@@ -1,6 +1,7 @@
 ---
 name: "citedy-content-writer"
 description: "From topic to published blog post in one conversation — generate SEO- and GEO-optimized articles with AI illustrations and voice-over in 55 languages, create social media adaptations for 9 platforms, set up automated content sessions, and manage product knowledge base. End-to-end blog autopilot. Powered by Citedy."
+summary: "Generates SEO- and GEO-optimized blog articles with multilingual support, illustrations, and automated publishing workflows."
 category: "ai-search-geo"
 platforms: ["openclaw"]
 platform_source: "detected"

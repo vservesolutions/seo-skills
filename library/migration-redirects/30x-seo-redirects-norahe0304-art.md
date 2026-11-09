@@ -1,6 +1,7 @@
 ---
 name: "30x-seo-redirects"
 description: "Redirect chain audit and analysis. Detects redirect loops, long chains, mixed protocols, and orphaned redirects. Use when user says \"redirect audit\", \"301 redirect\", \"redirect chain\", \"redirect loop\", or \"migration redirects\"."
+summary: "Audits redirect chains, loops, and protocols."
 category: "migration-redirects"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

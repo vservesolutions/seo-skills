@@ -1,6 +1,7 @@
 ---
 name: "keyword-research"
 description: "Research keywords via the connected data source: intent, gaps. Grouping → keyword-cluster. \"what keywords should we target\""
+summary: "Researches keywords and search intent."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "detected"

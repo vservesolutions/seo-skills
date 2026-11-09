@@ -1,6 +1,7 @@
 ---
 name: "llmstxt"
 description: "Check whether a site publishes an llms.txt and whether it follows the format, or build one from the site's own pages. Use when asked about llms.txt, llms-full.txt, or how to tell AI systems which pages on a site matter."
+summary: "Validates or builds llms.txt files to guide AI system content discovery."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

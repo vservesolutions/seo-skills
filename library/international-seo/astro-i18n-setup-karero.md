@@ -1,6 +1,7 @@
 ---
 name: "astro-i18n-setup"
 description: "Turn a new-website scaffold into a turnkey multi-language site: Astro i18n routing (clean default locale + prefixed others), self-referencing hreflang + x-default in the Base layout, i18n sitemap alternates, a language switcher, and the test-harness changes that keep the green-from-commit-1 gate honest across locales. Run at scaffold time when new-website Q4 = \"two+ languages at launch\", OR later to add a second language to a single-locale site whose default stays unprefixed (phased rollout). Trigger phrases: \"multi-language site\", \"add i18n\", \"DE+EN site\", \"internationalization\", \"hreflang…"
+summary: "Configures multilingual routing, hreflang tags, and sitemap alternates for international SEO in Astro."
 category: "international-seo"
 platforms: ["codex"]
 platform_source: "detected"

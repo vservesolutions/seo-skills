@@ -1,6 +1,7 @@
 ---
 name: "seo-content-homepage"
 description: "Runs spec, audit, competitor benchmark and build for the homepage and the flagship offer page (sales page) of an expert, coach, trainer, agency, consultant or SaaS, so they rank, get cited by AI engines and convert. Phase 1 is the spec: HOME and OFFER requirement tables (the 16 homepage blocks, the sales page sequence, semantic bolding, a number in every block, an objection FAQ, a visible price, dated ratings, checkable credentials, real social profiles, honest claims and regulated-topic notices) on top of the common page spec. Phase 2 audits the live home, offer and about pages with…"
+summary: "Optimizes homepages and flagship sales pages to rank in search results, earn AI citations, and drive conversions."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared"

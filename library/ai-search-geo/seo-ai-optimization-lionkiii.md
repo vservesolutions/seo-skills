@@ -1,6 +1,7 @@
 ---
 name: "seo-ai-optimization"
 description: "Audit a site or page against Google's OFFICIAL AI optimization guidance — readiness for AI Overviews and AI Mode, grounded in Google's published ai-optimization-guide and ai-features docs (not third-party GEO theory). Use when user says \"AI optimization\", \"AI Overviews\", \"AI mode\", \"AI search readiness\", \"optimize for AI\", or \"GEO audit\"."
+summary: "Audits web pages against official Google guidelines for AI Overviews and search features."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

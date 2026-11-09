@@ -1,6 +1,7 @@
 ---
 name: "koray"
 description: "When the user wants to enhance, optimize, or rewrite articles for SEO using Koray Tugberk Gubur's semantic SEO methodology. Also use when the user mentions 'Koray,' 'semantic SEO,' 'topical authority,' 'entity optimization,' 'semantic structure,' 'topical map,' 'contextual hierarchy,' 'information gain,' 'entity salience,' 'semantic content network,' 'NLP-optimized,' 'search entity,' 'query context,' or 'semantic relevance.' Use this for on-page content optimization, title rewrites, heading restructuring, entity enrichment, and content depth improvements. For technical SEO audits…"
+summary: "This skill applies semantic SEO and entity optimization methodologies to content."
 category: "on-page-seo"
 platforms: ["claude-code"]
 platform_source: "declared"

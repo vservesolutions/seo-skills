@@ -1,6 +1,7 @@
 ---
 name: "seo"
 description: "SEO Blogger Toolkit - Complete blog content lifecycle: research topics, plan clusters, write articles, audit content, optimize for AI search, publish to WordPress. Triggers on: SEO, audit, blog, article, write, publish, WordPress, cluster, E-E-A-T, GEO, schema."
+summary: "Manages blog content lifecycles including research, clustering, writing, and optimization for AI search."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

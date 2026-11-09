@@ -1,6 +1,7 @@
 ---
 name: "gbp-optimization"
 description: "When the user wants to set up, optimize, or manage a Google Business Profile, or improve visibility in Google's local map pack. Also use when the user mentions \"GBP,\" \"Google Business Profile,\" \"Google My Business,\" \"GMB,\" \"business listing,\" \"Google Maps listing,\" \"optimize my profile,\" \"map pack,\" \"local pack,\" \"3-pack,\" \"Google Maps ranking,\" or \"why am I not in the map pack.\" For review strategy, see review-management. For GBP posts, see gbp-posts. For suspension issues, see gbp-suspension-recovery."
+summary: "Optimizes Google Business Profiles and improves local map pack visibility."
 category: "local-seo"
 platforms: ["unspecified"]
 platform_source: "none"

@@ -1,6 +1,7 @@
 ---
 name: "seo-content"
 description: "Evaluate page content for usefulness, E-E-A-T, readability, thinness, and AI citation readiness, plus last-mile draft cleanup (AI-typical phrasing and invisible Unicode watermark characters). Use for content-only analysis, not full-page technical checks."
+summary: "Evaluates page content quality, E-E-A-T, readability, and AI citation readiness."
 category: "on-page-seo"
 platforms: ["codex"]
 platform_source: "declared"

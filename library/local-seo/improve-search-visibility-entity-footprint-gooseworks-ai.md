@@ -1,6 +1,7 @@
 ---
 name: "improve-search-visibility-entity-footprint"
 description: "Step of the improve-search-visibility playbook: checks the profiles answer engines read, plus local listings and reviews, against the brand's facts and writes corrections. Run improve-search-visibility instead; not for direct use."
+summary: "Verifies and corrects brand entity profiles and listings read by answer engines."
 category: "local-seo"
 platforms: ["unspecified"]
 platform_source: "none"

@@ -1,6 +1,7 @@
 ---
 name: "sitemap-manager"
 description: "Audit or generate XML sitemaps: limits, lastmod, status codes, robots conflicts. \"audit our sitemap\""
+summary: "Audits and generates XML sitemaps."
 category: "local-seo"
 platforms: ["claude-code"]
 platform_source: "detected"

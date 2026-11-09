@@ -1,6 +1,7 @@
 ---
 name: "keyword-cluster"
 description: "Group keywords by intent into pillar and spoke clusters mapped to existing or proposed pages. Use when \"cluster these keywords\", \"topic map\", \"which page should own X\"."
+summary: "Groups keywords by search intent into pillar and spoke topic clusters."
 category: "keyword-research"
 platforms: ["codex"]
 platform_source: "detected"

@@ -1,6 +1,7 @@
 ---
 name: "ds-content-perf"
 description: "Use this skill when the user wants to understand how their blog or content is performing in terms of traffic, engagement, and conversions. Activate when the user says \"how is our blog doing\", \"which posts are driving trials\", \"content performance\", \"is our content working\", \"what should we write next\", \"which articles bring the most signups\", \"content audit\", \"blog SEO\", \"content SEO performance\", or asks about the relationship between content and registrations or conversions. Works best with Dataslayer MCP connected (GA4 + Search Console). Also works with manual data."
+summary: "Evaluates blog and content performance regarding traffic, engagement, and conversion metrics."
 category: "analytics-measurement"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

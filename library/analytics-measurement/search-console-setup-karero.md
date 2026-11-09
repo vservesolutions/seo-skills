@@ -1,6 +1,7 @@
 ---
 name: "search-console-setup"
 description: "Post-launch: register the LIVE site with Google Search Console and Bing Webmaster Tools, verify ownership, submit the sitemap, and turn on IndexNow so Bing/Yandex get pinged the moment content changes. For a Cloudflare-hosted Astro site: GSC Domain property verified by a Cloudflare DNS TXT record + submit `sitemap-index.xml`; Bing the easy way via \"Import from Google Search Console\" (auto-verifies + pulls the sitemap); IndexNow by flipping ONE toggle — Cloudflare Crawler Hints — no key file to host. Account creation + the DNS record are human actions the agent drafts but can't click. Trigger…"
+summary: "Registers sites with search engines, submits sitemaps, and configures IndexNow for rapid indexing."
 category: "analytics-measurement"
 platforms: ["claude-code", "antigravity"]
 platform_source: "detected"

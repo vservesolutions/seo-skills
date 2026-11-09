@@ -1,6 +1,7 @@
 ---
 name: "tech-seo-audit"
 description: "Audit technical SEO site-wide by script: crawl, indexation, Web Vitals. A single page → page-seo-analysis. \"why isn't Google indexing my pages\""
+summary: "Conducts site-wide technical SEO audits."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "detected"

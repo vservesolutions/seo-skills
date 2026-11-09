@@ -1,6 +1,7 @@
 ---
 name: "seo-check"
 description: "Проверка SEO-позиций сайта в Яндексе"
+summary: "Checks SEO rankings for websites in Yandex."
 category: "general-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

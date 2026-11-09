@@ -1,6 +1,7 @@
 ---
 name: "geo-fanout"
 description: "Query fan-out and topic-cluster optimization for AI search. Maps a topic's full sub-query space, audits cluster coverage against what engines actually fan out into, and engineers titles and URL slugs for semantic match with fan-out queries. Use when a site needs to win citations beyond the organic top 10 or cover a topic cluster instead of a single head term."
+summary: "This skill maps topic clusters and sub-queries to optimize semantic match for AI search engines."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

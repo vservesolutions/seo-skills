@@ -1,6 +1,7 @@
 ---
 name: "seo-strategy"
 description: "Plans multi-month SEO by business type — measures a baseline, diagnoses defects, maps the winnable topic territory, prioritizes by impact, effort, and intent, then ties every task to a measurable outcome via a six-stage evidence loop and industry-vertical templates. Grounds the keyword universe with seo-cluster when available; otherwise works from a user-provided baseline. Produces a roadmap, content calendar, prioritized investment list, and measurement plan. Trigger when the user says \"seo strategy\", \"seo plan\", \"seo roadmap\", \"content strategy\", \"keyword strategy\", \"site architecture…"
+summary: "Plans multi-month SEO campaigns by diagnosing defects and mapping winnable topic territories."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared"

@@ -1,6 +1,7 @@
 ---
 name: "seo-gsc-cannibalization"
 description: "Detect keyword cannibalization by identifying queries where multiple pages are competing for the same ranking. Uses Google Search Console data to find queries appearing across 2 or more pages. Use when user says \"keyword cannibalization\", \"same keyword multiple pages\", \"cannibalizing keywords\", or \"duplicate rankings\"."
+summary: "Identifies keyword cannibalization issues where multiple URLs compete for identical search queries."
 category: "analytics-measurement"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

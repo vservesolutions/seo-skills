@@ -1,6 +1,7 @@
 ---
 name: "ai-citations-tracker"
 description: "Use when you need to **measure** (not just describe) brand citation frequency across AI search surfaces over time. Runs a configurable brand-mention prompt set weekly against ChatGPT (OpenAI API), Perplexity (Sonar API), and optionally Google AI Mode / AI Overviews / Bing Copilot / Claude.ai (manual workflow). Stores NDJSON history for trend analysis. Triggers from \"track AI citations\", \"AI Overview citation tracker\", \"ChatGPT brand mention monitoring\", \"Perplexity citation tracking\", \"AI-Sichtbarkeit messen\", \"wie oft erwähnt ChatGPT meine Marke\". Complements [[ai-search-rescue]]: that skill…"
+summary: "Tracks brand citation frequency across AI search surfaces over time."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

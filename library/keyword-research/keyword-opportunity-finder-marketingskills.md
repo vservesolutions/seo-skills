@@ -1,6 +1,7 @@
 ---
 name: "keyword-opportunity-finder"
 description: "Find high-impression, low-CTR terms, striking-distance keywords, and topic gaps from GSC data. Use when Codex needs to surface keyword growth opportunities from search performance data."
+summary: "Surfaces striking-distance keywords and topic gaps from Google Search Console data."
 category: "keyword-research"
 platforms: ["unspecified"]
 platform_source: "none"

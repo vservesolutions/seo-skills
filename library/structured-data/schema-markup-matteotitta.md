@@ -1,6 +1,7 @@
 ---
 name: "schema-markup"
 description: "Generates validated JSON-LD schema markup per page type (Product, Article, Organization, FAQ, HowTo, Review, BreadcrumbList, Person, Event, LocalBusiness) with eligible-rich-result mapping and Google Rich Results Test validation flow. Pairs `@graph` composition for multi-type pages. Chains off aeo-content outputs to enforce structured-data discipline at publish time. Triggered by \"schema markup\", \"structured data\", \"JSON-LD\", \"rich results\", \"schema audit\", or \"add schema to [page]\". NOT for general SEO audits — use /website-audit instead."
+summary: "Generates validated JSON-LD schema markup for various page types with rich result testing."
 category: "structured-data"
 platforms: ["claude-code"]
 platform_source: "declared"

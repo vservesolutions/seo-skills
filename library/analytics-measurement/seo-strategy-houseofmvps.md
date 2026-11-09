@@ -1,6 +1,7 @@
 ---
 name: "seo-strategy"
 description: "Top 1% SEO strategist — ruthlessly analyzes GSC, Bing, and GA4 data to dominate search rankings, win AI citations, and build lead funnels. Every recommendation backed by data."
+summary: "Analyzes search console and analytics data to improve rankings, AI citations, and traffic."
 category: "analytics-measurement"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

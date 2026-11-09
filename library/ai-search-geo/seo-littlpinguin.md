@@ -1,6 +1,7 @@
 ---
 name: "seo"
 description: "Production SEO de {{COMPANY_NAME}} dans 09-seo/ : briefs, articles longs, clusters, on-page et AEO, l'analyse étant déléguée à seo-audit, seo-schema, seo-geo, seo-cluster. À utiliser pour produire ou optimiser du contenu SEO, avec Search Console et GA4."
+summary: "Produces and optimizes SEO content, briefs, and clusters integrated with Search Console and analytics."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared"

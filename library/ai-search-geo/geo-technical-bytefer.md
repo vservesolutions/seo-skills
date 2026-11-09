@@ -1,6 +1,7 @@
 ---
 name: "geo-technical"
 description: "Technical SEO audit with GEO-specific checks — crawlability, indexability, security, performance, SSR, and AI crawler access"
+summary: "This skill performs technical SEO audits with a specific focus on AI crawler access and rendering."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

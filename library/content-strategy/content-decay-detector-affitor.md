@@ -1,6 +1,7 @@
 ---
 name: "content-decay-detector"
 description: "Monitor existing content for ranking drops and trigger refresh workflows. Triggers on: \"check for content decay\", \"which content needs updating\", \"content refresh\", \"ranking drops\", \"traffic decline\", \"stale content\", \"content audit\", \"what to refresh\", \"outdated content\", \"content performance check\", \"update old articles\", \"declining rankings\", \"content maintenance\", \"refresh priority list\", \"which articles are losing traffic\", \"SEO content audit\"."
+summary: "Monitors existing content for ranking drops and triggers refresh workflows."
 category: "content-strategy"
 platforms: ["claude-code", "windsurf", "openclaw", "gemini-cli"]
 platform_source: "declared+detected"

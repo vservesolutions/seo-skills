@@ -1,6 +1,7 @@
 ---
 name: "seo-audit"
 description: "Full SEO audit of a site from its real Search Console + GA4 data — indexation health, CTR anomalies, decaying pages, striking-distance keywords, quick wins. Use when asked to \"audit my site\", \"SEO audit\", \"why is my organic traffic down\", or \"SEO health check\"."
+summary: "Conducts full SEO audits using Search Console and GA4 data to identify quick wins and indexation issues."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "detected"

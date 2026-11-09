@@ -1,6 +1,7 @@
 ---
 name: "content-brief-builder"
 description: "Compose human-readable content brief from research.json + angle.json + outline.json. For handing off to writers (human or AI). Optional /brief command."
+summary: "Composes human-readable content briefs from research and outline data."
 category: "content-strategy"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

@@ -1,6 +1,7 @@
 ---
 name: "search-page-audit"
 description: "Use this skill to run a scored 38-point audit of a URL covering SEO fundamentals, content structure, AI-search/GEO readiness, and E-E-A-T signals. Trigger it when auditing a page, diagnosing search visibility, reviewing content before publication, or prioritizing SEO and AI-search fixes."
+summary: "Runs a scored audit of a URL covering SEO fundamentals, content structure, and E-E-A-T signals."
 category: "technical-crawling-indexing"
 platforms: ["claude-code"]
 platform_source: "declared"

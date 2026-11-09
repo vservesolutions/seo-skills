@@ -1,6 +1,7 @@
 ---
 name: "domain-authority-auditor"
 description: "Use when auditing domain authority, trust, or citation credibility; runs a peer-relative 40-item CITE profile with evidence coverage and verified manipulation/penalty veto checks. Not for page-level content quality — use content-quality-auditor; not for backlink profiling alone — use offsite-signal-analyzer. 域名权威/网站可信度"
+summary: "Audits domain authority, trust, and citation credibility with peer-relative profiles."
 category: "technical-crawling-indexing"
 platforms: ["claude-code", "codex", "cursor", "openclaw"]
 platform_source: "declared+detected"

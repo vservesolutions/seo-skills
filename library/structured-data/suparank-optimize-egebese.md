@@ -1,6 +1,7 @@
 ---
 name: "suparank/optimize"
 description: "Content optimization phase - quality check, GEO optimization, internal links, and schema markup."
+summary: "Optimizes content quality, schema markup, and internal linking."
 category: "structured-data"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

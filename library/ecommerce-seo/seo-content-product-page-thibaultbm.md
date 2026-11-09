@@ -1,6 +1,7 @@
 ---
 name: "seo-content-product-page"
 description: "Spec, audit, competitor benchmark and build for e-commerce product pages (PDPs), so they rank in Google and get recommended by the AI assistants that now link products directly. Input: a product page URL or a product brief (Shopify, WooCommerce, Magento, BigCommerce, PrestaShop, Wix, Webflow or custom). Runs four phases: the PDP spec with stable IDs on top of the common page spec, an audit with seo_audit.py and section_audit.py --type product, a benchmark against the same product sold elsewhere, marketplace listings and the ranking brands with page_benchmark.py, then the build: unique…"
+summary: "Audits, benchmarks, and builds e-commerce product pages for search and AI recommendation visibility."
 category: "ecommerce-seo"
 platforms: ["claude-code"]
 platform_source: "declared"

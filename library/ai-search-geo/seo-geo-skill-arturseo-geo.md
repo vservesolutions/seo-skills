@@ -1,6 +1,7 @@
 ---
 name: "seo-geo-skill"
 description: "The complete SEO and GEO (Generative Engine Optimisation) skill — keyword research, SERP analysis, technical audits, content optimisation, backlink intelligence, and AI visibility monitoring. Use this skill whenever the user asks about SEO, GEO, keyword research, SERP analysis, Google Search Console, technical audit, site audit, backlinks, link building, backlink analysis, AI visibility, AI Overviews, schema markup, structured data, Core Web Vitals, page speed, content gap analysis, content briefs, anchor text, referring domains, broken links, orphan pages, meta descriptions, title tags, H1…"
+summary: "Executes a complete suite of SEO and Generative Engine Optimization tasks including keyword research and audits."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared"

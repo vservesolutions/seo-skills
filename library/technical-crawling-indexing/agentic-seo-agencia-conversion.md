@@ -1,6 +1,7 @@
 ---
 name: "agentic-seo"
 description: "Load Agentic SEO's canonical runtime context and route broad, ambiguous, or compound Agentic SEO requests through the right gates and downstream skills."
+summary: "Routes broad agentic SEO requests through appropriate downstream SEO skills."
 category: "technical-crawling-indexing"
 platforms: ["claude-code", "codex"]
 platform_source: "declared+detected"

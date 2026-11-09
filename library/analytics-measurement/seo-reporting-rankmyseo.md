@@ -1,6 +1,7 @@
 ---
 name: "seo-reporting"
 description: "Standard formats for the change log and the owner report. The change log records every page change with its date, reason, and expected effect, so later checks have a baseline. The owner report is a short weekly or monthly summary the owner can read without SEO knowledge, and the executive summary is a one-page scorecard with the decisions a manager or client must make. Use after any change to a live site, and when writing the weekly, monthly, or executive report."
+summary: "Maintains SEO change logs and generates simplified progress reports for stakeholders."
 category: "analytics-measurement"
 platforms: ["unspecified"]
 platform_source: "none"

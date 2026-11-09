@@ -1,6 +1,7 @@
 ---
 name: "youtube-seo"
 description: "Advanced YouTube SEO analysis and optimization for channels and videos. Routes to specialized sub-skills for audits, single-video deep dives, metadata optimization, channel branding, keyword research, thumbnails, and competitor intel. Models YouTube's modern recommender (session watch time / Reinforce / persona matching) not just keyword match. Use when user says \"YouTube SEO\", \"optimize my video\", \"rank my YouTube video\", \"YouTube channel audit\", \"YouTube keywords\", or provides a YouTube URL."
+summary: "Provides advanced channel and video optimization for YouTube's recommender system."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

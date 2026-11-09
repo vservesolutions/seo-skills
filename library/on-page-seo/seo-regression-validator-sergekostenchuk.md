@@ -1,6 +1,7 @@
 ---
 name: "seo-regression-validator"
 description: "Validate SEO and LLM-readability claims against live HTML, local fixtures, and generated artifacts. Use this skill when the user asks to prove whether title, meta description, canonical, hreflang, JSON-LD, NewsArticle.image, OpenGraph, Twitter cards, RSS autodiscovery, robots.txt, llms.txt, sitemap, news-sitemap, crawler access, or performance evidence is actually present, and when subjective audits must become timestamped pass/fail reports."
+summary: "Validates technical SEO and AI-readability elements against live HTML and configuration files."
 category: "on-page-seo"
 platforms: ["unspecified"]
 platform_source: "none"

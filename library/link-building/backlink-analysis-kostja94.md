@@ -1,6 +1,7 @@
 ---
 name: "backlink-analysis"
 description: "When the user wants to analyze backlinks, audit link profile, or identify link issues. Also use when the user mentions \"backlink analysis,\" \"backlink audit,\" \"referring domains,\" \"toxic links,\" \"link profile,\" or \"disavow file.\" For acquisition, use link-building."
+summary: "Analyzes backlink profiles and identifies link issues or toxic links."
 category: "link-building"
 platforms: ["claude-code"]
 platform_source: "declared"

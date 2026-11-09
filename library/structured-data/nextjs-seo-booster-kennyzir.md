@@ -1,6 +1,7 @@
 ---
 name: "nextjs-seo-booster"
 description: "A complete SEO toolkit for Next.js applications, including structured data (Schema.org), dynamic sitemap generation, and meta tags."
+summary: "This skill provides a Next.js SEO toolkit including structured data, dynamic sitemaps, and meta tags."
 category: "structured-data"
 platforms: ["unspecified"]
 platform_source: "none"

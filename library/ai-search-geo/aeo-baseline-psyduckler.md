@@ -1,6 +1,7 @@
 ---
 name: "aeo-baseline"
 description: "Take an atomic AI visibility baseline for a brand. Runs each configured prompt 20 times against Gemini with Google Search grounding, extracts every signal (brand mentions, citations, citation position, query fan-out, entities, sentiment, competitor citations) from those same 20 responses, computes Wilson 95% confidence intervals, applies the aeo-v1 visibility score, and writes an append-only JSON evidence file conforming to schemas/aeo-evidence-v1.json. Use when a user wants to: measure where their brand sits in AI search retrieval, establish a starting visibility baseline before content…"
+summary: "Measures AI visibility baselines by evaluating brand mentions, citations, and sentiment across multiple prompts."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

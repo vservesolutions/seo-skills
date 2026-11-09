@@ -1,6 +1,7 @@
 ---
 name: "content-strategy"
 description: "When the user wants to plan content for SEO, create content calendar, or build topic clusters. Also use when the user mentions \"content strategy,\" \"content plan,\" \"topic clusters,\" \"pillar content,\" \"pillar page,\" \"cluster articles,\" \"editorial calendar,\" \"content hub,\" \"content planning,\" \"content clusters,\" \"topic cluster strategy,\" \"content strategy for SEO,\" or \"content calendar.\" For editorial mix, use content-marketing."
+summary: "Plans SEO content calendars and builds topic clusters and pillar pages."
 category: "content-strategy"
 platforms: ["unspecified"]
 platform_source: "none"

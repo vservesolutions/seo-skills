@@ -1,6 +1,7 @@
 ---
 name: "content-strategy"
 description: "When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions \"content strategy,\" \"what should I write about,\" \"content ideas,\" \"blog strategy,\" \"topic clusters,\" or \"content planning.\" For writing individual pieces, see copywriting. For SEO-specific audits, see seo-audit."
+summary: "Plans content strategy, topic clusters, and blogging topics for SEO growth."
 category: "content-strategy"
 platforms: ["claude-code"]
 platform_source: "declared"

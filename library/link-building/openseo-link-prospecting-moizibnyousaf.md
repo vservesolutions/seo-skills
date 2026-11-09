@@ -1,6 +1,7 @@
 ---
 name: "openseo-link-prospecting"
 description: "Find realistic link prospects with SERP and backlink evidence, discover contact paths via web tools, and draft personalized outreach — with targets saved to .seo/backlink-targets.json for off-page-seo campaigns. Use this skill when the user has a linkable asset (study, tool, guide, template, product page) and wants backlinks, resource-page inclusions, or comparison mentions. Triggers: \"link prospecting\", \"find backlink opportunities\", \"resource page outreach\", \"get backlinks for\", \"link building outreach\"."
+summary: "Finds link prospects and drafts personalized outreach for off-page campaigns."
 category: "link-building"
 platforms: ["claude-code"]
 platform_source: "detected"

@@ -1,6 +1,7 @@
 ---
 name: "seo-programmatic"
 description: "Programmatic SEO scaling with strict anti-thin content quality gates. Generates template-driven datasets with unique value, real data, and zero spam penalties."
+summary: "Scales programmatic SEO datasets while enforcing anti-thin content quality gates."
 category: "on-page-seo"
 platforms: ["claude-code", "windsurf", "antigravity"]
 platform_source: "declared"

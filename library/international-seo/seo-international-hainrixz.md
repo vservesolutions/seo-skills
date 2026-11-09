@@ -1,6 +1,7 @@
 ---
 name: "seo-international"
 description: "Audit and generate hreflang annotations for multilingual sites — check reciprocity, BCP-47 validity, self-reference, x-default, hreflang/canonical conflicts, and <html lang> agreement, and emit reciprocal hreflang link sets. Module M20 (conditional). Feeds the Search SEO score."
+summary: "Audits and generates hreflang annotations and validates multilingual site setups."
 category: "international-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

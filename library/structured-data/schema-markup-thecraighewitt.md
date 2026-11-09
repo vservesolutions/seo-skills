@@ -1,6 +1,7 @@
 ---
 name: "schema-markup"
 description: "When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions \"schema markup,\" \"structured data,\" \"JSON-LD,\" \"rich snippets,\" \"schema.org,\" \"FAQ schema,\" \"product schema,\" \"review schema,\" or \"breadcrumb schema.\" For broader SEO issues, see seo-audit."
+summary: "Adds and optimizes schema markup and structured data for rich snippets."
 category: "structured-data"
 platforms: ["claude-code"]
 platform_source: "declared"

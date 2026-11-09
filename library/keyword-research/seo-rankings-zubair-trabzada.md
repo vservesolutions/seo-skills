@@ -1,6 +1,7 @@
 ---
 name: "seo-rankings"
 description: "On-demand rank checking via the DataForSEO SERP API. Looks up live Google organic positions for a domain across an arbitrary list of keywords. Reports each as winning / page-1 / close / not-ranking with one prioritized next action per keyword."
+summary: "Checks live Google organic keyword positions on demand using the DataForSEO SERP API."
 category: "keyword-research"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

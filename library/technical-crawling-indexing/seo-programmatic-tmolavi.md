@@ -1,6 +1,7 @@
 ---
 name: "seo-programmatic"
 description: "Plan and audit programmatic SEO pages generated at scale from structured data. Use when designing templates, URL systems, internal linking, quality gates, and index-bloat safeguards for pages at scale."
+summary: "Plans and audits programmatic SEO page templates, internal linking, and index-bloat safeguards."
 category: "technical-crawling-indexing"
 platforms: ["antigravity", "claude-code"]
 platform_source: "declared+detected"

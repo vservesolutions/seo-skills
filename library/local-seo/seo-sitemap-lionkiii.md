@@ -1,6 +1,7 @@
 ---
 name: "seo-sitemap"
 description: "Analyze existing XML sitemaps or generate new ones with GSC indexing cross-reference. Validates format, URLs, and structure against actual indexing status. Use when user says \"sitemap\", \"generate sitemap\", \"sitemap issues\", \"XML sitemap\", or \"sitemap indexing\"."
+summary: "Analyzes and generates XML sitemaps cross-referenced with Google Search Console indexing."
 category: "local-seo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

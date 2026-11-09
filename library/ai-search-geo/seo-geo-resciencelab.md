@@ -1,6 +1,7 @@
 ---
 name: "seo-geo"
 description: "SEO & GEO (Generative Engine Optimization) for websites. Analyze keywords, generate schema markup, optimize for AI search engines (ChatGPT, Perplexity, Gemini, Copilot, Claude) and traditional search (Google, Bing). Use when user wants to improve search visibility."
+summary: "This skill optimizes websites for both traditional search engines and generative AI answer platforms."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

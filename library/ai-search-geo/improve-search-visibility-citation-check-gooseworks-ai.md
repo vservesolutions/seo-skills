@@ -1,6 +1,7 @@
 ---
 name: "improve-search-visibility-citation-check"
 description: "Step of the improve-search-visibility playbook: runs the agreed buyer questions on AI and Google surfaces, records every run and scores how often the brand is named. Run improve-search-visibility instead; not for direct use."
+summary: "Tests buyer queries on AI and Google surfaces to measure brand citation frequency."
 category: "ai-search-geo"
 platforms: ["unspecified"]
 platform_source: "none"

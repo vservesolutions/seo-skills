@@ -1,6 +1,7 @@
 ---
 name: "seo-snippet-hunter"
 description: "Formats content to be eligible for featured snippets and SERP"
+summary: "Formats content specifically to target and capture featured snippets and SERP features."
 category: "serp-features"
 platforms: ["antigravity"]
 platform_source: "declared"

@@ -1,6 +1,7 @@
 ---
 name: "site-keyword-research"
 description: "整站关键词研究与深度挖掘。输入一个网站域名或URL，自动完成：首页主题分析 → 递归式关键词树扩展（Google联想词多级分叉）→ 去重合并 → 关键词分层 → 10词SERP详细分析 → 3词定方向，最终输出完整 Markdown 报告。 触发条件：用户说\"分析网站关键词\"、\"关键词研究\"、\"keyword research\"、\"挖掘某网站的关键词\"、或提供一个URL说\"分析这个网站的SEO关键词机会\"。"
+summary: "This skill performs site-wide keyword research and recursive keyword expansion based on a URL."
 category: "keyword-research"
 platforms: ["unspecified"]
 platform_source: "none"

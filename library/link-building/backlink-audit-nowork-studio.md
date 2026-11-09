@@ -1,6 +1,7 @@
 ---
 name: "backlink-audit"
 description: "Backlink / off-page SEO audit. Works WITHOUT a paid tool by default — it uses the Google Search Console Links report (your top linking sites, most-linked pages, and anchor text) plus any backlink export the user provides (Ahrefs / Semrush / Majestic / DataForSEO CSV). Analyzes referring-domain profile, anchor-text distribution (over-optimized / spammy patterns), most-linked pages vs. money pages (internal-linking opportunity), toxic/spam link signals, and link-building priorities. Use this skill when the user asks about backlinks, link building, off-page SEO, referring domains, anchor text…"
+summary: "Analyzes backlink profiles and anchor text distribution using Search Console and third-party exports."
 category: "link-building"
 platforms: ["claude-code"]
 platform_source: "detected"

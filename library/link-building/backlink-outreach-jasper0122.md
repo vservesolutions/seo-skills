@@ -1,6 +1,7 @@
 ---
 name: "backlink-outreach"
 description: "Find, evaluate, pitch and track natural backlink and content partnerships. Prospects come from the GEO citation data rather than a generic blog search: the targets are the pages an AI already cites when answering your category questions. Research runs on the Monid tool layer (web search and scrape, authority metrics, company enrichment, email validation). Triggers \"backlink\", \"link building\", \"outreach email\", \"who is citing us\", \"find link partners\", \"guest placement\", \"backlink-outreach\". Research and drafting are always allowed; SENDING, PUBLISHING and PROMISING a link are never done…"
+summary: "This skill finds and evaluates natural backlink partnership prospects based on AI citation data."
 category: "link-building"
 platforms: ["claude-code"]
 platform_source: "declared"

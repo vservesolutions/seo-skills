@@ -1,6 +1,7 @@
 ---
 name: "keyword-cluster-architect"
 description: "Map 50-200+ keywords into topical clusters for SEO domination. Build content roadmaps for topical authority. Triggers on: \"keyword research\", \"keyword clustering\", \"topical authority\", \"keyword map\", \"keyword strategy\", \"content roadmap for SEO\", \"keyword grouping\", \"topic clusters\", \"SEO keyword plan\", \"map my keywords\", \"keyword cluster\", \"hub and spoke content\", \"build topical authority\", \"SEO content plan\", \"keyword universe\"."
+summary: "Maps keywords into topical clusters to build SEO content roadmaps."
 category: "keyword-research"
 platforms: ["claude-code", "windsurf", "openclaw", "gemini-cli"]
 platform_source: "declared+detected"

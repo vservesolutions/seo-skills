@@ -1,6 +1,7 @@
 ---
 name: "keyword-research"
 description: "Keyword Research — Skill especializada para keyword research"
+summary: "Conducts keyword research for search engine optimization campaigns."
 category: "keyword-research"
 platforms: ["unspecified"]
 platform_source: "none"

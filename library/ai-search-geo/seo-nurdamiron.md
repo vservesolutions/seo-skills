@@ -1,6 +1,7 @@
 ---
 name: "seo"
 description: "19 sub-skills: technical audit, E-E-A-T, schema, GEO, LLM optimization, brand AI tracking, intent classification, IndexNow, content rewrite, AI Overviews. Real data only."
+summary: "This skill provides sub-skills for technical audits, E-E-A-T, schema, GEO, and intent classification."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

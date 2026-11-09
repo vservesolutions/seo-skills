@@ -1,6 +1,7 @@
 ---
 name: "internal-linking-optimizer"
 description: "Analyze site's internal link structure and optimize for hub-and-spoke SEO architecture. Triggers on: \"optimize internal links\", \"internal linking\", \"link structure\", \"hub and spoke links\", \"orphan pages\", \"link equity\", \"internal link audit\", \"fix my internal links\", \"link architecture\", \"site structure optimization\", \"internal linking strategy\", \"link flow\", \"improve site structure\", \"find orphan pages\", \"maximize link equity\", \"internal link map\"."
+summary: "Analyzes and optimizes site internal link structures for hub-and-spoke SEO architecture."
 category: "site-architecture-internal-links"
 platforms: ["claude-code", "windsurf", "openclaw", "gemini-cli"]
 platform_source: "declared+detected"

@@ -1,6 +1,7 @@
 ---
 name: "geo-llmstxt"
 description: "Analyzes and generates llms.txt files -- the emerging standard for helping AI systems understand website structure and content. Can validate existing llms.txt files or generate new ones from scratch by crawling the site."
+summary: "Analyzes, validates, and generates llms.txt files to help AI systems understand website content and structure."
 category: "ai-search-geo"
 platforms: ["claude-code"]
 platform_source: "detected"

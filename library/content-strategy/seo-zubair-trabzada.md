@@ -1,6 +1,7 @@
 ---
 name: "seo"
 description: "Full SEO toolkit for Claude Code, powered by the DataForSEO API. Replaces the data layer of an SEO agency: keyword research, competitor analysis, rank tracking, backlink audits, technical site crawls, content gap analysis, and client-ready PDF reports — all with real Google search data, not scraping. Use when the user says \"seo\", \"keyword research\", \"rank check\", \"backlinks\", \"competitor analysis\", \"site audit\", \"content gap\", \"compare domains\", or passes a domain / URL / keyword for SEO analysis."
+summary: "Provides a comprehensive SEO toolkit powered by DataForSEO for keyword research, audits, and rank tracking."
 category: "content-strategy"
 platforms: ["claude-code"]
 platform_source: "declared+detected"

@@ -1,6 +1,7 @@
 ---
 name: "openseo-competitive-landscape"
 description: "Map who is winning an SEO market with measured data — recurring SERP domains, organic footprints, winning content themes, backlink authority, and the gaps worth attacking. Use this skill for market-level questions (\"who ranks for X\", \"how competitive is this space\", \"where are the SEO openings\") before committing to keyword targets or content themes. For one named competitor, use openseo-competitor-analysis instead. Triggers: \"competitive landscape seo\", \"who ranks for\", \"seo market map\", \"how competitive is\", \"serp competitors\"."
+summary: "Maps market-level SEO competition using measured data and SERP footprints."
 category: "link-building"
 platforms: ["claude-code"]
 platform_source: "detected"

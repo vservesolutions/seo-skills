@@ -1,6 +1,7 @@
 ---
 name: "seo-launch-plan"
 description: "Plan a new website's search strategy before it is built, for an owner with no SEO background. Asks about the product, place, competitor, and goal, picks a primary and alternate keywords, validates them with RankMySEO, and produces a topical page map with a visual site structure. Use when someone wants a new site or is starting from an idea."
+summary: "Plans search strategy and topical site architecture for new websites."
 category: "analytics-measurement"
 platforms: ["unspecified"]
 platform_source: "none"

@@ -1,6 +1,7 @@
 ---
 name: "brief"
 description: "Produce an editor-ready content brief for a target keyword or topic. Use when the user asks for a content brief, writing guidelines, article outline, SEO brief, what to include in a blog post, or how to structure content for a keyword. For choosing which topics to write about, see find-keywords. For a full site-wide SEO audit, see audit."
+summary: "Produces structured, editor-ready content briefs optimized for target search queries."
 category: "content-strategy"
 platforms: ["unspecified"]
 platform_source: "none"
