@@ -39,10 +39,14 @@ function clampInt(value, fallback, min, max) {
   return Math.min(max, Math.max(min, parsed));
 }
 
-/** Stable identity for a cached verdict: the text the model actually saw. */
-export function skillFingerprint(skill) {
+/**
+ * Stable identity for a cached verdict: the model, plus the text it actually saw.
+ * The model is part of the key so switching providers cannot silently reuse another
+ * model's verdicts.
+ */
+export function skillFingerprint(skill, model = '') {
   return createHash('sha256')
-    .update(`${skill.name || ''}\n${skill.description || ''}`.trim().toLowerCase())
+    .update(`${model}\n${skill.name || ''}\n${skill.description || ''}`.trim().toLowerCase())
     .digest('hex')
     .slice(0, 24);
 }
@@ -181,7 +185,7 @@ export async function auditSkills(items, { config, cache = {}, categories = [], 
 
   const pending = [];
   for (const item of items) {
-    const fingerprint = item.fingerprint || skillFingerprint(item);
+    const fingerprint = item.fingerprint || skillFingerprint(item, config.model);
     const hit = cache[fingerprint];
     if (hit) {
       results.set(item.id, { ...hit, cached: true });

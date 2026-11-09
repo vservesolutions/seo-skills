@@ -103,7 +103,7 @@ test('a cached fingerprint is never sent again', async () => {
   assert.equal(second.cached, 1);
   assert.equal(second.requests, 0);
   assert.equal(second.results.get('a').seo, true);
-  assert.ok(cache[skillFingerprint(skill)], 'verdict is stored under the fingerprint');
+  assert.ok(cache[skillFingerprint(skill, config.model)], 'verdict is stored under the fingerprint');
 });
 
 test('malformed and chatty replies are tolerated instead of crashing', async () => {
@@ -161,6 +161,12 @@ test('a 429 is retried, then a hard failure is reported without losing the run',
   });
   assert.equal(failing.results.size, 0);
   assert.match(failing.errors[0], /401/);
+});
+
+test('the cache key includes the model, so providers cannot reuse each other', async () => {
+  const skill = item('a', 'audit-crawler');
+  assert.notEqual(skillFingerprint(skill, 'gemini-3.5-flash-lite'), skillFingerprint(skill, 'gpt-oss-120b'));
+  assert.equal(skillFingerprint(skill, 'm'), skillFingerprint(skill, 'm'));
 });
 
 test('verdicts are aligned by position when the model echoes different ids', async () => {

@@ -603,7 +603,7 @@ async function commandEnrich(values) {
     console.log('  3. node src/cli.js enrich --limit 200');
     console.log('');
     console.log('  Any OpenAI-compatible provider works — set SEO_LLM_BASE and SEO_LLM_MODEL, for example Groq:');
-    console.log('    SEO_LLM_BASE=https://api.groq.com/openai/v1 SEO_LLM_MODEL=llama-3.3-70b-versatile');
+    console.log('    SEO_LLM_BASE=https://api.groq.com/openai/v1 SEO_LLM_MODEL=openai/gpt-oss-120b');
     console.log(`  Defaults: ${config.base} · ${config.model}`);
     console.log('');
     return;
