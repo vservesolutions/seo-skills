@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 872
-collected: "2026-11-08"
+collected: "2026-11-09"
 ---
 
 <!-- Unspecified skill · flaqai/backlink_skills · 双线外链挖掘矩阵/skills/backlink-source-prep/SKILL.md · MIT

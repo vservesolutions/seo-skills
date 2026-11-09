@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 52
-collected: "2026-11-08"
+collected: "2026-11-09"
 ---
 
 <!-- Claude Code skill · agencia-conversion/agentic-seo-skills · skills/internal-links/SKILL.md · MIT

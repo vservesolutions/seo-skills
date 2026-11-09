@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "Apache-2.0"
 stars: 388
-collected: "2026-11-08"
+collected: "2026-11-09"
 ---
 
 <!-- Unspecified skill · inhouseseo/superseo-skills · skills/semantic-gap-analysis/SKILL.md · Apache-2.0

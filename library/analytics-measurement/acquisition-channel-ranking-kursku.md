@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "state"
 license: "MIT"
 stars: 120
-collected: "2026-11-08"
+collected: "2026-11-09"
 ---
 
 <!-- Unspecified skill · kursku/skills · packs/kit-510-ptbr/08-lancamento-growth/acquisition-channel-ranking/SKILL.md · MIT

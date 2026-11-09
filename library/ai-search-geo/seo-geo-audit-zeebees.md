@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 14
-collected: "2026-11-08"
+collected: "2026-11-09"
 ---
 
 <!-- Unspecified skill · zeebees/seo-geo-audit · skills/seo-geo-audit/SKILL.md · MIT

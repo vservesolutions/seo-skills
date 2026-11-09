@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "awesome-seo-agent-skills"
 license: "MIT"
 stars: 0
-collected: "2026-11-08"
+collected: "2026-11-09"
 ---
 
 <!-- Claude Code skill · hmzainjamil/geo-seo-claude · geo/SKILL.md · MIT

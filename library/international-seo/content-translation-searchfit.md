@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 15
-collected: "2026-11-08"
+collected: "2026-11-09"
 ---
 
 <!-- Claude Code skill · searchfit/searchfit-seo · skills/content-translation/SKILL.md · MIT

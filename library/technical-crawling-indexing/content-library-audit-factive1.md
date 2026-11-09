@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "awesome-seo-agent-skills"
 license: "MIT"
 stars: 10
-collected: "2026-11-08"
+collected: "2026-11-09"
 ---
 
 <!-- Claude Code skill · factive1/claude-code-seo-skill · content-library-audit/SKILL.md · MIT

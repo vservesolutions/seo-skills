@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "state"
 license: "MIT"
 stars: 1292
-collected: "2026-11-08"
+collected: "2026-11-09"
 ---
 
 <!-- Unspecified skill · gooseworks-ai/goose-skills · skills/marketing/improve-search-visibility-page-and-foundation-check/SKILL.md · MIT

@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "awesome-seo-agent-skills"
 license: "MIT"
 stars: 41
-collected: "2026-11-08"
+collected: "2026-11-09"
 ---
 
 <!-- Cursor, OpenClaw skill · Horosheff/google-yandex-seo-skill · .agents/skills/indexlift-seo-auditor/SKILL.md · MIT

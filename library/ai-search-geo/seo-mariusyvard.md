@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "Apache-2.0"
 stars: 28
-collected: "2026-11-08"
+collected: "2026-11-09"
 ---
 
 <!-- Claude Code skill · MariusYvard/NullToHero · null-to-hero/skills/seo/SKILL.md · Apache-2.0

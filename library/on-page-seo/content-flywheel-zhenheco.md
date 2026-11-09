@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "Apache-2.0"
 stars: 12
-collected: "2026-11-08"
+collected: "2026-11-09"
 ---
 
 <!-- Unspecified skill · zhenheco/content-flywheel-skills · SKILL.md · Apache-2.0

@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "awesome-seo-agent-skills"
 license: "MIT"
 stars: 1
-collected: "2026-11-08"
+collected: "2026-11-09"
 ---
 
 <!-- Any agent skill · cartoonitunes/inlay-skills · skills/ai-readiness-audit/SKILL.md · MIT

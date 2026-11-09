@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 21
-collected: "2026-11-08"
+collected: "2026-11-09"
 ---
 
 <!-- Claude Code, Windsurf, Antigravity skill · seoskillsai/seo-skills-ai · skills/seo-cluster/SKILL.md · MIT

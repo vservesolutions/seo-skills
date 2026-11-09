@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "state"
 license: "MIT"
 stars: 120
-collected: "2026-11-08"
+collected: "2026-11-09"
 ---
 
 <!-- Claude Code skill · kursku/skills · packs/kit-510-ptbr/05-seo-busca/indexing-strategy/SKILL.md · MIT

@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "Apache-2.0"
 stars: 24
-collected: "2026-11-08"
+collected: "2026-11-09"
 ---
 
 <!-- Unspecified skill · Bin-Huang/google-search-console-cli · skills/google-search-console-cli/SKILL.md · Apache-2.0

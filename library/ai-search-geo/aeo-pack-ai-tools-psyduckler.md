@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 13
-collected: "2026-11-08"
+collected: "2026-11-09"
 ---
 
 <!-- Copilot skill · psyduckler/aeo-skills · aeo-pack-ai-tools/SKILL.md · MIT
