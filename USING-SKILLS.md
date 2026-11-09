@@ -100,8 +100,8 @@ Copy-Item "library\technical-crawling-indexing\$slug.md" "$dest\SKILL.md" -Force
 ```
 
 The dashboard shows **one card per skill name**: when 46 packs publish their own `seo-audit`, the card
-shows the best copy and lists the other 45 inside it, so you pick from 917 distinct skills rather
-than 1,510 duplicates. Browse before picking:
+shows the best copy and lists the other packs inside it, so you pick from distinct skills rather
+than hundreds of duplicates. Browse before picking:
 
 ```bash
 node src/cli.js library --category technical-crawling-indexing

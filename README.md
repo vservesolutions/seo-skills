@@ -262,9 +262,11 @@ are not about search (A/B testing, ad creative) are dropped: a skill needs eithe
 match or an SEO-shaped name.
 
 **One card per skill.** The same skill gets republished by many packs — `seo-audit` appears in 46
-of them, `programmatic-seo` in 22. That is 1,510 copies of 920 distinct skills. The library groups
-copies by name, shows the best copy (full text first, then stars, then most recently pushed) and
-lists the rest inside its card, so the dashboard reads as 920 skills instead of 1,510 duplicates.
+of them, `programmatic-seo` in over 20. Roughly 40% of the catalogue is that kind of copy. The
+library groups copies by name, shows the best copy (full text first, then stars, then most recently
+pushed) and lists the rest inside its card, so the dashboard reads as distinct skills instead of a
+wall of near-identical entries. The current totals are in `library/index.json` (`counts.skills` is
+every version, `counts.groups` the distinct names).
 Nothing is dropped: `library/index.json` keeps every version, with `group`, `groupSize` and
 `isPrimary` fields, and `--all-versions` lists them all.
 
@@ -272,8 +274,9 @@ Nothing is dropped: `library/index.json` keeps every version, with `group`, `gro
 and when it last received a push. Skills from deleted or archived packs are hidden from the
 rendered library — never deleted from `data/library.jsonl`, so a repository that comes back is
 restored on the next run — and a pack with no push in 18 months is badged "stale". The scheduled
-refresh checks 80 packs every three hours, which covers the whole library within a day, and results
-live in `data/repo-health.json`.
+refresh checks 80 packs every three hours; each pack is rechecked once it is a week old, so the
+whole library cycles about weekly (`--all` rechecks immediately). Results live in
+`data/repo-health.json`.
 
 **Licensing.** Full text is copied only from permissive licences (MIT, Apache-2.0, BSD, ISC, CC0,
 CC-BY, Unlicense). Packs without a licence are catalogued with name, description and a link, and
