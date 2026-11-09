@@ -1,6 +1,6 @@
 # SEO Skills Index
 
-Generated 2026-11-09. 36 skills across 16 categories, from 224 findings.
+Generated 2026-11-09. 36 skills across 16 categories, from 242 findings.
 
 A category skill aggregates every finding in its area; sub-skills go deeper where evidence exists.
 
@@ -62,12 +62,12 @@ A category skill aggregates every finding in its area; sub-skills go deeper wher
 | [Link Building and Off-Page Authority](link-building/SKILL.md) | Earning links, digital PR, anchor text and link quality, disavow decisions, and link spam policy. | 6 | 2026-10-29 | medium |
 | [↳ Digital PR and Link Outreach](digital-pr/SKILL.md) | Digital PR and Link Outreach: specific techniques, checks and pitfalls. | 1 | 2026-07-20 | low |
 
-## Local SEO and Google Business Profile · 12 findings
+## Local SEO and Google Business Profile · 13 findings
 
 | Skill | What it covers | Findings | Updated | Confidence |
 | --- | --- | ---: | --- | --- |
-| [Local SEO and Google Business Profile](local-seo/SKILL.md) | Local pack visibility, Business Profile optimization, reviews, citations and location page structure. | 12 | 2026-11-09 | medium |
-| [↳ Google Business Profile Optimisation](google-business-profile/SKILL.md) | Google Business Profile Optimisation: specific techniques, checks and pitfalls. | 4 | 2026-11-06 | low |
+| [Local SEO and Google Business Profile](local-seo/SKILL.md) | Local pack visibility, Business Profile optimization, reviews, citations and location page structure. | 13 | 2026-11-09 | medium |
+| [↳ Google Business Profile Optimisation](google-business-profile/SKILL.md) | Google Business Profile Optimisation: specific techniques, checks and pitfalls. | 5 | 2026-11-09 | medium |
 | [↳ Local Pack and Map Visibility](local-pack/SKILL.md) | Local Pack and Map Visibility: specific techniques, checks and pitfalls. | 1 | 2026-11-09 | low |
 
 ## International and Multilingual SEO · 1 findings
@@ -76,36 +76,36 @@ A category skill aggregates every finding in its area; sub-skills go deeper wher
 | --- | --- | ---: | --- | --- |
 | [International and Multilingual SEO](international-seo/SKILL.md) | Hreflang implementation, locale targeting, ccTLD vs subfolder decisions and localization quality. | 1 | 2026-04-07 | low |
 
-## Ecommerce SEO and Faceted Navigation · 7 findings
+## Ecommerce SEO and Faceted Navigation · 9 findings
 
 | Skill | What it covers | Findings | Updated | Confidence |
 | --- | --- | ---: | --- | --- |
-| [Ecommerce SEO and Faceted Navigation](ecommerce-seo/SKILL.md) | Category and product page optimization, faceted navigation, variants, out-of-stock handling and merchant feeds. | 7 | 2026-11-06 | medium |
+| [Ecommerce SEO and Faceted Navigation](ecommerce-seo/SKILL.md) | Category and product page optimization, faceted navigation, variants, out-of-stock handling and merchant feeds. | 9 | 2026-11-09 | medium |
 
-## SEO Analytics, Reporting and Measurement · 35 findings
+## SEO Analytics, Reporting and Measurement · 41 findings
 
 | Skill | What it covers | Findings | Updated | Confidence |
 | --- | --- | ---: | --- | --- |
-| [SEO Analytics, Reporting and Measurement](analytics-measurement/SKILL.md) | Search Console and GA4 measurement, rank tracking, dashboards, forecasting and KPI definitions. | 35 | 2026-11-09 | high |
-| [↳ Search Console Analysis](search-console/SKILL.md) | Search Console Analysis: specific techniques, checks and pitfalls. | 14 | 2026-11-05 | medium |
+| [SEO Analytics, Reporting and Measurement](analytics-measurement/SKILL.md) | Search Console and GA4 measurement, rank tracking, dashboards, forecasting and KPI definitions. | 41 | 2026-11-09 | high |
+| [↳ Search Console Analysis](search-console/SKILL.md) | Search Console Analysis: specific techniques, checks and pitfalls. | 15 | 2026-11-09 | high |
 | [↳ Rank Tracking and Visibility Reporting](rank-tracking/SKILL.md) | Rank Tracking and Visibility Reporting: specific techniques, checks and pitfalls. | 2 | 2026-11-07 | low |
 
-## AI Search, GEO and Answer Engines · 87 findings
+## AI Search, GEO and Answer Engines · 98 findings
 
 | Skill | What it covers | Findings | Updated | Confidence |
 | --- | --- | ---: | --- | --- |
-| [AI Search, GEO and Answer Engines](ai-search-geo/SKILL.md) | AI Overviews, AI Mode, LLM citation visibility, generative engine optimization and llms.txt conventions. | 87 | 2026-11-09 | high |
-| [↳ AI Overviews and AI Mode](ai-overviews/SKILL.md) | AI Overviews and AI Mode: specific techniques, checks and pitfalls. | 24 | 2026-11-09 | high |
+| [AI Search, GEO and Answer Engines](ai-search-geo/SKILL.md) | AI Overviews, AI Mode, LLM citation visibility, generative engine optimization and llms.txt conventions. | 98 | 2026-11-09 | high |
+| [↳ AI Overviews and AI Mode](ai-overviews/SKILL.md) | AI Overviews and AI Mode: specific techniques, checks and pitfalls. | 32 | 2026-11-09 | high |
 | [↳ llms.txt and Agent Readability](llms-txt/SKILL.md) | llms.txt and Agent Readability: specific techniques, checks and pitfalls. | 1 | 2026-11-04 | low |
 | [↳ AI Citations and Brand Mentions](ai-citations/SKILL.md) | AI Citations and Brand Mentions: specific techniques, checks and pitfalls. | 7 | 2026-11-04 | medium |
 | [↳ ChatGPT and Assistant Visibility](chatgpt-visibility/SKILL.md) | ChatGPT and Assistant Visibility: specific techniques, checks and pitfalls. | 2 | 2026-11-04 | low |
 
-## Algorithm Updates, Spam Policy and Recovery · 13 findings
+## Algorithm Updates, Spam Policy and Recovery · 14 findings
 
 | Skill | What it covers | Findings | Updated | Confidence |
 | --- | --- | ---: | --- | --- |
-| [Algorithm Updates, Spam Policy and Recovery](algorithm-updates/SKILL.md) | Core and spam updates, ranking volatility, manual actions, policy changes and recovery playbooks. | 13 | 2026-11-06 | medium |
-| [↳ Core Algorithm Updates](core-updates/SKILL.md) | Core Algorithm Updates: specific techniques, checks and pitfalls. | 2 | 2026-11-04 | low |
+| [Algorithm Updates, Spam Policy and Recovery](algorithm-updates/SKILL.md) | Core and spam updates, ranking volatility, manual actions, policy changes and recovery playbooks. | 14 | 2026-11-09 | medium |
+| [↳ Core Algorithm Updates](core-updates/SKILL.md) | Core Algorithm Updates: specific techniques, checks and pitfalls. | 3 | 2026-11-09 | low |
 | [↳ Spam Policy and Manual Actions](spam-policy/SKILL.md) | Spam Policy and Manual Actions: specific techniques, checks and pitfalls. | 4 | 2026-11-06 | low |
 
 ## SERP Features, Snippets and CTR · 3 findings

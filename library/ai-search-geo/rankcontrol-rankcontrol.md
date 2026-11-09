@@ -1,0 +1,347 @@
+---
+name: "rankcontrol"
+description: "Operate the user's RankControl workspace (rctrl.com) from the command line - AI search visibility and citations (ChatGPT, Perplexity, Claude, Gemini, Grok, Google AI Mode, Google AI Overviews), SEO content planning, article generation and publishing to their CMS, backlinks and outreach, social repurposing, brand memory, and reports. Use this whenever the user asks about AI visibility, AI citations, GEO/AEO, being cited by ChatGPT, their content calendar, publishing articles, AI traffic attribution, or anything in their RankControl account, even if they don't name RankControl explicitly."
+category: "ai-search-geo"
+platforms: ["openclaw"]
+platform_source: "detected"
+repo: "rankcontrol/rankcontrol"
+repo_url: "https://github.com/rankcontrol/rankcontrol"
+source: "https://github.com/rankcontrol/rankcontrol/blob/HEAD/SKILL.md"
+raw_source: "https://raw.githubusercontent.com/rankcontrol/rankcontrol/HEAD/SKILL.md"
+ref: "HEAD"
+discovered_via: "github-search"
+license: "MIT"
+stars: 5
+collected: "2026-11-09"
+---
+
+<!-- OpenClaw skill · rankcontrol/rankcontrol · SKILL.md · MIT
+     Source: https://github.com/rankcontrol/rankcontrol/blob/HEAD/SKILL.md
+     Detected by: detected · Regenerated on every run; edit the upstream skill, not this copy. -->
+
+# RankControl CLI
+
+RankControl (https://rctrl.com) wins Google rankings and AI citations for a
+website: it plans content, writes articles, publishes them as native posts on
+the customer's own CMS, and tracks citations and traffic across AI
+search engines. The `rankcontrol` CLI is the whole workspace in the terminal.
+Every command prints JSON.
+
+Full reference: https://rctrl.com/docs (also https://rctrl.com/docs/llms.txt)
+
+## Install and authenticate
+
+```bash
+# Install (or use `npx rankcontrol ...` without installing)
+npm install -g rankcontrol
+
+# A human at the keyboard: browser device authorization
+rankcontrol login
+
+# Headless / CI / agent sandboxes: use an API key from
+# Dashboard -> Settings -> API Keys
+export RANKCONTROL_API_KEY=rctrl_pk_...
+```
+
+Verify before doing anything else:
+
+```bash
+rankcontrol score
+```
+
+If it errors, stop and sort out auth first. An `HTTP 401` means no valid key;
+an `HTTP 403` means the key is missing a scope for that command (scopes are
+set per key in the dashboard; read-only keys are common). Tell the user which
+scope is missing rather than retrying.
+
+## Ground rules
+
+1. **Do what the user asked.** Commands marked **dry run** below do nothing
+   until `--confirm` is added. When the user asked for the action, run it
+   with `--confirm`. Run the dry run first only when the request is unclear
+   or the user wants to see it. Never add `--confirm` for an action the user
+   did not ask for.
+2. **Reads are safe.** Every `get`/`list`-style command is free to run as
+   often as needed to answer a question.
+3. **Rate limits are server-side.** Costly routes are capped per minute. On an
+   `HTTP 429`, back off and slow down; do not retry in a tight loop.
+4. **Plan, then add.** `plan-content` shows the next batch as a dry run.
+   `--confirm` adds it, and `--keep` adds only some. When the user asked to
+   plan articles, add the titles. When they asked for ideas, show the titles
+   first.
+5. **Some changes wait for the owner.** Removals (removing, archiving,
+   hiding, replacing a list) and team changes always do. So does every
+   change for 2 hours after the key reads text written outside the
+   workspace: prospect replies, AI answers, social threads, competitor
+   pages. These answer `approval_required` with an `approveUrl`: give the
+   user the link, and the workspace owner approves it in RankControl.
+   `rankcontrol approval <approvalId>` shows where it stands.
+6. **Sanity-check surprising data before alarming anyone.** A score that
+   drops to zero overnight, or long runs of checks with empty responses, can
+   be a checking-pipeline hiccup rather than a real visibility collapse.
+   Present it as "the data shows X, worth verifying" and offer to file a
+   ticket instead of declaring a crisis.
+7. Something broken or surprising? `rankcontrol support "<subject>" --message
+   "<details>"` opens a ticket with the RankControl team (capped 3/min).
+
+## The core loop
+
+```bash
+rankcontrol score                # where visibility stands
+rankcontrol plan-content                   # the next batch (dry run)
+rankcontrol plan-content --confirm --keep <id>,<id>   # add only those titles
+rankcontrol plan-content --topics "Travel insurance" --subject "ski trips"
+rankcontrol commit-titles --file approved.json
+rankcontrol write --next 3 --publish --confirm  # write and publish the next 3
+rankcontrol write-runs                      # each article's state
+rankcontrol visibility --days 30            # watch the trend
+```
+
+## Command reference
+
+### Setup
+
+| Command | What it does |
+| --- | --- |
+| `login` | Browser device authorization; saves a key to `~/.rankcontrol`. Scoped/read-only keys are created in the dashboard instead. |
+| `logout` | Remove the locally stored key. |
+| `mcp` | Start the MCP server on stdio (same tools, for MCP clients). |
+
+### Overview and reports
+
+| Command | What it does |
+| --- | --- |
+| `funnel` | AI pipeline, last 30 days: crawler hits, AI-referred visits. |
+| `report` | Executive summary: last 30 days vs the 30 before. |
+| `wins` | Biggest wins: most-cited page, cite-rate jump, ranking climb, best new backlink (spam left out). |
+| `agent-activity` | Recent runs per agent lane. `--per-agent <n>`, `--since-days <n>`. |
+| `jobs` | Recent agent runs and async job status. `--limit <n>`. |
+| `traffic` | Page views, visitors, sessions, bounce rate. `--days <n>`. `--scope site`: the whole site from Google Analytics (visits, from search, from AI, top pages, AI key events and revenue), when connected. |
+| `ai-crawling` | AI crawler visits: the total, each crawler's visits with the busiest first, and each day's visits per crawler. `--days 7\|30\|90`. |
+| `engagement` | Per-page views and citations with 30-day sparklines. |
+
+### Visibility
+
+| Command | What it does |
+| --- | --- |
+| `score` | Composite visibility score with per-pillar subscores. `--topic <topic>`, `--engines <ids>`. |
+| `expedition` | The workspace's expeditions on the Overview: the current expedition, each step's name and whether it is done, and the next step. |
+| `visibility` | Daily AI visibility trend. `--days 30\|60\|90`, `--topic <topic>`, `--engines <ids>`. |
+| `sov` | Share of voice vs competitors. `--days <n>`, `--topic <topic>`, `--engines <ids>`. |
+| `sources` | Domains AI answers cite for tracked queries. `--days <n>`, `--topic <topic>`, `--engines <ids>`. `--pages` lists the cited pages instead, each with its type and its answers this 30 days and the 30 before. |
+| `sentiment` | How AI answers frame the brand when cited. `--days <n>`, `--topic <topic>`, `--engines <ids>`. |
+| `citations` | Recent citation checks; `branded` marks one whose question names your brand. `contradiction` marks one whose answer contradicts one of your facts. `--model chatgpt\|perplexity\|claude\|gemini\|grok\|google_ai_mode\|google_ai_overview`, `--limit <n>`, `--topic <topic>`, `--engines <ids>`. `--csv` prints CSV instead of JSON. |
+| `rankings` | Verified Google and Bing positions per keyword, Search Console clicks and impressions when connected, and whether Google's AI Overview showed and cited the page. `--scope ours\|site`. |
+| `queries` | List the tracked queries, each with how many of the AI engines that answered it cited it in their latest check; `noAnswer` names an engine with no answer (Google shows an AI Overview for some questions only). `branded` marks a question that names your brand, which doesn't count toward your score. `--topic <topic>`, `--engines <ids>`. `--csv` prints CSV instead of JSON. |
+| `query-slots` | Tracking slots in use and the plan's limit. |
+| `query-add <queryText>` | Add a query to the pool. `--covered-by <contentId>` when an existing article already answers it, so Plan Content does not offer it again. |
+| `query-edit <queryId> <text>` | Rewrite a tracked query; future checks use the new text. |
+| `query-track <queryId> <on\|off>` | Pause or resume weekly checks; tracking consumes a plan slot. |
+| `query-remove <queryId>` | Delete a query from the pool. |
+| `competitors` | Tracked competitors with their other names and sites, visibility score, 30-day citations of checks, 30-day win rate, domain metrics and positioning analysis. `--topic <topic>`, `--engines <ids>`. |
+| `web-totals` | Monthly web total for your domain and every competitor you track, last 3 months, oldest month first. |
+| `footprint` | Web footprint (0-10) for your domain and every competitor you track, with the median peer. |
+| `competitor-add <name> [url]` | Track a competitor (max 10). The site is resolved from the name when the URL is omitted. |
+| `competitor-edit <competitorId>` | Set a tracked competitor's other names and sites: `--aliases` and `--sites`, comma-separated, each replacing its list. Removing one waits for the owner's approval in RankControl. |
+| `competitor-remove <competitorId>` | Stop tracking a competitor (waits for the owner's approval in RankControl). |
+| `crawler-access` | Is the site's edge or robots.txt blocking GPTBot and ClaudeBot. |
+
+`--topic` takes a topic's id or name from `topics`, or `none` for the questions with no topic.
+`--engines` takes engine ids, comma-separated (`chatgpt,claude`), and counts only those engines' answers.
+
+### Content
+
+Article lifecycle: `planned` (title on the calendar, no body yet) -> `draft`
+(body written, ready to publish) -> `published` (live on the customer's site)
+-> `archived`. There is no "approved" status; generation progress is a
+separate field, not a status. `content` returns a bare JSON array.
+
+| Command | What it does |
+| --- | --- |
+| `content` | List content pages with status. |
+| `insights` | Action Items: what to work on next on your site, with the evidence for each item. |
+| `insight-plan <itemId>` | Plan up to 3 articles that link to the item's page. **Dry run** until `--confirm`. |
+| `insight-hide <itemId>` | Hide an action item. It moves under Done as Hidden and does not come back. |
+| `insight-move <itemId>` | Save a search no page is about for Plan Content, tagged Search Console. The item moves under Done. |
+| `plan-content` | Show the next batch of titles. **Dry run** until `--confirm`. `--keep a,b` limits it to those titles. Options: `--news` for this week's news instead of the next batch; `--subject <text>` with `--topics a,b` for titles about one subject. |
+| `commit-titles` | Add reviewed titles to the calendar from JSON (`--file` or stdin): the ones `plan-content` returned with a runId. |
+| `remove-title <titleId>` | Remove a title from the next batch or this week's news for good. It waits for the workspace owner. |
+| `capacity` | Remaining plan slots on the calendar. |
+| `generate <contentId>` | Write a planned article's body. **Dry run**; costly, runs on `--confirm`. |
+| `write` | Write several planned articles one after another: `--next <n>` or `--ids a,b`; `--publish` publishes each one once it is written. News and trending articles are written but not published. **Dry run** until `--confirm`. |
+| `write-runs` | Recent write runs: each article's state and why a run stopped. |
+| `write-stop <runId>` | Stop a write run. Nothing new starts; an article being written finishes as a draft. |
+| `publish <contentId>` | Publish to the connected CMS. **Dry run** until `--confirm`. |
+| `meta <contentId>` | Change an article's title, meta title or meta description (`--title`, `--meta-title`, `--meta-description`). **Dry run** until `--confirm`. |
+| `reschedule <contentId> <date>` | Move a planned article to a day (`YYYY-MM-DD`). |
+| `article-set <contentId>` | Change a planned article's length, tone, image style or instructions. |
+| `delete-planned <contentId>` | Remove a planned title; its search stays saved for Plan Content. |
+| `archive <contentId>` | Archive an article out of the working set. |
+| `topics` | The pillar list (topic clusters) searches and articles group under, each with how many tracked questions it holds. |
+| `topics-set <topics...>` | Replace the FULL pillar list; read `topics` first and send every topic that should exist. Up to 20 topics. |
+| `optimizer` | Published pages ranked by citability, worst first, with open fixes. |
+| `internal-links <contentId>` | Inbound and outbound internal links for an article. |
+| `impact <contentId>` | An article's questions in AI answers: the 4 weeks before it went live against every answer since. |
+
+### Article policy
+
+| Command | What it does |
+| --- | --- |
+| `settings` | Show the article policy: per-article defaults plus scheduling mode. |
+| `settings-set` | Merge-patch the policy; only flags you pass change. Flags: `--auto-publish on\|off`, `--auto-generate on\|off`, `--images on\|off`, `--title-in-hero on\|off`, `--section-infographics on\|off`, `--related-reading on\|off`, `--youtube on\|off`, `--emojis on\|off`, `--internal-links <n>`, `--external-links <n>`, `--instructions <text>`, `--flexible-schedule on\|off`, `--image-style <style>`. |
+
+### Site links
+
+| Command | What it does |
+| --- | --- |
+| `site-pages` | Pages used for in-article links and Related Reading. |
+| `detect-links <url>` | Scan a sitemap for site pages. `--blog-root` to crawl a page instead. |
+| `add-pages <urls...>` | Add page URLs for internal linking; dedupes, titles auto-fill. |
+| `site-page-linking <pageId> <on\|off>` | Turn linking to a site page on or off. Off keeps the page in your list, but articles published after this don't link to it. |
+| `site-page-remove <pageId>` | Remove a page from your site pages. Articles published after this don't link to it, and scans don't add it back; add-pages adds it again. |
+
+### Repurposing
+
+| Command | What it does |
+| --- | --- |
+| `repurpose [contentId]` | The repurpose queue, or full drafts for one article. |
+| `repurpose-generate <contentId>` | Draft social posts. **Dry run**. |
+| `repurpose-edit <draftId>` | Edit a draft. `--body`, `--title`. |
+| `repurpose-channels` | Connected Postiz and Buffer channels and their ids. |
+| `repurpose-push <draftId>` | Send to Postiz or Buffer. **Dry run**; `--channels id1,id2`, `--when now\|schedule\|draft\|queue` (queue is Buffer only), `--date <iso>`, `--scheduler postiz\|buffer` when both are connected. |
+| `repurpose-mark-posted <draftId>` | Mark a draft posted when published manually. |
+
+### Link building
+
+| Command | What it does |
+| --- | --- |
+| `backlinks` | The backlink table, newest first, with each linking site's Domain Rating and spam verdict. `--status <status>`. |
+| `backlink-stats` | Totals plus outreach pipeline counts, with the hidden spam counted apart and the last 12 weekly checks. |
+| `outreach-prospects` | Prospect sites per published article, with Domain Rating (`dr`, `drSource`: whether the rating is measured or estimated), found contacts, and each prospect's next step (`nextMove`) and stage. `--ai-sources`: only AI sources, pages AI engines cite for your tracked questions, each with the product or service it offers (needs one in Brand Control). |
+| `outreach-stats` | Outreach funnel for the last 90 days by how each prospect was found: prospects, sent, replied, placed, with reply and placement rates per send. |
+| `outreach-find-contact <backlinkId>` | Find a contact email for a prospect. |
+| `outreach-draft-reply <backlinkId>` | AI-draft a reply to an inbound response. Nothing sends. |
+| `outreach-queue <backlinkId>` | Queue an outreach email. **Dry run**; `--subject`, `--body`. |
+| `outreach-status <backlinkId> <status>` | Move a prospect: `identified`, `contacted`, `replied`, `link_placed`, `rejected`. |
+| `outreach-ai-source-product <backlinkId> <productId>` | Change the product or service an AI source offers, until its pitch is queued (product ids from `brand`). |
+| `outreach-cancel <backlinkId>` | Cancel a queued outreach email (first email, reply or follow-up) before it sends. |
+
+### Social
+
+| Command | What it does |
+| --- | --- |
+| `social` | Thread prospects (Reddit/X) with rules context, each thread's next step (`nextMove`) and stage. `--platform`, `--status`, `--stage`, `--age ranked\|new`, `--ai-sources` for only the threads AI engines cite for your tracked questions (needs a product or service in Brand Control). |
+| `social-stats` | Thread pipeline counts. |
+| `social-status <threadId> skipped` | Skip a thread. The only manual status; Posted is detected automatically. |
+| `social-draft-reply <threadId>` | AI-draft a reply for review. `--mention none\|natural\|founderOpen`. Nothing posts. |
+| `social-open <threadId>` | Take the draft to the platform yourself: prints the thread URL (X: a composer link with the reply filled in) and starts the checks that mark it Posted. `--text` for an edited reply (X: 280 characters or fewer). |
+| `social-x-handle <handle\|clear>` | Optional X handle used to recognise your posted replies. |
+| `social-reddit-profile` | Save the Reddit account the Social tab drafts for: `--karma`, `--age`, `--goal`, `--story`, `--tone`, optional `--username`. Replaces the stored profile. |
+
+### Brand
+
+| Command | What it does |
+| --- | --- |
+| `brand` | Brand profile, products, buyer profiles (ICPs) and brand guidelines in one read. |
+| `brand-set` | Update identity: `--name`, `--industry`, `--description`, `--aliases` (other spellings searched as brand mentions, comma-separated), `--not-us` (same-name brands to skip), or `--json` for authors (EEAT bylines) and styleReferenceUrls. Arrays replace the stored list; a name change runs the mention search once a day at most. |
+| `brand-profile-set` | Patch voice and style fields, and the Local business switch (`localBusiness`, `serviceArea`). `--json '{"tone":"..."}'` or `--json @file.json`. |
+| `brand-product` | Create, update, or delete a product via `--json` (create: name, description, category; update: productId; delete: productId plus `"del": true`). |
+| `brand-icp` | Same semantics for buyer profiles (create: title, industry, demographics). |
+| `icp-suggest` | Suggest up to 8 audiences for this site from its brand, products, competitors and topics. Saves nothing. `--exclude <titles...>` for different ones. |
+| `icp-draft` | Draft one buyer profile to review: `--describe <sentence>`, or `--title` and `--who` from a suggestion; `--json` keeps the fields you pass and fills the rest. Saves nothing; save it with `brand-icp`. |
+| `brand-reviewed` | Mark the brand as reviewed (Expedition I). |
+| `objections` | The objections AI raises about you, with how many answers raised each and the engines (Buyer Profiles' suggestions). |
+| `objection-add <suggestionId> <profileId>` | Add one to a buyer profile: first in its objections. `--text` saves it in your own words. |
+| `objection-dismiss <suggestionId>` | Dismiss one; it isn't suggested again. Waits for the owner. |
+| `guideline-add <type> <avoid> <instead>` | Add a brand guideline. |
+| `guideline-on <id>` | Turn a brand guideline on. |
+| `guideline-off <id>` | Turn a brand guideline off. |
+| `guideline-remove <id>` | Delete a brand guideline. |
+| `facts` | The facts AI's answers are checked against, and the contradictions of the last 30 days. |
+| `fact-add <type> <text>` | Add a fact. Types: price, plan, integration, guarantee, other. |
+| `fact-edit <id>` | Edit a fact. `--text`, `--type`. |
+| `fact-delete <id>` | Delete a fact (waits for the owner). |
+
+### Team
+
+| Command | What it does |
+| --- | --- |
+| `team` | Members and pending invites with per-screen permissions. |
+| `team-invite <email>` | Invite a member. **Dry run**; `--perms content=write,analytics=read`. |
+| `team-revoke <invitationId>` | Revoke a pending invite. |
+| `team-remove <userId>` | Remove a member. Requires `--confirm`. |
+| `approval <approvalId>` | Where a change that waits for the workspace owner stands, and what happened. |
+
+### Analytics setup and integrations
+
+Setup-time commands; most workspaces touch these once.
+
+| Command | What it does |
+| --- | --- |
+| `analytics-sources` | Which source writes human-traffic and AI-crawler data. |
+| `analytics-set-source <dataType> <source>` | Select the writer: `aiCrawlers` x `cloudflare`/`wordpress_plugin`/`site_hook`. |
+| `analytics-activate <screen>` | One-time activation of the Analytics or Reports screen. |
+| `cloudflare-connect` | OAuth URL for read-only Cloudflare crawler analytics (human opens it). |
+| `cloudflare-zones` / `cloudflare-zone <id> <name>` | List zones on the grant; pick the one to poll. |
+| `framer-install-embed` | Install visit tracking on the Framer project. **Dry run**; installing also publishes the site. |
+| `webflow-custom-code` | Apply the tracking loader via Webflow Custom Code. **Dry run**. |
+
+### Support
+
+| Command | What it does |
+| --- | --- |
+| `support <subject>` | Message the RankControl team. `--message <text>` required, `--page <url>` optional. Capped 3/min. |
+| `help-page [page]` | Read a help page: setup guides for each publishing destination, the crawler and our IP, the API, CLI and MCP, and the plan and pricing; without a page, list the pages. |
+| `guides <question>` | Search the guides on RankControl's blog about SEO and AI search; prints the sections that best answer the question, each with its guide's link. |
+| `billing` | Billing as Settings, Billing shows it: status, billing cycle, next charge, add-ons, usage and recent payments (read-only). |
+
+## Worked examples
+
+**Morning visibility check, then plan the next batch:**
+
+```bash
+rankcontrol score
+rankcontrol citations --limit 20
+rankcontrol plan-content
+# show the titles to the user, then add the ones they want:
+rankcontrol plan-content --confirm --keep <id>,<id>
+```
+
+**Write and publish the next planned articles:**
+
+```bash
+rankcontrol write --next 4 --publish       # dry run: which articles, and what would stop each
+rankcontrol write --next 4 --publish --confirm
+rankcontrol write-runs                     # Writing, Written, Publishing, Live
+```
+
+**Publish one article:**
+
+```bash
+# publishable = body written but not live yet
+rankcontrol content | jq '[.[] | select(.status=="draft")][0]'
+rankcontrol publish <contentId> --confirm
+```
+
+Dry-run responses come back as `{"dryRun":true,...}` with a hint naming both
+forms: `confirm: true` for the API and MCP, `--confirm` for the CLI.
+
+**Repurpose a published article to social drafts:**
+
+```bash
+rankcontrol repurpose
+rankcontrol repurpose-generate <contentId>
+rankcontrol repurpose <contentId>          # read the drafts back
+# edits, then push only where the user wants it:
+rankcontrol repurpose-push <draftId> --channels <id> --when draft
+```
+
+## Troubleshooting
+
+| Symptom | Meaning |
+| --- | --- |
+| `HTTP 401` | No valid key. Run `rankcontrol login` or set `RANKCONTROL_API_KEY`. |
+| `HTTP 403` | Key lacks the scope for this command. Tell the user which command failed; scopes are edited in Dashboard -> Settings -> API Keys. |
+| `HTTP 429` | Rate limit. Wait a minute; slow the loop. |
+| `{"dryRun":true,...}` | Not an error. The action is previewed and needs `--confirm`. |
+| `{"status":"approval_required",...}` | Not an error. The change waits for the workspace owner; give the user the `approveUrl`. |
