@@ -1,8 +1,8 @@
 ---
 name: seo-serp-features
-description: "Featured snippets, People Also Ask, sitelinks, rich SERP layouts and click-through optimization. Auto-generated from 3 findings across 3 sources."
-last_updated: 2026-09-17
-findings: 3
+description: "Featured snippets, People Also Ask, sitelinks, rich SERP layouts and click-through optimization. Auto-generated from 4 findings across 3 sources."
+last_updated: 2026-11-10
+findings: 4
 sources: 3
 confidence: low
 ---
@@ -22,12 +22,14 @@ Use when chasing or defending a featured snippet, diagnosing CTR drops at stable
 
 ## Recent developments
 
+- **How To Discover Citation Opportunities in Moz AI Visibility** — 2026-11-10 · Moz (YouTube) — Mentions are the new rankings, and AI engines don't create answers out of thin air. ([link](https://www.youtube.com/watch?v=laDB9DFAlYs))
 - **How To Discover Citation Opportunities in Moz AI Visibility** — 2026-09-17 · Moz (YouTube) — Mentions are the new rankings, and AI engines don't create answers out of thin air. ([link](https://www.youtube.com/watch?v=ofc7dUnOpgw))
 - **7 Website Marketing Strategies for 2026** — 2026-08-19 · Backlinko — Website marketing in 2026 no longer works the way it used to. ([link](https://backlinko.com/website-marketing))
 - **Does updating meta descriptions affect crawl frequency or only click-through rate?** — 2026-07-21 · Webmasters Stack Exchange — I know that Google says meta descriptions aren't a direct ranking factor, but I'm curious whether updating meta descriptions across a large number of pages has any impact on crawl frequency or indexing. ([link](https://webmasters.stackexchange.com/questions/148783/does-updating-meta-descriptions-affect-crawl-frequency-or-only-click-through-rat))
 
 ## References
 
+- [How To Discover Citation Opportunities in Moz AI Visibility](https://www.youtube.com/watch?v=laDB9DFAlYs) — Moz (YouTube) · 2026-11-10
 - [How To Discover Citation Opportunities in Moz AI Visibility](https://www.youtube.com/watch?v=ofc7dUnOpgw) — Moz (YouTube) · 2026-09-17
 - [7 Website Marketing Strategies for 2026](https://backlinko.com/website-marketing) — Backlinko · 2026-08-19
 - [Does updating meta descriptions affect crawl frequency or only click-through rate?](https://webmasters.stackexchange.com/questions/148783/does-updating-meta-descriptions-affect-crawl-frequency-or-only-click-through-rat) — Webmasters Stack Exchange · 2026-07-21
@@ -35,6 +37,6 @@ Use when chasing or defending a featured snippet, diagnosing CTR drops at stable
 ## How this skill stays current
 
 - Regenerated on 2026-11-10 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
-- Coverage window: 2026-07-21 → 2026-09-17.
-- 3 findings from 3 sources; confidence is **low**.
+- Coverage window: 2026-07-21 → 2026-11-10.
+- 4 findings from 3 sources; confidence is **low**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

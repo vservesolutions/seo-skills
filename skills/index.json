@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-10T17:05:01.460Z",
+  "generatedAt": "2026-11-10T23:25:51.587Z",
   "counts": {
     "skills": 38,
-    "findings": 263,
+    "findings": 276,
     "sources": 23
   },
   "skills": [
@@ -79,9 +79,9 @@
       "whenToUse": "Use when building a content plan, deciding what to refresh or prune, mapping clusters and pillars, or explaining why a section of the site lost traffic.",
       "path": "skills/content-strategy/SKILL.md",
       "parent": null,
-      "findings": 6,
+      "findings": 7,
       "sources": 6,
-      "lastUpdated": "2026-11-09",
+      "lastUpdated": "2026-11-10",
       "confidence": "medium"
     },
     {
@@ -92,9 +92,9 @@
       "whenToUse": "Use when planning new pages, classifying intent, sizing demand, clustering keywords by SERP overlap, or mapping queries to URLs.",
       "path": "skills/keyword-research/SKILL.md",
       "parent": null,
-      "findings": 13,
+      "findings": 14,
       "sources": 11,
-      "lastUpdated": "2026-11-06",
+      "lastUpdated": "2026-11-10",
       "confidence": "medium"
     },
     {
@@ -170,7 +170,7 @@
       "whenToUse": "Use when organic traffic is absorbed by AI answers, when planning visibility in AI Overviews or chat assistants, or when deciding on llms.txt and AI crawler access.",
       "path": "skills/ai-search-geo/SKILL.md",
       "parent": null,
-      "findings": 108,
+      "findings": 117,
       "sources": 20,
       "lastUpdated": "2026-11-10",
       "confidence": "high"
@@ -183,10 +183,10 @@
       "whenToUse": "Use when rankings shift sharply, when a manual action or policy issue appears, or when assessing whether a site is exposed to a new spam policy.",
       "path": "skills/algorithm-updates/SKILL.md",
       "parent": null,
-      "findings": 14,
-      "sources": 6,
-      "lastUpdated": "2026-11-09",
-      "confidence": "medium"
+      "findings": 16,
+      "sources": 7,
+      "lastUpdated": "2026-11-10",
+      "confidence": "high"
     },
     {
       "slug": "serp-features",
@@ -196,9 +196,9 @@
       "whenToUse": "Use when chasing or defending a featured snippet, diagnosing CTR drops at stable rankings, or planning for SERP layout changes.",
       "path": "skills/serp-features/SKILL.md",
       "parent": null,
-      "findings": 3,
+      "findings": 4,
       "sources": 3,
-      "lastUpdated": "2026-09-17",
+      "lastUpdated": "2026-11-10",
       "confidence": "low"
     },
     {
@@ -339,9 +339,9 @@
       "whenToUse": "Use when the task involves topical authority and content clusters.",
       "path": "skills/topical-authority/SKILL.md",
       "parent": "content-strategy",
-      "findings": 1,
-      "sources": 1,
-      "lastUpdated": "2026-10-09",
+      "findings": 2,
+      "sources": 2,
+      "lastUpdated": "2026-11-10",
       "confidence": "low"
     },
     {
@@ -430,7 +430,7 @@
       "whenToUse": "Use when the task involves ai overviews and ai mode.",
       "path": "skills/ai-overviews/SKILL.md",
       "parent": "ai-search-geo",
-      "findings": 38,
+      "findings": 40,
       "sources": 14,
       "lastUpdated": "2026-11-10",
       "confidence": "high"
@@ -482,10 +482,10 @@
       "whenToUse": "Use when the task involves core algorithm updates.",
       "path": "skills/core-updates/SKILL.md",
       "parent": "algorithm-updates",
-      "findings": 3,
-      "sources": 3,
-      "lastUpdated": "2026-11-09",
-      "confidence": "low"
+      "findings": 5,
+      "sources": 4,
+      "lastUpdated": "2026-11-10",
+      "confidence": "medium"
     },
     {
       "slug": "spam-policy",
@@ -495,10 +495,10 @@
       "whenToUse": "Use when the task involves spam policy and manual actions.",
       "path": "skills/spam-policy/SKILL.md",
       "parent": "algorithm-updates",
-      "findings": 4,
-      "sources": 2,
-      "lastUpdated": "2026-11-06",
-      "confidence": "low"
+      "findings": 5,
+      "sources": 3,
+      "lastUpdated": "2026-11-10",
+      "confidence": "medium"
     }
   ]
 }
