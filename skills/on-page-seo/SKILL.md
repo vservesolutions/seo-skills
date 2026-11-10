@@ -1,9 +1,9 @@
 ---
 name: seo-on-page-seo
-description: "Titles, meta descriptions, heading structure, keyword placement, E-E-A-T signals and page-level content quality. Auto-generated from 9 findings across 5 sources."
-last_updated: 2026-11-04
-findings: 9
-sources: 5
+description: "Titles, meta descriptions, heading structure, keyword placement, E-E-A-T signals and page-level content quality. Auto-generated from 10 findings across 6 sources."
+last_updated: 2026-11-10
+findings: 10
+sources: 6
 confidence: medium
 ---
 
@@ -31,6 +31,7 @@ Use when optimizing an existing page, rewriting titles and meta descriptions, fi
 
 ## Recent developments
 
+- **The Content Google Rewards in 2027 (That AI Can’t Copy)** — 2026-11-10 · Semrush (YouTube) — 👉 Turn topic ideas into SEO-ready articles using the Semrush Content Toolkit. ([link](https://www.youtube.com/watch?v=OkqtB_ogE9U))
 - **Reddit Adds Ads To Search, Expands Keyword Targeting** — 2026-11-04 · Search Engine Journal — Reddit is testing ads in its own search results with select advertisers and may match ads to what people search for. ([link](https://www.searchenginejournal.com/reddit-begins-testing-ads-in-its-own-search-results/595935))
 - **Image SEO: How to optimize alt and title text** — 2026-10-27 · Yoast SEO Blog — Adding alt text improves accessibility and SEO, as it helps screen readers and search engines understand images. ([link](https://yoast.com/image-seo-alt-tag-and-title-tag-optimization))
 - **Yoast AI Generate for image alt text: from flagged to fixed** — 2026-10-27 · Yoast SEO Blog — Yoast already shows you which product images are missing alt text. ([link](https://yoast.com/yoast-seo-oct-27-2026))
@@ -43,6 +44,7 @@ Use when optimizing an existing page, rewriting titles and meta descriptions, fi
 
 ## References
 
+- [The Content Google Rewards in 2027 (That AI Can’t Copy)](https://www.youtube.com/watch?v=OkqtB_ogE9U) — Semrush (YouTube) · 2026-11-10
 - [Reddit Adds Ads To Search, Expands Keyword Targeting](https://www.searchenginejournal.com/reddit-begins-testing-ads-in-its-own-search-results/595935) — Search Engine Journal · 2026-11-04
 - [Image SEO: How to optimize alt and title text](https://yoast.com/image-seo-alt-tag-and-title-tag-optimization) — Yoast SEO Blog · 2026-10-27
 - [Yoast AI Generate for image alt text: from flagged to fixed](https://yoast.com/yoast-seo-oct-27-2026) — Yoast SEO Blog · 2026-10-27
@@ -56,6 +58,6 @@ Use when optimizing an existing page, rewriting titles and meta descriptions, fi
 ## How this skill stays current
 
 - Regenerated on 2026-11-10 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
-- Coverage window: 2026-04-21 → 2026-11-04.
-- 9 findings from 5 sources; confidence is **medium**.
+- Coverage window: 2026-04-21 → 2026-11-10.
+- 10 findings from 6 sources; confidence is **medium**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

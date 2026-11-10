@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-10T07:23:17.044Z",
+  "generatedAt": "2026-11-10T17:05:01.460Z",
   "counts": {
-    "skills": 36,
-    "findings": 244,
+    "skills": 38,
+    "findings": 263,
     "sources": 23
   },
   "skills": [
@@ -14,9 +14,9 @@
       "whenToUse": "Use when a page is not indexed or indexed wrongly, when crawl stats look wasteful, when planning robots.txt, sitemaps, canonicals, noindex or JavaScript rendering fixes, or when auditing index coverage after a release.",
       "path": "skills/technical-crawling-indexing/SKILL.md",
       "parent": null,
-      "findings": 15,
-      "sources": 4,
-      "lastUpdated": "2026-11-03",
+      "findings": 17,
+      "sources": 6,
+      "lastUpdated": "2026-11-10",
       "confidence": "high"
     },
     {
@@ -40,9 +40,9 @@
       "whenToUse": "Use when diagnosing Core Web Vitals failures in Search Console or CrUX, improving LCP or INP, reducing layout shift, or setting performance budgets for a release.",
       "path": "skills/core-web-vitals-performance/SKILL.md",
       "parent": null,
-      "findings": 3,
-      "sources": 2,
-      "lastUpdated": "2026-08-19",
+      "findings": 4,
+      "sources": 3,
+      "lastUpdated": "2026-11-10",
       "confidence": "low"
     },
     {
@@ -66,9 +66,9 @@
       "whenToUse": "Use when optimizing an existing page, rewriting titles and meta descriptions, fixing thin or duplicated pages, or improving E-E-A-T signals on money pages.",
       "path": "skills/on-page-seo/SKILL.md",
       "parent": null,
-      "findings": 9,
-      "sources": 5,
-      "lastUpdated": "2026-11-04",
+      "findings": 10,
+      "sources": 6,
+      "lastUpdated": "2026-11-10",
       "confidence": "medium"
     },
     {
@@ -105,9 +105,9 @@
       "whenToUse": "Use when planning link acquisition, evaluating a backlink profile, cleaning a toxic profile, or responding to a link-related manual action.",
       "path": "skills/link-building/SKILL.md",
       "parent": null,
-      "findings": 6,
-      "sources": 5,
-      "lastUpdated": "2026-10-29",
+      "findings": 7,
+      "sources": 6,
+      "lastUpdated": "2026-11-10",
       "confidence": "medium"
     },
     {
@@ -118,10 +118,10 @@
       "whenToUse": "Use when a business needs local pack visibility, when reviews or categories are wrong, or when planning location and service-area pages.",
       "path": "skills/local-seo/SKILL.md",
       "parent": null,
-      "findings": 13,
+      "findings": 20,
       "sources": 8,
-      "lastUpdated": "2026-11-09",
-      "confidence": "medium"
+      "lastUpdated": "2026-11-10",
+      "confidence": "high"
     },
     {
       "slug": "international-seo",
@@ -157,9 +157,9 @@
       "whenToUse": "Use when building reports, explaining traffic changes, defining SEO KPIs, or instrumenting tracking for organic performance.",
       "path": "skills/analytics-measurement/SKILL.md",
       "parent": null,
-      "findings": 42,
+      "findings": 44,
       "sources": 13,
-      "lastUpdated": "2026-11-09",
+      "lastUpdated": "2026-11-10",
       "confidence": "high"
     },
     {
@@ -170,9 +170,9 @@
       "whenToUse": "Use when organic traffic is absorbed by AI answers, when planning visibility in AI Overviews or chat assistants, or when deciding on llms.txt and AI crawler access.",
       "path": "skills/ai-search-geo/SKILL.md",
       "parent": null,
-      "findings": 99,
+      "findings": 108,
       "sources": 20,
-      "lastUpdated": "2026-11-09",
+      "lastUpdated": "2026-11-10",
       "confidence": "high"
     },
     {
@@ -248,10 +248,10 @@
       "whenToUse": "Use when the task involves robots.txt and crawl directives.",
       "path": "skills/robots-txt/SKILL.md",
       "parent": "technical-crawling-indexing",
-      "findings": 4,
-      "sources": 3,
-      "lastUpdated": "2026-10-30",
-      "confidence": "low"
+      "findings": 5,
+      "sources": 4,
+      "lastUpdated": "2026-11-10",
+      "confidence": "medium"
     },
     {
       "slug": "internal-linking",
@@ -264,6 +264,32 @@
       "findings": 1,
       "sources": 1,
       "lastUpdated": "2026-08-03",
+      "confidence": "low"
+    },
+    {
+      "slug": "lcp",
+      "name": "seo-lcp",
+      "title": "Largest Contentful Paint (LCP)",
+      "description": "Largest Contentful Paint (LCP): specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves largest contentful paint (lcp).",
+      "path": "skills/lcp/SKILL.md",
+      "parent": "core-web-vitals-performance",
+      "findings": 1,
+      "sources": 1,
+      "lastUpdated": "2026-11-10",
+      "confidence": "low"
+    },
+    {
+      "slug": "inp",
+      "name": "seo-inp",
+      "title": "Interaction to Next Paint (INP)",
+      "description": "Interaction to Next Paint (INP): specific techniques, checks and pitfalls.",
+      "whenToUse": "Use when the task involves interaction to next paint (inp).",
+      "path": "skills/inp/SKILL.md",
+      "parent": "core-web-vitals-performance",
+      "findings": 1,
+      "sources": 1,
+      "lastUpdated": "2026-11-10",
       "confidence": "low"
     },
     {
@@ -300,9 +326,9 @@
       "whenToUse": "Use when the task involves e-e-a-t and author signals.",
       "path": "skills/eeat/SKILL.md",
       "parent": "on-page-seo",
-      "findings": 3,
-      "sources": 3,
-      "lastUpdated": "2026-09-10",
+      "findings": 4,
+      "sources": 4,
+      "lastUpdated": "2026-11-10",
       "confidence": "low"
     },
     {
@@ -378,9 +404,9 @@
       "whenToUse": "Use when the task involves search console analysis.",
       "path": "skills/search-console/SKILL.md",
       "parent": "analytics-measurement",
-      "findings": 15,
+      "findings": 16,
       "sources": 10,
-      "lastUpdated": "2026-11-09",
+      "lastUpdated": "2026-11-10",
       "confidence": "high"
     },
     {
@@ -404,9 +430,9 @@
       "whenToUse": "Use when the task involves ai overviews and ai mode.",
       "path": "skills/ai-overviews/SKILL.md",
       "parent": "ai-search-geo",
-      "findings": 32,
+      "findings": 38,
       "sources": 14,
-      "lastUpdated": "2026-11-09",
+      "lastUpdated": "2026-11-10",
       "confidence": "high"
     },
     {
@@ -443,9 +469,9 @@
       "whenToUse": "Use when the task involves chatgpt and assistant visibility.",
       "path": "skills/chatgpt-visibility/SKILL.md",
       "parent": "ai-search-geo",
-      "findings": 2,
-      "sources": 1,
-      "lastUpdated": "2026-11-04",
+      "findings": 3,
+      "sources": 2,
+      "lastUpdated": "2026-11-10",
       "confidence": "low"
     },
     {

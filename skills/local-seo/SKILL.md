@@ -1,10 +1,10 @@
 ---
 name: seo-local-seo
-description: "Local pack visibility, Business Profile optimization, reviews, citations and location page structure. Auto-generated from 13 findings across 8 sources."
-last_updated: 2026-11-09
-findings: 13
+description: "Local pack visibility, Business Profile optimization, reviews, citations and location page structure. Auto-generated from 20 findings across 8 sources."
+last_updated: 2026-11-10
+findings: 20
 sources: 8
-confidence: medium
+confidence: high
 ---
 
 # Local SEO and Google Business Profile
@@ -18,54 +18,57 @@ Use when a business needs local pack visibility, when reviews or categories are 
 ## Core practices
 
 1. Choose a one-, two- or three-month window, start with the topics where your citations are already concentrated, then work down the opportunity queries. — *Bing Webmaster Blog, 2026-10-13*
-2. Keep an eye on the Gemini help page for updates to its personal-account rule or one-profile limit. — *Search Engine Journal, 2026-11-06*
-3. Catches leads when you can't pick up: When you're mid-appointment or on an off-site job, customers have an immediate fallback to reach out to check availability, ask a question or clarify appointment details instead of giving up. — *Search Engine Roundtable, 2026-11-06*
-4. Use SEO to help people find your jewelry business during active searches. — *Yoast SEO Blog, 2026-10-30*
-5. Use local SEO techniques to connect with nearby customers while ensuring your website functions well for search engines. — *Yoast SEO Blog, 2026-10-30*
-6. AI Performance gives you a direct view into how your site contributes to AI-generated answers – from the grounding queries where it appears to the pages cited for each query. — *Bing Webmaster Blog, 2026-10-13*
-7. Learn more and sign up: https://moz.com/products/ai-explorer/pricing You don't need a steep learning curve or hours of setup. — *Moz (YouTube), 2026-10-13*
-8. Prompt Suggestions: Discover new topics and questions real people are asking AI, so you never run out of helpful content ideas. — *Moz (YouTube), 2026-10-13*
-9. Manage your booking links by going to your Google Business Profile in Google Search and clicking on the booking link - here is a screenshot of mine. — *Search Engine Roundtable, 2026-11-09*
-10. Google may automatically add booking links to some local business profile listings. — *Search Engine Roundtable, 2026-11-09*
-11. Sandler suggested Viator, Tripadvisor’s experiences booking site, has little SEO exposure. — *Search Engine Journal, 2026-11-08*
-12. Noonan attributed the increase to an ongoing move from free to paid channels caused by persistent SEO headwinds, mostly in Hotels and Other and on Tripadvisor’s own site. — *Search Engine Journal, 2026-11-08*
-13. Google says businesses that manage their Business Profile with a Google Workspace account are getting access to Gemini’s profile tools. — *Search Engine Journal, 2026-11-06*
-14. So it won't help understanding why mentions/clicks are increasing or decreasing, but combined with external tools that track prompts it will show accurate first-party data if GEO/AEO strategies are working," he added. — *Search Engine Roundtable, 2026-11-06*
-15. Lisa Landsman posted the details in the Google Business Help Forums and the item we did not cover was the section named "Messaging Expands to Google Maps. — *Search Engine Roundtable, 2026-11-06*
-16. Things to do is not new in Google Search, but Google has just added them to the aggregator unit and supplier unit help documentation. — *Search Engine Roundtable, 2026-11-09*
-17. Google already documented offer data metrics within Google Business Profiles performance metrics. — *Search Engine Roundtable, 2026-11-06*
+2. A separate academic study (80 questions, run 20 times each on GPT-5.3 and GPT-5.5 Instant, March to July 2026) found that those models never searched the user's exact wording. — *Ahrefs Blog, 2026-11-10*
+3. Some site owners don't want their work used to train AI for free, and big publishers often block it to keep leverage in licensing deals. — *Ahrefs Blog, 2026-11-10*
+4. Display targeting changes in Demand Gen campaigns starting the week of December 1, 2026 , Google Ads Developer Blog. — *Search Engine Roundtable, 2026-11-10*
+5. Google Ads: Ads With Pay-Per-Lead Goals Terms Google Ads is rolling out a new option named "Ads with pay-per-lead goals terms." Advertisers must opt into this setting to activate it. — *Search Engine Roundtable, 2026-11-10*
+6. Follow the steps below to use AI to automate and improve your competitive intelligence workflows. — *Semrush Blog, 2026-11-10*
+7. Use this prompt to spot trends across multiple sources of competitive intelligence over an extended period. — *Semrush Blog, 2026-11-10*
+8. Keep an eye on the Gemini help page for updates to its personal-account rule or one-profile limit. — *Search Engine Journal, 2026-11-06*
+9. Catches leads when you can't pick up: When you're mid-appointment or on an off-site job, customers have an immediate fallback to reach out to check availability, ask a question or clarify appointment details instead of giving up. — *Search Engine Roundtable, 2026-11-06*
+10. Use SEO to help people find your jewelry business during active searches. — *Yoast SEO Blog, 2026-10-30*
+11. Use local SEO techniques to connect with nearby customers while ensuring your website functions well for search engines. — *Yoast SEO Blog, 2026-10-30*
+12. AI Performance gives you a direct view into how your site contributes to AI-generated answers – from the grounding queries where it appears to the pages cited for each query. — *Bing Webmaster Blog, 2026-10-13*
+13. Your business must meet Google’s provider requirements and cooperate with verification checks. — *Search Engine Roundtable, 2026-11-10*
+14. Learn more and sign up: https://moz.com/products/ai-explorer/pricing You don't need a steep learning curve or hours of setup. — *Moz (YouTube), 2026-10-13*
+15. Prompt Suggestions: Discover new topics and questions real people are asking AI, so you never run out of helpful content ideas. — *Moz (YouTube), 2026-10-13*
+16. Yahoo wrote, "The new Yahoo Search evaluates each query and allows the user to pivot between traditional search results and a Yahoo Scout AI answer. — *Search Engine Roundtable, 2026-11-10*
+17. The new Yahoo Search experience is available on desktop and mobile web for users in the US, UK, Europe and Switzerland. — *Search Engine Roundtable, 2026-11-10*
+18. Manage your booking links by going to your Google Business Profile in Google Search and clicking on the booking link - here is a screenshot of mine. — *Search Engine Roundtable, 2026-11-09*
+19. Google may automatically add booking links to some local business profile listings. — *Search Engine Roundtable, 2026-11-09*
+20. Sandler suggested Viator, Tripadvisor’s experiences booking site, has little SEO exposure. — *Search Engine Journal, 2026-11-08*
 
 ## Recent developments
 
+- **Where Does ChatGPT Get Its Information? 4 Sources, Explained** — 2026-11-10 · Ahrefs Blog — The same study found that even Google's results and OpenAI's own search API combined only matched about 27% of the pages ChatGPT cited, and about half of the sites. ([link](https://ahrefs.com/blog/where-does-chatgpt-get-its-information))
+- **Yahoo Launches Pivot Search, Yahoo Scout App & More** — 2026-11-10 · Search Engine Roundtable — Yahoo announced updates across Yahoo Search and Yahoo Scout including that Yahoo Scout is now out of beta and Yahoo Search added Pivot Search. ([link](https://www.seroundtable.com/yahoo-pivot-search-yahoo-scout-42501.html))
+- **Daily Search Forum Recap: November 10, 2026** — 2026-11-10 · Search Engine Roundtable — Google Ads is rolling out a new option named "Ads with pay-per-lead goals terms." Bing is testing asking searchers questions to personalize the shopping search results. ([link](https://www.seroundtable.com/recap-11-10-2026-42494.html))
+- **Google AI Overview Local Pack Dropping Action Buttons** — 2026-11-10 · Search Engine Roundtable — Google is testing removing the action buttons, reviews, photos, etc from the AI Overview version of the local pack. ([link](https://www.seroundtable.com/google-ai-overview-local-pack-action-buttons-42483.html))
+- **How to use AI for competitive intelligence (10 prompts to try)** — 2026-11-10 · Semrush Blog — In this article, I'll give you 10 prompts to help you use AI effectively to gather, organize, and act on your competitive intelligence. ([link](https://www.semrush.com/blog/ai-in-competitive-intelligence))
+- **Google Ads With Pay-Per-Lead Goals Terms** — 2026-11-10 · Search Engine Roundtable — Google Ads is rolling out a new option named "Ads with pay-per-lead goals terms." Advertisers must opt into this setting to activate it. ([link](https://www.seroundtable.com/google-ads-with-pay-per-lead-goals-terms-42490.html))
+- **Google Product Results With Filter For Non-Incentivized Reviews** — 2026-11-10 · Search Engine Roundtable — Here is a screenshot of this filter - it shows up for me for almost all product listings and all queries across Search, Shopping and AI Mode: The screenshot above is from Search but again, it works in AI Mode and Google Shopping as well. ([link](https://www.seroundtable.com/google-product-non-incentivized-reviews-42491.html))
 - **Google Adding Booking Links To Business Profiles** — 2026-11-09 · Search Engine Roundtable — Google may automatically add booking links to some local business profile listings. ([link](https://www.seroundtable.com/google-business-profiles-adding-booking-links-42477.html))
 - **Google Aggregator & Supplier Units Gain Things To Do Support** — 2026-11-09 · Search Engine Roundtable — Google has updated two help documents, the aggregator unit and supplier unit documentation to include support for "things to do" queries. ([link](https://www.seroundtable.com/google-aggregator-supplier-units-things-to-do-42484.html))
 - **Tripadvisor Says SEO Will Still Weigh On Growth In 2027** — 2026-11-08 · Search Engine Journal — Tripadvisor recorded a $369.5 million writedown on its legacy hotels and advertising business in the third quarter, and its CFO said on the earnings call that SEO will still be a headwind to growth in 2027. ([link](https://www.searchenginejournal.com/tripadvisor-says-seo-will-still-weigh-on-growth-in-2027/596257))
-- **Google Gemini Business Profile Tools Are Coming To Workspace** — 2026-11-06 · Search Engine Journal — Google says businesses that manage their Business Profile with a Google Workspace account are getting access to Gemini’s profile tools. ([link](https://www.searchenginejournal.com/google-gemini-business-profile-workspace-2/596120))
-- **OpenAI Creating ChatGPT Tools For Business For Analytics & Citations** — 2026-11-06 · Search Engine Roundtable — This tool will let you "Claim your business in ChatGPT." This will allow businesses to: See how your business shows up: Track how often your business is mentioned in ChatGPT conversations. ([link](https://www.seroundtable.com/chatgpt-tools-for-business-42476.html))
-- **Google Business Profiles Manage Offers** — 2026-11-06 · Search Engine Roundtable — Google has created a new help document named Manage offers on your Business Profile. ([link](https://www.seroundtable.com/google-business-profiles-manage-offers-42471.html))
-- **Google Expands Business Messaging To Google Maps On Android and iOS** — 2026-11-06 · Search Engine Roundtable — Google published its monthly "Google Small Business Bulletin" where it gives tips and recaps what new features launched in Google Maps and Google Business Profiles. ([link](https://www.seroundtable.com/google-maps-messaging-android-ios-42472.html))
-- **More than bling: How SEO can help your jewelry brand get found** — 2026-10-30 · Yoast SEO Blog — In this guide, we’ll explore why SEO matters for jewelry businesses, what people and AI models are searching for, and how to make your website shine in search. ([link](https://yoast.com/seo-tip-for-jewelers))
-- **How Stable Are AI Citations? 10 Things We Learned Tracking 37,500 Citations** — 2026-10-29 · Ahrefs Blog — Key takeaways: Treat citation volatility as normal. ([link](https://ahrefs.com/blog/how-stable-are-ai-citations))
-- **Google My Business: A guide to Google Business Profile** — 2026-10-26 · Semrush Blog — Google Business Profile (formerly Google My Business) is a free business listing that supports reviews, Q&As, posts, and more. ([link](https://www.semrush.com/blog/google-my-business))
 
 ## References
 
+- [Where Does ChatGPT Get Its Information? 4 Sources, Explained](https://ahrefs.com/blog/where-does-chatgpt-get-its-information) — Ahrefs Blog · 2026-11-10
+- [Yahoo Launches Pivot Search, Yahoo Scout App & More](https://www.seroundtable.com/yahoo-pivot-search-yahoo-scout-42501.html) — Search Engine Roundtable · 2026-11-10
+- [Daily Search Forum Recap: November 10, 2026](https://www.seroundtable.com/recap-11-10-2026-42494.html) — Search Engine Roundtable · 2026-11-10
+- [Google AI Overview Local Pack Dropping Action Buttons](https://www.seroundtable.com/google-ai-overview-local-pack-action-buttons-42483.html) — Search Engine Roundtable · 2026-11-10
+- [How to use AI for competitive intelligence (10 prompts to try)](https://www.semrush.com/blog/ai-in-competitive-intelligence) — Semrush Blog · 2026-11-10
+- [Google Ads With Pay-Per-Lead Goals Terms](https://www.seroundtable.com/google-ads-with-pay-per-lead-goals-terms-42490.html) — Search Engine Roundtable · 2026-11-10
+- [Google Product Results With Filter For Non-Incentivized Reviews](https://www.seroundtable.com/google-product-non-incentivized-reviews-42491.html) — Search Engine Roundtable · 2026-11-10
 - [Google Adding Booking Links To Business Profiles](https://www.seroundtable.com/google-business-profiles-adding-booking-links-42477.html) — Search Engine Roundtable · 2026-11-09
 - [Google Aggregator & Supplier Units Gain Things To Do Support](https://www.seroundtable.com/google-aggregator-supplier-units-things-to-do-42484.html) — Search Engine Roundtable · 2026-11-09
 - [Tripadvisor Says SEO Will Still Weigh On Growth In 2027](https://www.searchenginejournal.com/tripadvisor-says-seo-will-still-weigh-on-growth-in-2027/596257) — Search Engine Journal · 2026-11-08
 - [Google Gemini Business Profile Tools Are Coming To Workspace](https://www.searchenginejournal.com/google-gemini-business-profile-workspace-2/596120) — Search Engine Journal · 2026-11-06
 - [OpenAI Creating ChatGPT Tools For Business For Analytics & Citations](https://www.seroundtable.com/chatgpt-tools-for-business-42476.html) — Search Engine Roundtable · 2026-11-06
-- [Google Business Profiles Manage Offers](https://www.seroundtable.com/google-business-profiles-manage-offers-42471.html) — Search Engine Roundtable · 2026-11-06
-- [Google Expands Business Messaging To Google Maps On Android and iOS](https://www.seroundtable.com/google-maps-messaging-android-ios-42472.html) — Search Engine Roundtable · 2026-11-06
-- [More than bling: How SEO can help your jewelry brand get found](https://yoast.com/seo-tip-for-jewelers) — Yoast SEO Blog · 2026-10-30
-- [How Stable Are AI Citations? 10 Things We Learned Tracking 37,500 Citations](https://ahrefs.com/blog/how-stable-are-ai-citations) — Ahrefs Blog · 2026-10-29
-- [Google My Business: A guide to Google Business Profile](https://www.semrush.com/blog/google-my-business) — Semrush Blog · 2026-10-26
-- [3x More ChatGPT Citations in 30 Days With Claude](https://www.youtube.com/shorts/UqbAQHv4V-k) — SE Ranking (YouTube) · 2026-10-23
-- [Track Brand Visibility, Citations, and Sentiment with Moz AI Explorer](https://www.youtube.com/watch?v=iO9QIMFzwJ8) — Moz (YouTube) · 2026-10-13
 
 ## How this skill stays current
 
 - Regenerated on 2026-11-10 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
-- Coverage window: 2026-10-13 → 2026-11-09.
-- 13 findings from 8 sources; confidence is **medium**.
+- Coverage window: 2026-10-13 → 2026-11-10.
+- 20 findings from 8 sources; confidence is **high**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.
