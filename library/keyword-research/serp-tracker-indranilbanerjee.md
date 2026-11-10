@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 934
-collected: "2026-11-09"
+collected: "2026-11-10"
 ---
 
 <!-- Unspecified skill · indranilbanerjee/digital-marketing-pro · skills/serp-tracker/SKILL.md · MIT

@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "Apache-2.0"
 stars: 5
-collected: "2026-11-09"
+collected: "2026-11-10"
 ---
 
 <!-- Claude Code skill · nstung463/kimi-agent-skills · skills/seo-copywriting-guide/SKILL.md · Apache-2.0

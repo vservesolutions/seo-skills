@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 9
-collected: "2026-11-09"
+collected: "2026-11-10"
 ---
 
 <!-- Unspecified skill · karero/croftweaver · skills/wordpress-inspector/SKILL.md · MIT

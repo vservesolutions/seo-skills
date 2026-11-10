@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 30
-collected: "2026-11-09"
+collected: "2026-11-10"
 ---
 
 <!-- Unspecified skill · ronaldships/foundvia-discovery · skills/seo-slug-dates/SKILL.md · MIT

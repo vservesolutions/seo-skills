@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 26
-collected: "2026-11-09"
+collected: "2026-11-10"
 ---
 
 <!-- Unspecified skill · dalroot/agentic-seo · skills/strategies/structure/seo/SKILL.md · MIT

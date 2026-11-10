@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 7
-collected: "2026-11-09"
+collected: "2026-11-10"
 ---
 
 <!-- Claude Code, Codex skill · risukisu/marketing-skills · skills/Marketing-Ops/content-strategy/SKILL.md · MIT

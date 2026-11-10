@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 21
-collected: "2026-11-09"
+collected: "2026-11-10"
 ---
 
 <!-- Unspecified skill · calm-north/seojuice-skills · skills/brief/SKILL.md · MIT

@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 2674
-collected: "2026-11-09"
+collected: "2026-11-10"
 ---
 
 <!-- Claude Code skill · AgriciDaniel/claude-blog · skills/blog-schema/SKILL.md · MIT

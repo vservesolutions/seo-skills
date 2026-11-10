@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "Apache-2.0"
 stars: 388
-collected: "2026-11-09"
+collected: "2026-11-10"
 ---
 
 <!-- Unspecified skill · inhouseseo/superseo-skills · skills/page-audit/SKILL.md · Apache-2.0

@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 10
-collected: "2026-11-09"
+collected: "2026-11-10"
 ---
 
 <!-- Codex skill · calven-ai/marketing-as-code · .agents/skills/aeo-page-optimize/SKILL.md · MIT

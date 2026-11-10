@@ -61,7 +61,7 @@ Use when the task involves search console analysis.
 
 ## How this skill stays current
 
-- Regenerated on 2026-11-09 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
+- Regenerated on 2026-11-10 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2026-07-29 → 2026-11-09.
 - 15 findings from 10 sources; confidence is **high**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 5
-collected: "2026-11-09"
+collected: "2026-11-10"
 ---
 
 <!-- Claude Code, Gemini CLI skill · ranjeeetvimal/growth-skills · PLG-Architect/skills/content-strategy/SKILL.md · MIT

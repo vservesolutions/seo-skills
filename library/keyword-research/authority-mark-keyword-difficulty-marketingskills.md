@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 10
-collected: "2026-11-09"
+collected: "2026-11-10"
 ---
 
 <!-- Codex skill · marketingskills/seo · skills/authority-mark-keyword-difficulty/SKILL.md · MIT

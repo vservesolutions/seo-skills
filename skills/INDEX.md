@@ -1,14 +1,14 @@
 # SEO Skills Index
 
-Generated 2026-11-09. 36 skills across 16 categories, from 242 findings.
+Generated 2026-11-10. 36 skills across 16 categories, from 244 findings.
 
 A category skill aggregates every finding in its area; sub-skills go deeper where evidence exists.
 
-## Technical SEO: Crawling, Indexing and Rendering · 14 findings
+## Technical SEO: Crawling, Indexing and Rendering · 15 findings
 
 | Skill | What it covers | Findings | Updated | Confidence |
 | --- | --- | ---: | --- | --- |
-| [Technical SEO: Crawling, Indexing and Rendering](technical-crawling-indexing/SKILL.md) | How search engines discover, crawl, render and index URLs, and how to remove crawl waste, duplicates and index bloat. | 14 | 2026-11-03 | medium |
+| [Technical SEO: Crawling, Indexing and Rendering](technical-crawling-indexing/SKILL.md) | How search engines discover, crawl, render and index URLs, and how to remove crawl waste, duplicates and index bloat. | 15 | 2026-11-03 | high |
 | [↳ Crawl Budget and Crawl Efficiency](crawl-budget/SKILL.md) | Crawl Budget and Crawl Efficiency: specific techniques, checks and pitfalls. | 2 | 2026-10-28 | low |
 | [↳ XML Sitemaps](sitemaps/SKILL.md) | XML Sitemaps: specific techniques, checks and pitfalls. | 1 | 2026-11-03 | low |
 | [↳ robots.txt and Crawl Directives](robots-txt/SKILL.md) | robots.txt and Crawl Directives: specific techniques, checks and pitfalls. | 4 | 2026-10-30 | low |
@@ -82,21 +82,21 @@ A category skill aggregates every finding in its area; sub-skills go deeper wher
 | --- | --- | ---: | --- | --- |
 | [Ecommerce SEO and Faceted Navigation](ecommerce-seo/SKILL.md) | Category and product page optimization, faceted navigation, variants, out-of-stock handling and merchant feeds. | 9 | 2026-11-09 | medium |
 
-## SEO Analytics, Reporting and Measurement · 41 findings
+## SEO Analytics, Reporting and Measurement · 42 findings
 
 | Skill | What it covers | Findings | Updated | Confidence |
 | --- | --- | ---: | --- | --- |
-| [SEO Analytics, Reporting and Measurement](analytics-measurement/SKILL.md) | Search Console and GA4 measurement, rank tracking, dashboards, forecasting and KPI definitions. | 41 | 2026-11-09 | high |
+| [SEO Analytics, Reporting and Measurement](analytics-measurement/SKILL.md) | Search Console and GA4 measurement, rank tracking, dashboards, forecasting and KPI definitions. | 42 | 2026-11-09 | high |
 | [↳ Search Console Analysis](search-console/SKILL.md) | Search Console Analysis: specific techniques, checks and pitfalls. | 15 | 2026-11-09 | high |
 | [↳ Rank Tracking and Visibility Reporting](rank-tracking/SKILL.md) | Rank Tracking and Visibility Reporting: specific techniques, checks and pitfalls. | 2 | 2026-11-07 | low |
 
-## AI Search, GEO and Answer Engines · 98 findings
+## AI Search, GEO and Answer Engines · 99 findings
 
 | Skill | What it covers | Findings | Updated | Confidence |
 | --- | --- | ---: | --- | --- |
-| [AI Search, GEO and Answer Engines](ai-search-geo/SKILL.md) | AI Overviews, AI Mode, LLM citation visibility, generative engine optimization and llms.txt conventions. | 98 | 2026-11-09 | high |
+| [AI Search, GEO and Answer Engines](ai-search-geo/SKILL.md) | AI Overviews, AI Mode, LLM citation visibility, generative engine optimization and llms.txt conventions. | 99 | 2026-11-09 | high |
 | [↳ AI Overviews and AI Mode](ai-overviews/SKILL.md) | AI Overviews and AI Mode: specific techniques, checks and pitfalls. | 32 | 2026-11-09 | high |
-| [↳ llms.txt and Agent Readability](llms-txt/SKILL.md) | llms.txt and Agent Readability: specific techniques, checks and pitfalls. | 1 | 2026-11-04 | low |
+| [↳ llms.txt and Agent Readability](llms-txt/SKILL.md) | llms.txt and Agent Readability: specific techniques, checks and pitfalls. | 2 | 2026-11-04 | low |
 | [↳ AI Citations and Brand Mentions](ai-citations/SKILL.md) | AI Citations and Brand Mentions: specific techniques, checks and pitfalls. | 7 | 2026-11-04 | medium |
 | [↳ ChatGPT and Assistant Visibility](chatgpt-visibility/SKILL.md) | ChatGPT and Assistant Visibility: specific techniques, checks and pitfalls. | 2 | 2026-11-04 | low |
 

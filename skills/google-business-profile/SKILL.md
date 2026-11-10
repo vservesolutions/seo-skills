@@ -43,7 +43,7 @@ Use when the task involves google business profile optimisation.
 
 ## How this skill stays current
 
-- Regenerated on 2026-11-09 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
+- Regenerated on 2026-11-10 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2026-10-26 → 2026-11-09.
 - 5 findings from 3 sources; confidence is **medium**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

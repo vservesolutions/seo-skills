@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "Apache-2.0"
 stars: 32
-collected: "2026-11-09"
+collected: "2026-11-10"
 ---
 
 <!-- Claude Code, OpenClaw skill · Cognitic-Labs/geoskills · skills/geo-compare/SKILL.md · Apache-2.0

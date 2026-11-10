@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 7
-collected: "2026-11-09"
+collected: "2026-11-10"
 ---
 
 <!-- Claude Code skill · mikiarlo3/enso-SEO-GEO · extensions/firecrawl/skills/seo-firecrawl/SKILL.md · MIT

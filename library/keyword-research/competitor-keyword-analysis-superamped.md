@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 74
-collected: "2026-11-09"
+collected: "2026-11-10"
 ---
 
 <!-- Claude Code skill · superamped/ai-marketing-skills · skills/research/competitor-keyword-analysis/SKILL.md · MIT

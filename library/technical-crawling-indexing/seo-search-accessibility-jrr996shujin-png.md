@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "awesome-seo-agent-skills"
 license: "MIT"
 stars: 13
-collected: "2026-11-09"
+collected: "2026-11-10"
 ---
 
 <!-- OpenClaw skill · jrr996shujin-png/openclaw-seo-aeo-skills · seo-aeo-diagnostics/search-accessibility/SKILL.md · MIT

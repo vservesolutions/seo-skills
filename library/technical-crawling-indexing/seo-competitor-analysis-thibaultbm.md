@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 18
-collected: "2026-11-09"
+collected: "2026-11-10"
 ---
 
 <!-- Claude Code skill · Thibaultbm/claude-seo-geo · skills/seo-competitor-analysis/SKILL.md · MIT

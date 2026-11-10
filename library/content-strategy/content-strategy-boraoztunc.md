@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "state"
 license: "Apache-2.0"
 stars: 454
-collected: "2026-11-09"
+collected: "2026-11-10"
 ---
 
 <!-- Unspecified skill · boraoztunc/skills · content-strategy/SKILL.md · Apache-2.0

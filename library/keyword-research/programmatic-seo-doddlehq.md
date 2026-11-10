@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 6
-collected: "2026-11-09"
+collected: "2026-11-10"
 ---
 
 <!-- Claude Code skill · DoddleHQ/DoddleOS · doddle-marketing-skills/.claude/skills/programmatic-seo/SKILL.md · MIT

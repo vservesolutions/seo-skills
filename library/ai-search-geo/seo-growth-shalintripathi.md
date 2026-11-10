@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 36
-collected: "2026-11-09"
+collected: "2026-11-10"
 ---
 
 <!-- Claude Code skill · shalintripathi/saas-marketing-agents · plugins/saas-marketing/skills/seo-growth/SKILL.md · MIT

@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 6
-collected: "2026-11-09"
+collected: "2026-11-10"
 ---
 
 <!-- Claude Code skill · Asolytics-Pro/asolytics-app-store-optimization-api · skills/asolytics-api/SKILL.md · MIT

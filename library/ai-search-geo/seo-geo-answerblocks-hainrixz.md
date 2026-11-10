@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 83
-collected: "2026-11-09"
+collected: "2026-11-10"
 ---
 
 <!-- Claude Code skill · Hainrixz/claude-seo-ai · skills/seo-geo-answerblocks/SKILL.md · MIT
