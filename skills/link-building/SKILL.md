@@ -1,8 +1,8 @@
 ---
 name: seo-link-building
-description: "Earning links, digital PR, anchor text and link quality, disavow decisions, and link spam policy. Auto-generated from 7 findings across 6 sources."
-last_updated: 2026-11-10
-findings: 7
+description: "Earning links, digital PR, anchor text and link quality, disavow decisions, and link spam policy. Auto-generated from 8 findings across 6 sources."
+last_updated: 2026-11-11
+findings: 8
 sources: 6
 confidence: medium
 ---
@@ -17,15 +17,18 @@ Use when planning link acquisition, evaluating a backlink profile, cleaning a to
 
 ## Core practices
 
-1. Add-ons for reporting, content, and seats cost more on Ahrefs, whereas API access on Semrush is gated to a higher plan rather than sold as an add-on. — *Semrush Blog, 2026-11-10*
-2. Link builders, technical SEOs, and teams that want a focused SEO toolset. — *Semrush Blog, 2026-11-10*
-3. In some cases, publications will only offer backlinks to original data sources, making strong on-site content a must-have for linking opportunities. — *Screaming Frog Blog, 2026-04-13*
-4. Follow these best practices to create effective on-site campaign assets that engage journalists and audiences alike. — *Screaming Frog Blog, 2026-04-13*
-5. Follow industry leaders on LinkedIn: Experts often share breaking news, observations, and predictions here before publishing full articles or reports. — *Backlinko, 2026-07-20*
-6. Use journalist outreach platforms like MentionMatch, Featured.com, and Qwoted to gather expert insights for your content. — *Backlinko, 2026-07-20*
+1. Clean up your backlink profile by letting Backlink Audit combine GSC’s link data with Semrush’s own crawl, so you review the links Google reports alongside the ones Semrush found. — *Semrush Blog, 2026-11-11*
+2. Semrush can't see your real clicks, and GSC can't see anyone else's site, so I never plan an SEO strategy without both. — *Semrush Blog, 2026-11-11*
+3. Add-ons for reporting, content, and seats cost more on Ahrefs, whereas API access on Semrush is gated to a higher plan rather than sold as an add-on. — *Semrush Blog, 2026-11-10*
+4. Link builders, technical SEOs, and teams that want a focused SEO toolset. — *Semrush Blog, 2026-11-10*
+5. In some cases, publications will only offer backlinks to original data sources, making strong on-site content a must-have for linking opportunities. — *Screaming Frog Blog, 2026-04-13*
+6. Follow these best practices to create effective on-site campaign assets that engage journalists and audiences alike. — *Screaming Frog Blog, 2026-04-13*
+7. Follow industry leaders on LinkedIn: Experts often share breaking news, observations, and predictions here before publishing full articles or reports. — *Backlinko, 2026-07-20*
+8. Use journalist outreach platforms like MentionMatch, Featured.com, and Qwoted to gather expert insights for your content. — *Backlinko, 2026-07-20*
 
 ## Recent developments
 
+- **How to use Semrush with Google Search Console** — 2026-11-11 · Semrush Blog — Using Semrush with Google Search Console (GSC) gives you two views of your site, side by side, for a more complete view into your search visibility. ([link](https://www.semrush.com/blog/semrush-google-search-console))
 - **Semrush vs. Ahrefs: Which is right for your team?** — 2026-11-10 · Semrush Blog — Ahrefs is a focused SEO and competitive intelligence platform with a highly regarded backlink index and a lower entry price for API access, while Semrush is a broader brand visibility platform that includes SEO, AI visibility, content… ([link](https://www.semrush.com/blog/semrush-vs-ahrefs))
 - **This SEO Tactic Was Dead. AI Brought It Back** — 2026-10-29 · Semrush (YouTube) — 👉 Find the outlets LLMs cite most in your niche and turn them into a guest post pitch list with the Semrush AI PR Toolkit. ([link](https://www.youtube.com/watch?v=nvayX9VjspM))
 - **Link Building vs Buying Mentions in AI Search | Vince Nero (BuzzStream)** — 2026-10-12 · SE Ranking (YouTube) — Is link building still worth it when everyone is buying brand mentions for AI search? ([link](https://www.youtube.com/watch?v=uzi2JAlYZVk))
@@ -36,6 +39,7 @@ Use when planning link acquisition, evaluating a backlink profile, cleaning a to
 
 ## References
 
+- [How to use Semrush with Google Search Console](https://www.semrush.com/blog/semrush-google-search-console) — Semrush Blog · 2026-11-11
 - [Semrush vs. Ahrefs: Which is right for your team?](https://www.semrush.com/blog/semrush-vs-ahrefs) — Semrush Blog · 2026-11-10
 - [This SEO Tactic Was Dead. AI Brought It Back](https://www.youtube.com/watch?v=nvayX9VjspM) — Semrush (YouTube) · 2026-10-29
 - [Link Building vs Buying Mentions in AI Search | Vince Nero (BuzzStream)](https://www.youtube.com/watch?v=uzi2JAlYZVk) — SE Ranking (YouTube) · 2026-10-12
@@ -47,6 +51,6 @@ Use when planning link acquisition, evaluating a backlink profile, cleaning a to
 ## How this skill stays current
 
 - Regenerated on 2026-11-11 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
-- Coverage window: 2026-04-13 → 2026-11-10.
-- 7 findings from 6 sources; confidence is **medium**.
+- Coverage window: 2026-04-13 → 2026-11-11.
+- 8 findings from 6 sources; confidence is **medium**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

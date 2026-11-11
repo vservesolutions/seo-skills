@@ -1,8 +1,8 @@
 ---
 name: seo-ecommerce-seo
-description: "Category and product page optimization, faceted navigation, variants, out-of-stock handling and merchant feeds. Auto-generated from 9 findings across 7 sources."
-last_updated: 2026-11-09
-findings: 9
+description: "Category and product page optimization, faceted navigation, variants, out-of-stock handling and merchant feeds. Auto-generated from 10 findings across 7 sources."
+last_updated: 2026-11-11
+findings: 10
 sources: 7
 confidence: medium
 ---
@@ -27,11 +27,14 @@ Use when category pages cannibalize each other, when facets create crawl explosi
 8. Pro tip: Once you’ve worked through the flags, export the full audit as a PDF to share with a developer or client, or to keep a record before you make changes. — *Backlinko, 2026-09-09*
 9. Run the first method, spot-check a few outputs, and if several pages are coming back with the wrong content, switch over. — *Screaming Frog Blog, 2026-04-21*
 10. Select ‘Visual Extractor’ (Globe icon) and enter a representative URL. — *Screaming Frog Blog, 2026-04-21*
-11. Google has confirmed there is an ongoing issue right now with Google Merchant Center. — *Search Engine Roundtable, 2026-11-06*
-12. There are some complaints in the Google Merchant Center Forums - one said, "When I opened my account, it suddenly loads so much and it just keeps loading, not just this overview but so as the other pages and it is not showing my data. — *Search Engine Roundtable, 2026-11-06*
+11. Target a supported country : The loyalty program add-on is available in Australia, Brazil, Canada, France, Germany, India, Italy, Japan, Mexico, the Netherlands, South Korea, Spain, the United Kingdom, and the United States. — *Search Engine Roundtable, 2026-11-11*
+12. Actively list products in one of the supported marketing methods : Your account must participate in at least one of the following marketing methods: Free listings Shopping ads Free local listings Local inventory ads. — *Search Engine Roundtable, 2026-11-11*
+13. Google has confirmed there is an ongoing issue right now with Google Merchant Center. — *Search Engine Roundtable, 2026-11-06*
+14. There are some complaints in the Google Merchant Center Forums - one said, "When I opened my account, it suddenly loads so much and it just keeps loading, not just this overview but so as the other pages and it is not showing my data. — *Search Engine Roundtable, 2026-11-06*
 
 ## Recent developments
 
+- **Google Posts New Eligibility Requirements For Merchant Loyalty Program** — 2026-11-11 · Search Engine Roundtable — Google has posted new eligibility requirements for the merchant loyalty program. ([link](https://www.seroundtable.com/google-merchant-loyalty-program-eligibility-42495.html))
 - **Paid Search Is Moving Up The Funnel** — 2026-11-09 · Search Engine Journal — Google’s head of search data science told advertisers on Oct. ([link](https://www.searchenginejournal.com/paid-search-is-moving-up-the-funnel-google-admits-ai-mode-pays-less/595875))
 - **Microsoft Bing Showing Ads At Top Of AI Mode Results** — 2026-11-09 · Search Engine Roundtable — Microsoft is showing ads at the top of the Bing AI Mode (formerly Copilot Search) results. ([link](https://www.seroundtable.com/bing-ads-top-ai-mode-results-42479.html))
 - **Google Confirms Issues With Merchant Center** — 2026-11-06 · Search Engine Roundtable — Google has confirmed there is an ongoing issue right now with Google Merchant Center. ([link](https://www.seroundtable.com/google-confirms-issues-with-merchant-center-42473.html))
@@ -44,6 +47,7 @@ Use when category pages cannibalize each other, when facets create crawl explosi
 
 ## References
 
+- [Google Posts New Eligibility Requirements For Merchant Loyalty Program](https://www.seroundtable.com/google-merchant-loyalty-program-eligibility-42495.html) — Search Engine Roundtable · 2026-11-11
 - [Paid Search Is Moving Up The Funnel](https://www.searchenginejournal.com/paid-search-is-moving-up-the-funnel-google-admits-ai-mode-pays-less/595875) — Search Engine Journal · 2026-11-09
 - [Microsoft Bing Showing Ads At Top Of AI Mode Results](https://www.seroundtable.com/bing-ads-top-ai-mode-results-42479.html) — Search Engine Roundtable · 2026-11-09
 - [Google Confirms Issues With Merchant Center](https://www.seroundtable.com/google-confirms-issues-with-merchant-center-42473.html) — Search Engine Roundtable · 2026-11-06
@@ -57,6 +61,6 @@ Use when category pages cannibalize each other, when facets create crawl explosi
 ## How this skill stays current
 
 - Regenerated on 2026-11-11 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
-- Coverage window: 2026-04-21 → 2026-11-09.
-- 9 findings from 7 sources; confidence is **medium**.
+- Coverage window: 2026-04-21 → 2026-11-11.
+- 10 findings from 7 sources; confidence is **medium**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

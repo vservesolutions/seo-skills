@@ -1,8 +1,8 @@
 ---
 name: seo-ai-search-geo
-description: "AI Overviews, AI Mode, LLM citation visibility, generative engine optimization and llms.txt conventions. Auto-generated from 118 findings across 20 sources."
+description: "AI Overviews, AI Mode, LLM citation visibility, generative engine optimization and llms.txt conventions. Auto-generated from 124 findings across 20 sources."
 last_updated: 2026-11-11
-findings: 118
+findings: 124
 sources: 20
 confidence: high
 ---
@@ -40,19 +40,24 @@ Use when organic traffic is absorbed by AI answers, when planning visibility in 
 
 ## Recent developments
 
+- **Visibility Gets You On The List, Evidence Helps You Stay There** — 2026-11-11 · Search Engine Journal — Nearly two years ago, I began using the term “eligibility gates” to describe the detailed decision criteria that determine whether a company or product remains qualified as a buyer moves through the decision process. ([link](https://www.searchenginejournal.com/visibility-gets-you-on-the-list-evidence-helps-you-stay-there/592127))
+- **Daily Search Forum Recap: November 11, 2026** — 2026-11-11 · Search Engine Roundtable — Google Ads is also adding the Visit site link in the mobile ad descriptions for search ads. ([link](https://www.seroundtable.com/recap-11-11-2026-42509.html))
+- **The Pages Content Marketers Hate Are Perplexity’s Favorite** — 2026-11-11 · Surfer Academy (YouTube) — Perplexity has a soft spot for the stat roundup pages content marketers love to hate. ([link](https://www.youtube.com/shorts/3DFK0fK32AU))
+- **The 100 Most Mentioned Brands in ChatGPT (November 2026)** — 2026-11-11 · Ahrefs Blog — We counted how many of 5.5 million US ChatGPT answers mention each brand. ([link](https://ahrefs.com/blog/most-mentioned-brands-chatgpt))
+- **Google Ads Brand Lists Using Global Brand Library** — 2026-11-11 · Search Engine Roundtable — Google updated its About brand settings for Search and Performance Max help document to clarify how to manage brands within your brand list. ([link](https://www.seroundtable.com/google-ads-brand-lists-library-42506.html))
 - **Google Loses Another Round in Legal Battle Against SerpApi Over Search Scraping** — 2026-11-11 · Search Engine Roundtable — Google has lost again in SerpApi's scraping legal fight in court, with the court giving Google 21 days to amend its complaint. ([link](https://www.seroundtable.com/google-loses-again-against-serpapi-42508.html))
 - **How to Track Brand Visibility in Moz AI Visibility** — 2026-11-10 · Moz (YouTube) — The way customers find your business has completely changed. ([link](https://www.youtube.com/watch?v=SwB4Vocswiw))
 - **How To Discover Citation Opportunities in Moz AI Visibility** — 2026-11-10 · Moz (YouTube) — Mentions are the new rankings, and AI engines don't create answers out of thin air. ([link](https://www.youtube.com/watch?v=laDB9DFAlYs))
 - **How to Track Brand Sentiment in Moz AI Visibility** — 2026-11-10 · Moz (YouTube) — Getting mentioned by AI engines like ChatGPT or Google AI Overviews is only half the battle! ([link](https://www.youtube.com/watch?v=KANJF_e6huw))
 - **Google Expands Ads In AI Mode To 10+ Countries, Adds Multiturn Ads** — 2026-11-10 · Search Engine Journal — Google is expanding ads in AI Mode to more than 10 new countries in English while launching multiturn ads for follow-up queries in the U.S. ([link](https://www.searchenginejournal.com/google-expands-ads-in-ai-mode-multiturn-ads/596540))
-- **We Tested AI Visibility for a New Brand (6-Month Experiment)** — 2026-11-10 · SE Ranking (YouTube) — We spent six months trying to get AI search to recommend a brand nobody had ever heard of, and the headline number came back looking like a win. ([link](https://www.youtube.com/watch?v=6yT7lke6rww))
-- **How to Set Up A Moz AI Visibility Dashboard** — 2026-11-10 · Moz (YouTube) — LLM Prompt for brand terms & variations (for step 2). ([link](https://www.youtube.com/watch?v=51QW2f4W9-k))
-- **Businesses in ChatGPT Now Live - Business Hub** — 2026-11-10 · Search Engine Roundtable — OpenAI has just announced the ChatGPT Business Hub, Businesses in ChatGPT. ([link](https://www.seroundtable.com/chatgpt-business-hub-42505.html))
-- **"F*** Keywords"** — 2026-11-10 · Search Engine Journal — Every so often, someone in SEO announces “f*** keywords” or a similar sentiment. ([link](https://www.searchenginejournal.com/forget-keywords-well-what-are-you-replacing-them-with/596349))
-- **Gemini 4 Carbon Now In Google Search AI Mode** — 2026-11-10 · Search Engine Roundtable — Google released Gemini 4 Carbon, its "strongest model with frontier performance in cybersecurity capabilities and long-horizon agentic workflows across complex knowledge work, software engineering, and scientific reasoning," and it is now… ([link](https://www.seroundtable.com/gemini-4-carbon-google-search-ai-mode-42502.html))
 
 ## References
 
+- [Visibility Gets You On The List, Evidence Helps You Stay There](https://www.searchenginejournal.com/visibility-gets-you-on-the-list-evidence-helps-you-stay-there/592127) — Search Engine Journal · 2026-11-11
+- [Daily Search Forum Recap: November 11, 2026](https://www.seroundtable.com/recap-11-11-2026-42509.html) — Search Engine Roundtable · 2026-11-11
+- [The Pages Content Marketers Hate Are Perplexity’s Favorite](https://www.youtube.com/shorts/3DFK0fK32AU) — Surfer Academy (YouTube) · 2026-11-11
+- [The 100 Most Mentioned Brands in ChatGPT (November 2026)](https://ahrefs.com/blog/most-mentioned-brands-chatgpt) — Ahrefs Blog · 2026-11-11
+- [Google Ads Brand Lists Using Global Brand Library](https://www.seroundtable.com/google-ads-brand-lists-library-42506.html) — Search Engine Roundtable · 2026-11-11
 - [Google Loses Another Round in Legal Battle Against SerpApi Over Search Scraping](https://www.seroundtable.com/google-loses-again-against-serpapi-42508.html) — Search Engine Roundtable · 2026-11-11
 - [How to Track Brand Visibility in Moz AI Visibility](https://www.youtube.com/watch?v=SwB4Vocswiw) — Moz (YouTube) · 2026-11-10
 - [How To Discover Citation Opportunities in Moz AI Visibility](https://www.youtube.com/watch?v=laDB9DFAlYs) — Moz (YouTube) · 2026-11-10
@@ -60,15 +65,10 @@ Use when organic traffic is absorbed by AI answers, when planning visibility in 
 - [Google Expands Ads In AI Mode To 10+ Countries, Adds Multiturn Ads](https://www.searchenginejournal.com/google-expands-ads-in-ai-mode-multiturn-ads/596540) — Search Engine Journal · 2026-11-10
 - [We Tested AI Visibility for a New Brand (6-Month Experiment)](https://www.youtube.com/watch?v=6yT7lke6rww) — SE Ranking (YouTube) · 2026-11-10
 - [How to Set Up A Moz AI Visibility Dashboard](https://www.youtube.com/watch?v=51QW2f4W9-k) — Moz (YouTube) · 2026-11-10
-- [Businesses in ChatGPT Now Live - Business Hub](https://www.seroundtable.com/chatgpt-business-hub-42505.html) — Search Engine Roundtable · 2026-11-10
-- ["F*** Keywords"](https://www.searchenginejournal.com/forget-keywords-well-what-are-you-replacing-them-with/596349) — Search Engine Journal · 2026-11-10
-- [Gemini 4 Carbon Now In Google Search AI Mode](https://www.seroundtable.com/gemini-4-carbon-google-search-ai-mode-42502.html) — Search Engine Roundtable · 2026-11-10
-- [Where Does ChatGPT Get Its Information? 4 Sources, Explained](https://ahrefs.com/blog/where-does-chatgpt-get-its-information) — Ahrefs Blog · 2026-11-10
-- [How to Get Cited by Perplexity (Data Study)](https://www.youtube.com/shorts/ATMtepgO0ek) — Surfer Academy (YouTube) · 2026-11-10
 
 ## How this skill stays current
 
 - Regenerated on 2026-11-11 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2024-04-24 → 2026-11-11.
-- 118 findings from 20 sources; confidence is **high**.
+- 124 findings from 20 sources; confidence is **high**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

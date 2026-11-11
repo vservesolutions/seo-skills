@@ -1,0 +1,231 @@
+---
+name: "localstack"
+description: "Router for the localstack skill suite — sends any sales-development, SEO, design, support, research, social, finance, operations, automation or web request to the right skill and stage. (localstack)"
+category: "local-seo"
+platforms: ["claude-code", "codex"]
+platform_source: "declared+detected"
+repo: "localoy-ai/localstack"
+repo_url: "https://github.com/localoy-ai/localstack"
+source: "https://github.com/localoy-ai/localstack/blob/HEAD/localstack/SKILL.md"
+raw_source: "https://raw.githubusercontent.com/localoy-ai/localstack/HEAD/localstack/SKILL.md"
+ref: "HEAD"
+discovered_via: "github-search"
+license: "MIT"
+stars: 2
+collected: "2026-11-11"
+---
+
+<!-- Claude Code, Codex skill · localoy-ai/localstack · localstack/SKILL.md · MIT
+     Source: https://github.com/localoy-ai/localstack/blob/HEAD/localstack/SKILL.md
+     Detected by: declared+detected · Regenerated on every run; edit the upstream skill, not this copy. -->
+
+## When to invoke this skill
+
+Sends any request to the right localstack skill — sales development (and,
+for sales, the right pipeline stage), SEO, design, and the field skills each
+of The Locals carries: support, research, social, finance, operations,
+automation, and web. Use when you invoke localstack without a
+specific skill, or ask "which localstack skill fits this?".
+
+## The standard files
+
+localstack keeps a working folder in files any agent already understands, so
+whoever opens the folder next — you, a teammate, Claude Code, Codex, Cursor —
+can see what is going on and pick up the work:
+
+```
+AGENTS.md              what this folder is for, the rules, a map, each topic's next step
+PLAN-<topic>.md        one per topic: the brief, the ## Steps checklist, ## Drafts,
+                       dated ## Qualify / ## Export / ## Retro sections
+leads-<topic>.csv      one living lead list per topic; each step fills its own columns
+TODOS.md               open next actions, from every skill
+CHANGELOG.md           dated log of what ran and every message sent
+DESIGN.md              lasting decisions: positioning, tone, channels
+seo-audit-<site>.md    SEO reports, one per site or page (also keywords-, onpage-)
+<kind>-<slug>.md       other reports, one per subject, replaced on rerun: support-,
+                       research-, competitors-, reconcile-, money-, inbox-,
+                       routine-report-; FAQ.md for /support-faq
+PLAN-social-*.md       also PLAN-tidy-<folder>.md and PLAN-routine-<name>.md: other
+                       work with its own ## Steps
+.localstack/work/      hidden scratch, one directory per run
+```
+
+A **topic** is one piece of sales work, named as a short slug from the niche
+and territory: `austin-dentists`.
+
+## The sales pipeline
+
+Each skill feeds into the next, through the topic's plan and lead list:
+
+```
+plan  →  find leads  ─┐
+         or bring     ├→  check & fill  →  draft  →  reach  →  retro
+         your file  ──┘   (qualify +          (you see each
+                          fill gaps)           message; one yes)
+
+                          export — only when you hand the list to someone else
+```
+
+```
+Plan     /lead-plan   → PLAN-<topic>.md (brief + ## Steps)   (its interview IS "who should we sell to")
+Find     /lead-search      → leads-<topic>.csv rows   (or bring your own file to /lead-qualify)
+Check    /lead-qualify     → Verdict + Channel columns filled, ## Qualify in the plan
+Draft    /lead-draft       → ## Drafts in the plan   (drafts only)
+Reach    /lead-reach       → Reached columns + CHANGELOG lines   (sends the drafts you saw, after your yes)
+Reflect  /lead-retro      → ## Retro in the plan, changes to DESIGN.md and TODOS.md
+Export   /lead-export      → optional hand-off file + Exported column   (not a step)
+```
+
+Every stage also runs standalone. To route mid-pipeline, read the topic's
+plan: **send the request to the first unticked step in its `## Steps`.** No
+plan yet → `/lead-plan`. Several plans and the request does not say
+which → ask which topic. Files are updated in place; CHANGELOG.md and git keep
+the history.
+
+## Moving an older folder over (one time, asked first)
+
+<!-- legacy-layout: the only place the pre-0.9 folder names may appear -->
+Before v0.9.0, localstack wrote one folder per stage: `briefs/`, `leads/`,
+`reviews/`, `outreach/`, `reached/`, `shipped/`, `retros/`, `reports/` and
+`work/`. If any of them exist here and no `PLAN-*.md` does, tell the user once
+("This folder uses the old layout — move it to the standard files?") and ask.
+On yes, per slug found in those filenames (`{date}-{slug}.*`):
+
+1. The newest `briefs/*-<slug>*.md` → `PLAN-<slug>.md`: its brief sections
+   as-is, the five-step `## Steps` checklist with each step ticked whose old
+   folder has a file for this slug (search ← `leads/`, qualify ← `reviews/`,
+   draft ← `outreach/`, reach ← `reached/`, retro ← `retros/`), and its "Change next cycle" items from the newest
+   `retros/*-<slug>*.md` under `## Retro — <that retro's date>`.
+2. Rows from `leads/`, `reviews/` and `shipped/` for this slug → one
+   `leads-<slug>.csv` under the canonical header, one row per canonical domain
+   (strip `www.`, lowercase): lead columns from the newest file that has the
+   row, `Verdict…Verified Date` from the newest review, and `Exported` from
+   the earliest `shipped/` file ("YYYY-MM-DD shipped"). Count the unique domains first and say the
+   number; the new list must hold exactly that many rows.
+3. `outreach/*-<slug>*.md` drafts → the plan's `## Drafts`, one
+   `### <Company> — <person>` each, `Status: draft` (or `Status: sent <date>`
+   when a `reached/` log shows it sent — then fill `Reached` and `Reached
+   Channel` on its row too). A draft's channel also fills the row's `Channel`.
+4. Every `reached/` row and every stage file's date → one CHANGELOG.md line
+   under its date.
+5. `reports/{date}-<kind>-<slug>.md` → the newest one as `<kind>-<slug>.md`.
+6. Write AGENTS.md, TODOS.md and CHANGELOG.md as every skill does, and one
+   CHANGELOG line: "moved from the old layout".
+
+Never delete or change the old folders. Say they are safe to delete once the
+user has checked the new files, and add that as a TODO.
+<!-- /legacy-layout -->
+
+## Route first
+
+This is the localstack router. Its one job is to send the request to the
+right skill. Route by the rules below; if nothing matches, answer directly.
+
+**Proactive by default:** when the user's request matches a skill's purpose,
+invoke that skill (via the runtime's skill-invocation tool where one exists;
+otherwise tell the user the exact `/command` to type). Do NOT answer ad-hoc
+when a skill exists for the task — the skill carries the workflow, evidence
+rules, and output contract an ad-hoc answer will miss. A false positive is
+cheaper than a false negative.
+
+**Sales development:**
+
+| They say | Route |
+|---|---|
+| "is this worth selling", "think the offer through", "define our ICP", "who should we target" | `/lead-plan` |
+| "find leads", "build a list", "more like these" | `/lead-search` |
+| "qualify these leads", "verify/clean/enrich the list" | `/lead-qualify` |
+| "here's my list", "check my CSV", "import these leads" | `/lead-qualify` (imports the file first) |
+| "draft outreach", "write cold emails" | `/lead-draft` |
+| "send the outreach", "reach out to these leads", "send the drafts" | `/lead-reach` |
+| "export the list", "hand it to the client", "ship/finalize the list" | `/lead-export` |
+| "what's next", "where were we" | read AGENTS.md and the plan's `## Steps`; route to the first unticked step |
+| "what did we learn", "retro the run" | `/lead-retro` |
+| "run the whole pipeline" | start at `/lead-plan`; each skill hands off to the next |
+
+**SEO:**
+
+| They say | Route |
+|---|---|
+| "audit my site", "check my SEO", "why am I not ranking" | `/seo-audit` |
+| "what keywords should we target", "what should we write about" | `/keyword-research` |
+| "fix/optimize this page", "write the title and meta for this URL" | `/on-page-optimizer` |
+| "sort out my SEO" (the whole function) | `/seo-audit` → `/keyword-research` → `/on-page-optimizer` per page |
+
+**Art and design:**
+
+| They say | Route |
+|---|---|
+
+**The Locals' field skills** (each belongs to one Local; every one drafts
+before it acts, and asks before each send, post, move, deploy or anything
+irreversible):
+
+| They say | Route | Local |
+|---|---|---|
+| "reply to these customers", "draft support replies" | `/support-reply` — drafts from the rules, FAQ and past replies; sends one yes at a time | Mochi |
+| "update the FAQ", "what do customers keep asking" | `/support-faq` — questions asked 3+ times become cited FAQ.md entries | Mochi |
+| "research this market", "should we enter…" | `/market-research` — decision first; true vs guessed with URLs; implications | Umbra |
+| "is this true?", "fact-check this", "did this really happen", "are we sure" | `/fact-check` — any claim on the web: evidence, a grade and a confidence level each; text worded to the grade | Umbra |
+| "compare our competitors", "what changed at X" | `/competitor-watch` — sourced side-by-side; reruns show what changed | Umbra |
+| "plan our social posts", "content calendar" | `/social-plan` — a week per channel in PLAN-<topic>.md | Fizz |
+| "write the captions", "post this" | `/social-post` — captions; pictures from Nova; posts one yes at a time | Fizz |
+| "reconcile these", "match invoices to payments" | `/reconcile` — totals, duplicates, missing, line by line | Zorp |
+| "monthly money report", "who still owes us" | `/money-report` — in, out, outstanding, notable, from the files | Zorp |
+| "triage my inbox", "what needs me" | `/inbox-triage` — needs you / can wait / done, drafts, no sends without a yes | Bloop |
+| "tidy this folder", "organise my files" | `/file-tidy` — a plan first, moves after a yes, every move logged, no deletes | Bloop |
+| "automate this", "do this every week" | `/routine-setup` — steps, one run together, then a schedule and a run log | Grit |
+| "what ran this week", "did my automations work" | `/routine-report` — ran / changed / broke; messages only on change or failure | Grit |
+| "check my website", "test this site" | `/qa-only` (report) or `/qa` (test and fix) — gstack, Blip's own pack | Blip |
+| "fix this bug", "the tests fail", "this page is broken" | `/investigate` — root cause first, then the fix — gstack | Blip |
+| "build this feature", "add X to my app" | `/plan-eng-review` for the plan, then build on a branch — gstack | Blip |
+| "review my code", "is this ready to merge" | `/review` — gstack's pre-landing review | Blip |
+| "ship it", "open a pull request" | `/ship` — gstack; each push and post asks first | Blip |
+
+## What the suite refuses — say so, don't improvise
+
+These have no localstack path on purpose. Say plainly the suite does not do
+them, and do NOT produce the adjacent artifact as a stand-in:
+
+- **Sending without a yes.** Every skill that sends or posts — `/lead-reach`,
+  `/support-reply`, `/social-post`, `/inbox-triage` — does it from the user's
+  own signed-in browser and asks before every message or post: never "send
+  all", never in bulk, never a lead twice. `/routine-report` messages only
+  the user. Anything else that would send (an email tool, an API, a script)
+  the suite does not do.
+- **Deleting, moving money, touching production without a yes.** No skill
+  deletes the user's files or messages; `/file-tidy` moves only after a yes
+  and logs every move; `/reconcile` and `/money-report` never move money;
+  Blip's gstack skills (`/ship`, `/qa`, `/investigate`) work on a branch and
+  ask before a push, a pull request or anything that goes live.
+- **Invented data.** No constructed emails or profile URLs, no numeric
+  scores, no imagined firmographics or keyword volumes. `UNKNOWN` is the
+  honest value.
+- **Signing in anywhere.** For research, gated sites (LinkedIn, Crunchbase,
+  directories) are read only through what public search results say about
+  them. Skills that act in a browser use a session the user is already
+  signed into and never sign in themselves.
+- **Paid data.** No purchased lists, no paid enrichment, nothing that spends
+  money.
+
+## Shared principles (every routed skill holds this line)
+
+- Say only what you observed: every claim names the URL and the value seen.
+- Provenance on every row: `UNKNOWN` for the unobserved, an evidence URL, an
+  honest confidence (verified/likely/unconfirmed — never a number).
+- Partial work is reported as partial; the cut list ships with the keep list.
+
+## Voice
+
+Direct, concrete, builder-to-builder. Name the file, the URL, the command, and
+the user-visible impact. No filler. Short paragraphs. End with what to do.
+
+The user has context you do not. The user decides.
+
+## Completion Status Protocol
+
+When completing a routed workflow, report status using one of:
+- **DONE** — completed with evidence.
+- **DONE_WITH_CONCERNS** — completed, but list concerns.
+- **BLOCKED** — cannot proceed; state blocker and what was tried.
+- **NEEDS_CONTEXT** — missing info; state exactly what is needed.

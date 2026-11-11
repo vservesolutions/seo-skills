@@ -1,8 +1,8 @@
 ---
 name: seo-ai-overviews
-description: "AI Overviews and AI Mode: specific techniques, checks and pitfalls. Auto-generated from 40 findings across 14 sources."
-last_updated: 2026-11-10
-findings: 40
+description: "AI Overviews and AI Mode: specific techniques, checks and pitfalls. Auto-generated from 42 findings across 14 sources."
+last_updated: 2026-11-11
+findings: 42
 sources: 14
 confidence: high
 ---
@@ -40,6 +40,8 @@ Use when the task involves ai overviews and ai mode.
 
 ## Recent developments
 
+- **Daily Search Forum Recap: November 11, 2026** — 2026-11-11 · Search Engine Roundtable — Google Ads is also adding the Visit site link in the mobile ad descriptions for search ads. ([link](https://www.seroundtable.com/recap-11-11-2026-42509.html))
+- **The 100 Most Mentioned Brands in ChatGPT (November 2026)** — 2026-11-11 · Ahrefs Blog — We counted how many of 5.5 million US ChatGPT answers mention each brand. ([link](https://ahrefs.com/blog/most-mentioned-brands-chatgpt))
 - **Google Expands Ads In AI Mode To 10+ Countries, Adds Multiturn Ads** — 2026-11-10 · Search Engine Journal — Google is expanding ads in AI Mode to more than 10 new countries in English while launching multiturn ads for follow-up queries in the U.S. ([link](https://www.searchenginejournal.com/google-expands-ads-in-ai-mode-multiturn-ads/596540))
 - **Gemini 4 Carbon Now In Google Search AI Mode** — 2026-11-10 · Search Engine Roundtable — Google released Gemini 4 Carbon, its "strongest model with frontier performance in cybersecurity capabilities and long-horizon agentic workflows across complex knowledge work, software engineering, and scientific reasoning," and it is now… ([link](https://www.seroundtable.com/gemini-4-carbon-google-search-ai-mode-42502.html))
 - **Good Vs. Bad pSEO: Learnings From A Decade Of Building Scalable Content Engines** — 2026-11-10 · Search Engine Journal — He wrote that programmatic SEO of that kind often leads to a site that’s spam, borderline spam, or low quality, and that pages already published may keep shaping how Google judges the whole site. ([link](https://www.searchenginejournal.com/good-vs-bad-pseo-learnings-from-a-decade-of-building-scalable-content-engines/594204))
@@ -48,11 +50,11 @@ Use when the task involves ai overviews and ai mode.
 - **It Can Take Google Time To Understand The Unique Value Of New Websites** — 2026-11-10 · Search Engine Roundtable — Google's John Mueller said it can take Google Search some time to understand a new site's "unique value" and then rank it accordingly. ([link](https://www.seroundtable.com/google-new-sites-time-value-42489.html))
 - **Google AI Overview Local Pack Dropping Action Buttons** — 2026-11-10 · Search Engine Roundtable — Google is testing removing the action buttons, reviews, photos, etc from the AI Overview version of the local pack. ([link](https://www.seroundtable.com/google-ai-overview-local-pack-action-buttons-42483.html))
 - **Google Product Results With Filter For Non-Incentivized Reviews** — 2026-11-10 · Search Engine Roundtable — Here is a screenshot of this filter - it shows up for me for almost all product listings and all queries across Search, Shopping and AI Mode: The screenshot above is from Search but again, it works in AI Mode and Google Shopping as well. ([link](https://www.seroundtable.com/google-product-non-incentivized-reviews-42491.html))
-- **AI Visibility Mistake #4: Ignoring Social Content** — 2026-11-09 · SE Ranking (YouTube) — Social still gets filed under brand awareness. ([link](https://www.youtube.com/shorts/GymwxgJlLnk))
-- **Paid Search Is Moving Up The Funnel** — 2026-11-09 · Search Engine Journal — Google’s head of search data science told advertisers on Oct. ([link](https://www.searchenginejournal.com/paid-search-is-moving-up-the-funnel-google-admits-ai-mode-pays-less/595875))
 
 ## References
 
+- [Daily Search Forum Recap: November 11, 2026](https://www.seroundtable.com/recap-11-11-2026-42509.html) — Search Engine Roundtable · 2026-11-11
+- [The 100 Most Mentioned Brands in ChatGPT (November 2026)](https://ahrefs.com/blog/most-mentioned-brands-chatgpt) — Ahrefs Blog · 2026-11-11
 - [Google Expands Ads In AI Mode To 10+ Countries, Adds Multiturn Ads](https://www.searchenginejournal.com/google-expands-ads-in-ai-mode-multiturn-ads/596540) — Search Engine Journal · 2026-11-10
 - [Gemini 4 Carbon Now In Google Search AI Mode](https://www.seroundtable.com/gemini-4-carbon-google-search-ai-mode-42502.html) — Search Engine Roundtable · 2026-11-10
 - [Good Vs. Bad pSEO: Learnings From A Decade Of Building Scalable Content Engines](https://www.searchenginejournal.com/good-vs-bad-pseo-learnings-from-a-decade-of-building-scalable-content-engines/594204) — Search Engine Journal · 2026-11-10
@@ -63,12 +65,10 @@ Use when the task involves ai overviews and ai mode.
 - [Google Product Results With Filter For Non-Incentivized Reviews](https://www.seroundtable.com/google-product-non-incentivized-reviews-42491.html) — Search Engine Roundtable · 2026-11-10
 - [AI Visibility Mistake #4: Ignoring Social Content](https://www.youtube.com/shorts/GymwxgJlLnk) — SE Ranking (YouTube) · 2026-11-09
 - [Paid Search Is Moving Up The Funnel](https://www.searchenginejournal.com/paid-search-is-moving-up-the-funnel-google-admits-ai-mode-pays-less/595875) — Search Engine Journal · 2026-11-09
-- [The First 100 Words That Get You Cited in AI Overviews](https://www.youtube.com/shorts/jNnS6Dpx474) — Surfer Academy (YouTube) · 2026-11-09
-- [SEO Split Testing In 2027: How To Prove A Change Actually Worked](https://www.searchenginejournal.com/seo-split-testing-prove-change-worked/594529) — Search Engine Journal · 2026-11-09
 
 ## How this skill stays current
 
 - Regenerated on 2026-11-11 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
-- Coverage window: 2026-05-22 → 2026-11-10.
-- 40 findings from 14 sources; confidence is **high**.
+- Coverage window: 2026-05-22 → 2026-11-11.
+- 42 findings from 14 sources; confidence is **high**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.
