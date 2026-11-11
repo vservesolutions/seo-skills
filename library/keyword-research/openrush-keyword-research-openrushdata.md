@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 6
-collected: "2026-11-10"
+collected: "2026-11-11"
 ---
 
 <!-- Unspecified skill · OpenRushData/openrush-agents-skills · skills/openrush-keyword-research/SKILL.md · MIT

@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 8
-collected: "2026-11-10"
+collected: "2026-11-11"
 ---
 
 <!-- Claude Code skill · iamwaqargulzar/Marketing-Agent-OS · upstreams/source-b/skills/seo-cluster/SKILL.md · MIT

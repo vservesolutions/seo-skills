@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "awesome-seo-agent-skills"
 license: "Apache-2.0"
 stars: 3049
-collected: "2026-11-10"
+collected: "2026-11-11"
 ---
 
 <!-- Claude Code, Codex, Cursor, OpenClaw skill · aaron-he-zhu/aaron-marketing-skills · protocol/entity-registry/SKILL.md · Apache-2.0

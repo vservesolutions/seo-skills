@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 32
-collected: "2026-11-10"
+collected: "2026-11-11"
 ---
 
 <!-- Claude Code skill · TheSmokeDev/geo-skills · skills/geo-llmstxt/SKILL.md · MIT

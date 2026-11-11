@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 5
-collected: "2026-11-10"
+collected: "2026-11-11"
 ---
 
 <!-- Unspecified skill · 01clauding/claude-seo-skill · skills/seo-data-tools/SKILL.md · MIT

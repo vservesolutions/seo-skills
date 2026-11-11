@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 147
-collected: "2026-11-10"
+collected: "2026-11-11"
 ---
 
 <!-- Claude Code skill · garrettjsmith/localseoskills · skills/brief/SKILL.md · MIT

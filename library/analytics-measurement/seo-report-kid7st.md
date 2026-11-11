@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 3
-collected: "2026-11-10"
+collected: "2026-11-11"
 ---
 
 <!-- Unspecified skill · kid7st/agenticseo · .agents/skills/seo-report/SKILL.md · MIT

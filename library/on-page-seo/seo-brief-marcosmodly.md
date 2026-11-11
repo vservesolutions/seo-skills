@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 129
-collected: "2026-11-10"
+collected: "2026-11-11"
 ---
 
 <!-- Claude Code skill · marcosmodly/marketing-skill · skills/seo-brief/SKILL.md · MIT

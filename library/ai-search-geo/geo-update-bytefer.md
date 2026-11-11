@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 13
-collected: "2026-11-10"
+collected: "2026-11-11"
 ---
 
 <!-- Codex skill · bytefer/geo-seo-codex · skills/geo-update/SKILL.md · MIT

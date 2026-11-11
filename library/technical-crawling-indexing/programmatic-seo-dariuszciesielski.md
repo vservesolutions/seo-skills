@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 3
-collected: "2026-11-10"
+collected: "2026-11-11"
 ---
 
 <!-- Claude Code, Gemini CLI skill · DariuszCiesielski/polish-agent-skills · skills/seo/programmatic-seo/SKILL.md · MIT

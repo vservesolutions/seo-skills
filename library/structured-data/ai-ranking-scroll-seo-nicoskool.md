@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 9
-collected: "2026-11-10"
+collected: "2026-11-11"
 ---
 
 <!-- Claude Code skill · NicoSKOOL/ai-ranking-scroll-seo · plugins/ai-ranking/skills/ai-ranking-scroll-seo/SKILL.md · MIT

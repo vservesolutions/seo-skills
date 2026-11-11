@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 1358
-collected: "2026-11-10"
+collected: "2026-11-11"
 ---
 
 <!-- Claude Code skill · onvoyage-ai/gtm-engineer-skills · improve-aeo-geo/SKILL.md · MIT

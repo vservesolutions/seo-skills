@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "CC-BY-4.0"
 stars: 4
-collected: "2026-11-10"
+collected: "2026-11-11"
 ---
 
 <!-- Unspecified skill · mikezupper/google-seo-skill · SKILL.md · CC-BY-4.0

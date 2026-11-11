@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 5
-collected: "2026-11-10"
+collected: "2026-11-11"
 ---
 
 <!-- Claude Code skill · AI-Marketing-OS-LTD/cmo-so-skills · plugins/cmo-so-ai-search/skills/cmo-ai-prompt-research/SKILL.md · MIT

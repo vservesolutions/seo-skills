@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 9
-collected: "2026-11-10"
+collected: "2026-11-11"
 ---
 
 <!-- Claude Code, Antigravity skill · karero/croftweaver · skills/search-console-setup/SKILL.md · MIT

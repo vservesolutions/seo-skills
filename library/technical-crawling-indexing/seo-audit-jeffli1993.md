@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "awesome-seo-agent-skills"
 license: "MIT"
 stars: 776
-collected: "2026-11-10"
+collected: "2026-11-11"
 ---
 
 <!-- Claude Code, OpenClaw skill · JeffLi1993/seo-audit-skill · seo-audit/SKILL.md · MIT

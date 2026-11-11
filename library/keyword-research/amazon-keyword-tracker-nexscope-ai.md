@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 845
-collected: "2026-11-10"
+collected: "2026-11-11"
 ---
 
 <!-- Claude Code, OpenClaw, Windsurf skill · nexscope-ai/Amazon-Skills · amazon-keyword-tracker/SKILL.md · MIT

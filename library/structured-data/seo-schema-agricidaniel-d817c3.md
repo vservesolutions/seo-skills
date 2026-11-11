@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 906
-collected: "2026-11-10"
+collected: "2026-11-11"
 ---
 
 <!-- Unspecified skill · AgriciDaniel/chatgpt-seo · plugins/ai-marketing-hub-seo/skills/seo-schema/SKILL.md · MIT

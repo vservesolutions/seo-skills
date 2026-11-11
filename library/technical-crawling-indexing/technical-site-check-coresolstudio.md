@@ -1,0 +1,50 @@
+---
+name: "technical-site-check"
+description: "Use for technical SEO: crawlability, indexation, robots, sitemap, canonicals, HTTPS, Core Web Vitals signals, mobile, and structured data exposure."
+category: "technical-crawling-indexing"
+platforms: ["claude-code"]
+platform_source: "declared+detected"
+repo: "coresolstudio/searchhawk-skills"
+repo_url: "https://github.com/coresolstudio/searchhawk-skills"
+source: "https://github.com/coresolstudio/searchhawk-skills/blob/HEAD/diagnose/technical-site-check/SKILL.md"
+raw_source: "https://raw.githubusercontent.com/coresolstudio/searchhawk-skills/HEAD/diagnose/technical-site-check/SKILL.md"
+ref: "HEAD"
+discovered_via: "github-search"
+license: "MIT"
+stars: 2
+collected: "2026-11-11"
+---
+
+<!-- Claude Code skill · coresolstudio/searchhawk-skills · diagnose/technical-site-check/SKILL.md · MIT
+     Source: https://github.com/coresolstudio/searchhawk-skills/blob/HEAD/diagnose/technical-site-check/SKILL.md
+     Detected by: declared+detected · Regenerated on every run; edit the upstream skill, not this copy. -->
+
+# Technical Site Check
+
+Deep technical SEO diagnosis.
+
+## Skill Contract
+
+- **Done when**: checklist with pass/fail/partial for crawl, index, speed (or N/A with tool named), mobile, security
+- **Primary next skill**: `fix-priority-ranker`
+
+## Instructions — 7 phases
+
+1. Fetch robots.txt, sitemap.xml, llms.txt if present
+2. Indexation — noindex patterns, canonical samples
+3. Crawl budget signals — orphan risk (sitemap vs nav)
+4. HTTPS / redirects (sample)
+5. CWV — PSI if available else N/A + recommend PageSpeed Insights
+6. Schema exposure sitewide sample
+7. Report with severity CRITICAL/HIGH/MED/LOW
+
+Run `python3 scripts/connectors/crawl.py <url> --max-pages 30`, `robots.py`, `sitemap.py`, `psi.py`, and `onpage.py` on samples.
+
+## Reference Materials
+
+- [instructions-detail.md](references/instructions-detail.md)
+- [example-report.md](references/example-report.md)
+
+## Next Best Skill
+
+`fix-priority-ranker` → `internal-links-helper`

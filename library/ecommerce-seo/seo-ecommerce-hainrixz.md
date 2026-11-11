@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 83
-collected: "2026-11-10"
+collected: "2026-11-11"
 ---
 
 <!-- Claude Code, Codex skill · Hainrixz/claude-seo-ai · skills/seo-ecommerce/SKILL.md · MIT

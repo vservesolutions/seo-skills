@@ -1,8 +1,8 @@
 ---
 name: seo-search-console
-description: "Search Console Analysis: specific techniques, checks and pitfalls. Auto-generated from 16 findings across 10 sources."
+description: "Search Console Analysis: specific techniques, checks and pitfalls. Auto-generated from 17 findings across 10 sources."
 last_updated: 2026-11-10
-findings: 16
+findings: 17
 sources: 10
 confidence: high
 ---
@@ -63,7 +63,7 @@ Use when the task involves search console analysis.
 
 ## How this skill stays current
 
-- Regenerated on 2026-11-10 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
+- Regenerated on 2026-11-11 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2026-07-29 → 2026-11-10.
-- 16 findings from 10 sources; confidence is **high**.
+- 17 findings from 10 sources; confidence is **high**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

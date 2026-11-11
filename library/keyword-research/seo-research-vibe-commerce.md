@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "Apache-2.0"
 stars: 3
-collected: "2026-11-10"
+collected: "2026-11-11"
 ---
 
 <!-- Claude Code skill · vibe-commerce/vibecommerce-skills-pack · .claude/skills/seo-research/SKILL.md · Apache-2.0

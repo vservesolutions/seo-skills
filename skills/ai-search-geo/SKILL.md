@@ -1,8 +1,8 @@
 ---
 name: seo-ai-search-geo
-description: "AI Overviews, AI Mode, LLM citation visibility, generative engine optimization and llms.txt conventions. Auto-generated from 117 findings across 20 sources."
-last_updated: 2026-11-10
-findings: 117
+description: "AI Overviews, AI Mode, LLM citation visibility, generative engine optimization and llms.txt conventions. Auto-generated from 118 findings across 20 sources."
+last_updated: 2026-11-11
+findings: 118
 sources: 20
 confidence: high
 ---
@@ -40,6 +40,7 @@ Use when organic traffic is absorbed by AI answers, when planning visibility in 
 
 ## Recent developments
 
+- **Google Loses Another Round in Legal Battle Against SerpApi Over Search Scraping** — 2026-11-11 · Search Engine Roundtable — Google has lost again in SerpApi's scraping legal fight in court, with the court giving Google 21 days to amend its complaint. ([link](https://www.seroundtable.com/google-loses-again-against-serpapi-42508.html))
 - **How to Track Brand Visibility in Moz AI Visibility** — 2026-11-10 · Moz (YouTube) — The way customers find your business has completely changed. ([link](https://www.youtube.com/watch?v=SwB4Vocswiw))
 - **How To Discover Citation Opportunities in Moz AI Visibility** — 2026-11-10 · Moz (YouTube) — Mentions are the new rankings, and AI engines don't create answers out of thin air. ([link](https://www.youtube.com/watch?v=laDB9DFAlYs))
 - **How to Track Brand Sentiment in Moz AI Visibility** — 2026-11-10 · Moz (YouTube) — Getting mentioned by AI engines like ChatGPT or Google AI Overviews is only half the battle! ([link](https://www.youtube.com/watch?v=KANJF_e6huw))
@@ -49,10 +50,10 @@ Use when organic traffic is absorbed by AI answers, when planning visibility in 
 - **Businesses in ChatGPT Now Live - Business Hub** — 2026-11-10 · Search Engine Roundtable — OpenAI has just announced the ChatGPT Business Hub, Businesses in ChatGPT. ([link](https://www.seroundtable.com/chatgpt-business-hub-42505.html))
 - **"F*** Keywords"** — 2026-11-10 · Search Engine Journal — Every so often, someone in SEO announces “f*** keywords” or a similar sentiment. ([link](https://www.searchenginejournal.com/forget-keywords-well-what-are-you-replacing-them-with/596349))
 - **Gemini 4 Carbon Now In Google Search AI Mode** — 2026-11-10 · Search Engine Roundtable — Google released Gemini 4 Carbon, its "strongest model with frontier performance in cybersecurity capabilities and long-horizon agentic workflows across complex knowledge work, software engineering, and scientific reasoning," and it is now… ([link](https://www.seroundtable.com/gemini-4-carbon-google-search-ai-mode-42502.html))
-- **Where Does ChatGPT Get Its Information? 4 Sources, Explained** — 2026-11-10 · Ahrefs Blog — The same study found that even Google's results and OpenAI's own search API combined only matched about 27% of the pages ChatGPT cited, and about half of the sites. ([link](https://ahrefs.com/blog/where-does-chatgpt-get-its-information))
 
 ## References
 
+- [Google Loses Another Round in Legal Battle Against SerpApi Over Search Scraping](https://www.seroundtable.com/google-loses-again-against-serpapi-42508.html) — Search Engine Roundtable · 2026-11-11
 - [How to Track Brand Visibility in Moz AI Visibility](https://www.youtube.com/watch?v=SwB4Vocswiw) — Moz (YouTube) · 2026-11-10
 - [How To Discover Citation Opportunities in Moz AI Visibility](https://www.youtube.com/watch?v=laDB9DFAlYs) — Moz (YouTube) · 2026-11-10
 - [How to Track Brand Sentiment in Moz AI Visibility](https://www.youtube.com/watch?v=KANJF_e6huw) — Moz (YouTube) · 2026-11-10
@@ -64,11 +65,10 @@ Use when organic traffic is absorbed by AI answers, when planning visibility in 
 - [Gemini 4 Carbon Now In Google Search AI Mode](https://www.seroundtable.com/gemini-4-carbon-google-search-ai-mode-42502.html) — Search Engine Roundtable · 2026-11-10
 - [Where Does ChatGPT Get Its Information? 4 Sources, Explained](https://ahrefs.com/blog/where-does-chatgpt-get-its-information) — Ahrefs Blog · 2026-11-10
 - [How to Get Cited by Perplexity (Data Study)](https://www.youtube.com/shorts/ATMtepgO0ek) — Surfer Academy (YouTube) · 2026-11-10
-- [Good Vs. Bad pSEO: Learnings From A Decade Of Building Scalable Content Engines](https://www.searchenginejournal.com/good-vs-bad-pseo-learnings-from-a-decade-of-building-scalable-content-engines/594204) — Search Engine Journal · 2026-11-10
 
 ## How this skill stays current
 
-- Regenerated on 2026-11-10 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
-- Coverage window: 2024-04-24 → 2026-11-10.
-- 117 findings from 20 sources; confidence is **high**.
+- Regenerated on 2026-11-11 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
+- Coverage window: 2024-04-24 → 2026-11-11.
+- 118 findings from 20 sources; confidence is **high**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

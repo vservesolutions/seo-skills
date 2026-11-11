@@ -1,0 +1,82 @@
+---
+name: "dineway-content-brief"
+description: "Convert an accepted Dineway Research Result into one Writer-ready, evidence-linked Brief Result with human approval."
+category: "international-seo"
+platforms: ["unspecified"]
+platform_source: "none"
+repo: "dineway/dineway-skills"
+repo_url: "https://github.com/dineway/dineway-skills"
+source: "https://github.com/dineway/dineway-skills/blob/HEAD/skills/dineway-content-brief/SKILL.md"
+raw_source: "https://raw.githubusercontent.com/dineway/dineway-skills/HEAD/skills/dineway-content-brief/SKILL.md"
+ref: "HEAD"
+discovered_via: "github-search"
+license: "MIT"
+stars: 2
+collected: "2026-11-11"
+---
+
+<!-- Unspecified skill · dineway/dineway-skills · skills/dineway-content-brief/SKILL.md · MIT
+     Source: https://github.com/dineway/dineway-skills/blob/HEAD/skills/dineway-content-brief/SKILL.md
+     Detected by: none · Regenerated on every run; edit the upstream skill, not this copy. -->
+
+# Dineway Content Brief
+
+Execute one Brief Stage that the master Pipeline already began. Use only the accepted Research
+Result as evidence authority. Return compact editorial decisions; the server compiles the complete
+Brief from accepted Research and Stage Complete renders canonical Markdown and derives its receipt.
+
+## Required inputs
+
+- Current Run, Brief Job, active Assignment/Attempt, and exact accepted Research Result ID/version.
+- Accepted Research payload, plus its derived `evidence.json` and `findings.md` only as readable
+  projections.
+- Native collection/content identity, locale/market, byline, current schema fingerprint, Site
+  Briefing, Site Context, applicable template, and public content inventory.
+
+Stop if the accepted Research selection changed, required evidence expired, or native provenance
+does not match the derived Research projections. Do not rerun hidden research inside Brief.
+
+## Writer-ready Brief
+
+1. Preserve Research topic, market, audience, objective, keyword metrics, intent, relevant
+   questions, competitor gaps, and evidence lineage.
+2. Choose exactly one primary target keyword. Secondary keywords preserve their Research metrics,
+   intent, category, and Observation IDs. Record primary and secondary search intent explicitly.
+3. Define audience role, expertise, pain point, funnel stage, voice, objective, unique angle,
+   subjects, required topics, exclusions, and risky-claim guardrails.
+4. Produce a single ordered outline with these required section types:
+   - exactly one `direct_answer`;
+   - exactly one `at_a_glance`;
+   - one `subject` section per declared subject, grouped under `subject_sections`;
+   - exactly one `methodology`;
+   - optional `faq` using only Research questions marked `included` and `includeInFaq=true`; and
+   - exactly one `cta`.
+5. Give every section a stable ID, heading, level, format, required key points, evidence Observation
+   IDs, question bindings, and word budget. Required key points must have Observation
+   lineage. Section budgets must total within ten percent of the target word count.
+6. Carry only approved Research questions. Rejected questions retain their reason in Research and
+   cannot enter Brief, the outline, or FAQ.
+7. Add verified internal-link candidates by stable public URL plus media purpose, alt-text intent,
+   optional generation prompt, and whether each item is required.
+8. Bind the Brief to the exact Research Result, collection, optional existing content ID,
+   translation group, locale, byline, and schema fingerprint.
+
+Never invent menu, hours, price, allergen, award, review, staff, medical, legal, or financial facts.
+Do not hide optional ideas among required scope.
+
+## Stage completion
+
+Return only target/audience/voice selections, guardrails, internal-link/media choices, approved
+questions, the ordered outline, provenance, and selected persisted Observation IDs. Do not repeat
+Research metrics, locale, schema, CMS identity, or upstream bindings; the server hydrates them. Do
+not build an `artifactRef`, Result envelope, Markdown wrapper, hash, byte count, or acceptance write.
+
+An authenticated human reviews the structured Brief and calls `content_pipeline_stage_complete`
+with `briefApproval.confirmed=true`. API-token and system actors cannot approve it. The transaction
+validates Research inheritance and outline completeness, renders:
+
+- `.dineway/content/runs/<run-id>/jobs/<job-id>/brief/brief.md`;
+
+then derives its receipt, verifies every Observation, creates the Brief, accepts it,
+and returns `begin_writer`. Do not call granular Result/accept operations or mutate a CMS Draft from
+this Skill.

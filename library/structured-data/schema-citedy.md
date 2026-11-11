@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "Apache-2.0"
 stars: 49
-collected: "2026-11-10"
+collected: "2026-11-11"
 ---
 
 <!-- Unspecified skill · citedy/adclaw · src/adclaw/agents/skills/marketing-schema-markup/SKILL.md · Apache-2.0

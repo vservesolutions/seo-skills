@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 32
-collected: "2026-11-10"
+collected: "2026-11-11"
 ---
 
 <!-- Claude Code skill · TheSmokeDev/geo-skills · skills/tokenmax-fleet-orchestrator/SKILL.md · MIT
