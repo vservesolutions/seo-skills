@@ -41,7 +41,7 @@ Use when the task involves robots.txt and crawl directives.
 
 ## How this skill stays current
 
-- Regenerated on 2026-11-11 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
+- Regenerated on 2026-11-12 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2025-01-16 → 2026-11-10.
 - 5 findings from 4 sources; confidence is **medium**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

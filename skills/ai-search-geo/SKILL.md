@@ -1,8 +1,8 @@
 ---
 name: seo-ai-search-geo
-description: "AI Overviews, AI Mode, LLM citation visibility, generative engine optimization and llms.txt conventions. Auto-generated from 124 findings across 20 sources."
+description: "AI Overviews, AI Mode, LLM citation visibility, generative engine optimization and llms.txt conventions. Auto-generated from 126 findings across 20 sources."
 last_updated: 2026-11-11
-findings: 124
+findings: 126
 sources: 20
 confidence: high
 ---
@@ -40,6 +40,8 @@ Use when organic traffic is absorbed by AI answers, when planning visibility in 
 
 ## Recent developments
 
+- **Google Search Expanding AI Overview Definitions By Default** — 2026-11-11 · Search Engine Roundtable — Google is expanding the AI Overviews for definitions by default, where you no longer have to click on "Show more" to see the full version of the AI Overview. ([link](https://www.seroundtable.com/google-expanding-definitions-42514.html))
+- **Gemini’s Favorite Source Isn’t Google** — 2026-11-11 · Surfer Academy (YouTube) — In September, Reddit earned 68,000 Gemini citations, 25% of the top 50. ([link](https://www.youtube.com/shorts/XejO12g_Keg))
 - **Visibility Gets You On The List, Evidence Helps You Stay There** — 2026-11-11 · Search Engine Journal — Nearly two years ago, I began using the term “eligibility gates” to describe the detailed decision criteria that determine whether a company or product remains qualified as a buyer moves through the decision process. ([link](https://www.searchenginejournal.com/visibility-gets-you-on-the-list-evidence-helps-you-stay-there/592127))
 - **Daily Search Forum Recap: November 11, 2026** — 2026-11-11 · Search Engine Roundtable — Google Ads is also adding the Visit site link in the mobile ad descriptions for search ads. ([link](https://www.seroundtable.com/recap-11-11-2026-42509.html))
 - **The Pages Content Marketers Hate Are Perplexity’s Favorite** — 2026-11-11 · Surfer Academy (YouTube) — Perplexity has a soft spot for the stat roundup pages content marketers love to hate. ([link](https://www.youtube.com/shorts/3DFK0fK32AU))
@@ -48,11 +50,11 @@ Use when organic traffic is absorbed by AI answers, when planning visibility in 
 - **Google Loses Another Round in Legal Battle Against SerpApi Over Search Scraping** — 2026-11-11 · Search Engine Roundtable — Google has lost again in SerpApi's scraping legal fight in court, with the court giving Google 21 days to amend its complaint. ([link](https://www.seroundtable.com/google-loses-again-against-serpapi-42508.html))
 - **How to Track Brand Visibility in Moz AI Visibility** — 2026-11-10 · Moz (YouTube) — The way customers find your business has completely changed. ([link](https://www.youtube.com/watch?v=SwB4Vocswiw))
 - **How To Discover Citation Opportunities in Moz AI Visibility** — 2026-11-10 · Moz (YouTube) — Mentions are the new rankings, and AI engines don't create answers out of thin air. ([link](https://www.youtube.com/watch?v=laDB9DFAlYs))
-- **How to Track Brand Sentiment in Moz AI Visibility** — 2026-11-10 · Moz (YouTube) — Getting mentioned by AI engines like ChatGPT or Google AI Overviews is only half the battle! ([link](https://www.youtube.com/watch?v=KANJF_e6huw))
-- **Google Expands Ads In AI Mode To 10+ Countries, Adds Multiturn Ads** — 2026-11-10 · Search Engine Journal — Google is expanding ads in AI Mode to more than 10 new countries in English while launching multiturn ads for follow-up queries in the U.S. ([link](https://www.searchenginejournal.com/google-expands-ads-in-ai-mode-multiturn-ads/596540))
 
 ## References
 
+- [Google Search Expanding AI Overview Definitions By Default](https://www.seroundtable.com/google-expanding-definitions-42514.html) — Search Engine Roundtable · 2026-11-11
+- [Gemini’s Favorite Source Isn’t Google](https://www.youtube.com/shorts/XejO12g_Keg) — Surfer Academy (YouTube) · 2026-11-11
 - [Visibility Gets You On The List, Evidence Helps You Stay There](https://www.searchenginejournal.com/visibility-gets-you-on-the-list-evidence-helps-you-stay-there/592127) — Search Engine Journal · 2026-11-11
 - [Daily Search Forum Recap: November 11, 2026](https://www.seroundtable.com/recap-11-11-2026-42509.html) — Search Engine Roundtable · 2026-11-11
 - [The Pages Content Marketers Hate Are Perplexity’s Favorite](https://www.youtube.com/shorts/3DFK0fK32AU) — Surfer Academy (YouTube) · 2026-11-11
@@ -63,12 +65,10 @@ Use when organic traffic is absorbed by AI answers, when planning visibility in 
 - [How To Discover Citation Opportunities in Moz AI Visibility](https://www.youtube.com/watch?v=laDB9DFAlYs) — Moz (YouTube) · 2026-11-10
 - [How to Track Brand Sentiment in Moz AI Visibility](https://www.youtube.com/watch?v=KANJF_e6huw) — Moz (YouTube) · 2026-11-10
 - [Google Expands Ads In AI Mode To 10+ Countries, Adds Multiturn Ads](https://www.searchenginejournal.com/google-expands-ads-in-ai-mode-multiturn-ads/596540) — Search Engine Journal · 2026-11-10
-- [We Tested AI Visibility for a New Brand (6-Month Experiment)](https://www.youtube.com/watch?v=6yT7lke6rww) — SE Ranking (YouTube) · 2026-11-10
-- [How to Set Up A Moz AI Visibility Dashboard](https://www.youtube.com/watch?v=51QW2f4W9-k) — Moz (YouTube) · 2026-11-10
 
 ## How this skill stays current
 
-- Regenerated on 2026-11-11 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
+- Regenerated on 2026-11-12 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2024-04-24 → 2026-11-11.
-- 124 findings from 20 sources; confidence is **high**.
+- 126 findings from 20 sources; confidence is **high**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

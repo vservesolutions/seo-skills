@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 7
-collected: "2026-11-11"
+collected: "2026-11-12"
 ---
 
 <!-- Unspecified skill · mikiarlo3/enso-SEO-GEO · extensions/ahrefs/skills/seo-ahrefs/SKILL.md · MIT

@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "CC0-1.0"
 stars: 50
-collected: "2026-11-11"
+collected: "2026-11-12"
 ---
 
 <!-- Claude Code, OpenClaw skill · UnderleveledBuilder/awesome-seo-geo-skills · skills/seo-geo-skill-finder/SKILL.md · CC0-1.0

@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "Apache-2.0"
 stars: 8
-collected: "2026-11-11"
+collected: "2026-11-12"
 ---
 
 <!-- Unspecified skill · iamwaqargulzar/Marketing-Agent-OS · skills/seo-google/SKILL.md · Apache-2.0

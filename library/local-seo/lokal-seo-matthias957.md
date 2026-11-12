@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 2
-collected: "2026-11-11"
+collected: "2026-11-12"
 ---
 
 <!-- Unspecified skill · Matthias957/svenska-marknadsforingsskills · skills/lokal-seo/SKILL.md · MIT

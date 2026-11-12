@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 10
-collected: "2026-11-11"
+collected: "2026-11-12"
 ---
 
 <!-- Claude Code, Gemini CLI skill · ZachArticulateV/designer-pro-and-seo · skills/seo-image-gen/SKILL.md · MIT

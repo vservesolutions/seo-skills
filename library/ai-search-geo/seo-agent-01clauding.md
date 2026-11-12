@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 5
-collected: "2026-11-11"
+collected: "2026-11-12"
 ---
 
 <!-- Claude Code, Codex, Cursor skill · 01clauding/claude-seo-skill · skills/seo-agent/SKILL.md · MIT

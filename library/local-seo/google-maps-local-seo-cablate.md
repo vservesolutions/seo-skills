@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 489
-collected: "2026-11-11"
+collected: "2026-11-12"
 ---
 
 <!-- Unspecified skill · cablate/mcp-google-map · skills/google-maps-local-seo/SKILL.md · MIT

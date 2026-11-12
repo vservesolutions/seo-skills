@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 4
-collected: "2026-11-11"
+collected: "2026-11-12"
 ---
 
 <!-- OpenClaw skill · Natsummerance/agents · seo-content-agent/skills/blog-writing-contract/SKILL.md · MIT

@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "state"
 license: "MIT"
 stars: 75
-collected: "2026-11-11"
+collected: "2026-11-12"
 ---
 
 <!-- Claude Code, Gemini CLI, Windsurf, Copilot skill · LeadMagic/gtm-skills · skills/content-seo/aeo-strategy/SKILL.md · MIT

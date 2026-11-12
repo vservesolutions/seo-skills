@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 3
-collected: "2026-11-11"
+collected: "2026-11-12"
 ---
 
 <!-- Unspecified skill · 2gelbuy/google-yandex-2gis-local-seo-skill · skills/google-yandex-2gis-local-seo/SKILL.md · MIT

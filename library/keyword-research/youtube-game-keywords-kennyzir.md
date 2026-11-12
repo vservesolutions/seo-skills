@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 338
-collected: "2026-11-11"
+collected: "2026-11-12"
 ---
 
 <!-- OpenClaw skill · kennyzir/7deer_skills · youtube-game-keywords/SKILL.md · MIT

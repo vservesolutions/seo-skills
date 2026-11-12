@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-11T17:11:09.092Z",
+  "generatedAt": "2026-11-12T00:46:30.029Z",
   "counts": {
     "skills": 39,
-    "findings": 297,
+    "findings": 301,
     "sources": 23
   },
   "skills": [
@@ -170,7 +170,7 @@
       "whenToUse": "Use when organic traffic is absorbed by AI answers, when planning visibility in AI Overviews or chat assistants, or when deciding on llms.txt and AI crawler access.",
       "path": "skills/ai-search-geo/SKILL.md",
       "parent": null,
-      "findings": 124,
+      "findings": 126,
       "sources": 20,
       "lastUpdated": "2026-11-11",
       "confidence": "high"
@@ -443,7 +443,7 @@
       "whenToUse": "Use when the task involves ai overviews and ai mode.",
       "path": "skills/ai-overviews/SKILL.md",
       "parent": "ai-search-geo",
-      "findings": 42,
+      "findings": 43,
       "sources": 14,
       "lastUpdated": "2026-11-11",
       "confidence": "high"

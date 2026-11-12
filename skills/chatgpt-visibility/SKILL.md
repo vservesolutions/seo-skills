@@ -35,7 +35,7 @@ _No verified practices yet: 4 finding(s) exist, but none contain detailed, actio
 
 ## How this skill stays current
 
-- Regenerated on 2026-11-11 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
+- Regenerated on 2026-11-12 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2026-11-03 → 2026-11-11.
 - 4 findings from 2 sources; confidence is **low**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

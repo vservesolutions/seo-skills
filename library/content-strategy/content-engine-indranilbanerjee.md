@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 7
-collected: "2026-11-11"
+collected: "2026-11-12"
 ---
 
 <!-- Claude Code skill · indranilbanerjee/neels-plugins · hermes/digital-marketing-pro/strategy/skills/content-engine/SKILL.md · MIT

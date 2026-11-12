@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 6
-collected: "2026-11-11"
+collected: "2026-11-12"
 ---
 
 <!-- Claude Code skill · ducrz/seo-audit-marketplace · plugins/seo-rank-audit/skills/seo-rank-audit/SKILL.md · MIT

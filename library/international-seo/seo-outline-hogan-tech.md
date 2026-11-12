@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "Apache-2.0"
 stars: 25
-collected: "2026-11-11"
+collected: "2026-11-12"
 ---
 
 <!-- Claude Code, OpenClaw skill · hogan-tech/brand-loom · skills/seo-outline/SKILL.md · Apache-2.0

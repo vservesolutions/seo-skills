@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 9
-collected: "2026-11-11"
+collected: "2026-11-12"
 ---
 
 <!-- Antigravity, Claude Code skill · tmolavi/mcp-agent-skills-hub · skills/seo-technical/SKILL.md · MIT

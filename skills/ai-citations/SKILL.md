@@ -44,7 +44,7 @@ Use when the task involves ai citations and brand mentions.
 
 ## How this skill stays current
 
-- Regenerated on 2026-11-11 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
+- Regenerated on 2026-11-12 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2026-06-16 → 2026-11-04.
 - 7 findings from 6 sources; confidence is **medium**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 5
-collected: "2026-11-11"
+collected: "2026-11-12"
 ---
 
 <!-- Windsurf, Antigravity, Claude Code skill · inz-brasil/INZ-Marketing-Agency-AI-Skills · seo-fundamentals/SKILL.md · MIT

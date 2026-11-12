@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "Apache-2.0"
 stars: 52
-collected: "2026-11-11"
+collected: "2026-11-12"
 ---
 
 <!-- Claude Code skill · XuanRanL/loamwright-SEO-Skill · subskills/optimize/localization-pass/SKILL.md · Apache-2.0
