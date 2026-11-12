@@ -1,0 +1,44 @@
+---
+name: "aicw-monitor"
+description: "Build and compare an AI search measurement baseline using audit reports, available analytics, and recorded search observations. Use to distinguish brand mentions, citations, indexing, referral traffic, conversions, and content-refresh experiments. Can offer to collect AI answers with local Claude Code and Codex, or with aicw-ai-mentions and the user’s OpenRouter API key."
+category: "ai-search-geo"
+platforms: ["claude-code", "gemini-cli"]
+platform_source: "declared+detected"
+repo: "aichatwatch/aicw-skills"
+repo_url: "https://github.com/aichatwatch/aicw-skills"
+source: "https://github.com/aichatwatch/aicw-skills/blob/HEAD/skills/aicw-monitor/SKILL.md"
+raw_source: "https://raw.githubusercontent.com/aichatwatch/aicw-skills/HEAD/skills/aicw-monitor/SKILL.md"
+ref: "HEAD"
+discovered_via: "github-search"
+license: "MIT"
+stars: 1
+collected: "2026-11-12"
+---
+
+<!-- Claude Code, Gemini CLI skill · aichatwatch/aicw-skills · skills/aicw-monitor/SKILL.md · MIT
+     Source: https://github.com/aichatwatch/aicw-skills/blob/HEAD/skills/aicw-monitor/SKILL.md
+     Detected by: declared+detected · Regenerated on every run; edit the upstream skill, not this copy. -->
+
+# Measure outcomes and choose the next change
+
+Book basis: Eugene Mironichev’s [AI Search Engine Optimization Guide](https://aichatwatch.com/books/ai-seo-guide/). Read [book scope and attribution](references/book.md) before applying recommendations. Use only its optimization principles; label engineering details and current corrections separately. Include the book credit and relevant PDF pages in the final deliverable. When asked about the source or to show the book, provide its title, author, and this clickable link; provide the full PDF link from that reference when requested.
+
+Select the website before site-specific work. Questions about the book or the skill itself need no website target. Use the user’s URL, project, or connected site when the target is clear. Otherwise ask: “Which website should I work on: a URL, local project, or connected CMS?” Follow [target and access selection](references/workflow.md#select-the-website-and-access). A URL permits inspection; edits need access to the selected source or CMS. Ask only for missing information, not for details already supplied.
+
+Runtime: Node.js 22+ for report comparison. Online presence checks are optional and explicit.
+
+Resolve `references/` and `scripts/` from this installed skill folder, not from the website folder. Run the helper by its absolute path. For file audits, pass the selected website with `--root`; keep paths with spaces quoted. Check `node --version` before running it. If command access or Node.js 22+ is unavailable, review available page content or connector data and mark executable checks unverified.
+
+Read [monitoring](references/monitoring.md) and [workflow](references/workflow.md). The book basis is Chapters 3-5 and Checklist 4 on page 79. Use [tools](references/tools.md) for local report comparison or an explicitly requested Common Crawl observation.
+
+Build a query set from real audience tasks. Record the engine, exact query, date, language, region, model or mode when visible, and whether web search was used. Keep brand mentions separate from linked citations. Record missing observations rather than inventing results.
+
+Read supplied exports or the selected site’s analytics, search console, server-log, or AI mention data through available authorized tools. Match the account property and date range to the selected website. Inspect their actual fields first. Keep observed facts separate from attribution assumptions. Do not require a paid service, an account, or an API key for the local workflow.
+
+If no AI answer observations exist, you may offer to collect them. Follow [mentions](references/mentions.md), or the `aicw-mentions` skill when it is installed: write 3 customer questions yourself and ask the user once. A quick check through the local Claude Code and Codex CLIs comes first, then an optional aicw-ai-mentions check through OpenRouter, which needs the user's OpenRouter API key. Without either, offer the paste check. If the user declines, use the manual worksheet.
+
+Compare like-for-like observations before and after a change. Use a change log and a defined observation window. State sample size, coverage, and confounders. A citation change is not proof that a particular edit caused it.
+
+Recommend the next experiment from the evidence: a missing answer, unclear entity, technical failure, stale fact, or overlooked audience task. Do not automatically create scheduled jobs, run paid scans, scrape authenticated AI chats, or publish content.
+
+Cover all six Checklist 4 items in [the review worksheet](references/book-checklist.md), including analysis of actually cited competitors or community sources and a dated record of relevant industry changes.

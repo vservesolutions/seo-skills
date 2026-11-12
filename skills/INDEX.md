@@ -1,6 +1,6 @@
 # SEO Skills Index
 
-Generated 2026-11-12. 39 skills across 16 categories, from 301 findings.
+Generated 2026-11-12. 39 skills across 16 categories, from 304 findings.
 
 A category skill aggregates every finding in its area; sub-skills go deeper where evidence exists.
 
@@ -79,11 +79,11 @@ A category skill aggregates every finding in its area; sub-skills go deeper wher
 | --- | --- | ---: | --- | --- |
 | [International and Multilingual SEO](international-seo/SKILL.md) | Hreflang implementation, locale targeting, ccTLD vs subfolder decisions and localization quality. | 2 | 2026-08-01 | low |
 
-## Ecommerce SEO and Faceted Navigation · 10 findings
+## Ecommerce SEO and Faceted Navigation · 11 findings
 
 | Skill | What it covers | Findings | Updated | Confidence |
 | --- | --- | ---: | --- | --- |
-| [Ecommerce SEO and Faceted Navigation](ecommerce-seo/SKILL.md) | Category and product page optimization, faceted navigation, variants, out-of-stock handling and merchant feeds. | 10 | 2026-11-11 | medium |
+| [Ecommerce SEO and Faceted Navigation](ecommerce-seo/SKILL.md) | Category and product page optimization, faceted navigation, variants, out-of-stock handling and merchant feeds. | 11 | 2026-11-12 | medium |
 
 ## SEO Analytics, Reporting and Measurement · 50 findings
 
@@ -93,12 +93,12 @@ A category skill aggregates every finding in its area; sub-skills go deeper wher
 | [↳ Search Console Analysis](search-console/SKILL.md) | Search Console Analysis: specific techniques, checks and pitfalls. | 18 | 2026-11-11 | high |
 | [↳ Rank Tracking and Visibility Reporting](rank-tracking/SKILL.md) | Rank Tracking and Visibility Reporting: specific techniques, checks and pitfalls. | 2 | 2026-11-07 | low |
 
-## AI Search, GEO and Answer Engines · 126 findings
+## AI Search, GEO and Answer Engines · 129 findings
 
 | Skill | What it covers | Findings | Updated | Confidence |
 | --- | --- | ---: | --- | --- |
-| [AI Search, GEO and Answer Engines](ai-search-geo/SKILL.md) | AI Overviews, AI Mode, LLM citation visibility, generative engine optimization and llms.txt conventions. | 126 | 2026-11-11 | high |
-| [↳ AI Overviews and AI Mode](ai-overviews/SKILL.md) | AI Overviews and AI Mode: specific techniques, checks and pitfalls. | 43 | 2026-11-11 | high |
+| [AI Search, GEO and Answer Engines](ai-search-geo/SKILL.md) | AI Overviews, AI Mode, LLM citation visibility, generative engine optimization and llms.txt conventions. | 129 | 2026-11-12 | high |
+| [↳ AI Overviews and AI Mode](ai-overviews/SKILL.md) | AI Overviews and AI Mode: specific techniques, checks and pitfalls. | 46 | 2026-11-12 | high |
 | [↳ llms.txt and Agent Readability](llms-txt/SKILL.md) | llms.txt and Agent Readability: specific techniques, checks and pitfalls. | 2 | 2026-11-04 | low |
 | [↳ AI Citations and Brand Mentions](ai-citations/SKILL.md) | AI Citations and Brand Mentions: specific techniques, checks and pitfalls. | 7 | 2026-11-04 | medium |
 | [↳ ChatGPT and Assistant Visibility](chatgpt-visibility/SKILL.md) | ChatGPT and Assistant Visibility: specific techniques, checks and pitfalls. | 4 | 2026-11-11 | low |

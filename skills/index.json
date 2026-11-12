@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-12T00:46:30.029Z",
+  "generatedAt": "2026-11-12T11:18:28.157Z",
   "counts": {
     "skills": 39,
-    "findings": 301,
+    "findings": 304,
     "sources": 23
   },
   "skills": [
@@ -144,9 +144,9 @@
       "whenToUse": "Use when category pages cannibalize each other, when facets create crawl explosions, or when product and variant pages need indexing rules.",
       "path": "skills/ecommerce-seo/SKILL.md",
       "parent": null,
-      "findings": 10,
+      "findings": 11,
       "sources": 7,
-      "lastUpdated": "2026-11-11",
+      "lastUpdated": "2026-11-12",
       "confidence": "medium"
     },
     {
@@ -170,9 +170,9 @@
       "whenToUse": "Use when organic traffic is absorbed by AI answers, when planning visibility in AI Overviews or chat assistants, or when deciding on llms.txt and AI crawler access.",
       "path": "skills/ai-search-geo/SKILL.md",
       "parent": null,
-      "findings": 126,
+      "findings": 129,
       "sources": 20,
-      "lastUpdated": "2026-11-11",
+      "lastUpdated": "2026-11-12",
       "confidence": "high"
     },
     {
@@ -443,9 +443,9 @@
       "whenToUse": "Use when the task involves ai overviews and ai mode.",
       "path": "skills/ai-overviews/SKILL.md",
       "parent": "ai-search-geo",
-      "findings": 43,
+      "findings": 46,
       "sources": 14,
-      "lastUpdated": "2026-11-11",
+      "lastUpdated": "2026-11-12",
       "confidence": "high"
     },
     {

@@ -31,6 +31,22 @@
     "license": "MIT",
     "checkedAt": "2026-11-09T11:26:13.257Z"
   },
+  "1abcdefggs/seo-page-structure-checklist": {
+    "status": "ok",
+    "archived": false,
+    "pushedAt": "2026-10-16T05:34:17Z",
+    "stars": 1,
+    "license": "NOASSERTION",
+    "checkedAt": "2026-11-12T11:18:13.080Z"
+  },
+  "2030ai/2030ai-seo-geo-skill": {
+    "status": "ok",
+    "archived": false,
+    "pushedAt": "2026-08-30T14:50:39Z",
+    "stars": 1,
+    "license": "",
+    "checkedAt": "2026-11-12T11:18:13.080Z"
+  },
   "23blocks-OS/agentic-seo": {
     "status": "ok",
     "archived": false,
@@ -62,6 +78,14 @@
     "stars": 9,
     "license": "MIT",
     "checkedAt": "2026-11-11T06:28:20.228Z"
+  },
+  "88lin/geo-book-skill": {
+    "status": "ok",
+    "archived": false,
+    "pushedAt": "2026-09-17T16:52:45Z",
+    "stars": 1,
+    "license": "MIT",
+    "checkedAt": "2026-11-12T11:18:13.080Z"
   },
   "AI-Marketing-OS-LTD/cmo-so-skills": {
     "status": "ok",
@@ -711,6 +735,14 @@
     "license": "Apache-2.0",
     "checkedAt": "2026-11-09T11:26:13.257Z"
   },
+  "Rachit-Sharma08/coding-agent-skills": {
+    "status": "ok",
+    "archived": false,
+    "pushedAt": "2026-11-02T09:09:38Z",
+    "stars": 2,
+    "license": "NOASSERTION",
+    "checkedAt": "2026-11-12T11:18:13.080Z"
+  },
   "ReScienceLab/opc-skills": {
     "status": "ok",
     "archived": false,
@@ -734,6 +766,14 @@
     "stars": 6,
     "license": "MIT",
     "checkedAt": "2026-11-12T00:46:13.797Z"
+  },
+  "RouterGrowth/skills": {
+    "status": "ok",
+    "archived": false,
+    "pushedAt": "2026-10-28T11:18:20Z",
+    "stars": 2,
+    "license": "MIT",
+    "checkedAt": "2026-11-12T11:18:13.080Z"
   },
   "Ryze-AI-Adgent/open-seo-mcp-skills": {
     "status": "ok",
@@ -782,6 +822,14 @@
     "stars": 3,
     "license": "Apache-2.0",
     "checkedAt": "2026-11-11T06:28:20.228Z"
+  },
+  "SeyitKaanGunes/ai-agent-search-optimization": {
+    "status": "ok",
+    "archived": false,
+    "pushedAt": "2026-11-06T20:29:45Z",
+    "stars": 2,
+    "license": "MIT",
+    "checkedAt": "2026-11-12T11:18:13.080Z"
   },
   "ShenyuanNext/wepr-growth-skills": {
     "status": "ok",
@@ -918,6 +966,14 @@
     "stars": 10,
     "license": "MIT",
     "checkedAt": "2026-11-09T11:26:13.257Z"
+  },
+  "Zuhair-01/claude-skills-and-systems": {
+    "status": "ok",
+    "archived": false,
+    "pushedAt": "2026-10-02T02:04:48Z",
+    "stars": 2,
+    "license": "MIT",
+    "checkedAt": "2026-11-12T11:18:13.080Z"
   },
   "aabrole/aeo-seo-geo-masterlist": {
     "status": "ok",
@@ -2567,6 +2623,14 @@
     "license": "MIT",
     "checkedAt": "2026-11-09T22:24:28.109Z"
   },
+  "moh-obaida/ReadyVibe-Skills": {
+    "status": "ok",
+    "archived": false,
+    "pushedAt": "2026-11-01T09:06:36Z",
+    "stars": 2,
+    "license": "Apache-2.0",
+    "checkedAt": "2026-11-12T11:18:13.080Z"
+  },
   "mohammad-abbasi-sh/agent-seo-skills": {
     "status": "ok",
     "archived": false,
@@ -2590,6 +2654,14 @@
     "stars": 2,
     "license": "NOASSERTION",
     "checkedAt": "2026-11-12T00:46:13.797Z"
+  },
+  "nathanpitman/WordPress-to-Astro-migration-skill": {
+    "status": "ok",
+    "archived": false,
+    "pushedAt": "2026-10-22T13:09:41Z",
+    "stars": 2,
+    "license": "MIT",
+    "checkedAt": "2026-11-12T11:18:13.080Z"
   },
   "nexscope-ai/Amazon-Skills": {
     "status": "ok",
@@ -2630,6 +2702,14 @@
     "stars": 4,
     "license": "MIT",
     "checkedAt": "2026-11-10T17:04:41.491Z"
+  },
+  "nipun-arora/semantic-seo-geek": {
+    "status": "ok",
+    "archived": false,
+    "pushedAt": "2026-08-21T13:43:03Z",
+    "stars": 2,
+    "license": "Apache-2.0",
+    "checkedAt": "2026-11-12T11:18:13.080Z"
   },
   "nocodework/growth-os": {
     "status": "ok",
@@ -2727,6 +2807,14 @@
     "license": "MIT",
     "checkedAt": "2026-11-10T07:23:02.142Z"
   },
+  "osodevops/intelligence-layer-skills": {
+    "status": "ok",
+    "archived": false,
+    "pushedAt": "2026-05-24T05:40:03Z",
+    "stars": 2,
+    "license": "",
+    "checkedAt": "2026-11-12T11:18:13.080Z"
+  },
   "owensky-dev/seo-gsc-ga4-analyst": {
     "status": "ok",
     "archived": false,
@@ -2750,6 +2838,14 @@
     "stars": 4,
     "license": "MIT",
     "checkedAt": "2026-11-10T23:25:35.393Z"
+  },
+  "parsakhaz/seo-skills": {
+    "status": "ok",
+    "archived": false,
+    "pushedAt": "2026-09-30T01:17:17Z",
+    "stars": 2,
+    "license": "",
+    "checkedAt": "2026-11-12T11:18:13.080Z"
   },
   "petar-nauka/ai-visibility-skill": {
     "status": "ok",
@@ -2879,6 +2975,22 @@
     "license": "MIT",
     "checkedAt": "2026-11-10T07:23:02.142Z"
   },
+  "rogulia/skills": {
+    "status": "ok",
+    "archived": false,
+    "pushedAt": "2026-10-22T08:20:55Z",
+    "stars": 2,
+    "license": "CC-BY-4.0",
+    "checkedAt": "2026-11-12T11:18:13.080Z"
+  },
+  "rommel916/google-search-geo-seo": {
+    "status": "ok",
+    "archived": false,
+    "pushedAt": "2026-07-03T03:42:31Z",
+    "stars": 2,
+    "license": "",
+    "checkedAt": "2026-11-12T11:18:13.080Z"
+  },
   "ronaldships/foundvia-discovery": {
     "status": "ok",
     "archived": false,
@@ -2927,6 +3039,14 @@
     "license": "MIT",
     "checkedAt": "2026-11-09T11:26:13.257Z"
   },
+  "seekdigital42/aeo-seo-claude": {
+    "status": "ok",
+    "archived": false,
+    "pushedAt": "2026-03-22T05:32:50Z",
+    "stars": 2,
+    "license": "MIT",
+    "checkedAt": "2026-11-12T11:18:13.080Z"
+  },
   "seo-skills/geo-audit-skill": {
     "status": "ok",
     "archived": false,
@@ -2958,6 +3078,14 @@
     "stars": 21,
     "license": "MIT",
     "checkedAt": "2026-11-09T11:26:13.257Z"
+  },
+  "seovendorco/sv-mcp-skills": {
+    "status": "ok",
+    "archived": false,
+    "pushedAt": "2026-10-15T09:55:51Z",
+    "stars": 2,
+    "license": "MIT",
+    "checkedAt": "2026-11-12T11:18:13.080Z"
   },
   "seranking/seo-skills": {
     "status": "ok",
@@ -3007,6 +3135,14 @@
     "license": "MIT",
     "checkedAt": "2026-11-09T11:26:13.257Z"
   },
+  "shihabshahrier/seo-master-skill": {
+    "status": "ok",
+    "archived": false,
+    "pushedAt": "2026-07-27T05:32:36Z",
+    "stars": 2,
+    "license": "MIT",
+    "checkedAt": "2026-11-12T11:18:13.080Z"
+  },
   "shimo4228/llms-txt-writer": {
     "status": "ok",
     "archived": false,
@@ -3030,6 +3166,14 @@
     "stars": 5,
     "license": "MIT",
     "checkedAt": "2026-11-10T17:04:41.491Z"
+  },
+  "skytiger6724/qwen-skills": {
+    "status": "ok",
+    "archived": false,
+    "pushedAt": "2026-04-09T08:34:41Z",
+    "stars": 2,
+    "license": "",
+    "checkedAt": "2026-11-12T11:18:13.080Z"
   },
   "smeseik-ai/arabic-content-studio": {
     "status": "ok",
@@ -3070,6 +3214,22 @@
     "stars": 10,
     "license": "MIT",
     "checkedAt": "2026-11-09T11:26:13.257Z"
+  },
+  "stevewerme/seo-geo-nextjs": {
+    "status": "ok",
+    "archived": false,
+    "pushedAt": "2026-04-03T06:36:52Z",
+    "stars": 2,
+    "license": "MIT",
+    "checkedAt": "2026-11-12T11:18:13.080Z"
+  },
+  "storehand/storehand": {
+    "status": "ok",
+    "archived": false,
+    "pushedAt": "2026-08-05T11:49:08Z",
+    "stars": 2,
+    "license": "Apache-2.0",
+    "checkedAt": "2026-11-12T11:18:13.080Z"
   },
   "stoyan-koychev/sgnl-cli": {
     "status": "ok",
@@ -3159,6 +3319,14 @@
     "license": "NOASSERTION",
     "checkedAt": "2026-11-09T11:26:13.257Z"
   },
+  "thevibegarage/geo-visibility-skill": {
+    "status": "ok",
+    "archived": false,
+    "pushedAt": "2026-10-27T18:55:12Z",
+    "stars": 2,
+    "license": "MIT",
+    "checkedAt": "2026-11-12T11:18:13.080Z"
+  },
   "thirdwatch-dev/scraping-skills": {
     "status": "ok",
     "archived": false,
@@ -3191,6 +3359,14 @@
     "license": "MIT",
     "checkedAt": "2026-11-09T11:26:13.257Z"
   },
+  "tmolavi/n8n-agent-skills": {
+    "status": "ok",
+    "archived": false,
+    "pushedAt": "2026-09-17T23:43:43Z",
+    "stars": 2,
+    "license": "MIT",
+    "checkedAt": "2026-11-12T11:18:13.080Z"
+  },
   "tmolavi/siteprobe": {
     "status": "ok",
     "archived": false,
@@ -3206,6 +3382,14 @@
     "stars": 3,
     "license": "",
     "checkedAt": "2026-11-11T06:28:20.228Z"
+  },
+  "tony-apan/allincms-content-ops": {
+    "status": "ok",
+    "archived": false,
+    "pushedAt": "2026-06-26T09:33:35Z",
+    "stars": 2,
+    "license": "MIT",
+    "checkedAt": "2026-11-12T11:18:13.080Z"
   },
   "trackee-API/skills": {
     "status": "ok",
@@ -3295,6 +3479,14 @@
     "license": "MIT",
     "checkedAt": "2026-11-09T11:26:13.257Z"
   },
+  "waseemnasir2k26/skynetlabs-all-claude-code": {
+    "status": "ok",
+    "archived": false,
+    "pushedAt": "2026-11-02T17:46:20Z",
+    "stars": 2,
+    "license": "NOASSERTION",
+    "checkedAt": "2026-11-12T11:18:13.080Z"
+  },
   "weipanux/seo-geo-blog-writer": {
     "status": "ok",
     "archived": false,
@@ -3310,6 +3502,14 @@
     "stars": 5,
     "license": "Apache-2.0",
     "checkedAt": "2026-11-10T17:04:41.491Z"
+  },
+  "winsley-jeune/harborrank-skills": {
+    "status": "ok",
+    "archived": false,
+    "pushedAt": "2026-11-10T12:50:00Z",
+    "stars": 2,
+    "license": "MIT",
+    "checkedAt": "2026-11-12T11:18:13.080Z"
   },
   "wonfull888/seo-audit": {
     "status": "ok",
@@ -3359,6 +3559,22 @@
     "license": "AGPL-3.0",
     "checkedAt": "2026-11-09T11:26:13.257Z"
   },
+  "yash-banka/seo-playbook": {
+    "status": "ok",
+    "archived": false,
+    "pushedAt": "2026-09-07T15:51:36Z",
+    "stars": 2,
+    "license": "",
+    "checkedAt": "2026-11-12T11:18:13.080Z"
+  },
+  "yrogovich/codex-seo-audit-skill": {
+    "status": "ok",
+    "archived": false,
+    "pushedAt": "2026-11-09T17:53:47Z",
+    "stars": 2,
+    "license": "",
+    "checkedAt": "2026-11-12T11:18:13.080Z"
+  },
   "yulia-glukhova/aeo-schema-skill": {
     "status": "ok",
     "archived": false,
@@ -3374,6 +3590,14 @@
     "stars": 14,
     "license": "MIT",
     "checkedAt": "2026-11-09T11:26:13.257Z"
+  },
+  "zeke/aeo-skill": {
+    "status": "ok",
+    "archived": false,
+    "pushedAt": "2026-09-24T01:37:13Z",
+    "stars": 2,
+    "license": "MIT",
+    "checkedAt": "2026-11-12T11:18:13.080Z"
   },
   "zhenheco/content-flywheel-skills": {
     "status": "ok",
