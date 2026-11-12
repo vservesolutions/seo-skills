@@ -1,8 +1,8 @@
 ---
 name: seo-search-console
-description: "Search Console Analysis: specific techniques, checks and pitfalls. Auto-generated from 18 findings across 10 sources."
-last_updated: 2026-11-11
-findings: 18
+description: "Search Console Analysis: specific techniques, checks and pitfalls. Auto-generated from 19 findings across 10 sources."
+last_updated: 2026-11-12
+findings: 19
 sources: 10
 confidence: high
 ---
@@ -34,9 +34,12 @@ Use when the task involves search console analysis.
 15. The trickle of News and Discover traffic has vanished and we are on record for the worst weekend traffic in 6 years. — *Search Engine Roundtable, 2026-11-09*
 16. Facebook Answers AI-Generated 6 Million Pages Is Google Scaled Content Abuse If you looked at the Google Search results recently, you may have stumbled on content from Facebook Answers. — *Search Engine Roundtable, 2026-11-05*
 17. In this episode of Google Search News, John Mueller shares major updates across Search Console, Google Search, and publisher tools! — *Google Search Central (YouTube), 2026-10-26*
+18. Google has published a new help document named Identify Google Search traffic in your web analytics or server logs . — *Search Engine Roundtable, 2026-11-12*
+19. This document explains how to see if Google Search is sending you traffic in your own web analytics system or server logs by inspecting the HTTP Referer header. — *Search Engine Roundtable, 2026-11-12*
 
 ## Recent developments
 
+- **Google Explains How To Identifying Traffic From Google Search** — 2026-11-12 · Search Engine Roundtable — Google has published a new help document named Identify Google Search traffic in your web analytics or server logs . ([link](https://www.seroundtable.com/identify-traffic-from-google-search-42525.html))
 - **How to use Semrush with Google Search Console** — 2026-11-11 · Semrush Blog — Using Semrush with Google Search Console (GSC) gives you two views of your site, side by side, for a more complete view into your search visibility. ([link](https://www.semrush.com/blog/semrush-google-search-console))
 - **Good Vs. Bad pSEO: Learnings From A Decade Of Building Scalable Content Engines** — 2026-11-10 · Search Engine Journal — He wrote that programmatic SEO of that kind often leads to a site that’s spam, borderline spam, or low quality, and that pages already published may keep shaping how Google judges the whole site. ([link](https://www.searchenginejournal.com/good-vs-bad-pseo-learnings-from-a-decade-of-building-scalable-content-engines/594204))
 - **Google Search Ranking Volatility November 9th?** — 2026-11-09 · Search Engine Roundtable — Chatter within the SEO community has been relatively calm for the past week and the tools are showing spikes here and there. ([link](https://www.seroundtable.com/google-search-ranking-volatility-november-9th-42486.html))
@@ -46,10 +49,10 @@ Use when the task involves search console analysis.
 - **Information Gain vs. Content Parity, Why Your AI Search Content Isn't Getting Cited** — 2026-11-04 · Search Engine Journal (YouTube) — AI has made content parity cheap and fast. ([link](https://www.youtube.com/shorts/Gd5qQdKhf8c))
 - **Google Discover changes, AI content rules & Search Console updates | October 2026 SEO Update** — 2026-10-28 · Yoast (YouTube) — How are Google’s latest updates changing SEO, AI search, and content visibility? ([link](https://www.youtube.com/watch?v=LKX8KGj2Hok))
 - **WordPress website: Increased server response times and reduced Googlebot crawling since September — how can I identify the cause?** — 2026-10-27 · Webmasters Stack Exchange — Since September 2026, I've noticed a significant increase in the average response time reported by Google Search Console, along with a reduction in Googlebot's crawling activity. ([link](https://webmasters.stackexchange.com/questions/150043/wordpress-website-increased-server-response-times-and-reduced-googlebot-crawlin))
-- **Google Search news with platform properties, multimodal Search & AI Features (Q4 ‘26)** — 2026-10-26 · Google Search Central (YouTube) — In this episode of Google Search News, John Mueller shares major updates across Search Console, Google Search, and publisher tools! ([link](https://www.youtube.com/watch?v=P7grNk_REms))
 
 ## References
 
+- [Google Explains How To Identifying Traffic From Google Search](https://www.seroundtable.com/identify-traffic-from-google-search-42525.html) — Search Engine Roundtable · 2026-11-12
 - [How to use Semrush with Google Search Console](https://www.semrush.com/blog/semrush-google-search-console) — Semrush Blog · 2026-11-11
 - [Good Vs. Bad pSEO: Learnings From A Decade Of Building Scalable Content Engines](https://www.searchenginejournal.com/good-vs-bad-pseo-learnings-from-a-decade-of-building-scalable-content-engines/594204) — Search Engine Journal · 2026-11-10
 - [Google Search Ranking Volatility November 9th?](https://www.seroundtable.com/google-search-ranking-volatility-november-9th-42486.html) — Search Engine Roundtable · 2026-11-09
@@ -61,11 +64,10 @@ Use when the task involves search console analysis.
 - [WordPress website: Increased server response times and reduced Googlebot crawling since September — how can I identify the cause?](https://webmasters.stackexchange.com/questions/150043/wordpress-website-increased-server-response-times-and-reduced-googlebot-crawlin) — Webmasters Stack Exchange · 2026-10-27
 - [Google Search news with platform properties, multimodal Search & AI Features (Q4 ‘26)](https://www.youtube.com/watch?v=P7grNk_REms) — Google Search Central (YouTube) · 2026-10-26
 - [Introducing Topics Portfolio (Beta) in AI Performance](https://blogs.bing.com/webmaster/2026/10/introducing-topics-portfolio-beta-in-ai-performance) — Bing Webmaster Blog · 2026-10-13
-- [How to build an AI visibility dashboard with Semrush](https://www.semrush.com/blog/how-to-build-an-ai-visibility-dashboard-semrush) — Semrush Blog · 2026-10-12
 
 ## How this skill stays current
 
 - Regenerated on 2026-11-12 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
-- Coverage window: 2026-07-29 → 2026-11-11.
-- 18 findings from 10 sources; confidence is **high**.
+- Coverage window: 2026-07-29 → 2026-11-12.
+- 19 findings from 10 sources; confidence is **high**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

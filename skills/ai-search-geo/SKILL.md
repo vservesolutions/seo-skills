@@ -1,8 +1,8 @@
 ---
 name: seo-ai-search-geo
-description: "AI Overviews, AI Mode, LLM citation visibility, generative engine optimization and llms.txt conventions. Auto-generated from 129 findings across 20 sources."
+description: "AI Overviews, AI Mode, LLM citation visibility, generative engine optimization and llms.txt conventions. Auto-generated from 139 findings across 20 sources."
 last_updated: 2026-11-12
-findings: 129
+findings: 139
 sources: 20
 confidence: high
 ---
@@ -18,57 +18,61 @@ Use when organic traffic is absorbed by AI answers, when planning visibility in 
 ## Core practices
 
 1. Test for text indexability: Highlight and copy text out of your PDF into a text editor; if text doesn't copy, it might be a rasterized image and can't be indexed easily. — *Google Search Central (YouTube), 2026-10-13*
-2. Missing products: Your best-selling jacket never appears for “warmest winter jacket under $300.” A competitor product shows up there instead. — *Search Engine Journal, 2026-11-12*
-3. Your product doesn’t show up, it shows up with the wrong details, or a competitor or reseller gets the final click instead of you. — *Search Engine Journal, 2026-11-12*
-4. Organize your work around topics, and you can use embeddings to help group the language – in fact you should! — *Search Engine Journal, 2026-11-10*
-5. A separate academic study (80 questions, run 20 times each on GPT-5.3 and GPT-5.5 Instant, March to July 2026) found that those models never searched the user's exact wording. — *Ahrefs Blog, 2026-11-10*
-6. Some site owners don't want their work used to train AI for free, and big publishers often block it to keep leverage in licensing deals. — *Ahrefs Blog, 2026-11-10*
-7. Traffic can’t be the only test of whether a page earns its place, because the click may never come. — *Search Engine Journal, 2026-11-10*
-8. Define the minimum data completeness for a row to generate a page, and enforce it in code. — *Search Engine Journal, 2026-11-10*
-9. Display targeting changes in Demand Gen campaigns starting the week of December 1, 2026 , Google Ads Developer Blog. — *Search Engine Roundtable, 2026-11-10*
-10. Google Ads: Ads With Pay-Per-Lead Goals Terms Google Ads is rolling out a new option named "Ads with pay-per-lead goals terms." Advertisers must opt into this setting to activate it. — *Search Engine Roundtable, 2026-11-10*
-11. Add-ons for reporting, content, and seats cost more on Ahrefs, whereas API access on Semrush is gated to a higher plan rather than sold as an add-on. — *Semrush Blog, 2026-11-10*
-12. Link builders, technical SEOs, and teams that want a focused SEO toolset. — *Semrush Blog, 2026-11-10*
-13. Replace or retire a prompt family in the Core set when the product, market, buyer language, or decision has changed. — *Semrush Blog, 2026-11-10*
-14. Use the revenue, reputation, competitor, and gap prompt types in our prompt portfolio framework to decide which buyer decisions belong in your Core set. — *Semrush Blog, 2026-11-10*
-15. Keep exact match where you need control, and give broad match or AI Max a defined slice of non-brand budget with Smart Bidding and clean conversion data behind it. — *Search Engine Journal, 2026-11-09*
-16. Audit your highest-spend landing pages for the specifics a follow-up question would ask about, such as comparisons, sizing, pricing, and use cases. — *Search Engine Journal, 2026-11-09*
-17. Keep pages that compete for the same queries together as one unit, or a winning variant can simply take clicks from its control twin. — *Search Engine Journal, 2026-11-09*
-18. Keep a holdout set of similar pages you deliberately don’t change. — *Search Engine Journal, 2026-11-09*
-19. New Google Maps, Apple Maps and Waze alternative reveals why you should ditch the rest and start using its app instead , Super Car Blondie. — *Search Engine Roundtable, 2026-11-09*
-20. Google’s AI features answer the question on the results page, and the searcher never leaves. — *Search Engine Journal, 2026-11-09*
+2. Keep review score and review count current, in structured form, and consistent across the platforms agents check. — *Search Engine Journal, 2026-11-12*
+3. Remove Food Ordering Providers from Your Restaurant's Google Business Profile , Online Ownership. — *Search Engine Roundtable, 2026-11-12*
+4. Target Frequency Campaigns Can Mix Non-Skippable Ads With Shorts and In-Feed , PPC News Feed. — *Search Engine Roundtable, 2026-11-12*
+5. Before you start, make sure you have access to your domain’s DNS settings and your business records. — *Search Engine Journal, 2026-11-12*
+6. Check how they describe your business before continuing, especially if the questions don’t fit what you do. — *Search Engine Journal, 2026-11-12*
+7. LLMs do not reference brands because the company bought visibility software. — *Search Engine Journal, 2026-11-12*
+8. Missing products: Your best-selling jacket never appears for “warmest winter jacket under $300.” A competitor product shows up there instead. — *Search Engine Journal, 2026-11-12*
+9. Your product doesn’t show up, it shows up with the wrong details, or a competitor or reseller gets the final click instead of you. — *Search Engine Journal, 2026-11-12*
+10. Organize your work around topics, and you can use embeddings to help group the language – in fact you should! — *Search Engine Journal, 2026-11-10*
+11. A separate academic study (80 questions, run 20 times each on GPT-5.3 and GPT-5.5 Instant, March to July 2026) found that those models never searched the user's exact wording. — *Ahrefs Blog, 2026-11-10*
+12. Some site owners don't want their work used to train AI for free, and big publishers often block it to keep leverage in licensing deals. — *Ahrefs Blog, 2026-11-10*
+13. Traffic can’t be the only test of whether a page earns its place, because the click may never come. — *Search Engine Journal, 2026-11-10*
+14. Define the minimum data completeness for a row to generate a page, and enforce it in code. — *Search Engine Journal, 2026-11-10*
+15. Display targeting changes in Demand Gen campaigns starting the week of December 1, 2026 , Google Ads Developer Blog. — *Search Engine Roundtable, 2026-11-10*
+16. Google Ads: Ads With Pay-Per-Lead Goals Terms Google Ads is rolling out a new option named "Ads with pay-per-lead goals terms." Advertisers must opt into this setting to activate it. — *Search Engine Roundtable, 2026-11-10*
+17. Add-ons for reporting, content, and seats cost more on Ahrefs, whereas API access on Semrush is gated to a higher plan rather than sold as an add-on. — *Semrush Blog, 2026-11-10*
+18. Link builders, technical SEOs, and teams that want a focused SEO toolset. — *Semrush Blog, 2026-11-10*
+19. Replace or retire a prompt family in the Core set when the product, market, buyer language, or decision has changed. — *Semrush Blog, 2026-11-10*
+20. Use the revenue, reputation, competitor, and gap prompt types in our prompt portfolio framework to decide which buyer decisions belong in your Core set. — *Semrush Blog, 2026-11-10*
+
+## Pitfalls to avoid
+
+1. Do not construct your executive roadmap around the features of an unstable tool category. — *Search Engine Journal, 2026-11-12*
 
 ## Recent developments
 
-- **Google Grades Its Own Homework** — 2026-11-12 · Surfer Academy (YouTube) — Google AI Mode’s favorite source is Google. ([link](https://www.youtube.com/shorts/dl5q6XIbXvs))
-- **AI Shopping Errors: What To Fix To Help Shoppers Choose Your Products** — 2026-11-12 · Search Engine Journal — AI shopping results are product recommendations that appear inside an AI answer. ([link](https://www.searchenginejournal.com/fix-ai-shopping-errors-writesonic-spa/595790))
-- **Google Placing Citation/Source Icons At Bottom Of AI Overviews** — 2026-11-12 · Search Engine Roundtable — Google is testing moving the citations or sources icons to the very bottom of the AI Overviews. ([link](https://www.seroundtable.com/google-ai-overview-source-icons-bottom-42519.html))
-- **Google Search Expanding AI Overview Definitions By Default** — 2026-11-11 · Search Engine Roundtable — Google is expanding the AI Overviews for definitions by default, where you no longer have to click on "Show more" to see the full version of the AI Overview. ([link](https://www.seroundtable.com/google-expanding-definitions-42514.html))
-- **Gemini’s Favorite Source Isn’t Google** — 2026-11-11 · Surfer Academy (YouTube) — In September, Reddit earned 68,000 Gemini citations, 25% of the top 50. ([link](https://www.youtube.com/shorts/XejO12g_Keg))
-- **Visibility Gets You On The List, Evidence Helps You Stay There** — 2026-11-11 · Search Engine Journal — Nearly two years ago, I began using the term “eligibility gates” to describe the detailed decision criteria that determine whether a company or product remains qualified as a buyer moves through the decision process. ([link](https://www.searchenginejournal.com/visibility-gets-you-on-the-list-evidence-helps-you-stay-there/592127))
-- **Daily Search Forum Recap: November 11, 2026** — 2026-11-11 · Search Engine Roundtable — Google Ads is also adding the Visit site link in the mobile ad descriptions for search ads. ([link](https://www.seroundtable.com/recap-11-11-2026-42509.html))
-- **The Pages Content Marketers Hate Are Perplexity’s Favorite** — 2026-11-11 · Surfer Academy (YouTube) — Perplexity has a soft spot for the stat roundup pages content marketers love to hate. ([link](https://www.youtube.com/shorts/3DFK0fK32AU))
-- **The 100 Most Mentioned Brands in ChatGPT (November 2026)** — 2026-11-11 · Ahrefs Blog — We counted how many of 5.5 million US ChatGPT answers mention each brand. ([link](https://ahrefs.com/blog/most-mentioned-brands-chatgpt))
-- **Google Ads Brand Lists Using Global Brand Library** — 2026-11-11 · Search Engine Roundtable — Google updated its About brand settings for Search and Performance Max help document to clarify how to manage brands within your brand list. ([link](https://www.seroundtable.com/google-ads-brand-lists-library-42506.html))
+- **Google Search Gets Major Upgrade With Gemini 4 Hydrogen** — 2026-11-12 · Search Engine Roundtable — Google Search has received a "massive upgrade with Gemini 4 Hydrogen ," said Nick Fox of Google. ([link](https://www.seroundtable.com/google-search-gemini-4-hydrogen-42526.html))
+- **OpenAI ChatGPT Ads Updates With Intelligent Bidding, New Cost Targets, Geo-Flexibility & Product Set Filters** — 2026-11-12 · Search Engine Roundtable — OpenAI just sent out its weekly ChatGPT Ads update email announcing a number of updates including intelligent bidding, new cost targets in Ads Manager, more geographic flexibility for product feed campaigns and more flexible product set… ([link](https://www.seroundtable.com/openai-chatgpt-ads-updates-42524.html))
+- **The Traffic Pool Is Shrinking, And Which Channel Fills It Matters Less Than We Think** — 2026-11-12 · Search Engine Journal — Marie Haynes looked at 12 months of GA4 data across 100 sites and more than 145 million sessions, and found that ChatGPT sent 0.62% of the sessions Google organic did, rising to 0.73% with every LLM included. ([link](https://www.searchenginejournal.com/the-traffic-pool-is-shrinking-and-which-channel-fills-it-matters-less-than-we-think/596346))
+- **Daily Search Forum Recap: November 12, 2026** — 2026-11-12 · Search Engine Roundtable — Google Ads has a found on site and more pages label. ([link](https://www.seroundtable.com/recap-11-12-2026-42521.html))
+- **Google Is Cracking Down on AI Content. Here’s What Works** — 2026-11-12 · Surfer Academy (YouTube) — Google is cracking down on low-effort AI content, and ChatGPT is starting to discount self-promotional listicles. ([link](https://www.youtube.com/watch?v=hi9ahSsMfj8))
+- **Google’s AI Cites YouTube More Than Google** — 2026-11-12 · Surfer Academy (YouTube) — YouTube earns more AI Overviews citations than Reddit and Google.com combined. ([link](https://www.youtube.com/shorts/6rQ7wfuhTRQ))
+- **How to Submit Your Website to ChatGPT Business Hub** — 2026-11-12 · Search Engine Journal — You can submit your website’s business information through Business Hub to claim or create a profile and provide details about your company. ([link](https://www.searchenginejournal.com/submit-website-chatgpt/596785))
+- **Don’t Let A Tool Lead Your AI Search Strategy** — 2026-11-12 · Search Engine Journal — Search has always operated on a predictable, standardized framework when it comes to tools and platforms. ([link](https://www.searchenginejournal.com/dont-let-a-tool-lead-your-ai-search-strategy-own-your-data-instead/596538))
+- **I'll Teach You 98% of SEO in 10 Minutes** — 2026-11-12 · Neil Patel (YouTube) — Your visibility on Google can go up and your traffic can go down at the same time. ([link](https://www.youtube.com/watch?v=lz7U10yRx-Y))
+- **Google Ads Data Strength Uplift Metric** — 2026-11-12 · Search Engine Roundtable — Google Ads has posted a new help document about the data strength uplift metric . ([link](https://www.seroundtable.com/google-ads-data-strength-uplift-metric-42516.html))
 
 ## References
 
+- [Google Search Gets Major Upgrade With Gemini 4 Hydrogen](https://www.seroundtable.com/google-search-gemini-4-hydrogen-42526.html) — Search Engine Roundtable · 2026-11-12
+- [OpenAI ChatGPT Ads Updates With Intelligent Bidding, New Cost Targets, Geo-Flexibility & Product Set Filters](https://www.seroundtable.com/openai-chatgpt-ads-updates-42524.html) — Search Engine Roundtable · 2026-11-12
+- [The Traffic Pool Is Shrinking, And Which Channel Fills It Matters Less Than We Think](https://www.searchenginejournal.com/the-traffic-pool-is-shrinking-and-which-channel-fills-it-matters-less-than-we-think/596346) — Search Engine Journal · 2026-11-12
+- [Daily Search Forum Recap: November 12, 2026](https://www.seroundtable.com/recap-11-12-2026-42521.html) — Search Engine Roundtable · 2026-11-12
+- [Google Is Cracking Down on AI Content. Here’s What Works](https://www.youtube.com/watch?v=hi9ahSsMfj8) — Surfer Academy (YouTube) · 2026-11-12
+- [Google’s AI Cites YouTube More Than Google](https://www.youtube.com/shorts/6rQ7wfuhTRQ) — Surfer Academy (YouTube) · 2026-11-12
+- [How to Submit Your Website to ChatGPT Business Hub](https://www.searchenginejournal.com/submit-website-chatgpt/596785) — Search Engine Journal · 2026-11-12
+- [Don’t Let A Tool Lead Your AI Search Strategy](https://www.searchenginejournal.com/dont-let-a-tool-lead-your-ai-search-strategy-own-your-data-instead/596538) — Search Engine Journal · 2026-11-12
+- [I'll Teach You 98% of SEO in 10 Minutes](https://www.youtube.com/watch?v=lz7U10yRx-Y) — Neil Patel (YouTube) · 2026-11-12
+- [Google Ads Data Strength Uplift Metric](https://www.seroundtable.com/google-ads-data-strength-uplift-metric-42516.html) — Search Engine Roundtable · 2026-11-12
 - [Google Grades Its Own Homework](https://www.youtube.com/shorts/dl5q6XIbXvs) — Surfer Academy (YouTube) · 2026-11-12
 - [AI Shopping Errors: What To Fix To Help Shoppers Choose Your Products](https://www.searchenginejournal.com/fix-ai-shopping-errors-writesonic-spa/595790) — Search Engine Journal · 2026-11-12
-- [Google Placing Citation/Source Icons At Bottom Of AI Overviews](https://www.seroundtable.com/google-ai-overview-source-icons-bottom-42519.html) — Search Engine Roundtable · 2026-11-12
-- [Google Search Expanding AI Overview Definitions By Default](https://www.seroundtable.com/google-expanding-definitions-42514.html) — Search Engine Roundtable · 2026-11-11
-- [Gemini’s Favorite Source Isn’t Google](https://www.youtube.com/shorts/XejO12g_Keg) — Surfer Academy (YouTube) · 2026-11-11
-- [Visibility Gets You On The List, Evidence Helps You Stay There](https://www.searchenginejournal.com/visibility-gets-you-on-the-list-evidence-helps-you-stay-there/592127) — Search Engine Journal · 2026-11-11
-- [Daily Search Forum Recap: November 11, 2026](https://www.seroundtable.com/recap-11-11-2026-42509.html) — Search Engine Roundtable · 2026-11-11
-- [The Pages Content Marketers Hate Are Perplexity’s Favorite](https://www.youtube.com/shorts/3DFK0fK32AU) — Surfer Academy (YouTube) · 2026-11-11
-- [The 100 Most Mentioned Brands in ChatGPT (November 2026)](https://ahrefs.com/blog/most-mentioned-brands-chatgpt) — Ahrefs Blog · 2026-11-11
-- [Google Ads Brand Lists Using Global Brand Library](https://www.seroundtable.com/google-ads-brand-lists-library-42506.html) — Search Engine Roundtable · 2026-11-11
-- [Google Loses Another Round in Legal Battle Against SerpApi Over Search Scraping](https://www.seroundtable.com/google-loses-again-against-serpapi-42508.html) — Search Engine Roundtable · 2026-11-11
-- [How to Track Brand Visibility in Moz AI Visibility](https://www.youtube.com/watch?v=SwB4Vocswiw) — Moz (YouTube) · 2026-11-10
 
 ## How this skill stays current
 
 - Regenerated on 2026-11-12 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2024-04-24 → 2026-11-12.
-- 129 findings from 20 sources; confidence is **high**.
+- 139 findings from 20 sources; confidence is **high**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

@@ -1,8 +1,8 @@
 ---
 name: seo-content-strategy
-description: "Content clusters, editorial planning, content audits and refreshes, decay, and building topical depth. Auto-generated from 7 findings across 6 sources."
-last_updated: 2026-11-10
-findings: 7
+description: "Content clusters, editorial planning, content audits and refreshes, decay, and building topical depth. Auto-generated from 8 findings across 6 sources."
+last_updated: 2026-11-12
+findings: 8
 sources: 6
 confidence: medium
 ---
@@ -28,6 +28,7 @@ Use when building a content plan, deciding what to refresh or prune, mapping clu
 
 ## Recent developments
 
+- **AI vs Human SEO Challenge — Blind Judged by a Pro (Things Got Awkward)** — 2026-11-12 · Semrush (YouTube) — 👉 Check how much traffic a page gets with Semrush Organic Research, the tool Dan uses in the video. ([link](https://www.youtube.com/watch?v=u55YgdfaMEc))
 - **"F*** Keywords"** — 2026-11-10 · Search Engine Journal — Every so often, someone in SEO announces “f*** keywords” or a similar sentiment. ([link](https://www.searchenginejournal.com/forget-keywords-well-what-are-you-replacing-them-with/596349))
 - **Create More Helpful Content For AI Search With 9 Practical Workflows [Webinar]** — 2026-11-09 · Search Engine Journal — Create content that answers your audience’s real questions, then use AI to take the manual work out of getting it published. ([link](https://www.searchenginejournal.com/create-more-helpful-content-for-ai-search-with-9-practical-workflows-webinar/596241))
 - **3 Claude Use Cases That Automated 80% of Our SEO Work** — 2026-10-20 · SE Ranking (YouTube) — Most teams use Claude for SEO like a chatbot. ([link](https://www.youtube.com/watch?v=OkNIfrmsJxI))
@@ -38,6 +39,7 @@ Use when building a content plan, deciding what to refresh or prune, mapping clu
 
 ## References
 
+- [AI vs Human SEO Challenge — Blind Judged by a Pro (Things Got Awkward)](https://www.youtube.com/watch?v=u55YgdfaMEc) — Semrush (YouTube) · 2026-11-12
 - ["F*** Keywords"](https://www.searchenginejournal.com/forget-keywords-well-what-are-you-replacing-them-with/596349) — Search Engine Journal · 2026-11-10
 - [Create More Helpful Content For AI Search With 9 Practical Workflows [Webinar]](https://www.searchenginejournal.com/create-more-helpful-content-for-ai-search-with-9-practical-workflows-webinar/596241) — Search Engine Journal · 2026-11-09
 - [3 Claude Use Cases That Automated 80% of Our SEO Work](https://www.youtube.com/watch?v=OkNIfrmsJxI) — SE Ranking (YouTube) · 2026-10-20
@@ -49,6 +51,6 @@ Use when building a content plan, deciding what to refresh or prune, mapping clu
 ## How this skill stays current
 
 - Regenerated on 2026-11-12 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
-- Coverage window: 2026-06-16 → 2026-11-10.
-- 7 findings from 6 sources; confidence is **medium**.
+- Coverage window: 2026-06-16 → 2026-11-12.
+- 8 findings from 6 sources; confidence is **medium**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.
