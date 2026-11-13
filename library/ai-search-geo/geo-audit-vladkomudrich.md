@@ -1,0 +1,200 @@
+---
+name: "geo-audit"
+description: "Run a full GEO audit on a target URL or brand. Orchestrates the technical, content, schema, and presence sub-skills in parallel; runs all verifier scripts; produces a single GEO Score (0-100) with five pillar breakdown and prioritized action plan. The audit output feeds directly into geo-report for MD + dual-HTML deliverables."
+category: "ai-search-geo"
+platforms: ["claude-code"]
+platform_source: "declared+detected"
+repo: "vladkomudrich/claude-geo"
+repo_url: "https://github.com/vladkomudrich/claude-geo"
+source: "https://github.com/vladkomudrich/claude-geo/blob/HEAD/skills/geo-audit/SKILL.md"
+raw_source: "https://raw.githubusercontent.com/vladkomudrich/claude-geo/HEAD/skills/geo-audit/SKILL.md"
+ref: "HEAD"
+discovered_via: "github-search"
+license: "MIT"
+stars: 1
+collected: "2026-11-13"
+---
+
+<!-- Claude Code skill · vladkomudrich/claude-geo · skills/geo-audit/SKILL.md · MIT
+     Source: https://github.com/vladkomudrich/claude-geo/blob/HEAD/skills/geo-audit/SKILL.md
+     Detected by: declared+detected · Regenerated on every run; edit the upstream skill, not this copy. -->
+
+# Full GEO Audit
+
+**Invocation:** `/geo audit <url>`
+
+## Workflow
+
+### Phase 1 — Intake (1-2 minutes)
+
+1. Fetch homepage and a representative sample (3-5 pages: home, pricing/product,
+   one blog post, one comparison page if exists, one help/docs page).
+2. **Detect business type** from homepage signals (SaaS, e-commerce, publisher,
+   local, agency) — same heuristics as `claude-seo` orchestrator.
+3. **Extract brand name** from `<title>`, Organization schema, or homepage H1.
+4. **Quick failure check:** if `<body>` of raw HTML is empty (JS-only site),
+   warn the user immediately — most AI crawlers will see nothing. Continue
+   audit but cap technical pillar at 40.
+
+### Phase 2 — Parallel sub-agent dispatch
+
+Delegate to four sub-agents in parallel:
+
+| Sub-agent | Owns | Reads from |
+|-----------|------|-----------|
+| `geo-technical` | robots.txt, llms.txt, SSR check, AI crawler access | `scripts/check_robots_txt.py`, `scripts/check_llms_txt.py`, `scripts/fetch_page.py` |
+| `geo-content` | CITABLE scoring, passage analysis, tables/lists/sentence-length | `scripts/check_content_structure.py` |
+| `geo-schema` | JSON-LD detection, validation, knowsAbout/sameAs check | `scripts/check_schema.py` |
+| `geo-presence` | Wikipedia, G2/Capterra, Reddit, YouTube, mentions interview | `scripts/check_wikipedia.py`, `scripts/check_trust_sites.py`, `scripts/check_reddit_presence.py`, `scripts/check_youtube_presence.py` |
+
+### Phase 3 — Real-mention verification (optional but recommended)
+
+If the user provides 3-5 **intent queries** for their category (e.g. "best
+project management tool", "X vs Asana", "how to manage remote teams"),
+dispatch `geo-mentions` to verify whether the brand actually appears in:
+
+- ChatGPT (via WebSearch proxy or direct API if `OPENAI_API_KEY` set)
+- Perplexity (via WebSearch proxy or direct API if `PERPLEXITY_API_KEY` set)
+- Google AI Overviews (via WebSearch with `site:` operators)
+- Claude (via direct API if `ANTHROPIC_API_KEY` set; else skip)
+
+If no queries provided, generate 5 candidate queries from the business-type
+detection and ask the user to confirm or edit.
+
+### Phase 4 — Scoring
+
+1. Each sub-agent returns a pillar score 0-100 (see `scoring-rubric.md`).
+2. Compute weighted total: tech 20% + content 25% + schema 15% + presence 25%
+   + mentions 15%.
+3. Map to grade A/B/C/D/F.
+4. Identify the **top 5 actions** by `(score_delta / effort)` ratio.
+5. List **critical failures** explicitly at the top.
+
+### Phase 5 — Report generation
+
+Call `geo-report` sub-skill with `type=all` to produce:
+- `GEO-Audit-{brand}-{YYYY-MM-DD}.md`
+- `GEO-Guide-{brand}-{YYYY-MM-DD}.html`
+
+Both saved to the user's working directory.
+
+### Phase 6 — Author footer
+
+Append the contents of `../geo/references/author.md` to the chat output and
+embed it in the HTML guide.
+
+## Asking for missing context
+
+If any of the following is missing, ask the user via AskUserQuestion (one
+question per concept, not all at once):
+
+1. Brand name (only if not extractable from page).
+2. Category / competitors (for intent-query generation).
+3. Whether to run real LLM mention checks (cost / time implication).
+4. Whether the user already has Wikipedia / G2 / Capterra listings (avoids
+   redundant external searches).
+
+## Required output data shape (v1.2.0+)
+
+The audit must produce a JSON payload with these fields. The reporter
+consumes it directly:
+
+```json
+{
+  "brand": "...",
+  "url": "...",
+  "narrative_thesis": "One sentence summarizing the situation (e.g. 'Technically excellent, content-thin').",
+  "whats_working": [
+    "robots.txt explicitly allows all major AI bots",
+    "llms.txt is present and exceeds the standard",
+    "Schema is solid — Organization, Product, FAQ all valid"
+  ],
+  "pillars": {
+    "technical": {"score": 82, "findings": ["...", "..."]},
+    "content":   {"score": 55, "findings": ["...", "..."]},
+    "schema":    {"score": 55, "findings": ["...", "..."]},
+    "presence":  {"score": 0,  "findings": ["...", "..."]},
+    "mentions":  {"score": 0,  "findings": ["...", "..."]}
+  },
+  "critical_failures": ["...", "..."],
+  "actions": [
+    {
+      "action": "Add knowsAbout + sameAs to Organization JSON-LD in src/app/layout.tsx",
+      "pillar": "Schema",
+      "score_delta": 30,
+      "effort_hours": 0.5,
+      "rewrite_example": "\"knowsAbout\": [\"eSIM\", \"travel connectivity\", \"mobile data plans\"]"
+    }
+  ]
+}
+```
+
+Three required v1.2.0 fields:
+
+- **`narrative_thesis`** (1 sentence). Punchy thesis statement — what's the
+  one-line read of this brand's GEO posture? Read by a human in 2 seconds.
+- **`whats_working`** (3-5 bullets). What's already done well. Lead with
+  these BEFORE Critical Failures — frames the audit as a partnership, not
+  a takedown.
+- **`actions[].rewrite_example`** (optional). When an action involves
+  rewriting copy or pasting code, include the exact text the user can copy.
+  Don't just say "rewrite this" — show what.
+
+The reporter auto-tiers actions by `effort_hours`:
+- ≤ 2h → quick wins
+- 2-16h → medium effort
+- > 16h → high impact
+
+Per-engine projections (Google AIO / ChatGPT / Perplexity / Claude / Copilot)
+are computed automatically by `score_geo.py` based on the pillar mix.
+
+## Output structure (markdown rendered)
+
+```
+# GEO Audit — {Brand}
+**URL:** {url}
+**Date:** {date}
+**Score:** {total}/100 — Grade {grade}
+
+## Pillar Breakdown
+| Pillar | Score | Status |
+|--------|-------|--------|
+| Technical accessibility | XX/100 | [✓ / ⚠ / ✗] |
+| Content citability | XX/100 | [✓ / ⚠ / ✗] |
+| Schema & entities | XX/100 | [✓ / ⚠ / ✗] |
+| Off-site presence | XX/100 | [✓ / ⚠ / ✗] |
+| Real-world citations | XX/100 | [✓ / ⚠ / ✗] |
+
+## Critical Failures
+- ...
+
+## Top 5 Highest-Impact Actions
+1. [...] — estimated impact +X points, effort: Y hours
+...
+
+## Per-Pillar Findings
+### Technical Accessibility
+...
+
+### Content Citability
+...
+
+### Schema & Entities
+...
+
+### Off-site Presence
+...
+
+### Real-world Citations
+...
+
+## Source Verification
+[List which scripts ran, which external sources queried, any uncertainty notes]
+```
+
+## Quality gates
+
+- Never claim a citation exists without a verifier-script-confirmed result.
+- Mark estimates vs verified explicitly.
+- If WebSearch returns no useful data for a mention check, say so — don't
+  invent.

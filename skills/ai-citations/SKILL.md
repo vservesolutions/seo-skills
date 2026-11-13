@@ -1,9 +1,9 @@
 ---
 name: seo-ai-citations
-description: "AI Citations and Brand Mentions: specific techniques, checks and pitfalls. Auto-generated from 7 findings across 6 sources."
-last_updated: 2026-11-04
-findings: 7
-sources: 6
+description: "AI Citations and Brand Mentions: specific techniques, checks and pitfalls. Auto-generated from 8 findings across 7 sources."
+last_updated: 2026-11-13
+findings: 8
+sources: 7
 confidence: medium
 ---
 
@@ -24,6 +24,7 @@ Use when the task involves ai citations and brand mentions.
 
 ## Recent developments
 
+- **NEW! ChatGPT Now Shows Brand Mentions. 5 Steps to Take Right Now** — 2026-11-13 · Semrush (YouTube) — New videos every week with critical updates on SEO and AI visibility. ([link](https://www.youtube.com/watch?v=emt9uNlaE7Y))
 - **How to track ChatGPT visibility: a practical guide** — 2026-11-04 · Semrush Blog — Learn how to measure ChatGPT visibility, track brand mentions and citations, compare competitors, identify gaps, and improve your AI search presence. ([link](https://www.semrush.com/blog/how-to-track-your-chatgpt-visibility))
 - **How to track your Gemini visibility with and without Semrush** — 2026-11-03 · Semrush Blog — Learn Gemini visibility tracking: what to measure, how to track brand mentions in Gemini manually, and how to scale it with Semrush. ([link](https://www.semrush.com/blog/how-to-track-your-gemini-visibility))
 - **Run your entire AI SEO workflow from your AI Assistant** — 2026-10-19 · Surfer Academy (YouTube) — Use the new Surfer MCP to streamline your AI SEO workflow and optimize articles using live search data directly in your AI chat. ([link](https://www.youtube.com/shorts/LLRNEHjdep0))
@@ -34,6 +35,7 @@ Use when the task involves ai citations and brand mentions.
 
 ## References
 
+- [NEW! ChatGPT Now Shows Brand Mentions. 5 Steps to Take Right Now](https://www.youtube.com/watch?v=emt9uNlaE7Y) — Semrush (YouTube) · 2026-11-13
 - [How to track ChatGPT visibility: a practical guide](https://www.semrush.com/blog/how-to-track-your-chatgpt-visibility) — Semrush Blog · 2026-11-04
 - [How to track your Gemini visibility with and without Semrush](https://www.semrush.com/blog/how-to-track-your-gemini-visibility) — Semrush Blog · 2026-11-03
 - [Run your entire AI SEO workflow from your AI Assistant](https://www.youtube.com/shorts/LLRNEHjdep0) — Surfer Academy (YouTube) · 2026-10-19
@@ -45,6 +47,6 @@ Use when the task involves ai citations and brand mentions.
 ## How this skill stays current
 
 - Regenerated on 2026-11-13 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
-- Coverage window: 2026-06-16 → 2026-11-04.
-- 7 findings from 6 sources; confidence is **medium**.
+- Coverage window: 2026-06-16 → 2026-11-13.
+- 8 findings from 7 sources; confidence is **medium**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

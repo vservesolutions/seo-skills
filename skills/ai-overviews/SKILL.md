@@ -1,8 +1,8 @@
 ---
 name: seo-ai-overviews
-description: "AI Overviews and AI Mode: specific techniques, checks and pitfalls. Auto-generated from 53 findings across 14 sources."
-last_updated: 2026-11-12
-findings: 53
+description: "AI Overviews and AI Mode: specific techniques, checks and pitfalls. Auto-generated from 55 findings across 14 sources."
+last_updated: 2026-11-13
+findings: 55
 sources: 14
 confidence: high
 ---
@@ -40,6 +40,8 @@ Use when the task involves ai overviews and ai mode.
 
 ## Recent developments
 
+- **Video: Google November Core Update Is Here, ChatGPT Business Hub Gives Us Clicks, Yahoo Pivot Search & Google Ads Invalid Traffic** — 2026-11-13 · Search Engine Roundtable — Google has begun the rollout of the November 2026 core update. ([link](https://www.seroundtable.com/video-11-13-2026-42523.html))
+- **Google AI Overviews AI-Generated Images Coming Back** — 2026-11-13 · Search Engine Roundtable — Google seems to be bringing back the ability for Google Search to generate images on the fly within Google Search. ([link](https://www.seroundtable.com/google-ai-overviews-ai-generated-images-back-42532.html))
 - **Google Makes Gemini 4 Hydrogen The Default Model In AI Mode** — 2026-11-12 · Search Engine Journal — Google made Gemini 4 Hydrogen the default model in AI Mode for all users worldwide, starting today. ([link](https://www.searchenginejournal.com/google-gemini-4-hydrogen-default-ai-mode/597096))
 - **Does The Affiliate Model Survive Checkout Inside AI Mode And Gemini?** — 2026-11-12 · Search Engine Journal — “With Google’s UCP and checkout happening inside Gemini and AI Mode , the shopper never clicks my link. ([link](https://www.searchenginejournal.com/does-the-affiliate-model-survive-checkout-inside-ai-mode-and-gemini-ask-an-seo/585080))
 - **Google Search Gets Major Upgrade With Gemini 4 Hydrogen** — 2026-11-12 · Search Engine Roundtable — Google Search has received a "massive upgrade with Gemini 4 Hydrogen ," said Nick Fox of Google. ([link](https://www.seroundtable.com/google-search-gemini-4-hydrogen-42526.html))
@@ -48,11 +50,11 @@ Use when the task involves ai overviews and ai mode.
 - **Google Ads Data Strength Uplift Metric** — 2026-11-12 · Search Engine Roundtable — Google Ads has posted a new help document about the data strength uplift metric . ([link](https://www.seroundtable.com/google-ads-data-strength-uplift-metric-42516.html))
 - **Microsoft Bing Touts Two Methods To Turn Off AI In Search But Not A Search Setting** — 2026-11-12 · Search Engine Roundtable — Microsoft announced , again, that there are ways to turn off AI features in Bing Search. ([link](https://www.seroundtable.com/bing-turn-off-ai-search-setting-42520.html))
 - **Google Grades Its Own Homework** — 2026-11-12 · Surfer Academy (YouTube) — Google AI Mode’s favorite source is Google. ([link](https://www.youtube.com/shorts/dl5q6XIbXvs))
-- **AI Shopping Errors: What To Fix To Help Shoppers Choose Your Products** — 2026-11-12 · Search Engine Journal — AI shopping results are product recommendations that appear inside an AI answer. ([link](https://www.searchenginejournal.com/fix-ai-shopping-errors-writesonic-spa/595790))
-- **Google Placing Citation/Source Icons At Bottom Of AI Overviews** — 2026-11-12 · Search Engine Roundtable — Google is testing moving the citations or sources icons to the very bottom of the AI Overviews. ([link](https://www.seroundtable.com/google-ai-overview-source-icons-bottom-42519.html))
 
 ## References
 
+- [Video: Google November Core Update Is Here, ChatGPT Business Hub Gives Us Clicks, Yahoo Pivot Search & Google Ads Invalid Traffic](https://www.seroundtable.com/video-11-13-2026-42523.html) — Search Engine Roundtable · 2026-11-13
+- [Google AI Overviews AI-Generated Images Coming Back](https://www.seroundtable.com/google-ai-overviews-ai-generated-images-back-42532.html) — Search Engine Roundtable · 2026-11-13
 - [Google Makes Gemini 4 Hydrogen The Default Model In AI Mode](https://www.searchenginejournal.com/google-gemini-4-hydrogen-default-ai-mode/597096) — Search Engine Journal · 2026-11-12
 - [Does The Affiliate Model Survive Checkout Inside AI Mode And Gemini?](https://www.searchenginejournal.com/does-the-affiliate-model-survive-checkout-inside-ai-mode-and-gemini-ask-an-seo/585080) — Search Engine Journal · 2026-11-12
 - [Google Search Gets Major Upgrade With Gemini 4 Hydrogen](https://www.seroundtable.com/google-search-gemini-4-hydrogen-42526.html) — Search Engine Roundtable · 2026-11-12
@@ -63,12 +65,10 @@ Use when the task involves ai overviews and ai mode.
 - [Google Grades Its Own Homework](https://www.youtube.com/shorts/dl5q6XIbXvs) — Surfer Academy (YouTube) · 2026-11-12
 - [AI Shopping Errors: What To Fix To Help Shoppers Choose Your Products](https://www.searchenginejournal.com/fix-ai-shopping-errors-writesonic-spa/595790) — Search Engine Journal · 2026-11-12
 - [Google Placing Citation/Source Icons At Bottom Of AI Overviews](https://www.seroundtable.com/google-ai-overview-source-icons-bottom-42519.html) — Search Engine Roundtable · 2026-11-12
-- [Google Search Expanding AI Overview Definitions By Default](https://www.seroundtable.com/google-expanding-definitions-42514.html) — Search Engine Roundtable · 2026-11-11
-- [Daily Search Forum Recap: November 11, 2026](https://www.seroundtable.com/recap-11-11-2026-42509.html) — Search Engine Roundtable · 2026-11-11
 
 ## How this skill stays current
 
 - Regenerated on 2026-11-13 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
-- Coverage window: 2026-05-22 → 2026-11-12.
-- 53 findings from 14 sources; confidence is **high**.
+- Coverage window: 2026-05-22 → 2026-11-13.
+- 55 findings from 14 sources; confidence is **high**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

@@ -1,8 +1,8 @@
 ---
 name: seo-ai-search-geo
-description: "AI Overviews, AI Mode, LLM citation visibility, generative engine optimization and llms.txt conventions. Auto-generated from 142 findings across 20 sources."
-last_updated: 2026-11-12
-findings: 142
+description: "AI Overviews, AI Mode, LLM citation visibility, generative engine optimization and llms.txt conventions. Auto-generated from 146 findings across 20 sources."
+last_updated: 2026-11-13
+findings: 146
 sources: 20
 confidence: high
 ---
@@ -44,19 +44,23 @@ Use when organic traffic is absorbed by AI answers, when planning visibility in 
 
 ## Recent developments
 
+- **NEW! ChatGPT Now Shows Brand Mentions. 5 Steps to Take Right Now** — 2026-11-13 · Semrush (YouTube) — New videos every week with critical updates on SEO and AI visibility. ([link](https://www.youtube.com/watch?v=emt9uNlaE7Y))
+- **Daily Search Forum Recap: November 13, 2026** — 2026-11-13 · Search Engine Roundtable — Google says it has pushed its biggest model update to Google Search yet with Gemini 4 Hydrogen - yes, during a core update. ([link](https://www.seroundtable.com/recap-11-13-2026-42531.html))
+- **Video: Google November Core Update Is Here, ChatGPT Business Hub Gives Us Clicks, Yahoo Pivot Search & Google Ads Invalid Traffic** — 2026-11-13 · Search Engine Roundtable — Google has begun the rollout of the November 2026 core update. ([link](https://www.seroundtable.com/video-11-13-2026-42523.html))
+- **Google AI Overviews AI-Generated Images Coming Back** — 2026-11-13 · Search Engine Roundtable — Google seems to be bringing back the ability for Google Search to generate images on the fly within Google Search. ([link](https://www.seroundtable.com/google-ai-overviews-ai-generated-images-back-42532.html))
 - **Google Makes Gemini 4 Hydrogen The Default Model In AI Mode** — 2026-11-12 · Search Engine Journal — Google made Gemini 4 Hydrogen the default model in AI Mode for all users worldwide, starting today. ([link](https://www.searchenginejournal.com/google-gemini-4-hydrogen-default-ai-mode/597096))
 - **Does The Affiliate Model Survive Checkout Inside AI Mode And Gemini?** — 2026-11-12 · Search Engine Journal — “With Google’s UCP and checkout happening inside Gemini and AI Mode , the shopper never clicks my link. ([link](https://www.searchenginejournal.com/does-the-affiliate-model-survive-checkout-inside-ai-mode-and-gemini-ask-an-seo/585080))
 - **Google Search Gets Major Upgrade With Gemini 4 Hydrogen** — 2026-11-12 · Search Engine Roundtable — Google Search has received a "massive upgrade with Gemini 4 Hydrogen ," said Nick Fox of Google. ([link](https://www.seroundtable.com/google-search-gemini-4-hydrogen-42526.html))
 - **OpenAI ChatGPT Ads Updates With Intelligent Bidding, New Cost Targets, Geo-Flexibility & Product Set Filters** — 2026-11-12 · Search Engine Roundtable — OpenAI just sent out its weekly ChatGPT Ads update email announcing a number of updates including intelligent bidding, new cost targets in Ads Manager, more geographic flexibility for product feed campaigns and more flexible product set… ([link](https://www.seroundtable.com/openai-chatgpt-ads-updates-42524.html))
 - **The Traffic Pool Is Shrinking, And Which Channel Fills It Matters Less Than We Think** — 2026-11-12 · Search Engine Journal — Marie Haynes looked at 12 months of GA4 data across 100 sites and more than 145 million sessions, and found that ChatGPT sent 0.62% of the sessions Google organic did, rising to 0.73% with every LLM included. ([link](https://www.searchenginejournal.com/the-traffic-pool-is-shrinking-and-which-channel-fills-it-matters-less-than-we-think/596346))
 - **Daily Search Forum Recap: November 12, 2026** — 2026-11-12 · Search Engine Roundtable — Google Ads has a found on site and more pages label. ([link](https://www.seroundtable.com/recap-11-12-2026-42521.html))
-- **Google Is Cracking Down on AI Content. Here’s What Works** — 2026-11-12 · Surfer Academy (YouTube) — Google is cracking down on low-effort AI content, and ChatGPT is starting to discount self-promotional listicles. ([link](https://www.youtube.com/watch?v=hi9ahSsMfj8))
-- **Google’s AI Cites YouTube More Than Google** — 2026-11-12 · Surfer Academy (YouTube) — YouTube earns more AI Overviews citations than Reddit and Google.com combined. ([link](https://www.youtube.com/shorts/6rQ7wfuhTRQ))
-- **How to Submit Your Website to ChatGPT Business Hub** — 2026-11-12 · Search Engine Journal — You can submit your website’s business information through Business Hub to claim or create a profile and provide details about your company. ([link](https://www.searchenginejournal.com/submit-website-chatgpt/596785))
-- **Don’t Let A Tool Lead Your AI Search Strategy** — 2026-11-12 · Search Engine Journal — Search has always operated on a predictable, standardized framework when it comes to tools and platforms. ([link](https://www.searchenginejournal.com/dont-let-a-tool-lead-your-ai-search-strategy-own-your-data-instead/596538))
 
 ## References
 
+- [NEW! ChatGPT Now Shows Brand Mentions. 5 Steps to Take Right Now](https://www.youtube.com/watch?v=emt9uNlaE7Y) — Semrush (YouTube) · 2026-11-13
+- [Daily Search Forum Recap: November 13, 2026](https://www.seroundtable.com/recap-11-13-2026-42531.html) — Search Engine Roundtable · 2026-11-13
+- [Video: Google November Core Update Is Here, ChatGPT Business Hub Gives Us Clicks, Yahoo Pivot Search & Google Ads Invalid Traffic](https://www.seroundtable.com/video-11-13-2026-42523.html) — Search Engine Roundtable · 2026-11-13
+- [Google AI Overviews AI-Generated Images Coming Back](https://www.seroundtable.com/google-ai-overviews-ai-generated-images-back-42532.html) — Search Engine Roundtable · 2026-11-13
 - [Google Makes Gemini 4 Hydrogen The Default Model In AI Mode](https://www.searchenginejournal.com/google-gemini-4-hydrogen-default-ai-mode/597096) — Search Engine Journal · 2026-11-12
 - [Does The Affiliate Model Survive Checkout Inside AI Mode And Gemini?](https://www.searchenginejournal.com/does-the-affiliate-model-survive-checkout-inside-ai-mode-and-gemini-ask-an-seo/585080) — Search Engine Journal · 2026-11-12
 - [Google Search Gets Major Upgrade With Gemini 4 Hydrogen](https://www.seroundtable.com/google-search-gemini-4-hydrogen-42526.html) — Search Engine Roundtable · 2026-11-12
@@ -65,14 +69,10 @@ Use when organic traffic is absorbed by AI answers, when planning visibility in 
 - [Daily Search Forum Recap: November 12, 2026](https://www.seroundtable.com/recap-11-12-2026-42521.html) — Search Engine Roundtable · 2026-11-12
 - [Google Is Cracking Down on AI Content. Here’s What Works](https://www.youtube.com/watch?v=hi9ahSsMfj8) — Surfer Academy (YouTube) · 2026-11-12
 - [Google’s AI Cites YouTube More Than Google](https://www.youtube.com/shorts/6rQ7wfuhTRQ) — Surfer Academy (YouTube) · 2026-11-12
-- [How to Submit Your Website to ChatGPT Business Hub](https://www.searchenginejournal.com/submit-website-chatgpt/596785) — Search Engine Journal · 2026-11-12
-- [Don’t Let A Tool Lead Your AI Search Strategy](https://www.searchenginejournal.com/dont-let-a-tool-lead-your-ai-search-strategy-own-your-data-instead/596538) — Search Engine Journal · 2026-11-12
-- [I'll Teach You 98% of SEO in 10 Minutes](https://www.youtube.com/watch?v=lz7U10yRx-Y) — Neil Patel (YouTube) · 2026-11-12
-- [Google Ads Data Strength Uplift Metric](https://www.seroundtable.com/google-ads-data-strength-uplift-metric-42516.html) — Search Engine Roundtable · 2026-11-12
 
 ## How this skill stays current
 
 - Regenerated on 2026-11-13 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
-- Coverage window: 2024-04-24 → 2026-11-12.
-- 142 findings from 20 sources; confidence is **high**.
+- Coverage window: 2024-04-24 → 2026-11-13.
+- 146 findings from 20 sources; confidence is **high**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.
