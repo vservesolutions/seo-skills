@@ -2,22 +2,22 @@
 name: "seo-bing"
 description: "Bing Webmaster Tools + IndexNow extension. Microsoft Copilot citations are fed by the Bing index; this skill makes Bing visibility, link data, and IndexNow URL submission first-class."
 category: "local-seo"
-platforms: ["claude-code"]
-platform_source: "declared"
-repo: "irazaahmed/claude-seo"
-repo_url: "https://github.com/irazaahmed/claude-seo"
-source: "https://github.com/irazaahmed/claude-seo/blob/HEAD/extensions/bing-webmaster/skills/seo-bing/SKILL.md"
-raw_source: "https://raw.githubusercontent.com/irazaahmed/claude-seo/HEAD/extensions/bing-webmaster/skills/seo-bing/SKILL.md"
+platforms: ["unspecified"]
+platform_source: "none"
+repo: "squarepots/claude-seo-for-codex"
+repo_url: "https://github.com/squarepots/claude-seo-for-codex"
+source: "https://github.com/squarepots/claude-seo-for-codex/blob/HEAD/plugins/claude-seo-for-codex/extensions/bing-webmaster/skills/seo-bing/SKILL.md"
+raw_source: "https://raw.githubusercontent.com/squarepots/claude-seo-for-codex/HEAD/plugins/claude-seo-for-codex/extensions/bing-webmaster/skills/seo-bing/SKILL.md"
 ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
-stars: 1
+stars: 2
 collected: "2026-11-13"
 ---
 
-<!-- Claude Code skill · irazaahmed/claude-seo · extensions/bing-webmaster/skills/seo-bing/SKILL.md · MIT
-     Source: https://github.com/irazaahmed/claude-seo/blob/HEAD/extensions/bing-webmaster/skills/seo-bing/SKILL.md
-     Detected by: declared · Regenerated on every run; edit the upstream skill, not this copy. -->
+<!-- Unspecified skill · squarepots/claude-seo-for-codex · plugins/claude-seo-for-codex/extensions/bing-webmaster/skills/seo-bing/SKILL.md · MIT
+     Source: https://github.com/squarepots/claude-seo-for-codex/blob/HEAD/plugins/claude-seo-for-codex/extensions/bing-webmaster/skills/seo-bing/SKILL.md
+     Detected by: none · Regenerated on every run; edit the upstream skill, not this copy. -->
 
 # seo-bing
 

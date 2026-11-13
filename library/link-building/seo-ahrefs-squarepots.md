@@ -2,22 +2,22 @@
 name: "seo-ahrefs"
 description: "Ahrefs API analyst (extension). Reads referring domains, backlinks, organic keywords, and content explorer data via the tested @ahrefs/mcp@0.0.11 server. Pairs with seo-backlinks for multi-source confidence weighting."
 category: "link-building"
-platforms: ["claude-code"]
-platform_source: "declared"
-repo: "irazaahmed/claude-seo"
-repo_url: "https://github.com/irazaahmed/claude-seo"
-source: "https://github.com/irazaahmed/claude-seo/blob/HEAD/extensions/ahrefs/skills/seo-ahrefs/SKILL.md"
-raw_source: "https://raw.githubusercontent.com/irazaahmed/claude-seo/HEAD/extensions/ahrefs/skills/seo-ahrefs/SKILL.md"
+platforms: ["unspecified"]
+platform_source: "none"
+repo: "squarepots/claude-seo-for-codex"
+repo_url: "https://github.com/squarepots/claude-seo-for-codex"
+source: "https://github.com/squarepots/claude-seo-for-codex/blob/HEAD/plugins/claude-seo-for-codex/extensions/ahrefs/skills/seo-ahrefs/SKILL.md"
+raw_source: "https://raw.githubusercontent.com/squarepots/claude-seo-for-codex/HEAD/plugins/claude-seo-for-codex/extensions/ahrefs/skills/seo-ahrefs/SKILL.md"
 ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
-stars: 1
+stars: 2
 collected: "2026-11-13"
 ---
 
-<!-- Claude Code skill · irazaahmed/claude-seo · extensions/ahrefs/skills/seo-ahrefs/SKILL.md · MIT
-     Source: https://github.com/irazaahmed/claude-seo/blob/HEAD/extensions/ahrefs/skills/seo-ahrefs/SKILL.md
-     Detected by: declared · Regenerated on every run; edit the upstream skill, not this copy. -->
+<!-- Unspecified skill · squarepots/claude-seo-for-codex · plugins/claude-seo-for-codex/extensions/ahrefs/skills/seo-ahrefs/SKILL.md · MIT
+     Source: https://github.com/squarepots/claude-seo-for-codex/blob/HEAD/plugins/claude-seo-for-codex/extensions/ahrefs/skills/seo-ahrefs/SKILL.md
+     Detected by: none · Regenerated on every run; edit the upstream skill, not this copy. -->
 
 # seo-ahrefs
 
