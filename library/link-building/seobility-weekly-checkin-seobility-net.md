@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 3
-collected: "2026-11-12"
+collected: "2026-11-13"
 ---
 
 <!-- Unspecified skill · seobility-net/seobility-mcp-skills · skills/seobility-weekly-checkin/SKILL.md · MIT

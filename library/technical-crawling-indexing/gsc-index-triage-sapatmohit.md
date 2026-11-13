@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 4
-collected: "2026-11-12"
+collected: "2026-11-13"
 ---
 
 <!-- Unspecified skill · sapatmohit/agent-skills · skills/gsc-index-triage/SKILL.md · MIT

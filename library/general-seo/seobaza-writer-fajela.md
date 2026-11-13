@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 7
-collected: "2026-11-12"
+collected: "2026-11-13"
 ---
 
 <!-- Unspecified skill · fajela/seobaza-writer · skills/seobaza-writer/SKILL.md · MIT

@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 11
-collected: "2026-11-12"
+collected: "2026-11-13"
 ---
 
 <!-- Claude Code skill · LuCheremisina/marketing-skills · platforms/claude/cheremisina-marketing-skills/skills/che-wordstat-keyword-research/SKILL.md · MIT

@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 34
-collected: "2026-11-12"
+collected: "2026-11-13"
 ---
 
 <!-- Unspecified skill · MoizIbnYousaf/marketing-cli · skills/off-page-seo/SKILL.md · MIT

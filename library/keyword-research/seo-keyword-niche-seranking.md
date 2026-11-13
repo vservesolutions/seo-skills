@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "awesome-seo-agent-skills"
 license: "MIT"
 stars: 193
-collected: "2026-11-12"
+collected: "2026-11-13"
 ---
 
 <!-- Claude Code skill · seranking/seo-skills · skills/seo-keyword-niche/SKILL.md · MIT

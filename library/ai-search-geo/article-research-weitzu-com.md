@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "Apache-2.0"
 stars: 5
-collected: "2026-11-12"
+collected: "2026-11-13"
 ---
 
 <!-- Claude Code skill · weitzu-com/ai-article-factory · skills/article-research/SKILL.md · Apache-2.0

@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "Apache-2.0"
 stars: 4
-collected: "2026-11-12"
+collected: "2026-11-13"
 ---
 
 <!-- Unspecified skill · Advance-Labs/aeo-toolkit · skills/seo-cannibalization/SKILL.md · Apache-2.0

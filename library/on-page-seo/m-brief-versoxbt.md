@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 5
-collected: "2026-11-12"
+collected: "2026-11-13"
 ---
 
 <!-- Claude Code, OpenClaw skill · VersoXBT/mstack · brief/SKILL.md · MIT

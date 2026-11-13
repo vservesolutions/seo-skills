@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 5
-collected: "2026-11-12"
+collected: "2026-11-13"
 ---
 
 <!-- OpenClaw skill · rankcontrol/rankcontrol · SKILL.md · MIT

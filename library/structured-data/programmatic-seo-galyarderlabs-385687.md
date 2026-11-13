@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 29
-collected: "2026-11-12"
+collected: "2026-11-13"
 ---
 
 <!-- Unspecified skill · galyarderlabs/galyarder-framework · integrations/claude-code/skills/programmatic-seo/SKILL.md · MIT

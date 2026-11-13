@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 2
-collected: "2026-11-12"
+collected: "2026-11-13"
 ---
 
 <!-- Claude Code, Gemini CLI skill · winsley-jeune/harborrank-skills · skills/seo-proposal/SKILL.md · MIT

@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 2
-collected: "2026-11-12"
+collected: "2026-11-13"
 ---
 
 <!-- Unspecified skill · AyXDesigns/wordpress-theme-seo-and-build · skills/seo-research-and-strategy/SKILL.md · MIT

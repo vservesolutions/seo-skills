@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 1
-collected: "2026-11-12"
+collected: "2026-11-13"
 ---
 
 <!-- Codex, Cursor skill · byte5ai/claude-agent-readiness-skill · SKILL.md · MIT

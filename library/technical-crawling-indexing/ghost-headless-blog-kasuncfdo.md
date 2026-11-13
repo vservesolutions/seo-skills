@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 5
-collected: "2026-11-12"
+collected: "2026-11-13"
 ---
 
 <!-- Claude Code skill · kasuncfdo/ghost-headless-blog-skill · skills/ghost-headless-blog/SKILL.md · MIT

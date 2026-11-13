@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 11
-collected: "2026-11-12"
+collected: "2026-11-13"
 ---
 
 <!-- Claude Code skill · maxschottke-spec/seo-survival-kit · plugins/seo-rescue/skills/rescue/SKILL.md · MIT

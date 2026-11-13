@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 6
-collected: "2026-11-12"
+collected: "2026-11-13"
 ---
 
 <!-- Claude Code, Codex skill · JittoJoseph/seo-skills · skills/shopify-seo/SKILL.md · MIT

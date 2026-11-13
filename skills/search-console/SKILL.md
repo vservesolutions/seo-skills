@@ -1,8 +1,8 @@
 ---
 name: seo-search-console
-description: "Search Console Analysis: specific techniques, checks and pitfalls. Auto-generated from 19 findings across 10 sources."
+description: "Search Console Analysis: specific techniques, checks and pitfalls. Auto-generated from 20 findings across 10 sources."
 last_updated: 2026-11-12
-findings: 19
+findings: 20
 sources: 10
 confidence: high
 ---
@@ -34,11 +34,13 @@ Use when the task involves search console analysis.
 15. The trickle of News and Discover traffic has vanished and we are on record for the worst weekend traffic in 6 years. — *Search Engine Roundtable, 2026-11-09*
 16. Facebook Answers AI-Generated 6 Million Pages Is Google Scaled Content Abuse If you looked at the Google Search results recently, you may have stumbled on content from Facebook Answers. — *Search Engine Roundtable, 2026-11-05*
 17. In this episode of Google Search News, John Mueller shares major updates across Search Console, Google Search, and publisher tools! — *Google Search Central (YouTube), 2026-10-26*
-18. Google has published a new help document named Identify Google Search traffic in your web analytics or server logs . — *Search Engine Roundtable, 2026-11-12*
-19. This document explains how to see if Google Search is sending you traffic in your own web analytics system or server logs by inspecting the HTTP Referer header. — *Search Engine Roundtable, 2026-11-12*
+18. Google posted the issue on the data anomalies pages and wrote , "A logging error caused a decrease in impressions on the Generative AI performance report in Search for data from November 9 - November 11, 2026. — *Search Engine Roundtable, 2026-11-12*
+19. Google has confirmed a data logging bug in the Search Console Generative AI performance report in Search between the dates of November 9 and November 11, 2026 which resulted in a decrease in impressions. — *Search Engine Roundtable, 2026-11-12*
+20. Google has published a new help document named Identify Google Search traffic in your web analytics or server logs . — *Search Engine Roundtable, 2026-11-12*
 
 ## Recent developments
 
+- **Google Search Console Generative AI Performance Report Data Bug November 9 - 11** — 2026-11-12 · Search Engine Roundtable — Google has confirmed a data logging bug in the Search Console Generative AI performance report in Search between the dates of November 9 and November 11, 2026 which resulted in a decrease in impressions. ([link](https://www.seroundtable.com/google-generative-ai-performance-report-data-bug-42527.html))
 - **Google Explains How To Identifying Traffic From Google Search** — 2026-11-12 · Search Engine Roundtable — Google has published a new help document named Identify Google Search traffic in your web analytics or server logs . ([link](https://www.seroundtable.com/identify-traffic-from-google-search-42525.html))
 - **How to use Semrush with Google Search Console** — 2026-11-11 · Semrush Blog — Using Semrush with Google Search Console (GSC) gives you two views of your site, side by side, for a more complete view into your search visibility. ([link](https://www.semrush.com/blog/semrush-google-search-console))
 - **Good Vs. Bad pSEO: Learnings From A Decade Of Building Scalable Content Engines** — 2026-11-10 · Search Engine Journal — He wrote that programmatic SEO of that kind often leads to a site that’s spam, borderline spam, or low quality, and that pages already published may keep shaping how Google judges the whole site. ([link](https://www.searchenginejournal.com/good-vs-bad-pseo-learnings-from-a-decade-of-building-scalable-content-engines/594204))
@@ -48,10 +50,10 @@ Use when the task involves search console analysis.
 - **Daily Search Forum Recap: November 5, 2026** — 2026-11-05 · Search Engine Roundtable — Google Can Temporarily Protected Important URLs From Being Deindexed Gary Illyes from Google said that when important URLs serve a 4xx status code, Google Search can "temporarily protect the URL from falling out of the index right away."… ([link](https://www.seroundtable.com/recap-11-05-2026-42466.html))
 - **Information Gain vs. Content Parity, Why Your AI Search Content Isn't Getting Cited** — 2026-11-04 · Search Engine Journal (YouTube) — AI has made content parity cheap and fast. ([link](https://www.youtube.com/shorts/Gd5qQdKhf8c))
 - **Google Discover changes, AI content rules & Search Console updates | October 2026 SEO Update** — 2026-10-28 · Yoast (YouTube) — How are Google’s latest updates changing SEO, AI search, and content visibility? ([link](https://www.youtube.com/watch?v=LKX8KGj2Hok))
-- **WordPress website: Increased server response times and reduced Googlebot crawling since September — how can I identify the cause?** — 2026-10-27 · Webmasters Stack Exchange — Since September 2026, I've noticed a significant increase in the average response time reported by Google Search Console, along with a reduction in Googlebot's crawling activity. ([link](https://webmasters.stackexchange.com/questions/150043/wordpress-website-increased-server-response-times-and-reduced-googlebot-crawlin))
 
 ## References
 
+- [Google Search Console Generative AI Performance Report Data Bug November 9 - 11](https://www.seroundtable.com/google-generative-ai-performance-report-data-bug-42527.html) — Search Engine Roundtable · 2026-11-12
 - [Google Explains How To Identifying Traffic From Google Search](https://www.seroundtable.com/identify-traffic-from-google-search-42525.html) — Search Engine Roundtable · 2026-11-12
 - [How to use Semrush with Google Search Console](https://www.semrush.com/blog/semrush-google-search-console) — Semrush Blog · 2026-11-11
 - [Good Vs. Bad pSEO: Learnings From A Decade Of Building Scalable Content Engines](https://www.searchenginejournal.com/good-vs-bad-pseo-learnings-from-a-decade-of-building-scalable-content-engines/594204) — Search Engine Journal · 2026-11-10
@@ -63,11 +65,10 @@ Use when the task involves search console analysis.
 - [Google Discover changes, AI content rules & Search Console updates | October 2026 SEO Update](https://www.youtube.com/watch?v=LKX8KGj2Hok) — Yoast (YouTube) · 2026-10-28
 - [WordPress website: Increased server response times and reduced Googlebot crawling since September — how can I identify the cause?](https://webmasters.stackexchange.com/questions/150043/wordpress-website-increased-server-response-times-and-reduced-googlebot-crawlin) — Webmasters Stack Exchange · 2026-10-27
 - [Google Search news with platform properties, multimodal Search & AI Features (Q4 ‘26)](https://www.youtube.com/watch?v=P7grNk_REms) — Google Search Central (YouTube) · 2026-10-26
-- [Introducing Topics Portfolio (Beta) in AI Performance](https://blogs.bing.com/webmaster/2026/10/introducing-topics-portfolio-beta-in-ai-performance) — Bing Webmaster Blog · 2026-10-13
 
 ## How this skill stays current
 
-- Regenerated on 2026-11-12 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
+- Regenerated on 2026-11-13 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2026-07-29 → 2026-11-12.
-- 19 findings from 10 sources; confidence is **high**.
+- 20 findings from 10 sources; confidence is **high**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

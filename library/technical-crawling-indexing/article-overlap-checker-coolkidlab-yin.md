@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 1
-collected: "2026-11-12"
+collected: "2026-11-13"
 ---
 
 <!-- Claude Code skill · Coolkidlab-Yin/Coolkidlab · plugins/article-overlap-checker/skills/article-overlap-checker/SKILL.md · MIT

@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 100
-collected: "2026-11-12"
+collected: "2026-11-13"
 ---
 
 <!-- Claude Code, Codex, Gemini CLI, Windsurf skill · mykpono/ultimate-seo-geo · plugins/ultimate-seo-geo/skills/ultimate-seo-geo/SKILL.md · MIT

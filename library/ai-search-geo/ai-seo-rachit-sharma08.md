@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 2
-collected: "2026-11-12"
+collected: "2026-11-13"
 ---
 
 <!-- Claude Code, Codex skill · Rachit-Sharma08/coding-agent-skills · skills/ai-seo/SKILL.md · MIT

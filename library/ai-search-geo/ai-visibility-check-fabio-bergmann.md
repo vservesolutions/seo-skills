@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 1
-collected: "2026-11-12"
+collected: "2026-11-13"
 ---
 
 <!-- Claude Code, Gemini CLI skill · fabio-bergmann/seo-geo-skills · skills/ai-visibility-check/SKILL.md · MIT

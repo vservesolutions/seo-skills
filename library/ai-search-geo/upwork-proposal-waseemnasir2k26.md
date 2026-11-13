@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 2
-collected: "2026-11-12"
+collected: "2026-11-13"
 ---
 
 <!-- Claude Code skill · waseemnasir2k26/skynetlabs-all-claude-code · skills/seo-content-copy/upwork-proposal/SKILL.md · MIT

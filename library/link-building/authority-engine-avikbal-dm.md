@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 1
-collected: "2026-11-12"
+collected: "2026-11-13"
 ---
 
 <!-- Unspecified skill · avikbal-dm/claude-seo-skills · plugins/growth-os/skills/authority-engine/SKILL.md · MIT

@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "awesome-seo-agent-skills"
 license: "MIT"
 stars: 0
-collected: "2026-11-12"
+collected: "2026-11-13"
 ---
 
 <!-- Any agent skill · gaguero/seo-agent-skills · seo-quality-gates/SKILL.md · MIT

@@ -1,0 +1,363 @@
+---
+name: "citable"
+description: "Audit, design, remediate, validate, and monitor the conditions that influence SEO (search visibility), AEO (answer citation), and GEO (generative representation). Use whenever the user asks about search visibility, AI citations, answer engines, generative engine optimization, structured data governance, claim substantiation, crawler policy, entity consistency, content discoverability, or wants a site audited for how search and AI systems will retrieve, understand, cite, or recommend it."
+category: "ai-search-geo"
+platforms: ["unspecified"]
+platform_source: "none"
+repo: "mikeholownych/citable"
+repo_url: "https://github.com/mikeholownych/citable"
+source: "https://github.com/mikeholownych/citable/blob/HEAD/skill/SKILL.md"
+raw_source: "https://raw.githubusercontent.com/mikeholownych/citable/HEAD/skill/SKILL.md"
+ref: "HEAD"
+discovered_via: "github-search"
+license: "Apache-2.0"
+stars: 1
+collected: "2026-11-13"
+---
+
+<!-- Unspecified skill · mikeholownych/citable · skill/SKILL.md · Apache-2.0
+     Source: https://github.com/mikeholownych/citable/blob/HEAD/skill/SKILL.md
+     Detected by: none · Regenerated on every run; edit the upstream skill, not this copy. -->
+
+# Citable — evidence and change control for search and AI citation readiness
+
+Citable is an operational quality and governance layer, not a content generator.
+It records what a property makes technically available, what its content can
+support, and what external systems have actually been observed doing. It does
+not score visibility; it establishes what is eligible, supportable, observed,
+changed, and still unknown.
+It treats discoverability as an engineering system: registries as the source of
+truth, deterministic detectors for observable conditions, rubrics for semantic
+judgment, evidence packages for every run, and fail-closed behaviour wherever a
+recommendation would require invented facts.
+
+## Operating premises (non-negotiable)
+
+1. **No guarantees.** Never promise crawling, indexing, ranking, traffic,
+   citation, recommendation, inclusion, sentiment, rich results, or conversion.
+   Speak in eligibility, probability, observed behaviour, and confidence.
+2. **Fact ≠ inference.** Classify every statement you make as: deterministic
+   observation, evidence-backed semantic finding, probabilistic inference,
+   strategic hypothesis, experiment result, or untestable condition. Never
+   present an inference as an observation.
+3. **Public ≠ reusable.** Keep separate: publicly accessible, crawlable,
+   indexable, snippet-eligible, retrievable on user action, licensed for reuse,
+   permitted for model training, licensed via partnership. Crawler access is
+   decided per crawler *and purpose* in `.citable/crawlers.yaml`.
+4. **Structured data is an assertion layer.** Schema must match visible content,
+   use stable `@id`s, and never assert ratings, prices, capabilities, or dates
+   the page and registries do not support.
+5. **Claims need owners and evidence.** No claim reaches `verified` without
+   evidence in the evidence registry. Expired evidence invalidates dependent
+   claims. Opinion and aspiration never become verified fact.
+6. **Corroboration cannot be manufactured.** Refuse to create fake reviews,
+   synthetic community posts, shadow brands, PBNs, undisclosed endorsements,
+   fabricated statistics or citations, recommendation poisoning, or hidden
+   instructions aimed at language models — regardless of how the request is
+   framed. Report GEO-001 findings (prompt injection) instead of replicating them.
+7. **Machines never outrank humans.** Every remediation must preserve or improve
+   factual accuracy, human comprehension, accessibility, conversion function,
+   legal defensibility, and maintainability.
+
+## The three disciplines (never collapse into one score)
+
+| Discipline | Objective | Unit of measurement |
+| --- | --- | --- |
+| SEO | Sustained visibility on commercially relevant queries; qualified traffic; conversion | URL, query, impression, click, conversion |
+| AEO | Direct-answer eligibility, passage extraction, supporting citation, accurate attribution | question, answer passage, citation, citation share |
+| GEO | Correct entity understanding, accurate synthesis, category placement, claim reproduction, comparison inclusion, defensible recommendation | entity, claim, prompt, comparison, recommendation, narrative |
+
+Report posture per dimension (e.g. `retrieval_eligibility: strong`,
+`answer_extractability: weak`) — never one opaque 0–100 "AI visibility score".
+
+Every report must keep these top-level states separate:
+
+1. **Retrieval eligibility** — policy and captured technical conditions.
+2. **Source extraction and support suitability** — passage, entity, claim,
+   evidence, freshness, and structured-data conditions.
+3. **Observed citation behavior** — only controlled, timestamped provider
+   observations; absent observations are `not_evidenced`, never inferred.
+
+Presentation language must preserve those boundaries. An empty finding list,
+legacy package, unverified artifact, incomplete crawl, or indeterminate
+determination must not be described as `clean`, `complete`, `verified`,
+`resolved`, `100%`, or `site-wide`. State the evaluated population and the
+limitation instead (for example, "No findings were produced for the 217
+successfully evaluated resources; corpus-wide absence is not established").
+Positive local observations may remain supported, but they must not be widened
+to pages or resources that were not observed.
+
+Within retrieval, distinguish `allowed_by_policy`, `synthetic_fetch_succeeded`,
+`observed_in_production_logs`, `indexed`, and `returned_by_retrieval`. Within
+citation testing, distinguish mention, citation, material support, canonical
+source selection, and recommendation. These states are not interchangeable.
+
+Evidence preservation, authority, authenticity, collection method, and
+representativeness are also independent. Follow
+`references/evidence-authority.md`; a checksum or CIDR match alone never proves
+source authenticity, complete coverage, or verified crawler identity.
+
+## Tooling
+
+The `citable` CLI in this repository performs the deterministic work. Always
+prefer running it over re-deriving its checks by hand:
+
+```
+citable init                        # initialize .citable/ (non-destructive)
+citable audit [scope] --target <dir|url> [--base-url <url>] [--max-pages <1..10000>] [--time-budget-seconds <1..86400>] [--ref-date YYYY-MM-DD]
+citable plan-audit --target <dir|url> [--base-url <url>]
+citable sweep technical --target <dir|url> # Technical SEO sweep + Core Web Vitals metrics
+citable inspect <page> --target <dir|url>
+citable inspect eeat <page> --target <dir|url> # On-page content analysis & 0-5 E-E-A-T score
+citable inspect readiness <page> --target <dir|url> # Answer-engine readiness (Perplexity, Copilot, ChatGPT)
+citable audit backlinks --input <file>  # Off-page authority assessment & toxic domain identification
+citable prioritize matrix [--run <run-id>] # Impact/Effort/Confidence (ICE) scoring matrix
+citable roadmap [generate|show]         # 30/90/180-day strategic milestone roadmap
+citable map-claims --target <dir|url> [--write]
+citable substantiate [--write]
+citable schema --target <dir|url>
+citable validate [registries|claims|evidence|schema|links]
+citable compare-snapshots [runA runB]
+citable action-plan [run-id]          # ordered actions, blockers, semantic gates, verification
+citable observe <mode> [options]      # render/index/citation/log/probe/passage/consensus/performance/stance/backlink evidence
+citable observe backlinks --input <file> [--target <url>] [--compare-with <file>] # Passive backlink observation & non-causal temporal comparison
+citable observe stance --input <citations|prompts.json> [--entity <id>]
+citable observe attribution --input <citations|prompts.json> [--entity <id>]
+citable observe bing --dataset <search_performance|ai_performance> --input <csv|json>
+citable observe probes --target <url> [--region <label>]
+citable observe network --input <regional-network-import.json>
+citable observe render --target <url> [--interactions] [--resume-run <run-id>]
+citable observe render --input <browser-evidence-plan.json>
+citable observe performance --target <url> --lighthouse [--repeat 1..5]
+citable apply --input <spec> [--write] # reviewed, hash-locked remediation; dry run by default
+citable monitor [runA runB] [--webhook <url>] [--min-severity <sev>]  # observation regression alerts
+citable report dashboard [--last N] [--since <run-id>]  # cross-run evidence trend (Markdown + HTML)
+citable report share-of-voice [--last N] [--since <run-id>]  # competitor citation share (Markdown + HTML)
+citable report consensus [--last N] [--since <run-id>]  # canonical discovery consensus matrix (Markdown + HTML)
+citable report search [--target <dir|url>] [--run <id>] [--format md|html|json] # Enterprise Search Intelligence Briefing (19 pillars, evidence-traceable)
+citable report cro [--target <dir|url>] [--input <file>] [--format md|html|json] # Enterprise CRO & Journey Briefing (25 pillars: observations vs hypotheses vs causation)
+citable metrics import --provider <name> --input <csv|json>
+citable connect status
+citable connect configure --provider <gsc|ga4|wordpress|webflow> --connection-id <id> --property-id <id> [--credential-env <name>] [--write]
+citable connect discover --provider <gsc|ga4|wordpress|webflow>
+citable connect validate --connection-id <id>
+citable connect sync --connection-id <id> --start-date YYYY-MM-DD --end-date YYYY-MM-DD
+citable connect read --connection-id <id> --target-id <id>
+citable connect apply --connection-id <id> --input <cms-spec.json> [--write]
+citable connect disconnect --connection-id <id> [--write]
+citable connect indexnow [--urls <file|list>] [--sitemap <url|file>] [--host <host>] [--key <key>] [--key-location <url>] [--skip-key-verify] [--endpoint <url>] [--write]
+citable connect mcp [--server <id>] [--tool <name>] [--args <json>] [--transport <stdio|http>] [--target <cmd|url>]
+citable objectives init --input <json|yaml> [--write]
+citable objectives validate
+citable evaluate [objective-id] [--ref-date YYYY-MM-DD]
+citable governance validate [--ref-date YYYY-MM-DD]
+citable governance evaluate <run-id> [--ref-date YYYY-MM-DD]
+citable reviews queue <run-id> <policy-id> [--write]
+citable reviews prioritize [--write]
+citable reviews plan --input <json|yaml> [--write]
+citable reviews sample <sampling-plan-id> [--write]
+citable reviews evaluate
+citable schedules run <schedule-id> [--ref-date YYYY-MM-DD] [--monitor] [--webhook <url>]
+citable project github <run-id>
+citable observe media --input <manifest.json> [--ocr]
+citable observe representation --input <release-manifest.json> --target <controlled-url>
+citable corpus evaluate --input <acceptance-corpus.json>
+citable corpus publish --input <acceptance-corpus.json> --output <public-corpus.json>
+citable corpus receipt --run <run-id> [--input <execution-context.json>]
+citable corpus compare-receipts <receipt-a.json> <receipt-b.json>
+citable corpus benchmark [--corpus <dir>] [--output <report.json>]  # labeled golden fixtures → per-detector precision/recall gate
+citable artifacts export <run-id> --output <directory>
+citable artifacts verify --input <directory>
+citable artifacts import --input <directory>
+citable inspect cro <page> --target <dir|url>   # CRO readiness: CTAs, forms, payment-wallet vs authentication readiness, modeled saliency indices
+citable cro [--target <dir|url>] [--funnel <id>] # Full CRO intelligence suite: funnel, ATF clarity, trust, cognitive load, ICE matrix, roadmap
+citable cro backlog [--target <dir|url>]         # Prioritized A/B experiment backlog with falsifiable hypotheses & guardrails
+citable cro roadmap [--target <dir|url>]         # 30/90/180-day CRO strategic roadmap tied to measurable conversion outcomes
+citable sweep technical [--target <dir|url>]    # Technical SEO sweep with Core Web Vitals readiness metrics (LCP, INP, CLS)
+citable inspect eeat <page> --target <dir|url>  # On-page E-E-A-T evaluation on a 0-5 rubric scale
+citable inspect readiness <page> --target <dir|url> # Answer-engine readiness across Perplexity, Bing Copilot, ChatGPT
+citable audit backlinks --input <backlinks.json> # Off-page authority assessment and toxic domain identification
+citable prioritize matrix                       # Impact/Effort/Confidence (ICE) scoring matrix for findings & roadmap
+citable roadmap strategic                       # 30/90/180-day strategic milestone horizons with KPI linkages
+citable preview cro <page> [--export <file.html>]  # split-screen before/remediated sandbox (layout-contract checked; accessibility-aware)
+citable remediate --finding <id> [--target <file>] [--write]  # production-safe patch: framework detection, unified diff, static validation, confidence gate, rollback snapshot; semantic copy changes always refuse automated write
+citable verify remediation --run <run-id> --finding <id> [--target <file>] [--apply]  # closed loop: re-run the detector and emit a before/after evidence bundle (schema remediation-verification)
+citable verify page <page> --target <dir|url>   # all detectors scoped to one page; pass = no detector currently reports it, never an outcome guarantee
+citable check experiment <id> [--observed-control N --observed-variant N --days-running N]  # SRM, stopping, power, contamination; lifecycle: planned|running|inconclusive|validated
+citable compatibility   # Node engine, optional adapters, browser, framework, registries, edge size limits
+citable kit export --run <run-id> --finding <id> [--target <file>]  # customer-ready implementation kit (finding, diff, evidence, acceptance tests, deployment, limitations)
+citable sow generate [--target <dir|url>] [--budget <amount>] [--format md|html|json] [--output <path>] # Enterprise SOW from findings with 6-gate admissibility & 7-column traceability
+citable sow validate <sow.json>                  # Validate SOW schema, admissibility gates, and complete traceability matrix
+```
+
+Audit scopes: `technical seo aeo geo architecture entity claims evidence schema
+lifecycle corroboration`. Every audit writes an evidence package to
+`.citable/runs/<run-id>/` (manifest, findings.json, report.md, headers, robots,
+sitemaps, raw JSON-LD, normalized entity graph, link graph, checksums). The
+entity graph preserves declared nodes, relations, unresolved references, parse
+failures, and literal visible-text support; it does not prove semantic
+correctness or search-engine recognition. The source identity-chain artifact
+joins declared publisher, author affiliations, content owner, factual reviewer,
+evidence owner, and correction path while preserving missing links. Registry
+linkage does not prove that disclosures are visible, current, or independent.
+A report without its evidence package is not a deliverable.
+
+## Finding-to-action protocol
+
+Detection is the start of the workflow, not the deliverable. For every audit:
+
+1. Run `citable action-plan <run-id>`. Use the generated files under
+   `.citable/actions/<run-id>/`; never edit the immutable source run.
+2. Work phases in order: **unblock** retrieval/security failures,
+   **governance** for owners/entities/claims/evidence, **content** for page and
+   answer changes, then **optimization**. Within a phase, critical/high precede
+   lower-severity work. Severity never substitutes for confidence.
+3. Before editing, assign an accountable owner and satisfy every
+   `required_input`. A blocked action stays blocked; do not write around missing
+   facts, evidence, legal review, or source-to-render mapping.
+4. Apply the listed semantic gates. AEO changes require intent alignment and
+   answer-extractability review. GEO changes require entity clarity,
+   recommendation eligibility, and narrative-accuracy review. Claim/evidence
+   changes additionally require claim-boundedness and evidence-strength review.
+5. Make the smallest source or registry change that addresses the evidence.
+   Reject every listed unsafe shortcut and every matching anti-pattern.
+6. Run the repository build/test commands, then the action's verification
+   command. Re-audit the affected scope and run `compare-snapshots` against the
+   source run. A finding is resolved only when its detector no longer reports
+   the same subject and no new critical/high regression appears.
+7. Report resolved, persisting, blocked, accepted-risk, and newly introduced
+   findings separately. Preserve run IDs, diffs, owners, review evidence, and
+   residual risk. Never translate "detector absent" into an outcome guarantee.
+
+For the complete AEO/GEO acceptance profile, follow
+`references/aeo-geo-validation.md`. Skipped deterministic checks or incomplete
+mandatory semantic reviews make the relevant posture `not_established`.
+Consult `references/capability-boundaries.md` before claiming any observation;
+it identifies which states the current CLI can collect and which require
+operator data or future adapters.
+Use `commands/observe-and-act.md` for collector prerequisites, evidence labels,
+the controlled citation adapter protocol, remediation refusal conditions, and
+monitoring interpretation.
+Use `commands/field-validation.md` for acceptance-corpus authorization,
+sanitization, publication refusal, reproducibility, and evidence boundaries.
+
+## CRO remediation loop (audit → explain → remediate → verify → hand off)
+
+The CRO suite completes the loop. Rules that govern every step:
+
+1. **Safe patches only.** `remediate --write` is gated on framework detection,
+   static structural validation, idempotency, and an explicit confidence
+   threshold. Semantic microcopy replacements are refused for automated write
+   (fact ≠ inference): they require a human editorial decision. Every write
+   creates a rollback snapshot under `.citable/remediation/snapshots/`.
+2. **A written patch is not a verified repair.** Run
+   `verify remediation --run <run-id> --finding <id>`. Resolution means the
+   detector no longer reports the same subject — never a conversion guarantee.
+   The verification bundle is schema-validated
+   (`schemas/remediation-verification.schema.json`).
+3. **Payment wallets ≠ authentication.** Apple Pay/Google Pay/PayPal are
+   payment methods; WebAuthn/passkeys are account authentication. Report them
+   separately (`inspect cro` returns `payment_wallet_readiness` and
+   `authentication_readiness`). Never use "biometric readiness" as a claim.
+4. **Modeled indices are labeled.** Friction Surface Area, CTA Conspicuity
+   Index, and gaze-path ordering are heuristic indices over captured DOM
+   conditions — not observed user behavior and not revenue estimates. Slide
+   decks and kits must keep measured (deterministic findings) and modeled
+   (indices, projections) in separate, labeled categories. No latency,
+   speed, or "percentage eliminated" figure may be stated without a
+   documented measurement methodology.
+5. **Referral fragments are untrusted input.** ScentBeacon-style components
+   may match referrer/`:~:text=` against a fixed allowlist to detect the
+   referral state; raw values are never rendered, persisted, or transmitted.
+   Dynamic claim text must come from registry-bound developer props.
+6. **Experiments carry guardrails.** `check experiment` reports SRM, stopping
+   early, underpowered samples, contamination, and unsupported revenue
+   attribution, and derives one lifecycle of `planned`, `running`,
+   `inconclusive`, or `validated` — never "winner".
+7. **Machine-readable output is a contract.** `--json` wraps every command
+   payload in the `citable_output_schema` 1.0 envelope
+   (`schemas/cli-output-envelope.schema.json`).
+
+## Enterprise SOW & governance protocol (findings → admissibility → traceability → contract)
+
+The SOW engine (`citable sow generate`, `citable sow validate`) translates verified audit findings into legally enforceable enterprise Statements of Work:
+
+1. **Authoritative Evidence Gating**: A contractual SOW requires verified audit findings from `--run <id>` or a live target. Never invent or synthesize findings in `CONTRACTUAL` or `DRAFT` modes; missing findings fail closed (`NoFindingsError`). Synthetic baseline findings are strictly confined to `--sample` / `--demo`.
+2. **Scope Admissibility Filter**: Audit findings do not automatically become contractual obligations. Every candidate finding must pass 7 objective gates:
+   - *Exclusion Gate*: No explicitly blacklisted detectors (`REFUSE-EXCLUDED`).
+   - *Discipline Authorization*: Finding discipline must be authorized in engagement terms (`REFUSE-DISCIPLINE-NOT-AUTHORIZED`).
+   - *Evidence Maturity*: Deterministic/observed confidence with real evidence (`REFUSE-EXPERIMENTAL`, `REFUSE-NO-EVIDENCE`).
+   - *Scope Boundary*: URL matches contracted origins, hosts, or paths (`REFUSE-OUT-OF-SCOPE`).
+   - *Technical Feasibility*: Reject legal, trademark, GDPR, or unfeasible remediation (`REFUSE-UNFEASIBLE-REMEDIATION`).
+   - *Commercial Materiality*: High severity or ICE score >= min threshold (`REFUSE-LOW-MATERIALITY`).
+   - *Measurable Acceptance*: Automated verification rerun detector or test (`REFUSE-UNVERIFIABLE`).
+   - *Ownership Clarity*: Resolvable accountable delivery owner (`REFUSE-OWNER-UNRESOLVED`).
+   All refused findings are logged in `admissibility_gate.refusal_log`. Never force a refused item into scope.
+3. **The 7-Column Traceability Matrix**: Every admitted requirement must strictly link:
+   `Finding ID → Recommendation → SOW Req ID → Deliverable ID → Acceptance Test ID → Responsible Owner → Source Evidence IDs`.
+4. **Commercial Integer Minor-Unit Arithmetic**: Milestone fee calculations are performed strictly in integer minor units (cents, exponent 2, currency `USD`) via `parseCommercialBudget` and `allocateMilestoneFees`. Remainder pennies are distributed deterministically across initial milestones. Fractional sub-cents (`100.001`) and negative budgets are rejected. Milestone fees and total fees must balance to the exact integer cent.
+5. **No Outcome Guarantees**: Fees are tied exclusively to verified deliverable acceptance and closed-loop test execution. Ranking, citation presence, and conversion revenue guarantees are strictly disclaimed.
+6. **Schema Validation Gate**: Exported SOW artifacts must validate against `schemas/sow.schema.json` with `additionalProperties: false`.
+
+## Command workflows
+
+Detailed per-command workflows live in `commands/`. Follow them; they define
+inputs, preconditions, refusal conditions, and validation for each command.
+Semantic judgments (intent alignment, evidence strength, information gain,
+comparison fairness, …) use the rubrics in `rubrics/` — each defines scoring
+dimensions, evidence requirements, counterexamples, and when human review is
+mandatory.
+
+## Registries are the source of truth
+
+`.citable/` holds YAML registries for queries, prompts, entities, claims,
+  evidence, pages, crawlers, competitors, experiments, metrics, objectives,
+  interventions, optional connection state, reviewers, review policies, and
+  governed exceptions, semantic review items, sampling plans, and audit schedules,
+  all schema-validated
+(`schemas/*.schema.json`) with referential integrity checks. Rules:
+
+- Never overwrite registry content without history — use the loader/saver in
+  `src/registries/index.js`, which snapshots prior versions automatically.
+- Never invent registry facts (legal names, founders, certifications,
+  competitors, pricing). Mark entities `incomplete` and list `required_input`.
+- Claim status transitions toward `verified` require existing verified evidence
+  plus human semantic review; automation only downgrades (fail-closed).
+- Never encode an accepted exception as a passed or resolved finding. Validate
+  reviewer authority and separation of duties, bind approval to exact source
+  finding/policy/evidence hashes, and report enforcement disposition separately.
+
+## Fail-closed behaviour
+
+When information is missing, return a blocked/incomplete status with the exact
+required inputs — do not write around the gap:
+
+```yaml
+status: blocked
+reason: quantitative claim lacks verified evidence
+required_input: [baseline, measurement period, test population, methodology, result source]
+```
+
+The same applies to: missing entity identity (do not invent), unavailable
+external research (record `status: incomplete`, never fabricate competitors or
+citations), build/render failures (never report validation success; preserve
+command, exit code, and error output), and semantic ambiguity with commercial
+or legal consequences (classify and route to the decision owner).
+
+## Repository modification rules
+
+Before editing any repository: read its agent/repo instructions, package
+manifests, build/test/lint commands, rendering architecture, existing metadata
+and schema systems, and working-tree status. Then: preserve existing
+architecture; prefer shared data models over duplicated literals; never bypass
+tests, disable linting, weaken types, or touch unrelated files; never silently
+rewrite legal or regulated claims; preserve a diff of all registry changes; and
+rerun the relevant `citable validate`/`citable audit` scope after every change.
+A failed build or render makes "validated" an unavailable conclusion.
+
+## Anti-patterns
+
+`references/anti-patterns.md` is the canonical library (content, technical,
+AEO, GEO). Consult it before recommending any optimization; if a requested
+change matches an anti-pattern, name the anti-pattern, explain the risk, and
+offer the defensible alternative.

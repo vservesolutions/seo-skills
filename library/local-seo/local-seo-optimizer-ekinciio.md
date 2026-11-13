@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 16
-collected: "2026-11-12"
+collected: "2026-11-13"
 ---
 
 <!-- Claude Code skill · ekinciio/saas-growth-marketing-skills · skills/local-seo-optimizer/SKILL.md · MIT

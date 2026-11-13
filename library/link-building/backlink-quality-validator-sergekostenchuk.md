@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 40
-collected: "2026-11-12"
+collected: "2026-11-13"
 ---
 
 <!-- Unspecified skill · sergekostenchuk/seo-llm-skill-cluster · skills/backlink-quality-validator/SKILL.md · MIT

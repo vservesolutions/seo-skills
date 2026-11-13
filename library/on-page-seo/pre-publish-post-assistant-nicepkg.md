@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "awesome-seo-agent-skills"
 license: "MIT"
 stars: 288
-collected: "2026-11-12"
+collected: "2026-11-13"
 ---
 
 <!-- Claude Code, Codex, Cursor skill · nicepkg/ai-workflow · workflows/content-creator-workflow/.claude/skills/pre-publish-post-assistant/SKILL.md · MIT

@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "Apache-2.0"
 stars: 3
-collected: "2026-11-12"
+collected: "2026-11-13"
 ---
 
 <!-- Unspecified skill · SearchCans/searchcans-skills-zh · skills/searchcans-content-format-brief-zh/SKILL.md · Apache-2.0

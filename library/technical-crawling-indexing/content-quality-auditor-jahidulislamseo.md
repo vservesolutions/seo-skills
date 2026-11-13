@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "Apache-2.0"
 stars: 4
-collected: "2026-11-12"
+collected: "2026-11-13"
 ---
 
 <!-- Claude Code, Antigravity, OpenClaw skill · jahidulislamseo/antigravity-ai-skills · skills/content-quality-auditor/SKILL.md · Apache-2.0

@@ -1,8 +1,8 @@
 ---
 name: seo-analytics-measurement
-description: "Search Console and GA4 measurement, rank tracking, dashboards, forecasting and KPI definitions. Auto-generated from 52 findings across 14 sources."
+description: "Search Console and GA4 measurement, rank tracking, dashboards, forecasting and KPI definitions. Auto-generated from 53 findings across 14 sources."
 last_updated: 2026-11-12
-findings: 52
+findings: 53
 sources: 14
 confidence: high
 ---
@@ -40,6 +40,7 @@ Use when building reports, explaining traffic changes, defining SEO KPIs, or ins
 
 ## Recent developments
 
+- **Google Search Console Generative AI Performance Report Data Bug November 9 - 11** — 2026-11-12 · Search Engine Roundtable — Google has confirmed a data logging bug in the Search Console Generative AI performance report in Search between the dates of November 9 and November 11, 2026 which resulted in a decrease in impressions. ([link](https://www.seroundtable.com/google-generative-ai-performance-report-data-bug-42527.html))
 - **Google Explains How To Identifying Traffic From Google Search** — 2026-11-12 · Search Engine Roundtable — Google has published a new help document named Identify Google Search traffic in your web analytics or server logs . ([link](https://www.seroundtable.com/identify-traffic-from-google-search-42525.html))
 - **The Traffic Pool Is Shrinking, And Which Channel Fills It Matters Less Than We Think** — 2026-11-12 · Search Engine Journal — Marie Haynes looked at 12 months of GA4 data across 100 sites and more than 145 million sessions, and found that ChatGPT sent 0.62% of the sessions Google organic did, rising to 0.73% with every LLM included. ([link](https://www.searchenginejournal.com/the-traffic-pool-is-shrinking-and-which-channel-fills-it-matters-less-than-we-think/596346))
 - **Daily Search Forum Recap: November 11, 2026** — 2026-11-11 · Search Engine Roundtable — Google Ads is also adding the Visit site link in the mobile ad descriptions for search ads. ([link](https://www.seroundtable.com/recap-11-11-2026-42509.html))
@@ -49,10 +50,10 @@ Use when building reports, explaining traffic changes, defining SEO KPIs, or ins
 - **Is a temporary sitemap of 410 URLs a legitimate way to get Googlebot to recrawl them?** — 2026-11-11 · Webmasters Stack Exchange — Years ago, the same domain ran an older PHP install, and a spam injection on it left Googlebot with several thousand junk URLs in two shapes: /350859926.htm /shop/tipsier/fenerate85385187894.html In late October, a rule was deployed that… ([link](https://webmasters.stackexchange.com/questions/150079/is-a-temporary-sitemap-of-410-urls-a-legitimate-way-to-get-googlebot-to-recrawl))
 - **Good Vs. Bad pSEO: Learnings From A Decade Of Building Scalable Content Engines** — 2026-11-10 · Search Engine Journal — He wrote that programmatic SEO of that kind often leads to a site that’s spam, borderline spam, or low quality, and that pages already published may keep shaping how Google judges the whole site. ([link](https://www.searchenginejournal.com/good-vs-bad-pseo-learnings-from-a-decade-of-building-scalable-content-engines/594204))
 - **It Can Take Google Time To Understand The Unique Value Of New Websites** — 2026-11-10 · Search Engine Roundtable — Google's John Mueller said it can take Google Search some time to understand a new site's "unique value" and then rank it accordingly. ([link](https://www.seroundtable.com/google-new-sites-time-value-42489.html))
-- **Google Ads Tests Asset Activity Page With Weekly AI Insights** — 2026-11-09 · Search Engine Journal — Some Google Ads accounts are showing a beta page called Asset activity, which gives advertisers weekly insight cards about their ad creative. ([link](https://www.searchenginejournal.com/google-ads-tests-asset-activity-page-with-weekly-ai-insights/596442))
 
 ## References
 
+- [Google Search Console Generative AI Performance Report Data Bug November 9 - 11](https://www.seroundtable.com/google-generative-ai-performance-report-data-bug-42527.html) — Search Engine Roundtable · 2026-11-12
 - [Google Explains How To Identifying Traffic From Google Search](https://www.seroundtable.com/identify-traffic-from-google-search-42525.html) — Search Engine Roundtable · 2026-11-12
 - [The Traffic Pool Is Shrinking, And Which Channel Fills It Matters Less Than We Think](https://www.searchenginejournal.com/the-traffic-pool-is-shrinking-and-which-channel-fills-it-matters-less-than-we-think/596346) — Search Engine Journal · 2026-11-12
 - [Daily Search Forum Recap: November 11, 2026](https://www.seroundtable.com/recap-11-11-2026-42509.html) — Search Engine Roundtable · 2026-11-11
@@ -64,11 +65,10 @@ Use when building reports, explaining traffic changes, defining SEO KPIs, or ins
 - [It Can Take Google Time To Understand The Unique Value Of New Websites](https://www.seroundtable.com/google-new-sites-time-value-42489.html) — Search Engine Roundtable · 2026-11-10
 - [Google Ads Tests Asset Activity Page With Weekly AI Insights](https://www.searchenginejournal.com/google-ads-tests-asset-activity-page-with-weekly-ai-insights/596442) — Search Engine Journal · 2026-11-09
 - [SEO Split Testing In 2027: How To Prove A Change Actually Worked](https://www.searchenginejournal.com/seo-split-testing-prove-change-worked/594529) — Search Engine Journal · 2026-11-09
-- [Daily Search Forum Recap: November 9, 2026](https://www.seroundtable.com/recap-11-09-2026-42485.html) — Search Engine Roundtable · 2026-11-09
 
 ## How this skill stays current
 
-- Regenerated on 2026-11-12 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
+- Regenerated on 2026-11-13 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2024-03-13 → 2026-11-12.
-- 52 findings from 14 sources; confidence is **high**.
+- 53 findings from 14 sources; confidence is **high**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

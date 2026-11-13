@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 2
-collected: "2026-11-12"
+collected: "2026-11-13"
 ---
 
 <!-- Claude Code skill · agentik-os/claude-code-skills · Marketing/marketing-mastery/mm-06-content-seo-geo/SKILL.md · MIT

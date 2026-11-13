@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 6
-collected: "2026-11-12"
+collected: "2026-11-13"
 ---
 
 <!-- Gemini CLI skill · tmolavi/siteprobe · skills/siteprobe/SKILL.md · MIT

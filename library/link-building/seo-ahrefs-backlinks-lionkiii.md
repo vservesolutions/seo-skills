@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 22
-collected: "2026-11-12"
+collected: "2026-11-13"
 ---
 
 <!-- Claude Code skill · lionkiii/claude-seo-skills · skills/seo-ahrefs-backlinks/SKILL.md · MIT

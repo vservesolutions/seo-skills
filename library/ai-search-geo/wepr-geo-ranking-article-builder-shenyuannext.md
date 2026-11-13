@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 7
-collected: "2026-11-12"
+collected: "2026-11-13"
 ---
 
 <!-- Unspecified skill · ShenyuanNext/wepr-growth-skills · skills/wepr-geo-ranking-article-builder/SKILL.md · MIT
