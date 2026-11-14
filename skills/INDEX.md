@@ -1,18 +1,18 @@
 # SEO Skills Index
 
-Generated 2026-11-14. 39 skills across 16 categories, from 348 findings.
+Generated 2026-11-14. 39 skills across 16 categories, from 350 findings.
 
 A category skill aggregates every finding in its area; sub-skills go deeper where evidence exists.
 
-## Technical SEO: Crawling, Indexing and Rendering · 24 findings
+## Technical SEO: Crawling, Indexing and Rendering · 25 findings
 
 | Skill | What it covers | Findings | Updated | Confidence |
 | --- | --- | ---: | --- | --- |
-| [Technical SEO: Crawling, Indexing and Rendering](technical-crawling-indexing/SKILL.md) | How search engines discover, crawl, render and index URLs, and how to remove crawl waste, duplicates and index bloat. | 24 | 2026-11-13 | high |
+| [Technical SEO: Crawling, Indexing and Rendering](technical-crawling-indexing/SKILL.md) | How search engines discover, crawl, render and index URLs, and how to remove crawl waste, duplicates and index bloat. | 25 | 2026-11-14 | high |
 | [↳ Crawl Budget and Crawl Efficiency](crawl-budget/SKILL.md) | Crawl Budget and Crawl Efficiency: specific techniques, checks and pitfalls. | 5 | 2026-11-11 | medium |
 | [↳ Index Coverage and Indexation](indexation/SKILL.md) | Index Coverage and Indexation: specific techniques, checks and pitfalls. | 1 | 2026-11-11 | low |
 | [↳ XML Sitemaps](sitemaps/SKILL.md) | XML Sitemaps: specific techniques, checks and pitfalls. | 1 | 2026-11-03 | low |
-| [↳ robots.txt and Crawl Directives](robots-txt/SKILL.md) | robots.txt and Crawl Directives: specific techniques, checks and pitfalls. | 5 | 2026-11-10 | medium |
+| [↳ robots.txt and Crawl Directives](robots-txt/SKILL.md) | robots.txt and Crawl Directives: specific techniques, checks and pitfalls. | 6 | 2026-11-14 | medium |
 
 ## Site Architecture and Internal Linking · 2 findings
 

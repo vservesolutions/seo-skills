@@ -1,0 +1,219 @@
+---
+name: "agent-ready-seo"
+description: "Use when a site needs to be readable and citable by AI answer engines as well as search crawlers. Covers the markdown twin layer, llms.txt, structured data, programmatic pages backed by real data, publishing a citable dataset, and attributing AI referrals. Also use when the user mentions \"AEO\", \"GEO\", \"answer engine optimization\", \"generative engine optimization\", \"llms.txt\", \"llms-full.txt\", \"markdown version of my pages\", \"get cited by ChatGPT\", \"AI search traffic\", \"AI crawlers\", \"JSON-LD\", \"structured data\", \"Dataset schema\", \"programmatic SEO\", \"thin content\", \"doorway pages\"…"
+category: "ai-search-geo"
+platforms: ["claude-code", "codex"]
+platform_source: "declared+detected"
+repo: "caiodomingues/agent-ready-seo"
+repo_url: "https://github.com/caiodomingues/agent-ready-seo"
+source: "https://github.com/caiodomingues/agent-ready-seo/blob/HEAD/SKILL.md"
+raw_source: "https://raw.githubusercontent.com/caiodomingues/agent-ready-seo/HEAD/SKILL.md"
+ref: "HEAD"
+discovered_via: "github-search"
+license: "MIT"
+stars: 0
+collected: "2026-11-14"
+---
+
+<!-- Claude Code, Codex skill · caiodomingues/agent-ready-seo · SKILL.md · MIT
+     Source: https://github.com/caiodomingues/agent-ready-seo/blob/HEAD/SKILL.md
+     Detected by: declared+detected · Regenerated on every run; edit the upstream skill, not this copy. -->
+
+# Agent-Ready SEO
+
+Optimizing for search used to have one reader. It now has three, and they want
+different things from the same text.
+
+| Discipline | Reader | What success looks like |
+| --- | --- | --- |
+| **SEO** | The crawler that builds an index | Position and click |
+| **AEO** | The agent that fetches and summarizes | Read in full, without noise |
+| **GEO** | The model composing an answer | Being the cited source |
+
+Most sites are built for the first reader only. This skill covers the other two
+without breaking the first, and the three layers share one content source rather
+than becoming three codebases.
+
+**The load-bearing claim:** a generative engine cites numbers, dates, sources and
+methods. It does not cite restated common knowledge. So the work splits in two
+halves that must both happen. Publish something only you can publish (GEO), and
+make it trivially machine-readable (AEO). Doing only the second makes you easy to
+read and forgettable.
+
+---
+
+## Start here: what is the task?
+
+Read the reference for the layer in play. Do not read all of them.
+
+| The user wants to | Read | Then copy from |
+| --- | --- | --- |
+| Serve clean text to LLMs, add `llms.txt`, avoid duplicate-content risk | `references/agent-layer.md` | `templates/next/markdown-response.ts`, `md-route.ts`, `rewrites.ts`, `page-metadata.ts`, `llms-txt.ts` |
+| Make a gated SaaS (public marketing + logged-in app) stop answering 200 for every path | `references/agent-layer.md` (gated applications) | `templates/next/gated-app-404.ts` |
+| Turn proprietary data into something quotable: an index, a dated snapshot, a methodology page | `references/citable-data.md` | `templates/next/index-basket.ts`, `dataset-jsonld.ts` |
+| Generate many pages from data without creating thin content | `references/pseo.md` | `templates/next/sitemap.ts`, `sitemap-sharded.ts` |
+| Write or fix `/vs/{competitor}` and `/alternatives` pages for a product, by hand or generated | `references/pseo.md` (comparison pages), `references/schema-catalog.md` (comparison row) | none |
+| Fix the technical base: sitemap, robots, canonical, titles, IndexNow, social images | `references/foundations.md` | `templates/next/sitemap.ts`, `robots.ts` |
+| Decide which structured data type a page needs | `references/schema-catalog.md` | `templates/next/dataset-jsonld.ts` |
+| Know whether any of it worked, and where AI traffic lands | `references/measurement.md` | `templates/next/first-touch.ts` |
+| Change titles or templates as an experiment, without touching URLs | `references/measurement.md` (experiments), `references/foundations.md` (titles) | `templates/next/seo-metadata.ts` |
+| Keep articles correct after the code they explain changes | `references/foundations.md` (entities and authorship) | `templates/generic/content-review.js` |
+| Audit an existing site, or review a plan before building | `references/pitfalls.md` (checklist, top to bottom), then `references/verification.md` (the inventory crawl and an external scan) | none |
+| Check that any of it actually works, in production or in CI | `references/verification.md` | none |
+| Act on an agent-readiness scanner report | `references/verification.md` (Loop 2), then the decisions table below | none |
+
+Templates are working code with the framework-neutral contract stated at the top
+of each file. `templates/generic/` holds the same contract as raw HTTP plus one
+non-framework implementation, for stacks other than Next.js.
+
+---
+
+## The order that works
+
+Each step depends on the one before it. The most common failure is doing them
+backwards: writing a hundred pages before having anything different to say.
+
+1. **Survey the competition before writing.** You need to know what is already
+   occupied and where the gap is. An afternoon of teardown saves months of
+   redundant content.
+2. **Find the data only you have.** This decides whether GEO is available to you
+   or only SEO. Without proprietary data, all that is left is writing better than
+   everyone else, which is much slower.
+3. **Fix the technical base.** Sitemap, robots, canonical, titles, structured
+   data. Cheap, fast, and what stops the rest of the effort from leaking.
+4. **Ship the free tool before the content.** A no-login calculator or checker
+   answers practical-intent queries better than any article, and it is what earns
+   unsolicited links. It is also what still gets the click: on one property the
+   guides sat near one percent click-through and the tools of the same segments
+   at three to six, at the same position, because the informational query is
+   increasingly answered on the results page and the click that survives is for
+   a page that does the thing. The tool must deliver to an anonymous visitor
+   what its title promises; gate saving and exporting, not the result.
+5. **Only then scale pages per segment,** with real data per page. If a page does
+   not answer something only you can answer, it should not exist.
+6. **Add the agent layer.** Text version, `llms.txt`, canonical stitching the two.
+   Do it after the base is ready, because it mirrors content that already exists.
+   It serves agents other than Google: Google says Search, its AI features
+   included, does not use `llms.txt` or markdown files, so it has no Google
+   Search effect in either direction. Keep the canonical stitching anyway.
+7. **Instrument before expecting results.** First-touch attribution and search
+   console configured before traffic arrives, or the first months are lost data.
+   Verify the layer against production, and consider an external scorer as a
+   second opinion. See `references/verification.md`. Any later change to
+   titles or templates is an experiment with a register, a control and a
+   baseline taken before the deploy; see `references/measurement.md`.
+8. **Treat the data as a recurring publication.** An index that stops updating
+   stops being citable within about two periods. The routine is part of the asset.
+
+---
+
+## Non-negotiables
+
+These hold regardless of stack, market or CMS. Violating one usually undoes the
+rest of the work.
+
+- **Never ask a search engine to index two versions of the same text.** The
+  markdown twin stays out of the sitemap and declares the HTML page as canonical.
+  Discovery for agents happens through `llms.txt`, `rel=alternate` and a
+  predictable URL pattern.
+- **Generate, do not copy.** Any second rendering of content (markdown twin,
+  `llms.txt`, a pricing summary) must be derived from the same source as the page.
+  Where a hand-maintained copy is unavoidable, say so and schedule an audit.
+- **Structured data that contradicts the page is worse than no structured data.**
+  A model reads the declared block, not your table. A wrong number there gets
+  repeated with your name attached.
+- **Emit `lastmod` only when a real content date backs it.** A per-deploy
+  timestamp teaches crawlers to distrust the field entirely. Absent beats false.
+- **Let AI search and user fetchers in, on purpose.** Blocking them guarantees
+  you are never cited, at the exact moment that channel is growing. If the
+  strategy is to be the source, the reader has to be allowed in. Training-only
+  tokens are a separate question, and the user's (see the decisions below).
+- **Publish the aggregate, gate the live.** Dated snapshots, methodology and
+  educational material are what get cited; per-user, current and personalized
+  data is what people pay for. That line is also what keeps a data business from
+  giving itself away.
+- **A page must answer something only you can answer.** This is the single test
+  that separates programmatic SEO from doorway pages, and it applies before the
+  template is written, not after the penalty.
+- **No invented ratings, no fabricated review counts.** Aggregate rating markup
+  without real reviews earns a manual action that removes rich results from part
+  of the site or all of it, until a fix and a reconsideration request.
+- **An unknown path answers 404, even behind an auth gate.** A default-deny
+  middleware that redirects everything to a 200 login page tells every agent
+  that every URL exists. Keep the deny; distinguish "gated" from "nothing".
+- **Verify against the deployed site, from outside.** The edge can override
+  `robots.txt`, the framework can drop a header, and a dev server hides both.
+
+---
+
+## Decisions that belong to the user
+
+Some recommendations, from external scorers and from search engine guidance
+alike, are trade-offs rather than defects. **Do not decide these on the user's behalf.** When the
+work reaches one, ask the question (with the host's question tool when it has
+one), show the options with the default and its cost, and proceed with the
+answer. Ask only the ones the current task touches,
+and ask them together rather than one per turn.
+
+The frame for all of them: every check worth passing is worth passing for its
+own reason. If the only argument for a "yes" is the score, the answer is the
+default.
+
+| Ask | Options | Default, and the cost of the other answer |
+| --- | --- | --- |
+| **Should the free tool be callable by an agent in the page (WebMCP)?** | Register the tool's form or function as a WebMCP tool / leave it as a normal page | **Leave it**, unless the tool is the product's front door. Yes means maintaining a tool schema next to the UI, on a proposal that browsers and agents do not yet consume widely. It is the one place where "operate the product" overlaps this skill, because step 4 ships that tool anyway. |
+| **Which emerging discovery files to publish?** `agents.md`, `/.well-known/agent-skills/index.json`, `/.well-known/ard.json`, `pricing.md`, a `schemamap:` line for NLWeb | Each one independently: yes / no | **No to each**, except `pricing.md` where pricing is public. Each file is another rendering that can drift, and most scanners score them as emerging bonus rather than as requirements. A yes needs a generator from the same source, not a hand-written file. Cost of each yes: that generator, a test that it agrees with the twin registry, and one more file to keep current when a convention changes. See `references/agent-layer.md` (emerging conventions). |
+| **Split `llms.txt` per section** (`/blog/llms.txt`, `/data/llms.txt`)? | One map within budget / one root map plus section maps | **One map**, while it fits the byte budget. Split when the map cannot shrink below the budget without dropping whole sections. Cost of splitting: more files to keep in agreement with the twin registry. |
+| **Create a Wikidata item, or list social accounts in `sameAs`?** | Create the item and link it / list the organization's own accounts / leave `sameAs` out | **Leave out** what does not exist yet. Creating a Wikidata item is an action on a third-party site with notability rules; it is the user's to take, never the agent's. Cost of creating it: an item to maintain on a third-party site, which can be deleted if notability is challenged. Cost of listing a founder's or a persona's accounts: they are not the organization, and the engine may merge the two entities. |
+| **Put a postal `address` on the `Organization`?** | Full address / city and country only / none | **Only what is already public.** For a sole operator the registered address is often a home. Scorers flag the gap; publishing a home address to close it is not worth it. |
+| **Serve markdown to known AI user agents even without `Accept: text/markdown`?** | Select by `Accept` only / also by user agent | **`Accept` only.** It is the signal the client controls and states. Selecting by user agent makes one URL answer differently by who claims to be asking, depends on a bot list that goes stale, and edges toward what search engines police as cloaking. |
+| **Where does the year in a title come from?** | The period the page's data covers / no year at all / the current calendar year | **The data's period**, and no token on a page whose content has none. A year that advances on 1 January over unchanged content is what Google's own self-assessment names as faking freshness, and the title then promises data the page does not have. Dropping the year costs only the freshness cue. See `references/foundations.md` (titles). |
+| **Who signs content drafted with an LLM?** | The person who reviewed it and answers for it / the organization / a persona | **The person who reviewed it**, or the organization when no one will put a name on it. Never the model: Google calls an AI byline "probably not the best way" to show AI was involved. A persona is a brand call, but a byline that reads as a real expert who does not exist is what Google lists as fabricated authorship (made-up names, AI-generated headshots, false credentials). A mascot presented as a mascot is not that. Cost of the organization as signer: no person-level expertise signal, which matters most on money and health advice. |
+| **Say how generated content was made?** | A short note on pages where a reader would ask "how was this made?" / one site-wide page on how content is produced, linked from those pages / nothing | **The note, where a reader would ask:** programmatic pages and articles substantially drafted by a model. Google asks for it "when it would be reasonably expected" and documents no penalty for leaving it out, so this is a trust choice, not a compliance one, except for merchants: Google requires IPTC `TrainedAlgorithmicMedia` metadata on AI-generated product images and labeled AI-generated product titles and descriptions. Written as method (source, count, snapshot date) rather than as an "AI" label, it is also a line an answer engine quotes. Cost: a line of copy per page family, and some audiences discount anything that mentions a model. Cost of a site-wide page only: the answer sits one click from where the reader asked. Cost of nothing: no documented penalty, but the reader who wonders gets no answer and the quotable method line is lost. See `references/pseo.md`. |
+| **Opt out of model training, and say so in machine-readable form?** | Allow (no training disallows, no preference line) / disallow the training tokens in `robots.txt` / also publish a `Content-Signal` line | **Allow, and publish no preference line.** Both vocabularies define absence as no preference (Cloudflare: "the absence of a signal conveys no meaning"; the IETF aipref vocabulary assigns "unknown"), and aipref is still an Internet-Draft. A training opt-out does not remove citations from OpenAI, Anthropic, Apple or Google Search, but on Bing the only full training opt-out, `noarchive`, also removes Copilot citations (`nocache` limits both to URL, title and snippet). Before asking, check whether the CDN already states a preference for the user: Cloudflare's managed robots.txt can add `ai-train=no`, and Markdown for Agents adds `ai-train=yes` when the origin sends none. See `references/foundations.md` (robots). |
+| **Go after the scorer's product layers** (public API, OpenAPI, MCP server, OAuth, an SDK, agent payments)? | Out of scope for this work / plan it as product work | **Out of scope.** These are product decisions with their own cost, not publishing fixes. Record them in the scan notes so the gap is known, and do not build any of it as part of an SEO task. |
+| **Which external score to track over time?** Ask it whenever the task starts from a scanner report. | The applicability-weighted report / the per-question breakdown / both | **Applicability-weighted, failed check IDs recorded.** The per-question view counts product layers this skill leaves out. Cost of the per-question view: it moves when an out-of-scope layer is missing, so it falls for reasons this work cannot fix. Cost of both: twice the reading for no extra decision. See `references/verification.md`. |
+
+---
+
+## Using the templates
+
+Every template is self-contained and starts with a comment block stating the
+contract it implements, so it can be read without this skill loaded.
+
+Adapt rather than transplant:
+
+- Replace `SITE_URL` with the canonical host, including the `www` decision.
+- Replace the example content sources (`getGuide`, `getPublishedPosts`) with the project's
+  real ones. Never leave a template's placeholder data in a shipped file.
+- Keep the comments that explain a constraint (why `lastmod` is conditional, why
+  the item route precedes the region route). Drop the ones that narrate the
+  template itself.
+- Check the framework note at the bottom of each file before porting.
+
+When the project is not Next.js, read `templates/generic/contract.http` first: it
+states the observable behavior each endpoint must have, which is what actually
+matters. The framework is an implementation detail of that contract.
+
+---
+
+## Scope
+
+**In scope.** Publishing and serving: the agent layer, citable datasets,
+programmatic pages, the technical base, structured data, attribution of AI
+referrals.
+
+**Out of scope.** Acquiring the data in the first place (scraping, licensing,
+normalization pipelines) is a separate discipline with its own legal and ethical
+constraints. This skill assumes the data exists and is yours to publish.
+
+**Also out of scope.** Making the *product* operable by an agent: authentication
+an agent can complete, controls it can drive, an API or MCP server for your
+product, a machine-payable checkout. External scorers weight those heavily, so a
+site that follows this skill completely will still not score full marks. That is
+expected. See the layer mapping in `references/verification.md`; whether to
+start that work is one of the user's decisions above.
+
+**Adjacent skills.** `seo-audit` for hunting on-page issues, `programmatic-seo`
+for keyword-side opportunity sizing, `schema-markup` for a broader catalog of
+types, `copywriting` for the words themselves.

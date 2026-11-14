@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-14T01:28:11.382Z",
+  "generatedAt": "2026-11-14T10:30:32.319Z",
   "counts": {
     "skills": 39,
-    "findings": 348,
+    "findings": 350,
     "sources": 23
   },
   "skills": [
@@ -14,9 +14,9 @@
       "whenToUse": "Use when a page is not indexed or indexed wrongly, when crawl stats look wasteful, when planning robots.txt, sitemaps, canonicals, noindex or JavaScript rendering fixes, or when auditing index coverage after a release.",
       "path": "skills/technical-crawling-indexing/SKILL.md",
       "parent": null,
-      "findings": 24,
+      "findings": 25,
       "sources": 8,
-      "lastUpdated": "2026-11-13",
+      "lastUpdated": "2026-11-14",
       "confidence": "high"
     },
     {
@@ -261,9 +261,9 @@
       "whenToUse": "Use when the task involves robots.txt and crawl directives.",
       "path": "skills/robots-txt/SKILL.md",
       "parent": "technical-crawling-indexing",
-      "findings": 5,
+      "findings": 6,
       "sources": 4,
-      "lastUpdated": "2026-11-10",
+      "lastUpdated": "2026-11-14",
       "confidence": "medium"
     },
     {
