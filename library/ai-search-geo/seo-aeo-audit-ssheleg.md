@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 3
-collected: "2026-11-13"
+collected: "2026-11-14"
 ---
 
 <!-- Claude Code skill · ssheleg/seo-aeo-audit · plugins/seo-aeo-audit/skills/seo-aeo-audit/SKILL.md · MIT

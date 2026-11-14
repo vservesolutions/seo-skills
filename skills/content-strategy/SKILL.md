@@ -50,7 +50,7 @@ Use when building a content plan, deciding what to refresh or prune, mapping clu
 
 ## How this skill stays current
 
-- Regenerated on 2026-11-13 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
+- Regenerated on 2026-11-14 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2026-06-16 → 2026-11-12.
 - 8 findings from 6 sources; confidence is **medium**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

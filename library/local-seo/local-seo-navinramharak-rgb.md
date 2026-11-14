@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 1
-collected: "2026-11-13"
+collected: "2026-11-14"
 ---
 
 <!-- Unspecified skill · navinramharak-rgb/local-seo · skills/local-seo/SKILL.md · MIT

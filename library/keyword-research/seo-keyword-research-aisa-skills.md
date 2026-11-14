@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 8
-collected: "2026-11-13"
+collected: "2026-11-14"
 ---
 
 <!-- Claude Code, OpenClaw, Gemini CLI skill · AISA-skills/marketing-skills · seo-keyword-research/SKILL.md · MIT

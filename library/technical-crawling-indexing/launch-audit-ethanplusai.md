@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 125
-collected: "2026-11-13"
+collected: "2026-11-14"
 ---
 
 <!-- Claude Code skill · ethanplusai/astro-conversion-kit · skills/launch-audit/SKILL.md · MIT

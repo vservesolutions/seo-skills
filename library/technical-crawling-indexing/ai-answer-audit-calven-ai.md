@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 10
-collected: "2026-11-13"
+collected: "2026-11-14"
 ---
 
 <!-- Unspecified skill · calven-ai/marketing-as-code · plugins/product-marketing/skills/ai-answer-audit/SKILL.md · MIT

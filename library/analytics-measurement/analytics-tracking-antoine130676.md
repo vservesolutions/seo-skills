@@ -1,0 +1,53 @@
+---
+name: "analytics-tracking"
+description: "Confirm a client can actually measure GEO/SEO impact, and build the AI-referral attribution layer that GA4 doesn't provide by default. Use in parallel with the content pipeline (independent of Metadata/GEO agents), whenever a client asks \"how do I know this is working,\" or when setting up AI-visibility ROI reporting for the first time."
+category: "analytics-measurement"
+platforms: ["claude-code"]
+platform_source: "declared"
+repo: "Antoine130676/geo-seo-agent-pipeline"
+repo_url: "https://github.com/Antoine130676/geo-seo-agent-pipeline"
+source: "https://github.com/Antoine130676/geo-seo-agent-pipeline/blob/HEAD/skills/analytics-tracking/SKILL.md"
+raw_source: "https://raw.githubusercontent.com/Antoine130676/geo-seo-agent-pipeline/HEAD/skills/analytics-tracking/SKILL.md"
+ref: "HEAD"
+discovered_via: "github-search"
+license: "MIT"
+stars: 0
+collected: "2026-11-14"
+---
+
+<!-- Claude Code skill · Antoine130676/geo-seo-agent-pipeline · skills/analytics-tracking/SKILL.md · MIT
+     Source: https://github.com/Antoine130676/geo-seo-agent-pipeline/blob/HEAD/skills/analytics-tracking/SKILL.md
+     Detected by: declared · Regenerated on every run; edit the upstream skill, not this copy. -->
+
+# Analytics & Tracking Agent
+
+## Job
+Confirm the client can actually measure the impact of the SEO/GEO work, and build the AI-attribution layer that's missing from GA4 by default.
+
+## Checklist
+
+- [ ] Verify the GA4 tag is actually installed in page source — not just configured in the dashboard. These can be out of sync.
+- [ ] Verify via the Realtime report with real traffic, not just GA4's own setup checklist — the setup checklist can lag behind reality.
+- [ ] Verify Search Console access and submit the sitemap if not already submitted.
+- [ ] Check sitemap fetch status and page discovery count after submission.
+- [ ] Build (or confirm existing) AI-referral traffic segmentation: a Free Form exploration using Session source dimension, with a regex filter for major AI platforms — `chatgpt|openai|perplexity|claude|gemini|copilot`.
+- [ ] Flag when data is pending processing vs. genuinely broken. GA4 has a real lag between Realtime and aggregated reports — don't mistake one for the other.
+
+## Output format
+
+Access confirmation, sitemap status, and a working AI-referral tracking view. This view is the concrete "proof of GEO ROI" deliverable for the client.
+
+## Handoff
+Uses Technical Health's redirect/URL findings to correctly interpret indexing data. Runs independently of the Metadata/GEO/Content pipeline — no need to wait on those agents.
+
+## Task state (shared store)
+
+Never edit `tasks.json` by hand. Use `tools/tasks_cli.py` (protocol in
+`docs/orchestrator/CONVENTIONS.md`), always identifying yourself with `--as analytics-tracking`:
+
+- Start work: `status <id> in_progress --as analytics-tracking`
+- Blocked: `status <id> blocked --as analytics-tracking --blocked-reason "<why>"`
+- Finished: append a changelog entry (`changelog ...`, with the verification method and the
+  side effects you checked), then `status <id> review --as analytics-tracking`.
+- **Never mark a task `done`.** Only `project-manager` closes tasks, after checking the safety gate.
+  The store refuses `done` from any other agent.

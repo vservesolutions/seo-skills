@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 5
-collected: "2026-11-13"
+collected: "2026-11-14"
 ---
 
 <!-- Claude Code skill · 01clauding/claude-seo-skill · skills/seo-competitor-analysis/SKILL.md · MIT

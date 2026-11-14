@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 10
-collected: "2026-11-13"
+collected: "2026-11-14"
 ---
 
 <!-- Unspecified skill · marketingskills/seo · skills/seo-priority-score/SKILL.md · MIT

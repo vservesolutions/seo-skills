@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 2
-collected: "2026-11-13"
+collected: "2026-11-14"
 ---
 
 <!-- Claude Code skill · tmolavi/n8n-agent-skills · skills/n8n-ai-seo-geo-automation/SKILL.md · MIT

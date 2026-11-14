@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "state"
 license: "MIT"
 stars: 1047
-collected: "2026-11-13"
+collected: "2026-11-14"
 ---
 
 <!-- Unspecified skill · rampstackco/claude-skills · dist/codex/.agents/skills/seo-content-gap-audit/SKILL.md · MIT

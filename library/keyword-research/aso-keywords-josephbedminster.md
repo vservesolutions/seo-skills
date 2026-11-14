@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 1
-collected: "2026-11-13"
+collected: "2026-11-14"
 ---
 
 <!-- Claude Code skill · josephbedminster/indie-marketing-skills · plugins/app-store/skills/aso-keywords/SKILL.md · MIT

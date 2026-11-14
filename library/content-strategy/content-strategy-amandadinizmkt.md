@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 14
-collected: "2026-11-13"
+collected: "2026-11-14"
 ---
 
 <!-- Claude Code skill · amandadinizmkt/pack-marketing-skills · 01-copy-e-conteudo/content-strategy/SKILL.md · MIT

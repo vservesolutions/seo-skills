@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 8941
-collected: "2026-11-13"
+collected: "2026-11-14"
 ---
 
 <!-- Claude Code skill · Ryze-AI-Adgent/open-seo-mcp-skills · skills/backlink-check/SKILL.md · MIT

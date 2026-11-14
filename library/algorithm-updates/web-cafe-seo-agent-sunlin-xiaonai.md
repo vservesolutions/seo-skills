@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 8
-collected: "2026-11-13"
+collected: "2026-11-14"
 ---
 
 <!-- Unspecified skill · sunlin-xiaonai/web-cafe-seo-agent-skill · skills/web-cafe-seo-agent/SKILL.md · MIT

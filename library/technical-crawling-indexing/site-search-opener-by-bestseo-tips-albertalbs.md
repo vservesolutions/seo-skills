@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "Apache-2.0"
 stars: 1
-collected: "2026-11-13"
+collected: "2026-11-14"
 ---
 
 <!-- Claude Code skill · albertalbs/site-search-opener-mcp · plugin/skills/site-search-opener-by-bestseo-tips/SKILL.md · Apache-2.0

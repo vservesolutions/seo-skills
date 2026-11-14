@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "state"
 license: "MIT"
 stars: 120
-collected: "2026-11-13"
+collected: "2026-11-14"
 ---
 
 <!-- Unspecified skill · kursku/skills · packs/kit-510-ptbr/05-seo-busca/on-page-seo/SKILL.md · MIT

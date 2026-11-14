@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 111
-collected: "2026-11-13"
+collected: "2026-11-14"
 ---
 
 <!-- Codex skill · jdevalk/skills · static-seo/SKILL.md · MIT

@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 1
-collected: "2026-11-13"
+collected: "2026-11-14"
 ---
 
 <!-- Antigravity, Claude Code skill · johnakande/Agentic-AI-SEO-Skill · resources/skills/seo-audit/SKILL.md · MIT

@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "CC-BY-4.0"
 stars: 3
-collected: "2026-11-13"
+collected: "2026-11-14"
 ---
 
 <!-- Unspecified skill · rebelytics/pagination-independence-architecture · SKILL.md · CC-BY-4.0

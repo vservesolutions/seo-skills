@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "Apache-2.0"
 stars: 1
-collected: "2026-11-13"
+collected: "2026-11-14"
 ---
 
 <!-- Codex skill · zgroves24/agent-operator-skills · skills/seo-audit/SKILL.md · Apache-2.0

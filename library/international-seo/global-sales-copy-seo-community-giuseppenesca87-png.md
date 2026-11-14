@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 4
-collected: "2026-11-13"
+collected: "2026-11-14"
 ---
 
 <!-- Claude Code skill · giuseppenesca87-png/global-sales-copy-seo-community · skill/global-sales-copy-seo-community/SKILL.md · MIT

@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 3
-collected: "2026-11-13"
+collected: "2026-11-14"
 ---
 
 <!-- Unspecified skill · khadinakbarlabs/expo-mobile-app-builder · skills/mobile-seo-intelligence/SKILL.md · MIT

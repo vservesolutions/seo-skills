@@ -43,7 +43,7 @@ Use when the task involves crawl budget and crawl efficiency.
 
 ## How this skill stays current
 
-- Regenerated on 2026-11-13 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
+- Regenerated on 2026-11-14 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2026-07-30 → 2026-11-11.
 - 5 findings from 3 sources; confidence is **medium**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

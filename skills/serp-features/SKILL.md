@@ -36,7 +36,7 @@ Use when chasing or defending a featured snippet, diagnosing CTR drops at stable
 
 ## How this skill stays current
 
-- Regenerated on 2026-11-13 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
+- Regenerated on 2026-11-14 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
 - Coverage window: 2026-07-21 → 2026-11-10.
 - 4 findings from 3 sources; confidence is **low**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

@@ -1,8 +1,8 @@
 ---
 name: seo-technical-crawling-indexing
-description: "How search engines discover, crawl, render and index URLs, and how to remove crawl waste, duplicates and index bloat. Auto-generated from 23 findings across 8 sources."
-last_updated: 2026-11-11
-findings: 23
+description: "How search engines discover, crawl, render and index URLs, and how to remove crawl waste, duplicates and index bloat. Auto-generated from 24 findings across 8 sources."
+last_updated: 2026-11-13
+findings: 24
 sources: 8
 confidence: high
 ---
@@ -32,14 +32,15 @@ Use when a page is not indexed or indexed wrongly, when crawl stats look wastefu
 13. Run the first method, spot-check a few outputs, and if several pages are coming back with the wrong content, switch over. — *Screaming Frog Blog, 2026-04-21*
 14. Select ‘Visual Extractor’ (Globe icon) and enter a representative URL. — *Screaming Frog Blog, 2026-04-21*
 15. Sitemaps have been a core element of web development and search engine optimization for two decades, yet Search Console warnings like "Couldn't fetch" continue to generate concern among site owners. — *Google Search Central (YouTube), 2026-10-01*
-16. Usually this is a sign that Google's quality systems are unconvinced about your site (or convinced in the way that you don't want). — *Search Engine Roundtable, 2026-11-11*
-17. Blocking legitimate search engine crawlers can create a much bigger SEO problem than the original increase in crawling activity. — *Search Engine Roundtable, 2026-11-11*
-18. Moving to a CDN without overwhelming your origin (or blocking Googlebot) Reduce the Google crawl rate Optimize your crawl budget. — *Search Engine Roundtable, 2026-11-11*
-19. The Ad Creative Generative AI Terms , dated May 6, 2024, also let Meta crawl URLs that advertisers provide, for use with their ads. — *Search Engine Journal, 2026-11-10*
-20. In this episode, they tackle the technical boundaries of domain names and URL paths. — *Google Search Central (YouTube), 2026-10-14*
+16. Block an agent performing a product comparison, and you might not simply lose a ranking. — *Search Engine Journal, 2026-11-13*
+17. Usually this is a sign that Google's quality systems are unconvinced about your site (or convinced in the way that you don't want). — *Search Engine Roundtable, 2026-11-11*
+18. Blocking legitimate search engine crawlers can create a much bigger SEO problem than the original increase in crawling activity. — *Search Engine Roundtable, 2026-11-11*
+19. Moving to a CDN without overwhelming your origin (or blocking Googlebot) Reduce the Google crawl rate Optimize your crawl budget. — *Search Engine Roundtable, 2026-11-11*
+20. The Ad Creative Generative AI Terms , dated May 6, 2024, also let Meta crawl URLs that advertisers provide, for use with their ads. — *Search Engine Journal, 2026-11-10*
 
 ## Recent developments
 
+- **AI Bot Management: Why SEOs Need More Than Block Lists** — 2026-11-13 · Search Engine Journal — For years, bot management in SEO was relatively straightforward. ([link](https://www.searchenginejournal.com/ai-bot-management-why-seos-need-more-than-block-lists/597148))
 - **Google On How Moving to a CDN Can Accidentally Overwhelm Your Website** — 2026-11-11 · Search Engine Roundtable — The problem is that these protections can accidentally block legitimate search engine crawlers, including Googlebot. ([link](https://www.seroundtable.com/google-search-cdn-42511.html))
 - **Moved to a CDN: Why Is Everything Crawling Everywhere All at Once?** — 2026-11-11 · Google Search Central (YouTube) — You just added a CDN to your website to make it fast, light, and secure… and now your origin server is busier than ever? ([link](https://www.youtube.com/watch?v=alGu2A97c98))
 - **Google Crawled/Discovered - Currently Not Indexed Sign Of Quality Issue** — 2026-11-11 · Search Engine Roundtable — This is not new, but hey, John Mueller from Google said it again, getting a status of Crawled/Discovered - Currently Not Indexed within Google Search Console's page indexing report may be a sign that Google doesn't think your site or those… ([link](https://www.seroundtable.com/google-crawled-discovered-currently-not-indexed-42507.html))
@@ -49,10 +50,10 @@ Use when a page is not indexed or indexed wrongly, when crawl stats look wastefu
 - **Where Does ChatGPT Get Its Information? 4 Sources, Explained** — 2026-11-10 · Ahrefs Blog — The same study found that even Google's results and OpenAI's own search API combined only matched about 27% of the pages ChatGPT cited, and about half of the sites. ([link](https://ahrefs.com/blog/where-does-chatgpt-get-its-information))
 - **Meta Pauses Its Updated Business And Ad Terms Due Nov. 20** — 2026-11-10 · Search Engine Journal — Meta paused new ad and business terms scheduled to go into effect on Nov. ([link](https://www.searchenginejournal.com/meta-pauses-updated-business-ad-terms/596493))
 - **Screaming Frog SEO Spider Update – Version 25.0** — 2026-11-03 · Screaming Frog Blog — We’re delighted to announce Screaming Frog SEO Spider version 25.0, codenamed internally as ‘eaten your lunch’. ([link](https://www.screamingfrog.co.uk/blog/seo-spider-25))
-- **Your content, your choice: clearer preferences for training and grounding** — 2026-10-30 · Bing Webmaster Blog — This announcement covers web publisher preferences for web content collected through our crawlers and used for training or to inform generated responses, including web-grounded responses in Bing, Copilot, and Microsoft 365 . ([link](https://blogs.bing.com/search/2026/10/your-content-your-choice-clearer-preferences-for-training-and-grounding))
 
 ## References
 
+- [AI Bot Management: Why SEOs Need More Than Block Lists](https://www.searchenginejournal.com/ai-bot-management-why-seos-need-more-than-block-lists/597148) — Search Engine Journal · 2026-11-13
 - [Google On How Moving to a CDN Can Accidentally Overwhelm Your Website](https://www.seroundtable.com/google-search-cdn-42511.html) — Search Engine Roundtable · 2026-11-11
 - [Moved to a CDN: Why Is Everything Crawling Everywhere All at Once?](https://www.youtube.com/watch?v=alGu2A97c98) — Google Search Central (YouTube) · 2026-11-11
 - [Google Crawled/Discovered - Currently Not Indexed Sign Of Quality Issue](https://www.seroundtable.com/google-crawled-discovered-currently-not-indexed-42507.html) — Search Engine Roundtable · 2026-11-11
@@ -64,11 +65,10 @@ Use when a page is not indexed or indexed wrongly, when crawl stats look wastefu
 - [Screaming Frog SEO Spider Update – Version 25.0](https://www.screamingfrog.co.uk/blog/seo-spider-25) — Screaming Frog Blog · 2026-11-03
 - [Your content, your choice: clearer preferences for training and grounding](https://blogs.bing.com/search/2026/10/your-content-your-choice-clearer-preferences-for-training-and-grounding) — Bing Webmaster Blog · 2026-10-30
 - [Should we be scared of a 404 status code?](https://www.youtube.com/watch?v=zJcuRhx08ek) — Google Search Central (YouTube) · 2026-10-28
-- [WordPress website: Increased server response times and reduced Googlebot crawling since September — how can I identify the cause?](https://webmasters.stackexchange.com/questions/150043/wordpress-website-increased-server-response-times-and-reduced-googlebot-crawlin) — Webmasters Stack Exchange · 2026-10-27
 
 ## How this skill stays current
 
-- Regenerated on 2026-11-13 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
-- Coverage window: 2025-01-16 → 2026-11-11.
-- 23 findings from 8 sources; confidence is **high**.
+- Regenerated on 2026-11-14 by `npm run update` from the local knowledge base (`data/findings.jsonl`).
+- Coverage window: 2025-01-16 → 2026-11-13.
+- 24 findings from 8 sources; confidence is **high**.
 - Add sources in `config/sources.json`, topics in `config/topics.json`, then run `npm run update`.

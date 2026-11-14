@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 48
-collected: "2026-11-13"
+collected: "2026-11-14"
 ---
 
 <!-- Claude Code skill · matteotitta/genesys-skills · skills/primitives/seo-aeo/execution/programmatic-seo/SKILL.md · MIT

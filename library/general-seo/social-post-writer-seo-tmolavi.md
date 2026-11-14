@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 9
-collected: "2026-11-13"
+collected: "2026-11-14"
 ---
 
 <!-- Antigravity skill · tmolavi/mcp-agent-skills-hub · skills/social-post-writer-seo/SKILL.md · MIT

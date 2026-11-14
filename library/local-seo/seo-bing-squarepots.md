@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 2
-collected: "2026-11-13"
+collected: "2026-11-14"
 ---
 
 <!-- Unspecified skill · squarepots/claude-seo-for-codex · plugins/claude-seo-for-codex/extensions/bing-webmaster/skills/seo-bing/SKILL.md · MIT

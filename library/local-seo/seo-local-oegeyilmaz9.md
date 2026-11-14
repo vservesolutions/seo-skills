@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "Apache-2.0"
 stars: 6
-collected: "2026-11-13"
+collected: "2026-11-14"
 ---
 
 <!-- Claude Code skill · oegeyilmaz9/seo-aeo-geo-ultimate · skills/seo-local/SKILL.md · Apache-2.0

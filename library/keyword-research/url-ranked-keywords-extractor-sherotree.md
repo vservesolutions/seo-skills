@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "awesome-seo-agent-skills"
 license: "MIT"
 stars: 2
-collected: "2026-11-13"
+collected: "2026-11-14"
 ---
 
 <!-- Any agent skill · sherotree/seo-agent-skills · skills/url-ranked-keywords-extractor/SKILL.md · MIT

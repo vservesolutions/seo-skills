@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 52
-collected: "2026-11-13"
+collected: "2026-11-14"
 ---
 
 <!-- Claude Code, Codex skill · agencia-conversion/agentic-seo-skills · skills/agentic-seo/SKILL.md · MIT

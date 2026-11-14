@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 772
-collected: "2026-11-13"
+collected: "2026-11-14"
 ---
 
 <!-- Claude Code, Windsurf, OpenClaw, Gemini CLI skill · Affitor/affiliate-skills · skills/content/content-research-brief/SKILL.md · MIT

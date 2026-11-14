@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "CC-BY-4.0"
 stars: 2
-collected: "2026-11-13"
+collected: "2026-11-14"
 ---
 
 <!-- Claude Code skill · rogulia/skills · seo-geo-optimization/skills/seo-geo-optimization/SKILL.md · CC-BY-4.0

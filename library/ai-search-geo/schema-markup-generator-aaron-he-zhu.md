@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "awesome-seo-agent-skills"
 license: "Apache-2.0"
 stars: 235
-collected: "2026-11-13"
+collected: "2026-11-14"
 ---
 
 <!-- Claude Code skill · aaron-he-zhu/seo-geo-claude-skills · build/schema-markup-generator/SKILL.md · Apache-2.0

@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 1
-collected: "2026-11-13"
+collected: "2026-11-14"
 ---
 
 <!-- Unspecified skill · Minh42/seomatic-mcp · chatgpt/skills/seomatic-traffic-drop/SKILL.md · MIT

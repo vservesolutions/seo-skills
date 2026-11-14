@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 9
-collected: "2026-11-13"
+collected: "2026-11-14"
 ---
 
 <!-- Codex skill · karero/croftweaver · skills/ai-seo/SKILL.md · MIT

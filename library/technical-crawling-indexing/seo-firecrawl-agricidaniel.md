@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "awesome-seo-agent-skills"
 license: "MIT"
 stars: 25839
-collected: "2026-11-13"
+collected: "2026-11-14"
 ---
 
 <!-- Claude Code skill · AgriciDaniel/claude-seo · extensions/firecrawl/skills/seo-firecrawl/SKILL.md · MIT

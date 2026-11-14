@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 79
-collected: "2026-11-13"
+collected: "2026-11-14"
 ---
 
 <!-- Claude Code skill · akii-technologies-ltd/akii-seo-ai-search-optimizer · skills/llms-txt/SKILL.md · MIT

@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-13T19:45:46.807Z",
+  "generatedAt": "2026-11-14T01:28:11.382Z",
   "counts": {
     "skills": 39,
-    "findings": 343,
+    "findings": 348,
     "sources": 23
   },
   "skills": [
@@ -14,9 +14,9 @@
       "whenToUse": "Use when a page is not indexed or indexed wrongly, when crawl stats look wasteful, when planning robots.txt, sitemaps, canonicals, noindex or JavaScript rendering fixes, or when auditing index coverage after a release.",
       "path": "skills/technical-crawling-indexing/SKILL.md",
       "parent": null,
-      "findings": 23,
+      "findings": 24,
       "sources": 8,
-      "lastUpdated": "2026-11-11",
+      "lastUpdated": "2026-11-13",
       "confidence": "high"
     },
     {
@@ -157,9 +157,9 @@
       "whenToUse": "Use when building reports, explaining traffic changes, defining SEO KPIs, or instrumenting tracking for organic performance.",
       "path": "skills/analytics-measurement/SKILL.md",
       "parent": null,
-      "findings": 58,
+      "findings": 59,
       "sources": 14,
-      "lastUpdated": "2026-11-13",
+      "lastUpdated": "2026-11-14",
       "confidence": "high"
     },
     {
@@ -170,9 +170,9 @@
       "whenToUse": "Use when organic traffic is absorbed by AI answers, when planning visibility in AI Overviews or chat assistants, or when deciding on llms.txt and AI crawler access.",
       "path": "skills/ai-search-geo/SKILL.md",
       "parent": null,
-      "findings": 146,
+      "findings": 150,
       "sources": 20,
-      "lastUpdated": "2026-11-13",
+      "lastUpdated": "2026-11-14",
       "confidence": "high"
     },
     {
@@ -183,7 +183,7 @@
       "whenToUse": "Use when rankings shift sharply, when a manual action or policy issue appears, or when assessing whether a site is exposed to a new spam policy.",
       "path": "skills/algorithm-updates/SKILL.md",
       "parent": null,
-      "findings": 18,
+      "findings": 19,
       "sources": 8,
       "lastUpdated": "2026-11-13",
       "confidence": "high"
@@ -417,9 +417,9 @@
       "whenToUse": "Use when the task involves search console analysis.",
       "path": "skills/search-console/SKILL.md",
       "parent": "analytics-measurement",
-      "findings": 24,
+      "findings": 25,
       "sources": 10,
-      "lastUpdated": "2026-11-13",
+      "lastUpdated": "2026-11-14",
       "confidence": "high"
     },
     {
@@ -443,9 +443,9 @@
       "whenToUse": "Use when the task involves ai overviews and ai mode.",
       "path": "skills/ai-overviews/SKILL.md",
       "parent": "ai-search-geo",
-      "findings": 55,
+      "findings": 58,
       "sources": 14,
-      "lastUpdated": "2026-11-13",
+      "lastUpdated": "2026-11-14",
       "confidence": "high"
     },
     {

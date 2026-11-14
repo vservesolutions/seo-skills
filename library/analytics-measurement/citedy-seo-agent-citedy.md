@@ -13,7 +13,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 20
-collected: "2026-11-13"
+collected: "2026-11-14"
 ---
 
 <!-- OpenClaw skill · citedy/citedy-seo-agent · openclaw/SKILL.md · MIT

@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "MIT"
 stars: 1
-collected: "2026-11-13"
+collected: "2026-11-14"
 ---
 
 <!-- OpenClaw skill · boyubo-tech/openclaw-skills · cross-border-website-skills/skills/astro-website-skills/03-seo-planner/SKILL.md · MIT

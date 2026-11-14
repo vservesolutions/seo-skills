@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "CC-BY-4.0"
 stars: 1
-collected: "2026-11-13"
+collected: "2026-11-14"
 ---
 
 <!-- Claude Code, Codex skill · Canlah-AI/geo-playbook · SKILL.md · CC-BY-4.0

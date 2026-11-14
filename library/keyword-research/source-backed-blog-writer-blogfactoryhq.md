@@ -12,7 +12,7 @@ ref: "HEAD"
 discovered_via: "github-search"
 license: "CC-BY-4.0"
 stars: 1
-collected: "2026-11-13"
+collected: "2026-11-14"
 ---
 
 <!-- Unspecified skill · BlogFactoryHQ/source-backed-blog-writer-skill · source-backed-blog-writer/SKILL.md · CC-BY-4.0
