@@ -1,6 +1,6 @@
 # SEO Skills Index
 
-Generated 2026-11-14. 39 skills across 16 categories, from 350 findings.
+Generated 2026-11-14. 39 skills across 16 categories, from 352 findings.
 
 A category skill aggregates every finding in its area; sub-skills go deeper where evidence exists.
 
@@ -93,21 +93,21 @@ A category skill aggregates every finding in its area; sub-skills go deeper wher
 | [↳ Search Console Analysis](search-console/SKILL.md) | Search Console Analysis: specific techniques, checks and pitfalls. | 25 | 2026-11-14 | high |
 | [↳ Rank Tracking and Visibility Reporting](rank-tracking/SKILL.md) | Rank Tracking and Visibility Reporting: specific techniques, checks and pitfalls. | 2 | 2026-11-07 | low |
 
-## AI Search, GEO and Answer Engines · 150 findings
+## AI Search, GEO and Answer Engines · 152 findings
 
 | Skill | What it covers | Findings | Updated | Confidence |
 | --- | --- | ---: | --- | --- |
-| [AI Search, GEO and Answer Engines](ai-search-geo/SKILL.md) | AI Overviews, AI Mode, LLM citation visibility, generative engine optimization and llms.txt conventions. | 150 | 2026-11-14 | high |
-| [↳ AI Overviews and AI Mode](ai-overviews/SKILL.md) | AI Overviews and AI Mode: specific techniques, checks and pitfalls. | 58 | 2026-11-14 | high |
+| [AI Search, GEO and Answer Engines](ai-search-geo/SKILL.md) | AI Overviews, AI Mode, LLM citation visibility, generative engine optimization and llms.txt conventions. | 152 | 2026-11-14 | high |
+| [↳ AI Overviews and AI Mode](ai-overviews/SKILL.md) | AI Overviews and AI Mode: specific techniques, checks and pitfalls. | 60 | 2026-11-14 | high |
 | [↳ llms.txt and Agent Readability](llms-txt/SKILL.md) | llms.txt and Agent Readability: specific techniques, checks and pitfalls. | 2 | 2026-11-04 | low |
 | [↳ AI Citations and Brand Mentions](ai-citations/SKILL.md) | AI Citations and Brand Mentions: specific techniques, checks and pitfalls. | 8 | 2026-11-13 | medium |
 | [↳ ChatGPT and Assistant Visibility](chatgpt-visibility/SKILL.md) | ChatGPT and Assistant Visibility: specific techniques, checks and pitfalls. | 4 | 2026-11-11 | low |
 
-## Algorithm Updates, Spam Policy and Recovery · 19 findings
+## Algorithm Updates, Spam Policy and Recovery · 20 findings
 
 | Skill | What it covers | Findings | Updated | Confidence |
 | --- | --- | ---: | --- | --- |
-| [Algorithm Updates, Spam Policy and Recovery](algorithm-updates/SKILL.md) | Core and spam updates, ranking volatility, manual actions, policy changes and recovery playbooks. | 19 | 2026-11-13 | high |
+| [Algorithm Updates, Spam Policy and Recovery](algorithm-updates/SKILL.md) | Core and spam updates, ranking volatility, manual actions, policy changes and recovery playbooks. | 20 | 2026-11-14 | high |
 | [↳ Core Algorithm Updates](core-updates/SKILL.md) | Core Algorithm Updates: specific techniques, checks and pitfalls. | 5 | 2026-11-10 | medium |
 | [↳ Spam Policy and Manual Actions](spam-policy/SKILL.md) | Spam Policy and Manual Actions: specific techniques, checks and pitfalls. | 5 | 2026-11-10 | medium |
 
